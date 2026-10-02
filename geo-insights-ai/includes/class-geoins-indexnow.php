@@ -37,6 +37,8 @@ class GEOINS_IndexNow {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		// Registered regardless of the setting: the check event is scheduled
@@ -62,6 +64,8 @@ class GEOINS_IndexNow {
 	 * every IndexNow ping would be silently discarded by the engines – so
 	 * submissions pause while this flag is set, and the settings page
 	 * explains how to fix it.
+	 *
+	 * @return void
 	 */
 	public static function verify_key_reachable() {
 		$settings = geoins()->settings();
@@ -88,6 +92,7 @@ class GEOINS_IndexNow {
 	 * renamed the slug) must not overwrite it.
 	 *
 	 * @param int $post_id Post ID.
+	 * @return void
 	 */
 	public static function remember_url( $post_id ) {
 		$post_id = (int) $post_id;
@@ -127,6 +132,8 @@ class GEOINS_IndexNow {
 
 	/**
 	 * Serve the key file at /{key}.txt.
+	 *
+	 * @return void
 	 */
 	public static function maybe_serve_key() {
 		if ( ! isset( $_SERVER['REQUEST_URI'] ) ) {
@@ -154,12 +161,13 @@ class GEOINS_IndexNow {
 	 * @param string  $new_status New post status.
 	 * @param string  $old_status Old post status.
 	 * @param WP_Post $post       Post object.
+	 * @return void
 	 */
 	public static function on_transition( $new_status, $old_status, $post ) {
 		if ( 'publish' !== $new_status && 'publish' !== $old_status ) {
 			return;
 		}
-		if ( ! $post instanceof WP_Post || wp_is_post_revision( $post ) || wp_is_post_autosave( $post ) ) {
+		if ( wp_is_post_revision( $post ) || wp_is_post_autosave( $post ) ) {
 			return;
 		}
 		if ( ! is_post_type_viewable( $post->post_type ) || ! empty( $post->post_password ) ) {
@@ -217,7 +225,7 @@ class GEOINS_IndexNow {
 				'blocking'   => false,
 				'user-agent' => 'GEO-Insights-WordPress-Plugin/' . GEOINS_VERSION,
 				'headers'    => array( 'Content-Type' => 'application/json; charset=utf-8' ),
-				'body'       => wp_json_encode(
+				'body'       => (string) wp_json_encode(
 					array(
 						'host'        => $host,
 						'key'         => self::key(),

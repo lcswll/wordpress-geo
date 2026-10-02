@@ -24,6 +24,8 @@ class GEOINS_Analysis {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'init', array( __CLASS__, 'register_meta' ) );
@@ -38,6 +40,8 @@ class GEOINS_Analysis {
 
 	/**
 	 * Expose the focus keyword to the block editor via REST.
+	 *
+	 * @return void
 	 */
 	public static function register_meta() {
 		$auth = static function ( $allowed, $meta_key, $post_id ) {
@@ -75,7 +79,7 @@ class GEOINS_Analysis {
 	 *
 	 * Shared between the server-side analysis and the live editor panel.
 	 *
-	 * @return array<string,array>
+	 * @return array<string,array{label:string,benefit:string}>
 	 */
 	public static function definitions() {
 		return array(
@@ -137,10 +141,12 @@ class GEOINS_Analysis {
 	/**
 	 * Register the GEO check meta box (classic editor only – the block
 	 * editor gets a live sidebar panel instead).
+	 *
+	 * @return void
 	 */
 	public static function add_meta_box() {
 		$screen = function_exists( 'get_current_screen' ) ? get_current_screen() : null;
-		if ( $screen && method_exists( $screen, 'is_block_editor' ) && $screen->is_block_editor() ) {
+		if ( $screen && $screen->is_block_editor() ) {
 			return;
 		}
 		foreach ( array( 'post', 'page' ) as $type ) {
@@ -159,6 +165,7 @@ class GEOINS_Analysis {
 	 * Render the meta box.
 	 *
 	 * @param WP_Post $post Post.
+	 * @return void
 	 */
 	public static function render_meta_box( $post ) {
 		wp_nonce_field( 'geoins_keyword_save', 'geoins_keyword_nonce' );
@@ -166,7 +173,7 @@ class GEOINS_Analysis {
 		?>
 		<p>
 			<label for="geoins-keyword"><strong><?php esc_html_e( 'Focus term', 'geo-insights-ai' ); ?></strong></label>
-			<input type="text" id="geoins-keyword" name="geoins_keyword" class="widefat" value="<?php echo esc_attr( $keyword ); ?>" placeholder="<?php esc_attr_e( 'e.g. wordpress backup plugin', 'geo-insights-ai' ); ?>" />
+			<input type="text" id="geoins-keyword" name="geoins_keyword" class="widefat" value="<?php echo esc_attr( $keyword ); ?>" placeholder="<?php esc_attr_e( 'e.g. WordPress backup plugin', 'geo-insights-ai' ); ?>" />
 		</p>
 		<p class="description"><?php esc_html_e( 'Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used.', 'geo-insights-ai' ); ?></p>
 		<p>
@@ -185,6 +192,7 @@ class GEOINS_Analysis {
 	 * Save the focus keyword (classic editor form field).
 	 *
 	 * @param int $post_id Post ID.
+	 * @return void
 	 */
 	public static function save_keyword( $post_id ) {
 		if ( ! isset( $_POST['geoins_keyword_nonce'] ) || ! wp_verify_nonce( sanitize_key( $_POST['geoins_keyword_nonce'] ), 'geoins_keyword_save' ) ) {
@@ -213,6 +221,8 @@ class GEOINS_Analysis {
 
 	/**
 	 * AJAX: run checks for one post.
+	 *
+	 * @return void
 	 */
 	public static function ajax_analyze() {
 		check_ajax_referer( 'geoins_analyze', 'nonce' );
@@ -248,14 +258,14 @@ class GEOINS_Analysis {
 	 * Run all GEO checks.
 	 *
 	 * @param WP_Post $post Post.
-	 * @return array { score, total, checks: [ {id,label,pass,benefit} ] }
+	 * @return array{score:int,total:int,keyword:string,checks:array<int,array{id:string,label:string,pass:bool,benefit:string}>}
 	 */
 	public static function analyze( $post ) {
 		$content_html = function_exists( 'do_blocks' ) ? do_blocks( $post->post_content ) : $post->post_content;
 		$content_html = strip_shortcodes( $content_html );
 		// Drop surviving plain HTML comments (do_blocks only consumes block
 		// delimiters): commented-out markup must not count as real content.
-		$content_html = preg_replace( '/<!--.*?-->/s', '', $content_html );
+		$content_html = (string) preg_replace( '/<!--.*?-->/s', '', $content_html );
 		$text         = wp_strip_all_tags( $content_html );
 		$word_count   = self::count_words( $text );
 		$keyword_raw  = (string) get_post_meta( $post->ID, self::META_KEY, true );
@@ -271,14 +281,15 @@ class GEOINS_Analysis {
 			}
 		}
 		if ( empty( $paragraphs ) && '' !== $text ) {
-			$paragraphs = preg_split( '/\n{2,}/', $text );
+			$split      = preg_split( '/\n{2,}/', $text );
+			$paragraphs = is_array( $split ) ? $split : array();
 		}
 		$first_para       = isset( $paragraphs[0] ) ? $paragraphs[0] : '';
 		$first_para_words = self::count_words( $first_para );
 		$long_paragraphs  = 0;
 		foreach ( $paragraphs as $p ) {
 			if ( self::count_words( $p ) > 150 ) {
-				$long_paragraphs++;
+				++$long_paragraphs;
 			}
 		}
 
@@ -287,7 +298,7 @@ class GEOINS_Analysis {
 		$question_headings = 0;
 		foreach ( $h_matches[1] as $h ) {
 			if ( str_ends_with( trim( wp_strip_all_tags( $h ) ), '?' ) ) {
-				$question_headings++;
+				++$question_headings;
 			}
 		}
 
@@ -308,12 +319,12 @@ class GEOINS_Analysis {
 						continue;
 					}
 					if ( $href_host !== $site_host ) {
-						$external_links++;
+						++$external_links;
 					} else {
-						$internal_links++;
+						++$internal_links;
 					}
 				} elseif ( str_starts_with( $href, '/' ) && ! str_starts_with( $href, '//' ) ) {
-					$internal_links++; // Relative link on the own site.
+					++$internal_links; // Relative link on the own site.
 				}
 			}
 		}
@@ -323,14 +334,14 @@ class GEOINS_Analysis {
 		$images_missing = 0;
 		if ( preg_match_all( '/<img\b[^>]*>/i', $content_html, $img_matches ) ) {
 			foreach ( $img_matches[0] as $img_tag ) {
-				$images_total++;
+				++$images_total;
 				if ( ! preg_match( '/\balt\s*=\s*["\'][^"\']*\S[^"\']*["\']/i', $img_tag ) ) {
-					$images_missing++;
+					++$images_missing;
 				}
 			}
 		}
 
-		$modified_age_days = ( time() - get_post_modified_time( 'U', true, $post ) ) / DAY_IN_SECONDS;
+		$modified_age_days = ( time() - (int) get_post_modified_time( 'U', true, $post ) ) / DAY_IN_SECONDS;
 		$author_bio        = '' !== trim( (string) get_the_author_meta( 'description', (int) $post->post_author ) );
 		$kw                = self::normalize( $keyword );
 
@@ -355,7 +366,7 @@ class GEOINS_Analysis {
 		foreach ( self::definitions() as $id => $definition ) {
 			$pass = ! empty( $results[ $id ] );
 			if ( $pass ) {
-				$score++;
+				++$score;
 			}
 			$checks[] = array(
 				'id'      => $id,
@@ -405,7 +416,7 @@ class GEOINS_Analysis {
 		$host = strtolower( (string) $host );
 		if ( '' !== $host && preg_match( '/[^\x00-\x7F]/', $host ) && function_exists( 'idn_to_ascii' ) ) {
 			$ascii = idn_to_ascii( $host );
-			if ( false !== $ascii && null !== $ascii ) {
+			if ( false !== $ascii ) {
 				return $ascii;
 			}
 		}
@@ -420,6 +431,6 @@ class GEOINS_Analysis {
 	 */
 	protected static function normalize( $value ) {
 		$value = function_exists( 'mb_strtolower' ) ? mb_strtolower( $value ) : strtolower( $value );
-		return trim( preg_replace( '/\s+/', ' ', $value ) );
+		return trim( (string) preg_replace( '/\s+/', ' ', $value ) );
 	}
 }

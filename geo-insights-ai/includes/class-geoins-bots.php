@@ -32,7 +32,7 @@ class GEOINS_Bots {
 	 * 'token' is the robots.txt user-agent token. 'ua' === null means the entry is a
 	 * robots.txt opt-out token only and never sends requests (Google-Extended, Applebot-Extended).
 	 *
-	 * @return array<string,array>
+	 * @return array<string,array<string,mixed>>
 	 */
 	public static function bots() {
 		$bots = array(
@@ -269,7 +269,7 @@ class GEOINS_Bots {
 	 * (ChatGPT appends utm_source=chatgpt.com to cited links, which
 	 * survives even when the Referer header is stripped).
 	 *
-	 * @return array<string,array>
+	 * @return array<string,array<string,mixed>>
 	 */
 	public static function referral_sources() {
 		$sources = array(
@@ -340,7 +340,7 @@ class GEOINS_Bots {
 	/**
 	 * Bots that actually send requests (trackable).
 	 *
-	 * @return array<string,array>
+	 * @return array<string,array<string,mixed>>
 	 */
 	public static function trackable_bots() {
 		$out = array();
@@ -384,7 +384,7 @@ class GEOINS_Bots {
 	 * Look up a bot by matching the User-Agent string.
 	 *
 	 * @param string $user_agent Raw User-Agent header.
-	 * @return array|null  array( slug, bot ) or null.
+	 * @return array{0:string,1:array<string,mixed>}|null array( slug, bot ) or null.
 	 */
 	public static function match_user_agent( $user_agent ) {
 		if ( '' === $user_agent ) {
@@ -409,7 +409,7 @@ class GEOINS_Bots {
 		$host = '';
 		if ( '' !== $referrer ) {
 			$host = strtolower( (string) wp_parse_url( $referrer, PHP_URL_HOST ) );
-			$host = preg_replace( '/^www\./', '', $host );
+			$host = (string) preg_replace( '/^www\./', '', $host );
 		}
 		$utm = strtolower( trim( $utm_source ) );
 

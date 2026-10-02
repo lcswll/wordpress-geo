@@ -23,6 +23,8 @@ class GEOINS_Content {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		$settings = geoins()->settings();
@@ -43,19 +45,19 @@ class GEOINS_Content {
 	/**
 	 * Add the post's modification time to core sitemap entries.
 	 *
-	 * @param array   $entry Sitemap entry.
-	 * @param WP_Post $post  Post object.
-	 * @return array
+	 * @param array<string,mixed> $entry Sitemap entry.
+	 * @param WP_Post             $post  Post object.
+	 * @return array<string,mixed>
 	 */
 	public static function sitemap_lastmod( $entry, $post ) {
-		if ( $post instanceof WP_Post ) {
-			$entry['lastmod'] = get_post_modified_time( 'c', true, $post );
-		}
+		$entry['lastmod'] = get_post_modified_time( 'c', true, $post );
 		return $entry;
 	}
 
 	/**
 	 * Minimal, theme-neutral frontend styles for the TOC / updated line.
+	 *
+	 * @return void
 	 */
 	public static function front_styles() {
 		if ( ! is_singular() ) {
@@ -109,7 +111,7 @@ class GEOINS_Content {
 				$line = sprintf(
 					/* translators: %s: formatted date. */
 					esc_html__( 'Updated on %s', 'geo-insights-ai' ),
-					esc_html( wp_date( get_option( 'date_format' ), $modified ) )
+					esc_html( (string) wp_date( get_option( 'date_format' ), $modified ) )
 				);
 				$content = '<p class="geoins-updated">' . $line . '</p>' . $content;
 			}
@@ -137,7 +139,7 @@ class GEOINS_Content {
 			}
 		}
 
-		$content = preg_replace_callback(
+		$replaced = preg_replace_callback(
 			'/<h([23])((?:[^>]*)?)>(.*?)<\/h\1>/is',
 			static function ( $m ) use ( &$items, &$used ) {
 				$level = (int) $m[1];
@@ -175,6 +177,10 @@ class GEOINS_Content {
 			},
 			$content
 		);
+		if ( null === $replaced ) {
+			return $content; // PCRE failure (e.g. backtrack limit): leave the content untouched instead of blanking it.
+		}
+		$content = $replaced;
 
 		if ( count( $items ) < 3 ) {
 			return $content;

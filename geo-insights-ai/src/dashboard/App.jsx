@@ -86,7 +86,8 @@ export default function App( { config } ) {
 		return () => {
 			cancelled = true;
 		};
-	}, [ days, company, config.restUrl, config.nonce ] );
+		// companySources is the array object from config, so it only changes when the company does.
+	}, [ days, companySources, config.restUrl, config.nonce ] );
 
 	const catLabels = config.catLabels || {};
 

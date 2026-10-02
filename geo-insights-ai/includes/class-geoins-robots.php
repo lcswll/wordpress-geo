@@ -23,12 +23,14 @@ class GEOINS_Robots {
 	/**
 	 * Cached physical-file analysis (per request).
 	 *
-	 * @var array|null
+	 * @var array{exists:bool,readable:bool,blocked_all:bool,blocked:string[],has_exceptions:bool}|null
 	 */
 	protected static $analysis = null;
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_filter( 'robots_txt', array( __CLASS__, 'filter_robots' ), 10, 2 );
@@ -37,12 +39,12 @@ class GEOINS_Robots {
 	/**
 	 * Append AI bot rules.
 	 *
-	 * @param string $output Current robots.txt output.
-	 * @param bool   $public Whether the site is public.
+	 * @param string $output    Current robots.txt output.
+	 * @param bool   $is_public Whether the site is public.
 	 * @return string
 	 */
-	public static function filter_robots( $output, $public ) {
-		if ( ! $public ) {
+	public static function filter_robots( $output, $is_public ) {
+		if ( ! $is_public ) {
 			return $output;
 		}
 
@@ -109,19 +111,20 @@ class GEOINS_Robots {
 	 * Bots without a specific group inherit the wildcard (*) groups.
 	 *
 	 * @param string $content robots.txt content.
-	 * @return array{blocked_all:bool,blocked:string[]} blocked = registry slugs.
+	 * @return array{blocked_all:bool,blocked:string[],has_exceptions:bool} blocked = registry slugs.
 	 */
 	public static function analyze_content( $content ) {
 		// Editors (Windows Notepad!) prepend a UTF-8 BOM that would glue to
 		// the first "User-agent" line; real crawlers ignore it, so must we.
-		$content = preg_replace( '/^\xEF\xBB\xBF/', '', (string) $content );
+		$content = (string) preg_replace( '/^\xEF\xBB\xBF/', '', (string) $content );
 
 		$groups     = array();
 		$current    = null;
 		$last_agent = false;
 
-		foreach ( preg_split( '/\r\n|\r|\n/', (string) $content ) as $line ) {
-			$line = trim( preg_replace( '/#.*$/', '', $line ) );
+		$lines = preg_split( '/\r\n|\r|\n/', $content );
+		foreach ( is_array( $lines ) ? $lines : array() as $line ) {
+			$line = trim( (string) preg_replace( '/#.*$/', '', $line ) );
 			if ( '' === $line || ! preg_match( '/^([a-z\-]+)\s*:\s*(.*)$/i', $line, $m ) ) {
 				continue;
 			}
@@ -143,7 +146,7 @@ class GEOINS_Robots {
 				// token characters only, so "GPTBot/1.0" matches "GPTBot".
 				$agent = strtolower( $value );
 				if ( '*' !== $agent ) {
-					$agent = preg_replace( '/[^a-z0-9_\-].*$/', '', $agent );
+					$agent = (string) preg_replace( '/[^a-z0-9_\-].*$/', '', $agent );
 				}
 				$current['agents'][] = $agent;
 				$last_agent          = true;
@@ -216,7 +219,7 @@ class GEOINS_Robots {
 	/**
 	 * Read + analyze the physical robots.txt (cached per request).
 	 *
-	 * @return array{exists:bool,readable:bool,blocked_all:bool,blocked:string[]}
+	 * @return array{exists:bool,readable:bool,blocked_all:bool,blocked:string[],has_exceptions:bool}
 	 */
 	public static function physical_analysis() {
 		if ( null !== self::$analysis ) {
@@ -231,7 +234,8 @@ class GEOINS_Robots {
 			'has_exceptions' => false,
 		);
 
-		if ( ! self::physical_file_exists() ) {
+		$path = self::robots_path();
+		if ( null === $path || ! self::physical_file_exists() ) {
 			return self::$analysis;
 		}
 		self::$analysis['exists'] = true;
@@ -240,12 +244,18 @@ class GEOINS_Robots {
 		// than that cannot be analyzed safely (a truncated read could hide
 		// AI-block groups appended at the end) -> "check it manually" warn.
 		$max_len = 512 * KB_IN_BYTES;
-		$content = @file_get_contents( self::robots_path(), false, null, 0, $max_len + 1 ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged, WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
+		$content = @file_get_contents( $path, false, null, 0, $max_len + 1 ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged, WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
 		if ( false === $content || strlen( $content ) > $max_len ) {
 			return self::$analysis;
 		}
-		self::$analysis['readable'] = true;
-		self::$analysis             = array_merge( self::$analysis, self::analyze_content( $content ) );
+		$parsed         = self::analyze_content( $content );
+		self::$analysis = array(
+			'exists'         => true,
+			'readable'       => true,
+			'blocked_all'    => $parsed['blocked_all'],
+			'blocked'        => $parsed['blocked'],
+			'has_exceptions' => $parsed['has_exceptions'],
+		);
 
 		return self::$analysis;
 	}

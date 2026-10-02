@@ -1,0 +1,31 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"steps": [
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "GEO Insights Test Site",
+				"permalink_structure": "/%postname%/"
+			}
+		},
+		{
+			"step": "activatePlugin",
+			"pluginPath": "geo-insights-ai/geo-insights-ai.php"
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "wordpress.org/plugins",
+				"slug": "plugin-check"
+			}
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require '/e2e/plugin-check.php';"
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require '/e2e/selftest.php';"
+		}
+	]
+}

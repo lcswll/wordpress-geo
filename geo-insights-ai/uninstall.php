@@ -11,6 +11,8 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 
 /**
  * Remove data for the current site (only when the user opted in).
+ *
+ * @return void
  */
 function geoins_uninstall_site() {
 	// Orphaned cron events must go regardless of the data opt-in (covers
@@ -27,9 +29,9 @@ function geoins_uninstall_site() {
 
 	global $wpdb;
 
-	// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.SchemaChange, WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Cleanup on uninstall, opted in by the user.
-	$wpdb->query( "DROP TABLE IF EXISTS {$wpdb->prefix}geoins_hits" );
-	$wpdb->query( "DROP TABLE IF EXISTS {$wpdb->prefix}geoins_daily" );
+	// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.DirectDatabaseQuery.SchemaChange -- Uninstall (opted in by the user) drops the plugin's own tables; there is nothing to cache.
+	$wpdb->query( $wpdb->prepare( 'DROP TABLE IF EXISTS %i', $wpdb->prefix . 'geoins_hits' ) );
+	$wpdb->query( $wpdb->prepare( 'DROP TABLE IF EXISTS %i', $wpdb->prefix . 'geoins_daily' ) );
 	// phpcs:enable
 
 	delete_option( 'geoins_settings' );
@@ -48,8 +50,8 @@ function geoins_uninstall_site() {
 	delete_option( 'geoins_audit_gen' );
 
 	// Per-source first-contact claim rows (atomic add_option markers).
-	// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
-	$wpdb->query( "DELETE FROM {$wpdb->options} WHERE option_name LIKE 'geoins\\_seen\\_src\\_%'" );
+	// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- Uninstall: bulk-delete the plugin's own option rows; nothing to cache.
+	$wpdb->query( $wpdb->prepare( 'DELETE FROM %i WHERE option_name LIKE %s', $wpdb->options, $wpdb->esc_like( 'geoins_seen_src_' ) . '%' ) );
 	delete_transient( 'geoins_llms_txt_cache' );
 	delete_transient( 'geoins_llms_full_cache' );
 	delete_transient( 'geoins_welcome_notice' );
@@ -63,7 +65,12 @@ function geoins_uninstall_site() {
 }
 
 if ( is_multisite() ) {
-	$geoins_site_ids = get_sites( array( 'fields' => 'ids', 'number' => 0 ) );
+	$geoins_site_ids = get_sites(
+		array(
+			'fields' => 'ids',
+			'number' => 0,
+		)
+	);
 	foreach ( $geoins_site_ids as $geoins_site_id ) {
 		switch_to_blog( $geoins_site_id );
 		geoins_uninstall_site();

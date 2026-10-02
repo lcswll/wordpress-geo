@@ -26,6 +26,8 @@ class GEOINS_Admin {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'admin_menu', array( __CLASS__, 'menu' ) );
@@ -38,6 +40,8 @@ class GEOINS_Admin {
 
 	/**
 	 * One-time notice after activation.
+	 *
+	 * @return void
 	 */
 	public static function welcome_notice() {
 		if ( ! get_transient( 'geoins_welcome_notice' ) || ! current_user_can( 'manage_options' ) ) {
@@ -63,9 +67,12 @@ class GEOINS_Admin {
 
 	/**
 	 * Admin menu.
+	 *
+	 * @return void
 	 */
 	public static function menu() {
-		self::$page_hooks[] = add_menu_page(
+		$hooks   = array();
+		$hooks[] = add_menu_page(
 			__( 'GEO Insights', 'geo-insights-ai' ),
 			__( 'GEO Insights', 'geo-insights-ai' ),
 			'manage_options',
@@ -74,7 +81,7 @@ class GEOINS_Admin {
 			'dashicons-visibility',
 			58
 		);
-		self::$page_hooks[] = add_submenu_page(
+		$hooks[] = add_submenu_page(
 			'geo-insights',
 			__( 'AI Statistics', 'geo-insights-ai' ),
 			__( 'AI Statistics', 'geo-insights-ai' ),
@@ -82,7 +89,7 @@ class GEOINS_Admin {
 			'geo-insights',
 			array( __CLASS__, 'render_dashboard' )
 		);
-		self::$page_hooks[] = add_submenu_page(
+		$hooks[] = add_submenu_page(
 			'geo-insights',
 			__( 'GEO Audit', 'geo-insights-ai' ),
 			__( 'GEO Audit', 'geo-insights-ai' ),
@@ -90,7 +97,7 @@ class GEOINS_Admin {
 			'geo-insights-audit',
 			array( __CLASS__, 'render_audit' )
 		);
-		self::$page_hooks[] = add_submenu_page(
+		$hooks[] = add_submenu_page(
 			'geo-insights',
 			__( 'GEO Settings', 'geo-insights-ai' ),
 			__( 'Settings', 'geo-insights-ai' ),
@@ -98,7 +105,7 @@ class GEOINS_Admin {
 			'geo-insights-settings',
 			array( __CLASS__, 'render_settings' )
 		);
-		self::$page_hooks[] = add_submenu_page(
+		$hooks[] = add_submenu_page(
 			'geo-insights',
 			__( 'How it works', 'geo-insights-ai' ),
 			__( 'How it works', 'geo-insights-ai' ),
@@ -106,14 +113,15 @@ class GEOINS_Admin {
 			'geo-insights-learn',
 			array( __CLASS__, 'render_learn' )
 		);
-		self::$page_hooks = array_values( array_filter( self::$page_hooks ) );
+
+		self::$page_hooks = array_values( array_filter( $hooks ) );
 	}
 
 	/**
 	 * Settings link on the plugins screen.
 	 *
-	 * @param array $links Existing links.
-	 * @return array
+	 * @param string[] $links Existing links.
+	 * @return string[]
 	 */
 	public static function action_links( $links ) {
 		array_unshift(
@@ -126,6 +134,8 @@ class GEOINS_Admin {
 
 	/**
 	 * Register the single settings option.
+	 *
+	 * @return void
 	 */
 	public static function register_settings() {
 		register_setting(
@@ -142,7 +152,7 @@ class GEOINS_Admin {
 	 * Sanitize all settings.
 	 *
 	 * @param mixed $input Raw input.
-	 * @return array
+	 * @return array<string,mixed>
 	 */
 	public static function sanitize_settings( $input ) {
 		$defaults = GEOINS_Install::defaults();
@@ -155,7 +165,7 @@ class GEOINS_Admin {
 
 		// Verification switched on: fetch the IP ranges right away.
 		$previous = geoins()->settings();
-		if ( $clean['verify_bots'] && empty( $previous['verify_bots'] ) ) {
+		if ( ! empty( $clean['verify_bots'] ) && empty( $previous['verify_bots'] ) ) {
 			wp_schedule_single_event( time() + 10, 'geoins_refresh_ip_ranges' );
 		}
 
@@ -164,7 +174,7 @@ class GEOINS_Admin {
 		// written (the loopback request reads the stored option to decide
 		// whether the key route is active), so it goes through a single cron
 		// event instead of running inline here.
-		if ( $clean['indexnow'] ) {
+		if ( ! empty( $clean['indexnow'] ) ) {
 			GEOINS_IndexNow::key();
 			if ( empty( $previous['indexnow'] ) || get_option( 'geoins_indexnow_unreachable' ) ) {
 				wp_schedule_single_event( time() + 5, 'geoins_indexnow_check' );
@@ -182,11 +192,11 @@ class GEOINS_Admin {
 		$retention               = isset( $input['retention_days'] ) ? absint( $input['retention_days'] ) : $defaults['retention_days'];
 		$clean['retention_days'] = in_array( $retention, array( 0, 30, 90, 180, 365 ), true ) ? $retention : $defaults['retention_days'];
 
-		$max                      = isset( $input['llms_max_items'] ) ? absint( $input['llms_max_items'] ) : $defaults['llms_max_items'];
-		$clean['llms_max_items']  = min( 500, max( 1, $max ) );
-		$clean['llms_intro']      = isset( $input['llms_intro'] ) ? sanitize_textarea_field( $input['llms_intro'] ) : '';
-		$clean['schema_entity']   = ( isset( $input['schema_entity'] ) && 'person' === $input['schema_entity'] ) ? 'person' : 'organization';
-		$clean['schema_name']     = isset( $input['schema_name'] ) ? sanitize_text_field( $input['schema_name'] ) : '';
+		$max                     = isset( $input['llms_max_items'] ) ? absint( $input['llms_max_items'] ) : $defaults['llms_max_items'];
+		$clean['llms_max_items'] = min( 500, max( 1, $max ) );
+		$clean['llms_intro']     = isset( $input['llms_intro'] ) ? sanitize_textarea_field( $input['llms_intro'] ) : '';
+		$clean['schema_entity']  = ( isset( $input['schema_entity'] ) && 'person' === $input['schema_entity'] ) ? 'person' : 'organization';
+		$clean['schema_name']    = isset( $input['schema_name'] ) ? sanitize_text_field( $input['schema_name'] ) : '';
 
 		// proxy_header: the select is only rendered while verification is on,
 		// so an absent field means "keep the stored value", not "reset" –
@@ -199,8 +209,9 @@ class GEOINS_Admin {
 
 		$clean['schema_sameas'] = '';
 		if ( ! empty( $input['schema_sameas'] ) ) {
-			$urls = array();
-			foreach ( preg_split( '/\r\n|\r|\n/', (string) $input['schema_sameas'] ) as $url ) {
+			$urls  = array();
+			$lines = preg_split( '/\r\n|\r|\n/', (string) $input['schema_sameas'] );
+			foreach ( is_array( $lines ) ? $lines : array() as $url ) {
 				$url = esc_url_raw( trim( $url ) );
 				if ( '' !== $url ) {
 					$urls[] = $url;
@@ -231,6 +242,7 @@ class GEOINS_Admin {
 	 * Enqueue admin assets where needed.
 	 *
 	 * @param string $hook Current admin page hook.
+	 * @return void
 	 */
 	public static function assets( $hook ) {
 		$is_plugin_page = in_array( $hook, self::$page_hooks, true );
@@ -275,85 +287,90 @@ class GEOINS_Admin {
 				'geoins-dashboard',
 				'geoinsDash',
 				array(
-					'restUrl'   => esc_url_raw( rest_url() ),
-					'nonce'     => wp_create_nonce( 'wp_rest' ),
-					'exportUrl' => wp_nonce_url( admin_url( 'admin-post.php?action=geoins_export' ), 'geoins_export' ),
-					'learnUrl'  => admin_url( 'admin.php?page=geo-insights-learn' ),
-					'auditUrl'  => admin_url( 'admin.php?page=geo-insights-audit' ),
-					'companies' => $directory['companies'],
-					'sources'   => $directory['sources'],
+					'restUrl'     => esc_url_raw( rest_url() ),
+					'nonce'       => wp_create_nonce( 'wp_rest' ),
+					'exportUrl'   => wp_nonce_url( admin_url( 'admin-post.php?action=geoins_export' ), 'geoins_export' ),
+					'learnUrl'    => admin_url( 'admin.php?page=geo-insights-learn' ),
+					'auditUrl'    => admin_url( 'admin.php?page=geo-insights-audit' ),
+					'companies'   => $directory['companies'],
+					'sources'     => $directory['sources'],
 					'checkLabels' => $check_labels,
 					'weekdays'    => $weekdays,
-					'catLabels' => array(
+					'catLabels'   => array(
 						'training'  => __( 'Training', 'geo-insights-ai' ),
 						'retrieval' => __( 'Retrieval', 'geo-insights-ai' ),
 						'agent'     => __( 'Agent', 'geo-insights-ai' ),
 						'search'    => __( 'Search', 'geo-insights-ai' ),
 						'referral'  => __( 'AI visitors', 'geo-insights-ai' ),
 					),
-					'i18n'      => array(
-						'range'          => __( 'Date range', 'geo-insights-ai' ),
-						'days'           => __( 'days', 'geo-insights-ai' ),
-						'exportCsv'      => __( 'Export CSV', 'geo-insights-ai' ),
-						'hits'           => __( 'accesses', 'geo-insights-ai' ),
-						'visitors'       => __( 'visitors', 'geo-insights-ai' ),
-						'noData'         => __( 'No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site.', 'geo-insights-ai' ),
-						'loadError'      => __( 'Could not load statistics.', 'geo-insights-ai' ),
-						'sessionExpired' => __( 'Your session check expired – reload the page to continue.', 'geo-insights-ai' ),
-						'reload'         => __( 'Reload page', 'geo-insights-ai' ),
-						'term'           => __( 'Term', 'geo-insights-ai' ),
-						'page'           => __( 'Page', 'geo-insights-ai' ),
-						'ai'             => __( 'AI accesses', 'geo-insights-ai' ),
-						'from'           => __( 'AI source', 'geo-insights-ai' ),
-						'vsPrev'         => __( 'vs. previous period', 'geo-insights-ai' ),
-						'newLabel'       => __( 'new', 'geo-insights-ai' ),
-						'verified'       => __( 'verified', 'geo-insights-ai' ),
-						'spoofed'        => __( 'impostors', 'geo-insights-ai' ),
-						'unchecked'      => __( 'unchecked', 'geo-insights-ai' ),
-						'verifyOff'      => __( 'Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors.', 'geo-insights-ai' ),
-						'timelineTitle'  => __( 'AI accesses per day', 'geo-insights-ai' ),
-						'timelineHint'   => __( 'Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models.', 'geo-insights-ai' ),
-						'botsTitle'      => __( 'Which AI bots?', 'geo-insights-ai' ),
-						'referralsTitle' => __( 'Human visitors from AI answers', 'geo-insights-ai' ),
-						'referralsHint'  => __( 'Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO.', 'geo-insights-ai' ),
-						'matrixTitle'    => __( 'Terms & pages: which AI reads what?', 'geo-insights-ai' ),
-						'matrixHint'     => __( 'AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent.', 'geo-insights-ai' ),
-						'landingsTitle'  => __( 'AI visitors: landing pages', 'geo-insights-ai' ),
-						'statusTitle'    => __( 'GEO status of your site', 'geo-insights-ai' ),
-						'emptyTitle'     => __( 'Waiting for the first AI visit', 'geo-insights-ai' ),
-						'emptyHint'      => __( 'Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.', 'geo-insights-ai' ),
-						'learnLink'      => __( 'New here? How it all works, in plain language.', 'geo-insights-ai' ),
-						'filterLabel'    => __( 'Filter by AI', 'geo-insights-ai' ),
-						'filterAll'      => __( 'All AIs', 'geo-insights-ai' ),
-						'filterNoData'   => __( 'No data for this AI in the selected range.', 'geo-insights-ai' ),
-						'resetFilter'    => __( 'Show all AIs', 'geo-insights-ai' ),
-						'alertsTitle'    => __( 'What happened', 'geo-insights-ai' ),
-						'markRead'       => __( 'Mark all as read', 'geo-insights-ai' ),
-						'alertNewRef'    => __( 'First human visitors from %s! Your content is being cited there.', 'geo-insights-ai' ),
-						'alertNewBot'    => __( '%s crawled your site for the first time – a citation-relevant AI is now reading you.', 'geo-insights-ai' ),
-						'alertNewTrain'  => __( '%s (training crawler) visited your site for the first time.', 'geo-insights-ai' ),
-						'alertSpike'     => __( 'AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day).', 'geo-insights-ai' ),
-						'unknownTitle'   => __( 'AI radar: unrecognized AI-like crawlers', 'geo-insights-ai' ),
-						'unknownHint'    => __( 'These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin).', 'geo-insights-ai' ),
-						'unknownUa'      => __( 'User agent', 'geo-insights-ai' ),
-						'lastSeen'       => __( 'Last seen', 'geo-insights-ai' ),
-						'dismiss'        => __( 'Dismiss', 'geo-insights-ai' ),
-						'auditScanning'  => __( 'Analyzing content … %1$s of %2$s done', 'geo-insights-ai' ),
-						'auditTitleCol'  => __( 'Title', 'geo-insights-ai' ),
-						'auditScoreCol'  => __( 'GEO score', 'geo-insights-ai' ),
-						'auditFailsCol'  => __( 'Open improvements', 'geo-insights-ai' ),
-						'auditHitsCol'   => __( 'AI accesses (30d)', 'geo-insights-ai' ),
-						'auditModCol'    => __( 'Updated', 'geo-insights-ai' ),
-						'auditTypePost'  => __( 'Post', 'geo-insights-ai' ),
-						'auditTypePage'  => __( 'Page', 'geo-insights-ai' ),
-						'auditAllTypes'  => __( 'All types', 'geo-insights-ai' ),
-						'auditEmpty'     => __( 'No published content to audit yet.', 'geo-insights-ai' ),
-						'auditPerfect'   => __( 'All checks passed', 'geo-insights-ai' ),
-						'auditRescan'    => __( 'Re-scan', 'geo-insights-ai' ),
-						'auditMore'      => __( 'more', 'geo-insights-ai' ),
-						'auditPrev'      => __( 'Previous', 'geo-insights-ai' ),
-						'auditNext'      => __( 'Next', 'geo-insights-ai' ),
-						'auditOpportunity' => __( 'High AI interest, low score – fix these first.', 'geo-insights-ai' ),
+					'i18n'        => array(
+						'range'             => __( 'Date range', 'geo-insights-ai' ),
+						'days'              => __( 'days', 'geo-insights-ai' ),
+						'exportCsv'         => __( 'Export CSV', 'geo-insights-ai' ),
+						'hits'              => __( 'accesses', 'geo-insights-ai' ),
+						'visitors'          => __( 'visitors', 'geo-insights-ai' ),
+						'noData'            => __( 'No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site.', 'geo-insights-ai' ),
+						'loadError'         => __( 'Could not load statistics.', 'geo-insights-ai' ),
+						'sessionExpired'    => __( 'Your session check expired – reload the page to continue.', 'geo-insights-ai' ),
+						'reload'            => __( 'Reload page', 'geo-insights-ai' ),
+						'term'              => __( 'Term', 'geo-insights-ai' ),
+						'page'              => __( 'Page', 'geo-insights-ai' ),
+						'ai'                => __( 'AI accesses', 'geo-insights-ai' ),
+						'from'              => __( 'AI source', 'geo-insights-ai' ),
+						'vsPrev'            => __( 'vs. previous period', 'geo-insights-ai' ),
+						'newLabel'          => __( 'new', 'geo-insights-ai' ),
+						'verified'          => __( 'verified', 'geo-insights-ai' ),
+						'spoofed'           => __( 'impostors', 'geo-insights-ai' ),
+						'unchecked'         => __( 'unchecked', 'geo-insights-ai' ),
+						'verifyOff'         => __( 'Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors.', 'geo-insights-ai' ),
+						'timelineTitle'     => __( 'AI accesses per day', 'geo-insights-ai' ),
+						'timelineHint'      => __( 'Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models.', 'geo-insights-ai' ),
+						'botsTitle'         => __( 'Which AI bots?', 'geo-insights-ai' ),
+						'referralsTitle'    => __( 'Human visitors from AI answers', 'geo-insights-ai' ),
+						'referralsHint'     => __( 'Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO.', 'geo-insights-ai' ),
+						'matrixTitle'       => __( 'Terms & pages: which AI reads what?', 'geo-insights-ai' ),
+						'matrixHint'        => __( 'AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent.', 'geo-insights-ai' ),
+						'landingsTitle'     => __( 'AI visitors: landing pages', 'geo-insights-ai' ),
+						'statusTitle'       => __( 'GEO status of your site', 'geo-insights-ai' ),
+						'emptyTitle'        => __( 'Waiting for the first AI visit', 'geo-insights-ai' ),
+						'emptyHint'         => __( 'Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.', 'geo-insights-ai' ),
+						'learnLink'         => __( 'New here? How it all works, in plain language.', 'geo-insights-ai' ),
+						'filterLabel'       => __( 'Filter by AI', 'geo-insights-ai' ),
+						'filterAll'         => __( 'All AIs', 'geo-insights-ai' ),
+						'filterNoData'      => __( 'No data for this AI in the selected range.', 'geo-insights-ai' ),
+						'resetFilter'       => __( 'Show all AIs', 'geo-insights-ai' ),
+						'alertsTitle'       => __( 'What happened', 'geo-insights-ai' ),
+						'markRead'          => __( 'Mark all as read', 'geo-insights-ai' ),
+						/* translators: %s: AI assistant name. */
+						'alertNewRef'       => __( 'First human visitors from %s! Your content is being cited there.', 'geo-insights-ai' ),
+						/* translators: %s: bot name. */
+						'alertNewBot'       => __( '%s crawled your site for the first time – a citation-relevant AI is now reading you.', 'geo-insights-ai' ),
+						/* translators: %s: bot name. */
+						'alertNewTrain'     => __( '%s (training crawler) visited your site for the first time.', 'geo-insights-ai' ),
+						/* translators: 1: visitor count, 2: average. */
+						'alertSpike'        => __( 'AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day).', 'geo-insights-ai' ),
+						'unknownTitle'      => __( 'AI radar: unrecognized AI-like crawlers', 'geo-insights-ai' ),
+						'unknownHint'       => __( 'These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin).', 'geo-insights-ai' ),
+						'unknownUa'         => __( 'User agent', 'geo-insights-ai' ),
+						'lastSeen'          => __( 'Last seen', 'geo-insights-ai' ),
+						'dismiss'           => __( 'Dismiss', 'geo-insights-ai' ),
+						/* translators: 1: pages analyzed so far, 2: total pages. */
+						'auditScanning'     => __( 'Analyzing content … %1$s of %2$s done', 'geo-insights-ai' ),
+						'auditTitleCol'     => __( 'Title', 'geo-insights-ai' ),
+						'auditScoreCol'     => __( 'GEO score', 'geo-insights-ai' ),
+						'auditFailsCol'     => __( 'Open improvements', 'geo-insights-ai' ),
+						'auditHitsCol'      => __( 'AI accesses (30d)', 'geo-insights-ai' ),
+						'auditModCol'       => __( 'Updated', 'geo-insights-ai' ),
+						'auditTypePost'     => __( 'Post', 'geo-insights-ai' ),
+						'auditTypePage'     => __( 'Page', 'geo-insights-ai' ),
+						'auditAllTypes'     => __( 'All types', 'geo-insights-ai' ),
+						'auditEmpty'        => __( 'No published content to audit yet.', 'geo-insights-ai' ),
+						'auditPerfect'      => __( 'All checks passed', 'geo-insights-ai' ),
+						'auditRescan'       => __( 'Re-scan', 'geo-insights-ai' ),
+						'auditMore'         => __( 'more', 'geo-insights-ai' ),
+						'auditPrev'         => __( 'Previous', 'geo-insights-ai' ),
+						'auditNext'         => __( 'Next', 'geo-insights-ai' ),
+						'auditOpportunity'  => __( 'High AI interest, low score – fix these first.', 'geo-insights-ai' ),
 						'auditScatterTitle' => __( 'Opportunity map', 'geo-insights-ai' ),
 						'auditScatterHint'  => __( 'Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page.', 'geo-insights-ai' ),
 						'auditScatterEmpty' => __( 'No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content.', 'geo-insights-ai' ),
@@ -382,7 +399,7 @@ class GEOINS_Admin {
 	 * icons. Icon keys map to the bundled Simple Icons set in the React app;
 	 * keys without a bundled icon fall back to a monogram badge there.
 	 *
-	 * @return array{companies:array,sources:array}
+	 * @return array{companies:array<string,array<string,mixed>>,sources:array<string,array<string,mixed>>}
 	 */
 	protected static function dashboard_sources() {
 		$company_icons = array(
@@ -443,6 +460,8 @@ class GEOINS_Admin {
 
 	/**
 	 * Live GEO checks in the block editor.
+	 *
+	 * @return void
 	 */
 	public static function editor_assets() {
 		$screen = function_exists( 'get_current_screen' ) ? get_current_screen() : null;
@@ -494,6 +513,8 @@ class GEOINS_Admin {
 
 	/**
 	 * Render dashboard page.
+	 *
+	 * @return void
 	 */
 	public static function render_dashboard() {
 		if ( ! current_user_can( 'manage_options' ) ) {
@@ -504,6 +525,8 @@ class GEOINS_Admin {
 
 	/**
 	 * Render settings page.
+	 *
+	 * @return void
 	 */
 	public static function render_settings() {
 		if ( ! current_user_can( 'manage_options' ) ) {
@@ -514,6 +537,8 @@ class GEOINS_Admin {
 
 	/**
 	 * Render the plain-language explainer page.
+	 *
+	 * @return void
 	 */
 	public static function render_learn() {
 		if ( ! current_user_can( 'edit_posts' ) ) {
@@ -524,6 +549,8 @@ class GEOINS_Admin {
 
 	/**
 	 * Render the site-wide GEO audit page.
+	 *
+	 * @return void
 	 */
 	public static function render_audit() {
 		if ( ! current_user_can( 'edit_others_posts' ) ) {
@@ -539,6 +566,7 @@ class GEOINS_Admin {
 	 * @param string $label   Label.
 	 * @param string $benefit One-line benefit ("what do I get?").
 	 * @param string $detail  Optional longer explanation.
+	 * @return void
 	 */
 	public static function toggle_row( $key, $label, $benefit, $detail = '' ) {
 		$settings = geoins()->settings();

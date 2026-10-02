@@ -20,6 +20,8 @@ class GEOINS_Dashboard {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'admin_post_geoins_export', array( __CLASS__, 'export_csv' ) );
@@ -27,6 +29,8 @@ class GEOINS_Dashboard {
 
 	/**
 	 * Stream the current range as CSV (admin-post.php?action=geoins_export).
+	 *
+	 * @return void
 	 */
 	public static function export_csv() {
 		if ( ! current_user_can( 'manage_options' ) ) {
@@ -61,13 +65,25 @@ class GEOINS_Dashboard {
 		header( 'Content-Disposition: attachment; filename=geo-insights-' . gmdate( 'Y-m-d' ) . '-' . $days . 'd' . $suffix . '.csv' );
 
 		$out = fopen( 'php://output', 'w' ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_fopen
+		if ( false === $out ) {
+			exit;
+		}
 		fputcsv( $out, array( 'day', 'type', 'source', 'label', 'category', 'post_id', 'path', 'verified', 'count' ) );
 
 		$cat_keys = GEOINS_Stats::category_keys();
-		$rows     = GEOINS_Stats::merged_group( array( 'day', 'hit_type', 'source', 'category', 'post_id', 'path', 'verified' ), $from, time(), '', $sources );
-		usort( $rows, static function ( $a, $b ) { return strcmp( $a['day'], $b['day'] ); } );
+		$rows     = GEOINS_Stats::merged_group( array( 'day', 'hit_type', 'source', 'category', 'post_id', 'path', 'verified' ), $from, time(), 0, $sources );
+		usort(
+			$rows,
+			static function ( $a, $b ) {
+				return strcmp( $a['day'], $b['day'] );
+			}
+		);
 
-		$verified_labels = array( 0 => 'failed', 1 => 'verified', 2 => 'unchecked' );
+		$verified_labels = array(
+			0 => 'failed',
+			1 => 'verified',
+			2 => 'unchecked',
+		);
 		foreach ( $rows as $row ) {
 			$cat = isset( $cat_keys[ (int) $row['category'] ] ) ? $cat_keys[ (int) $row['category'] ] : '';
 			fputcsv(

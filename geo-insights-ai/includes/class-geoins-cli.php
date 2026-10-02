@@ -30,8 +30,9 @@ class GEOINS_CLI {
 	 *     wp geoins stats
 	 *     wp geoins stats --days=7 --format=json
 	 *
-	 * @param array $args       Positional args.
-	 * @param array $assoc_args Named args.
+	 * @param string[]             $args       Positional args.
+	 * @param array<string,string> $assoc_args Named args.
+	 * @return void
 	 */
 	public function stats( $args, $assoc_args ) {
 		$days = isset( $assoc_args['days'] ) ? absint( $assoc_args['days'] ) : 30;
@@ -87,8 +88,9 @@ class GEOINS_CLI {
 	 *
 	 *     wp geoins export --days=90 --file=geo-stats.csv
 	 *
-	 * @param array $args       Positional args.
-	 * @param array $assoc_args Named args.
+	 * @param string[]             $args       Positional args.
+	 * @param array<string,string> $assoc_args Named args.
+	 * @return void
 	 */
 	public function export( $args, $assoc_args ) {
 		$days = isset( $assoc_args['days'] ) ? absint( $assoc_args['days'] ) : 30;
@@ -98,7 +100,12 @@ class GEOINS_CLI {
 
 		$from = time() - ( $days * DAY_IN_SECONDS );
 		$rows = GEOINS_Stats::merged_group( array( 'day', 'hit_type', 'source', 'category', 'post_id', 'path', 'verified' ), $from, time() );
-		usort( $rows, static function ( $a, $b ) { return strcmp( $a['day'], $b['day'] ); } );
+		usort(
+			$rows,
+			static function ( $a, $b ) {
+				return strcmp( $a['day'], $b['day'] );
+			}
+		);
 
 		$lines   = array();
 		$lines[] = 'day,type,source,category,post_id,path,verified,count';
@@ -134,6 +141,8 @@ class GEOINS_CLI {
 	 * ## EXAMPLES
 	 *
 	 *     wp geoins cleanup
+	 *
+	 * @return void
 	 */
 	public function cleanup() {
 		GEOINS_Install::cleanup();
@@ -148,6 +157,7 @@ class GEOINS_CLI {
 	 *     wp geoins refresh-ranges
 	 *
 	 * @subcommand refresh-ranges
+	 * @return void
 	 */
 	public function refresh_ranges() {
 		$settings = geoins()->settings();
@@ -170,8 +180,9 @@ class GEOINS_CLI {
 	 *
 	 *     wp geoins report --force
 	 *
-	 * @param array $args       Positional args.
-	 * @param array $assoc_args Named args.
+	 * @param string[]             $args       Positional args.
+	 * @param array<string,string> $assoc_args Named args.
+	 * @return void
 	 */
 	public function report( $args, $assoc_args ) {
 		$sent = GEOINS_Report::send( ! empty( $assoc_args['force'] ) );
@@ -188,6 +199,8 @@ class GEOINS_CLI {
 	 * ## EXAMPLES
 	 *
 	 *     wp geoins selftest
+	 *
+	 * @return void
 	 */
 	public function selftest() {
 		$result = GEOINS_Selftest::run();

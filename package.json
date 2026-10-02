@@ -1,20 +1,46 @@
 {
-  "name": "geo-insights-build",
-  "version": "1.0.0",
-  "description": "Build tooling for the GEO Insights WordPress plugin dashboard (React + Recharts via esbuild).",
-  "scripts": {
-    "build": "node tools-build_dashboard.mjs",
-    "watch": "node tools-build_dashboard.mjs --watch"
-  },
-  "type": "commonjs",
-  "devDependencies": {
-    "esbuild": "^0.28.2",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
-  },
+  "name": "geo-insights-ai-dev",
   "private": true,
-  "dependencies": {
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Dev tooling for the GEO Insights WordPress plugin: dashboard build, checks, tests, e2e, release ZIP.",
+  "license": "GPL-2.0-or-later",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "setup:php": "node scripts/setup-php.mjs",
+    "verify": "node scripts/verify.mjs",
+    "build:dashboard": "node scripts/build-dashboard.mjs",
+    "watch": "node scripts/build-dashboard.mjs --watch",
+    "lint:js": "eslint --max-warnings=0 .",
+    "phpcs": "node scripts/php.mjs vendor/bin/phpcs",
+    "phpcbf": "node scripts/php.mjs vendor/bin/phpcbf",
+    "phpstan": "node scripts/php.mjs vendor/bin/phpstan analyse --memory-limit=2G",
+    "test:php": "node scripts/php.mjs vendor/bin/phpunit",
+    "test:e2e": "node scripts/e2e.mjs",
+    "check": "node scripts/repo-checks.mjs",
+    "i18n": "node scripts/i18n.mjs",
+    "build": "node scripts/build-zip.mjs",
+    "playground": "node scripts/playground-server.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
+    "@wp-playground/cli": "^3.1.56",
     "echarts": "^6.1.0",
-    "simple-icons": "^16.28.0"
+    "esbuild": "^0.28.2",
+    "eslint": "^10.11.0",
+    "eslint-plugin-no-unsanitized": "^4.1.5",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "globals": "^17.13.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "simple-icons": "^16.28.0",
+    "yauzl": "^3.4.0",
+    "yazl": "^3.3.1"
+  },
+  "overrides": {
+    "qs": "^6.16.0"
   }
 }

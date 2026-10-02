@@ -22,6 +22,8 @@ class GEOINS_Markdown {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'template_redirect', array( __CLASS__, 'maybe_serve' ), 0 );
@@ -31,6 +33,8 @@ class GEOINS_Markdown {
 
 	/**
 	 * Serve /llms-full.txt or a .md variant of a post.
+	 *
+	 * @return void
 	 */
 	public static function maybe_serve() {
 		$settings = geoins()->settings();
@@ -95,6 +99,7 @@ class GEOINS_Markdown {
 	 * @param string $last_modified Optional Last-Modified header value. Must
 	 *                              be sent AFTER nocache_headers(), which
 	 *                              removes any earlier Last-Modified header.
+	 * @return void
 	 */
 	protected static function send_text( $content, $last_modified = '' ) {
 		status_header( 200 );
@@ -110,6 +115,8 @@ class GEOINS_Markdown {
 
 	/**
 	 * Advertise the Markdown variant on singular views.
+	 *
+	 * @return void
 	 */
 	public static function alternate_link() {
 		$settings = geoins()->settings();
@@ -191,10 +198,26 @@ class GEOINS_Markdown {
 		$max   = max( 1, absint( $settings['llms_max_items'] ) );
 		$items = GEOINS_Llms_Txt::pinned_items();
 		if ( ! empty( $settings['llms_include_pages'] ) ) {
-			$items = array_merge( $items, get_pages( array( 'sort_column' => 'menu_order,post_title', 'number' => $max ) ) );
+			$pages = get_pages(
+				array(
+					'sort_column' => 'menu_order,post_title',
+					'number'      => $max,
+				)
+			);
+			if ( is_array( $pages ) ) { // get_pages() returns false for a non-hierarchical post type.
+				$items = array_merge( $items, $pages );
+			}
 		}
 		if ( ! empty( $settings['llms_include_posts'] ) ) {
-			$items = array_merge( $items, get_posts( array( 'numberposts' => $max, 'post_status' => 'publish' ) ) );
+			$items = array_merge(
+				$items,
+				get_posts(
+					array(
+						'numberposts' => $max,
+						'post_status' => 'publish',
+					)
+				)
+			);
 		}
 
 		// Pinned first, no duplicates.
@@ -257,7 +280,7 @@ class GEOINS_Markdown {
 
 		$markdown = self::walk( $body, 0 );
 		// Collapse 3+ blank lines.
-		$markdown = preg_replace( "/\n{3,}/", "\n\n", $markdown );
+		$markdown = (string) preg_replace( "/\n{3,}/", "\n\n", $markdown );
 		return trim( $markdown ) . "\n";
 	}
 
@@ -269,10 +292,12 @@ class GEOINS_Markdown {
 	 * @return string
 	 */
 	protected static function walk( $node, $list_depth ) {
-		if ( XML_TEXT_NODE === $node->nodeType ) {
-			return preg_replace( '/\s+/', ' ', $node->nodeValue ); // phpcs:ignore WordPress.NamingConventions.ValidVariableName
+		// Text nodes (XML_TEXT_NODE). CDATA sections subclass DOMText and stay skipped.
+		if ( $node instanceof DOMText && ! $node instanceof DOMCdataSection ) {
+			return (string) preg_replace( '/\s+/', ' ', $node->data );
 		}
-		if ( XML_ELEMENT_NODE !== $node->nodeType ) {
+		// Anything but an element (XML_ELEMENT_NODE): comments, PIs, ...
+		if ( ! $node instanceof DOMElement ) {
 			return '';
 		}
 
@@ -351,7 +376,7 @@ class GEOINS_Markdown {
 	/**
 	 * Convert a table element to a Markdown pipe table.
 	 *
-	 * @param DOMNode $table Table node.
+	 * @param DOMElement $table Table element.
 	 * @return string
 	 */
 	protected static function table_to_markdown( $table ) {
@@ -361,7 +386,7 @@ class GEOINS_Markdown {
 			foreach ( $tr->childNodes as $cell ) { // phpcs:ignore WordPress.NamingConventions.ValidVariableName
 				$cell_tag = strtolower( $cell->nodeName ); // phpcs:ignore WordPress.NamingConventions.ValidVariableName
 				if ( 'td' === $cell_tag || 'th' === $cell_tag ) {
-					$cells[] = trim( preg_replace( '/\s+/', ' ', $cell->textContent ) ); // phpcs:ignore WordPress.NamingConventions.ValidVariableName
+					$cells[] = trim( (string) preg_replace( '/\s+/', ' ', $cell->textContent ) ); // phpcs:ignore WordPress.NamingConventions.ValidVariableName
 				}
 			}
 			if ( $cells ) {
@@ -383,6 +408,8 @@ class GEOINS_Markdown {
 
 	/**
 	 * Flush caches when content changes.
+	 *
+	 * @return void
 	 */
 	public static function flush_cache() {
 		delete_transient( 'geoins_llms_full_cache' );

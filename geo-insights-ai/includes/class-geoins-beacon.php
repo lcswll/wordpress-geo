@@ -29,6 +29,8 @@ class GEOINS_Beacon {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'rest_api_init', array( __CLASS__, 'register_route' ) );
@@ -37,6 +39,8 @@ class GEOINS_Beacon {
 
 	/**
 	 * REST route the beacon posts to.
+	 *
+	 * @return void
 	 */
 	public static function register_route() {
 		register_rest_route(
@@ -109,6 +113,8 @@ class GEOINS_Beacon {
 
 	/**
 	 * Enqueue the beacon for logged-out visitors.
+	 *
+	 * @return void
 	 */
 	public static function enqueue() {
 		$settings = geoins()->settings();

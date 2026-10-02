@@ -21,6 +21,8 @@ class GEOINS_Llms_Txt {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'template_redirect', array( __CLASS__, 'maybe_serve' ), 0 );
@@ -29,6 +31,8 @@ class GEOINS_Llms_Txt {
 
 	/**
 	 * Serve /llms.txt when requested.
+	 *
+	 * @return void
 	 */
 	public static function maybe_serve() {
 		$settings = geoins()->settings();
@@ -220,6 +224,8 @@ class GEOINS_Llms_Txt {
 
 	/**
 	 * Flush the cache when content changes.
+	 *
+	 * @return void
 	 */
 	public static function flush_cache() {
 		delete_transient( 'geoins_llms_txt_cache' );

@@ -5,7 +5,7 @@ WordPress-Plugin: Sehen, welche AI (ChatGPT, Claude, Perplexity …) welche Seit
 ## Struktur
 
 ```
-geo-insights-ai/                     Version 2.0.0
+geo-insights-ai/                     Version 2.1.0
 ├── geo-insights-ai.php              Bootstrap + Plugin-Header + WP-CLI-Registrierung
 ├── readme.txt                       WordPress.org-Readme
 ├── uninstall.php                    Datenlöschung (nur bei Opt-in, multisite-fähig)
@@ -32,20 +32,23 @@ geo-insights-ai/                     Version 2.0.0
 │   ├── class-geoins-cli.php         wp geoins stats/export/report/cleanup/refresh-ranges/selftest
 │   └── admin/                       Menü, Einstellungen, CSV-Export,
 │       │                            AI-Spalte (Beitragsliste), Views (inkl. learn.php-Erklärseite)
+├── src/dashboard/                   Quellcode des React-Dashboards (wird mitgeliefert, Build: esbuild)
 ├── assets/
 │   ├── css/geoins-admin.css
 │   └── js/geoins-dashboard.js       React-Dashboard (gebaut, React 19 + Apache ECharts 6 gebündelt)
 │       ├── geoins-admin.js          Settings-Aktionen + Classic-Editor-Metabox
 │       ├── geoins-editor.js         Gutenberg-Sidebar: Live-GEO-Checks beim Schreiben
 │       └── geoins-beacon.js         Referral-Beacon fürs Frontend (<1 kB)
-└── languages/                       POT + de_DE (355 Strings übersetzt)
+└── languages/                       POT + de_DE als .l10n.php/.po (generiert aus i18n/de_DE.json)
 ```
 
-**Dashboard-Frontend (React):** Quellcode in `src/dashboard/` (Repo-Root, nicht im Plugin-ZIP).
-Build: `npm install` einmalig, dann `npm run build` (esbuild → `assets/js/geoins-dashboard.js`,
-selbst-enthaltenes IIFE-Bundle, kein CDN) oder `npm run watch` während der Entwicklung.
-i18n-Build: `python tools-build_i18n.py` (Wörterbuch: `tools-i18n-de.json`; alle
-Dashboard-Strings laufen über `wp_localize_script`, werden also aus dem PHP extrahiert).
+**Dashboard-Frontend (React):** Quellcode in `geo-insights-ai/src/dashboard/` – liegt bewusst im Plugin, damit
+wordpress.org-Reviewer das minifizierte Bundle nachvollziehen können. Build: `npm run build:dashboard` (esbuild →
+`assets/js/geoins-dashboard.js`, selbst-enthaltenes IIFE-Bundle, kein CDN) oder `npm run watch`. Die CI baut das Bundle
+neu und schlägt fehl, wenn es nicht zum Quellcode passt.
+
+Alles außerhalb von `geo-insights-ai/` ist Entwicklungswerkzeug und wird nie mit ausgeliefert. Verzeichnis-Grafiken
+(Icon, Banner, Screenshots) liegen in [`.wordpress-org/`](.wordpress-org/) und landen im SVN unter `/assets`.
 
 ## Kernkonzepte
 
@@ -65,41 +68,102 @@ Dashboard-Strings laufen über `wp_localize_script`, werden also aus dem PHP ext
 
 **SEO-Plugin-Koexistenz:** Yoast, Rank Math, AIOSEO, SEOPress, The SEO Framework werden erkannt → Schema/Meta automatisch abgeschaltet, Rest läuft parallel.
 
-## Lokal testen
+## Lokale Entwicklung
 
-Am einfachsten mit [wp-env](https://developer.wordpress.org/block-editor/getting-started/devenv/get-started-with-wp-env/) (braucht Docker) oder [Local](https://localwp.com/):
-
-```bash
-# Variante wp-env: im Ordner geo-insights-ai/
-npm -g install @wordpress/env
-wp-env start
-# → Plugin unter http://localhost:8888/wp-admin aktivieren
-```
-
-Bot-Zugriff simulieren:
+Voraussetzung: Node ≥ 24 (unter Node 22 stürzt das php-wasm von Playground mit PHP 7.4 ab). PHP muss nicht installiert sein.
 
 ```bash
-curl -A "Mozilla/5.0 (compatible; GPTBot/1.4; +https://openai.com/gptbot)" http://localhost:8888/
-curl -A "compatible; ChatGPT-User/1.0; +https://openai.com/bot" http://localhost:8888/beispiel-seite/
-# AI-Referral simulieren:
-curl -e "https://chatgpt.com/" http://localhost:8888/
-curl "http://localhost:8888/?utm_source=chatgpt.com"
+npm ci
 ```
 
-Danach: **GEO Insights → AI Statistics** im Admin. Außerdem prüfen: `/llms.txt`, `/llms-full.txt`, `/robots.txt` und eine Beitrags-URL mit angehängtem `.md` (liefert reines Markdown). Im Block-Editor erscheint das Panel „GEO check" mit Live-Checks beim Tippen.
+```bash
+npm run setup:php
+```
 
-## Veröffentlichung auf WordPress.org – Checkliste
+`setup:php` lädt unter Windows ein portables PHP 7.4 + Composer nach `.cache/` (Prüfsummen werden verifiziert, nichts wird systemweit installiert). PHP 8.4 lässt sich mit `npm run setup:php -- --php 8.4` ergänzen.
 
-1. **Konto**: wordpress.org-Konto mit aktivierter **2FA** (Pflicht seit Ende 2024).
-2. **Plugin Check**: Plugin [„Plugin Check (PCP)"](https://wordpress.org/plugins/plugin-check/) lokal installieren und über `geo-insights-ai` laufen lassen – derselbe Scanner läuft bei der Einreichung automatisch.
-3. **Name/Slug prüfen**: Vor Einreichung auf wordpress.org/plugins nach „GEO Insights" suchen; bei Kollision Name in `geo-insights-ai.php` + `readme.txt` anpassen (Text-Domain müsste dann mitgezogen werden).
-4. **readme.txt**: `Contributors:` auf deinen wordpress.org-Nutzernamen setzen (aktuell `lcswll02`), `Tested up to:` auf die dann aktuelle WP-Version.
-5. **Screenshots** (optional, empfohlen): `screenshot-1.png` … `screenshot-5.png` gemäß den Beschreibungen in readme.txt; kommen später ins SVN-`assets/`-Verzeichnis.
-6. **Einreichen**: ZIP hochladen unter https://wordpress.org/plugins/developers/add/ – Review dauert typisch einige Tage bis Wochen.
-7. **Nach Freigabe**: Code ins zugeteilte SVN-Repo (`svn co https://plugins.svn.wordpress.org/DEIN-SLUG`), nach `trunk/` committen, Release über `tags/1.0.0` taggen.
-8. **Übersetzungen**: Nach Freigabe übernimmt translate.wordpress.org (GlotPress) – die mitgelieferte de_DE dient bis dahin als sofort funktionierende Übersetzung.
+| Befehl | Was |
+| --- | --- |
+| `npm run verify` | alles, was die CI prüft (inkl. WordPress-Laufzeit- und Browsertests) |
+| `npm run verify -- --fast` | statische Prüfungen + Unit-Tests (≈ 30 s, auch als pre-push-Hook) |
+| `npm run playground` | WordPress mit Plugin, Beispielinhalten und 90 Tagen AI-Traffic auf http://127.0.0.1:9400 |
+| `npm run test:e2e -- --php 7.4 --wp 6.5` | Laufzeittests gegen eine bestimmte PHP-/WP-Version |
+| `npm run phpcs` / `npm run phpcbf` | Coding Standards prüfen / automatisch korrigieren |
+| `npm run build:dashboard` / `npm run watch` | React-Dashboard bauen |
+| `npm run i18n` | Übersetzungen aus `i18n/de_DE.json` neu erzeugen (`-- --prune` entfernt verwaiste Einträge) |
+| `npm run build` | Release-ZIP nach `dist/` |
+| `node scripts/wporg-assets.mjs` | Icon, Banner und Screenshots für wordpress.org neu erzeugen |
+
+Pre-push-Hook einmalig aktivieren:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+Bot-Zugriffe gegen den laufenden Playground simulieren. Das Cookie beim zweiten Befehl verhindert Playgrounds Auto-Login – sonst zählt der Besuch als eingeloggter Admin und wird (richtigerweise) nicht als AI-Besucher gewertet:
+
+```bash
+curl -A "Mozilla/5.0 (compatible; GPTBot/1.2; +https://openai.com/gptbot)" http://127.0.0.1:9400/wordpress-backup-guide/
+```
+
+```bash
+curl -b "playground_auto_login_already_happened=1" -e "https://chatgpt.com/" http://127.0.0.1:9400/wordpress-backup-guide/
+```
+
+Erweitern: Prefix `geoins_` / `GEOINS_`, Text-Domain `geo-insights-ai`. Neue Bots über den Filter `geoins_bots`, Referral-Quellen über `geoins_referral_sources`, Verify-Quellen über `geoins_verify_sources`. Neue Strings brauchen eine Übersetzung in `i18n/de_DE.json` – die CI meldet fehlende.
+
+## Tests
+
+| Ebene | Wo | Was |
+| --- | --- | --- |
+| Unit (PHPUnit + Brain Monkey) | `tests/unit/` | Bot-/Referral-Erkennung inkl. Registry-Integrität, IP-Verifikation (CIDR v4/v6), robots.txt-Analyse und -Ausgabe, Markdown, TOC/Anker, FAQ-Schema, GEO-Checks, eingebauter Selbsttest |
+| Integration (echtes WordPress) | `tests/e2e/selftest.php` | Aktivierung, Tracking von Bot- und Referral-Zugriffen, Dedupe, Rollup, robots.txt, llms.txt, .md, JSON-LD, GEO-Checks, REST-Rechte (anonym/Abonnent/Admin), Beacon, Deaktivierung, Deinstallation |
+| Plugin Check | `tests/e2e/plugin-check.php`, `scripts/plugin-check.mjs` | statische Checks des offiziellen Plugin Check in WordPress + seine PHPCS-Regeln (gepinnte Version) |
+| Browser (Playwright) | `tests/e2e/*.spec.js` | Dashboard mit Charts, Filter, CSV-Export, Audit, Einstellungen inkl. Nonce, Erklärseite, Editor-Panel; öffentlich über echtes HTTP: Tracking, Zitat-Alarm, llms.txt, .md mit 304, JSON-LD, TOC, robots.txt |
+
+## Pipeline
+
+[`.github/workflows/ci.yml`](.github/workflows/ci.yml) läuft bei jedem Push auf `main`, in Pull Requests, wöchentlich und manuell. Jeder Job blockiert – das Release-ZIP entsteht nur, wenn alle grün sind.
+
+| Bereich | Prüfung |
+| --- | --- |
+| **Lauffähigkeit** | `php -l` auf PHP 7.4 – 8.5 · PHPUnit auf 7.4 und 8.4 · Integrationstest in echtem WordPress · Browsertests (Playwright) – jeweils auf der ältesten (PHP 7.4 / WP 6.5) und neuesten Kombination |
+| **Sicherheit** | PHPCS `WordPress.Security`/`DB` + VIP-Security-Sniffs · ESLint `no-unsanitized` (DOM-XSS) · REST-Rechte- und Nonce-Tests · Plugin Check (offizielle Action + gepinnte PHPCS-Regeln) · gitleaks über die ganze Historie · `composer audit` / `npm audit` · actionlint + zizmor für die Workflows |
+| **Codequalität** | PHPCS WordPress-Extra ohne Baseline · PHPStan Level 8 gegen PHP 7.4 – 8.5 · PHPCompatibility · ESLint inkl. React-Hooks-Regeln · Dashboard-Bundle passt zum Quellcode |
+| **wordpress.org** | Readme/Header/Versionen/Changelog/Assets (`scripts/repo-checks.mjs`) · „Tested up to“ gegen die aktuelle WP-Version · Links erreichbar · keine externen Ressourcen in den Assets · Übersetzungen vollständig |
+| **ZIP** | reproduzierbar (gleicher Commit → gleiche SHA-256), nur erlaubte Dateitypen, wird nach dem Bauen geprüft (Struktur, Version, Direktzugriffs-Schutz, 10-MB-Limit) |
+
+Actions sind auf Commit-SHAs gepinnt, Werkzeuge werden mit fester Version und SHA-256 geladen, Dependabot hält beides aktuell (mit 7 Tagen Abkühlzeit).
+
+## Release
+
+1. Version in `geo-insights-ai/geo-insights-ai.php` (Header **und** `GEOINS_VERSION`) und `readme.txt` (`Stable tag`) anheben, Changelog-Eintrag `= x.y.z =` ergänzen. `npm run check` meldet jede Abweichung.
+2. Tag pushen:
+
+   ```bash
+   git tag v2.1.0
+   ```
+
+   ```bash
+   git push origin v2.1.0
+   ```
+
+3. [`.github/workflows/release.yml`](.github/workflows/release.yml) führt die komplette CI aus, prüft Tag = Version, erstellt ein GitHub-Release mit ZIP + SHA-256 und – sobald freigeschaltet – deployt genau dieses ZIP nach wordpress.org.
+
+## Veröffentlichung auf wordpress.org (einmalig)
+
+1. Öffentliches GitHub-Repo `lcswll/wordpress-geo` anlegen und pushen – Plugin-URI und readme verlinken darauf, die CI prüft, dass der Link erreichbar ist.
+2. wordpress.org-Konto `lcswll` (steht in `readme.txt` unter `Contributors:`) mit aktivierter Zwei-Faktor-Authentifizierung.
+3. ZIP bauen (`npm run build`) und unter [wordpress.org/plugins/developers/add](https://wordpress.org/plugins/developers/add/) hochladen. Slug: `geo-insights-ai` (am 02.10.2026 noch frei).
+4. Prüfung durch das Plugin-Team abwarten (Mail kommt an die Konto-Adresse; Rückfragen dort beantworten).
+5. Nach der Freigabe: SVN-Passwort unter *Profil → Konto & Sicherheit* erzeugen, im GitHub-Repo die Secrets `SVN_USERNAME` und `SVN_PASSWORD` sowie die Variable `WPORG_DEPLOY=true` setzen. Optional die Umgebung `wordpress-org` mit Freigabe absichern.
+6. Ab dann veröffentlicht jeder Tag automatisch – inklusive Icon, Banner und Screenshots aus `.wordpress-org/`.
+
+Übersetzungen: wordpress.org baut Sprachpakete über translate.wordpress.org; die mitgelieferte deutsche Übersetzung ist nur der Fallback, solange es kein Sprachpaket gibt.
 
 ## Versionshistorie
+
+**2.1.0**: CI-Pipeline wie bei wordpress-mails (PHPCS/PHPStan Level 8 ohne Baseline, Unit-, Integrations- und Browsertests in echtem WordPress, Plugin Check, reproduzierbares ZIP, Release-Workflow mit wordpress.org-Deploy). Mindestversion WordPress 6.5 (Übersetzung als `.l10n.php`, Laden ohne `load_plugin_textdomain()`), alle Statistik-Queries mit `%i`-Identifiern und Spalten-Allowlist, Meta-Box ohne `innerHTML`, Dashboard-Quellcode im Plugin.
 
 **2.0.0**: Chart-Engine auf **Apache ECharts 6.1** umgestellt (Recharts entfernt; `src/dashboard/echart.jsx` = schlanker React-Wrapper mit ResizeObserver + reduced-motion; tree-shaked via `echarts/core`). Neue Visualisierungen: Treemap (Anbieter → Bots), Sankey (Bot → Seite), Crawl-Heatmap (Wochentag × Stunde, Site-Zeitzone; Daten aus `GEOINS_Stats::heatmap()`, in SQL pro UTC-Stunde gruppiert), Score-Gauge. Timeline mit dataZoom-Slider, Donuts mit Rundungen, Referral-Trend als Linie+Fläche. Auf echtem WordPress (Playground) verifiziert.
 
@@ -132,10 +196,6 @@ Danach: **GEO Insights → AI Statistics** im Admin. Außerdem prüfen: `/llms.t
 - llms.txt: Custom Post Types optional aufnehmen
 - Wochenreport optional als CSV-Anhang
 
-## Entwicklung
+## Lizenz
 
-- Prefix: `geoins_` / `GEOINS_`, Text-Domain: `geo-insights-ai`
-- Neue Bots: Filter `geoins_bots`, neue Referral-Quellen: Filter `geoins_referral_sources`, Verify-Quellen: Filter `geoins_verify_sources`
-- Nach String-Änderungen: neue Übersetzungen in `tools-i18n-de.json` ergänzen, dann `python tools-build_i18n.py` (extrahiert selbst, bricht bei fehlenden Übersetzungen ab)
-- Syntax-Check ohne PHP-Binary: `npm i php-parser && node tools-phpcheck.js geo-insights-ai`
-- Laufzeit-Smoke-Tests: `wp geoins selftest` (25+ Assertions über die puren Funktionen)
+GPLv2 oder später – siehe [LICENSE](LICENSE).

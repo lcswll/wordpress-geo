@@ -1,0 +1,3 @@
+{
+	"Internal.Tokenizer.Exception": "PHPCS cannot tokenize the minified dashboard bundle (assets/js/geoins-dashboard.js, React + ECharts built with esbuild). Its readable source ships in src/dashboard/ and is linted with ESLint; CI rebuilds the bundle and fails if it differs from the committed file."
+}

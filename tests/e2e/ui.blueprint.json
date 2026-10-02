@@ -1,0 +1,23 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/wp-admin/admin.php?page=geo-insights",
+	"login": true,
+	"steps": [
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "GEO Insights Test Site",
+				"blogdescription": "Guides about WordPress and AI search",
+				"permalink_structure": "/%postname%/"
+			}
+		},
+		{
+			"step": "activatePlugin",
+			"pluginPath": "geo-insights-ai/geo-insights-ai.php"
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require '/e2e/seed.php';"
+		}
+	]
+}

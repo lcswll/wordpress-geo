@@ -26,9 +26,11 @@ class GEOINS_Alerts {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
-		add_action( 'geoins_hit_logged', array( __CLASS__, 'on_hit' ), 10, 3 );
+		add_action( 'geoins_hit_logged', array( __CLASS__, 'on_hit' ), 10, 2 );
 		// Piggybacks on the existing daily cron event (no extra schedule).
 		add_action( 'geoins_daily_cleanup', array( __CLASS__, 'check_referral_spike' ), 20 );
 	}
@@ -38,9 +40,9 @@ class GEOINS_Alerts {
 	 *
 	 * @param int    $type    Hit type (1 bot, 2 referral).
 	 * @param string $source  Source slug.
-	 * @param int    $post_id Post ID (unused).
+	 * @return void
 	 */
-	public static function on_hit( $type, $source, $post_id ) {
+	public static function on_hit( $type, $source ) {
 		$seen = get_option( 'geoins_seen_sources', null );
 
 		// Fallback seeding (normally done eagerly on activate/upgrade):
@@ -108,6 +110,8 @@ class GEOINS_Alerts {
 	 * Seed the seen-sources map from existing stats data (idempotent).
 	 * Called eagerly on activation and on version upgrades, so historic
 	 * sources never alert while a fresh install alerts from source #1.
+	 *
+	 * @return void
 	 */
 	public static function maybe_seed() {
 		if ( ! is_array( get_option( 'geoins_seen_sources', null ) ) ) {
@@ -139,18 +143,20 @@ class GEOINS_Alerts {
 
 	/**
 	 * Daily: did yesterday's AI referrals spike vs. the prior week?
+	 *
+	 * @return void
 	 */
 	public static function check_referral_spike() {
-		$day_start = strtotime( gmdate( 'Y-m-d', time() - DAY_IN_SECONDS ) );
+		$day_start = (int) strtotime( gmdate( 'Y-m-d', time() - DAY_IN_SECONDS ) );
 		$day_end   = $day_start + DAY_IN_SECONDS;
 
 		$yesterday = 0;
-		foreach ( GEOINS_Stats::merged_group( array( 'hit_type' ), $day_start, $day_end, 'AND hit_type = 2' ) as $row ) {
+		foreach ( GEOINS_Stats::merged_group( array( 'hit_type' ), $day_start, $day_end, 2 ) as $row ) {
 			$yesterday += (int) $row['n'];
 		}
 
 		$prior = 0;
-		foreach ( GEOINS_Stats::merged_group( array( 'hit_type' ), $day_start - ( 7 * DAY_IN_SECONDS ), $day_start, 'AND hit_type = 2' ) as $row ) {
+		foreach ( GEOINS_Stats::merged_group( array( 'hit_type' ), $day_start - ( 7 * DAY_IN_SECONDS ), $day_start, 2 ) as $row ) {
 			$prior += (int) $row['n'];
 		}
 		$avg = $prior / 7;
@@ -176,7 +182,8 @@ class GEOINS_Alerts {
 	 * Store one alert (newest first, capped) and maybe send the email.
 	 *
 	 * @param string $type Alert type: new_bot | new_referral | spike.
-	 * @param array  $data Type-specific payload.
+	 * @param array<string,mixed> $data Type-specific payload.
+	 * @return void
 	 */
 	public static function add_alert( $type, $data ) {
 		$alerts = get_option( 'geoins_alerts', array() );
@@ -201,6 +208,8 @@ class GEOINS_Alerts {
 
 	/**
 	 * Opt-in email: bundle unread alerts, at most one mail per day.
+	 *
+	 * @return void
 	 */
 	protected static function maybe_email() {
 		$settings = geoins()->settings();
@@ -212,9 +221,12 @@ class GEOINS_Alerts {
 		}
 
 		$alerts = get_option( 'geoins_alerts', array() );
-		$unread = array_filter( (array) $alerts, static function ( $alert ) {
-			return empty( $alert['read'] ) && empty( $alert['mailed'] );
-		} );
+		$unread = array_filter(
+			(array) $alerts,
+			static function ( $alert ) {
+				return empty( $alert['read'] ) && empty( $alert['mailed'] );
+			}
+		);
 		if ( empty( $unread ) ) {
 			return;
 		}
@@ -274,7 +286,7 @@ class GEOINS_Alerts {
 	/**
 	 * Plain-text rendering of one alert (for the email).
 	 *
-	 * @param array $alert Alert row.
+	 * @param array<string,mixed> $alert Alert row.
 	 * @return string
 	 */
 	public static function alert_text( $alert ) {
@@ -313,7 +325,7 @@ class GEOINS_Alerts {
 	/**
 	 * Alerts for the dashboard payload.
 	 *
-	 * @return array[]
+	 * @return array<int,array<string,mixed>>
 	 */
 	public static function get_alerts() {
 		$alerts = get_option( 'geoins_alerts', array() );
@@ -322,6 +334,8 @@ class GEOINS_Alerts {
 
 	/**
 	 * Mark all alerts as read.
+	 *
+	 * @return void
 	 */
 	public static function mark_all_read() {
 		$alerts = get_option( 'geoins_alerts', array() );

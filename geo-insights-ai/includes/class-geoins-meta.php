@@ -19,6 +19,8 @@ class GEOINS_Meta {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'wp_head', array( __CLASS__, 'output' ), 4 );
@@ -26,6 +28,8 @@ class GEOINS_Meta {
 
 	/**
 	 * Print meta tags.
+	 *
+	 * @return void
 	 */
 	public static function output() {
 		$settings = geoins()->settings();
@@ -40,7 +44,7 @@ class GEOINS_Meta {
 
 		// Open Graph / Twitter card.
 		$title = is_singular() ? get_the_title() : get_bloginfo( 'name' );
-		$url   = is_singular() ? get_permalink() : home_url( '/' );
+		$url   = is_singular() ? (string) get_permalink() : home_url( '/' );
 
 		echo '<meta property="og:site_name" content="' . esc_attr( get_bloginfo( 'name' ) ) . '" />' . "\n";
 		echo '<meta property="og:title" content="' . esc_attr( $title ) . '" />' . "\n";

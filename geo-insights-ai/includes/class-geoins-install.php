@@ -22,7 +22,7 @@ class GEOINS_Install {
 	/**
 	 * Default settings.
 	 *
-	 * @return array
+	 * @return array<string,mixed>
 	 */
 	public static function defaults() {
 		return array(
@@ -62,10 +62,16 @@ class GEOINS_Install {
 	 * Plugin activation.
 	 *
 	 * @param bool $network_wide Whether the plugin is activated network-wide.
+	 * @return void
 	 */
 	public static function activate( $network_wide = false ) {
 		if ( is_multisite() && $network_wide ) {
-			$site_ids = get_sites( array( 'fields' => 'ids', 'number' => 0 ) );
+			$site_ids = get_sites(
+				array(
+					'fields' => 'ids',
+					'number' => 0,
+				)
+			);
 			foreach ( $site_ids as $site_id ) {
 				switch_to_blog( $site_id );
 				self::activate_single();
@@ -78,6 +84,8 @@ class GEOINS_Install {
 
 	/**
 	 * Activation for one site.
+	 *
+	 * @return void
 	 */
 	protected static function activate_single() {
 		self::create_tables();
@@ -95,6 +103,8 @@ class GEOINS_Install {
 
 	/**
 	 * Ensure cron events exist (per site).
+	 *
+	 * @return void
 	 */
 	public static function schedule_events() {
 		if ( ! wp_next_scheduled( 'geoins_daily_cleanup' ) ) {
@@ -112,6 +122,7 @@ class GEOINS_Install {
 	 * New subsite created while the plugin is network-active.
 	 *
 	 * @param WP_Site $new_site New site object.
+	 * @return void
 	 */
 	public static function initialize_site( $new_site ) {
 		if ( ! function_exists( 'is_plugin_active_for_network' ) ) {
@@ -130,10 +141,16 @@ class GEOINS_Install {
 	 * deactivation must clear them on every site (mirrors activate()).
 	 *
 	 * @param bool $network_wide Whether the plugin is deactivated network-wide.
+	 * @return void
 	 */
 	public static function deactivate( $network_wide = false ) {
 		if ( is_multisite() && $network_wide ) {
-			$site_ids = get_sites( array( 'fields' => 'ids', 'number' => 0 ) );
+			$site_ids = get_sites(
+				array(
+					'fields' => 'ids',
+					'number' => 0,
+				)
+			);
 			foreach ( $site_ids as $site_id ) {
 				switch_to_blog( $site_id );
 				self::deactivate_single();
@@ -146,6 +163,8 @@ class GEOINS_Install {
 
 	/**
 	 * Deactivation for one site.
+	 *
+	 * @return void
 	 */
 	protected static function deactivate_single() {
 		wp_clear_scheduled_hook( 'geoins_daily_cleanup' );
@@ -157,6 +176,8 @@ class GEOINS_Install {
 
 	/**
 	 * Create/upgrade the tables (raw hits + daily aggregate).
+	 *
+	 * @return void
 	 */
 	public static function create_tables() {
 		global $wpdb;
@@ -202,6 +223,8 @@ class GEOINS_Install {
 	/**
 	 * Daily cron: roll raw hits older than ROLLUP_AFTER_DAYS into the
 	 * aggregate table, then enforce the retention setting on both tables.
+	 *
+	 * @return void
 	 */
 	public static function cleanup() {
 		global $wpdb;
@@ -209,27 +232,29 @@ class GEOINS_Install {
 		$hits  = $wpdb->prefix . 'geoins_hits';
 		$daily = $wpdb->prefix . 'geoins_daily';
 
-		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Custom stats tables, cron maintenance.
+		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- Custom stats tables, cron maintenance.
 
 		// 1) Roll up raw rows older than the rollup window.
 		$rollup_cutoff = gmdate( 'Y-m-d H:i:s', time() - ( self::ROLLUP_AFTER_DAYS * DAY_IN_SECONDS ) );
 		$wpdb->query(
 			$wpdb->prepare(
-				"INSERT INTO {$daily} (day, hit_type, source, category, post_id, path, verified, n)
+				'INSERT INTO %i (day, hit_type, source, category, post_id, path, verified, n)
 				SELECT DATE(hit_time), hit_type, source, category, post_id, path, verified, COUNT(*)
-				FROM {$hits} WHERE hit_time < %s
-				GROUP BY DATE(hit_time), hit_type, source, category, post_id, path, verified",
+				FROM %i WHERE hit_time < %s
+				GROUP BY DATE(hit_time), hit_type, source, category, post_id, path, verified',
+				$daily,
+				$hits,
 				$rollup_cutoff
 			)
 		);
-		$wpdb->query( $wpdb->prepare( "DELETE FROM {$hits} WHERE hit_time < %s", $rollup_cutoff ) );
+		$wpdb->query( $wpdb->prepare( 'DELETE FROM %i WHERE hit_time < %s', $hits, $rollup_cutoff ) );
 
 		// 2) Retention on the aggregate table.
 		$settings  = geoins()->settings();
 		$retention = absint( $settings['retention_days'] );
 		if ( $retention > 0 ) {
 			$retention_cutoff = gmdate( 'Y-m-d', time() - ( $retention * DAY_IN_SECONDS ) );
-			$wpdb->query( $wpdb->prepare( "DELETE FROM {$daily} WHERE day < %s", $retention_cutoff ) );
+			$wpdb->query( $wpdb->prepare( 'DELETE FROM %i WHERE day < %s', $daily, $retention_cutoff ) );
 		}
 
 		// phpcs:enable

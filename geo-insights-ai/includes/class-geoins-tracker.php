@@ -26,6 +26,8 @@ class GEOINS_Tracker {
 	 * Priority 20: after redirect_canonical (10), so a visit that is about
 	 * to be 301-redirected to the canonical URL is not logged twice under
 	 * two different paths.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'template_redirect', array( __CLASS__, 'maybe_track' ), 20 );
@@ -33,6 +35,8 @@ class GEOINS_Tracker {
 
 	/**
 	 * Decide whether the current request should be logged.
+	 *
+	 * @return void
 	 */
 	public static function maybe_track() {
 		if ( is_admin() || wp_doing_ajax() || wp_doing_cron() || is_preview() || is_customize_preview() ) {
@@ -130,12 +134,17 @@ class GEOINS_Tracker {
 		}
 
 		if ( isset( $unknown[ $key ] ) ) {
-			$unknown[ $key ]['count']++;
+			++$unknown[ $key ]['count'];
 			$unknown[ $key ]['last'] = time();
 		} else {
 			if ( count( $unknown ) >= 50 ) {
 				// Drop the least-seen entry to make room (keys must survive).
-				uasort( $unknown, static function ( $a, $b ) { return $a['count'] - $b['count']; } );
+				uasort(
+					$unknown,
+					static function ( $a, $b ) {
+						return $a['count'] - $b['count'];
+					}
+				);
 				reset( $unknown );
 				unset( $unknown[ key( $unknown ) ] );
 			}
@@ -153,7 +162,7 @@ class GEOINS_Tracker {
 	/**
 	 * Unknown AI-like crawlers for the dashboard, most active first.
 	 *
-	 * @return array[] Each: { key, ua, count, first, last }.
+	 * @return array<int,array<string,mixed>> Each: { key, ua, count, first, last }.
 	 */
 	public static function unknown_bots() {
 		$unknown = get_option( 'geoins_unknown_bots', array() );
@@ -170,7 +179,12 @@ class GEOINS_Tracker {
 				'last'  => isset( $entry['last'] ) ? (int) $entry['last'] : 0,
 			);
 		}
-		usort( $out, static function ( $a, $b ) { return $b['count'] - $a['count']; } );
+		usort(
+			$out,
+			static function ( $a, $b ) {
+				return $b['count'] - $a['count'];
+			}
+		);
 		return $out;
 	}
 
@@ -236,6 +250,7 @@ class GEOINS_Tracker {
 	 * regular tracker runs.
 	 *
 	 * @param int $post_id Post the endpoint content belongs to (0 = none).
+	 * @return void
 	 */
 	public static function track_endpoint_hit( $post_id = 0 ) {
 		$settings = geoins()->settings();
@@ -259,6 +274,7 @@ class GEOINS_Tracker {
 	 * @param int         $verified Verification state (GEOINS_Verify constant).
 	 * @param string|null $path     Override path (default: current REQUEST_URI).
 	 * @param int|null    $post_id  Override post ID (default: current queried object).
+	 * @return void
 	 */
 	protected static function log( $type, $source, $category, $verified = 2, $path = null, $post_id = null ) {
 		global $wpdb;
@@ -286,7 +302,7 @@ class GEOINS_Tracker {
 		// CDN/proxy the real visitor IP is used, not the shared proxy IP.
 		if ( self::TYPE_REFERRAL === $type ) {
 			$ip         = GEOINS_Verify::client_ip();
-			$ua         = isset( $_SERVER['HTTP_USER_AGENT'] ) ? wp_unslash( $_SERVER['HTTP_USER_AGENT'] ) : '';
+			$ua         = isset( $_SERVER['HTTP_USER_AGENT'] ) ? sanitize_text_field( wp_unslash( $_SERVER['HTTP_USER_AGENT'] ) ) : '';
 			$dedupe_key = 'geoins_r_' . hash_hmac( 'sha256', $source . '|' . $path . '|' . $ip . '|' . $ua, wp_salt() );
 			if ( get_transient( $dedupe_key ) ) {
 				return;

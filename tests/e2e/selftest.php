@@ -1,0 +1,367 @@
+<?php
+/**
+ * Integration self-test inside a real WordPress (Playground): activation, the built-in self-test, tracking of bot
+ * and referral hits, rollup, robots.txt, llms.txt, Markdown, structured data, GEO checks, REST API incl.
+ * permissions, beacon, deactivation and uninstall.
+ *
+ * Writes /e2e-out/selftest.json (scripts/e2e.mjs reads it and fails on any failed assertion).
+ *
+ * phpcs:disable WordPress.NamingConventions.PrefixAllGlobals, WordPress.WP.AlternativeFunctions, WordPress.DB.DirectDatabaseQuery, WordPress.Security.NonceVerification
+ *
+ * @package GEO_Insights
+ */
+
+require '/wordpress/wp-load.php';
+require_once ABSPATH . 'wp-admin/includes/plugin.php';
+
+$results = array();
+
+/**
+ * Records one assertion.
+ *
+ * @param bool   $ok
+ * @param string $name
+ * @param mixed  $detail
+ */
+function check( $ok, $name, $detail = null ) {
+	global $results;
+	$results[] = array(
+		'ok'     => (bool) $ok,
+		'name'   => $name,
+		'detail' => $ok ? null : $detail,
+	);
+}
+
+/** @return WP_REST_Response */
+function rest( $method, $route, $params = array(), $headers = array() ) {
+	$request = new WP_REST_Request( $method, '/geoins/v1' . $route );
+	foreach ( $params as $key => $value ) {
+		$request->set_param( $key, $value );
+	}
+	foreach ( $headers as $key => $value ) {
+		$request->set_header( $key, $value );
+	}
+	return rest_ensure_response( rest_do_request( $request ) );
+}
+
+/** Simulates a front-end page view of $post_id with the given request headers and runs the tracker. */
+function visit( $post_id, $user_agent, $referrer = '', $query = array() ) {
+	$_SERVER['HTTP_USER_AGENT'] = $user_agent;
+	$_SERVER['REQUEST_URI']     = wp_parse_url( get_permalink( $post_id ), PHP_URL_PATH ) . ( $query ? '?' . http_build_query( $query ) : '' );
+	$_SERVER['REMOTE_ADDR']     = '203.0.113.' . wp_rand( 1, 250 );
+	if ( '' !== $referrer ) {
+		$_SERVER['HTTP_REFERER'] = $referrer;
+	} else {
+		unset( $_SERVER['HTTP_REFERER'] );
+	}
+	$_GET = $query;
+	$GLOBALS['wp_query']->query( array( 'p' => $post_id ) );
+	$GLOBALS['wp_the_query'] = $GLOBALS['wp_query'];
+	GEOINS_Tracker::maybe_track();
+}
+
+function hits( $where = '1=1' ) {
+	global $wpdb;
+	return $wpdb->get_results( "SELECT * FROM {$wpdb->prefix}geoins_hits WHERE {$where} ORDER BY id", ARRAY_A ); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- test harness.
+}
+
+try {
+	global $wpdb;
+	$hits_table  = $wpdb->prefix . 'geoins_hits';
+	$daily_table = $wpdb->prefix . 'geoins_daily';
+	$plugin      = 'geo-insights-ai/geo-insights-ai.php';
+
+	// ---------------------------------------------------------------- activation.
+	check( is_plugin_active( $plugin ), 'plugin is active' );
+	check( $hits_table === $wpdb->get_var( $wpdb->prepare( 'SHOW TABLES LIKE %s', $hits_table ) ), 'hits table exists', $wpdb->last_error );
+	check( $daily_table === $wpdb->get_var( $wpdb->prepare( 'SHOW TABLES LIKE %s', $daily_table ) ), 'daily table exists', $wpdb->last_error );
+	check( GEOINS_DB_VERSION === get_option( 'geoins_db_version' ), 'schema version stored', get_option( 'geoins_db_version' ) );
+	check( is_array( get_option( 'geoins_settings' ) ), 'default settings stored' );
+	foreach ( array( 'geoins_daily_cleanup', 'geoins_refresh_ip_ranges', 'geoins_weekly_report' ) as $hook ) {
+		check( (bool) wp_next_scheduled( $hook ), "cron {$hook} scheduled" );
+	}
+
+	// --------------------------------------------------------- built-in self-test.
+	$self = GEOINS_Selftest::run();
+	check( array() === $self['failures'], "built-in self-test ({$self['passed']} assertions)", $self['failures'] );
+
+	// ------------------------------------------------------------------- content.
+	update_option( 'permalink_structure', '/%postname%/' );
+	flush_rewrite_rules( false );
+	$admin = get_user_by( 'login', 'admin' );
+	update_user_meta( $admin->ID, 'description', 'Writes about WordPress and GEO since 2019.' );
+	$post_id = wp_insert_post(
+		array(
+			'post_title'   => 'WordPress Backup Guide',
+			'post_name'    => 'wordpress-backup-guide',
+			'post_status'  => 'publish',
+			'post_author'  => $admin->ID,
+			'post_content' => '<p>A WordPress backup plugin copies your database and files to a safe place so you can restore the site after a crash, a hack or a bad update in 10 minutes.</p>' .
+				'<h2>Why do you need a WordPress backup?</h2><p>Because hosting backups are often incomplete. In a 2025 survey, 43% of site owners lost data at least once.</p>' .
+				'<h2>Which backup plugin is best?</h2><ul><li>UpdraftPlus – free</li><li>BlogVault – paid</li></ul><p>See <a href="https://wordpress.org/plugins/updraftplus/">the plugin page</a>.</p>',
+		)
+	);
+	update_post_meta( $post_id, '_geoins_keyword', 'WordPress backup' );
+	wp_insert_post(
+		array(
+			'post_title'   => 'Secret draft',
+			'post_status'  => 'draft',
+			'post_content' => '<p>Not public.</p>',
+		)
+	);
+	check( $post_id > 0, 'test post created' );
+
+	// ------------------------------------------------------------------ tracking.
+	$wpdb->query( "TRUNCATE TABLE {$hits_table}" ); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+	wp_set_current_user( 0 );
+
+	visit( $post_id, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)' );
+	$rows = hits();
+	check( 1 === count( $rows ), 'bot hit logged', $rows );
+	check( isset( $rows[0] ) && 'gptbot' === $rows[0]['source'] && (int) $rows[0]['post_id'] === $post_id, 'bot hit: source + post', $rows );
+	check( isset( $rows[0] ) && '/wordpress-backup-guide/' === $rows[0]['path'], 'bot hit: path', $rows );
+	check( isset( $rows[0] ) && (string) GEOINS_Bots::CAT_TRAINING === $rows[0]['category'], 'bot hit: category', $rows );
+
+	visit( $post_id, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Firefox/130.0' );
+	check( 1 === count( hits() ), 'ordinary browser is not logged' );
+
+	visit( $post_id, 'Mozilla/5.0 Firefox/130.0', 'https://chatgpt.com/' );
+	visit( $post_id, 'Mozilla/5.0 Safari/605.1', '', array( 'utm_source' => 'perplexity' ) );
+	visit( $post_id, 'Mozilla/5.0 Safari/605.1', home_url( '/other/' ) );
+	$referrals = hits( 'hit_type = 2' );
+	check( array( 'chatgpt', 'perplexity' ) === array_column( $referrals, 'source' ), 'referrals via Referer and utm_source, internal navigation ignored', $referrals );
+
+	// Referral dedupe: the same visitor reloading within 60 s counts once.
+	$_SERVER['REMOTE_ADDR'] = '198.51.100.7';
+	$before                 = count( hits() );
+	foreach ( array( 1, 2 ) as $ignored ) {
+		$_SERVER['HTTP_USER_AGENT'] = 'Mozilla/5.0 Dedupe';
+		$_SERVER['HTTP_REFERER']    = 'https://claude.ai/chat/x';
+		$_GET                       = array();
+		GEOINS_Tracker::maybe_track();
+	}
+	check( count( hits() ) === $before + 1, 'referral reload deduplicated' );
+
+	// Logged-in users are never counted as AI visitors.
+	wp_set_current_user( $admin->ID );
+	$before = count( hits() );
+	visit( $post_id, 'Mozilla/5.0 Firefox/130.0', 'https://gemini.google.com/' );
+	check( count( hits() ) === $before, 'logged-in visitor not counted' );
+	wp_set_current_user( 0 );
+
+	// No PII: the hits table has no column for IPs, user agents or referrers.
+	$columns = $wpdb->get_col( "SHOW COLUMNS FROM {$hits_table}" ); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+	check( array() === array_intersect( array( 'ip', 'user_agent', 'ua', 'referrer', 'referer' ), $columns ), 'no personal data columns', $columns );
+
+	// Settings off → nothing is logged.
+	$settings               = get_option( 'geoins_settings' );
+	$settings['track_bots'] = 0;
+	update_option( 'geoins_settings', $settings );
+	geoins()->flush_settings_cache();
+	$before = count( hits() );
+	visit( $post_id, 'Mozilla/5.0 (compatible; ClaudeBot/1.0)' );
+	check( count( hits() ) === $before, 'bot tracking can be switched off' );
+	$settings['track_bots'] = 1;
+	update_option( 'geoins_settings', $settings );
+	geoins()->flush_settings_cache();
+
+	// ------------------------------------------------------------- statistics.
+	$totals = GEOINS_Stats::totals( time() - DAY_IN_SECONDS, time() + 60 );
+	check( is_array( $totals ), 'stats totals', $totals );
+
+	// Rollup: raw hits older than 7 days are compressed into the daily table.
+	$wpdb->insert(
+		$hits_table,
+		array(
+			'hit_time' => gmdate( 'Y-m-d H:i:s', time() - 10 * DAY_IN_SECONDS ),
+			'hit_type' => 1,
+			'source'   => 'claudebot',
+			'category' => GEOINS_Bots::CAT_TRAINING,
+			'post_id'  => $post_id,
+			'path'     => '/wordpress-backup-guide/',
+			'verified' => 2,
+		)
+	);
+	GEOINS_Install::cleanup();
+	$old_raw = (int) $wpdb->get_var( $wpdb->prepare( 'SELECT COUNT(*) FROM %i WHERE hit_time < %s', $hits_table, gmdate( 'Y-m-d H:i:s', time() - 8 * DAY_IN_SECONDS ) ) );
+	$rolled  = (int) $wpdb->get_var( $wpdb->prepare( 'SELECT SUM(n) FROM %i WHERE source = %s', $daily_table, 'claudebot' ) );
+	check( 0 === $old_raw && 1 === $rolled, 'old raw hits rolled up into the daily table', compact( 'old_raw', 'rolled' ) );
+
+	// --------------------------------------------------------------- robots.txt.
+	$settings['blocked_bots'] = array( 'gptbot', 'ccbot' );
+	update_option( 'geoins_settings', $settings );
+	geoins()->flush_settings_cache();
+	$robots = apply_filters( 'robots_txt', "User-agent: *\nDisallow: /wp-admin/\n", true );
+	check( false !== strpos( $robots, "User-agent: GPTBot\nDisallow: /" ) && false !== strpos( $robots, "User-agent: CCBot\nDisallow: /" ), 'robots.txt blocks the selected bots', $robots );
+	check( false === strpos( $robots, 'ClaudeBot' ), 'robots.txt leaves other bots alone', $robots );
+	check( 'X' === apply_filters( 'robots_txt', 'X', false ), 'robots.txt untouched on private sites' );
+
+	// ------------------------------------------------------------- llms.txt / .md.
+	GEOINS_Llms_Txt::flush_cache();
+	$llms = GEOINS_Llms_Txt::build();
+	check( 0 === strpos( $llms, '# ' ), 'llms.txt starts with an H1', substr( $llms, 0, 80 ) );
+	check( false !== strpos( $llms, 'WordPress Backup Guide' ), 'llms.txt lists published posts', $llms );
+	check( false === strpos( $llms, 'Secret draft' ), 'llms.txt hides drafts', $llms );
+
+	$md = GEOINS_Markdown::post_markdown( get_post( $post_id ) );
+	check( false !== strpos( $md, '## Why do you need a WordPress backup?' ) && false !== strpos( $md, '- UpdraftPlus' ), 'post as Markdown', $md );
+	check( false !== strpos( (string) GEOINS_Markdown::md_url( $post_id ), 'wordpress-backup-guide' ), '.md URL', GEOINS_Markdown::md_url( $post_id ) );
+	$full = GEOINS_Markdown::build_llms_full();
+	check( false !== strpos( $full, 'WordPress Backup Guide' ) && false === strpos( $full, 'Not public.' ), 'llms-full.txt has public content only' );
+
+	// ------------------------------------------------------------- structured data.
+	$GLOBALS['wp_query']->query( array( 'p' => $post_id ) );
+	$GLOBALS['wp_the_query'] = $GLOBALS['wp_query'];
+	$GLOBALS['post']         = get_post( $post_id );
+	ob_start();
+	GEOINS_Schema::output();
+	$schema_html = (string) ob_get_clean();
+	check( false !== strpos( $schema_html, 'application/ld+json' ), 'JSON-LD printed on a post', $schema_html );
+	preg_match( '#<script type="application/ld\+json"[^>]*>(.*?)</script>#s', $schema_html, $json_m );
+	$schema = isset( $json_m[1] ) ? json_decode( $json_m[1], true ) : null;
+	check( is_array( $schema ), 'JSON-LD is valid JSON', $schema_html );
+	$types = array();
+	array_walk_recursive(
+		$schema,
+		static function ( $value, $key ) use ( &$types ) {
+			if ( '@type' === $key ) {
+				$types[] = $value;
+			}
+		}
+	);
+	foreach ( array( 'WebSite', 'Article', 'FAQPage' ) as $type ) {
+		check( in_array( $type, $types, true ), "JSON-LD contains {$type}", $types );
+	}
+
+	// ----------------------------------------------------------------- GEO checks.
+	$analysis = GEOINS_Analysis::analyze( get_post( $post_id ) );
+	$passed   = array_column( $analysis['checks'], 'pass', 'id' );
+	check( 13 === $analysis['total'], '13 GEO checks', $analysis['total'] );
+	check( $passed['keyword_set'] && $passed['keyword_in_title'] && $passed['answer_first'] && $passed['question_headings'] && $passed['lists_tables'] && $passed['external_links'] && $passed['author_bio'], 'GEO checks recognise a well-structured post', $passed );
+	check( ! $passed['word_count'], 'GEO checks flag thin content', $passed );
+
+	// ---------------------------------------------------------------- REST API.
+	wp_set_current_user( 0 );
+	check( 401 === rest( 'GET', '/dashboard' )->get_status(), 'dashboard: anonymous → 401', rest( 'GET', '/dashboard' )->get_status() );
+	check( 401 === rest( 'GET', '/selftest' )->get_status(), 'selftest: anonymous → 401' );
+	check( 401 === rest( 'GET', '/audit' )->get_status(), 'audit: anonymous → 401' );
+
+	$subscriber = wp_insert_user(
+		array(
+			'user_login' => 'e2e-subscriber',
+			'user_pass'  => wp_generate_password(),
+			'role'       => 'subscriber',
+		)
+	);
+	wp_set_current_user( $subscriber );
+	check( 403 === rest( 'GET', '/dashboard' )->get_status(), 'dashboard: subscriber → 403' );
+	check( 403 === rest( 'POST', '/audit/run' )->get_status(), 'audit run: subscriber → 403' );
+
+	wp_set_current_user( $admin->ID );
+	$dash = rest( 'GET', '/dashboard', array( 'days' => 30 ) );
+	check( 200 === $dash->get_status(), 'dashboard: admin → 200', $dash->get_data() );
+	$data = (array) $dash->get_data();
+	check( isset( $data['totals'] ), 'dashboard has totals', array_keys( $data ) );
+	$filtered = rest(
+		'GET',
+		'/dashboard',
+		array(
+			'days'    => 30,
+			'sources' => 'gptbot,not-a-source',
+		)
+	);
+	check( 200 === $filtered->get_status(), 'dashboard: company filter accepted', $filtered->get_data() );
+	$self_rest = rest( 'GET', '/selftest' )->get_data();
+	check( isset( $self_rest['failures'] ) && array() === $self_rest['failures'], 'selftest via REST', $self_rest );
+	$audit_run = rest( 'POST', '/audit/run', array( 'batch' => 10 ) );
+	check( 200 === $audit_run->get_status(), 'audit batch runs', $audit_run->get_data() );
+	$audit = rest( 'GET', '/audit' );
+	check( 200 === $audit->get_status() && ! empty( $audit->get_data()['rows'] ), 'audit lists scored posts', $audit->get_data() );
+
+	// ------------------------------------------------------------------- beacon.
+	wp_set_current_user( 0 );
+	$beacon = rest(
+		'POST',
+		'/beacon',
+		array(
+			'source' => 'chatgpt',
+			'path'   => '/x/',
+		)
+	);
+	check( 404 === $beacon->get_status(), 'beacon off by default (404)', $beacon->get_status() );
+	$settings['referral_beacon'] = 1;
+	update_option( 'geoins_settings', $settings );
+	geoins()->flush_settings_cache();
+	$before                     = count( hits() );
+	$_SERVER['HTTP_USER_AGENT'] = 'Mozilla/5.0 Beacon visitor';
+	$beacon                     = rest(
+		'POST',
+		'/beacon',
+		array(
+			'source' => 'chatgpt',
+			'path'   => '/wordpress-backup-guide/',
+		)
+	);
+	$new                        = array_slice( hits(), $before );
+	check( 204 === $beacon->get_status() && 1 === count( $new ) && 'chatgpt' === $new[0]['source'] && (int) $new[0]['post_id'] === $post_id, 'beacon records an AI visit', compact( 'new' ) );
+	$before = count( hits() );
+	rest(
+		'POST',
+		'/beacon',
+		array(
+			'source' => 'chatgpt',
+			'path'   => '/made-up-path/',
+		)
+	);
+	check( count( hits() ) === $before, 'beacon ignores paths that are no page of the site' );
+	$bad = rest(
+		'POST',
+		'/beacon',
+		array(
+			'source' => 'evil',
+			'path'   => '/x/',
+		)
+	);
+	check( 400 === $bad->get_status(), 'beacon rejects unknown sources', $bad->get_status() );
+	$cross = rest(
+		'POST',
+		'/beacon',
+		array(
+			'source' => 'chatgpt',
+			'path'   => '/x/',
+		),
+		array( 'origin' => 'https://evil.example' )
+	);
+	check( 403 === $cross->get_status(), 'beacon rejects cross-site posts', $cross->get_status() );
+
+	// ---------------------------------------------- deactivation, uninstall.
+	deactivate_plugins( $plugin );
+	check( ! wp_next_scheduled( 'geoins_daily_cleanup' ), 'deactivation clears cron' );
+	check( $hits_table === $wpdb->get_var( $wpdb->prepare( 'SHOW TABLES LIKE %s', $hits_table ) ), 'deactivation keeps the data' );
+
+	$settings['delete_on_uninstall'] = 1;
+	update_option( 'geoins_settings', $settings );
+	uninstall_plugin( $plugin );
+	check( null === $wpdb->get_var( $wpdb->prepare( 'SHOW TABLES LIKE %s', $hits_table ) ), 'uninstall drops the tables (opt-in)' );
+	check( false === get_option( 'geoins_settings' ), 'uninstall deletes the settings' );
+	check( '' === get_post_meta( $post_id, '_geoins_keyword', true ), 'uninstall deletes the post meta' );
+	$leftover = $wpdb->get_col( $wpdb->prepare( 'SELECT option_name FROM %i WHERE option_name LIKE %s', $wpdb->options, $wpdb->esc_like( 'geoins' ) . '%' ) );
+	check( array() === $leftover, 'no options left behind', $leftover );
+} catch ( Throwable $e ) {
+	check( false, 'uncaught ' . get_class( $e ), $e->getMessage() . ' @ ' . $e->getFile() . ':' . $e->getLine() );
+}
+
+$failed = count( array_filter( $results, static fn( $r ) => ! $r['ok'] ) );
+file_put_contents(
+	'/e2e-out/selftest.json',
+	wp_json_encode(
+		array(
+			'php'     => PHP_VERSION,
+			'wp'      => get_bloginfo( 'version' ),
+			'passed'  => count( $results ) - $failed,
+			'failed'  => $failed,
+			'results' => $results,
+		),
+		JSON_PRETTY_PRINT
+	)
+);

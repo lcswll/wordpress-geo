@@ -23,6 +23,8 @@ class GEOINS_Rest {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'rest_api_init', array( __CLASS__, 'register_routes' ) );
@@ -30,6 +32,8 @@ class GEOINS_Rest {
 
 	/**
 	 * Register the routes.
+	 *
+	 * @return void
 	 */
 	public static function register_routes() {
 		$admin_only = static function () {
@@ -162,11 +166,26 @@ class GEOINS_Rest {
 				},
 				'permission_callback' => $editor_up,
 				'args'                => array(
-					'orderby'  => array( 'type' => 'string', 'default' => 'score' ),
-					'order'    => array( 'type' => 'string', 'default' => 'asc' ),
-					'type'     => array( 'type' => 'string', 'default' => '' ),
-					'page'     => array( 'type' => 'integer', 'default' => 1 ),
-					'per_page' => array( 'type' => 'integer', 'default' => 50 ),
+					'orderby'  => array(
+						'type'    => 'string',
+						'default' => 'score',
+					),
+					'order'    => array(
+						'type'    => 'string',
+						'default' => 'asc',
+					),
+					'type'     => array(
+						'type'    => 'string',
+						'default' => '',
+					),
+					'page'     => array(
+						'type'    => 'integer',
+						'default' => 1,
+					),
+					'per_page' => array(
+						'type'    => 'integer',
+						'default' => 50,
+					),
 				),
 			)
 		);

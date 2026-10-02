@@ -28,6 +28,8 @@ class GEOINS_Audit {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'save_post', array( __CLASS__, 'invalidate' ) );
@@ -37,6 +39,7 @@ class GEOINS_Audit {
 	 * Drop the cached score when a post changes.
 	 *
 	 * @param int $post_id Post ID.
+	 * @return void
 	 */
 	public static function invalidate( $post_id ) {
 		delete_post_meta( $post_id, self::META_SCORE );
@@ -57,6 +60,8 @@ class GEOINS_Audit {
 	/**
 	 * Force a full re-scan: bump the generation so every cached score is
 	 * considered stale (time- and author-dependent checks refresh too).
+	 *
+	 * @return void
 	 */
 	public static function bump_generation() {
 		update_option( 'geoins_audit_gen', (int) get_option( 'geoins_audit_gen', 1 ) + 1, false );
@@ -163,6 +168,9 @@ class GEOINS_Audit {
 		$analyzed = 0;
 		$start    = microtime( true );
 		foreach ( $posts as $post ) {
+			if ( ! $post instanceof WP_Post ) {
+				continue; // Queries above never use 'fields' => 'ids'; this only narrows the type.
+			}
 			try {
 				self::score_post( $post );
 			} catch ( \Throwable $e ) {
@@ -170,7 +178,7 @@ class GEOINS_Audit {
 				update_post_meta( $post->ID, self::META_FAILS, '' );
 				update_post_meta( $post->ID, self::META_V, self::checks_version() );
 			}
-			$analyzed++;
+			++$analyzed;
 			if ( microtime( true ) - $start > 15 ) {
 				break;
 			}
@@ -209,7 +217,7 @@ class GEOINS_Audit {
 	 * accesses in the last 30 days plotted against their score (bounded
 	 * to the 150 most-read posts).
 	 *
-	 * @return array{distribution:array[],points:array[]}
+	 * @return array{distribution:array<int,array{score:int,n:int}>,points:array<int,array<string,mixed>>}
 	 */
 	public static function summary() {
 		global $wpdb;
@@ -249,9 +257,21 @@ class GEOINS_Audit {
 		}
 
 		// Opportunity points: pages AI actually reads, with their score.
-		$from  = time() - ( 30 * DAY_IN_SECONDS );
-		$hits  = GEOINS_Stats::merged_group( array( 'post_id' ), $from, time(), 'AND hit_type = 1 AND post_id > 0' );
-		usort( $hits, static function ( $a, $b ) { return (int) $b['n'] - (int) $a['n']; } );
+		$from = time() - ( 30 * DAY_IN_SECONDS );
+		$hits = array_values(
+			array_filter(
+				GEOINS_Stats::merged_group( array( 'post_id' ), $from, time(), 1 ),
+				static function ( $row ) {
+					return (int) $row['post_id'] > 0; // Hits on non-post URLs carry post_id 0.
+				}
+			)
+		);
+		usort(
+			$hits,
+			static function ( $a, $b ) {
+				return (int) $b['n'] - (int) $a['n'];
+			}
+		);
 		$hits = array_slice( $hits, 0, 150 );
 
 		$ids = array_map( 'intval', wp_list_pluck( $hits, 'post_id' ) );
@@ -297,9 +317,9 @@ class GEOINS_Audit {
 	/**
 	 * One page of the audit table, sorted.
 	 *
-	 * @param array $args { orderby: score|modified|title, order: asc|desc,
-	 *                      type: ''|post|page, page: int, per_page: int }.
-	 * @return array{rows:array[],found:int,pages:int}
+	 * @param array<string,mixed> $args { orderby: score|modified|title, order: asc|desc,
+	 *                                    type: ''|post|page, page: int, per_page: int }.
+	 * @return array{rows:array<int,array<string,mixed>>,found:int,pages:int}
 	 */
 	public static function get_rows( $args ) {
 		$orderby  = isset( $args['orderby'] ) ? $args['orderby'] : 'score';
@@ -352,6 +372,9 @@ class GEOINS_Audit {
 
 		$rows = array();
 		foreach ( $query->posts as $post ) {
+			if ( ! $post instanceof WP_Post ) {
+				continue; // No 'fields' => 'ids' above; this only narrows the type.
+			}
 			$fails  = (string) get_post_meta( $post->ID, self::META_FAILS, true );
 			$rows[] = array(
 				'id'       => $post->ID,

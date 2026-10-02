@@ -29,7 +29,7 @@ class GEOINS_Selftest {
 
 		$check = static function ( $label, $actual, $expected ) use ( &$failures, &$passed ) {
 			if ( $actual === $expected ) {
-				$passed++;
+				++$passed;
 			} else {
 				$failures[] = sprintf( '%s: expected %s, got %s', $label, wp_json_encode( $expected ), wp_json_encode( $actual ) );
 			}

@@ -20,54 +20,64 @@ if ( ! defined( 'ABSPATH' ) ) {
 class GEOINS_Stats {
 
 	/**
+	 * Columns merged_group() may group by (present in both tables; 'day' is
+	 * DATE(hit_time) on the raw table).
+	 */
+	const GROUP_COLUMNS = array( 'day', 'hit_type', 'source', 'category', 'post_id', 'path', 'verified' );
+
+	/**
 	 * Run the same GROUP BY over the raw and the aggregate table and merge
 	 * the results by composite key, summing the counts.
 	 *
-	 * @param string[]      $keys    Column names to group by (must exist in both tables).
-	 * @param int           $from_ts Range start (unix, UTC).
-	 * @param int           $to_ts   Range end (unix, UTC).
-	 * @param string        $where   Optional extra WHERE fragment (safe, static SQL).
-	 * @param string[]|null $sources Optional source-slug filter (validated by the caller).
-	 * @return array[] Rows as associative arrays with the keys + 'n'.
+	 * @param string[]      $keys     Column names to group by (subset of GROUP_COLUMNS; others are ignored).
+	 * @param int           $from_ts  Range start (unix, UTC).
+	 * @param int           $to_ts    Range end (unix, UTC).
+	 * @param int           $hit_type Optional hit-type filter (1 bot, 2 referral; 0 = all).
+	 * @param string[]|null $sources  Optional source-slug filter (validated by the caller).
+	 * @return array<int,array<string,mixed>> Rows as associative arrays with the keys + 'n' (int).
 	 */
-	public static function merged_group( $keys, $from_ts, $to_ts, $where = '', $sources = null ) {
+	public static function merged_group( $keys, $from_ts, $to_ts, $hit_type = 0, $sources = null ) {
 		global $wpdb;
 
-		$hits  = $wpdb->prefix . 'geoins_hits';
-		$daily = $wpdb->prefix . 'geoins_daily';
-
-		$cols_raw   = array();
-		$cols_daily = array();
-		foreach ( $keys as $key ) {
-			if ( 'day' === $key ) {
-				$cols_raw[]   = 'DATE(hit_time) AS day';
-				$cols_daily[] = 'day';
-			} else {
-				$cols_raw[]   = $key;
-				$cols_daily[] = $key;
-			}
+		// Identifiers come from a fixed allow-list and go through %i.
+		$keys = array_values( array_intersect( array_values( array_unique( $keys ) ), self::GROUP_COLUMNS ) );
+		if ( empty( $keys ) ) {
+			return array();
 		}
-		$group_raw   = implode( ', ', array_map( static function ( $k ) { return 'day' === $k ? 'DATE(hit_time)' : $k; }, $keys ) );
-		$group_daily = implode( ', ', $keys );
+		$by_day = in_array( 'day', $keys, true );
+		$cols   = array_values( array_diff( $keys, array( 'day' ) ) );
 
-		// Optional per-AI filter: appended as prepared IN(...) placeholders.
-		$source_args = array();
-		if ( is_array( $sources ) && ! empty( $sources ) ) {
-			$where      .= ' AND source IN (' . implode( ',', array_fill( 0, count( $sources ), '%s' ) ) . ')';
-			$source_args = array_values( $sources );
+		$hits     = $wpdb->prefix . 'geoins_hits';
+		$daily    = $wpdb->prefix . 'geoins_daily';
+		$hit_type = (int) $hit_type;
+
+		// Optional per-AI filter as prepared IN(...) placeholders. Without a
+		// filter the "0 = 0 OR ..." branch is constant-folded by MySQL, so the
+		// dummy list entry never matters.
+		$filter_sources = is_array( $sources ) && ! empty( $sources );
+		$source_list    = $filter_sources ? array_values( array_map( 'strval', $sources ) ) : array( '' );
+
+		$raw_range   = array( gmdate( 'Y-m-d H:i:s', $from_ts ), gmdate( 'Y-m-d H:i:s', $to_ts ) );
+		$filter_args = array_merge( array( $hit_type, $hit_type, (int) $filter_sources ), $source_list );
+
+		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- Custom stats tables; live dashboard data.
+		if ( $by_day ) {
+			$raw_rows = $wpdb->get_results(
+				$wpdb->prepare(
+					'SELECT DATE(hit_time) AS day, ' . implode( '', array_fill( 0, count( $cols ), '%i, ' ) ) . 'COUNT(*) AS n FROM %i WHERE hit_time >= %s AND hit_time < %s AND ( 0 = %d OR hit_type = %d ) AND ( 0 = %d OR source IN (' . implode( ',', array_fill( 0, count( $source_list ), '%s' ) ) . ') ) GROUP BY DATE(hit_time)' . implode( '', array_fill( 0, count( $cols ), ', %i' ) ),
+					array_merge( $cols, array( $hits ), $raw_range, $filter_args, $cols )
+				),
+				ARRAY_A
+			);
+		} else {
+			$raw_rows = $wpdb->get_results(
+				$wpdb->prepare(
+					'SELECT ' . implode( '', array_fill( 0, count( $cols ), '%i, ' ) ) . 'COUNT(*) AS n FROM %i WHERE hit_time >= %s AND hit_time < %s AND ( 0 = %d OR hit_type = %d ) AND ( 0 = %d OR source IN (' . implode( ',', array_fill( 0, count( $source_list ), '%s' ) ) . ') ) GROUP BY ' . implode( ', ', array_fill( 0, count( $cols ), '%i' ) ),
+					array_merge( $cols, array( $hits ), $raw_range, $filter_args, $cols )
+				),
+				ARRAY_A
+			);
 		}
-
-		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Custom stats tables; identifiers are plugin-controlled, values prepared.
-		$raw_rows = $wpdb->get_results(
-			$wpdb->prepare(
-				'SELECT ' . implode( ', ', $cols_raw ) . ", COUNT(*) AS n FROM {$hits} WHERE hit_time >= %s AND hit_time < %s {$where} GROUP BY {$group_raw}",
-				array_merge(
-					array( gmdate( 'Y-m-d H:i:s', $from_ts ), gmdate( 'Y-m-d H:i:s', $to_ts ) ),
-					$source_args
-				)
-			),
-			ARRAY_A
-		);
 		// Daily rows carry whole calendar days, so the lower bound moves to
 		// the first FULL day inside the window: consecutive windows (current
 		// vs. previous period) then partition the days instead of both
@@ -76,10 +86,12 @@ class GEOINS_Stats {
 		// covered) day instead of skipping it – mid-day values are unchanged.
 		$daily_rows = $wpdb->get_results(
 			$wpdb->prepare(
-				'SELECT ' . implode( ', ', $cols_daily ) . ", SUM(n) AS n FROM {$daily} WHERE day >= %s AND day < %s {$where} GROUP BY {$group_daily}",
+				'SELECT ' . implode( '', array_fill( 0, count( $keys ), '%i, ' ) ) . 'SUM(n) AS n FROM %i WHERE day >= %s AND day < %s AND ( 0 = %d OR hit_type = %d ) AND ( 0 = %d OR source IN (' . implode( ',', array_fill( 0, count( $source_list ), '%s' ) ) . ') ) GROUP BY ' . implode( ', ', array_fill( 0, count( $keys ), '%i' ) ),
 				array_merge(
-					array( gmdate( 'Y-m-d', $from_ts + DAY_IN_SECONDS - 1 ), gmdate( 'Y-m-d', $to_ts + DAY_IN_SECONDS ) ),
-					$source_args
+					$keys,
+					array( $daily, gmdate( 'Y-m-d', $from_ts + DAY_IN_SECONDS - 1 ), gmdate( 'Y-m-d', $to_ts + DAY_IN_SECONDS ) ),
+					$filter_args,
+					$keys
 				)
 			),
 			ARRAY_A
@@ -108,7 +120,7 @@ class GEOINS_Stats {
 	 * @param int           $from_ts Start.
 	 * @param int           $to_ts   End.
 	 * @param string[]|null $sources Optional source filter.
-	 * @return array
+	 * @return array<string,int>
 	 */
 	public static function totals( $from_ts, $to_ts, $sources = null ) {
 		$cat_keys = self::category_keys();
@@ -120,12 +132,12 @@ class GEOINS_Stats {
 			'agent'     => 0,
 			'search'    => 0,
 		);
-		foreach ( self::merged_group( array( 'hit_type', 'category' ), $from_ts, $to_ts, '', $sources ) as $row ) {
+		foreach ( self::merged_group( array( 'hit_type', 'category' ), $from_ts, $to_ts, 0, $sources ) as $row ) {
 			if ( 2 === (int) $row['hit_type'] ) {
 				$totals['referrals'] += (int) $row['n'];
 			} else {
 				$totals['bots'] += (int) $row['n'];
-				$key = isset( $cat_keys[ (int) $row['category'] ] ) ? $cat_keys[ (int) $row['category'] ] : null;
+				$key             = isset( $cat_keys[ (int) $row['category'] ] ) ? $cat_keys[ (int) $row['category'] ] : null;
 				if ( $key ) {
 					$totals[ $key ] += (int) $row['n'];
 				}
@@ -137,7 +149,7 @@ class GEOINS_Stats {
 	/**
 	 * Category id => dashboard key map.
 	 *
-	 * @return array<int,string>
+	 * @return array<int,'training'|'retrieval'|'agent'|'search'>
 	 */
 	public static function category_keys() {
 		return array(
@@ -173,7 +185,7 @@ class GEOINS_Stats {
 	 * @param int           $days    Range in days.
 	 * @param string[]|null $sources Optional source-slug filter (validate via
 	 *                               GEOINS_Bots::valid_sources() before passing).
-	 * @return array
+	 * @return array<string,mixed>
 	 */
 	public static function collect( $days, $sources = null ) {
 		$now      = time();
@@ -204,16 +216,17 @@ class GEOINS_Stats {
 				'referral'  => 0,
 			);
 		}
-		foreach ( self::merged_group( array( 'day', 'hit_type', 'category' ), $from, $now, '', $sources ) as $row ) {
-			if ( ! isset( $series[ $row['day'] ] ) ) {
+		foreach ( self::merged_group( array( 'day', 'hit_type', 'category' ), $from, $now, 0, $sources ) as $row ) {
+			$day = (string) $row['day'];
+			if ( ! isset( $series[ $day ] ) ) {
 				continue;
 			}
 			if ( 2 === (int) $row['hit_type'] ) {
-				$series[ $row['day'] ]['referral'] += (int) $row['n'];
+				$series[ $day ]['referral'] += (int) $row['n'];
 			} else {
 				$key = isset( $cat_keys[ (int) $row['category'] ] ) ? $cat_keys[ (int) $row['category'] ] : null;
 				if ( $key ) {
-					$series[ $row['day'] ][ $key ] += (int) $row['n'];
+					$series[ $day ][ $key ] += (int) $row['n'];
 				}
 			}
 		}
@@ -226,7 +239,7 @@ class GEOINS_Stats {
 			'failed'    => 0,
 			'unchecked' => 0,
 		);
-		foreach ( self::merged_group( array( 'source', 'category', 'verified' ), $from, $now, 'AND hit_type = 1', $sources ) as $row ) {
+		foreach ( self::merged_group( array( 'source', 'category', 'verified' ), $from, $now, 1, $sources ) as $row ) {
 			$source = (string) $row['source'];
 			if ( ! isset( $bot_totals[ $source ] ) ) {
 				$key                   = isset( $cat_keys[ (int) $row['category'] ] ) ? $cat_keys[ (int) $row['category'] ] : 'training';
@@ -244,20 +257,25 @@ class GEOINS_Stats {
 					$verification['verified'] += (int) $row['n'];
 					break;
 				case GEOINS_Verify::FAILED:
-					$verification['failed']         += (int) $row['n'];
+					$verification['failed']          += (int) $row['n'];
 					$bot_totals[ $source ]['failed'] += (int) $row['n'];
 					break;
 				default:
 					$verification['unchecked'] += (int) $row['n'];
 			}
 		}
-		usort( $bot_totals, static function ( $a, $b ) { return $b['count'] - $a['count']; } );
-		$top_bots = array_slice( array_values( $bot_totals ), 0, 15 );
+		usort(
+			$bot_totals,
+			static function ( $a, $b ) {
+				return $b['count'] - $a['count'];
+			}
+		);
+		$top_bots = array_slice( $bot_totals, 0, 15 );
 
 		// Uncapped compact list (source + count only) so the dashboard's
 		// per-AI filter chips can cover companies below the top-15 display cap.
 		$bot_sources = array();
-		foreach ( array_values( $bot_totals ) as $bot ) {
+		foreach ( $bot_totals as $bot ) {
 			$bot_sources[] = array(
 				'source' => $bot['source'],
 				'count'  => $bot['count'],
@@ -266,18 +284,23 @@ class GEOINS_Stats {
 
 		// Referral breakdown.
 		$referrals = array();
-		foreach ( self::merged_group( array( 'source' ), $from, $now, 'AND hit_type = 2', $sources ) as $row ) {
+		foreach ( self::merged_group( array( 'source' ), $from, $now, 2, $sources ) as $row ) {
 			$referrals[] = array(
 				'source' => $row['source'],
 				'label'  => GEOINS_Bots::label( $row['source'] ),
 				'count'  => (int) $row['n'],
 			);
 		}
-		usort( $referrals, static function ( $a, $b ) { return $b['count'] - $a['count']; } );
+		usort(
+			$referrals,
+			static function ( $a, $b ) {
+				return $b['count'] - $a['count'];
+			}
+		);
 
 		// Term matrix: single grouped query, assembled in PHP (no N+1).
 		$pages = array();
-		foreach ( self::merged_group( array( 'post_id', 'path', 'source' ), $from, $now, 'AND hit_type = 1', $sources ) as $row ) {
+		foreach ( self::merged_group( array( 'post_id', 'path', 'source' ), $from, $now, 1, $sources ) as $row ) {
 			$page_id = $row['post_id'] . '|' . $row['path'];
 			if ( ! isset( $pages[ $page_id ] ) ) {
 				$pages[ $page_id ] = array(
@@ -290,9 +313,14 @@ class GEOINS_Stats {
 			$pages[ $page_id ]['count']                    += (int) $row['n'];
 			$pages[ $page_id ]['sources'][ $row['source'] ] = ( isset( $pages[ $page_id ]['sources'][ $row['source'] ] ) ? $pages[ $page_id ]['sources'][ $row['source'] ] : 0 ) + (int) $row['n'];
 		}
-		usort( $pages, static function ( $a, $b ) { return $b['count'] - $a['count']; } );
+		usort(
+			$pages,
+			static function ( $a, $b ) {
+				return $b['count'] - $a['count'];
+			}
+		);
 		$matrix = array();
-		foreach ( array_slice( array_values( $pages ), 0, 15 ) as $page ) {
+		foreach ( array_slice( $pages, 0, 15 ) as $page ) {
 			$post_id = $page['post_id'];
 			if ( $post_id && ! get_post( $post_id ) ) {
 				$post_id = 0; // Post deleted after hits were recorded: fall back to the path.
@@ -318,8 +346,13 @@ class GEOINS_Stats {
 		}
 
 		// Referral landing pages.
-		$landing_rows = self::merged_group( array( 'post_id', 'path', 'source' ), $from, $now, 'AND hit_type = 2', $sources );
-		usort( $landing_rows, static function ( $a, $b ) { return (int) $b['n'] - (int) $a['n']; } );
+		$landing_rows = self::merged_group( array( 'post_id', 'path', 'source' ), $from, $now, 2, $sources );
+		usort(
+			$landing_rows,
+			static function ( $a, $b ) {
+				return (int) $b['n'] - (int) $a['n'];
+			}
+		);
 		$landings = array();
 		foreach ( array_slice( $landing_rows, 0, 10 ) as $row ) {
 			$post_id = (int) $row['post_id'];
@@ -356,23 +389,23 @@ class GEOINS_Stats {
 	 * Grouped in SQL per UTC hour (max 168 buckets), converted in PHP.
 	 *
 	 * @param string[]|null $sources Optional source filter.
-	 * @return array[] Each: [ weekday 0=Mon..6=Sun, hour 0-23, count ].
+	 * @return array<int,array{0:int,1:int,2:int}> Each: [ weekday 0=Mon..6=Sun, hour 0-23, count ].
 	 */
 	public static function heatmap( $sources = null ) {
 		global $wpdb;
 
-		$where = '';
-		$args  = array( gmdate( 'Y-m-d H:i:s', time() - ( 7 * DAY_IN_SECONDS ) ) );
-		if ( is_array( $sources ) && ! empty( $sources ) ) {
-			$where = ' AND source IN (' . implode( ',', array_fill( 0, count( $sources ), '%s' ) ) . ')';
-			$args  = array_merge( $args, array_values( $sources ) );
-		}
+		// Same constant-folded optional IN(...) filter as merged_group().
+		$filter_sources = is_array( $sources ) && ! empty( $sources );
+		$source_list    = $filter_sources ? array_values( array_map( 'strval', $sources ) ) : array( '' );
 
-		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- Custom stats table; live dashboard data.
 		$rows = $wpdb->get_results(
 			$wpdb->prepare(
-				"SELECT DATE_FORMAT(hit_time, '%%Y-%%m-%%d %%H') AS bucket, COUNT(*) AS n FROM {$wpdb->prefix}geoins_hits WHERE hit_type = 1 AND hit_time >= %s {$where} GROUP BY bucket",
-				$args
+				"SELECT DATE_FORMAT(hit_time, '%%Y-%%m-%%d %%H') AS bucket, COUNT(*) AS n FROM %i WHERE hit_type = 1 AND hit_time >= %s AND ( 0 = %d OR source IN (" . implode( ',', array_fill( 0, count( $source_list ), '%s' ) ) . ') ) GROUP BY bucket',
+				array_merge(
+					array( $wpdb->prefix . 'geoins_hits', gmdate( 'Y-m-d H:i:s', time() - ( 7 * DAY_IN_SECONDS ) ), (int) $filter_sources ),
+					$source_list
+				)
 			),
 			ARRAY_A
 		);
@@ -381,7 +414,7 @@ class GEOINS_Stats {
 		$tz   = wp_timezone();
 		$grid = array_fill( 0, 7, array_fill( 0, 24, 0 ) );
 		foreach ( (array) $rows as $row ) {
-			$dt = DateTime::createFromFormat( 'Y-m-d H', $row['bucket'], new DateTimeZone( 'UTC' ) );
+			$dt = DateTime::createFromFormat( 'Y-m-d H', (string) $row['bucket'], new DateTimeZone( 'UTC' ) );
 			if ( ! $dt ) {
 				continue;
 			}
@@ -415,23 +448,20 @@ class GEOINS_Stats {
 			return array();
 		}
 
-		$hits         = $wpdb->prefix . 'geoins_hits';
-		$daily        = $wpdb->prefix . 'geoins_daily';
-		$from         = time() - ( $days * DAY_IN_SECONDS );
-		$placeholders = implode( ',', array_fill( 0, count( $post_ids ), '%d' ) );
+		$from = time() - ( $days * DAY_IN_SECONDS );
 
-		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Custom stats tables; placeholders built from a counted array.
+		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- Custom stats tables; placeholders built from a counted array.
 		$raw = $wpdb->get_results(
 			$wpdb->prepare(
-				"SELECT post_id, COUNT(*) AS n FROM {$hits} WHERE hit_type = 1 AND hit_time >= %s AND post_id IN ({$placeholders}) GROUP BY post_id",
-				array_merge( array( gmdate( 'Y-m-d H:i:s', $from ) ), $post_ids )
+				'SELECT post_id, COUNT(*) AS n FROM %i WHERE hit_type = 1 AND hit_time >= %s AND post_id IN (' . implode( ',', array_fill( 0, count( $post_ids ), '%d' ) ) . ') GROUP BY post_id',
+				array_merge( array( $wpdb->prefix . 'geoins_hits', gmdate( 'Y-m-d H:i:s', $from ) ), $post_ids )
 			),
 			ARRAY_A
 		);
 		$agg = $wpdb->get_results(
 			$wpdb->prepare(
-				"SELECT post_id, SUM(n) AS n FROM {$daily} WHERE hit_type = 1 AND day >= %s AND post_id IN ({$placeholders}) GROUP BY post_id",
-				array_merge( array( gmdate( 'Y-m-d', $from + DAY_IN_SECONDS ) ), $post_ids )
+				'SELECT post_id, SUM(n) AS n FROM %i WHERE hit_type = 1 AND day >= %s AND post_id IN (' . implode( ',', array_fill( 0, count( $post_ids ), '%d' ) ) . ') GROUP BY post_id',
+				array_merge( array( $wpdb->prefix . 'geoins_daily', gmdate( 'Y-m-d', $from + DAY_IN_SECONDS ) ), $post_ids )
 			),
 			ARRAY_A
 		);

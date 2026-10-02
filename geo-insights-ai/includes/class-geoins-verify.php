@@ -31,7 +31,7 @@ class GEOINS_Verify {
 	/**
 	 * Published range files per verification group.
 	 *
-	 * @return array<string,array>
+	 * @return array<string,array<string,mixed>>
 	 */
 	public static function sources() {
 		$sources = array(
@@ -74,6 +74,8 @@ class GEOINS_Verify {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'geoins_refresh_ip_ranges', array( __CLASS__, 'refresh_ranges' ) );
@@ -152,6 +154,8 @@ class GEOINS_Verify {
 
 	/**
 	 * Cron: fetch and store all published ranges.
+	 *
+	 * @return void
 	 */
 	public static function refresh_ranges() {
 		$settings = geoins()->settings();

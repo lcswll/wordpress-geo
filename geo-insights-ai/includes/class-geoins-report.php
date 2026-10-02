@@ -21,9 +21,20 @@ class GEOINS_Report {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
-		add_action( 'geoins_weekly_report', array( __CLASS__, 'maybe_send' ) );
+		add_action( 'geoins_weekly_report', array( __CLASS__, 'cron_send' ) );
+	}
+
+	/**
+	 * Cron callback: actions discard return values, so wrap maybe_send().
+	 *
+	 * @return void
+	 */
+	public static function cron_send() {
+		self::maybe_send();
 	}
 
 	/**
@@ -82,7 +93,7 @@ class GEOINS_Report {
 	/**
 	 * Render the HTML mail body.
 	 *
-	 * @param array $data Data from GEOINS_Stats::collect( 7 ).
+	 * @param array<string,mixed> $data Data from GEOINS_Stats::collect( 7 ).
 	 * @return string
 	 */
 	protected static function render( $data ) {

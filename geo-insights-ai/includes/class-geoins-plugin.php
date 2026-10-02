@@ -24,7 +24,7 @@ class GEOINS_Plugin {
 	/**
 	 * Cached settings.
 	 *
-	 * @var array|null
+	 * @var array<string,mixed>|null
 	 */
 	protected $settings = null;
 
@@ -43,9 +43,11 @@ class GEOINS_Plugin {
 
 	/**
 	 * Boot all modules.
+	 *
+	 * @return void
 	 */
 	protected function boot() {
-		load_plugin_textdomain( 'geo-insights-ai', false, dirname( plugin_basename( GEOINS_FILE ) ) . '/languages' );
+		add_action( 'init', array( __CLASS__, 'load_textdomain' ) );
 
 		GEOINS_Verify::init();
 		GEOINS_Tracker::init();
@@ -79,9 +81,25 @@ class GEOINS_Plugin {
 	}
 
 	/**
+	 * Bundled translations are only a fallback: language packs from
+	 * translate.wordpress.org (wp-content/languages/plugins) take precedence
+	 * and are loaded just in time by WordPress itself.
+	 *
+	 * @return void
+	 */
+	public static function load_textdomain() {
+		$locale = determine_locale();
+		if ( file_exists( WP_LANG_DIR . "/plugins/geo-insights-ai-{$locale}.mo" ) || file_exists( WP_LANG_DIR . "/plugins/geo-insights-ai-{$locale}.l10n.php" ) ) {
+			return;
+		}
+		// WordPress 6.5+ prefers the .l10n.php variant of this path automatically.
+		load_textdomain( 'geo-insights-ai', GEOINS_DIR . "languages/geo-insights-ai-{$locale}.mo", $locale );
+	}
+
+	/**
 	 * Settings merged with defaults.
 	 *
-	 * @return array
+	 * @return array<string,mixed>
 	 */
 	public function settings() {
 		if ( null === $this->settings ) {
@@ -93,6 +111,8 @@ class GEOINS_Plugin {
 
 	/**
 	 * Clear the settings cache (after save).
+	 *
+	 * @return void
 	 */
 	public function flush_settings_cache() {
 		$this->settings = null;
@@ -125,7 +145,7 @@ class GEOINS_Plugin {
 	/**
 	 * Site-wide GEO status checks for the dashboard.
 	 *
-	 * @return array[] Each: { id, label, status(ok|warn|bad), note }
+	 * @return array<int,array{id:string,label:string,status:string,note:string}> Each: { id, label, status(ok|warn|bad), note }
 	 */
 	public function status_checks() {
 		$settings = $this->settings();

@@ -1,10 +1,10 @@
 === GEO Insights – AI Search Visibility & Stats ===
-Contributors: lcswll02
+Contributors: lcswll
 Tags: geo, ai, seo, statistics, llms.txt
-Requires at least: 6.2
-Tested up to: 7.0
+Requires at least: 6.5
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.0
+Stable tag: 2.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,13 @@ Yoast SEO, Rank Math, All in One SEO, SEOPress and The SEO Framework are detecte
 * Configurable data retention with automatic cleanup.
 * Data is only removed on uninstall if you opt in.
 
+== Installation ==
+
+1. In your dashboard go to Plugins → Add New, search for "GEO Insights" and click Install, then Activate. (Or upload the ZIP under Plugins → Add New → Upload Plugin.)
+2. Open GEO Insights → Settings. Tracking, llms.txt, Markdown endpoints and sitemap freshness work right away; everything that sends data anywhere (bot verification, IndexNow, email reports) stays off until you switch it on.
+3. Optional: give your key posts a focus term in the "GEO check" panel of the editor, so the statistics can map AI accesses to topics.
+4. AI Statistics fills up as soon as the first AI crawler visits – usually within a few days. GEO Audit scores your existing content immediately.
+
 == Frequently Asked Questions ==
 
 = Which term did an AI search for when it accessed my site? =
@@ -63,7 +70,7 @@ AI crawlers do not transmit search queries – no tool can see them. GEO Insight
 
 = Does this plugin slow down my site? =
 
-No. Tracking is a single indexed database insert, and only for requests that match a known AI signature. There is no JavaScript on your public pages and no external service.
+No. Tracking is a single indexed database insert, and only for requests that match a known AI signature. By default there is no JavaScript on your public pages (the optional AI-visitor beacon is under 1 kB) and no external service.
 
 = Do I need this if I already use an SEO plugin? =
 
@@ -81,6 +88,10 @@ An honest answer: visitors from AI answers are still a small share of most sites
 
 User agents can be spoofed. By default the plugin matches the official signatures of each AI company – a very good indicator. For proof, enable the opt-in identity verification: every hit from OpenAI, Anthropic and Perplexity crawlers is then checked against the official IP ranges those companies publish, and impostors are flagged separately in your statistics.
 
+= Where is the source code of the dashboard? =
+
+The dashboard script (assets/js/geoins-dashboard.js) is built with esbuild from the readable React source that ships with the plugin in src/dashboard/. Development repository with the build and test tooling: https://github.com/lcswll/wordpress-geo
+
 = Is this GDPR compliant? =
 
 The plugin is built privacy-first: it stores no personal data at all (no IPs, no cookies, no user agents of human visitors). Bot statistics are not personal data. As with any tool, the overall compliance of your site remains your responsibility.
@@ -93,17 +104,31 @@ The statistics dashboard bundles the following open-source libraries into assets
 * Apache ECharts – Copyright (c) The Apache Software Foundation. Released under the Apache License 2.0 (GPL-compatible).
 * Simple Icons (selected brand icon paths) – released under CC0 1.0; all trademarks remain the property of their respective owners and are used for identification only.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. Full license texts: https://opensource.org/licenses/MIT – build source for the bundle lives in src/dashboard/ of the development repository (see plugin homepage).
+The license headers of these libraries are kept in the bundle, and the readable source of the bundle ships with the plugin in src/dashboard/. Full license texts:
+
+* MIT License: https://opensource.org/licenses/MIT
+* Apache License 2.0: https://www.apache.org/licenses/LICENSE-2.0
+* CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
 
 == Screenshots ==
 
-1. AI statistics dashboard: accesses per day by bot class, top bots, AI visitors.
-2. Term × AI matrix: which AI reads which page for which term.
-3. Settings with per-option benefit explanations.
-4. AI crawler control grouped by consequence.
-5. GEO check meta box on the post edit screen.
+1. AI statistics: citation alerts, filter by AI company, KPIs per bot class and accesses per day.
+2. Term × AI matrix and flows: which AI reads which page for which term.
+3. AI companies treemap and the crawl heatmap (weekday × hour).
+4. GEO audit: every post and page scored against the 13 GEO checks, biggest opportunities first.
+5. Live GEO checks in the block editor sidebar.
+6. Settings – every option explains its direct benefit.
+7. AI crawler control (robots.txt), grouped by what blocking actually costs you.
 
 == Changelog ==
+
+= 2.1.0 =
+* Changed: requires WordPress 6.5 or newer (the bundled German translation now uses the fast .l10n.php format; wordpress.org language packs take precedence automatically).
+* Improved: all statistics queries use prepared identifiers for table and column names, with an allow-list for groupable columns.
+* Improved: the GEO check meta box (classic editor) builds its result list with DOM methods instead of HTML strings.
+* Fixed: the table of contents could empty a post if the heading scan failed on very large content – the content is now left untouched instead.
+* Fixed: rarely hit error paths (CSV export without a writable output stream, missing page lists, failed regex runs on huge content) are handled gracefully.
+* Development: automated test suite (unit tests, integration tests in a real WordPress on PHP 7.4 and 8.4, browser tests) and the readable dashboard source in src/dashboard/.
 
 = 2.0.0 =
 * New: visualization engine switched to Apache ECharts 6 – smoother canvas rendering, richer tooltips, a zoom slider on long ranges, legend toggling built in.
@@ -193,6 +218,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 * Initial release: AI bot tracking, AI referral tracking, statistics dashboard, robots.txt AI control, llms.txt generator, JSON-LD schema with auto-FAQ, meta tags, per-post GEO checks, EN/DE translations.
 
 == Upgrade Notice ==
+
+= 2.1.0 =
+Requires WordPress 6.5+. Hardened database queries and translation loading; no settings change needed.
 
 = 1.4.0 =
 The statistics dashboard is now a modern interactive React app (Recharts, bundled locally – no CDN), fed by a new admin-only REST endpoint.

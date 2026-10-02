@@ -9,10 +9,16 @@
 
 	var data = window.geoinsData || {};
 
-	function esc( s ) {
-		var d = document.createElement( 'div' );
-		d.textContent = String( s === null || s === undefined ? '' : s );
-		return d.innerHTML;
+	/** Element with an optional class and text content (never parsed as HTML). */
+	function el( tag, className, text ) {
+		var node = document.createElement( tag );
+		if ( className ) {
+			node.className = className;
+		}
+		if ( text !== undefined && text !== null ) {
+			node.textContent = String( text );
+		}
+		return node;
 	}
 
 	/* ------------------------------------------------------------------ *
@@ -45,16 +51,26 @@
 
 	function renderAnalysis( d ) {
 		var pct = d.total ? Math.round( ( d.score / d.total ) * 100 ) : 0;
-		var html = '<p class="geoins-score">' + esc( d.score + ' / ' + d.total + ' ' + ( data.i18n ? data.i18n.passed : '' ) ) + '</p>' +
-			'<div class="geoins-scorebar"><span style="width:' + pct + '%"></span></div><ul>';
+		var bar = el( 'div', 'geoins-scorebar' );
+		var fill = el( 'span' );
+		var list = el( 'ul' );
+		fill.style.width = pct + '%';
+		bar.appendChild( fill );
 		d.checks.forEach( function ( c ) {
-			html += '<li class="geoins-check ' + ( c.pass ? 'is-pass' : 'is-fail' ) + '">' +
-				'<span class="geoins-mark">' + ( c.pass ? '✓' : '✕' ) + '</span>' +
-				'<span>' + esc( c.label ) +
-				( c.pass ? '' : '<span class="geoins-check-benefit">' + esc( c.benefit ) + '</span>' ) +
-				'</span></li>';
+			var item = el( 'li', 'geoins-check ' + ( c.pass ? 'is-pass' : 'is-fail' ) );
+			var label = el( 'span', '', c.label );
+			if ( ! c.pass ) {
+				label.appendChild( el( 'span', 'geoins-check-benefit', c.benefit ) );
+			}
+			item.appendChild( el( 'span', 'geoins-mark', c.pass ? '✓' : '✕' ) );
+			item.appendChild( label );
+			list.appendChild( item );
 		} );
-		box.innerHTML = html + '</ul>';
+		box.replaceChildren(
+			el( 'p', 'geoins-score', d.score + ' / ' + d.total + ' ' + ( data.i18n ? data.i18n.passed : '' ) ),
+			bar,
+			list
+		);
 	}
 
 	if ( box ) {

@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name:       GEO Insights – AI Search Visibility & Stats
- * Plugin URI:        https://github.com/lcswll02/geo-insights-ai
- * Description:       See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages for which topic – and optimize your site for AI search (GEO). No subscription, no personal data stored.
- * Version:           2.0.0
- * Requires at least: 6.2
+ * Plugin URI:        https://github.com/lcswll/wordpress-geo
+ * Description:       See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.
+ * Version:           2.1.0
+ * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Lucas
  * License:           GPLv2 or later
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'GEOINS_VERSION', '2.0.0' );
+define( 'GEOINS_VERSION', '2.1.0' );
 define( 'GEOINS_DB_VERSION', '4' ); // v1.8.0: no schema change, bumped so upgrades seed the alerts seen-sources map.
 define( 'GEOINS_FILE', __FILE__ );
 define( 'GEOINS_DIR', plugin_dir_path( __FILE__ ) );
@@ -69,4 +69,13 @@ function geoins() {
 	return GEOINS_Plugin::instance();
 }
 
-add_action( 'plugins_loaded', 'geoins' );
+/**
+ * Boots the plugin (plugins_loaded callback; actions discard return values).
+ *
+ * @return void
+ */
+function geoins_boot() {
+	geoins();
+}
+
+add_action( 'plugins_loaded', 'geoins_boot' );

@@ -21,6 +21,8 @@ class GEOINS_Schema {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		add_action( 'wp_head', array( __CLASS__, 'output' ), 5 );
@@ -51,6 +53,7 @@ class GEOINS_Schema {
 	 * Author E-E-A-T fields on the user profile screen.
 	 *
 	 * @param WP_User $user User being edited.
+	 * @return void
 	 */
 	public static function profile_fields( $user ) {
 		if ( ! self::is_author_user( $user->ID ) ) {
@@ -82,6 +85,7 @@ class GEOINS_Schema {
 	 * before these hooks fire).
 	 *
 	 * @param int $user_id User ID.
+	 * @return void
 	 */
 	public static function save_profile_fields( $user_id ) {
 		if ( ! current_user_can( 'edit_user', $user_id ) || ! self::is_author_user( $user_id ) ) {
@@ -93,8 +97,9 @@ class GEOINS_Schema {
 			update_user_meta( $user_id, 'geoins_job_title', mb_substr( $job, 0, 100 ) );
 		}
 		if ( isset( $_POST['geoins_sameas'] ) ) {
-			$urls = array();
-			foreach ( preg_split( '/\r\n|\r|\n/', sanitize_textarea_field( wp_unslash( $_POST['geoins_sameas'] ) ) ) as $url ) {
+			$urls  = array();
+			$lines = preg_split( '/\r\n|\r|\n/', sanitize_textarea_field( wp_unslash( $_POST['geoins_sameas'] ) ) );
+			foreach ( is_array( $lines ) ? $lines : array() as $url ) {
 				$url = esc_url_raw( trim( $url ) );
 				if ( '' !== $url && strlen( $url ) <= 250 ) {
 					$urls[] = $url;
@@ -109,7 +114,7 @@ class GEOINS_Schema {
 	 * Person node for an author, enriched with the E-E-A-T profile fields.
 	 *
 	 * @param int $user_id User ID.
-	 * @return array
+	 * @return array<string,mixed>
 	 */
 	protected static function author_person( $user_id ) {
 		$person = array(
@@ -127,7 +132,8 @@ class GEOINS_Schema {
 			$person['jobTitle'] = $job;
 		}
 		$same_as = array();
-		foreach ( preg_split( '/\r\n|\r|\n/', (string) get_user_meta( $user_id, 'geoins_sameas', true ) ) as $url ) {
+		$lines   = preg_split( '/\r\n|\r|\n/', (string) get_user_meta( $user_id, 'geoins_sameas', true ) );
+		foreach ( is_array( $lines ) ? $lines : array() as $url ) {
 			$url = trim( $url );
 			if ( '' !== $url ) {
 				$same_as[] = esc_url_raw( $url );
@@ -142,6 +148,8 @@ class GEOINS_Schema {
 
 	/**
 	 * Print the JSON-LD graph.
+	 *
+	 * @return void
 	 */
 	public static function output() {
 		$settings = geoins()->settings();
@@ -206,7 +214,7 @@ class GEOINS_Schema {
 	/**
 	 * WebSite node with SearchAction.
 	 *
-	 * @return array
+	 * @return array<string,mixed>
 	 */
 	protected static function website() {
 		return array(
@@ -231,7 +239,7 @@ class GEOINS_Schema {
 	/**
 	 * Organization or Person node.
 	 *
-	 * @return array
+	 * @return array<string,mixed>
 	 */
 	protected static function publisher() {
 		$settings = geoins()->settings();
@@ -258,7 +266,8 @@ class GEOINS_Schema {
 		// sameAs: social/company profiles strengthen entity recognition (E-E-A-T).
 		if ( ! empty( $settings['schema_sameas'] ) ) {
 			$same_as = array();
-			foreach ( preg_split( '/\r\n|\r|\n/', $settings['schema_sameas'] ) as $url ) {
+			$lines   = preg_split( '/\r\n|\r|\n/', $settings['schema_sameas'] );
+			foreach ( is_array( $lines ) ? $lines : array() as $url ) {
 				$url = trim( $url );
 				if ( '' !== $url ) {
 					$same_as[] = esc_url_raw( $url );
@@ -276,7 +285,7 @@ class GEOINS_Schema {
 	 * Article / WebPage node for singular views.
 	 *
 	 * @param WP_Post $post Post.
-	 * @return array
+	 * @return array<string,mixed>
 	 */
 	protected static function singular( $post ) {
 		$is_post = ( 'post' === $post->post_type );
@@ -336,7 +345,7 @@ class GEOINS_Schema {
 	 * Simple breadcrumb: Home (> category) > title.
 	 *
 	 * @param WP_Post $post Post.
-	 * @return array
+	 * @return array<string,mixed>
 	 */
 	protected static function breadcrumb( $post ) {
 		$items    = array();
@@ -380,7 +389,7 @@ class GEOINS_Schema {
 	 * and build an FAQPage node. Needs at least two Q&A pairs.
 	 *
 	 * @param WP_Post $post Post.
-	 * @return array|null
+	 * @return array<string,mixed>|null
 	 */
 	public static function faq_from_content( $post ) {
 		$html = $post->post_content;

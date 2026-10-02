@@ -27,6 +27,8 @@ class GEOINS_Columns {
 
 	/**
 	 * Hook up.
+	 *
+	 * @return void
 	 */
 	public static function init() {
 		foreach ( array( 'post', 'page' ) as $type ) {
@@ -38,8 +40,8 @@ class GEOINS_Columns {
 	/**
 	 * Register the column.
 	 *
-	 * @param array $columns Existing columns.
-	 * @return array
+	 * @param array<string,string> $columns Existing columns.
+	 * @return array<string,string>
 	 */
 	public static function add_column( $columns ) {
 		$columns['geoins_ai'] = __( 'AI (30d)', 'geo-insights-ai' );
@@ -51,6 +53,7 @@ class GEOINS_Columns {
 	 *
 	 * @param string $column  Column key.
 	 * @param int    $post_id Post ID.
+	 * @return void
 	 */
 	public static function render_column( $column, $post_id ) {
 		if ( 'geoins_ai' !== $column ) {
@@ -62,14 +65,14 @@ class GEOINS_Columns {
 			if ( isset( $GLOBALS['wp_query']->posts ) && is_array( $GLOBALS['wp_query']->posts ) ) {
 				$ids = wp_list_pluck( $GLOBALS['wp_query']->posts, 'ID' );
 			}
-			self::$counts = GEOINS_Stats::counts_for_posts( $ids, 30 );
+			self::$counts  = GEOINS_Stats::counts_for_posts( $ids, 30 );
 			self::$counts += array_fill_keys( array_map( 'intval', $ids ), 0 );
 		}
 
 		// Row rendered outside the main list query (e.g. quick-edit AJAX):
 		// fetch just this one ID.
 		if ( ! isset( self::$counts[ $post_id ] ) ) {
-			$single                    = GEOINS_Stats::counts_for_posts( array( $post_id ), 30 );
+			$single                   = GEOINS_Stats::counts_for_posts( array( $post_id ), 30 );
 			self::$counts[ $post_id ] = isset( $single[ $post_id ] ) ? (int) $single[ $post_id ] : 0;
 		}
 
