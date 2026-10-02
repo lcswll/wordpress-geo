@@ -1,0 +1,11 @@
+{
+	"version": "0.0.1",
+	"configurations": [
+		{
+			"name": "dashboard-harness",
+			"runtimeExecutable": "node",
+			"runtimeArgs": ["C:\\Users\\lcswl\\AppData\\Local\\Temp\\claude\\C--Entwicklung-wordpress-geo\\10b505c3-920a-484d-afe6-37837db0f377\\scratchpad\\harness\\server.mjs"],
+			"port": 8791
+		}
+	]
+}
