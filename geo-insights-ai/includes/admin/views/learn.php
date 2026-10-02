@@ -12,6 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <div class="wrap geoins-wrap geoins-learn">
+	<?php GEOINS_Admin::header( 'geo-insights-learn' ); ?>
 	<h1><?php esc_html_e( 'How it works – GEO explained in plain language', 'geo-insights-ai' ); ?></h1>
 	<p class="geoins-intro"><?php esc_html_e( 'No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect.', 'geo-insights-ai' ); ?></p>
 

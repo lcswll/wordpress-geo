@@ -23,6 +23,9 @@ msgstr "%s erkannt – GEO Insights überlässt Schema und Meta-Tags automatisch
 msgid "%s is active. To avoid duplicate output, GEO Insights automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
 msgstr "%s ist aktiv. Um doppelte Ausgaben zu vermeiden, überlässt GEO Insights Schema und Meta-Tags automatisch diesem Plugin – die Schalter unten werden ignoriert, solange es läuft. Alles andere (Tracking, llms.txt, robots-Steuerung, GEO-Checks) arbeitet parallel dazu."
 
+msgid "(opens in a new tab)"
+msgstr "(öffnet in neuem Tab)"
+
 msgid "1 year"
 msgstr "1 Jahr"
 
@@ -103,6 +106,9 @@ msgstr "AI-Quelle"
 
 msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
 msgstr "AI-Systeme gleichen Fragen zuerst mit Titeln ab – ein klarer Titel macht deine Seite zur naheliegenden Quelle."
+
+msgid "AI systems read your site %s times in the last 30 days – GEO Insights is doing its job."
+msgstr "AI-Systeme haben deine Website in den letzten 30 Tagen %s-mal gelesen – GEO Insights macht seinen Job."
 
 msgid "AI visibility, last 7 days"
 msgstr "AI-Sichtbarkeit, letzte 7 Tage"
@@ -410,6 +416,9 @@ msgstr "GEO Insights"
 msgid "GEO Insights is active."
 msgstr "GEO Insights ist aktiv."
 
+msgid "GEO Insights is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "GEO Insights wird von %1$s entwickelt. Hilft es dir? Eine %2$s-Bewertung auf WordPress.org hilft anderen, es zu finden – danke!"
+
 msgid "GEO Insights on %s noticed:"
 msgstr "GEO Insights auf %s hat Folgendes bemerkt:"
 
@@ -449,8 +458,14 @@ msgstr "So funktioniert's – GEO einfach erklärt"
 msgid "Human visitors from AI answers"
 msgstr "Menschliche Besucher aus AI-Antworten"
 
+msgid "I already did"
+msgstr "Habe ich schon"
+
 msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
 msgstr "Identitäts-Verifikation ist aus. User-Agents lassen sich fälschen – aktiviere die Verifikation in den Einstellungen, um echte AI-Bots von Imitationen zu trennen."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "Wenn dir das Plugin hilft: Magst du eine kurze Bewertung auf WordPress.org schreiben? Das dauert eine Minute und hilft anderen Website-Betreibern, es zu finden. Danke!"
 
 msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
 msgstr "Wichtig: Hinter einem CDN ist die direkte Verbindungs-IP der Proxy – jeder echte Bot würde als Imitation markiert. Wähle dein Setup, damit die ursprüngliche Besucher-IP verwendet wird. Aktiviere nur einen Header, den dein Proxy wirklich setzt – sonst sind diese Header fälschbar."
@@ -535,6 +550,9 @@ msgstr "Markdown-Version jeder Seite (.md-URLs)"
 
 msgid "Max. entries per section"
 msgstr "Max. Einträge pro Abschnitt"
+
+msgid "Maybe later"
+msgstr "Vielleicht später"
 
 msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
 msgstr "In der Zwischenzeit: Behebe alles, was im Status-Panel unten nicht grün ist, und setze Fokus-Begriffe auf deinen wichtigsten Seiten."
@@ -710,6 +728,12 @@ msgstr "Profil-URLs (sameAs)"
 msgid "Quality: unusually high."
 msgstr "Qualität: ungewöhnlich hoch."
 
+msgid "Rate GEO Insights on WordPress.org (opens in a new tab)"
+msgstr "GEO Insights auf WordPress.org bewerten (öffnet in neuem Tab)"
+
+msgid "Rate ★★★★★"
+msgstr "Bewerten ★★★★★"
+
 msgid "Re-scan"
 msgstr "Neu scannen"
 
@@ -745,6 +769,9 @@ msgstr "Retrieval-Bots müssen deine verbesserten Seiten erst finden und neu les
 
 msgid "Retrieval bots use the sitemap to discover new content quickly."
 msgstr "Retrieval-Bots nutzen die Sitemap, um neue Inhalte schnell zu entdecken."
+
+msgid "Review GEO Insights"
+msgstr "GEO Insights bewerten"
 
 msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
 msgstr "Die Regeln werden an die von WordPress erzeugte robots.txt angehängt. Eine physische robots.txt-Datei im Web-Root würde sie überschreiben – das Status-Panel auf der Statistikseite warnt dich, falls eine existiert. robots.txt ist ein Ehrensystem; die bekannten Bots halten sich daran."
@@ -818,6 +845,9 @@ msgstr "Website für Crawler sichtbar"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Wer aus einer AI-Antwort zu dir durchklickt, hat bereits eine Zusammenfassung gelesen und will die Tiefe – Studien und Shop-Daten zeigen durchgängig, dass diese Besucher spürbar besser konvertieren als durchschnittlicher Such-Traffic. Weniger Besucher, aber wärmere."
 
+msgid "Sorry, you are not allowed to do that."
+msgstr "Das darfst du leider nicht."
+
 msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
 msgstr "Geschwindigkeit: Neue und aktualisierte Inhalte werden Suchmaschinen innerhalb von Minuten gemeldet (IndexNow) – je früher indexiert, desto früher kann eine AI sie zitieren."
 
@@ -835,6 +865,9 @@ msgstr "Strukturierte Daten & Meta-Tags"
 
 msgid "Structured data (schema.org)"
 msgstr "Strukturierte Daten (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "Gern, Bewertung schreiben"
 
 msgid "Table of contents"
 msgstr "Inhaltsverzeichnis"
@@ -1015,6 +1048,9 @@ msgstr "Blockieren kostet Zitate"
 
 msgid "blocking is safe for citations"
 msgstr "Blockieren kostet keine Zitate"
+
+msgid "by %s"
+msgstr "von %s"
 
 msgid "days"
 msgstr "Tage"

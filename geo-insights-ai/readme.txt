@@ -4,7 +4,7 @@ Tags: geo, ai, seo, statistics, llms.txt
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.1.0
+Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,12 @@ Yoast SEO, Rank Math, All in One SEO, SEOPress and The SEO Framework are detecte
 * No external requests by default. The only exceptions are two opt-in features: bot verification (downloads the public crawler IP lists from OpenAI, Anthropic, Perplexity, Google and Microsoft once a day; visitor IPs are compared in memory and never stored) and IndexNow (sends published URLs to the IndexNow API).
 * Configurable data retention with automatic cleanup.
 * Data is only removed on uninstall if you opt in.
+
+= About the author =
+
+GEO Insights is developed and maintained by Lucas Wille, a web developer from Magdeburg, Germany, who builds websites and AI automations: https://lucaswille.de/
+
+Found a bug or have an idea? Open a topic in the support forum. And if the plugin helps you, a review on WordPress.org is the best way to say thanks – it helps other site owners find it.
 
 == Installation ==
 
@@ -121,6 +127,11 @@ The license headers of these libraries are kept in the bundle, and the readable 
 7. AI crawler control (robots.txt), grouped by what blocking actually costs you.
 
 == Changelog ==
+
+= 2.2.0 =
+* New: redesigned admin screens – a brand bar with the radar logo and navigation between Statistics, Audit, Settings and the explainer on every page, plus a consistent indigo accent for buttons, toggles and filters.
+* New: author credit and links – the plugin list shows "How it works" and a rating link; the footer of the plugin's pages credits the author.
+* New: a friendly, one-time review request on the plugin's own pages – only after two weeks of use and once AI accesses are actually being recorded. "Maybe later" hides it for 30 days, "I already did" for good. Never shown elsewhere in the admin.
 
 = 2.1.0 =
 * Changed: requires WordPress 6.5 or newer (the bundled German translation now uses the fast .l10n.php format; wordpress.org language packs take precedence automatically).
@@ -218,6 +229,9 @@ The license headers of these libraries are kept in the bundle, and the readable 
 * Initial release: AI bot tracking, AI referral tracking, statistics dashboard, robots.txt AI control, llms.txt generator, JSON-LD schema with auto-FAQ, meta tags, per-post GEO checks, EN/DE translations.
 
 == Upgrade Notice ==
+
+= 2.2.0 =
+Redesigned admin screens with navigation between all GEO Insights pages.
 
 = 2.1.0 =
 Requires WordPress 6.5+. Hardened database queries and translation loading; no settings change needed.

@@ -11,6 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <div class="wrap geoins-wrap" id="geoins-audit">
+	<?php GEOINS_Admin::header( 'geo-insights-audit' ); ?>
 	<h1><?php esc_html_e( 'GEO Audit', 'geo-insights-ai' ); ?></h1>
 	<p class="geoins-intro">
 		<?php esc_html_e( 'Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets.', 'geo-insights-ai' ); ?>

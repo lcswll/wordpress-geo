@@ -23,6 +23,7 @@ foreach ( $geoins_bots as $geoins_slug => $geoins_bot ) {
 $geoins_cat_order = array( GEOINS_Bots::CAT_AGENT, GEOINS_Bots::CAT_RETRIEVAL, GEOINS_Bots::CAT_SEARCH, GEOINS_Bots::CAT_TRAINING );
 ?>
 <div class="wrap geoins-wrap">
+	<?php GEOINS_Admin::header( 'geo-insights-settings' ); ?>
 	<h1><?php esc_html_e( 'GEO Settings', 'geo-insights-ai' ); ?></h1>
 	<?php settings_errors(); // Custom top-level menu pages must render "Settings saved." themselves. ?>
 	<p class="geoins-intro"><?php esc_html_e( 'Everything is free, runs entirely on your server, stores no personal data and never phones home. Every option tells you what you get from it.', 'geo-insights-ai' ); ?></p>

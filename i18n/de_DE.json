@@ -353,5 +353,17 @@
 	"Hour": "Stunde",
 	"Average GEO score": "Durchschnittlicher GEO-Score",
 	"Across all scored pages. Every point up is one more criterion your typical page fulfils.": "Über alle bewerteten Seiten. Jeder Punkt mehr ist ein weiteres Kriterium, das deine typische Seite erfüllt.",
-	"Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner.": "Bot-Zugriffe der letzten 7 Tage nach Wochentag und Stunde, in der Zeitzone deiner Website. Wer vor den Stoßzeiten veröffentlicht, wird früher gelesen."
+	"Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner.": "Bot-Zugriffe der letzten 7 Tage nach Wochentag und Stunde, in der Zeitzone deiner Website. Wer vor den Stoßzeiten veröffentlicht, wird früher gelesen.",
+	"(opens in a new tab)": "(öffnet in neuem Tab)",
+	"AI systems read your site %s times in the last 30 days – GEO Insights is doing its job.": "AI-Systeme haben deine Website in den letzten 30 Tagen %s-mal gelesen – GEO Insights macht seinen Job.",
+	"GEO Insights is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!": "GEO Insights wird von %1$s entwickelt. Hilft es dir? Eine %2$s-Bewertung auf WordPress.org hilft anderen, es zu finden – danke!",
+	"I already did": "Habe ich schon",
+	"If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!": "Wenn dir das Plugin hilft: Magst du eine kurze Bewertung auf WordPress.org schreiben? Das dauert eine Minute und hilft anderen Website-Betreibern, es zu finden. Danke!",
+	"Maybe later": "Vielleicht später",
+	"Rate GEO Insights on WordPress.org (opens in a new tab)": "GEO Insights auf WordPress.org bewerten (öffnet in neuem Tab)",
+	"Rate ★★★★★": "Bewerten ★★★★★",
+	"Review GEO Insights": "GEO Insights bewerten",
+	"Sorry, you are not allowed to do that.": "Das darfst du leider nicht.",
+	"Sure, write a review": "Gern, Bewertung schreiben",
+	"by %s": "von %s"
 }

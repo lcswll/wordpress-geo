@@ -15,6 +15,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 class GEOINS_Admin {
 
 	/**
+	 * Author credit shown in the brand bar and the plugin list.
+	 */
+	const AUTHOR = 'Lucas Wille';
+
+	/**
+	 * Author website.
+	 */
+	const AUTHOR_URL = 'https://lucaswille.de/';
+
+	/**
+	 * Where a review is written on wordpress.org.
+	 */
+	const REVIEW_URL = 'https://wordpress.org/support/plugin/geo-insights-ai/reviews/#new-post';
+
+	/**
 	 * Hook suffixes of our admin pages, as returned by add_menu_page /
 	 * add_submenu_page. Captured instead of hardcoded because WordPress
 	 * derives submenu hooks from the TRANSLATED menu title – a localized
@@ -23,6 +38,13 @@ class GEOINS_Admin {
 	 * @var string[]
 	 */
 	protected static $page_hooks = array();
+
+	/**
+	 * Menu slug of the page currently rendering its brand bar.
+	 *
+	 * @var string
+	 */
+	protected static $current_page = '';
 
 	/**
 	 * Hook up.
@@ -36,6 +58,72 @@ class GEOINS_Admin {
 		add_action( 'enqueue_block_editor_assets', array( __CLASS__, 'editor_assets' ) );
 		add_action( 'admin_notices', array( __CLASS__, 'welcome_notice' ) );
 		add_filter( 'plugin_action_links_' . plugin_basename( GEOINS_FILE ), array( __CLASS__, 'action_links' ) );
+		add_filter( 'plugin_row_meta', array( __CLASS__, 'row_meta' ), 10, 2 );
+		add_filter( 'admin_footer_text', array( __CLASS__, 'footer_text' ) );
+	}
+
+	/**
+	 * Whether the current admin screen is one of the plugin's own pages.
+	 *
+	 * @return bool
+	 */
+	public static function is_plugin_screen() {
+		$screen = function_exists( 'get_current_screen' ) ? get_current_screen() : null;
+		return $screen instanceof WP_Screen && in_array( $screen->id, self::$page_hooks, true );
+	}
+
+	/**
+	 * Brand bar with navigation and author credit (top of every plugin page).
+	 *
+	 * @param string $current Menu slug of the current page.
+	 * @return void
+	 */
+	public static function header( $current ) {
+		self::$current_page = $current;
+		require GEOINS_DIR . 'includes/admin/views/header.php';
+	}
+
+	/**
+	 * Menu slug of the page being rendered (for views/header.php).
+	 *
+	 * @return string
+	 */
+	public static function current_page() {
+		return self::$current_page;
+	}
+
+	/**
+	 * Extra links in the plugin's row on the plugins screen: explainer + review.
+	 *
+	 * @param string[] $links Row meta links.
+	 * @param string   $file  Plugin basename of the row.
+	 * @return string[]
+	 */
+	public static function row_meta( $links, $file ) {
+		if ( plugin_basename( GEOINS_FILE ) !== $file ) {
+			return $links;
+		}
+		$links[] = '<a href="' . esc_url( admin_url( 'admin.php?page=geo-insights-learn' ) ) . '">' . esc_html__( 'How it works', 'geo-insights-ai' ) . '</a>';
+		$links[] = '<a href="' . esc_url( self::REVIEW_URL ) . '" target="_blank" rel="noopener" aria-label="' . esc_attr__( 'Rate GEO Insights on WordPress.org (opens in a new tab)', 'geo-insights-ai' ) . '">' . esc_html__( 'Rate ★★★★★', 'geo-insights-ai' ) . '</a>';
+		return $links;
+	}
+
+	/**
+	 * Footer line on the plugin's own pages only: author credit + a quiet review request.
+	 *
+	 * @param string $text Default footer text.
+	 * @return string
+	 */
+	public static function footer_text( $text ) {
+		if ( ! self::is_plugin_screen() ) {
+			return $text;
+		}
+		return sprintf(
+			/* translators: 1: author link, 2: review link with five stars */
+			esc_html__( 'GEO Insights is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!', 'geo-insights-ai' ),
+			'<a href="' . esc_url( self::AUTHOR_URL ) . '" target="_blank" rel="noopener">' . esc_html( self::AUTHOR ) . '</a>',
+			'<a class="geoins-footer-stars" href="' . esc_url( self::REVIEW_URL ) . '" target="_blank" rel="noopener">★★★★★</a>'
+		);
 	}
 
 	/**

@@ -6,12 +6,13 @@
  *   node scripts/wporg-assets.mjs --no-shots                     # only icons and banners
  *   node scripts/wporg-assets.mjs --base http://127.0.0.1:9400   # screenshots from an already running `npm run playground`
  *
- * Icons/banners come from scripts/assets/wporg-brand.html. Screenshots are taken from the real admin screens in
+ * Icons (animated GIF, needs ffmpeg) and banners come from scripts/assets/wporg-brand.html. Screenshots are taken from the real admin screens in
  * WordPress Playground, seeded with 30 days of example traffic (tests/e2e/seed.php). Uses the locally installed Edge.
  * The captions are the "== Screenshots ==" list in geo-insights-ai/readme.txt (same order).
  */
-import { spawn } from 'node:child_process';
+import { spawn, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { chromium } from '@playwright/test';
@@ -26,14 +27,38 @@ const browser = await chromium.launch(process.env.CI ? {} : { channel: 'msedge' 
 
 // ------------------------------------------------------------------ icons + banners.
 const brand = pathToFileURL(path.join(root, 'scripts', 'assets', 'wporg-brand.html')).href;
-for (const [file, asset, width, height] of [
-	['icon-128x128.png', 'icon', 128, 128],
-	['icon-256x256.png', 'icon', 256, 256],
-	['banner-772x250.png', 'banner', 772, 250],
-	['banner-1544x500.png', 'banner', 1544, 500],
+
+// Animated icon (wordpress.org accepts icon-128x128.gif / icon-256x256.gif): the radar sweeps once per loop and
+// the blips flare up as the beam passes. Frames are rendered by the brand page and encoded with ffmpeg
+// (palette per GIF for clean gradients). Stale PNG icons are removed – one format per size, no ambiguity.
+const FRAMES = 60;
+const FPS = 20;
+for (const size of [128, 256]) {
+	const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'geoins-icon-'));
+	const page = await browser.newPage({ viewport: { width: size, height: size } });
+	for (let i = 0; i < FRAMES; i++) {
+		await page.goto(`${brand}?asset=icon&t=${i / FRAMES}`);
+		await page.screenshot({ path: path.join(dir, `f${String(i).padStart(3, '0')}.png`) });
+	}
+	await page.close();
+	const file = path.join(out, `icon-${size}x${size}.gif`);
+	const ffmpeg = spawnSync('ffmpeg', [
+		'-y', '-loglevel', 'error', '-framerate', String(FPS), '-i', path.join(dir, 'f%03d.png'),
+		'-vf', 'split[a][b];[a]palettegen=stats_mode=full:max_colors=128[p];[b][p]paletteuse=dither=sierra2_4a',
+		'-loop', '0', file,
+	], { stdio: 'inherit' });
+	fs.rmSync(dir, { recursive: true, force: true });
+	if (ffmpeg.error || ffmpeg.status !== 0) throw new Error('ffmpeg failed – install ffmpeg (e.g. `choco install ffmpeg`).');
+	fs.rmSync(path.join(out, `icon-${size}x${size}.png`), { force: true });
+	console.log(`✓ icon-${size}x${size}.gif (${FRAMES} frames, ${(fs.statSync(file).size / 1024).toFixed(0)} KB)`);
+}
+
+for (const [file, width, height] of [
+	['banner-772x250.png', 772, 250],
+	['banner-1544x500.png', 1544, 500],
 ]) {
 	const page = await browser.newPage({ viewport: { width, height } });
-	await page.goto(`${brand}?asset=${asset}`);
+	await page.goto(`${brand}?asset=banner`);
 	await page.screenshot({ path: path.join(out, file) });
 	await page.close();
 	console.log(`✓ ${file}`);

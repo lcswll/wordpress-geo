@@ -21,6 +21,9 @@ msgstr ""
 msgid "%s is active. To avoid duplicate output, GEO Insights automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
 msgstr ""
 
+msgid "(opens in a new tab)"
+msgstr ""
+
 msgid "1 year"
 msgstr ""
 
@@ -100,6 +103,9 @@ msgid "AI source"
 msgstr ""
 
 msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr ""
+
+msgid "AI systems read your site %s times in the last 30 days – GEO Insights is doing its job."
 msgstr ""
 
 msgid "AI visibility, last 7 days"
@@ -408,6 +414,9 @@ msgstr ""
 msgid "GEO Insights is active."
 msgstr ""
 
+msgid "GEO Insights is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr ""
+
 msgid "GEO Insights on %s noticed:"
 msgstr ""
 
@@ -447,7 +456,13 @@ msgstr ""
 msgid "Human visitors from AI answers"
 msgstr ""
 
+msgid "I already did"
+msgstr ""
+
 msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr ""
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
 msgstr ""
 
 msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
@@ -532,6 +547,9 @@ msgid "Markdown version of every page (.md URLs)"
 msgstr ""
 
 msgid "Max. entries per section"
+msgstr ""
+
+msgid "Maybe later"
 msgstr ""
 
 msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
@@ -708,6 +726,12 @@ msgstr ""
 msgid "Quality: unusually high."
 msgstr ""
 
+msgid "Rate GEO Insights on WordPress.org (opens in a new tab)"
+msgstr ""
+
+msgid "Rate ★★★★★"
+msgstr ""
+
 msgid "Re-scan"
 msgstr ""
 
@@ -742,6 +766,9 @@ msgid "Retrieval bots need to find and re-read your improved pages first. Expect
 msgstr ""
 
 msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr ""
+
+msgid "Review GEO Insights"
 msgstr ""
 
 msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
@@ -816,6 +843,9 @@ msgstr ""
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr ""
 
+msgid "Sorry, you are not allowed to do that."
+msgstr ""
+
 msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
 msgstr ""
 
@@ -832,6 +862,9 @@ msgid "Structured data & meta tags"
 msgstr ""
 
 msgid "Structured data (schema.org)"
+msgstr ""
+
+msgid "Sure, write a review"
 msgstr ""
 
 msgid "Table of contents"
@@ -1012,6 +1045,9 @@ msgid "blocking costs citations"
 msgstr ""
 
 msgid "blocking is safe for citations"
+msgstr ""
+
+msgid "by %s"
 msgstr ""
 
 msgid "days"

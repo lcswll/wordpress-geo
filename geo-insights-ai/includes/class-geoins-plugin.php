@@ -69,6 +69,7 @@ class GEOINS_Plugin {
 			GEOINS_Admin::init();
 			GEOINS_Dashboard::init();
 			GEOINS_Columns::init();
+			GEOINS_Review::init();
 		}
 
 		// Safety net: upgrade tables + cron after plugin updates.

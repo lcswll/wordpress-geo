@@ -85,14 +85,18 @@ expect(new RegExp(`^= ${header.Version.replace(/\./g, '\\.')}`, 'm').test(change
 
 // ---------------------------------------------------------- wordpress.org assets.
 const assetsDir = path.join(root, '.wordpress-org');
-const pngSize = (file) => {
+// Pixel size from the PNG or GIF header (the formats used here).
+const imageSize = (file) => {
 	const b = fs.readFileSync(file);
-	return b.toString('ascii', 1, 4) === 'PNG' ? [b.readUInt32BE(16), b.readUInt32BE(20)] : null;
+	if (b.toString('ascii', 1, 4) === 'PNG') return [b.readUInt32BE(16), b.readUInt32BE(20)];
+	if (b.toString('ascii', 0, 4) === 'GIF8') return [b.readUInt16LE(6), b.readUInt16LE(8)];
+	return null;
 };
-for (const [file, w, h] of [['icon-128x128.png', 128, 128], ['icon-256x256.png', 256, 256], ['banner-772x250.png', 772, 250], ['banner-1544x500.png', 1544, 500]]) {
-	const full = path.join(assetsDir, file);
-	const size = fs.existsSync(full) ? pngSize(full) : null;
-	expect(size && size[0] === w && size[1] === h, `.wordpress-org/${file} is ${w}×${h}`);
+// Icons may be png, jpg or gif (animated); exactly one file per size, or wordpress.org picks one arbitrarily.
+for (const [name, exts, w, h] of [['icon-128x128', ['png', 'jpg', 'gif'], 128, 128], ['icon-256x256', ['png', 'jpg', 'gif'], 256, 256], ['banner-772x250', ['png', 'jpg'], 772, 250], ['banner-1544x500', ['png', 'jpg'], 1544, 500]]) {
+	const found = exts.map((ext) => `${name}.${ext}`).filter((f) => fs.existsSync(path.join(assetsDir, f)));
+	const size = found.length === 1 ? imageSize(path.join(assetsDir, found[0])) : null;
+	expect(found.length === 1 && size && size[0] === w && size[1] === h, `.wordpress-org/${name} exists once (${found.join(', ') || 'missing'}) and is ${w}×${h}`);
 }
 const screenshotsInReadme = ((readme.split(/^== Screenshots ==$/m)[1] || '').split(/^== /m)[0].match(/^\d+\./gm) || []).length;
 const screenshotFiles = fs.existsSync(assetsDir) ? fs.readdirSync(assetsDir).filter((f) => /^screenshot-\d+\.(png|jpg)$/.test(f)).length : 0;

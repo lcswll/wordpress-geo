@@ -12,6 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <div class="wrap geoins-wrap" id="geoins-dashboard">
+	<?php GEOINS_Admin::header( 'geo-insights' ); ?>
 	<h1><?php esc_html_e( 'AI Statistics', 'geo-insights-ai' ); ?></h1>
 	<p class="geoins-intro">
 		<?php esc_html_e( 'Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors.', 'geo-insights-ai' ); ?>

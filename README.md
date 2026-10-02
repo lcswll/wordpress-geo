@@ -5,7 +5,7 @@ WordPress-Plugin: Sehen, welche AI (ChatGPT, Claude, Perplexity …) welche Seit
 ## Struktur
 
 ```
-geo-insights-ai/                     Version 2.1.0
+geo-insights-ai/                     Version 2.2.0
 ├── geo-insights-ai.php              Bootstrap + Plugin-Header + WP-CLI-Registrierung
 ├── readme.txt                       WordPress.org-Readme
 ├── uninstall.php                    Datenlöschung (nur bei Opt-in, multisite-fähig)
@@ -92,7 +92,7 @@ npm run setup:php
 | `npm run build:dashboard` / `npm run watch` | React-Dashboard bauen |
 | `npm run i18n` | Übersetzungen aus `i18n/de_DE.json` neu erzeugen (`-- --prune` entfernt verwaiste Einträge) |
 | `npm run build` | Release-ZIP nach `dist/` |
-| `node scripts/wporg-assets.mjs` | Icon, Banner und Screenshots für wordpress.org neu erzeugen |
+| `node scripts/wporg-assets.mjs` | Icon (animiertes GIF, braucht ffmpeg), Banner und Screenshots für wordpress.org neu erzeugen |
 
 Pre-push-Hook einmalig aktivieren:
 
@@ -162,6 +162,8 @@ Actions sind auf Commit-SHAs gepinnt, Werkzeuge werden mit fester Version und SH
 Übersetzungen: wordpress.org baut Sprachpakete über translate.wordpress.org; die mitgelieferte deutsche Übersetzung ist nur der Fallback, solange es kein Sprachpaket gibt.
 
 ## Versionshistorie
+
+**2.2.0**: Neues Admin-Design mit Marken-Kopfzeile (Radar-Logo, Navigation zwischen allen Plugin-Seiten, „by Lucas Wille“ → lucaswille.de) und Indigo-Akzent. Autor im Plugin-Header (Author/Author URI), in der Plugin-Liste („How it works“, „Rate ★★★★★“) und in der Fußzeile der Plugin-Seiten. Bewertungs-Bitte (`GEOINS_Review`): nur auf den eigenen Seiten, frühestens 14 Tage nach Aktivierung und ab 50 AI-Zugriffen in 30 Tagen, „Vielleicht später“ = 30 Tage Ruhe, „Habe ich schon“ = nie wieder. Animiertes GIF-Icon für das Plugin-Verzeichnis (Radar-Sweep, `node scripts/wporg-assets.mjs`, braucht ffmpeg) und neues Banner.
 
 **2.1.0**: CI-Pipeline wie bei wordpress-mails (PHPCS/PHPStan Level 8 ohne Baseline, Unit-, Integrations- und Browsertests in echtem WordPress, Plugin Check, reproduzierbares ZIP, Release-Workflow mit wordpress.org-Deploy). Mindestversion WordPress 6.5 (Übersetzung als `.l10n.php`, Laden ohne `load_plugin_textdomain()`), alle Statistik-Queries mit `%i`-Identifiern und Spalten-Allowlist, Meta-Box ohne `innerHTML`, Dashboard-Quellcode im Plugin.
 

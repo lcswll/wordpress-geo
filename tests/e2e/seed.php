@@ -54,6 +54,8 @@ $ids[] = wp_insert_post(
 	)
 );
 update_option( 'geoins_e2e_ids', $ids );
+// In use for a month: the review request (GEOINS_Review) is due once the traffic below is in.
+update_option( 'geoins_activated_at', time() - 30 * DAY_IN_SECONDS );
 
 $settings                    = get_option( 'geoins_settings', array() );
 $settings['toc']             = 1;

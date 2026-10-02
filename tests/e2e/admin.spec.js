@@ -174,3 +174,48 @@ test('block editor shows the live GEO check panel', async ({ page }) => {
 	await expect(page.getByText('At least one heading phrased as a question').first()).toBeVisible();
 	expect(seen.errors.filter((e) => !/wp\.editPost\.PluginDocumentSettingPanel is deprecated/.test(e))).toEqual([]);
 });
+
+test('brand bar navigates between the plugin pages and credits the author', async ({ page }) => {
+	await page.goto(DASHBOARD);
+	const bar = page.locator('.geoins-brandbar');
+	await expect(bar.locator('.geoins-tab.is-current')).toHaveText('AI Statistics');
+	await expect(bar.locator('.geoins-tab.is-current')).toHaveAttribute('aria-current', 'page');
+
+	const byline = bar.locator('.geoins-byline');
+	await expect(byline).toContainText('Lucas Wille');
+	await expect(byline).toHaveAttribute('href', 'https://lucaswille.de/');
+	await expect(byline).toHaveAttribute('rel', /noopener/);
+
+	await bar.getByRole('link', { name: 'GEO Audit' }).click();
+	await expect(page).toHaveURL(/page=geo-insights-audit/);
+	await expect(page.locator('.geoins-brandbar .geoins-tab.is-current')).toHaveText('GEO Audit');
+
+	// Footer credit + review link only on the plugin's own pages.
+	await expect(page.locator('#footer-left')).toContainText('Lucas Wille');
+	await expect(page.locator('#footer-left a[href*="wordpress.org/support/plugin/geo-insights-ai/reviews"]')).toHaveCount(1);
+	await page.goto('/wp-admin/index.php');
+	await expect(page.locator('#footer-left')).not.toContainText('Lucas Wille');
+	await expect(page.locator('.geoins-review')).toHaveCount(0);
+});
+
+test('plugin list shows author, explainer and rating links', async ({ page }) => {
+	await page.goto('/wp-admin/plugins.php');
+	const row = page.locator('tr[data-plugin="geo-insights-ai/geo-insights-ai.php"]').first();
+	await expect(row.getByRole('link', { name: 'Lucas Wille' })).toHaveAttribute('href', /^https:\/\/lucaswille\.de\/?$/);
+	await expect(row.getByRole('link', { name: /Rate GEO Insights/ })).toHaveAttribute('href', /wordpress\.org\/support\/plugin\/geo-insights-ai\/reviews/);
+	await expect(row.getByRole('link', { name: 'How it works' })).toBeVisible();
+});
+
+test('review request appears when due and "Maybe later" hides it', async ({ page }) => {
+	await page.goto(DASHBOARD);
+	const card = page.locator('.geoins-review');
+	await expect(card).toBeVisible();
+	await expect(card).toContainText(/AI systems read your site [\d,.]+ times/);
+	await expect(card.getByRole('link', { name: 'Sure, write a review' })).toHaveAttribute('target', '_blank');
+
+	await card.getByRole('link', { name: 'Maybe later' }).click();
+	await expect(page).toHaveURL(/page=geo-insights/);
+	await expect(page.locator('.geoins-review')).toHaveCount(0);
+	await page.goto('/wp-admin/admin.php?page=geo-insights-settings');
+	await expect(page.locator('.geoins-review')).toHaveCount(0);
+});
