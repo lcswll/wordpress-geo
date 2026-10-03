@@ -1,12 +1,12 @@
-# GEO Insights – AI Search Visibility & Stats
+# Wille GEO – AI Crawler Stats, llms.txt & AI Visibility
 
-WordPress-Plugin: Sehen, welche AI (ChatGPT, Claude, Perplexity …) welche Seite zu welchem Begriff liest – plus alle State-of-the-Art-GEO-Optimierungen, jede Option mit direkter Nutzen-Erklärung. Kostenlos, kein Abo, keine externen Dienste, keine personenbezogenen Daten.
+WordPress-Plugin: Sehen, welche AI (ChatGPT, Claude, Perplexity …) welche Seite zu welchem Begriff liest – plus GEO-Optimierungen, jede Option mit direkter Nutzen-Erklärung. Kostenlos, kein Abo, keine personenbezogenen Daten; externe Dienste nur bei zwei Opt-in-Features (Bot-Verifikation, IndexNow – dokumentiert im readme.txt unter „External services“).
 
 ## Struktur
 
 ```
-geo-insights-ai/                     Version 2.2.0
-├── geo-insights-ai.php              Bootstrap + Plugin-Header + WP-CLI-Registrierung
+wille-geo-ai-visibility/                     Version 2.3.0
+├── wille-geo-ai-visibility.php              Bootstrap + Plugin-Header + WP-CLI-Registrierung
 ├── readme.txt                       WordPress.org-Readme
 ├── uninstall.php                    Datenlöschung (nur bei Opt-in, multisite-fähig)
 ├── includes/
@@ -39,15 +39,15 @@ geo-insights-ai/                     Version 2.2.0
 │       ├── geoins-admin.js          Settings-Aktionen + Classic-Editor-Metabox
 │       ├── geoins-editor.js         Gutenberg-Sidebar: Live-GEO-Checks beim Schreiben
 │       └── geoins-beacon.js         Referral-Beacon fürs Frontend (<1 kB)
-└── languages/                       POT + de_DE als .l10n.php/.po (generiert aus i18n/de_DE.json)
+└── languages/                       nur die POT (keine Übersetzungsdateien im Plugin – Vorgabe von wordpress.org)
 ```
 
-**Dashboard-Frontend (React):** Quellcode in `geo-insights-ai/src/dashboard/` – liegt bewusst im Plugin, damit
+**Dashboard-Frontend (React):** Quellcode in `wille-geo-ai-visibility/src/dashboard/` – liegt bewusst im Plugin, damit
 wordpress.org-Reviewer das minifizierte Bundle nachvollziehen können. Build: `npm run build:dashboard` (esbuild →
 `assets/js/geoins-dashboard.js`, selbst-enthaltenes IIFE-Bundle, kein CDN) oder `npm run watch`. Die CI baut das Bundle
 neu und schlägt fehl, wenn es nicht zum Quellcode passt.
 
-Alles außerhalb von `geo-insights-ai/` ist Entwicklungswerkzeug und wird nie mit ausgeliefert. Verzeichnis-Grafiken
+Alles außerhalb von `wille-geo-ai-visibility/` ist Entwicklungswerkzeug und wird nie mit ausgeliefert. Verzeichnis-Grafiken
 (Icon, Banner, Screenshots) liegen in [`.wordpress-org/`](.wordpress-org/) und landen im SVN unter `/assets`.
 
 ## Kernkonzepte
@@ -90,7 +90,7 @@ npm run setup:php
 | `npm run test:e2e -- --php 7.4 --wp 6.5` | Laufzeittests gegen eine bestimmte PHP-/WP-Version |
 | `npm run phpcs` / `npm run phpcbf` | Coding Standards prüfen / automatisch korrigieren |
 | `npm run build:dashboard` / `npm run watch` | React-Dashboard bauen |
-| `npm run i18n` | Übersetzungen aus `i18n/de_DE.json` neu erzeugen (`-- --prune` entfernt verwaiste Einträge) |
+| `npm run i18n` | POT neu erzeugen und `i18n/de_DE.po` aus `i18n/de_DE.json` bauen (zum Import auf translate.wordpress.org; `-- --prune` entfernt verwaiste Einträge) |
 | `npm run build` | Release-ZIP nach `dist/` |
 | `node scripts/wporg-assets.mjs` | Icon (animiertes GIF, braucht ffmpeg), Banner und Screenshots für wordpress.org neu erzeugen |
 
@@ -110,7 +110,7 @@ curl -A "Mozilla/5.0 (compatible; GPTBot/1.2; +https://openai.com/gptbot)" http:
 curl -b "playground_auto_login_already_happened=1" -e "https://chatgpt.com/" http://127.0.0.1:9400/wordpress-backup-guide/
 ```
 
-Erweitern: Prefix `geoins_` / `GEOINS_`, Text-Domain `geo-insights-ai`. Neue Bots über den Filter `geoins_bots`, Referral-Quellen über `geoins_referral_sources`, Verify-Quellen über `geoins_verify_sources`. Neue Strings brauchen eine Übersetzung in `i18n/de_DE.json` – die CI meldet fehlende.
+Erweitern: Prefix `geoins_` / `GEOINS_`, Text-Domain `wille-geo-ai-visibility`. Neue Bots über den Filter `geoins_bots`, Referral-Quellen über `geoins_referral_sources`, Verify-Quellen über `geoins_verify_sources`. Neue Strings brauchen eine Übersetzung in `i18n/de_DE.json` – die CI meldet fehlende.
 
 ## Tests
 
@@ -137,7 +137,7 @@ Actions sind auf Commit-SHAs gepinnt, Werkzeuge werden mit fester Version und SH
 
 ## Release
 
-1. Version in `geo-insights-ai/geo-insights-ai.php` (Header **und** `GEOINS_VERSION`) und `readme.txt` (`Stable tag`) anheben, Changelog-Eintrag `= x.y.z =` ergänzen. `npm run check` meldet jede Abweichung.
+1. Version in `wille-geo-ai-visibility/wille-geo-ai-visibility.php` (Header **und** `GEOINS_VERSION`) und `readme.txt` (`Stable tag`) anheben, Changelog-Eintrag `= x.y.z =` ergänzen. `npm run check` meldet jede Abweichung.
 2. Tag pushen:
 
    ```bash
@@ -154,14 +154,16 @@ Actions sind auf Commit-SHAs gepinnt, Werkzeuge werden mit fester Version und SH
 
 1. Öffentliches GitHub-Repo `lcswll/wordpress-geo` anlegen und pushen – Plugin-URI und readme verlinken darauf, die CI prüft, dass der Link erreichbar ist.
 2. wordpress.org-Konto `lcswll` (steht in `readme.txt` unter `Contributors:`) mit aktivierter Zwei-Faktor-Authentifizierung.
-3. ZIP bauen (`npm run build`) und unter [wordpress.org/plugins/developers/add](https://wordpress.org/plugins/developers/add/) hochladen. Slug: `geo-insights-ai` (am 02.10.2026 noch frei).
+3. ZIP bauen (`npm run build`) und unter [wordpress.org/plugins/developers/add](https://wordpress.org/plugins/developers/add/) hochladen. Slug: `wille-geo-ai-visibility` (am 02.10.2026 noch frei).
 4. Prüfung durch das Plugin-Team abwarten (Mail kommt an die Konto-Adresse; Rückfragen dort beantworten).
 5. Nach der Freigabe: SVN-Passwort unter *Profil → Konto & Sicherheit* erzeugen, im GitHub-Repo die Secrets `SVN_USERNAME` und `SVN_PASSWORD` sowie die Variable `WPORG_DEPLOY=true` setzen. Optional die Umgebung `wordpress-org` mit Freigabe absichern.
 6. Ab dann veröffentlicht jeder Tag automatisch – inklusive Icon, Banner und Screenshots aus `.wordpress-org/`.
 
-Übersetzungen: wordpress.org baut Sprachpakete über translate.wordpress.org; die mitgelieferte deutsche Übersetzung ist nur der Fallback, solange es kein Sprachpaket gibt.
+Übersetzungen: wordpress.org baut Sprachpakete über translate.wordpress.org; das Plugin liefert selbst keine Übersetzungsdateien aus. Die deutsche Übersetzung liegt als `i18n/de_DE.po` bereit und kann nach der Freischaltung auf translate.wordpress.org importiert werden.
 
 ## Versionshistorie
+
+**2.3.0**: Umbenennung nach dem wordpress.org-Review (Namenskonflikt „GEO Insights“): „Wille GEO – AI Crawler Stats, llms.txt & AI Visibility“, Slug/Text-Domain `wille-geo-ai-visibility`, Admin-Seiten `wille-geo*`. JSON-LD mit `JSON_HEX_*`, Beacon nur same-origin und mit HMAC-Seitentoken pro Post, keine PHP-8-only-Stringfunktionen mehr (PHP 7.4), keine gebündelten Übersetzungen, Willkommens-Hinweis nur auf dem Plugins-Bildschirm, readme-Abschnitt „External services“.
 
 **2.2.0**: Neues Admin-Design mit Marken-Kopfzeile (Radar-Logo, Navigation zwischen allen Plugin-Seiten, „by Lucas Wille“ → lucaswille.de) und Indigo-Akzent. Autor im Plugin-Header (Author/Author URI), in der Plugin-Liste („How it works“, „Rate ★★★★★“) und in der Fußzeile der Plugin-Seiten. Bewertungs-Bitte (`GEOINS_Review`): nur auf den eigenen Seiten, frühestens 14 Tage nach Aktivierung und ab 50 AI-Zugriffen in 30 Tagen, „Vielleicht später“ = 30 Tage Ruhe, „Habe ich schon“ = nie wieder. Animiertes GIF-Icon für das Plugin-Verzeichnis (Radar-Sweep, `node scripts/wporg-assets.mjs`, braucht ffmpeg) und neues Banner.
 

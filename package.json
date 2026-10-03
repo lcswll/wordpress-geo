@@ -1,9 +1,9 @@
 {
-  "name": "geo-insights-ai-dev",
+  "name": "wille-geo-ai-visibility-dev",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Dev tooling for the GEO Insights WordPress plugin: dashboard build, checks, tests, e2e, release ZIP.",
+  "description": "Dev tooling for the Wille GEO WordPress plugin: dashboard build, checks, tests, e2e, release ZIP.",
   "license": "GPL-2.0-or-later",
   "engines": {
     "node": ">=24"

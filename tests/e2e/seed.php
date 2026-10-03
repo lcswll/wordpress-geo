@@ -8,7 +8,7 @@
  *
  * phpcs:disable WordPress.NamingConventions.PrefixAllGlobals, WordPress.WP.AlternativeFunctions, WordPress.DB.DirectDatabaseQuery
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 require '/wordpress/wp-load.php';

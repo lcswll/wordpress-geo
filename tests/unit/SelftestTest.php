@@ -2,7 +2,7 @@
 /**
  * The built-in self-test (wp geoins selftest, REST geoins/v1/selftest) passes outside WordPress too.
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 namespace GEOINS\Tests;

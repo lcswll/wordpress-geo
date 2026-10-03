@@ -69,7 +69,7 @@ jobs:
             in_log && $0 ~ "^= " v " =" { take = 1; next }
             take && /^= / { exit }
             take { print }
-          ' geo-insights-ai/readme.txt > notes.md
+          ' wille-geo-ai-visibility/readme.txt > notes.md
           {
             echo
             echo "**SHA-256:** \`$(cut -d' ' -f1 dist/*.sha256)\`"
@@ -90,7 +90,7 @@ jobs:
     timeout-minutes: 15
     environment:
       name: wordpress-org
-      url: https://wordpress.org/plugins/geo-insights-ai/
+      url: https://wordpress.org/plugins/wille-geo-ai-visibility/
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -112,6 +112,6 @@ jobs:
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-          SLUG: geo-insights-ai
-          BUILD_DIR: build/geo-insights-ai
+          SLUG: wille-geo-ai-visibility
+          BUILD_DIR: build/wille-geo-ai-visibility
           ASSETS_DIR: .wordpress-org

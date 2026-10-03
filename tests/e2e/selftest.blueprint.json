@@ -4,13 +4,13 @@
 		{
 			"step": "setSiteOptions",
 			"options": {
-				"blogname": "GEO Insights Test Site",
+				"blogname": "Wille GEO Test Site",
 				"permalink_structure": "/%postname%/"
 			}
 		},
 		{
 			"step": "activatePlugin",
-			"pluginPath": "geo-insights-ai/geo-insights-ai.php"
+			"pluginPath": "wille-geo-ai-visibility/wille-geo-ai-visibility.php"
 		},
 		{
 			"step": "installPlugin",

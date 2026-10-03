@@ -8,7 +8,7 @@
  *
  * Icons (animated GIF, needs ffmpeg) and banners come from scripts/assets/wporg-brand.html. Screenshots are taken from the real admin screens in
  * WordPress Playground, seeded with 30 days of example traffic (tests/e2e/seed.php). Uses the locally installed Edge.
- * The captions are the "== Screenshots ==" list in geo-insights-ai/readme.txt (same order).
+ * The captions are the "== Screenshots ==" list in wille-geo-ai-visibility/readme.txt (same order).
  */
 import { spawn, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -98,7 +98,7 @@ if (shots) {
 		};
 
 		// 1. Dashboard: KPIs, alerts, timeline.
-		await page.goto(admin('geo-insights'));
+		await page.goto(admin('wille-geo'));
 		const dash = page.locator('#geoins-dashboard-root');
 		await dash.getByRole('heading', { name: 'AI accesses per day' }).waitFor();
 		await tidy();
@@ -113,7 +113,7 @@ if (shots) {
 		await shot(3, 'treemap + heatmap');
 
 		// 4. GEO audit.
-		await page.goto(admin('geo-insights-audit'));
+		await page.goto(admin('wille-geo-audit'));
 		await page.locator('#geoins-audit-root table.geoins-audit-table tbody tr').first().waitFor({ timeout: 60_000 });
 		await tidy();
 		await shot(4, 'audit');
@@ -132,7 +132,7 @@ if (shots) {
 		await shot(5, 'editor panel');
 
 		// 6. Settings: every option explains its benefit.
-		await page.goto(admin('geo-insights-settings'));
+		await page.goto(admin('wille-geo-settings'));
 		await tidy();
 		await shot(6, 'settings');
 

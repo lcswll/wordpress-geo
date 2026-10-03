@@ -2,7 +2,7 @@
 /**
  * Base test case: Brain Monkey + the WordPress helpers the plugin's pure functions use.
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 namespace GEOINS\Tests;

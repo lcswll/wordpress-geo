@@ -8,7 +8,7 @@
  *
  * phpcs:disable WordPress.NamingConventions.PrefixAllGlobals, WordPress.WP.AlternativeFunctions, WordPress.DB.DirectDatabaseQuery, WordPress.Security.NonceVerification
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 require '/wordpress/wp-load.php';
@@ -69,7 +69,7 @@ try {
 	global $wpdb;
 	$hits_table  = $wpdb->prefix . 'geoins_hits';
 	$daily_table = $wpdb->prefix . 'geoins_daily';
-	$plugin      = 'geo-insights-ai/geo-insights-ai.php';
+	$plugin      = 'wille-geo-ai-visibility/wille-geo-ai-visibility.php';
 
 	// ---------------------------------------------------------------- activation.
 	check( is_plugin_active( $plugin ), 'plugin is active' );
@@ -286,12 +286,15 @@ try {
 		array(
 			'source' => 'chatgpt',
 			'path'   => '/x/',
-		)
+			'token'  => GEOINS_Beacon::token( 0 ),
+		),
+		array( 'origin' => home_url() )
 	);
 	check( 404 === $beacon->get_status(), 'beacon off by default (404)', $beacon->get_status() );
 	$settings['referral_beacon'] = 1;
 	update_option( 'geoins_settings', $settings );
 	geoins()->flush_settings_cache();
+	$same_origin                = array( 'origin' => home_url() );
 	$before                     = count( hits() );
 	$_SERVER['HTTP_USER_AGENT'] = 'Mozilla/5.0 Beacon visitor';
 	$beacon                     = rest(
@@ -300,7 +303,9 @@ try {
 		array(
 			'source' => 'chatgpt',
 			'path'   => '/wordpress-backup-guide/',
-		)
+			'token'  => GEOINS_Beacon::token( $post_id ),
+		),
+		$same_origin
 	);
 	$new                        = array_slice( hits(), $before );
 	check( 204 === $beacon->get_status() && 1 === count( $new ) && 'chatgpt' === $new[0]['source'] && (int) $new[0]['post_id'] === $post_id, 'beacon records an AI visit', compact( 'new' ) );
@@ -311,7 +316,9 @@ try {
 		array(
 			'source' => 'chatgpt',
 			'path'   => '/made-up-path/',
-		)
+			'token'  => GEOINS_Beacon::token( 0 ),
+		),
+		$same_origin
 	);
 	check( count( hits() ) === $before, 'beacon ignores paths that are no page of the site' );
 	$bad = rest(
@@ -320,7 +327,9 @@ try {
 		array(
 			'source' => 'evil',
 			'path'   => '/x/',
-		)
+			'token'  => GEOINS_Beacon::token( 0 ),
+		),
+		$same_origin
 	);
 	check( 400 === $bad->get_status(), 'beacon rejects unknown sources', $bad->get_status() );
 	$cross = rest(
@@ -328,11 +337,34 @@ try {
 		'/beacon',
 		array(
 			'source' => 'chatgpt',
-			'path'   => '/x/',
+			'path'   => '/wordpress-backup-guide/',
+			'token'  => GEOINS_Beacon::token( $post_id ),
 		),
 		array( 'origin' => 'https://evil.example' )
 	);
 	check( 403 === $cross->get_status(), 'beacon rejects cross-site posts', $cross->get_status() );
+	$no_origin = rest(
+		'POST',
+		'/beacon',
+		array(
+			'source' => 'chatgpt',
+			'path'   => '/wordpress-backup-guide/',
+			'token'  => GEOINS_Beacon::token( $post_id ),
+		)
+	);
+	check( 403 === $no_origin->get_status(), 'beacon rejects posts without Origin/Referer', $no_origin->get_status() );
+	$before = count( hits() );
+	$forged = rest(
+		'POST',
+		'/beacon',
+		array(
+			'source' => 'chatgpt',
+			'path'   => '/wordpress-backup-guide/',
+			'token'  => GEOINS_Beacon::token( 0 ),
+		),
+		$same_origin
+	);
+	check( 403 === $forged->get_status() && count( hits() ) === $before, 'beacon rejects a token of another page', $forged->get_status() );
 
 	// ---------------------------------------------- deactivation, uninstall.
 	deactivate_plugins( $plugin );

@@ -2,7 +2,7 @@
 /**
  * PHP 8 string functions that WordPress core polyfills (wp-includes/compat.php) – the plugin relies on them.
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 if ( ! function_exists( 'str_starts_with' ) ) {

@@ -21,7 +21,7 @@ async function saveSettings(page) {
 
 /** Dashboard data as the admin sees it (REST with the nonce the dashboard page localizes). */
 async function dashboard(page, query = '') {
-	if (!page.url().includes('page=geo-insights')) await page.goto('/wp-admin/admin.php?page=geo-insights');
+	if (!page.url().includes('page=wille-geo')) await page.goto('/wp-admin/admin.php?page=wille-geo');
 	return page.evaluate(async (q) => {
 		const c = window.geoinsDash;
 		const base = c.restUrl + 'geoins/v1/dashboard';
@@ -77,7 +77,7 @@ test('a first visit by a new AI raises a citation alert', async ({ page, playwri
 	await anon.dispose();
 
 	await expect(async () => {
-		await page.goto('/wp-admin/admin.php?page=geo-insights');
+		await page.goto('/wp-admin/admin.php?page=wille-geo');
 		await expect(page.locator('#geoins-dashboard-root')).toContainText('Perplexity-User', { timeout: 3_000 });
 	}).toPass(SYNC);
 });
@@ -89,7 +89,7 @@ test('llms.txt and llms-full.txt', async ({ playwright, baseURL }) => {
 	expect(llms.status()).toBe(200);
 	expect(llms.headers()['content-type']).toContain('text/plain');
 	const text = await llms.text();
-	expect(text).toMatch(/^# GEO Insights Test Site/);
+	expect(text).toMatch(/^# Wille GEO Test Site/);
 	expect(text).toContain('WordPress Backup Guide');
 
 	const full = await anon.get('/llms-full.txt');
@@ -137,7 +137,7 @@ test('post page: JSON-LD, Markdown alternate link, table of contents', async ({ 
 });
 
 test('robots.txt follows the crawler settings', async ({ page, playwright, baseURL }) => {
-	await page.goto('/wp-admin/admin.php?page=geo-insights-settings');
+	await page.goto('/wp-admin/admin.php?page=wille-geo-settings');
 	const gptbot = page.locator('input[name="geoins_settings[blocked_bots][]"][value="gptbot"]');
 	await gptbot.check();
 	await saveSettings(page);
@@ -149,7 +149,7 @@ test('robots.txt follows the crawler settings', async ({ page, playwright, baseU
 	expect(robots).not.toContain('User-agent: ClaudeBot');
 
 	// Undo, so other tests see the default.
-	await page.goto('/wp-admin/admin.php?page=geo-insights-settings');
+	await page.goto('/wp-admin/admin.php?page=wille-geo-settings');
 	await gptbot.uncheck();
 	await saveSettings(page);
 	expect(await (await anon.get('/robots.txt')).text()).not.toContain('GPTBot');

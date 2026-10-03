@@ -2,7 +2,7 @@
 /**
  * robots.txt: the analyzer of physical files and the rules the plugin adds to the virtual one.
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 namespace GEOINS\Tests;

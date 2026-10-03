@@ -1,19 +1,19 @@
 {
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
-	"landingPage": "/wp-admin/admin.php?page=geo-insights",
+	"landingPage": "/wp-admin/admin.php?page=wille-geo",
 	"login": true,
 	"steps": [
 		{
 			"step": "setSiteOptions",
 			"options": {
-				"blogname": "GEO Insights Test Site",
+				"blogname": "Wille GEO Test Site",
 				"blogdescription": "Guides about WordPress and AI search",
 				"permalink_structure": "/%postname%/"
 			}
 		},
 		{
 			"step": "activatePlugin",
-			"pluginPath": "geo-insights-ai/geo-insights-ai.php"
+			"pluginPath": "wille-geo-ai-visibility/wille-geo-ai-visibility.php"
 		},
 		{
 			"step": "runPHP",

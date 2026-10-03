@@ -2,7 +2,7 @@
 /**
  * Content transformations: HTML → Markdown (.md endpoints, llms-full.txt), heading anchors + TOC, FAQ schema.
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 namespace GEOINS\Tests;

@@ -1,9 +1,9 @@
 <?php
 /**
- * Test double for the plugin accessor geoins() (defined in geo-insights-ai.php, which boots every module).
+ * Test double for the plugin accessor geoins() (defined in wille-geo-ai-visibility.php, which boots every module).
  * Tests set the settings via TestCase::$settings.
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 // phpcs:disable Squiz.Commenting

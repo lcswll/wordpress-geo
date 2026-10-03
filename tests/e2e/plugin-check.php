@@ -6,7 +6,7 @@
  * The PHPCS-based Plugin Check rules run outside Playground (scripts/plugin-check.mjs) because
  * php-wasm cannot take the file locks PHPCS uses for its temp reports.
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 require '/wordpress/wp-load.php';
@@ -27,7 +27,7 @@ $geoins_checks = array(
 );
 
 $geoins_runner = new WordPress\Plugin_Check\Checker\AJAX_Runner();
-$geoins_runner->set_plugin( 'geo-insights-ai/geo-insights-ai.php' );
+$geoins_runner->set_plugin( 'wille-geo-ai-visibility/wille-geo-ai-visibility.php' );
 $geoins_runner->set_check_slugs( $geoins_checks );
 $geoins_runner->set_experimental_flag( true );
 $geoins_cleanup = $geoins_runner->prepare();

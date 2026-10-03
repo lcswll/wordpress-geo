@@ -2,7 +2,7 @@
 /**
  * Bot identity verification: CIDR extraction from vendor IP lists and range matching.
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 namespace GEOINS\Tests;

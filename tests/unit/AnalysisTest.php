@@ -2,7 +2,7 @@
 /**
  * GEO checks per post (meta box, editor panel, audit page).
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 namespace GEOINS\Tests;

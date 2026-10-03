@@ -2,7 +2,7 @@
 /**
  * Bot and referral registries: matching, integrity, company catalogue.
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 namespace GEOINS\Tests;

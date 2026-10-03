@@ -1,7 +1,7 @@
 // Admin screens in a real browser: React dashboard, CSV export, GEO audit, settings, explainer page, editor panel.
 import { expect, test } from '@playwright/test';
 
-const DASHBOARD = '/wp-admin/admin.php?page=geo-insights';
+const DASHBOARD = '/wp-admin/admin.php?page=wille-geo';
 
 /**
  * Collects console errors, uncaught exceptions and requests to other hosts (the plugin promises
@@ -95,7 +95,7 @@ test('CSV export', async ({ page }) => {
 
 test('GEO audit scans and lists every published post', async ({ page }) => {
 	const seen = watch(page);
-	await page.goto('/wp-admin/admin.php?page=geo-insights-audit');
+	await page.goto('/wp-admin/admin.php?page=wille-geo-audit');
 	const root = page.locator('#geoins-audit-root');
 	const rows = root.locator('table.geoins-audit-table tbody tr');
 	await expect(rows.first()).toBeVisible({ timeout: 30_000 });
@@ -107,7 +107,7 @@ test('GEO audit scans and lists every published post', async ({ page }) => {
 
 test('settings explain every option and save', async ({ page }) => {
 	const seen = watch(page);
-	await page.goto('/wp-admin/admin.php?page=geo-insights-settings');
+	await page.goto('/wp-admin/admin.php?page=wille-geo-settings');
 	await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
 
 	// Quick action: block all training bots (only the "safe" group).
@@ -131,7 +131,7 @@ test('settings explain every option and save', async ({ page }) => {
 });
 
 test('settings form rejects requests without a valid nonce', async ({ page }) => {
-	await page.goto('/wp-admin/admin.php?page=geo-insights-settings');
+	await page.goto('/wp-admin/admin.php?page=wille-geo-settings');
 	const status = await page.evaluate(async () => {
 		const body = new FormData();
 		body.append('option_page', 'geoins_settings_group');
@@ -148,7 +148,7 @@ test('settings form rejects requests without a valid nonce', async ({ page }) =>
 
 test('explainer page', async ({ page }) => {
 	const seen = watch(page);
-	await page.goto('/wp-admin/admin.php?page=geo-insights-learn');
+	await page.goto('/wp-admin/admin.php?page=wille-geo-learn');
 	await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
 	await expect(page.locator('.wrap')).toContainText('GEO');
 	expect(seen.errors).toEqual([]);
@@ -187,12 +187,12 @@ test('brand bar navigates between the plugin pages and credits the author', asyn
 	await expect(byline).toHaveAttribute('rel', /noopener/);
 
 	await bar.getByRole('link', { name: 'GEO Audit' }).click();
-	await expect(page).toHaveURL(/page=geo-insights-audit/);
+	await expect(page).toHaveURL(/page=wille-geo-audit/);
 	await expect(page.locator('.geoins-brandbar .geoins-tab.is-current')).toHaveText('GEO Audit');
 
 	// Footer credit + review link only on the plugin's own pages.
 	await expect(page.locator('#footer-left')).toContainText('Lucas Wille');
-	await expect(page.locator('#footer-left a[href*="wordpress.org/support/plugin/geo-insights-ai/reviews"]')).toHaveCount(1);
+	await expect(page.locator('#footer-left a[href*="wordpress.org/support/plugin/wille-geo-ai-visibility/reviews"]')).toHaveCount(1);
 	await page.goto('/wp-admin/index.php');
 	await expect(page.locator('#footer-left')).not.toContainText('Lucas Wille');
 	await expect(page.locator('.geoins-review')).toHaveCount(0);
@@ -200,9 +200,9 @@ test('brand bar navigates between the plugin pages and credits the author', asyn
 
 test('plugin list shows author, explainer and rating links', async ({ page }) => {
 	await page.goto('/wp-admin/plugins.php');
-	const row = page.locator('tr[data-plugin="geo-insights-ai/geo-insights-ai.php"]').first();
+	const row = page.locator('tr[data-plugin="wille-geo-ai-visibility/wille-geo-ai-visibility.php"]').first();
 	await expect(row.getByRole('link', { name: 'Lucas Wille' })).toHaveAttribute('href', /^https:\/\/lucaswille\.de\/?$/);
-	await expect(row.getByRole('link', { name: /Rate GEO Insights/ })).toHaveAttribute('href', /wordpress\.org\/support\/plugin\/geo-insights-ai\/reviews/);
+	await expect(row.getByRole('link', { name: /Rate Wille GEO/ })).toHaveAttribute('href', /wordpress\.org\/support\/plugin\/wille-geo-ai-visibility\/reviews/);
 	await expect(row.getByRole('link', { name: 'How it works' })).toBeVisible();
 });
 
@@ -214,8 +214,8 @@ test('review request appears when due and "Maybe later" hides it', async ({ page
 	await expect(card.getByRole('link', { name: 'Sure, write a review' })).toHaveAttribute('target', '_blank');
 
 	await card.getByRole('link', { name: 'Maybe later' }).click();
-	await expect(page).toHaveURL(/page=geo-insights/);
+	await expect(page).toHaveURL(/page=wille-geo/);
 	await expect(page.locator('.geoins-review')).toHaveCount(0);
-	await page.goto('/wp-admin/admin.php?page=geo-insights-settings');
+	await page.goto('/wp-admin/admin.php?page=wille-geo-settings');
 	await expect(page.locator('.geoins-review')).toHaveCount(0);
 });

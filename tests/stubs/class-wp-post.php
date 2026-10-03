@@ -2,7 +2,7 @@
 /**
  * Minimal WP_Post: the plugin only reads public properties.
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 // phpcs:disable Generic.Files.OneObjectStructurePerFile, Squiz.Commenting

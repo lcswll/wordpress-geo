@@ -68,7 +68,7 @@ jobs:
               echo "$out"
               exit 1
             fi
-          done < <(find geo-insights-ai -type f -name '*.php' -print0 | sort -z)
+          done < <(find wille-geo-ai-visibility -type f -name '*.php' -print0 | sort -z)
           echo "OK: ${count} files on PHP ${PHP_VERSION}"
 
   phpcs:
@@ -211,8 +211,8 @@ jobs:
 
       - uses: WordPress/plugin-check-action@10857da14b6c2246d15402b3e69f777edcf8c12e # v1.1.9
         with:
-          build-dir: ./geo-insights-ai
-          slug: geo-insights-ai
+          build-dir: ./wille-geo-ai-visibility
+          slug: wille-geo-ai-visibility
           include-experimental: true
 
   e2e:

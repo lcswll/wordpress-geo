@@ -26,13 +26,13 @@ export default [
 			'dist/**',
 			'test-results/**',
 			'playwright-report/**',
-			'geo-insights-ai/assets/js/geoins-dashboard.js',
+			'wille-geo-ai-visibility/assets/js/geoins-dashboard.js',
 		],
 	},
 	js.configs.recommended,
 	{
 		// Plain browser scripts without a build step (ES5 style, wp.* globals from WordPress).
-		files: ['geo-insights-ai/assets/js/**/*.js'],
+		files: ['wille-geo-ai-visibility/assets/js/**/*.js'],
 		languageOptions: {
 			ecmaVersion: 2020,
 			sourceType: 'script',
@@ -43,7 +43,7 @@ export default [
 	},
 	{
 		// React dashboard source, bundled by scripts/build-dashboard.mjs.
-		files: ['geo-insights-ai/src/**/*.{js,jsx}'],
+		files: ['wille-geo-ai-visibility/src/**/*.{js,jsx}'],
 		languageOptions: {
 			ecmaVersion: 2024,
 			sourceType: 'module',

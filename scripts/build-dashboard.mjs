@@ -6,8 +6,8 @@
  *   npm run watch                                    # rebuild on change (unminified)
  *   node scripts/build-dashboard.mjs --check         # CI: fail if the committed bundle differs from the source
  *
- * Source: geo-insights-ai/src/dashboard/ (shipped with the plugin, so the minified bundle can be reviewed and rebuilt).
- * Output: geo-insights-ai/assets/js/geoins-dashboard.js (self-contained IIFE: React + ECharts bundled, nothing leaks
+ * Source: wille-geo-ai-visibility/src/dashboard/ (shipped with the plugin, so the minified bundle can be reviewed and rebuilt).
+ * Output: wille-geo-ai-visibility/assets/js/geoins-dashboard.js (self-contained IIFE: React + ECharts bundled, nothing leaks
  * to window).
  */
 import fs from 'node:fs';
@@ -15,10 +15,10 @@ import path from 'node:path';
 import * as esbuild from 'esbuild';
 import { root } from './lib/php.mjs';
 
-const outfile = path.join(root, 'geo-insights-ai', 'assets', 'js', 'geoins-dashboard.js');
+const outfile = path.join(root, 'wille-geo-ai-visibility', 'assets', 'js', 'geoins-dashboard.js');
 const options = {
 	absWorkingDir: root,
-	entryPoints: ['geo-insights-ai/src/dashboard/index.jsx'],
+	entryPoints: ['wille-geo-ai-visibility/src/dashboard/index.jsx'],
 	outfile,
 	bundle: true,
 	minify: true,
@@ -41,7 +41,7 @@ if (process.argv.includes('--watch')) {
 	const built = Buffer.from(result.outputFiles[0].contents);
 	const committed = fs.existsSync(outfile) ? fs.readFileSync(outfile) : Buffer.alloc(0);
 	if (!built.equals(committed)) {
-		console.error('geo-insights-ai/assets/js/geoins-dashboard.js is outdated – run `npm run build:dashboard` and commit it.');
+		console.error('wille-geo-ai-visibility/assets/js/geoins-dashboard.js is outdated – run `npm run build:dashboard` and commit it.');
 		process.exit(1);
 	}
 	console.log(`Dashboard bundle matches src/dashboard/ (${(built.length / 1024).toFixed(0)} KB).`);

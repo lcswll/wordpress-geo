@@ -1,0 +1,1105 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr ""
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr ""
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr ""
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr ""
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr ""
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr ""
+
+msgid "(opens in a new tab)"
+msgstr ""
+
+msgid "1 year"
+msgstr ""
+
+msgid "180 days"
+msgstr ""
+
+msgid "30 days"
+msgstr ""
+
+msgid "7-day average"
+msgstr ""
+
+msgid "90 days"
+msgstr ""
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr ""
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr ""
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr ""
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr ""
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr ""
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr ""
+
+msgid "AI (30d)"
+msgstr ""
+
+msgid "AI Statistics"
+msgstr ""
+
+msgid "AI accesses"
+msgstr ""
+
+msgid "AI accesses (30d)"
+msgstr ""
+
+msgid "AI accesses per day"
+msgstr ""
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr ""
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr ""
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr ""
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr ""
+
+msgid "AI companies: share of accesses"
+msgstr ""
+
+msgid "AI crawler access (robots.txt)"
+msgstr ""
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr ""
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr ""
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr ""
+
+msgid "AI source"
+msgstr ""
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr ""
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr ""
+
+msgid "AI visibility, last 7 days"
+msgstr ""
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr ""
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr ""
+
+msgid "AI visitors"
+msgstr ""
+
+msgid "AI visitors: landing pages"
+msgstr ""
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr ""
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr ""
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr ""
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr ""
+
+msgid "Agent"
+msgstr ""
+
+msgid "Agent (live user request)"
+msgstr ""
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr ""
+
+msgid "Agent bots"
+msgstr ""
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr ""
+
+msgid "All AIs"
+msgstr ""
+
+msgid "All checks passed"
+msgstr ""
+
+msgid "All images have alt text"
+msgstr ""
+
+msgid "All types"
+msgstr ""
+
+msgid "Allow all bots"
+msgstr ""
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr ""
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr ""
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr ""
+
+msgid "At least 300 words"
+msgstr ""
+
+msgid "At least one heading phrased as a question"
+msgstr ""
+
+msgid "Author has a profile description"
+msgstr ""
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr ""
+
+msgid "Automatic table of contents with heading anchors"
+msgstr ""
+
+msgid "Average GEO score"
+msgstr ""
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr ""
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr ""
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr ""
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr ""
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr ""
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr ""
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr ""
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr ""
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr ""
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr ""
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr ""
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr ""
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr ""
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr ""
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr ""
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr ""
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr ""
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr ""
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr ""
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr ""
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr ""
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr ""
+
+msgid "Block all training bots"
+msgstr ""
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr ""
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr ""
+
+msgid "Bot identity"
+msgstr ""
+
+msgid "Bot identity verification"
+msgstr ""
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr ""
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr ""
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr ""
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr ""
+
+msgid "Citation-relevant AI bots allowed"
+msgstr ""
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr ""
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr ""
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr ""
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr ""
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr ""
+
+msgid "Contains a list or table"
+msgstr ""
+
+msgid "Contains concrete numbers or data"
+msgstr ""
+
+msgid "Content & freshness signals"
+msgstr ""
+
+msgid "Contents"
+msgstr ""
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr ""
+
+msgid "Could not load statistics."
+msgstr ""
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "Date range"
+msgstr ""
+
+msgid "Delete all plugin data on uninstall"
+msgstr ""
+
+msgid "Details in the dashboard:"
+msgstr ""
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr ""
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr ""
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr ""
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+msgid "Email me on citation alerts"
+msgstr ""
+
+msgid "Empty = the site admin email address."
+msgstr ""
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr ""
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr ""
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr ""
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr ""
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr ""
+
+msgid "Export CSV"
+msgstr ""
+
+msgid "Feature in llms.txt (key content)"
+msgstr ""
+
+msgid "Feeds"
+msgstr ""
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr ""
+
+msgid "Filter by AI"
+msgstr ""
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr ""
+
+msgid "Flows: which AI reads which page"
+msgstr ""
+
+msgid "Focus term"
+msgstr ""
+
+msgid "Focus term appears in the title"
+msgstr ""
+
+msgid "Focus term set"
+msgstr ""
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr ""
+
+msgid "GEO Audit"
+msgstr ""
+
+msgid "GEO Settings"
+msgstr ""
+
+msgid "GEO check (AI visibility)"
+msgstr ""
+
+msgid "GEO score"
+msgstr ""
+
+msgid "GEO status of your site"
+msgstr ""
+
+msgid "High AI interest, low score – fix these first."
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Hour"
+msgstr ""
+
+msgid "How does an AI even reach my website?"
+msgstr ""
+
+msgid "How it works"
+msgstr ""
+
+msgid "How it works – GEO explained in plain language"
+msgstr ""
+
+msgid "Human visitors from AI answers"
+msgstr ""
+
+msgid "I already did"
+msgstr ""
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr ""
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr ""
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr ""
+
+msgid "Include latest posts"
+msgstr ""
+
+msgid "Include pages"
+msgstr ""
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr ""
+
+msgid "IndexNow: instant indexing pings"
+msgstr ""
+
+msgid "Instant indexing (IndexNow)"
+msgstr ""
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr ""
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr ""
+
+msgid "It measures"
+msgstr ""
+
+msgid "It optimizes"
+msgstr ""
+
+msgid "Job title / role"
+msgstr ""
+
+msgid "Keep statistics for"
+msgstr ""
+
+msgid "Key content"
+msgstr ""
+
+msgid "Last seen"
+msgstr ""
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr ""
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr ""
+
+msgid "Links to at least one external source"
+msgstr ""
+
+msgid "Links to at least one other page on your site"
+msgstr ""
+
+msgid "Log AI bot accesses"
+msgstr ""
+
+msgid "Log human visitors from AI answers"
+msgstr ""
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr ""
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr ""
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr ""
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr ""
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr ""
+
+msgid "Mark all as read"
+msgstr ""
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr ""
+
+msgid "Max. entries per section"
+msgstr ""
+
+msgid "Maybe later"
+msgstr ""
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr ""
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr ""
+
+msgid "Most active AI bots"
+msgstr ""
+
+msgid "Name (defaults to site title)"
+msgstr ""
+
+msgid "Needs attention"
+msgstr ""
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr ""
+
+msgid "New here? How it all works, in plain language."
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr ""
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr ""
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr ""
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr ""
+
+msgid "No data for this AI in the selected range."
+msgstr ""
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr ""
+
+msgid "No duplicate SEO output"
+msgstr ""
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr ""
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr ""
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr ""
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr ""
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr ""
+
+msgid "No published content to audit yet."
+msgstr ""
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr ""
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr ""
+
+msgid "No – use the direct connection IP"
+msgstr ""
+
+msgid "Not allowed."
+msgstr ""
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr ""
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr ""
+
+msgid "Official profiles (sameAs)"
+msgstr ""
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr ""
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr ""
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr ""
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr ""
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr ""
+
+msgid "Open improvements"
+msgstr ""
+
+msgid "Open the full dashboard"
+msgstr ""
+
+msgid "Open the settings"
+msgstr ""
+
+msgid "Open the statistics dashboard"
+msgstr ""
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr ""
+
+msgid "Opportunity map"
+msgstr ""
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr ""
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr ""
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr ""
+
+msgid "Page"
+msgstr ""
+
+msgid "Pages"
+msgstr ""
+
+msgid "Pages AI read most"
+msgstr ""
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr ""
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr ""
+
+msgid "Ping IndexNow on publish and update"
+msgstr ""
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr ""
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr ""
+
+msgid "Post"
+msgstr ""
+
+msgid "Post not found."
+msgstr ""
+
+msgid "Posts"
+msgstr ""
+
+msgid "Pretty permalinks enabled"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr ""
+
+msgid "Profile URLs (sameAs)"
+msgstr ""
+
+msgid "Quality: unusually high."
+msgstr ""
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr ""
+
+msgid "Rate ★★★★★"
+msgstr ""
+
+msgid "Re-scan"
+msgstr ""
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr ""
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr ""
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr ""
+
+msgid "Recipient"
+msgstr ""
+
+msgid "Reload page"
+msgstr ""
+
+msgid "Retrieval"
+msgstr ""
+
+msgid "Retrieval (citation index)"
+msgstr ""
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr ""
+
+msgid "Retrieval bots"
+msgstr ""
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr ""
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr ""
+
+msgid "Review Wille GEO"
+msgstr ""
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr ""
+
+msgid "Running GEO checks …"
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+msgid "Score distribution"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search (feeds AI answers)"
+msgstr ""
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr ""
+
+msgid "Send a weekly AI visibility report by email"
+msgstr ""
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr ""
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr ""
+
+msgid "Serve /llms-full.txt with full content"
+msgstr ""
+
+msgid "Serve a generated /llms.txt"
+msgstr ""
+
+msgid "Served at %s."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Short site description (optional)"
+msgstr ""
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr ""
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr ""
+
+msgid "Show all AIs"
+msgstr ""
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr ""
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr ""
+
+msgid "Site represents"
+msgstr ""
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr ""
+
+msgid "Site visible to crawlers"
+msgstr ""
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr ""
+
+msgid "Sorry, you are not allowed to do that."
+msgstr ""
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr ""
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr ""
+
+msgid "Structured data & meta tags"
+msgstr ""
+
+msgid "Structured data (schema.org)"
+msgstr ""
+
+msgid "Sure, write a review"
+msgstr ""
+
+msgid "Table of contents"
+msgstr ""
+
+msgid "Term"
+msgstr ""
+
+msgid "Terms & pages: which AI reads what?"
+msgstr ""
+
+msgid "The audit table needs JavaScript."
+msgstr ""
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr ""
+
+msgid "The honest limit: content decides."
+msgstr ""
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr ""
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr ""
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr ""
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr ""
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr ""
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr ""
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr ""
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr ""
+
+msgid "Timeline: weeks to months, not days."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Tracking"
+msgstr ""
+
+msgid "Training"
+msgstr ""
+
+msgid "Training bots"
+msgstr ""
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr ""
+
+msgid "Updated"
+msgstr ""
+
+msgid "Updated on %s"
+msgstr ""
+
+msgid "Updated within the last 12 months"
+msgstr ""
+
+msgid "User agent"
+msgstr ""
+
+msgid "Verify bot identity against official IP ranges"
+msgstr ""
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr ""
+
+msgid "View your key file"
+msgstr ""
+
+msgid "View your llms-full.txt"
+msgstr ""
+
+msgid "View your llms.txt"
+msgstr ""
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr ""
+
+msgid "Volume: still small, growing fast."
+msgstr ""
+
+msgid "Waiting for the first AI visit"
+msgstr ""
+
+msgid "Weekly email report"
+msgstr ""
+
+msgid "What can I realistically expect? An honest answer"
+msgstr ""
+
+msgid "What does the plugin actually do for me?"
+msgstr ""
+
+msgid "What happened"
+msgstr ""
+
+msgid "What is happening right now?"
+msgstr ""
+
+msgid "When do AIs read your site?"
+msgstr ""
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr ""
+
+msgid "Which AI bots?"
+msgstr ""
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr ""
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr ""
+
+msgid "Why does this matter?"
+msgstr ""
+
+msgid "Wille GEO"
+msgstr ""
+
+msgid "Wille GEO is active."
+msgstr ""
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr ""
+
+msgid "Wille GEO on %s noticed:"
+msgstr ""
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr ""
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr ""
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr ""
+
+msgid "XML sitemap available"
+msgstr ""
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr ""
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr ""
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr ""
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr ""
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr ""
+
+msgid "Your session check expired – reload the page to continue."
+msgstr ""
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr ""
+
+msgid "[%s] New AI visibility signal"
+msgstr ""
+
+msgid "a person"
+msgstr ""
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr ""
+
+msgid "accesses"
+msgstr ""
+
+msgid "an organization"
+msgstr ""
+
+msgid "blocking costs citations"
+msgstr ""
+
+msgid "blocking is safe for citations"
+msgstr ""
+
+msgid "by %s"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "e.g. WordPress backup plugin"
+msgstr ""
+
+msgid "forever"
+msgstr ""
+
+msgid "impostors"
+msgstr ""
+
+msgid "llms.txt"
+msgstr ""
+
+msgid "llms.txt available"
+msgstr ""
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr ""
+
+msgid "more"
+msgstr ""
+
+msgid "new"
+msgstr ""
+
+msgid "pages"
+msgstr ""
+
+msgid "passed"
+msgstr ""
+
+msgid "robots.txt"
+msgstr ""
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr ""
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr ""
+
+msgid "unchecked"
+msgstr ""
+
+msgid "verified"
+msgstr ""
+
+msgid "visitors"
+msgstr ""
+
+msgid "vs. previous period"
+msgstr ""

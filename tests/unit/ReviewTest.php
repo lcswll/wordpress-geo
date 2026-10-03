@@ -2,7 +2,7 @@
 /**
  * Review request: only after two weeks of use, only when AI traffic is measured, never again after "done".
  *
- * @package GEO_Insights
+ * @package Wille_GEO
  */
 
 namespace GEOINS\Tests;
