@@ -129,13 +129,18 @@ if (online) {
 	}
 
 	// Reviewers open every URI in the header and readme; dead links get the submission sent back.
+	// Documented API endpoints (External services section) only answer POST requests – a GET says nothing.
+	const API_ENDPOINTS = new Set(['https://api.indexnow.org/indexnow']);
 	const urls = new Set([
 		...['Plugin URI', 'Author URI', 'License URI', 'Update URI'].map((f) => header[f]).filter(Boolean),
-		...(readme.match(/https?:\/\/[^\s)<>"'`]+/g) || []).filter((u) => !/example\.|\/\/(localhost|127\.)/.test(u)),
+		// Trailing sentence punctuation is not part of the URL ("…/gptbot.json, …").
+		...(readme.match(/https?:\/\/[^\s)<>"'`]+/g) || [])
+			.map((u) => u.replace(/[.,;:!?]+$/, ''))
+			.filter((u) => !/example\.|\/\/(localhost|127\.)/.test(u) && !API_ENDPOINTS.has(u)),
 		meta['License URI'],
 	].filter(Boolean));
-	// A dead link (HTTP 4xx/5xx) fails the check. A network error is only a warning: some hosts (e.g. gnu.org)
-	// throttle or drop requests from CI runners, which says nothing about the link itself.
+	// A dead link (HTTP 4xx/5xx) fails the check. A network error, 403 or 429 is only a warning: some hosts
+	// (e.g. gnu.org, openai.com) throttle or block requests from CI runners, which says nothing about the link itself.
 	for (const url of urls) {
 		let status = null;
 		let lastError = '';
@@ -154,6 +159,9 @@ if (online) {
 		}
 		if (status === null) {
 			warnings.push(`${url} could not be checked (${lastError}) – network issue, not counted as a dead link`);
+		} else if (status === 403 || status === 429) {
+			// Bot protection (Cloudflare & co. on openai.com, perplexity.ai) blocks data-center IPs like CI runners.
+			warnings.push(`${url} answered HTTP ${status} – bot protection, not counted as a dead link`);
 		} else {
 			expect(status >= 200 && status < 400, `${url} is reachable (HTTP ${status})`);
 		}
