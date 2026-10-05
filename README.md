@@ -5,7 +5,7 @@ WordPress-Plugin: Sehen, welche AI (ChatGPT, Claude, Perplexity …) welche Seit
 ## Struktur
 
 ```
-wille-geo-ai-visibility/                     Version 2.3.0
+wille-geo-ai-visibility/                     Version 2.3.1
 ├── wille-geo-ai-visibility.php              Bootstrap + Plugin-Header + WP-CLI-Registrierung
 ├── readme.txt                       WordPress.org-Readme
 ├── uninstall.php                    Datenlöschung (nur bei Opt-in, multisite-fähig)
@@ -88,7 +88,8 @@ npm run setup:php
 | `npm run verify -- --fast` | statische Prüfungen + Unit-Tests (≈ 30 s, auch als pre-push-Hook) |
 | `npm run playground` | WordPress mit Plugin, Beispielinhalten und 90 Tagen AI-Traffic auf http://127.0.0.1:9400 |
 | `npm run test:e2e -- --php 7.4 --wp 6.5` | Laufzeittests gegen eine bestimmte PHP-/WP-Version |
-| `npm run phpcs` / `npm run phpcbf` | Coding Standards prüfen / automatisch korrigieren |
+| `npm run phpcs` / `npm run phpcbf` | Coding Standards prüfen (annotationsfest, alle Severities) / automatisch korrigieren |
+| `npm run suppressions` | Wächter: keine Abschaltung von Prüfungen per Code-Kommentar (phpcs, PHPStan, ESLint) |
 | `npm run build:dashboard` / `npm run watch` | React-Dashboard bauen |
 | `npm run i18n` | POT neu erzeugen und `i18n/de_DE.po` aus `i18n/de_DE.json` bauen (zum Import auf translate.wordpress.org; `-- --prune` entfernt verwaiste Einträge) |
 | `npm run build` | Release-ZIP nach `dist/` |
@@ -129,7 +130,7 @@ Erweitern: Prefix `geoins_` / `GEOINS_`, Text-Domain `wille-geo-ai-visibility`. 
 | --- | --- |
 | **Lauffähigkeit** | `php -l` auf PHP 7.4 – 8.5 · PHPUnit auf 7.4 und 8.4 · Integrationstest in echtem WordPress · Browsertests (Playwright) – jeweils auf der ältesten (PHP 7.4 / WP 6.5) und neuesten Kombination |
 | **Sicherheit** | PHPCS `WordPress.Security`/`DB` + VIP-Security-Sniffs · ESLint `no-unsanitized` (DOM-XSS) · REST-Rechte- und Nonce-Tests · Plugin Check (offizielle Action + gepinnte PHPCS-Regeln) · gitleaks über die ganze Historie · `composer audit` / `npm audit` · actionlint + zizmor für die Workflows |
-| **Codequalität** | PHPCS WordPress-Extra ohne Baseline · PHPStan Level 8 gegen PHP 7.4 – 8.5 · PHPCompatibility · ESLint inkl. React-Hooks-Regeln · Dashboard-Bundle passt zum Quellcode |
+| **Codequalität** | PHPCS voller WordPress-Standard ohne Baseline, Inline-Annotationen wirkungslos (nur begründete DB-Ausnahmen), Warnungen und niedrige Severities brechen den Build · PHPStan Level 8 gegen PHP 7.4 – 8.5 · PHPCompatibility · ESLint inkl. React-Hooks-Regeln · Dashboard-Bundle passt zum Quellcode |
 | **wordpress.org** | Readme/Header/Versionen/Changelog/Assets (`scripts/repo-checks.mjs`) · „Tested up to“ gegen die aktuelle WP-Version · Links erreichbar · keine externen Ressourcen in den Assets · Übersetzungen vollständig |
 | **ZIP** | reproduzierbar (gleicher Commit → gleiche SHA-256), nur erlaubte Dateitypen, wird nach dem Bauen geprüft (Struktur, Version, Direktzugriffs-Schutz, 10-MB-Limit) |
 
@@ -162,6 +163,8 @@ Actions sind auf Commit-SHAs gepinnt, Werkzeuge werden mit fester Version und SH
 Übersetzungen: wordpress.org baut Sprachpakete über translate.wordpress.org; das Plugin liefert selbst keine Übersetzungsdateien aus. Die deutsche Übersetzung liegt als `i18n/de_DE.po` bereit und kann nach der Freischaltung auf translate.wordpress.org importiert werden.
 
 ## Versionshistorie
+
+**2.3.1**: Zweites wordpress.org-Review: `.md`/llms.txt/llms-full.txt-Ausgabe zeilenweise über `wp_kses( $line, array() )` (nur das selbst geschriebene Blockquote-`>` wird literal ausgegeben), `nosniff`. Alle Prüfungen sind annotationsfest: `scripts/phpcs-strict.mjs` (voller WordPress-Standard, `--ignore-annotations`, `--severity=1`; nur die DB-Sniffs erlauben begründete Annotationen), `scripts/suppressions.mjs` (Wächter gegen phpcs/PHPStan/ESLint-Abschaltungen), ESLint `noInlineConfig`, offizielle Plugin-Check-Action mit `strict`. Echte Fixes statt Ausnahmen: Nonce-Prüfung im Profil-Handler, `utm_source` aus der Request-URI, kein `@`, Dateizugriffe über die Filesystem-API, `%i`-Prepare in den Alerts.
 
 **2.3.0**: Umbenennung nach dem wordpress.org-Review (Namenskonflikt „GEO Insights“): „Wille GEO – AI Crawler Stats, llms.txt & AI Visibility“, Slug/Text-Domain `wille-geo-ai-visibility`, Admin-Seiten `wille-geo*`. JSON-LD mit `JSON_HEX_*`, Beacon nur same-origin und mit HMAC-Seitentoken pro Post, keine PHP-8-only-Stringfunktionen mehr (PHP 7.4), keine gebündelten Übersetzungen, Willkommens-Hinweis nur auf dem Plugins-Bildschirm, readme-Abschnitt „External services“.
 

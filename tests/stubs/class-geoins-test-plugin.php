@@ -6,7 +6,6 @@
  * @package Wille_GEO
  */
 
-// phpcs:disable Squiz.Commenting
 final class GEOINS_Test_Plugin {
 	/** @var array<string,mixed> */
 	public static $settings = array();

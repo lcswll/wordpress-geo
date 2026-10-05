@@ -252,8 +252,12 @@ class GEOINS_Verify {
 		}
 		list( $subnet, $bits ) = explode( '/', $cidr, 2 );
 
-		$ip_bin     = @inet_pton( $ip ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged
-		$subnet_bin = @inet_pton( $subnet ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged
+		// inet_pton() warns on malformed input – validate first instead of silencing it.
+		if ( false === filter_var( $ip, FILTER_VALIDATE_IP ) || false === filter_var( $subnet, FILTER_VALIDATE_IP ) ) {
+			return false;
+		}
+		$ip_bin     = inet_pton( $ip );
+		$subnet_bin = inet_pton( $subnet );
 		if ( false === $ip_bin || false === $subnet_bin || strlen( $ip_bin ) !== strlen( $subnet_bin ) ) {
 			return false;
 		}

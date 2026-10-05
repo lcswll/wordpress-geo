@@ -5,7 +5,6 @@
  * @package Wille_GEO
  */
 
-// phpcs:disable Generic.Files.OneObjectStructurePerFile, Squiz.Commenting
 final class WP_Post {
 	/** @var int */
 	public $ID = 1;

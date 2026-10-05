@@ -128,9 +128,13 @@ class GEOINS_Alerts {
 		global $wpdb;
 		$now  = time();
 		$seen = array();
-		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.NotPrepared -- Custom stats tables, static SQL.
+		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- Custom stats tables; one-time seeding.
 		$slugs = $wpdb->get_col(
-			"SELECT DISTINCT source FROM {$wpdb->prefix}geoins_hits UNION SELECT DISTINCT source FROM {$wpdb->prefix}geoins_daily"
+			$wpdb->prepare(
+				'SELECT DISTINCT source FROM %i UNION SELECT DISTINCT source FROM %i',
+				$wpdb->prefix . 'geoins_hits',
+				$wpdb->prefix . 'geoins_daily'
+			)
 		);
 		// phpcs:enable
 		foreach ( (array) $slugs as $slug ) {
@@ -181,7 +185,7 @@ class GEOINS_Alerts {
 	/**
 	 * Store one alert (newest first, capped) and maybe send the email.
 	 *
-	 * @param string $type Alert type: new_bot | new_referral | spike.
+	 * @param string              $type Alert type: new_bot | new_referral | spike.
 	 * @param array<string,mixed> $data Type-specific payload.
 	 * @return void
 	 */

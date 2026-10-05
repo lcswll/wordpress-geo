@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <ruleset name="Wille GEO">
-	<description>WordPress-Extra (security, DB, i18n, formatting), WordPress VIP security sniffs and PHPCompatibility for the plugin. No baseline: every finding fails the build.</description>
+	<description>WordPress-Extra (security, DB, i18n, formatting), WordPress VIP security sniffs and PHPCompatibility. No baseline, warnings fail the build, and inline phpcs:ignore/disable comments have no effect (scripts/phpcs-strict.mjs runs with --ignore-annotations). The only exceptions live in this file, scoped and explained.</description>
 
 	<file>wille-geo-ai-visibility</file>
 	<file>tests</file>
@@ -23,7 +23,13 @@
 	<config name="minimum_wp_version" value="6.5"/>
 	<rule ref="PHPCompatibilityWP"/>
 
-	<rule ref="WordPress-Extra"/>
+	<!-- The full WordPress standard: Core + Docs + Extra. -->
+	<rule ref="WordPress"/>
+	<rule ref="Squiz.PHP.CommentedOutCode">
+		<properties>
+			<property name="maxPercentage" value="35"/>
+		</properties>
+	</rule>
 
 	<rule ref="WordPress.WP.I18n">
 		<properties>
@@ -70,5 +76,41 @@
 	</rule>
 	<rule ref="WordPress.WP.GlobalVariablesOverride">
 		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+	<!-- Test harness and the WordPress stubs re-implement WP functions with PHP natives and set up tables directly. -->
+	<rule ref="WordPress.DB.DirectDatabaseQuery">
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+	<rule ref="WordPressVIPMinimum.Functions.StripTags">
+		<exclude-pattern>tests/unit/*</exclude-pattern>
+	</rule>
+	<rule ref="Generic.Files.OneObjectStructurePerFile">
+		<exclude-pattern>tests/stubs/*</exclude-pattern>
+	</rule>
+
+	<!-- Docblocks are required for the plugin; test methods and stubs document themselves through their names. -->
+	<rule ref="Squiz.Commenting.FunctionComment">
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+	<rule ref="Squiz.Commenting.ClassComment">
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+	<rule ref="Squiz.Commenting.FileComment">
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+	<rule ref="Generic.Commenting.DocComment">
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+
+	<!-- PHP's own DOM API (ext/dom) uses camelCase property names; they cannot be renamed. -->
+	<rule ref="WordPress.NamingConventions.ValidVariableName">
+		<properties>
+			<property name="allowed_custom_properties" type="array">
+				<element value="childNodes"/>
+				<element value="nodeName"/>
+				<element value="parentNode"/>
+				<element value="textContent"/>
+			</property>
+		</properties>
 	</rule>
 </ruleset>

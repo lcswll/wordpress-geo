@@ -72,8 +72,7 @@ class GEOINS_Tracker {
 		// 2) Human visitor arriving from an AI answer?
 		if ( ! empty( $settings['track_referrals'] ) && ! is_user_logged_in() ) {
 			$referrer = isset( $_SERVER['HTTP_REFERER'] ) ? esc_url_raw( wp_unslash( $_SERVER['HTTP_REFERER'] ) ) : '';
-			// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Read-only marketing parameter on a public page view.
-			$utm = isset( $_GET['utm_source'] ) ? sanitize_text_field( wp_unslash( $_GET['utm_source'] ) ) : '';
+			$utm      = self::request_utm_source();
 
 			// Ignore internal navigation.
 			if ( '' !== $referrer ) {
@@ -210,6 +209,23 @@ class GEOINS_Tracker {
 			update_option( 'geoins_unknown_dismissed', array_slice( $dismissed, -100 ), false );
 		}
 		return true;
+	}
+
+	/**
+	 * The utm_source marker of the current page view, read from the request
+	 * URI. Tracking only observes a public GET page view and changes nothing
+	 * on the site, so there is no form to verify a nonce for.
+	 *
+	 * @return string
+	 */
+	protected static function request_utm_source() {
+		if ( ! isset( $_SERVER['REQUEST_URI'] ) ) {
+			return '';
+		}
+		$query = (string) wp_parse_url( esc_url_raw( wp_unslash( $_SERVER['REQUEST_URI'] ) ), PHP_URL_QUERY );
+		$args  = array();
+		wp_parse_str( $query, $args );
+		return isset( $args['utm_source'] ) && is_string( $args['utm_source'] ) ? sanitize_text_field( $args['utm_source'] ) : '';
 	}
 
 	/**

@@ -96,7 +96,7 @@ class GEOINS_Audit {
 				'no_found_rows'          => false,
 				'update_post_meta_cache' => false,
 				'update_post_term_cache' => false,
-				'meta_query'             => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+				'meta_query'             => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query -- Audit scores are stored in post meta; admin-only, paged queries.
 					array(
 						'key'   => self::META_V,
 						'value' => self::checks_version(),
@@ -133,7 +133,7 @@ class GEOINS_Audit {
 			array_merge(
 				$base_args,
 				array(
-					'meta_query' => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+					'meta_query' => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query -- Audit scores are stored in post meta; admin-only, paged queries.
 						array(
 							'key'     => self::META_V,
 							'compare' => 'NOT EXISTS',
@@ -150,7 +150,7 @@ class GEOINS_Audit {
 					$base_args,
 					array(
 						'posts_per_page' => $batch - count( $posts ),
-						'meta_query'     => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+						'meta_query'     => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query -- Audit scores are stored in post meta; admin-only, paged queries.
 							array(
 								'key'     => self::META_V,
 								'value'   => self::checks_version(),
@@ -224,7 +224,7 @@ class GEOINS_Audit {
 
 		$version = self::checks_version();
 
-		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- Score histogram (GROUP BY over post meta), not expressible with WP_Query; admin-only.
 		$rows = $wpdb->get_results(
 			$wpdb->prepare(
 				"SELECT s.meta_value AS score, COUNT(*) AS n
@@ -334,7 +334,7 @@ class GEOINS_Audit {
 			'posts_per_page'         => $per_page,
 			'paged'                  => $page,
 			'update_post_term_cache' => false,
-			'meta_query'             => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+			'meta_query'             => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query -- Audit scores are stored in post meta; admin-only, paged queries.
 				array(
 					'key'   => self::META_V,
 					'value' => self::checks_version(),
@@ -355,7 +355,7 @@ class GEOINS_Audit {
 				'ID'    => 'ASC',
 			);
 		} else {
-			$query_args['meta_key'] = self::META_SCORE; // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_key
+			$query_args['meta_key'] = self::META_SCORE; // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_key -- Audit scores are stored in post meta; admin-only, paged queries.
 			$query_args['orderby']  = array(
 				'meta_value_num' => $order,
 				'ID'             => 'ASC',

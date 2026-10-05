@@ -29,6 +29,10 @@ export default [
 			'wille-geo-ai-visibility/assets/js/geoins-dashboard.js',
 		],
 	},
+	{
+		// Inline lint directives in comments are ignored and reported; rules change only here.
+		linterOptions: { noInlineConfig: true, reportUnusedDisableDirectives: 'error' },
+	},
 	js.configs.recommended,
 	{
 		// Plain browser scripts without a build step (ES5 style, wp.* globals from WordPress).

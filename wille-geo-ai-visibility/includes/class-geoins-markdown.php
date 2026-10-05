@@ -57,7 +57,7 @@ class GEOINS_Markdown {
 			self::send_text( $content );
 		}
 
-		// {permalink}.md
+		// Markdown variant of a post: the permalink plus ".md".
 		if ( ! empty( $settings['md_endpoints'] ) && '.md' === substr( $path, -3 ) ) {
 			$clean = substr( $path, 0, -3 );
 			// Subdirectory install: the request path already contains the base
@@ -108,9 +108,42 @@ class GEOINS_Markdown {
 			header( 'Last-Modified: ' . $last_modified );
 		}
 		header( 'Content-Type: text/markdown; charset=utf-8' );
+		header( 'X-Content-Type-Options: nosniff' );
 		header( 'X-Robots-Tag: noindex' );
-		echo $content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Plain-text markdown, tags stripped during conversion.
+		self::print_markdown( $content );
 		exit;
+	}
+
+	/**
+	 * Print Markdown, escaped for output.
+	 *
+	 * Every line runs through wp_kses() without any allowed tags, so no HTML
+	 * from post content, titles, options or filters can reach the response
+	 * (the DOM conversion decodes entities, so a post may well contain a
+	 * literal "<script>" as text). A literal "<" becomes "&lt;", which
+	 * Markdown renders as "<" again. The only markup printed verbatim is the
+	 * blockquote marker ">" at the start of a line – wp_kses() would encode
+	 * it and break the Markdown structure, and ">" alone cannot open a tag.
+	 *
+	 * @param string $content Markdown.
+	 * @return void
+	 */
+	public static function print_markdown( $content ) {
+		foreach ( explode(
+			'
+',
+			(string) $content
+		) as $i => $line ) {
+			if ( $i > 0 ) {
+				echo '
+';
+			}
+			while ( '>' === substr( $line, 0, 1 ) ) {
+				echo '>';
+				$line = (string) substr( $line, 1 );
+			}
+			echo wp_kses( $line, array() );
+		}
 	}
 
 	/**
@@ -176,7 +209,7 @@ class GEOINS_Markdown {
 	}
 
 	/**
-	 * llms-full.txt: site header + full content of the included items.
+	 * Build llms-full.txt: site header + full content of the included items.
 	 *
 	 * @return string
 	 */
@@ -301,9 +334,9 @@ class GEOINS_Markdown {
 			return '';
 		}
 
-		$tag      = strtolower( $node->nodeName ); // phpcs:ignore WordPress.NamingConventions.ValidVariableName
+		$tag      = strtolower( $node->nodeName );
 		$children = '';
-		foreach ( $node->childNodes as $child ) { // phpcs:ignore WordPress.NamingConventions.ValidVariableName
+		foreach ( $node->childNodes as $child ) {
 			$children .= self::walk( $child, in_array( $tag, array( 'ul', 'ol' ), true ) ? $list_depth + 1 : $list_depth );
 		}
 
@@ -329,12 +362,12 @@ class GEOINS_Markdown {
 			case 'i':
 				return '' !== trim( $children ) ? '*' . trim( $children ) . '*' : '';
 			case 'code':
-				if ( $node->parentNode && 'pre' === strtolower( $node->parentNode->nodeName ) ) { // phpcs:ignore WordPress.NamingConventions.ValidVariableName
+				if ( $node->parentNode && 'pre' === strtolower( $node->parentNode->nodeName ) ) {
 					return $children;
 				}
 				return '`' . trim( $children ) . '`';
 			case 'pre':
-				return "\n\n```\n" . trim( $node->textContent ) . "\n```\n\n"; // phpcs:ignore WordPress.NamingConventions.ValidVariableName
+				return "\n\n```\n" . trim( $node->textContent ) . "\n```\n\n";
 			case 'blockquote':
 				$quoted = array();
 				foreach ( explode( "\n", trim( $children ) ) as $line ) {
@@ -346,7 +379,7 @@ class GEOINS_Markdown {
 				return "\n" . $children . ( $list_depth <= 0 ? "\n" : '' );
 			case 'li':
 				$indent = str_repeat( '  ', max( 0, $list_depth - 1 ) );
-				$marker = ( $node->parentNode && 'ol' === strtolower( $node->parentNode->nodeName ) ) ? '1.' : '-'; // phpcs:ignore WordPress.NamingConventions.ValidVariableName
+				$marker = ( $node->parentNode && 'ol' === strtolower( $node->parentNode->nodeName ) ) ? '1.' : '-';
 				return $indent . $marker . ' ' . trim( $children ) . "\n";
 			case 'a':
 				$href = $node->getAttribute( 'href' );
@@ -383,10 +416,10 @@ class GEOINS_Markdown {
 		$rows = array();
 		foreach ( $table->getElementsByTagName( 'tr' ) as $tr ) {
 			$cells = array();
-			foreach ( $tr->childNodes as $cell ) { // phpcs:ignore WordPress.NamingConventions.ValidVariableName
-				$cell_tag = strtolower( $cell->nodeName ); // phpcs:ignore WordPress.NamingConventions.ValidVariableName
+			foreach ( $tr->childNodes as $cell ) {
+				$cell_tag = strtolower( $cell->nodeName );
 				if ( 'td' === $cell_tag || 'th' === $cell_tag ) {
-					$cells[] = trim( (string) preg_replace( '/\s+/', ' ', $cell->textContent ) ); // phpcs:ignore WordPress.NamingConventions.ValidVariableName
+					$cells[] = trim( (string) preg_replace( '/\s+/', ' ', $cell->textContent ) );
 				}
 			}
 			if ( $cells ) {

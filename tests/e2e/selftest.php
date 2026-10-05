@@ -6,8 +6,6 @@
  *
  * Writes /e2e-out/selftest.json (scripts/e2e.mjs reads it and fails on any failed assertion).
  *
- * phpcs:disable WordPress.NamingConventions.PrefixAllGlobals, WordPress.WP.AlternativeFunctions, WordPress.DB.DirectDatabaseQuery, WordPress.Security.NonceVerification
- *
  * @package Wille_GEO
  */
 
@@ -60,9 +58,12 @@ function visit( $post_id, $user_agent, $referrer = '', $query = array() ) {
 	GEOINS_Tracker::maybe_track();
 }
 
-function hits( $where = '1=1' ) {
+function hits( $hit_type = null ) {
 	global $wpdb;
-	return $wpdb->get_results( "SELECT * FROM {$wpdb->prefix}geoins_hits WHERE {$where} ORDER BY id", ARRAY_A ); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- test harness.
+	if ( null === $hit_type ) {
+		return $wpdb->get_results( $wpdb->prepare( 'SELECT * FROM %i ORDER BY id', $wpdb->prefix . 'geoins_hits' ), ARRAY_A );
+	}
+	return $wpdb->get_results( $wpdb->prepare( 'SELECT * FROM %i WHERE hit_type = %d ORDER BY id', $wpdb->prefix . 'geoins_hits', $hit_type ), ARRAY_A );
 }
 
 try {
@@ -112,7 +113,7 @@ try {
 	check( $post_id > 0, 'test post created' );
 
 	// ------------------------------------------------------------------ tracking.
-	$wpdb->query( "TRUNCATE TABLE {$hits_table}" ); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+	$wpdb->query( $wpdb->prepare( 'TRUNCATE TABLE %i', $hits_table ) );
 	wp_set_current_user( 0 );
 
 	visit( $post_id, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)' );
@@ -128,7 +129,7 @@ try {
 	visit( $post_id, 'Mozilla/5.0 Firefox/130.0', 'https://chatgpt.com/' );
 	visit( $post_id, 'Mozilla/5.0 Safari/605.1', '', array( 'utm_source' => 'perplexity' ) );
 	visit( $post_id, 'Mozilla/5.0 Safari/605.1', home_url( '/other/' ) );
-	$referrals = hits( 'hit_type = 2' );
+	$referrals = hits( 2 );
 	check( array( 'chatgpt', 'perplexity' ) === array_column( $referrals, 'source' ), 'referrals via Referer and utm_source, internal navigation ignored', $referrals );
 
 	// Referral dedupe: the same visitor reloading within 60 s counts once.
@@ -150,7 +151,7 @@ try {
 	wp_set_current_user( 0 );
 
 	// No PII: the hits table has no column for IPs, user agents or referrers.
-	$columns = $wpdb->get_col( "SHOW COLUMNS FROM {$hits_table}" ); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+	$columns = $wpdb->get_col( $wpdb->prepare( 'SHOW COLUMNS FROM %i', $hits_table ) );
 	check( array() === array_intersect( array( 'ip', 'user_agent', 'ua', 'referrer', 'referer' ), $columns ), 'no personal data columns', $columns );
 
 	// Settings off → nothing is logged.
@@ -208,6 +209,15 @@ try {
 	check( false !== strpos( (string) GEOINS_Markdown::md_url( $post_id ), 'wordpress-backup-guide' ), '.md URL', GEOINS_Markdown::md_url( $post_id ) );
 	$full = GEOINS_Markdown::build_llms_full();
 	check( false !== strpos( $full, 'WordPress Backup Guide' ) && false === strpos( $full, 'Not public.' ), 'llms-full.txt has public content only' );
+
+	// Output escaping: entities in post text decode to literal markup during conversion; it must not reach the response.
+	$xss_md = GEOINS_Markdown::html_to_markdown( '<p>Text &lt;script&gt;alert(1)&lt;/script&gt; &amp; more</p><blockquote><p>Quoted</p></blockquote>' );
+	check( false !== strpos( $xss_md, '<script>' ), 'conversion decodes entities (precondition)', $xss_md );
+	ob_start();
+	GEOINS_Markdown::print_markdown( "# Escaping <b>test</b>\n" . $xss_md . "\n> Tag line" );
+	$printed = (string) ob_get_clean();
+	check( false === stripos( $printed, '<script' ) && false === stripos( $printed, '<b>' ), 'Markdown output escapes markup', $printed );
+	check( false !== strpos( $printed, "\n> Quoted" ) && false !== strpos( $printed, "\n> Tag line" ), 'Markdown output keeps blockquotes', $printed );
 
 	// ------------------------------------------------------------- structured data.
 	$GLOBALS['wp_query']->query( array( 'p' => $post_id ) );

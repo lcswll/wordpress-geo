@@ -64,7 +64,7 @@ class GEOINS_Dashboard {
 		header( 'Content-Type: text/csv; charset=utf-8' );
 		header( 'Content-Disposition: attachment; filename=wille-geo-' . gmdate( 'Y-m-d' ) . '-' . $days . 'd' . $suffix . '.csv' );
 
-		$out = fopen( 'php://output', 'w' ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_fopen
+		$out = fopen( 'php://output', 'w' );
 		if ( false === $out ) {
 			exit;
 		}

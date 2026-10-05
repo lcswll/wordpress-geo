@@ -27,14 +27,14 @@ abstract class TestCase extends PHPUnitTestCase {
 		Functions\stubs(
 			array(
 				'wp_json_encode'         => static function ( $data, $flags = 0 ) {
-					return json_encode( $data, $flags ); // phpcs:ignore WordPress.WP.AlternativeFunctions.json_encode_json_encode
+					return json_encode( $data, $flags );
 				},
 				'wp_parse_url'           => static function ( $url, $component = -1 ) {
-					return parse_url( $url, $component ); // phpcs:ignore WordPress.WP.AlternativeFunctions.parse_url_parse_url
+					return parse_url( $url, $component );
 				},
 				'wp_strip_all_tags'      => static function ( $text ) {
 					$text = preg_replace( '@<(script|style)[^>]*?>.*?</\1>@si', '', (string) $text );
-					return trim( strip_tags( $text ) ); // phpcs:ignore WordPress.WP.AlternativeFunctions.strip_tags_strip_tags, WordPressVIPMinimum.Functions.StripTags -- script/style removed above.
+					return trim( strip_tags( $text ) );
 				},
 				'sanitize_key'           => static function ( $key ) {
 					return preg_replace( '/[^a-z0-9_\-]/', '', strtolower( (string) $key ) );

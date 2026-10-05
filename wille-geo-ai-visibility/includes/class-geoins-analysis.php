@@ -387,7 +387,7 @@ class GEOINS_Analysis {
 	/**
 	 * Unicode-aware word count.
 	 *
-	 * str_word_count() is ASCII-based and miscounts anything with umlauts
+	 * The PHP function str_word_count() is ASCII-based and miscounts anything with umlauts
 	 * or accents ("größer" counts as two words). This counts sequences of
 	 * letters/digits, allowing inner hyphens and apostrophes.
 	 *

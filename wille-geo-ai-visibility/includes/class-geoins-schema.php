@@ -91,7 +91,9 @@ class GEOINS_Schema {
 		if ( ! current_user_can( 'edit_user', $user_id ) || ! self::is_author_user( $user_id ) ) {
 			return;
 		}
-		// phpcs:disable WordPress.Security.NonceVerification.Missing -- Core checks update-user_{id} before firing these hooks.
+		// Core already verified this nonce before firing the profile hooks;
+		// checking it here as well keeps the handler safe on its own.
+		check_admin_referer( 'update-user_' . $user_id );
 		if ( isset( $_POST['geoins_job_title'] ) ) {
 			$job = sanitize_text_field( wp_unslash( $_POST['geoins_job_title'] ) );
 			update_user_meta( $user_id, 'geoins_job_title', mb_substr( $job, 0, 100 ) );
@@ -107,7 +109,6 @@ class GEOINS_Schema {
 			}
 			update_user_meta( $user_id, 'geoins_sameas', implode( "\n", array_slice( $urls, 0, 10 ) ) );
 		}
-		// phpcs:enable
 	}
 
 	/**

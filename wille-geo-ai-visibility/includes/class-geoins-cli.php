@@ -128,7 +128,11 @@ class GEOINS_CLI {
 		$csv = implode( "\n", $lines ) . "\n";
 
 		if ( ! empty( $assoc_args['file'] ) ) {
-			file_put_contents( $assoc_args['file'], $csv ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_file_put_contents
+			global $wp_filesystem;
+			require_once ABSPATH . 'wp-admin/includes/file.php';
+			if ( ! WP_Filesystem() || ! $wp_filesystem instanceof WP_Filesystem_Base || ! $wp_filesystem->put_contents( $assoc_args['file'], $csv, FS_CHMOD_FILE ) ) {
+				WP_CLI::error( sprintf( 'Could not write %s.', $assoc_args['file'] ) );
+			}
 			WP_CLI::success( sprintf( '%d rows written to %s.', count( $rows ), $assoc_args['file'] ) );
 		} else {
 			WP_CLI::log( $csv );

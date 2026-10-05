@@ -2,7 +2,7 @@
 /**
  * Serves a generated /llms.txt file.
  *
- * llms.txt is a young, optional standard: a Markdown site summary for
+ * The llms.txt format is a young, optional standard: a Markdown site summary for
  * language models and AI agents. Big crawlers rarely fetch it yet, but
  * coding/IDE agents do, it costs nothing, and it sharpens your own
  * information architecture. Cheap forward investment, not a magic bullet.
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * llms.txt endpoint.
+ * The llms.txt endpoint.
  */
 class GEOINS_Llms_Txt {
 
@@ -61,8 +61,9 @@ class GEOINS_Llms_Txt {
 		status_header( 200 );
 		nocache_headers();
 		header( 'Content-Type: text/plain; charset=utf-8' );
+		header( 'X-Content-Type-Options: nosniff' );
 		header( 'X-Robots-Tag: noindex' );
-		echo $content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Plain-text markdown built from sanitized parts below.
+		GEOINS_Markdown::print_markdown( $content );
 		exit;
 	}
 
@@ -188,8 +189,8 @@ class GEOINS_Llms_Txt {
 				'numberposts' => 50,
 				'orderby'     => 'menu_order title',
 				'order'       => 'ASC',
-				'meta_key'    => '_geoins_llms_pin', // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_key
-				'meta_value'  => '1', // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_value
+				'meta_key'    => '_geoins_llms_pin', // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_key -- Few pinned posts; the result is cached for 12 hours.
+				'meta_value'  => '1', // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_value -- Few pinned posts; the result is cached for 12 hours.
 			)
 		);
 	}

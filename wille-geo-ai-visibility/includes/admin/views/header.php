@@ -13,10 +13,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $geoins_current = GEOINS_Admin::current_page();
 $geoins_tabs    = array(
-	'wille-geo'          => array( __( 'AI Statistics', 'wille-geo-ai-visibility' ), 'manage_options' ),
-	'wille-geo-audit'    => array( __( 'GEO Audit', 'wille-geo-ai-visibility' ), 'edit_others_posts' ),
-	'wille-geo-settings' => array( __( 'Settings', 'wille-geo-ai-visibility' ), 'manage_options' ),
-	'wille-geo-learn'    => array( __( 'How it works', 'wille-geo-ai-visibility' ), 'edit_posts' ),
+	'wille-geo'          => array( __( 'AI Statistics', 'wille-geo-ai-visibility' ), current_user_can( 'manage_options' ) ),
+	'wille-geo-audit'    => array( __( 'GEO Audit', 'wille-geo-ai-visibility' ), current_user_can( 'edit_others_posts' ) ),
+	'wille-geo-settings' => array( __( 'Settings', 'wille-geo-ai-visibility' ), current_user_can( 'manage_options' ) ),
+	'wille-geo-learn'    => array( __( 'How it works', 'wille-geo-ai-visibility' ), current_user_can( 'edit_posts' ) ),
 );
 ?>
 <header class="geoins-brandbar">
@@ -39,7 +39,7 @@ $geoins_tabs    = array(
 	<nav class="geoins-tabs" aria-label="<?php esc_attr_e( 'Wille GEO', 'wille-geo-ai-visibility' ); ?>">
 		<?php foreach ( $geoins_tabs as $geoins_slug => $geoins_tab ) : ?>
 			<?php
-			if ( ! current_user_can( $geoins_tab[1] ) ) {
+			if ( ! $geoins_tab[1] ) {
 				continue;
 			}
 			?>

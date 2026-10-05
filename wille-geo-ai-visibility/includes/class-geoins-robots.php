@@ -1,6 +1,6 @@
 <?php
 /**
- * robots.txt control for AI crawlers.
+ * Control of AI crawlers via robots.txt.
  *
  * Appends per-bot Disallow rules to WordPress' virtual robots.txt.
  * Only works when no physical robots.txt file exists in the web root –
@@ -98,7 +98,45 @@ class GEOINS_Robots {
 	 */
 	public static function physical_file_exists() {
 		$path = self::robots_path();
-		return null !== $path && @file_exists( $path ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged
+		return null !== $path && self::path_allowed( $path ) && file_exists( $path );
+	}
+
+	/**
+	 * Whether PHP may touch the path at all: outside an open_basedir
+	 * restriction (possible for the document root above ABSPATH), file
+	 * functions emit warnings instead of returning false.
+	 *
+	 * @param string $path Absolute path.
+	 * @return bool
+	 */
+	protected static function path_allowed( $path ) {
+		$basedir = (string) ini_get( 'open_basedir' );
+		if ( '' === $basedir ) {
+			return true;
+		}
+		$path = wp_normalize_path( $path );
+		foreach ( explode( PATH_SEPARATOR, $basedir ) as $dir ) {
+			$dir = wp_normalize_path( trim( $dir ) );
+			if ( '' !== $dir && 0 === strpos( $path, $dir ) ) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/**
+	 * Read-only access to local files through the WordPress filesystem API.
+	 * Direct access on purpose: reading needs no credentials, whatever
+	 * FS_METHOD the site uses for writing.
+	 *
+	 * @return WP_Filesystem_Direct
+	 */
+	protected static function filesystem() {
+		if ( ! class_exists( 'WP_Filesystem_Direct' ) ) {
+			require_once ABSPATH . 'wp-admin/includes/class-wp-filesystem-base.php';
+			require_once ABSPATH . 'wp-admin/includes/class-wp-filesystem-direct.php';
+		}
+		return new WP_Filesystem_Direct( null );
 	}
 
 	/**
@@ -244,7 +282,12 @@ class GEOINS_Robots {
 		// than that cannot be analyzed safely (a truncated read could hide
 		// AI-block groups appended at the end) -> "check it manually" warn.
 		$max_len = 512 * KB_IN_BYTES;
-		$content = @file_get_contents( $path, false, null, 0, $max_len + 1 ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged, WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
+		$fs      = self::filesystem();
+		$size    = $fs->size( $path );
+		if ( false === $size || $size > $max_len ) {
+			return self::$analysis;
+		}
+		$content = $fs->get_contents( $path );
 		if ( false === $content || strlen( $content ) > $max_len ) {
 			return self::$analysis;
 		}
