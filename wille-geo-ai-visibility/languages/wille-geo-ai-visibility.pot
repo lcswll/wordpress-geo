@@ -510,6 +510,9 @@ msgstr ""
 msgid "Log human visitors from AI answers"
 msgstr ""
 
+msgid "Lucas Wille"
+msgstr ""
+
 msgid "Machine-readable metadata helps AI systems understand and attribute your content."
 msgstr ""
 
@@ -777,6 +780,9 @@ msgstr ""
 msgid "Search engines and AI crawlers may index the site."
 msgstr ""
 
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr ""
+
 msgid "Send a weekly AI visibility report by email"
 msgstr ""
 
@@ -993,6 +999,9 @@ msgstr ""
 msgid "Wille GEO on %s noticed:"
 msgstr ""
 
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr ""
+
 msgid "Wille GEO: author signals (E-E-A-T)"
 msgstr ""
 
@@ -1057,6 +1066,12 @@ msgid "e.g. WordPress backup plugin"
 msgstr ""
 
 msgid "forever"
+msgstr ""
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr ""
+
+msgid "https://lucaswille.de/"
 msgstr ""
 
 msgid "impostors"

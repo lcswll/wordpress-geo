@@ -365,5 +365,10 @@
 	"Review Wille GEO": "Wille GEO bewerten",
 	"Sorry, you are not allowed to do that.": "Das darfst du leider nicht.",
 	"Sure, write a review": "Gern, Bewertung schreiben",
-	"by %s": "von %s"
+	"by %s": "von %s",
+	"Wille GEO – AI Crawler Stats, llms.txt & AI Visibility": "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility",
+	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "Sieh, welche AI (ChatGPT, Claude, Perplexity …) welche deiner Seiten liest – und optimiere deine Website für die AI-Suche (GEO). Kostenlos, keine personenbezogenen Daten.",
+	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
+	"Lucas Wille": "Lucas Wille",
+	"https://lucaswille.de/": "https://lucaswille.de/"
 }

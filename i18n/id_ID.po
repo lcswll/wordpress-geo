@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "\"Minta mesin pencari untuk tidak mengindeks situs ini\" diaktifkan (Pengaturan → Membaca). Tidak ada sistem AI yang dapat menemukan Anda sampai opsi ini dimatikan."
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%1$d rentang IP dari %2$d vendor, terakhir diperbarui %3$s."
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "%s (crawler pelatihan) mengunjungi situs Anda untuk pertama kalinya."
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "%s merayapi situs Anda untuk pertama kalinya – AI yang relevan untuk sitasi kini membaca konten Anda."
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "%s terdeteksi – Wille GEO secara otomatis menyerahkan schema dan tag meta kepadanya dan hanya menambahkan yang belum ada (pelacakan, llms.txt, kontrol robots, pemeriksaan GEO)."
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "%s aktif. Untuk menghindari keluaran ganda, Wille GEO secara otomatis menyerahkan schema dan tag meta kepadanya – tombol di bawah diabaikan selama plugin itu berjalan. Semua yang lain (pelacakan, llms.txt, kontrol robots, pemeriksaan GEO) tetap berjalan berdampingan."
+
+msgid "(opens in a new tab)"
+msgstr "(terbuka di tab baru)"
+
+msgid "1 year"
+msgstr "1 tahun"
+
+msgid "180 days"
+msgstr "180 hari"
+
+msgid "30 days"
+msgstr "30 hari"
+
+msgid "7-day average"
+msgstr "Rata-rata 7 hari"
+
+msgid "90 days"
+msgstr "90 hari"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "Versi Markdown yang bersih dari setiap halaman tersedia dengan menambahkan .md ke URL-nya."
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "Daftar periksa langsung saat Anda menulis: tiga belas kriteria konkret yang dijelaskan, yang membuat halaman layak dikutip AI (jawaban di awal, judul berbentuk pertanyaan, daftar, angka, kebaruan …)."
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "robots.txt fisik ada dan tidak berisi blokir yang Anda konfigurasi di sini (%s) – blokir tersebut tidak berpengaruh sampai Anda menambahkannya ke file atau menghapus file tersebut."
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "File robots.txt fisik ada tetapi tidak dapat dibaca untuk dianalisis. File ini menimpa aturan yang dikonfigurasi di sini – periksa secara manual."
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "File robots.txt fisik ada, tetapi saat ini baik-baik saja: tidak memblokir bot AI yang relevan untuk sitasi dan sesuai dengan konfigurasi Anda. Catatan: aturan yang dikonfigurasi di sini tetap tidak aktif selama file tersebut ada."
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "Contoh realistis: situs spesialis dengan 50 artikel solid yang menerapkan daftar periksa GEO dapat mengharapkan sitasi AI pertamanya dan aliran kecil tetapi terus bertambah dari pengunjung berniat tinggi dalam beberapa bulan – anggap saja sebagai membuka pintu kedua yang masih kecil ke bisnis Anda yang semakin lebar setiap bulan, bukan sebagai pengganti Google."
+
+msgid "AI (30d)"
+msgstr "AI (30 hr)"
+
+msgid "AI Statistics"
+msgstr "Statistik AI"
+
+msgid "AI accesses"
+msgstr "Akses AI"
+
+msgid "AI accesses (30d)"
+msgstr "Akses AI (30 hr)"
+
+msgid "AI accesses per day"
+msgstr "Akses AI per hari"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "Asisten AI mengutip blok jawaban yang berdiri sendiri. Jika paragraf pertama menjawab pertanyaan inti, bagian itulah yang paling mudah dikutip."
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "Akses bot AI dan pengunjung dari jawaban AI mulai dicatat sekarang – data muncul segera setelah AI pertama mencapai situs Anda."
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "Akses bot AI dalam 30 hari terakhir – buka dasbor statistik"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "Perusahaan AI mengirim pengunjung otomatis – bot – ke situs Anda. Bot ini memperkenalkan diri dengan nama, dan nama itu memberi tahu Anda dengan tepat mengapa mereka datang. Ada tiga jenis yang penting, dan maknanya sangat berbeda bagi bisnis Anda:"
+
+msgid "AI companies: share of accesses"
+msgstr "Perusahaan AI: porsi akses"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "Akses crawler AI (robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "Crawler AI tidak mengirimkan kueri pencarian. Matriks ini memetakan setiap akses ke istilah fokus halaman (atur di kotak pemeriksaan GEO pada layar penyuntingan) – padanan yang jujur dan praktis."
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "Radar AI: crawler mirip AI yang tidak dikenal"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "Pencarian AI lebih menyukai sumber yang segar; tanggal perubahan dikirim dalam data terstruktur Anda. Meninjau konten setiap tahun membuat Anda tetap layak dikutip."
+
+msgid "AI source"
+msgstr "Sumber AI"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "Sistem AI mencocokkan pertanyaan dengan judul terlebih dahulu – judul yang jelas menjadikan halaman Anda sumber yang paling tepat."
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "Sistem AI membaca situs Anda %s kali dalam 30 hari terakhir – Wille GEO menjalankan tugasnya."
+
+msgid "AI visibility, last 7 days"
+msgstr "Visibilitas AI, 7 hari terakhir"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Lonjakan pengunjung AI: %1$d pengunjung dari jawaban AI kemarin (rata-rata terkini: %2$s/hari)."
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Lonjakan pengunjung AI: %1$s pengunjung dari jawaban AI kemarin (rata-rata terkini: %2$s/hari)."
+
+msgid "AI visitors"
+msgstr "Pengunjung AI"
+
+msgid "AI visitors: landing pages"
+msgstr "Pengunjung AI: halaman arahan"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "Di seluruh halaman yang dinilai. Setiap kenaikan satu poin berarti satu kriteria lagi dipenuhi halaman Anda pada umumnya."
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "Tambahkan waktu pembaruan yang tepat (lastmod) ke peta situs XML"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "Menambahkan ID jangkar ke semua judul H2/H3 dan, pada pos dengan tiga judul atau lebih, menyisipkan daftar isi ringkas bertautan sebelum H2 pertama. Gayanya minimal dan mengikuti font serta warna tema Anda."
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "Menambahkan waktu perubahan sebenarnya dari setiap pos ke peta situs inti WordPress. Hanya aktif selama peta situs inti berjalan; plugin SEO yang mengganti peta situs tidak terpengaruh."
+
+msgid "Agent"
+msgstr "Agen"
+
+msgid "Agent (live user request)"
+msgstr "Agen (permintaan pengguna langsung)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "Agen + Retrieval = relevan untuk sitasi: AI membaca halaman Anda untuk menjawab pertanyaan nyata. Pelatihan hanya memberi makan model."
+
+msgid "Agent bots"
+msgstr "Bot agen"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "Peringatan selalu muncul di dasbor; opsi ini juga mengirimkannya melalui email (digabung, maksimal satu email per hari). Menggunakan penerima di bawah."
+
+msgid "All AIs"
+msgstr "Semua AI"
+
+msgid "All checks passed"
+msgstr "Semua pemeriksaan lolos"
+
+msgid "All images have alt text"
+msgstr "Semua gambar memiliki teks alt"
+
+msgid "All types"
+msgstr "Semua jenis"
+
+msgid "Allow all bots"
+msgstr "Izinkan semua bot"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "Teks alt adalah cara sistem AI memahami gambar Anda – dan sudah lama menjadi sinyal aksesibilitas serta peringkat. Halaman tanpa gambar otomatis lolos."
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "Menganalisis konten … %1$s dari %2$s selesai"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "Luas = akses dalam rentang yang dipilih. Klik perusahaan untuk memperbesar ke bot-botnya."
+
+msgid "At least 300 words"
+msgstr "Minimal 300 kata"
+
+msgid "At least one heading phrased as a question"
+msgstr "Minimal satu judul berbentuk pertanyaan"
+
+msgid "Author has a profile description"
+msgstr "Penulis memiliki deskripsi profil"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "Buat schema FAQ otomatis dari judul berbentuk pertanyaan"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "Daftar isi otomatis dengan jangkar judul"
+
+msgid "Average GEO score"
+msgstr "Rata-rata skor GEO"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "Waspadalah terhadap siapa pun yang menjanjikan banjir pelanggan dari pencarian AI. Inilah gambaran jujurnya:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Manfaat: Bing dan lainnya mengambil konten baru dan yang diperbarui dalam hitungan menit, bukan hari. Bing memasok Microsoft Copilot dan sebagian pencarian ChatGPT – pengindeksan lebih cepat berarti sitasi AI lebih cepat."
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "Manfaat: ringkasan situs yang dapat dibaca mesin untuk agen AI. Sejujurnya: crawler besar masih jarang mengambilnya – tetapi agen coding/IDE melakukannya, gratis, dan memosisikan Anda seiring standar ini berkembang."
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "Manfaat: agen yang menginginkan lebih dari sekadar ikhtisar mendapatkan konten utama Anda secara lengkap sebagai Markdown yang bersih dalam satu file."
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "Manfaat: menambahkan .md ke URL mana pun menghasilkan Markdown murni – tanpa markup tema, tanpa skrip. Lebih hemat dibaca oleh agen AI dan diumumkan lewat tag link di setiap halaman."
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "Manfaat: halaman yang di-cache tidak pernah menjalankan PHP, sehingga pengunjung AI di halaman tersebut tidak terlihat oleh pelacakan sisi server. Beacon browser kecil ini (<1 kB) menutup celah tersebut."
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "Manfaat: cuplikan rapi di pencarian, obrolan, dan aplikasi sosial – dibuat dari ringkasan atau konten Anda, tanpa perawatan."
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "Manfaat: tentukan per bot siapa yang boleh membaca konten Anda – dengan peringatan jelas sebelum Anda memblokir sesuatu yang membuat Anda kehilangan sitasi AI."
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "Manfaat: setiap bagian mendapat tautan dalam (#bagian) yang dapat dikutip secara tepat oleh sistem AI dan mesin pencari, dan pembaca dapat langsung melompat ke jawaban."
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "Manfaat: kebaruan adalah sinyal peringkat dan sitasi – dan tanggal yang terlihat itulah yang benar-benar diambil oleh cuplikan pencarian dan jawaban AI."
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "Manfaat: judul yang diakhiri “?” beserta jawabannya menjadi data terstruktur FAQ – persis format tanya-jawab yang dikutip asisten AI."
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "Manfaat: menjaga basis data Anda tetap kecil. Entri lama dihapus otomatis sekali sehari."
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "Manfaat: ketahui saat itu juga ketika hal penting terjadi – perayapan pertama oleh AI baru, pengunjung pertama dari asisten AI, atau lonjakan mendadak pengunjung AI."
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "Manfaat: basis data Anda kembali persis seperti semula. Nonaktif secara bawaan agar statistik Anda tetap ada setelah instal ulang."
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "Manfaat: metadata artikel, penulis, tanggal, dan situs yang dapat dibaca mesin – cara termurah untuk membantu sistem AI memahami dan mengatribusikan konten Anda dengan benar."
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "Manfaat: ukur hasil nyata dari GEO – orang yang mengeklik menuju situs Anda dari ChatGPT, Perplexity, dan lainnya."
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "Manfaat: satu URL profil per baris (LinkedIn, GitHub, YouTube, Wikipedia …). Sistem AI menggunakan tautan ini untuk mengenali Anda sebagai satu entitas yang konsisten dan tepercaya di seluruh web (E-E-A-T)."
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "Manfaat: mesin pencari menggunakan nilai lastmod yang andal untuk merayapi ulang halaman yang berubah lebih cepat – konten yang diperbarui lebih cepat masuk ke jawaban AI. Inti WordPress tidak menyertakan kolom ini."
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "Manfaat: lihat AI mana (ChatGPT, Claude, Perplexity …) yang membaca halaman mana – dasar dari semua statistik."
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "Manfaat: dasbor statistik memetakan setiap akses AI ke istilah ini, sehingga Anda dapat melihat AI mana yang membaca konten Anda untuk topik apa. Tanpa ini, judul pos yang digunakan."
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "Manfaat: user agent dapat dipalsukan. Ini memisahkan bot AI asli dari yang palsu, sehingga statistik Anda menunjukkan minat AI yang terbukti."
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "Manfaat: angka AI Anda datang kepada Anda – total dengan tren, bot teratas, pengunjung AI, halaman yang paling banyak dibaca, dan apa pun yang perlu perhatian, sekali seminggu."
+
+msgid "Block all training bots"
+msgstr "Blokir semua bot pelatihan"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "Akses bot selama 7 hari terakhir menurut hari dan jam, dalam zona waktu situs Anda. Menerbitkan sebelum jam sibuk membuat konten baru lebih cepat dibaca."
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "Akses bot diperiksa terhadap rentang IP resmi OpenAI, Anthropic, Perplexity, Google, dan Microsoft – bot palsu ditandai di statistik Anda."
+
+msgid "Bot identity"
+msgstr "Identitas bot"
+
+msgid "Bot identity verification"
+msgstr "Verifikasi identitas bot"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "Bot dikenali dari tanda tangan user-agent resminya. Yang disimpan per akses: nama bot, kategori, halaman, dan waktu – tidak lebih. Tanpa alamat IP, tanpa cookie, tanpa data pribadi, sepenuhnya ramah GDPR."
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "Membangun indeks yang menjadi sumber kutipan mesin pencari AI. Memblokirnya menghapus Anda dari jawaban AI yang dikutip – biasanya ide buruk."
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "Periksa panel status GEO di halaman statistik – perbaiki semua yang belum hijau. Ini menghilangkan hambatan teknis."
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "Dicentang = diblokir via robots.txt. Google-Extended dan Applebot-Extended adalah token opt-out murni: memblokirnya mengecualikan Anda dari pelatihan AI Google/Apple tanpa memengaruhi pencarian biasa."
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "Bot AI yang relevan untuk sitasi diizinkan"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "Mencantumkan sumber menandakan keterpercayaan – faktor peringkat utama bagi sistem retrieval AI."
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "SEO klasik tidak menjadi sia-sia – Google masih merupakan sumber pengunjung terbesar bagi sebagian besar situs. GEO adalah tambahannya: konten yang jelas dan terstruktur baik yang disukai sistem AI cenderung juga mendapat peringkat lebih baik di pencarian klasik. Anda tidak rugi apa pun dengan mengoptimalkan keduanya."
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "Perayapan pencarian klasik yang juga memasok asisten AI (Bing memasok Copilot dan sebagian pencarian ChatGPT). Memblokirnya juga menghapus Anda dari mesin pencari tersebut."
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "Mengumpulkan konten untuk pelatihan model. Memblokirnya tidak merugikan Anda di pencarian AI – ini murni keputusan hak atas konten."
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "Menghubungkan akses AI dengan topik di statistik Anda dan memfokuskan tulisan Anda pada satu pertanyaan yang jelas."
+
+msgid "Contains a list or table"
+msgstr "Berisi daftar atau tabel"
+
+msgid "Contains concrete numbers or data"
+msgstr "Berisi angka atau data konkret"
+
+msgid "Content & freshness signals"
+msgstr "Sinyal konten & kebaruan"
+
+msgid "Contents"
+msgstr "Isi"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "Kendali atas siapa yang boleh membaca konten Anda: izinkan bot yang mengutip Anda, blokir yang hanya mengambil – dengan peringatan jelas sebelum Anda memblokir sesuatu yang akan mengurangi visibilitas Anda."
+
+msgid "Could not load statistics."
+msgstr "Tidak dapat memuat statistik."
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "Hitung pengunjung AI di balik cache halaman penuh (beacon)"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "Date range"
+msgstr "Rentang tanggal"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "Hapus semua data plugin saat dicopot"
+
+msgid "Details in the dashboard:"
+msgstr "Detail di dasbor:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "Dideteksi melalui domain perujuk dan utm_source (ChatGPT menambahkan utm_source=chatgpt.com ke tautan yang dikutip, yang tetap ada meskipun perujuknya dihapus). Catatan: banyak kunjungan AI datang tanpa perujuk sama sekali, jadi angka sebenarnya lebih tinggi daripada yang dapat ditampilkan alat apa pun."
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "Jawaban langsung di paragraf pertama (20–120 kata)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "Nonaktif. Gratis dan membantu agen AI memahami struktur situs Anda."
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "Nonaktif. Data terstruktur adalah cara termurah untuk membuat konten Anda dapat dibaca mesin."
+
+msgid "Dismiss"
+msgstr "Tutup"
+
+msgid "Email me on citation alerts"
+msgstr "Kirimi saya email saat ada peringatan sitasi"
+
+msgid "Empty = the site admin email address."
+msgstr "Kosong = alamat email admin situs."
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "Setiap kunjungan bot AI, diurutkan menurut artinya bagi Anda (agen, retrieval, pelatihan)."
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "Setiap titik adalah halaman yang dibaca AI dalam 30 hari terakhir: kanan = sering dibaca, bawah = skor GEO lemah. Titik di kanan bawah adalah peluang terbesar Anda – klik titik untuk menyunting halaman."
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "Setiap pos dan halaman yang diterbitkan diuji terhadap 13 pemeriksaan GEO – diurutkan agar peluang sitasi terbesar muncul lebih dulu, di samping minat AI yang sudah didapat setiap halaman."
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "Semuanya gratis, berjalan di server Anda, dan tidak menyimpan data pribadi. Layanan eksternal hanya dihubungi oleh fitur opt-in yang menyebutkannya secara jelas. Setiap opsi menjelaskan manfaatnya bagi Anda."
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "Contoh: /pos-saya/ menjadi /pos-saya.md. Memerlukan permalink cantik. Markdown dibuat langsung dari konten Anda dan ditandai noindex agar tidak pernah bersaing dengan halaman HTML di pencarian."
+
+msgid "Export CSV"
+msgstr "Ekspor CSV"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "Tampilkan di llms.txt (konten utama)"
+
+msgid "Feeds"
+msgstr "Feed"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "Mengambil halaman Anda secara langsung karena seseorang baru saja bertanya kepada AI tentangnya. Lalu lintas dengan niat tertinggi – memblokirnya berarti menolak pembaca ini."
+
+msgid "Filter by AI"
+msgstr "Filter menurut AI"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "Pengunjung manusia pertama dari %s! Konten Anda dikutip di sana."
+
+msgid "Flows: which AI reads which page"
+msgstr "Aliran: AI mana membaca halaman mana"
+
+msgid "Focus term"
+msgstr "Istilah fokus"
+
+msgid "Focus term appears in the title"
+msgstr "Istilah fokus muncul di judul"
+
+msgid "Focus term set"
+msgstr "Istilah fokus sudah diatur"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "Bagi sebagian besar situs, pengunjung dari jawaban AI saat ini hanya beberapa persen dari yang dikirim Google – tetapi porsinya naik tajam setiap kuartal. Tujuan memulai sekarang adalah menjadi sumber yang mapan sebelum pesaing Anda."
+
+msgid "GEO Audit"
+msgstr "Audit GEO"
+
+msgid "GEO Settings"
+msgstr "Pengaturan GEO"
+
+msgid "GEO check (AI visibility)"
+msgstr "Pemeriksaan GEO (visibilitas AI)"
+
+msgid "GEO score"
+msgstr "Skor GEO"
+
+msgid "GEO status of your site"
+msgstr "Status GEO situs Anda"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "Minat AI tinggi, skor rendah – perbaiki ini terlebih dahulu."
+
+msgid "Home"
+msgstr "Beranda"
+
+msgid "Hour"
+msgstr "Jam"
+
+msgid "How does an AI even reach my website?"
+msgstr "Bagaimana AI bisa sampai ke situs saya?"
+
+msgid "How it works"
+msgstr "Cara kerjanya"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "Cara kerjanya – GEO dijelaskan dengan bahasa sederhana"
+
+msgid "Human visitors from AI answers"
+msgstr "Pengunjung manusia dari jawaban AI"
+
+msgid "I already did"
+msgstr "Sudah saya lakukan"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "Verifikasi identitas nonaktif. User agent dapat dipalsukan – aktifkan verifikasi di pengaturan untuk memisahkan bot AI asli dari yang palsu."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "Jika plugin ini membantu Anda, maukah Anda meninggalkan ulasan singkat di WordPress.org? Hanya butuh satu menit dan membantu pemilik situs lain menemukannya. Terima kasih!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "Penting: di belakang CDN, IP koneksi langsung adalah proxy – setiap bot asli akan ditandai palsu. Pilih pengaturan Anda agar IP pengunjung asli yang digunakan. Aktifkan hanya header yang benar-benar diatur oleh proxy Anda, karena jika tidak, header ini dapat dipalsukan."
+
+msgid "Include latest posts"
+msgstr "Sertakan pos terbaru"
+
+msgid "Include pages"
+msgstr "Sertakan halaman"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "IndexNow adalah protokol terbuka yang didukung oleh Bing, Seznam, Naver, dan lainnya. Pada setiap penerbitan, pembaruan, atau pembatalan penerbitan, plugin mengirimkan URL publik beserta kunci situs Anda ke API IndexNow – tidak ada data lain yang dikirim. File kunci disajikan otomatis dari situs Anda untuk verifikasi. Jika plugin lain sudah mengirim ke IndexNow (mis. Rank Math atau plugin resmi Bing), biarkan opsi ini nonaktif untuk menghindari ping ganda."
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: ping pengindeksan instan"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "Pengindeksan instan (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "Tautan internal adalah jalur yang diikuti crawler dan sistem retrieval untuk menemukan konten terkait Anda – halaman yatim lebih jarang dibaca."
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "Dampak tak terlihat: lebih besar dari angka klik."
+
+msgid "It measures"
+msgstr "Mengukur"
+
+msgid "It optimizes"
+msgstr "Mengoptimalkan"
+
+msgid "Job title / role"
+msgstr "Jabatan / peran"
+
+msgid "Keep statistics for"
+msgstr "Simpan statistik selama"
+
+msgid "Key content"
+msgstr "Konten utama"
+
+msgid "Last seen"
+msgstr "Terakhir terlihat"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "Terakhir dikirim: %1$s pada %2$s."
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "Kiri: bot AI, kanan: halaman Anda. Lebar pita = akses. Arahkan kursor ke pita untuk melihat jumlah pastinya."
+
+msgid "Links to at least one external source"
+msgstr "Menautkan ke minimal satu sumber eksternal"
+
+msgid "Links to at least one other page on your site"
+msgstr "Menautkan ke minimal satu halaman lain di situs Anda"
+
+msgid "Log AI bot accesses"
+msgstr "Catat akses bot AI"
+
+msgid "Log human visitors from AI answers"
+msgstr "Catat pengunjung manusia dari jawaban AI"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "Metadata yang dapat dibaca mesin membantu sistem AI memahami dan mengatribusikan konten Anda."
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "Versi konten Anda yang dapat dibaca mesin (llms.txt, halaman Markdown, data terstruktur) – agar sistem AI memahami situs Anda dengan hambatan sesedikit mungkin."
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "Menjadikan situs Anda sumber yang ditemukan, dipahami, dan dikutip sistem AI disebut GEO (Generative Engine Optimization). Idenya sama dengan SEO, hanya untuk jawaban AI alih-alih tautan biru – dan karena masih jauh lebih sedikit situs yang melakukannya, mereka yang memulai lebih awal menjadi sangat terlihat."
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "Kelola aturan crawler AI di robots.txt"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "Banyak orang membaca jawaban AI yang mengutip Anda tanpa pernah mengeklik – tetapi mereka melihat nama Anda sebagai sumber. Itu visibilitas merek yang tidak dapat ditangkap sepenuhnya oleh statistik apa pun; sitasi itu sendiri adalah kemenangannya."
+
+msgid "Mark all as read"
+msgstr "Tandai semua sudah dibaca"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "Versi Markdown dari setiap halaman (URL .md)"
+
+msgid "Max. entries per section"
+msgstr "Maks. entri per bagian"
+
+msgid "Maybe later"
+msgstr "Mungkin nanti"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "Sementara itu: perbaiki semua yang belum hijau di panel status di bawah, dan atur istilah fokus pada halaman terpenting Anda."
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "Semakin banyak orang tidak lagi mengetik pertanyaan mereka di Google – mereka bertanya kepada ChatGPT, Perplexity, Copilot, atau Claude. AI membaca beberapa situs web, menulis satu jawaban, dan menyebutkan sumbernya. Jika situs Anda salah satu sumber tersebut, Anda disebut dan ditautkan. Jika tidak, Anda tidak terlihat dalam percakapan itu – meskipun peringkat Anda bagus di Google klasik."
+
+msgid "Most active AI bots"
+msgstr "Bot AI paling aktif"
+
+msgid "Name (defaults to site title)"
+msgstr "Nama (bawaan: judul situs)"
+
+msgid "Needs attention"
+msgstr "Perlu perhatian"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Konten baru dan yang diperbarui dikirim ke Bing dan lainnya dalam hitungan menit. Bing memasok Copilot dan sebagian pencarian ChatGPT – pengindeksan lebih cepat berarti sitasi AI lebih cepat."
+
+msgid "New here? How it all works, in plain language."
+msgstr "Baru di sini? Cara kerjanya, dengan bahasa sederhana."
+
+msgid "Next"
+msgstr "Berikutnya"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "Belum ada akses AI ke halaman yang dinilai dalam 30 hari terakhir – peta akan terisi saat sistem AI membaca konten Anda."
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "Belum ada rentang IP yang diambil – unduhan pertama berjalan dalam satu jam ke depan (atau saat cron harian berjalan)."
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "Belum ada URL yang dikirim – penerbitan atau pembaruan berikutnya akan memicu ping pertama."
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "Belum ada akses bot dalam 7 hari terakhir."
+
+msgid "No data for this AI in the selected range."
+msgstr "Tidak ada data untuk AI ini dalam rentang yang dipilih."
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "Belum ada data. Akses AI akan muncul di sini segera setelah bot AI yang dikenal atau pengunjung yang dirujuk AI mencapai situs Anda."
+
+msgid "No duplicate SEO output"
+msgstr "Tidak ada keluaran SEO ganda"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "Tanpa jargon, tanpa hype: apa yang sedang terjadi, apa yang dilakukan plugin ini, dan hasil apa yang realistis dapat Anda harapkan."
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "Tidak ada plugin SEO lain yang aktif – Wille GEO menyediakan schema dan tag meta sendiri."
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "Tidak ada paragraf terlalu panjang (maks. 150 kata per paragraf)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "Tidak ditemukan file robots.txt fisik – aturan crawler AI yang dikonfigurasi di Wille GEO aktif."
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "Tidak ditemukan file robots.txt fisik. Tidak ada blokir crawler AI yang dikonfigurasi di Wille GEO, sehingga robots.txt bawaan WordPress disajikan tanpa perubahan."
+
+msgid "No published content to audit yet."
+msgstr "Belum ada konten terbit untuk diaudit."
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "Peta situs tidak ditemukan. WordPress menyertakannya secara bawaan – mungkin plugin atau pengaturan telah menonaktifkannya."
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "Tidak ada alat yang dapat memaksa AI mengutip Anda. Sistem AI mengutip halaman yang menjawab pertanyaan nyata secara jelas, konkret, dan kredibel. Plugin ini membuat hal itu terukur dan secara sistematis lebih mudah – menghapus setiap hambatan teknis dan menunjukkan apa yang berhasil. Substansinya tetap harus datang dari Anda."
+
+msgid "No – use the direct connection IP"
+msgstr "Tidak – gunakan IP koneksi langsung"
+
+msgid "Not allowed."
+msgstr "Tidak diizinkan."
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "Nonaktif. User agent dapat dipalsukan; mengaktifkan verifikasi memisahkan bot AI asli dari yang palsu (mengambil daftar IP publik sekali sehari)."
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "Nonaktif. Tanpanya, indeks pencarian yang relevan bagi AI baru mengetahui konten baru saat merayapi situs Anda lagi – mengaktifkan IndexNow mempercepatnya menjadi hitungan menit."
+
+msgid "Official profiles (sameAs)"
+msgstr "Profil resmi (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "Jika diinginkan, dengan bukti: bot palsu yang memakai nama terkenal dibongkar melalui daftar IP resmi perusahaan AI."
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "Sekali sehari, plugin mengunduh daftar IP publik yang diterbitkan OpenAI, Anthropic, Perplexity, Google, dan Microsoft untuk crawler mereka, lalu menandai setiap akses yang tercatat sebagai terverifikasi, gagal (identitas yang diklaim dari IP asing), atau belum diperiksa. IP pengunjung hanya dibandingkan di memori dan tidak pernah disimpan. Karena membuat permintaan eksternal, fitur ini bersifat opt-in."
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "Satu URL per baris (LinkedIn, GitHub, X, situs pribadi …). Memungkinkan sistem AI memverifikasi penulis ini sebagai satu orang nyata yang konsisten – sinyal E-E-A-T utama."
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "Satu atau dua kalimat: siapa Anda dan apa yang dibahas situs Anda."
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "Buka pos mana pun di editor – panel “Pemeriksaan GEO” di bilah sisi memandu Anda melalui langkah-langkah ini saat Anda menulis."
+
+msgid "Open improvements"
+msgstr "Perbaikan tertunda"
+
+msgid "Open the full dashboard"
+msgstr "Buka dasbor lengkap"
+
+msgid "Open the settings"
+msgstr "Buka pengaturan"
+
+msgid "Open the statistics dashboard"
+msgstr "Buka dasbor statistik"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "Buka lima halaman terpenting Anda dan atur istilah fokus untuk masing-masing: pertanyaan atau topik yang jawabannya HARUS halaman ini."
+
+msgid "Opportunity map"
+msgstr "Peta peluang"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "Tampilkan deskripsi meta & pratinjau sosial (Open Graph)"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "Tampilkan data terstruktur schema.org (JSON-LD)"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "Menampilkan WebSite, Organization/Person, Article (dengan tanggal dan penulis), dan breadcrumb. Sistem retrieval AI menggunakan sinyal ini untuk menilai kebaruan dan keterpercayaan."
+
+msgid "Page"
+msgstr "Halaman"
+
+msgid "Pages"
+msgstr "Halaman"
+
+msgid "Pages AI read most"
+msgstr "Halaman yang paling banyak dibaca AI"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "Orang mengajukan pertanyaan kepada asisten AI. Judul yang mencerminkan pertanyaan tersebut memetakan konten Anda langsung ke prompt nyata – dan mengisi schema FAQ otomatis."
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "Sematkan halaman terbaik Anda sebagai konten utama, agar llms.txt mengarahkan agen AI langsung ke sana."
+
+msgid "Ping IndexNow on publish and update"
+msgstr "Ping IndexNow saat menerbitkan dan memperbarui"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "Konten yang disematkan muncul pertama di llms.txt dan llms-full.txt – halaman yang paling Anda inginkan untuk dibaca sistem AI."
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "Permalink polos aktif (Pengaturan → Permalink). Endpoint Markdown dan file kunci IndexNow tidak dapat disajikan, padahal URL yang mudah dibaca membantu setiap crawler."
+
+msgid "Post"
+msgstr "Pos"
+
+msgid "Post not found."
+msgstr "Pos tidak ditemukan."
+
+msgid "Posts"
+msgstr "Pos"
+
+msgid "Pretty permalinks enabled"
+msgstr "Permalink cantik diaktifkan"
+
+msgid "Previous"
+msgstr "Sebelumnya"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "Privasi: plugin ini tidak menyimpan alamat IP, tidak memasang cookie, dan secara bawaan tidak membuat permintaan eksternal. Satu-satunya pengecualian adalah dua fitur opt-in yang Anda kendalikan: verifikasi bot (mengunduh daftar IP crawler publik sekali sehari) dan IndexNow (mengirim URL yang diterbitkan ke API IndexNow). Semua statistik tetap berada di basis data WordPress Anda."
+
+msgid "Profile URLs (sameAs)"
+msgstr "URL profil (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "Kualitas: sangat tinggi."
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "Beri nilai Wille GEO di WordPress.org (terbuka di tab baru)"
+
+msgid "Rate ★★★★★"
+msgstr "Beri nilai ★★★★★"
+
+msgid "Re-scan"
+msgstr "Pindai ulang"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "URL yang mudah dibaca aktif – endpoint .md dan file kunci IndexNow berfungsi."
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "Orang sungguhan yang datang dari jawaban AI – hasil nyatanya, per AI dan per halaman."
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "Orang sungguhan yang mengeklik tautan Anda di dalam ChatGPT, Perplexity, dan lainnya. Inilah hasil nyata dari GEO."
+
+msgid "Recipient"
+msgstr "Penerima"
+
+msgid "Reload page"
+msgstr "Muat ulang halaman"
+
+msgid "Retrieval"
+msgstr "Retrieval"
+
+msgid "Retrieval (citation index)"
+msgstr "Retrieval (indeks sitasi)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "Bot retrieval dan agen boleh membaca halaman Anda – Anda dapat muncul di jawaban AI."
+
+msgid "Retrieval bots"
+msgstr "Bot retrieval"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "Bot retrieval perlu menemukan dan membaca ulang halaman Anda yang telah diperbaiki terlebih dahulu. Harapkan efek terukur pertama setelah beberapa minggu dan penilaian yang adil setelah tiga hingga enam bulan – dasbor menunjukkan tren kepada Anda sepanjang jalan."
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "Bot retrieval menggunakan peta situs untuk menemukan konten baru dengan cepat."
+
+msgid "Review Wille GEO"
+msgstr "Ulas Wille GEO"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "Aturan ditambahkan ke robots.txt yang dibuat WordPress. File robots.txt fisik di root web akan menimpanya – panel status di halaman statistik memperingatkan Anda jika file tersebut ada. Perlu diingat robots.txt bersifat sukarela; bot-bot terkenal mematuhinya."
+
+msgid "Running GEO checks …"
+msgstr "Menjalankan pemeriksaan GEO …"
+
+msgid "Save settings"
+msgstr "Simpan pengaturan"
+
+msgid "Score distribution"
+msgstr "Distribusi skor"
+
+msgid "Search"
+msgstr "Pencarian"
+
+msgid "Search (feeds AI answers)"
+msgstr "Pencarian (memasok jawaban AI)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "Mesin pencari dan crawler AI boleh mengindeks situs ini."
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "Lihat AI mana (ChatGPT, Claude, Perplexity…) yang membaca halaman Anda – dan optimalkan situs Anda untuk pencarian AI (GEO). Gratis, tanpa data pribadi."
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "Kirim laporan visibilitas AI mingguan melalui email"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "Dikirim oleh plugin Wille GEO. Matikan laporan ini kapan saja di Wille GEO → Pengaturan."
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "Dikirim melalui sistem email WordPress biasa Anda, hanya jika memang ada aktivitas AI minggu itu – situs yang sepi tidak pernah dibanjiri spam. Anda juga dapat memicunya secara manual dengan perintah WP-CLI \"wp geoins report\"."
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "Sajikan /llms-full.txt dengan konten lengkap"
+
+msgid "Serve a generated /llms.txt"
+msgstr "Sajikan /llms.txt yang dibuat otomatis"
+
+msgid "Served at %s."
+msgstr "Disajikan di %s."
+
+msgid "Settings"
+msgstr "Pengaturan"
+
+msgid "Short site description (optional)"
+msgstr "Deskripsi singkat situs (opsional)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "Paragraf pendek yang berdiri sendiri adalah unit yang diambil sistem AI ke dalam jawaban. Blok panjang akan dilewati."
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "Tampilkan tanggal \"Diperbarui pada\" yang terlihat pada pos yang direvisi"
+
+msgid "Show all AIs"
+msgstr "Tampilkan semua AI"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "Ditampilkan di atas konten, hanya jika pos direvisi secara berarti (lebih dari dua hari setelah diterbitkan). dateModified yang dapat dibaca mesin selalu ada di data terstruktur Anda, terlepas dari tombol ini."
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "Ditampilkan ke sistem AI sebagai keahlian yang dapat dibaca mesin (schema.org jobTitle), mis. \"Senior WordPress Developer\"."
+
+msgid "Site represents"
+msgstr "Situs mewakili"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "Situs berjalan di belakang proxy/CDN?"
+
+msgid "Site visible to crawlers"
+msgstr "Situs terlihat oleh crawler"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "Orang yang mengeklik dari jawaban AI sudah membaca ringkasan dan menginginkan kedalaman – studi dan data toko secara konsisten menunjukkan pengunjung ini berkonversi jauh lebih baik daripada lalu lintas pencarian rata-rata. Lebih sedikit pengunjung, tetapi lebih berminat."
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "Maaf, Anda tidak diizinkan melakukan itu."
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "Kecepatan: konten baru dan yang diperbarui diumumkan ke mesin pencari dalam hitungan menit (IndexNow) – semakin cepat diindeks, semakin cepat AI dapat mengutipnya."
+
+msgid "Statistics"
+msgstr "Statistik"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "Statistik dan angka konkret secara terukur meningkatkan peluang dikutip – jawaban AI menyukai angka yang dapat diverifikasi."
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "Potongan terstruktur (daftar, tabel) jauh lebih sering diekstrak dan dikutip AI daripada teks panjang tanpa jeda."
+
+msgid "Structured data & meta tags"
+msgstr "Data terstruktur & tag meta"
+
+msgid "Structured data (schema.org)"
+msgstr "Data terstruktur (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "Tentu, tulis ulasan"
+
+msgid "Table of contents"
+msgstr "Daftar isi"
+
+msgid "Term"
+msgstr "Istilah"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "Istilah & halaman: AI mana membaca apa?"
+
+msgid "The audit table needs JavaScript."
+msgstr "Tabel audit memerlukan JavaScript."
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "Beacon hanya berjalan untuk pengunjung yang tidak login, hanya memeriksa apakah kunjungan berasal dari AI yang dikenal (domain perujuk atau utm_source), dan baru kemudian melaporkan sumber dan jalur halaman ke situs Anda sendiri. Tanpa cookie, tanpa IP, tanpa fingerprinting, tanpa layanan eksternal. Penghitungan ganda dengan pelacak sisi server dicegah secara otomatis. Biarkan nonaktif jika situs Anda tidak menggunakan cache halaman penuh – pelacak PHP sudah melihat semuanya."
+
+msgid "The honest limit: content decides."
+msgstr "Batas yang jujur: konten yang menentukan."
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "robots.txt fisik memblokir %s. Bot ini memasukkan Anda ke jawaban AI – sunting file untuk membuka blokirnya (aturan yang dikonfigurasi di sini tetap tidak aktif selama file tersebut ada)."
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "robots.txt fisik memblokir SEMUA crawler (User-agent: * / Disallow: /). Tidak ada mesin pencari maupun sistem AI yang dapat membaca situs Anda – sunting file tersebut."
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "robots.txt fisik memblokir semua crawler secara bawaan (User-agent: * / Disallow: /); hanya crawler dengan aturan pengecualian sendiri di file tersebut yang dapat membaca situs Anda. Setiap sistem AI tanpa pengecualian terkunci di luar – sunting file tersebut."
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "Dasbor statistik memetakan setiap akses AI ke istilah ini. Kosong = judul pos."
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "Dasbor statistik memerlukan JavaScript. Gunakan ekspor CSV atau WP-CLI (wp geoins stats) sebagai gantinya."
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "Lalu biarkan berjalan. Periksa dasbor setiap minggu (atau aktifkan laporan email) dan berinvestasilah di tempat minat AI sudah terlihat – di situlah sitasi paling dekat."
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "User agent ini terdengar seperti sistem AI tetapi belum ada di registri – jadi aksesnya TIDAK termasuk dalam statistik di atas. Entri yang sering muncul layak ditambahkan melalui filter geoins_bots (atau laporkan ke plugin)."
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "Plugin ini mengenali bot-bot tersebut di setiap kunjungan dan menampilkannya di dasbor: AI mana membaca halaman Anda yang mana, seberapa sering, dan untuk topik apa. Dan ketika seseorang mengeklik tautan ke situs Anda di dalam jawaban AI, kunjungan itu juga dihitung – itulah saat visibilitas AI berubah menjadi calon pelanggan."
+
+msgid "Timeline: weeks to months, not days."
+msgstr "Lini waktu: minggu hingga bulan, bukan hari."
+
+msgid "Title"
+msgstr "Judul"
+
+msgid "Tracking"
+msgstr "Pelacakan"
+
+msgid "Training"
+msgstr "Pelatihan"
+
+msgid "Training bots"
+msgstr "Bot pelatihan"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "Dua hal: mengukur dan mengoptimalkan. Semuanya berjalan di server Anda sendiri, tidak ada yang dikirim ke mana pun, dan setiap tombol di pengaturan menjelaskan manfaatnya sebelum Anda mengaktifkannya."
+
+msgid "Updated"
+msgstr "Diperbarui"
+
+msgid "Updated on %s"
+msgstr "Diperbarui pada %s"
+
+msgid "Updated within the last 12 months"
+msgstr "Diperbarui dalam 12 bulan terakhir"
+
+msgid "User agent"
+msgstr "User agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "Verifikasi identitas bot berdasarkan rentang IP resmi"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "Halaman yang sangat tipis jarang berisi cukup substansi untuk dijadikan dasar jawaban oleh AI."
+
+msgid "View your key file"
+msgstr "Lihat file kunci Anda"
+
+msgid "View your llms-full.txt"
+msgstr "Lihat llms-full.txt Anda"
+
+msgid "View your llms.txt"
+msgstr "Lihat llms.txt Anda"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "Keahlian yang terlihat (penulis nyata dengan bio) memperkuat sinyal E-E-A-T yang digunakan sistem AI untuk memilih sumber tepercaya."
+
+msgid "Volume: still small, growing fast."
+msgstr "Volume: masih kecil, tumbuh cepat."
+
+msgid "Waiting for the first AI visit"
+msgstr "Menunggu kunjungan AI pertama"
+
+msgid "Weekly email report"
+msgstr "Laporan email mingguan"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "Apa yang realistis dapat saya harapkan? Jawaban jujur"
+
+msgid "What does the plugin actually do for me?"
+msgstr "Apa yang sebenarnya dilakukan plugin ini untuk saya?"
+
+msgid "What happened"
+msgstr "Yang terjadi"
+
+msgid "What is happening right now?"
+msgstr "Apa yang sedang terjadi saat ini?"
+
+msgid "When do AIs read your site?"
+msgstr "Kapan AI membaca situs Anda?"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "Mulai dari mana? Lima langkah, 30 menit"
+
+msgid "Which AI bots?"
+msgstr "Bot AI yang mana?"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "AI mana yang membaca halaman Anda, dan jawaban AI mana yang mengirimkan pengunjung manusia kepada Anda."
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "AI mana yang membaca halaman Anda yang mana, untuk istilah apa – dan jawaban AI mana yang benar-benar mengirimkan pengunjung manusia kepada Anda."
+
+msgid "Why does this matter?"
+msgstr "Mengapa ini penting?"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Wille GEO aktif."
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Wille GEO dibuat oleh %1$s. Apakah plugin ini membantu Anda? Ulasan %2$s di WordPress.org membantu orang lain menemukannya – terima kasih!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "Wille GEO di %s mendeteksi:"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: sinyal penulis (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "Kerjakan daftar periksa GEO pada halaman-halaman tersebut – terutama: jawab pertanyaan inti langsung di paragraf pertama, dan ubah judul menjadi pertanyaan nyata."
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "Berfungsi pada pos dan halaman dengan minimal dua judul berbentuk pertanyaan (H2/H3 yang diakhiri tanda tanya). Tanpa kerja tambahan – tulis pertanyaan sebagai judul dan schema akan mengikuti."
+
+msgid "XML sitemap available"
+msgstr "Peta situs XML tersedia"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "Ya, Cloudflare (CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "Ya, proxy lain (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "Anda memblokir %s. Bot ini memasukkan Anda ke jawaban AI – memblokirnya menghapus Anda dari sitasi."
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "Anda menerima email ini karena peringatan sitasi melalui email diaktifkan di Wille GEO → Pengaturan."
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "File kunci IndexNow Anda tidak dapat dijangkau dari server Anda sendiri, sehingga ping dijeda. Penyebab umum: permalink polos (perbaiki di Pengaturan → Permalink) atau plugin keamanan yang memblokir permintaan loopback. Setelah memperbaikinya, simpan pengaturan ini lagi – pemeriksaan akan berjalan ulang tak lama setelah disimpan."
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "Pemeriksaan sesi Anda telah kedaluwarsa – muat ulang halaman untuk melanjutkan."
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] Visibilitas AI minggu ini: %2$d akses AI, %3$d pengunjung AI"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] Sinyal visibilitas AI baru"
+
+msgid "a person"
+msgstr "seseorang"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "seseorang baru saja mengajukan pertanyaan kepada AI, dan AI sedang membaca halaman Anda sekarang untuk menjawabnya. Ini sinyal paling berharga: seseorang tertarik pada topik Anda saat ini juga."
+
+msgid "accesses"
+msgstr "akses"
+
+msgid "an organization"
+msgstr "sebuah organisasi"
+
+msgid "blocking costs citations"
+msgstr "memblokir mengurangi sitasi"
+
+msgid "blocking is safe for citations"
+msgstr "memblokir aman untuk sitasi"
+
+msgid "by %s"
+msgstr "oleh %s"
+
+msgid "days"
+msgstr "hari"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "mis. plugin cadangan WordPress"
+
+msgid "forever"
+msgstr "selamanya"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "palsu"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "llms.txt tersedia"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "llms.txt adalah standar baru: ikhtisar Markdown dari konten terpenting Anda di /llms.txt. File ini dibuat otomatis dari halaman dan pos Anda serta di-cache selama 12 jam."
+
+msgid "more"
+msgstr "lainnya"
+
+msgid "new"
+msgstr "baru"
+
+msgid "pages"
+msgstr "halaman"
+
+msgid "passed"
+msgstr "lolos"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "bot ini membangun perpustakaan yang nantinya dikutip AI. Berada di perpustakaan itu menentukan apakah Anda bisa dikutip sama sekali."
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "bot ini mengumpulkan teks untuk melatih model AI masa depan. Mereka tidak membawa pengunjung maupun sitasi. Mengizinkannya atau tidak murni keputusan hak atas konten – memblokirnya tidak merugikan Anda."
+
+msgid "unchecked"
+msgstr "belum diperiksa"
+
+msgid "verified"
+msgstr "terverifikasi"
+
+msgid "visitors"
+msgstr "pengunjung"
+
+msgid "vs. previous period"
+msgstr "vs. periode sebelumnya"

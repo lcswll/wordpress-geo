@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "\"सर्च इंजन को इस साइट को अनुक्रमित करने से हतोत्साहित करें\" सक्षम है (सेटिंग्स → पढ़ना)। जब तक इसे बंद नहीं किया जाता, कोई भी AI सिस्टम आपको नहीं ढूँढ सकता।"
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%2$d विक्रेताओं की %1$d IP रेंज, अंतिम अपडेट %3$s।"
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "%s (ट्रेनिंग क्रॉलर) ने पहली बार आपकी साइट पर विज़िट की।"
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "%s ने पहली बार आपकी साइट क्रॉल की – अब एक उद्धरण-प्रासंगिक AI आपको पढ़ रहा है।"
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "%s मिला – Wille GEO schema और मेटा टैग अपने आप उसी पर छोड़ देता है और केवल वही जोड़ता है जो कमी है (ट्रैकिंग, llms.txt, robots नियंत्रण, GEO जाँच)।"
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "%s सक्रिय है। दोहरे आउटपुट से बचने के लिए, Wille GEO schema और मेटा टैग अपने आप उसी पर छोड़ देता है – जब तक वह चल रहा है, नीचे दिए गए स्विच अनदेखे रहते हैं। बाकी सब कुछ (ट्रैकिंग, llms.txt, robots नियंत्रण, GEO जाँच) उसके साथ-साथ काम करता है।"
+
+msgid "(opens in a new tab)"
+msgstr "(नए टैब में खुलता है)"
+
+msgid "1 year"
+msgstr "1 वर्ष"
+
+msgid "180 days"
+msgstr "180 दिन"
+
+msgid "30 days"
+msgstr "30 दिन"
+
+msgid "7-day average"
+msgstr "7-दिन का औसत"
+
+msgid "90 days"
+msgstr "90 दिन"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "हर पृष्ठ के URL के अंत में .md जोड़कर उसका साफ़ Markdown संस्करण उपलब्ध है।"
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "लिखते समय एक लाइव चेकलिस्ट: तेरह ठोस, समझाए गए मानदंड जो किसी पृष्ठ को AI के लिए उद्धरण योग्य बनाते हैं (पहले उत्तर, प्रश्न वाले शीर्षक, सूचियाँ, संख्याएँ, ताज़गी …)।"
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "एक भौतिक robots.txt मौजूद है और उसमें वे ब्लॉक नहीं हैं जो आपने यहाँ कॉन्फ़िगर किए हैं (%s) – जब तक आप उन्हें फ़ाइल में नहीं जोड़ते या फ़ाइल हटा नहीं देते, उनका कोई असर नहीं है।"
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "एक भौतिक robots.txt फ़ाइल मौजूद है लेकिन विश्लेषण के लिए पढ़ी नहीं जा सकी। यह यहाँ कॉन्फ़िगर किए गए नियमों को ओवरराइड करती है – इसे मैन्युअल रूप से जाँचें।"
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "एक भौतिक robots.txt फ़ाइल मौजूद है, लेकिन अभी यह ठीक है: यह किसी उद्धरण-प्रासंगिक AI बॉट को ब्लॉक नहीं करती और आपके कॉन्फ़िगरेशन से मेल खाती है। ध्यान दें: जब तक फ़ाइल मौजूद है, यहाँ कॉन्फ़िगर किए गए नियम निष्क्रिय रहते हैं।"
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "एक वास्तविक उदाहरण: 50 ठोस लेखों वाली एक विशेषज्ञ साइट जो GEO चेकलिस्ट अपनाती है, कुछ महीनों में अपने पहले AI उद्धरणों और ऊँचे इरादे वाले विज़िटर की एक छोटी लेकिन लगातार बढ़ती धारा की उम्मीद कर सकती है – इसे Google के विकल्प की तरह नहीं, बल्कि अपने व्यवसाय तक एक दूसरे, अभी छोटे दरवाज़े की तरह देखें जो हर महीने चौड़ा होता जाता है।"
+
+msgid "AI (30d)"
+msgstr "AI (30 दिन)"
+
+msgid "AI Statistics"
+msgstr "AI आँकड़े"
+
+msgid "AI accesses"
+msgstr "AI एक्सेस"
+
+msgid "AI accesses (30d)"
+msgstr "AI एक्सेस (30 दिन)"
+
+msgid "AI accesses per day"
+msgstr "प्रति दिन AI एक्सेस"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "AI सहायक अपने आप में पूर्ण उत्तर-खंडों को उद्धृत करते हैं। अगर पहला अनुच्छेद मुख्य प्रश्न का उत्तर देता है, तो उसे उद्धृत करना सबसे आसान होता है।"
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "अब से AI बॉट एक्सेस और AI उत्तरों से आए विज़िटर दर्ज किए जा रहे हैं – जैसे ही पहला AI आपकी साइट पर पहुँचेगा, डेटा दिखाई देगा।"
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "पिछले 30 दिनों में AI बॉट एक्सेस – आँकड़े डैशबोर्ड खोलें"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "AI कंपनियाँ आपकी साइट पर स्वचालित विज़िटर – बॉट – भेजती हैं। वे अपना नाम बताकर अपनी पहचान देते हैं, और नाम से ठीक पता चलता है कि वे क्यों आए। तीन प्रकार मायने रखते हैं, और आपके व्यवसाय के लिए उनका मतलब बहुत अलग है:"
+
+msgid "AI companies: share of accesses"
+msgstr "AI कंपनियाँ: एक्सेस में हिस्सा"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "AI क्रॉलर एक्सेस (robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "AI क्रॉलर सर्च क्वेरी नहीं भेजते। यह मैट्रिक्स हर एक्सेस को पृष्ठ के फ़ोकस शब्द से जोड़ता है (इसे संपादन स्क्रीन पर GEO जाँच बॉक्स में सेट करें) – यह एक ईमानदार और व्यावहारिक विकल्प है।"
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "AI रडार: अपरिचित AI-जैसे क्रॉलर"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "AI सर्च ताज़ा स्रोतों को प्राथमिकता देता है; संशोधन तिथि आपके संरचित डेटा में भेजी जाती है। हर साल सामग्री की समीक्षा करने से आप उद्धरण योग्य बने रहते हैं।"
+
+msgid "AI source"
+msgstr "AI स्रोत"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "AI सिस्टम सबसे पहले प्रश्नों का मिलान शीर्षकों से करते हैं – एक स्पष्ट शीर्षक आपके पृष्ठ को स्वाभाविक स्रोत बनाता है।"
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "पिछले 30 दिनों में AI सिस्टम ने आपकी साइट %s बार पढ़ी – Wille GEO अपना काम कर रहा है।"
+
+msgid "AI visibility, last 7 days"
+msgstr "AI दृश्यता, पिछले 7 दिन"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "AI विज़िटर में उछाल: कल AI उत्तरों से %1$d विज़िटर (हाल का औसत: %2$s/दिन)।"
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "AI विज़िटर में उछाल: कल AI उत्तरों से %1$s विज़िटर (हाल का औसत: %2$s/दिन)।"
+
+msgid "AI visitors"
+msgstr "AI विज़िटर"
+
+msgid "AI visitors: landing pages"
+msgstr "AI विज़िटर: लैंडिंग पृष्ठ"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "सभी स्कोर किए गए पृष्ठों में। हर एक अंक की बढ़त का मतलब है कि आपका सामान्य पृष्ठ एक और मानदंड पूरा करता है।"
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "XML साइटमैप में सटीक अपडेट समय (lastmod) जोड़ें"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "सभी H2/H3 शीर्षकों में एंकर ID जोड़ता है और तीन या अधिक शीर्षकों वाली पोस्ट में पहले H2 से पहले एक संक्षिप्त लिंक वाली विषय-सूची डालता है। स्टाइलिंग न्यूनतम है और आपकी थीम के फ़ॉन्ट व रंग अपनाती है।"
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "WordPress कोर साइटमैप में हर पोस्ट का वास्तविक संशोधन समय जोड़ता है। केवल तभी सक्रिय जब कोर साइटमैप चल रहा हो; साइटमैप बदलने वाले SEO प्लगइन प्रभावित नहीं होते।"
+
+msgid "Agent"
+msgstr "एजेंट"
+
+msgid "Agent (live user request)"
+msgstr "एजेंट (उपयोगकर्ता का लाइव अनुरोध)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "एजेंट + Retrieval = उद्धरण के लिए प्रासंगिक: किसी AI ने एक वास्तविक प्रश्न का उत्तर देने के लिए आपका पृष्ठ पढ़ा। ट्रेनिंग केवल मॉडलों को डेटा देती है।"
+
+msgid "Agent bots"
+msgstr "एजेंट बॉट"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "अलर्ट हमेशा डैशबोर्ड में दिखते हैं; यह विकल्प उन्हें अतिरिक्त रूप से ईमेल से भी भेजता है (एक साथ, दिन में अधिकतम एक मेल)। नीचे दिए गए प्राप्तकर्ता का उपयोग करता है।"
+
+msgid "All AIs"
+msgstr "सभी AI"
+
+msgid "All checks passed"
+msgstr "सभी जाँचें पास"
+
+msgid "All images have alt text"
+msgstr "सभी छवियों में alt टेक्स्ट है"
+
+msgid "All types"
+msgstr "सभी प्रकार"
+
+msgid "Allow all bots"
+msgstr "सभी बॉट को अनुमति दें"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "alt टेक्स्ट से ही AI सिस्टम आपकी छवियों को समझते हैं – और यह लंबे समय से सुलभता और रैंकिंग का संकेत है। बिना छवियों वाले पृष्ठ अपने आप पास हो जाते हैं।"
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "सामग्री का विश्लेषण हो रहा है … %2$s में से %1$s पूरे"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "क्षेत्रफल = चुनी गई अवधि में एक्सेस। किसी कंपनी के अलग-अलग बॉट देखने के लिए उस पर क्लिक करें।"
+
+msgid "At least 300 words"
+msgstr "कम से कम 300 शब्द"
+
+msgid "At least one heading phrased as a question"
+msgstr "कम से कम एक शीर्षक प्रश्न के रूप में"
+
+msgid "Author has a profile description"
+msgstr "लेखक का प्रोफ़ाइल विवरण है"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "प्रश्न वाले शीर्षकों से FAQ schema अपने आप बनाएँ"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "शीर्षक एंकर के साथ स्वचालित विषय-सूची"
+
+msgid "Average GEO score"
+msgstr "औसत GEO स्कोर"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "AI सर्च से ग्राहकों की बाढ़ का वादा करने वाले किसी पर भी संदेह करें। यह रही ईमानदार तस्वीर:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "फ़ायदा: Bing आदि नई और अपडेट की गई सामग्री को दिनों की बजाय मिनटों में ले लेते हैं। Bing, Microsoft Copilot और ChatGPT सर्च के कुछ हिस्सों को डेटा देता है – तेज़ इंडेक्सिंग का मतलब है जल्दी AI उद्धरण।"
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "फ़ायदा: AI एजेंटों के लिए मशीन-पठनीय साइट सारांश। सच कहें तो: बड़े क्रॉलर अभी इसे कम ही लेते हैं – लेकिन कोडिंग/IDE एजेंट लेते हैं, इसकी कोई लागत नहीं है और मानक के बढ़ने के साथ यह आपको आगे रखता है।"
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "फ़ायदा: जो एजेंट अवलोकन से ज़्यादा चाहते हैं, उन्हें आपकी पूरी मुख्य सामग्री एक ही फ़ाइल में साफ़ Markdown के रूप में मिलती है।"
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "फ़ायदा: किसी भी URL के अंत में .md जोड़ने पर शुद्ध Markdown मिलता है – न थीम मार्कअप, न स्क्रिप्ट। AI एजेंटों के लिए पढ़ना सस्ता, और हर पृष्ठ पर link टैग के ज़रिए इसकी सूचना दी जाती है।"
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "फ़ायदा: कैश किए गए पृष्ठ कभी PHP नहीं चलाते, इसलिए उन पर आने वाले AI विज़िटर सर्वर-साइड ट्रैकिंग को दिखाई नहीं देते। यह छोटा-सा ब्राउज़र beacon (<1 kB) उस कमी को पूरा करता है।"
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "फ़ायदा: सर्च, चैट और सोशल ऐप में साफ़-सुथरे स्निपेट – आपके सारांश या सामग्री से बने, बिना किसी रखरखाव के।"
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "फ़ायदा: हर बॉट के लिए तय करें कि आपकी सामग्री कौन पढ़ सकता है – और किसी ऐसी चीज़ को ब्लॉक करने से पहले स्पष्ट चेतावनी पाएँ जिससे आपके AI उद्धरण कम हों।"
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "फ़ायदा: हर अनुभाग को एक डीप लिंक (#section) मिलता है जिसे AI सिस्टम और सर्च इंजन सटीक रूप से उद्धृत कर सकते हैं, और पाठक सीधे उत्तर पर जा सकते हैं।"
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "फ़ायदा: ताज़गी एक रैंकिंग और उद्धरण संकेत है – और दिखाई देने वाली तिथि ही वह है जिसे सर्च स्निपेट और AI उत्तर वास्तव में उठाते हैं।"
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "फ़ायदा: “?” पर ख़त्म होने वाले शीर्षक और उनके उत्तर FAQ संरचित डेटा बन जाते हैं – ठीक वही प्रश्न-उत्तर प्रारूप जिसे AI सहायक उद्धृत करते हैं।"
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "फ़ायदा: आपका डेटाबेस छोटा रहता है। पुरानी प्रविष्टियाँ दिन में एक बार अपने आप हटा दी जाती हैं।"
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "फ़ायदा: अहम पल पर तुरंत जानें – किसी नए AI का पहला क्रॉल, किसी AI सहायक से पहले विज़िटर, या AI विज़िटर में अचानक उछाल।"
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "फ़ायदा: आपका डेटाबेस बिल्कुल पहले जैसा रह जाता है। डिफ़ॉल्ट रूप से बंद, ताकि दोबारा इंस्टॉल करने पर भी आपके आँकड़े बने रहें।"
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "फ़ायदा: लेख, लेखक, तिथि और साइट का मशीन-पठनीय मेटाडेटा – AI सिस्टम को आपकी सामग्री समझने और सही स्रोत बताने में मदद करने का सबसे सस्ता तरीका।"
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "फ़ायदा: GEO का वास्तविक फ़ायदा मापें – वे लोग जो ChatGPT, Perplexity आदि से क्लिक करके आप तक पहुँचते हैं।"
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "फ़ायदा: प्रति पंक्ति एक प्रोफ़ाइल URL (LinkedIn, GitHub, YouTube, Wikipedia …)। AI सिस्टम इन लिंक से आपको पूरे वेब पर एक सुसंगत, भरोसेमंद इकाई के रूप में पहचानते हैं (E-E-A-T)।"
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "फ़ायदा: सर्च इंजन विश्वसनीय lastmod मानों से बदले हुए पृष्ठों को जल्दी दोबारा क्रॉल करते हैं – अपडेट की गई सामग्री AI उत्तरों तक जल्दी पहुँचती है। WordPress कोर यह फ़ील्ड नहीं जोड़ता।"
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "फ़ायदा: देखें कि कौन-सा AI (ChatGPT, Claude, Perplexity …) कौन-सा पृष्ठ पढ़ता है – सभी आँकड़ों का आधार।"
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "फ़ायदा: आँकड़े डैशबोर्ड हर AI एक्सेस को इस शब्द से जोड़ता है, ताकि आप देख सकें कि कौन-सा AI आपकी सामग्री किस विषय के लिए पढ़ता है। इसके बिना पोस्ट का शीर्षक इस्तेमाल होता है।"
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "फ़ायदा: user agent नकली बनाए जा सकते हैं। यह असली AI बॉट को नकली से अलग करता है, ताकि आपके आँकड़े AI की प्रमाणित रुचि दिखाएँ।"
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "फ़ायदा: आपके AI आँकड़े आप तक पहुँचते हैं – रुझान के साथ कुल संख्या, शीर्ष बॉट, AI विज़िटर, सबसे ज़्यादा पढ़े गए पृष्ठ और जिस पर भी ध्यान देने की ज़रूरत हो, सप्ताह में एक बार।"
+
+msgid "Block all training bots"
+msgstr "सभी ट्रेनिंग बॉट ब्लॉक करें"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "पिछले 7 दिनों के बॉट एक्सेस, सप्ताह के दिन और घंटे के अनुसार, आपकी साइट के समय क्षेत्र में। व्यस्त घंटों से पहले प्रकाशित करने पर नई सामग्री जल्दी पढ़ी जाती है।"
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "बॉट हिट की जाँच OpenAI, Anthropic, Perplexity, Google और Microsoft की आधिकारिक IP रेंज से की जाती है – नकली बॉट आपके आँकड़ों में चिह्नित किए जाते हैं।"
+
+msgid "Bot identity"
+msgstr "बॉट पहचान"
+
+msgid "Bot identity verification"
+msgstr "बॉट पहचान सत्यापन"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "बॉट को उनके आधिकारिक user-agent हस्ताक्षरों से पहचाना जाता है। हर एक्सेस पर संग्रहीत: बॉट का नाम, श्रेणी, पृष्ठ और समय – इसके अलावा कुछ नहीं। कोई IP पता नहीं, कोई कुकी नहीं, कोई व्यक्तिगत डेटा नहीं, पूरी तरह GDPR-अनुकूल।"
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "वह इंडेक्स बनाता है जिससे AI सर्च इंजन उद्धरण देते हैं। इसे ब्लॉक करने से आप उद्धृत AI उत्तरों से हट जाते हैं – आमतौर पर यह अच्छा विचार नहीं है।"
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "आँकड़े पृष्ठ पर GEO स्थिति पैनल देखें – जो कुछ भी हरा नहीं है उसे ठीक करें। इससे तकनीकी बाधाएँ हट जाती हैं।"
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "चुना गया = robots.txt के ज़रिए ब्लॉक। Google-Extended और Applebot-Extended केवल ऑप्ट-आउट टोकन हैं: इन्हें ब्लॉक करने से आप Google/Apple की AI ट्रेनिंग से बाहर हो जाते हैं, सामान्य सर्च पर कोई असर नहीं पड़ता।"
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "उद्धरण-प्रासंगिक AI बॉट की अनुमति है"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "स्रोतों का हवाला देना विश्वसनीयता दर्शाता है – जो AI Retrieval सिस्टम के लिए एक मुख्य रैंकिंग कारक है।"
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "पारंपरिक SEO बेकार नहीं हो जाता – अधिकांश साइटों के लिए Google अब भी विज़िटर का सबसे बड़ा स्रोत है। GEO उसके ऊपर आता है: वही स्पष्ट, सुव्यवस्थित सामग्री जो AI सिस्टम को पसंद है, आमतौर पर पारंपरिक सर्च में भी बेहतर रैंक करती है। दोनों के लिए ऑप्टिमाइज़ करने में आपका कोई नुकसान नहीं है।"
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "पारंपरिक सर्च क्रॉलिंग जो AI सहायकों को भी डेटा देती है (Bing, Copilot और ChatGPT सर्च के कुछ हिस्सों को डेटा देता है)। इसे ब्लॉक करने से आप उस सर्च इंजन से भी हट जाते हैं।"
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "मॉडल ट्रेनिंग के लिए सामग्री इकट्ठा करता है। इसे ब्लॉक करने से AI सर्च में आपका कोई नुकसान नहीं होता – यह पूरी तरह सामग्री अधिकारों का निर्णय है।"
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "आपके आँकड़ों में AI एक्सेस को एक विषय से जोड़ता है और आपके लेखन को एक स्पष्ट प्रश्न पर केंद्रित रखता है।"
+
+msgid "Contains a list or table"
+msgstr "सूची या तालिका है"
+
+msgid "Contains concrete numbers or data"
+msgstr "ठोस संख्याएँ या डेटा है"
+
+msgid "Content & freshness signals"
+msgstr "सामग्री और ताज़गी संकेत"
+
+msgid "Contents"
+msgstr "सामग्री"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "आपकी सामग्री कौन पढ़ सकता है, इस पर नियंत्रण: उन बॉट को अनुमति दें जो आपको उद्धृत करते हैं, उन्हें ब्लॉक करें जो सिर्फ़ लेते हैं – और किसी ऐसी चीज़ को ब्लॉक करने से पहले स्पष्ट चेतावनी पाएँ जिससे आपकी दृश्यता घटे।"
+
+msgid "Could not load statistics."
+msgstr "आँकड़े लोड नहीं हो सके।"
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "फ़ुल-पेज कैश के पीछे AI विज़िटर गिनें (beacon)"
+
+msgid "Data"
+msgstr "डेटा"
+
+msgid "Date range"
+msgstr "तिथि सीमा"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "अनइंस्टॉल करने पर प्लगइन का सारा डेटा हटाएँ"
+
+msgid "Details in the dashboard:"
+msgstr "डैशबोर्ड में विवरण:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "रेफ़रर डोमेन और utm_source के ज़रिए पहचाना जाता है (ChatGPT उद्धृत लिंक में utm_source=chatgpt.com जोड़ता है, जो रेफ़रर हटा दिए जाने पर भी बना रहता है)। ध्यान दें: कई AI विज़िट बिना किसी रेफ़रर के आती हैं, इसलिए वास्तविक संख्या उससे अधिक है जितनी कोई भी टूल दिखा सकता है।"
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "पहले अनुच्छेद में सीधा उत्तर (20–120 शब्द)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "बंद है। इसकी कोई लागत नहीं है और यह AI एजेंटों को आपकी साइट की संरचना समझने में मदद करती है।"
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "बंद है। संरचित डेटा आपकी सामग्री को मशीन-पठनीय बनाने का सबसे सस्ता तरीका है।"
+
+msgid "Dismiss"
+msgstr "ख़ारिज करें"
+
+msgid "Email me on citation alerts"
+msgstr "उद्धरण अलर्ट पर मुझे ईमेल करें"
+
+msgid "Empty = the site admin email address."
+msgstr "खाली = साइट व्यवस्थापक का ईमेल पता।"
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "हर AI बॉट विज़िट, इस आधार पर छाँटी गई कि आपके लिए उसका क्या मतलब है (एजेंट, Retrieval, ट्रेनिंग)।"
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "हर बिंदु एक ऐसा पृष्ठ है जिसे पिछले 30 दिनों में AI ने पढ़ा: दाईं ओर = अक्सर पढ़ा गया, नीचे = कमज़ोर GEO स्कोर। नीचे-दाईं ओर के बिंदु आपके सबसे बड़े अवसर हैं – पृष्ठ संपादित करने के लिए किसी बिंदु पर क्लिक करें।"
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "हर प्रकाशित पोस्ट और पृष्ठ 13 GEO जाँचों के सामने – इस तरह छाँटा गया कि उद्धरण के सबसे बड़े अवसर पहले दिखें, साथ में वह AI रुचि भी जो हर पृष्ठ को पहले से मिल रही है।"
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "सब कुछ मुफ़्त है, आपके सर्वर पर चलता है और कोई व्यक्तिगत डेटा संग्रहीत नहीं करता। बाहरी सेवाओं से केवल वही ऑप्ट-इन सुविधाएँ संपर्क करती हैं जो यह स्पष्ट रूप से बताती हैं। हर विकल्प बताता है कि इससे आपको क्या मिलता है।"
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "उदाहरण: /my-post/ बन जाता है /my-post.md। सुंदर परमालिंक आवश्यक हैं। Markdown आपकी सामग्री से तुरंत बनाया जाता है और noindex चिह्नित होता है, ताकि यह सर्च में HTML पृष्ठ से कभी प्रतिस्पर्धा न करे।"
+
+msgid "Export CSV"
+msgstr "CSV निर्यात करें"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "llms.txt में प्रमुखता दें (मुख्य सामग्री)"
+
+msgid "Feeds"
+msgstr "फ़ीड"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "आपका पृष्ठ लाइव लाता है क्योंकि किसी असली व्यक्ति ने अभी-अभी AI से उसके बारे में पूछा है। सबसे ऊँचे इरादे वाला ट्रैफ़िक – ब्लॉक करने से ये पाठक लौट जाते हैं।"
+
+msgid "Filter by AI"
+msgstr "AI के अनुसार फ़िल्टर करें"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "%s से पहले असली विज़िटर! वहाँ आपकी सामग्री उद्धृत की जा रही है।"
+
+msgid "Flows: which AI reads which page"
+msgstr "प्रवाह: कौन-सा AI कौन-सा पृष्ठ पढ़ता है"
+
+msgid "Focus term"
+msgstr "फ़ोकस शब्द"
+
+msgid "Focus term appears in the title"
+msgstr "फ़ोकस शब्द शीर्षक में है"
+
+msgid "Focus term set"
+msgstr "फ़ोकस शब्द सेट है"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "अधिकांश साइटों के लिए, AI उत्तरों से आने वाले विज़िटर आज Google से आने वाले विज़िटर का कुछ ही प्रतिशत हैं – लेकिन यह हिस्सा हर तिमाही तेज़ी से बढ़ रहा है। अभी शुरू करने का मकसद है अपने प्रतिस्पर्धियों से पहले एक स्थापित स्रोत बनना।"
+
+msgid "GEO Audit"
+msgstr "GEO ऑडिट"
+
+msgid "GEO Settings"
+msgstr "GEO सेटिंग्स"
+
+msgid "GEO check (AI visibility)"
+msgstr "GEO जाँच (AI दृश्यता)"
+
+msgid "GEO score"
+msgstr "GEO स्कोर"
+
+msgid "GEO status of your site"
+msgstr "आपकी साइट का GEO स्थिति"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "AI की रुचि ज़्यादा, स्कोर कम – इन्हें पहले सुधारें।"
+
+msgid "Home"
+msgstr "मुखपृष्ठ"
+
+msgid "Hour"
+msgstr "घंटा"
+
+msgid "How does an AI even reach my website?"
+msgstr "कोई AI मेरी वेबसाइट तक पहुँचता कैसे है?"
+
+msgid "How it works"
+msgstr "यह कैसे काम करता है"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "यह कैसे काम करता है – GEO आसान भाषा में"
+
+msgid "Human visitors from AI answers"
+msgstr "AI उत्तरों से आए असली विज़िटर"
+
+msgid "I already did"
+msgstr "मैं पहले ही कर चुका हूँ"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "पहचान सत्यापन बंद है। User agent नकली बनाए जा सकते हैं – असली AI बॉट को नकली से अलग करने के लिए सेटिंग्स में सत्यापन चालू करें।"
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "अगर यह प्लगइन आपकी मदद करता है, तो क्या आप WordPress.org पर एक छोटी समीक्षा लिखेंगे? इसमें एक मिनट लगता है और इससे दूसरे साइट मालिकों को इसे ढूँढने में मदद मिलती है। धन्यवाद!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "महत्वपूर्ण: CDN के पीछे सीधे कनेक्शन का IP प्रॉक्सी का होता है – हर असली बॉट नकली के रूप में चिह्नित हो जाएगा। अपना सेटअप चुनें ताकि विज़िटर का मूल IP इस्तेमाल हो। केवल वही हेडर चालू करें जो आपका प्रॉक्सी वास्तव में सेट करता है, वरना ये हेडर नकली बनाए जा सकते हैं।"
+
+msgid "Include latest posts"
+msgstr "नवीनतम पोस्ट शामिल करें"
+
+msgid "Include pages"
+msgstr "पृष्ठ शामिल करें"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "IndexNow एक खुला प्रोटोकॉल है जिसे Bing, Seznam, Naver और अन्य समर्थन देते हैं। हर बार प्रकाशित, अपडेट या अप्रकाशित करने पर प्लगइन सार्वजनिक URL और आपकी साइट कुंजी IndexNow API को भेजता है – इसके अलावा कुछ नहीं भेजा जाता। सत्यापन के लिए आपकी साइट से एक कुंजी फ़ाइल अपने आप उपलब्ध कराई जाती है। अगर कोई दूसरा प्लगइन पहले से IndexNow को सबमिट करता है (उदा. Rank Math या आधिकारिक Bing प्लगइन), तो दोहरे पिंग से बचने के लिए इसे बंद रखें।"
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: तुरंत इंडेक्सिंग पिंग"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "तुरंत इंडेक्सिंग (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "आंतरिक लिंक वे रास्ते हैं जिनसे क्रॉलर और Retrieval सिस्टम आपकी संबंधित सामग्री खोजते हैं – अनाथ पृष्ठ कम पढ़े जाते हैं।"
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "अदृश्य प्रभाव: क्लिक की संख्या से बड़ा।"
+
+msgid "It measures"
+msgstr "यह मापता है"
+
+msgid "It optimizes"
+msgstr "यह ऑप्टिमाइज़ करता है"
+
+msgid "Job title / role"
+msgstr "पद / भूमिका"
+
+msgid "Keep statistics for"
+msgstr "आँकड़े इतने समय तक रखें"
+
+msgid "Key content"
+msgstr "मुख्य सामग्री"
+
+msgid "Last seen"
+msgstr "अंतिम बार देखा गया"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "अंतिम सबमिशन: %2$s को %1$s।"
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "बाएँ: AI बॉट, दाएँ: आपके पृष्ठ। पट्टी की चौड़ाई = एक्सेस। सटीक संख्या के लिए पट्टी पर माउस ले जाएँ।"
+
+msgid "Links to at least one external source"
+msgstr "कम से कम एक बाहरी स्रोत का लिंक है"
+
+msgid "Links to at least one other page on your site"
+msgstr "आपकी साइट के कम से कम एक अन्य पृष्ठ का लिंक है"
+
+msgid "Log AI bot accesses"
+msgstr "AI बॉट एक्सेस लॉग करें"
+
+msgid "Log human visitors from AI answers"
+msgstr "AI उत्तरों से आए असली विज़िटर लॉग करें"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "मशीन-पठनीय मेटाडेटा AI सिस्टम को आपकी सामग्री समझने और उसका सही स्रोत बताने में मदद करता है।"
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "आपकी सामग्री के मशीन-पठनीय संस्करण (llms.txt, Markdown पृष्ठ, संरचित डेटा) – ताकि AI सिस्टम आपकी साइट को कम से कम रुकावट के साथ समझें।"
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "अपनी साइट को ऐसा स्रोत बनाना जिसे AI सिस्टम ढूँढें, समझें और उद्धृत करें, GEO (Generative Engine Optimization) कहलाता है। यह SEO जैसा ही विचार है, बस नीले लिंक की बजाय AI उत्तरों के लिए – और क्योंकि अभी बहुत कम साइटें ऐसा करती हैं, जल्दी शुरू करने वाले असाधारण रूप से दिखाई देते हैं।"
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "robots.txt में AI क्रॉलर नियम प्रबंधित करें"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "कई लोग आपको उद्धृत करने वाला AI उत्तर पढ़ते हैं और कभी क्लिक नहीं करते – लेकिन उन्होंने स्रोत के रूप में आपका नाम देखा। यह ब्रांड दृश्यता है जिसे कोई आँकड़ा पूरी तरह नहीं माप सकता; उद्धरण अपने आप में जीत है।"
+
+msgid "Mark all as read"
+msgstr "सभी को पढ़ा हुआ चिह्नित करें"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "हर पृष्ठ का Markdown संस्करण (.md URL)"
+
+msgid "Max. entries per section"
+msgstr "प्रति अनुभाग अधिकतम प्रविष्टियाँ"
+
+msgid "Maybe later"
+msgstr "शायद बाद में"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "इस बीच: नीचे के स्थिति पैनल में जो कुछ भी हरा नहीं है उसे ठीक करें, और अपने सबसे महत्वपूर्ण पृष्ठों पर फ़ोकस शब्द सेट करें।"
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "ज़्यादा से ज़्यादा लोग अब अपने प्रश्न Google में टाइप नहीं करते – वे ChatGPT, Perplexity, Copilot या Claude से पूछते हैं। AI कुछ वेबसाइटें पढ़ता है, एक उत्तर लिखता है और अपने स्रोत बताता है। अगर आपकी साइट उन स्रोतों में से एक है, तो आपका नाम और लिंक आता है। अगर नहीं, तो आप उस बातचीत में अदृश्य हैं – भले ही पारंपरिक Google में आपकी रैंकिंग अच्छी हो।"
+
+msgid "Most active AI bots"
+msgstr "सबसे सक्रिय AI बॉट"
+
+msgid "Name (defaults to site title)"
+msgstr "नाम (डिफ़ॉल्ट रूप से साइट का शीर्षक)"
+
+msgid "Needs attention"
+msgstr "ध्यान देने की ज़रूरत"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "नई और अपडेट की गई सामग्री कुछ ही मिनटों में Bing आदि को भेज दी जाती है। Bing, Copilot और ChatGPT सर्च के कुछ हिस्सों को डेटा देता है – तेज़ इंडेक्सिंग का मतलब है जल्दी AI उद्धरण।"
+
+msgid "New here? How it all works, in plain language."
+msgstr "यहाँ नए हैं? सब कुछ कैसे काम करता है, आसान भाषा में।"
+
+msgid "Next"
+msgstr "अगला"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "पिछले 30 दिनों में स्कोर किए गए पृष्ठों पर अभी कोई AI एक्सेस नहीं – जैसे-जैसे AI सिस्टम आपकी सामग्री पढ़ेंगे, मानचित्र भरता जाएगा।"
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "अभी तक कोई IP रेंज नहीं लाई गई – पहला डाउनलोड अगले एक घंटे के भीतर चलेगा (या जब दैनिक cron चलेगा)।"
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "अभी तक कोई URL सबमिट नहीं हुआ – अगली बार प्रकाशित या अपडेट करने पर पहला पिंग भेजा जाएगा।"
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "पिछले 7 दिनों में अभी कोई बॉट एक्सेस नहीं।"
+
+msgid "No data for this AI in the selected range."
+msgstr "चुनी गई अवधि में इस AI का कोई डेटा नहीं है।"
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "अभी कोई डेटा नहीं है। जैसे ही कोई ज्ञात AI बॉट या AI से आया कोई विज़िटर आपकी साइट पर पहुँचेगा, AI एक्सेस यहाँ दिखाई देंगे।"
+
+msgid "No duplicate SEO output"
+msgstr "कोई दोहरा SEO आउटपुट नहीं"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "न तकनीकी शब्दजाल, न बढ़ा-चढ़ाकर बातें: क्या हो रहा है, यह प्लगइन इसके लिए क्या करता है, और आप वास्तविक रूप से किन परिणामों की उम्मीद कर सकते हैं।"
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "कोई अन्य SEO प्लगइन सक्रिय नहीं है – Wille GEO खुद schema और मेटा टैग देता है।"
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "कोई बहुत लंबा अनुच्छेद नहीं (प्रत्येक अधिकतम 150 शब्द)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "कोई भौतिक robots.txt फ़ाइल नहीं मिली – Wille GEO में कॉन्फ़िगर किए गए AI क्रॉलर नियम सक्रिय हैं।"
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "कोई भौतिक robots.txt फ़ाइल नहीं मिली। Wille GEO में कोई AI क्रॉलर ब्लॉक कॉन्फ़िगर नहीं है, इसलिए WordPress की डिफ़ॉल्ट robots.txt बिना बदलाव के दी जाती है।"
+
+msgid "No published content to audit yet."
+msgstr "ऑडिट के लिए अभी कोई प्रकाशित सामग्री नहीं है।"
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "कोई साइटमैप नहीं मिला। WordPress में डिफ़ॉल्ट रूप से एक साइटमैप होता है – हो सकता है किसी प्लगइन या सेटिंग ने उसे बंद कर दिया हो।"
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "कोई भी टूल किसी AI को आपको उद्धृत करने के लिए मजबूर नहीं कर सकता। AI सिस्टम उन पृष्ठों को उद्धृत करते हैं जो किसी वास्तविक प्रश्न का स्पष्ट, ठोस और विश्वसनीय उत्तर देते हैं। यह प्लगइन ठीक इसे मापने योग्य और व्यवस्थित रूप से आसान बनाता है – हर तकनीकी बाधा हटाता है और दिखाता है कि क्या काम करता है। सार तो फिर भी आपसे ही आना चाहिए।"
+
+msgid "No – use the direct connection IP"
+msgstr "नहीं – सीधे कनेक्शन का IP इस्तेमाल करें"
+
+msgid "Not allowed."
+msgstr "अनुमति नहीं है।"
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "बंद है। User agent नकली बनाए जा सकते हैं; सत्यापन चालू करने से असली AI बॉट नकली से अलग हो जाते हैं (दिन में एक बार सार्वजनिक IP सूचियाँ लाता है)।"
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "बंद है। इसके बिना AI-प्रासंगिक सर्च इंडेक्स को नई सामग्री के बारे में तभी पता चलता है जब वे आपको दोबारा क्रॉल करते हैं – IndexNow चालू करने से यह कुछ मिनटों में हो जाता है।"
+
+msgid "Official profiles (sameAs)"
+msgstr "आधिकारिक प्रोफ़ाइल (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "चाहें तो प्रमाण के साथ: किसी मशहूर नाम का दिखावा करने वाले नकली बॉट AI कंपनियों की आधिकारिक IP सूचियों से पकड़े जाते हैं।"
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "दिन में एक बार प्लगइन वे सार्वजनिक IP सूचियाँ डाउनलोड करता है जो OpenAI, Anthropic, Perplexity, Google और Microsoft अपने क्रॉलर के लिए प्रकाशित करते हैं, और हर दर्ज हिट को सत्यापित, विफल (किसी अन्य IP से दावा की गई पहचान) या जाँचा नहीं गया के रूप में चिह्नित करता है। विज़िटर का IP केवल मेमोरी में मिलाया जाता है और कभी संग्रहीत नहीं होता। क्योंकि इसमें बाहरी अनुरोध होते हैं, यह ऑप्ट-इन है।"
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "प्रति पंक्ति एक URL (LinkedIn, GitHub, X, निजी साइट …)। इससे AI सिस्टम इस लेखक को एक सुसंगत, असली व्यक्ति के रूप में सत्यापित कर पाते हैं – एक मुख्य E-E-A-T संकेत।"
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "एक या दो वाक्य: आप कौन हैं और आपकी साइट किस बारे में है।"
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "संपादक में कोई भी पोस्ट खोलें – साइडबार में “GEO जाँच” पैनल लिखते समय आपको ठीक इन्हीं चरणों से गुज़ारता है।"
+
+msgid "Open improvements"
+msgstr "बाकी सुधार"
+
+msgid "Open the full dashboard"
+msgstr "पूरा डैशबोर्ड खोलें"
+
+msgid "Open the settings"
+msgstr "सेटिंग्स खोलें"
+
+msgid "Open the statistics dashboard"
+msgstr "आँकड़े डैशबोर्ड खोलें"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "अपने पाँच सबसे महत्वपूर्ण पृष्ठ खोलें और हर एक के लिए फ़ोकस शब्द सेट करें: वह प्रश्न या विषय जिसका सबसे अच्छा उत्तर यह पृष्ठ होना चाहिए।"
+
+msgid "Opportunity map"
+msgstr "अवसर मानचित्र"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "मेटा विवरण और सोशल प्रीव्यू (Open Graph) आउटपुट करें"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "schema.org संरचित डेटा (JSON-LD) आउटपुट करें"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "WebSite, Organization/Person, Article (तिथियों और लेखक के साथ) और ब्रेडक्रंब आउटपुट करता है। AI Retrieval सिस्टम इन संकेतों से ताज़गी और विश्वसनीयता का आकलन करते हैं।"
+
+msgid "Page"
+msgstr "पृष्ठ"
+
+msgid "Pages"
+msgstr "पृष्ठ"
+
+msgid "Pages AI read most"
+msgstr "AI द्वारा सबसे ज़्यादा पढ़े गए पृष्ठ"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "लोग AI सहायकों से प्रश्न पूछते हैं। उन प्रश्नों जैसे शीर्षक आपकी सामग्री को सीधे वास्तविक प्रॉम्प्ट से जोड़ते हैं – और अपने आप बनने वाले FAQ schema को भी डेटा देते हैं।"
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "अपने सबसे अच्छे पृष्ठों को मुख्य सामग्री के रूप में पिन करें, ताकि llms.txt AI एजेंटों को सीधे उन तक ले जाए।"
+
+msgid "Ping IndexNow on publish and update"
+msgstr "प्रकाशित और अपडेट करने पर IndexNow को पिंग करें"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "पिन की गई सामग्री llms.txt और llms-full.txt में सबसे पहले दिखती है – वे पृष्ठ जिन्हें आप सबसे ज़्यादा चाहते हैं कि AI सिस्टम पढ़ें।"
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "साधारण परमालिंक सक्रिय हैं (सेटिंग्स → परमालिंक)। Markdown एंडपॉइंट और IndexNow कुंजी फ़ाइल उपलब्ध नहीं कराए जा सकते, और पढ़ने योग्य URL हर क्रॉलर की मदद करते हैं।"
+
+msgid "Post"
+msgstr "पोस्ट"
+
+msgid "Post not found."
+msgstr "पोस्ट नहीं मिली।"
+
+msgid "Posts"
+msgstr "पोस्ट"
+
+msgid "Pretty permalinks enabled"
+msgstr "सुंदर परमालिंक सक्षम हैं"
+
+msgid "Previous"
+msgstr "पिछला"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "गोपनीयता: यह प्लगइन कोई IP पता संग्रहीत नहीं करता, कोई कुकी सेट नहीं करता, और डिफ़ॉल्ट रूप से कोई बाहरी अनुरोध नहीं करता। केवल दो अपवाद हैं, दोनों ऑप्ट-इन सुविधाएँ जिन पर आपका नियंत्रण है: बॉट सत्यापन (दिन में एक बार सार्वजनिक क्रॉलर IP सूचियाँ डाउनलोड करता है) और IndexNow (प्रकाशित URL IndexNow API को भेजता है)। सभी आँकड़े आपके WordPress डेटाबेस में ही रहते हैं।"
+
+msgid "Profile URLs (sameAs)"
+msgstr "प्रोफ़ाइल URL (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "गुणवत्ता: असाधारण रूप से ऊँची।"
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "WordPress.org पर Wille GEO को रेट करें (नए टैब में खुलता है)"
+
+msgid "Rate ★★★★★"
+msgstr "रेट करें ★★★★★"
+
+msgid "Re-scan"
+msgstr "दोबारा स्कैन करें"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "पढ़ने योग्य URL सक्रिय हैं – .md एंडपॉइंट और IndexNow कुंजी फ़ाइल काम करते हैं।"
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "AI उत्तरों से आने वाले असली लोग – असली फ़ायदा, हर AI और हर पृष्ठ के अनुसार।"
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "असली लोग जिन्होंने ChatGPT, Perplexity आदि के अंदर आपके लिंक पर क्लिक किया। यही GEO का असली फ़ायदा है।"
+
+msgid "Recipient"
+msgstr "प्राप्तकर्ता"
+
+msgid "Reload page"
+msgstr "पृष्ठ फिर से लोड करें"
+
+msgid "Retrieval"
+msgstr "Retrieval"
+
+msgid "Retrieval (citation index)"
+msgstr "Retrieval (उद्धरण इंडेक्स)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "Retrieval और एजेंट बॉट आपके पृष्ठ पढ़ सकते हैं – आप AI उत्तरों में दिख सकते हैं।"
+
+msgid "Retrieval bots"
+msgstr "Retrieval बॉट"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "Retrieval बॉट को पहले आपके सुधरे हुए पृष्ठ ढूँढने और दोबारा पढ़ने होते हैं। कुछ हफ़्तों बाद पहले मापने योग्य प्रभाव और तीन से छह महीने बाद एक निष्पक्ष आकलन की उम्मीद करें – डैशबोर्ड पूरे समय आपको रुझान दिखाता है।"
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "Retrieval बॉट नई सामग्री को जल्दी खोजने के लिए साइटमैप का उपयोग करते हैं।"
+
+msgid "Review Wille GEO"
+msgstr "Wille GEO की समीक्षा करें"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "नियम WordPress द्वारा बनाई गई robots.txt में जोड़े जाते हैं। वेब रूट में मौजूद एक भौतिक robots.txt फ़ाइल इन्हें ओवरराइड कर देगी – आँकड़े पृष्ठ पर स्थिति पैनल आपको चेतावनी देता है अगर ऐसी फ़ाइल मौजूद है। ध्यान दें कि robots.txt स्वैच्छिक व्यवस्था है; जाने-माने बॉट इसका पालन करते हैं।"
+
+msgid "Running GEO checks …"
+msgstr "GEO जाँच चल रही है …"
+
+msgid "Save settings"
+msgstr "सेटिंग्स सहेजें"
+
+msgid "Score distribution"
+msgstr "स्कोर वितरण"
+
+msgid "Search"
+msgstr "सर्च"
+
+msgid "Search (feeds AI answers)"
+msgstr "सर्च (AI उत्तरों को डेटा देता है)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "सर्च इंजन और AI क्रॉलर साइट को इंडेक्स कर सकते हैं।"
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "देखें कि कौन-सा AI (ChatGPT, Claude, Perplexity…) आपके कौन-से पेज पढ़ता है – और अपनी साइट को AI सर्च (GEO) के लिए ऑप्टिमाइज़ करें। मुफ़्त, कोई निजी डेटा नहीं।"
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "ईमेल से साप्ताहिक AI दृश्यता रिपोर्ट भेजें"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "Wille GEO प्लगइन द्वारा भेजा गया। यह रिपोर्ट कभी भी Wille GEO → सेटिंग्स में बंद करें।"
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "आपके सामान्य WordPress मेल सिस्टम से भेजी जाती है, और केवल तभी जब उस सप्ताह वास्तव में AI गतिविधि हुई हो – शांत साइटों को कभी स्पैम नहीं किया जाता। आप इसे WP-CLI कमांड \"wp geoins report\" से मैन्युअल रूप से भी चला सकते हैं।"
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "पूरी सामग्री के साथ /llms-full.txt उपलब्ध कराएँ"
+
+msgid "Serve a generated /llms.txt"
+msgstr "अपने आप बनी /llms.txt उपलब्ध कराएँ"
+
+msgid "Served at %s."
+msgstr "%s पर उपलब्ध।"
+
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+msgid "Short site description (optional)"
+msgstr "साइट का संक्षिप्त विवरण (वैकल्पिक)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "छोटे, अपने आप में पूर्ण अनुच्छेद ही वह इकाई हैं जिसे AI सिस्टम उत्तरों में लेते हैं। लंबे खंड छोड़ दिए जाते हैं।"
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "संशोधित पोस्ट पर दिखाई देने वाली \"अपडेट किया गया\" तिथि दिखाएँ"
+
+msgid "Show all AIs"
+msgstr "सभी AI दिखाएँ"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "सामग्री के ऊपर दिखाई जाती है, केवल तब जब पोस्ट में सार्थक संशोधन हुआ हो (प्रकाशन के दो दिन से अधिक बाद)। मशीन-पठनीय dateModified इस स्विच से स्वतंत्र, हमेशा आपके संरचित डेटा में रहता है।"
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "AI सिस्टम को मशीन-पठनीय विशेषज्ञता (schema.org jobTitle) के रूप में दिखाया जाता है, उदा. \"Senior WordPress Developer\"।"
+
+msgid "Site represents"
+msgstr "साइट प्रतिनिधित्व करती है"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "क्या साइट किसी प्रॉक्सी/CDN के पीछे चलती है?"
+
+msgid "Site visible to crawlers"
+msgstr "साइट क्रॉलर के लिए दृश्यमान है"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "जो व्यक्ति AI उत्तर से क्लिक करके आता है, वह पहले ही सारांश पढ़ चुका होता है और गहराई चाहता है – अध्ययन और शॉप डेटा लगातार दिखाते हैं कि ये विज़िटर औसत सर्च ट्रैफ़िक से काफ़ी बेहतर कन्वर्ट करते हैं। कम विज़िटर, लेकिन ज़्यादा रुचि वाले।"
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "क्षमा करें, आपको ऐसा करने की अनुमति नहीं है।"
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "गति: नई और अपडेट की गई सामग्री की सूचना कुछ ही मिनटों में सर्च इंजनों को दी जाती है (IndexNow) – जितनी जल्दी इंडेक्स होगी, उतनी जल्दी AI उसे उद्धृत कर सकेगा।"
+
+msgid "Statistics"
+msgstr "आँकड़े"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "आँकड़े और ठोस संख्याएँ उद्धृत होने की संभावना को मापने योग्य रूप से बढ़ाते हैं – AI उत्तरों को सत्यापन योग्य संख्याएँ पसंद हैं।"
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "संरचित हिस्से (सूचियाँ, तालिकाएँ) लंबे घने गद्य की तुलना में AI द्वारा कहीं ज़्यादा बार निकाले और उद्धृत किए जाते हैं।"
+
+msgid "Structured data & meta tags"
+msgstr "संरचित डेटा और मेटा टैग"
+
+msgid "Structured data (schema.org)"
+msgstr "संरचित डेटा (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "ज़रूर, समीक्षा लिखें"
+
+msgid "Table of contents"
+msgstr "विषय-सूची"
+
+msgid "Term"
+msgstr "शब्द"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "शब्द और पृष्ठ: कौन-सा AI क्या पढ़ता है?"
+
+msgid "The audit table needs JavaScript."
+msgstr "ऑडिट तालिका के लिए JavaScript आवश्यक है।"
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "beacon केवल लॉग-आउट विज़िटर के लिए चलता है, केवल यह जाँचता है कि विज़िट किसी ज्ञात AI से आई है या नहीं (रेफ़रर डोमेन या utm_source), और तभी स्रोत और पृष्ठ पथ आपकी अपनी साइट को रिपोर्ट करता है। न कुकी, न IP, न फ़िंगरप्रिंटिंग, न कोई बाहरी सेवा। सर्वर-साइड ट्रैकर के साथ दोहरी गिनती अपने आप रोकी जाती है। अगर आपकी साइट फ़ुल-पेज कैशिंग का उपयोग नहीं करती, तो इसे बंद रखें – PHP ट्रैकर पहले से सब कुछ देखता है।"
+
+msgid "The honest limit: content decides."
+msgstr "ईमानदार सीमा: सामग्री ही तय करती है।"
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "भौतिक robots.txt %s को ब्लॉक करती है। ये बॉट आपको AI उत्तरों में लाते हैं – इन्हें अनब्लॉक करने के लिए फ़ाइल संपादित करें (जब तक फ़ाइल मौजूद है, यहाँ कॉन्फ़िगर किए गए नियम निष्क्रिय रहते हैं)।"
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "भौतिक robots.txt सभी क्रॉलर को ब्लॉक करती है (User-agent: * / Disallow: /)। कोई भी सर्च इंजन और कोई भी AI सिस्टम आपकी साइट नहीं पढ़ सकता – फ़ाइल संपादित करें।"
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "भौतिक robots.txt डिफ़ॉल्ट रूप से सभी क्रॉलर को ब्लॉक करती है (User-agent: * / Disallow: /); केवल वे क्रॉलर आपकी साइट पढ़ सकते हैं जिनके लिए फ़ाइल में अपवाद नियम हैं। बिना अपवाद वाला हर AI सिस्टम बाहर है – फ़ाइल संपादित करें।"
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "आँकड़े डैशबोर्ड हर AI एक्सेस को इस शब्द से जोड़ता है। खाली = पोस्ट का शीर्षक।"
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "आँकड़े डैशबोर्ड के लिए JavaScript आवश्यक है। इसकी जगह CSV निर्यात या WP-CLI (wp geoins stats) का उपयोग करें।"
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "फिर इसे चलने दें। डैशबोर्ड हर हफ़्ते देखें (या ईमेल रिपोर्ट चालू करें) और वहाँ निवेश करें जहाँ AI की रुचि पहले से दिख रही है – वहीं उद्धरण सबसे क़रीब हैं।"
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "ये user agent AI सिस्टम जैसे लगते हैं लेकिन अभी रजिस्ट्री में नहीं हैं – इसलिए इनके हिट ऊपर के आँकड़ों में शामिल नहीं हैं। बार-बार आने वाली प्रविष्टियों को geoins_bots फ़िल्टर से जोड़ना (या प्लगइन को रिपोर्ट करना) फ़ायदेमंद है।"
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "यह प्लगइन हर विज़िट पर इन बॉट को पहचानता है और डैशबोर्ड में दिखाता है: कौन-सा AI आपके कौन-से पृष्ठ पढ़ता है, कितनी बार, और किस विषय के लिए। और जब कोई व्यक्ति AI उत्तर के अंदर आपकी साइट के लिंक पर क्लिक करता है, तो वह विज़िट भी गिनी जाती है – यही वह पल है जब AI दृश्यता एक संभावित ग्राहक में बदलती है।"
+
+msgid "Timeline: weeks to months, not days."
+msgstr "समय-सीमा: हफ़्तों से महीनों तक, दिनों में नहीं।"
+
+msgid "Title"
+msgstr "शीर्षक"
+
+msgid "Tracking"
+msgstr "ट्रैकिंग"
+
+msgid "Training"
+msgstr "ट्रेनिंग"
+
+msgid "Training bots"
+msgstr "ट्रेनिंग बॉट"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "दो काम: यह मापता है, और यह ऑप्टिमाइज़ करता है। सब कुछ आपके अपने सर्वर पर चलता है, कहीं कुछ नहीं भेजा जाता, और सेटिंग्स का हर स्विच चालू करने से पहले अपना फ़ायदा बताता है।"
+
+msgid "Updated"
+msgstr "अपडेट किया गया"
+
+msgid "Updated on %s"
+msgstr "%s को अपडेट किया गया"
+
+msgid "Updated within the last 12 months"
+msgstr "पिछले 12 महीनों में अपडेट किया गया"
+
+msgid "User agent"
+msgstr "User agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "आधिकारिक IP रेंज से बॉट की पहचान सत्यापित करें"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "बहुत कम सामग्री वाले पृष्ठों में शायद ही इतना सार होता है कि AI उस पर उत्तर आधारित कर सके।"
+
+msgid "View your key file"
+msgstr "अपनी कुंजी फ़ाइल देखें"
+
+msgid "View your llms-full.txt"
+msgstr "अपनी llms-full.txt देखें"
+
+msgid "View your llms.txt"
+msgstr "अपनी llms.txt देखें"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "दिखाई देने वाली विशेषज्ञता (बायो वाला असली लेखक) उन E-E-A-T संकेतों को मज़बूत करती है जिनसे AI सिस्टम भरोसेमंद स्रोत चुनते हैं।"
+
+msgid "Volume: still small, growing fast."
+msgstr "मात्रा: अभी कम, तेज़ी से बढ़ रही है।"
+
+msgid "Waiting for the first AI visit"
+msgstr "पहली AI विज़िट की प्रतीक्षा"
+
+msgid "Weekly email report"
+msgstr "साप्ताहिक ईमेल रिपोर्ट"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "मैं वास्तव में क्या उम्मीद कर सकता हूँ? एक ईमानदार जवाब"
+
+msgid "What does the plugin actually do for me?"
+msgstr "यह प्लगइन वास्तव में मेरे लिए क्या करता है?"
+
+msgid "What happened"
+msgstr "क्या हुआ"
+
+msgid "What is happening right now?"
+msgstr "अभी क्या हो रहा है?"
+
+msgid "When do AIs read your site?"
+msgstr "AI आपकी साइट कब पढ़ते हैं?"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "कहाँ से शुरू करूँ? पाँच कदम, 30 मिनट"
+
+msgid "Which AI bots?"
+msgstr "कौन-से AI बॉट?"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "किस AI ने आपके पृष्ठ पढ़े, और किन AI उत्तरों ने आपको असली विज़िटर भेजे।"
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "कौन-सा AI आपके कौन-से पृष्ठ किस शब्द के लिए पढ़ता है – और कौन-से AI उत्तर वास्तव में आपको असली विज़िटर भेजते हैं।"
+
+msgid "Why does this matter?"
+msgstr "यह क्यों मायने रखता है?"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Wille GEO सक्रिय है।"
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Wille GEO को %1$s ने बनाया है। क्या यह आपकी मदद करता है? WordPress.org पर एक %2$s समीक्षा दूसरों को इसे ढूँढने में मदद करती है – धन्यवाद!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "%s पर Wille GEO ने यह देखा:"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: लेखक संकेत (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "उन पृष्ठों पर GEO चेकलिस्ट पूरी करें – ख़ासकर: मुख्य प्रश्न का उत्तर सीधे पहले अनुच्छेद में दें, और शीर्षकों को असली प्रश्नों में बदलें।"
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "कम से कम दो प्रश्न वाले शीर्षकों (प्रश्नचिह्न पर ख़त्म होने वाले H2/H3) वाली पोस्ट और पृष्ठों पर काम करता है। कोई अतिरिक्त काम नहीं – प्रश्नों को शीर्षक के रूप में लिखें और schema अपने आप बन जाएगा।"
+
+msgid "XML sitemap available"
+msgstr "XML साइटमैप उपलब्ध है"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "हाँ, Cloudflare (CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "हाँ, अन्य प्रॉक्सी (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "आप %s को ब्लॉक कर रहे हैं। ये बॉट आपको AI उत्तरों में लाते हैं – इन्हें ब्लॉक करने से आप उद्धरणों से हट जाते हैं।"
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "आपको यह इसलिए मिल रहा है क्योंकि Wille GEO → सेटिंग्स में ईमेल से उद्धरण अलर्ट चालू हैं।"
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "आपकी IndexNow कुंजी फ़ाइल आपके अपने सर्वर से उपलब्ध नहीं है, इसलिए पिंग रोक दिए गए हैं। सामान्य कारण: साधारण परमालिंक (सेटिंग्स → परमालिंक में ठीक करें) या कोई सुरक्षा प्लगइन जो लूपबैक अनुरोधों को ब्लॉक करता है। इसे ठीक करने के बाद ये सेटिंग्स फिर से सहेजें – सहेजने के थोड़ी देर बाद जाँच दोबारा चलती है।"
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "आपके सत्र की जाँच की समय-सीमा समाप्त हो गई – जारी रखने के लिए पृष्ठ फिर से लोड करें।"
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] इस सप्ताह AI दृश्यता: %2$d AI एक्सेस, %3$d AI विज़िटर"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] नया AI दृश्यता संकेत"
+
+msgid "a person"
+msgstr "एक व्यक्ति का"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "किसी असली व्यक्ति ने अभी-अभी AI से एक प्रश्न पूछा है, और AI उसका उत्तर देने के लिए इसी समय आपका पृष्ठ पढ़ रहा है। यह सबसे मूल्यवान संकेत है: कोई इसी क्षण आपके विषय में रुचि रखता है।"
+
+msgid "accesses"
+msgstr "एक्सेस"
+
+msgid "an organization"
+msgstr "एक संगठन का"
+
+msgid "blocking costs citations"
+msgstr "ब्लॉक करने से उद्धरण कम होते हैं"
+
+msgid "blocking is safe for citations"
+msgstr "ब्लॉक करने से उद्धरणों पर असर नहीं"
+
+msgid "by %s"
+msgstr "%s द्वारा"
+
+msgid "days"
+msgstr "दिन"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "उदा. WordPress बैकअप प्लगइन"
+
+msgid "forever"
+msgstr "हमेशा"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "नकली"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "llms.txt उपलब्ध है"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "llms.txt एक नया मानक है: /llms.txt पर आपकी सबसे महत्वपूर्ण सामग्री का Markdown अवलोकन। यह आपके पृष्ठों और पोस्ट से अपने आप बनता है और 12 घंटे के लिए कैश किया जाता है।"
+
+msgid "more"
+msgstr "और"
+
+msgid "new"
+msgstr "नया"
+
+msgid "pages"
+msgstr "पृष्ठ"
+
+msgid "passed"
+msgstr "पूरा हुआ"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "ये वह लाइब्रेरी बनाते हैं जिससे AI बाद में उद्धरण देता है। उस लाइब्रेरी में होना ही तय करता है कि आपको उद्धृत किया जा सकता है या नहीं।"
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "ये भविष्य के AI मॉडल को प्रशिक्षित करने के लिए टेक्स्ट इकट्ठा करते हैं। ये आपको न विज़िटर लाते हैं, न उद्धरण। इन्हें अनुमति देना या नहीं, पूरी तरह सामग्री अधिकारों का निर्णय है – इन्हें ब्लॉक करने से आपका कोई नुकसान नहीं होता।"
+
+msgid "unchecked"
+msgstr "जाँचा नहीं गया"
+
+msgid "verified"
+msgstr "सत्यापित"
+
+msgid "visitors"
+msgstr "विज़िटर"
+
+msgid "vs. previous period"
+msgstr "पिछली अवधि की तुलना में"

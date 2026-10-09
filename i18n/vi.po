@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "\"Ngăn chặn các công cụ tìm kiếm đánh chỉ mục website này\" đang bật (Cài đặt → Đọc). Không hệ thống AI nào có thể tìm thấy bạn cho đến khi tắt tùy chọn này."
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%1$d dải IP từ %2$d nhà cung cấp, cập nhật lần cuối %3$s."
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "%s (trình thu thập huấn luyện) đã truy cập trang web của bạn lần đầu tiên."
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "%s đã thu thập trang web của bạn lần đầu tiên – một AI liên quan đến trích dẫn hiện đang đọc bạn."
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "Đã phát hiện %s – Wille GEO tự động để plugin đó xử lý schema và thẻ meta, chỉ bổ sung những gì còn thiếu (theo dõi, llms.txt, kiểm soát robots, kiểm tra GEO)."
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "%s đang hoạt động. Để tránh xuất trùng lặp, Wille GEO tự động để plugin đó xử lý schema và thẻ meta – các công tắc bên dưới sẽ bị bỏ qua khi plugin đó đang chạy. Mọi thứ khác (theo dõi, llms.txt, kiểm soát robots, kiểm tra GEO) vẫn hoạt động song song."
+
+msgid "(opens in a new tab)"
+msgstr "(mở trong tab mới)"
+
+msgid "1 year"
+msgstr "1 năm"
+
+msgid "180 days"
+msgstr "180 ngày"
+
+msgid "30 days"
+msgstr "30 ngày"
+
+msgid "7-day average"
+msgstr "Trung bình 7 ngày"
+
+msgid "90 days"
+msgstr "90 ngày"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "Phiên bản Markdown gọn gàng của mọi trang có sẵn bằng cách thêm .md vào URL của trang."
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "Danh sách kiểm tra trực tiếp khi bạn viết: mười ba tiêu chí cụ thể, có giải thích, giúp một trang đáng được AI trích dẫn (câu trả lời trước, tiêu đề dạng câu hỏi, danh sách, số liệu, độ mới …)."
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "Có một tệp robots.txt thực và nó không chứa các quy tắc chặn bạn đã cấu hình ở đây (%s) – chúng không có hiệu lực cho đến khi bạn thêm chúng vào tệp hoặc xóa tệp."
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "Có một tệp robots.txt thực nhưng không thể đọc để phân tích. Nó ghi đè các quy tắc được cấu hình ở đây – hãy kiểm tra thủ công."
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "Có một tệp robots.txt thực, nhưng hiện tại không có vấn đề: nó không chặn bot AI nào liên quan đến trích dẫn và khớp với cấu hình của bạn. Lưu ý: các quy tắc cấu hình ở đây không có hiệu lực khi tệp còn tồn tại."
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "Một ví dụ thực tế: một trang web chuyên ngành với 50 bài viết chất lượng áp dụng danh sách kiểm tra GEO có thể kỳ vọng những trích dẫn AI đầu tiên và một dòng khách truy cập có ý định cao nhỏ nhưng tăng đều trong vài tháng – hãy xem đó như mở ra cánh cửa thứ hai, còn nhỏ, dẫn vào công việc kinh doanh của bạn và rộng dần mỗi tháng, chứ không phải thay thế Google."
+
+msgid "AI (30d)"
+msgstr "AI (30 ngày)"
+
+msgid "AI Statistics"
+msgstr "Thống kê AI"
+
+msgid "AI accesses"
+msgstr "Lượt truy cập AI"
+
+msgid "AI accesses (30d)"
+msgstr "Lượt truy cập AI (30 ngày)"
+
+msgid "AI accesses per day"
+msgstr "Lượt truy cập AI mỗi ngày"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "Trợ lý AI trích dẫn các khối câu trả lời độc lập. Nếu đoạn đầu trả lời câu hỏi cốt lõi, đó là phần dễ trích dẫn nhất."
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "Từ bây giờ, lượt truy cập của bot AI và khách truy cập từ câu trả lời AI sẽ được ghi lại – dữ liệu xuất hiện ngay khi AI đầu tiên đến trang web của bạn."
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "Lượt truy cập của bot AI trong 30 ngày qua – mở bảng thống kê"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "Các công ty AI gửi những khách truy cập tự động – bot – đến trang web của bạn. Chúng tự giới thiệu bằng tên, và cái tên cho bạn biết chính xác vì sao chúng đến. Có ba loại quan trọng, và chúng mang ý nghĩa rất khác nhau đối với công việc kinh doanh của bạn:"
+
+msgid "AI companies: share of accesses"
+msgstr "Các công ty AI: tỷ lệ lượt truy cập"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "Quyền truy cập của trình thu thập AI (robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "Trình thu thập AI không truyền truy vấn tìm kiếm. Ma trận này gán mỗi lượt truy cập với từ khóa chính của trang (thiết lập trong hộp Kiểm tra GEO trên màn hình chỉnh sửa) – cách thay thế trung thực và thực tế."
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "Radar AI: trình thu thập giống AI chưa được nhận diện"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "Tìm kiếm AI ưu tiên nguồn mới; ngày sửa đổi được gửi kèm trong dữ liệu có cấu trúc của bạn. Rà soát nội dung hằng năm giúp bạn luôn đáng được trích dẫn."
+
+msgid "AI source"
+msgstr "Nguồn AI"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "Hệ thống AI so khớp câu hỏi với tiêu đề trước tiên – một tiêu đề rõ ràng khiến trang của bạn trở thành nguồn hiển nhiên."
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "Các hệ thống AI đã đọc trang web của bạn %s lần trong 30 ngày qua – Wille GEO đang làm tốt nhiệm vụ."
+
+msgid "AI visibility, last 7 days"
+msgstr "Khả năng hiển thị trên AI, 7 ngày qua"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Khách truy cập từ AI tăng vọt: %1$d khách từ câu trả lời AI hôm qua (trung bình gần đây: %2$s/ngày)."
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Khách truy cập từ AI tăng vọt: %1$s khách từ câu trả lời AI hôm qua (trung bình gần đây: %2$s/ngày)."
+
+msgid "AI visitors"
+msgstr "Khách truy cập từ AI"
+
+msgid "AI visitors: landing pages"
+msgstr "Khách truy cập từ AI: trang đích"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "Trên tất cả các trang đã chấm điểm. Mỗi điểm tăng thêm là một tiêu chí nữa mà trang điển hình của bạn đáp ứng."
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "Thêm thời gian cập nhật chính xác (lastmod) vào sơ đồ trang XML"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "Thêm ID neo cho tất cả tiêu đề H2/H3 và, với bài viết có từ ba tiêu đề trở lên, chèn một mục lục liên kết gọn gàng trước H2 đầu tiên. Kiểu dáng tối giản và kế thừa phông chữ cũng như màu sắc của giao diện."
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "Thêm thời gian sửa đổi thực của từng bài viết vào sơ đồ trang lõi của WordPress. Chỉ hoạt động khi sơ đồ trang lõi đang chạy; các plugin SEO thay thế sơ đồ trang không bị ảnh hưởng."
+
+msgid "Agent"
+msgstr "Agent"
+
+msgid "Agent (live user request)"
+msgstr "Agent (yêu cầu trực tiếp của người dùng)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "Agent + Truy xuất = liên quan đến trích dẫn: một AI đã đọc trang của bạn để trả lời một câu hỏi thực. Huấn luyện chỉ cung cấp dữ liệu cho mô hình."
+
+msgid "Agent bots"
+msgstr "Bot agent"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "Cảnh báo luôn xuất hiện trong bảng điều khiển; tùy chọn này gửi thêm qua email (gộp lại, tối đa một email mỗi ngày). Dùng người nhận bên dưới."
+
+msgid "All AIs"
+msgstr "Tất cả AI"
+
+msgid "All checks passed"
+msgstr "Đạt tất cả kiểm tra"
+
+msgid "All images have alt text"
+msgstr "Tất cả hình ảnh đều có văn bản thay thế"
+
+msgid "All types"
+msgstr "Tất cả loại"
+
+msgid "Allow all bots"
+msgstr "Cho phép tất cả bot"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "Văn bản thay thế là cách hệ thống AI hiểu hình ảnh của bạn – đồng thời là tín hiệu trợ năng và xếp hạng lâu đời. Trang không có hình ảnh tự động đạt."
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "Đang phân tích nội dung … đã xong %1$s / %2$s"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "Diện tích = lượt truy cập trong khoảng thời gian đã chọn. Nhấp vào một công ty để xem chi tiết từng bot của công ty đó."
+
+msgid "At least 300 words"
+msgstr "Ít nhất 300 từ"
+
+msgid "At least one heading phrased as a question"
+msgstr "Ít nhất một tiêu đề được viết dưới dạng câu hỏi"
+
+msgid "Author has a profile description"
+msgstr "Tác giả có phần mô tả hồ sơ"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "Tự động tạo schema FAQ từ các tiêu đề dạng câu hỏi"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "Mục lục tự động với neo tiêu đề"
+
+msgid "Average GEO score"
+msgstr "Điểm GEO trung bình"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "Hãy hoài nghi với bất kỳ ai hứa hẹn một làn sóng khách hàng từ tìm kiếm AI. Đây là bức tranh trung thực:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Lợi ích: Bing và các công cụ khác tải nội dung mới và được cập nhật trong vài phút thay vì vài ngày. Bing cung cấp cho Microsoft Copilot và một phần tìm kiếm ChatGPT – lập chỉ mục nhanh hơn nghĩa là được AI trích dẫn sớm hơn."
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "Lợi ích: bản tóm tắt trang web mà máy đọc được dành cho agent AI. Nói thật: các trình thu thập lớn hiện hiếm khi tải nó – nhưng agent lập trình/IDE thì có, nó không tốn gì và giúp bạn đi trước khi tiêu chuẩn này phát triển."
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "Lợi ích: các agent muốn nhiều hơn bản tổng quan sẽ nhận được toàn bộ nội dung chính của bạn dưới dạng Markdown gọn gàng trong một tệp duy nhất."
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "Lợi ích: thêm .md vào bất kỳ URL nào sẽ trả về Markdown thuần – không có markup của giao diện, không có script. Agent AI đọc tiết kiệm hơn và được thông báo qua thẻ link trên mọi trang."
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "Lợi ích: trang được lưu bộ nhớ đệm không bao giờ chạy PHP, nên khách truy cập từ AI trên đó vô hình với việc theo dõi phía máy chủ. Beacon trình duyệt siêu nhỏ này (<1 kB) lấp đầy khoảng trống đó."
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "Lợi ích: đoạn trích gọn gàng trong tìm kiếm, ứng dụng chat và mạng xã hội – tạo từ phần tóm tắt hoặc nội dung của bạn, không cần bảo trì."
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "Lợi ích: quyết định theo từng bot ai được đọc nội dung của bạn – kèm cảnh báo rõ ràng trước khi bạn chặn thứ gì đó khiến bạn mất trích dẫn AI."
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "Lợi ích: mỗi phần có một liên kết sâu (#phan) mà hệ thống AI và công cụ tìm kiếm có thể trích dẫn chính xác, và người đọc có thể nhảy thẳng đến câu trả lời."
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "Lợi ích: độ mới là tín hiệu xếp hạng và trích dẫn – và ngày hiển thị chính là thứ mà đoạn trích tìm kiếm và câu trả lời AI thực sự lấy."
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "Lợi ích: các tiêu đề kết thúc bằng “?” cùng câu trả lời sẽ trở thành dữ liệu có cấu trúc FAQ – đúng định dạng hỏi đáp mà trợ lý AI hay trích dẫn."
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "Lợi ích: giữ cơ sở dữ liệu gọn nhẹ. Các mục cũ hơn được tự động xóa mỗi ngày một lần."
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "Lợi ích: biết ngay khi điều quan trọng xảy ra – lần thu thập đầu tiên bởi một AI mới, những khách truy cập đầu tiên từ một trợ lý AI, hoặc lượng khách từ AI tăng vọt bất ngờ."
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "Lợi ích: trả lại cơ sở dữ liệu nguyên như cũ. Mặc định tắt để thống kê của bạn vẫn còn sau khi cài đặt lại."
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "Lợi ích: siêu dữ liệu bài viết, tác giả, ngày tháng và trang web mà máy đọc được – cách rẻ nhất để giúp hệ thống AI hiểu và ghi nguồn nội dung của bạn chính xác."
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "Lợi ích: đo lường thành quả thực tế của GEO – những người nhấp từ ChatGPT, Perplexity và các AI khác để đến trang của bạn."
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "Lợi ích: mỗi dòng một URL hồ sơ (LinkedIn, GitHub, YouTube, Wikipedia …). Hệ thống AI dùng các liên kết này để nhận diện bạn là một thực thể nhất quán, đáng tin cậy trên khắp web (E-E-A-T)."
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "Lợi ích: công cụ tìm kiếm dùng giá trị lastmod đáng tin cậy để thu thập lại các trang đã thay đổi nhanh hơn – nội dung cập nhật đến với câu trả lời AI sớm hơn. Lõi WordPress bỏ qua trường này."
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "Lợi ích: xem AI nào (ChatGPT, Claude, Perplexity …) đọc trang nào – nền tảng của mọi thống kê."
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "Lợi ích: bảng thống kê gán mỗi lượt truy cập AI với từ khóa này, nhờ đó bạn thấy AI nào đọc nội dung của bạn cho chủ đề nào. Nếu để trống, tiêu đề bài viết sẽ được dùng."
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "Lợi ích: user agent có thể bị giả mạo. Tính năng này phân biệt bot AI thật với bot giả mạo, để thống kê của bạn thể hiện mức quan tâm của AI có thể chứng minh được."
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "Lợi ích: số liệu AI tự đến với bạn – tổng số kèm xu hướng, bot hàng đầu, khách truy cập từ AI, trang được đọc nhiều nhất và mọi thứ cần chú ý, mỗi tuần một lần."
+
+msgid "Block all training bots"
+msgstr "Chặn tất cả bot huấn luyện"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "Lượt truy cập của bot trong 7 ngày qua theo ngày trong tuần và giờ, theo múi giờ của trang web. Xuất bản trước giờ cao điểm giúp nội dung mới được đọc sớm hơn."
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "Lượt truy cập của bot được đối chiếu với dải IP chính thức của OpenAI, Anthropic, Perplexity, Google và Microsoft – bot giả mạo được đánh dấu trong thống kê của bạn."
+
+msgid "Bot identity"
+msgstr "Danh tính bot"
+
+msgid "Bot identity verification"
+msgstr "Xác minh danh tính bot"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "Bot được nhận diện qua chữ ký user-agent chính thức. Mỗi lượt truy cập chỉ lưu: tên bot, danh mục, trang và thời gian – không gì khác. Không địa chỉ IP, không cookie, không dữ liệu cá nhân, hoàn toàn thân thiện với GDPR."
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "Xây dựng chỉ mục mà các công cụ tìm kiếm AI dùng để trích dẫn. Chặn sẽ loại bạn khỏi các câu trả lời AI có trích dẫn – thường là một ý tưởng tồi."
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "Kiểm tra bảng trạng thái GEO trên trang thống kê – khắc phục mọi mục chưa xanh. Việc này loại bỏ các rào cản kỹ thuật."
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "Đã chọn = bị chặn qua robots.txt. Google-Extended và Applebot-Extended là token từ chối thuần túy: chặn chúng sẽ loại bạn khỏi việc huấn luyện AI của Google/Apple mà không ảnh hưởng đến tìm kiếm thông thường."
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "Cho phép các bot AI liên quan đến trích dẫn"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "Trích dẫn nguồn thể hiện độ tin cậy – một yếu tố xếp hạng cốt lõi của hệ thống truy xuất AI."
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "SEO truyền thống không trở nên vô giá trị – Google vẫn là nguồn khách truy cập lớn nhất với hầu hết trang web. GEO là phần bổ sung: chính nội dung rõ ràng, có cấu trúc tốt mà hệ thống AI ưa thích cũng thường xếp hạng tốt hơn trong tìm kiếm truyền thống. Bạn không mất gì khi tối ưu cho cả hai."
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "Thu thập dữ liệu tìm kiếm truyền thống đồng thời cung cấp cho trợ lý AI (Bing cung cấp cho Copilot và một phần tìm kiếm ChatGPT). Chặn cũng sẽ loại bạn khỏi công cụ tìm kiếm đó."
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "Thu thập nội dung để huấn luyện mô hình. Chặn không làm bạn mất gì trong tìm kiếm AI – đây thuần túy là quyết định về quyền nội dung."
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "Liên kết lượt truy cập AI với một chủ đề trong thống kê và giúp bài viết tập trung vào một câu hỏi rõ ràng."
+
+msgid "Contains a list or table"
+msgstr "Có danh sách hoặc bảng"
+
+msgid "Contains concrete numbers or data"
+msgstr "Có số liệu hoặc dữ liệu cụ thể"
+
+msgid "Content & freshness signals"
+msgstr "Tín hiệu nội dung & độ mới"
+
+msgid "Contents"
+msgstr "Nội dung"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "Kiểm soát ai được đọc nội dung của bạn: cho phép các bot trích dẫn bạn, chặn những bot chỉ lấy đi – kèm cảnh báo rõ ràng trước khi bạn chặn thứ gì đó làm giảm khả năng hiển thị."
+
+msgid "Could not load statistics."
+msgstr "Không thể tải thống kê."
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "Đếm khách truy cập từ AI phía sau bộ nhớ đệm toàn trang (beacon)"
+
+msgid "Data"
+msgstr "Dữ liệu"
+
+msgid "Date range"
+msgstr "Khoảng thời gian"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "Xóa toàn bộ dữ liệu plugin khi gỡ cài đặt"
+
+msgid "Details in the dashboard:"
+msgstr "Chi tiết trong bảng điều khiển:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "Được phát hiện qua tên miền giới thiệu (referrer) và utm_source (ChatGPT thêm utm_source=chatgpt.com vào các liên kết được trích dẫn, tham số này vẫn còn ngay cả khi referrer bị loại bỏ). Lưu ý: nhiều lượt truy cập từ AI không có referrer, nên con số thực tế cao hơn những gì bất kỳ công cụ nào có thể hiển thị."
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "Trả lời trực tiếp ở đoạn đầu tiên (20–120 từ)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "Đã tắt. Nó không tốn gì và giúp agent AI hiểu cấu trúc trang web của bạn."
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "Đã tắt. Dữ liệu có cấu trúc là cách rẻ nhất để nội dung của bạn trở nên máy đọc được."
+
+msgid "Dismiss"
+msgstr "Bỏ qua"
+
+msgid "Email me on citation alerts"
+msgstr "Gửi email cho tôi khi có cảnh báo trích dẫn"
+
+msgid "Empty = the site admin email address."
+msgstr "Để trống = địa chỉ email quản trị của trang web."
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "Mọi lượt truy cập của bot AI, được phân loại theo ý nghĩa đối với bạn (agent, truy xuất, huấn luyện)."
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "Mỗi chấm là một trang được AI đọc trong 30 ngày qua: bên phải = được đọc nhiều, phía dưới = điểm GEO thấp. Các chấm ở góc dưới bên phải là cơ hội lớn nhất của bạn – nhấp vào một chấm để chỉnh sửa trang."
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "Mọi bài viết và trang đã xuất bản được đối chiếu với 13 tiêu chí kiểm tra GEO – được sắp xếp để các cơ hội trích dẫn lớn nhất hiện lên đầu, bên cạnh mức quan tâm của AI mà mỗi trang đã nhận được."
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "Mọi thứ đều miễn phí, chạy trên máy chủ của bạn và không lưu dữ liệu cá nhân. Dịch vụ bên ngoài chỉ được liên hệ bởi các tính năng tùy chọn có ghi rõ điều đó. Mỗi tùy chọn đều cho bạn biết lợi ích mà nó mang lại."
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "Ví dụ: /bai-viet-cua-toi/ trở thành /bai-viet-cua-toi.md. Yêu cầu đường dẫn tĩnh đẹp. Markdown được tạo tức thời từ nội dung của bạn và được đánh dấu noindex để không bao giờ cạnh tranh với trang HTML trong tìm kiếm."
+
+msgid "Export CSV"
+msgstr "Xuất CSV"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "Nổi bật trong llms.txt (nội dung chính)"
+
+msgid "Feeds"
+msgstr "Feed"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "Tải trang của bạn theo thời gian thực vì một người thật vừa hỏi AI về nó. Đây là lưu lượng có ý định cao nhất – chặn đồng nghĩa với việc từ chối những người đọc này."
+
+msgid "Filter by AI"
+msgstr "Lọc theo AI"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "Những khách truy cập thật đầu tiên từ %s! Nội dung của bạn đang được trích dẫn ở đó."
+
+msgid "Flows: which AI reads which page"
+msgstr "Luồng: AI nào đọc trang nào"
+
+msgid "Focus term"
+msgstr "Từ khóa chính"
+
+msgid "Focus term appears in the title"
+msgstr "Từ khóa chính xuất hiện trong tiêu đề"
+
+msgid "Focus term set"
+msgstr "Đã đặt từ khóa chính"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "Với hầu hết trang web, khách truy cập từ câu trả lời AI hiện chỉ bằng vài phần trăm so với lượng Google mang lại – nhưng tỷ lệ này tăng mạnh mỗi quý. Mục đích của việc bắt đầu ngay là trở thành nguồn uy tín trước đối thủ của bạn."
+
+msgid "GEO Audit"
+msgstr "Kiểm định GEO"
+
+msgid "GEO Settings"
+msgstr "Cài đặt GEO"
+
+msgid "GEO check (AI visibility)"
+msgstr "Kiểm tra GEO (khả năng hiển thị trên AI)"
+
+msgid "GEO score"
+msgstr "Điểm GEO"
+
+msgid "GEO status of your site"
+msgstr "Trạng thái GEO của trang web"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "AI quan tâm nhiều, điểm thấp – hãy sửa những trang này trước."
+
+msgid "Home"
+msgstr "Trang chủ"
+
+msgid "Hour"
+msgstr "Giờ"
+
+msgid "How does an AI even reach my website?"
+msgstr "Làm thế nào AI tìm đến trang web của tôi?"
+
+msgid "How it works"
+msgstr "Cách hoạt động"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "Cách hoạt động – GEO giải thích dễ hiểu"
+
+msgid "Human visitors from AI answers"
+msgstr "Khách truy cập thật từ câu trả lời AI"
+
+msgid "I already did"
+msgstr "Tôi đã đánh giá rồi"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "Xác minh danh tính đang tắt. User agent có thể bị giả mạo – hãy bật xác minh trong cài đặt để phân biệt bot AI thật với bot giả mạo."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "Nếu plugin giúp ích cho bạn, bạn có thể để lại một đánh giá ngắn trên WordPress.org không? Chỉ mất một phút và giúp những chủ trang web khác tìm thấy nó. Cảm ơn bạn!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "Quan trọng: khi đứng sau CDN, IP kết nối trực tiếp là của proxy – mọi bot thật sẽ bị đánh dấu là giả mạo. Hãy chọn cấu hình của bạn để dùng IP gốc của khách truy cập. Chỉ bật header mà proxy của bạn thực sự thiết lập, vì nếu không các header này có thể bị giả mạo."
+
+msgid "Include latest posts"
+msgstr "Bao gồm bài viết mới nhất"
+
+msgid "Include pages"
+msgstr "Bao gồm các trang"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "IndexNow là một giao thức mở được Bing, Seznam, Naver và các công cụ khác hỗ trợ. Mỗi lần xuất bản, cập nhật hoặc hủy xuất bản, plugin sẽ gửi URL công khai cùng khóa trang web của bạn đến API IndexNow – không gửi gì khác. Một tệp khóa được tự động cung cấp từ trang web của bạn để xác minh. Nếu một plugin khác đã gửi đến IndexNow (ví dụ Rank Math hoặc plugin Bing chính thức), hãy để tắt để tránh ping trùng lặp."
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: ping lập chỉ mục tức thì"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "Lập chỉ mục tức thì (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "Liên kết nội bộ là con đường mà trình thu thập và hệ thống truy xuất đi theo để khám phá nội dung liên quan của bạn – các trang mồ côi ít được đọc hơn."
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "Tác động vô hình: lớn hơn số lượt nhấp."
+
+msgid "It measures"
+msgstr "Đo lường"
+
+msgid "It optimizes"
+msgstr "Tối ưu"
+
+msgid "Job title / role"
+msgstr "Chức danh / vai trò"
+
+msgid "Keep statistics for"
+msgstr "Giữ thống kê trong"
+
+msgid "Key content"
+msgstr "Nội dung chính"
+
+msgid "Last seen"
+msgstr "Thấy lần cuối"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "Gửi lần cuối: %1$s lúc %2$s."
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "Trái: bot AI, phải: các trang của bạn. Độ rộng dải = lượt truy cập. Di chuột lên một dải để xem số chính xác."
+
+msgid "Links to at least one external source"
+msgstr "Liên kết đến ít nhất một nguồn bên ngoài"
+
+msgid "Links to at least one other page on your site"
+msgstr "Liên kết đến ít nhất một trang khác trên trang web của bạn"
+
+msgid "Log AI bot accesses"
+msgstr "Ghi lại lượt truy cập của bot AI"
+
+msgid "Log human visitors from AI answers"
+msgstr "Ghi lại khách truy cập thật từ câu trả lời AI"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "Siêu dữ liệu máy đọc được giúp hệ thống AI hiểu và ghi nguồn nội dung của bạn."
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "Phiên bản máy đọc được của nội dung (llms.txt, trang Markdown, dữ liệu có cấu trúc) – để hệ thống AI hiểu trang web của bạn dễ dàng nhất có thể."
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "Việc biến trang web của bạn thành nguồn mà hệ thống AI tìm thấy, hiểu và trích dẫn được gọi là GEO (Generative Engine Optimization). Ý tưởng giống SEO, chỉ là dành cho câu trả lời AI thay vì các liên kết xanh – và vì còn rất ít trang web làm điều này, những người đi trước được hiển thị vượt trội."
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "Quản lý quy tắc trình thu thập AI trong robots.txt"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "Nhiều người đọc câu trả lời AI trích dẫn bạn mà không bao giờ nhấp – nhưng họ đã thấy tên bạn là nguồn. Đó là khả năng nhận diện thương hiệu mà không thống kê nào đo hết được; bản thân việc được trích dẫn đã là chiến thắng."
+
+msgid "Mark all as read"
+msgstr "Đánh dấu tất cả là đã đọc"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "Phiên bản Markdown của mọi trang (URL .md)"
+
+msgid "Max. entries per section"
+msgstr "Số mục tối đa mỗi phần"
+
+msgid "Maybe later"
+msgstr "Để sau"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "Trong lúc chờ: khắc phục mọi mục chưa xanh trong bảng trạng thái bên dưới, và đặt từ khóa chính cho các trang quan trọng nhất."
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "Ngày càng nhiều người không còn gõ câu hỏi vào Google – họ hỏi ChatGPT, Perplexity, Copilot hoặc Claude. AI đọc một vài trang web, viết một câu trả lời và nêu nguồn. Nếu trang web của bạn là một trong những nguồn đó, bạn được nhắc đến và liên kết. Nếu không, bạn vô hình trong cuộc trò chuyện đó – ngay cả khi bạn xếp hạng tốt trên Google truyền thống."
+
+msgid "Most active AI bots"
+msgstr "Bot AI hoạt động nhiều nhất"
+
+msgid "Name (defaults to site title)"
+msgstr "Tên (mặc định là tiêu đề trang web)"
+
+msgid "Needs attention"
+msgstr "Cần chú ý"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Nội dung mới và được cập nhật được gửi đến Bing và các công cụ khác trong vài phút. Bing cung cấp cho Copilot và một phần tìm kiếm ChatGPT – lập chỉ mục nhanh hơn nghĩa là được AI trích dẫn sớm hơn."
+
+msgid "New here? How it all works, in plain language."
+msgstr "Mới bắt đầu? Mọi thứ hoạt động thế nào, giải thích dễ hiểu."
+
+msgid "Next"
+msgstr "Tiếp"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "Chưa có lượt truy cập AI nào vào các trang đã chấm điểm trong 30 ngày qua – bản đồ sẽ đầy dần khi hệ thống AI đọc nội dung của bạn."
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "Chưa tải dải IP nào – lần tải đầu tiên sẽ chạy trong vòng một giờ tới (hoặc khi cron hằng ngày chạy)."
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "Chưa gửi URL nào – lần xuất bản hoặc cập nhật tiếp theo sẽ kích hoạt lần ping đầu tiên."
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "Chưa có lượt truy cập bot nào trong 7 ngày qua."
+
+msgid "No data for this AI in the selected range."
+msgstr "Không có dữ liệu cho AI này trong khoảng thời gian đã chọn."
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "Chưa có dữ liệu. Lượt truy cập của AI sẽ xuất hiện ở đây ngay khi một bot AI đã biết hoặc một khách truy cập được AI giới thiệu đến trang web của bạn."
+
+msgid "No duplicate SEO output"
+msgstr "Không xuất SEO trùng lặp"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "Không thuật ngữ, không thổi phồng: điều gì đang diễn ra, plugin này làm gì với điều đó, và bạn có thể kỳ vọng kết quả thực tế nào."
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "Không có plugin SEO nào khác đang hoạt động – Wille GEO tự cung cấp schema và thẻ meta."
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "Không có đoạn văn quá dài (tối đa 150 từ mỗi đoạn)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "Không tìm thấy tệp robots.txt thực – các quy tắc trình thu thập AI được cấu hình trong Wille GEO đang có hiệu lực."
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "Không tìm thấy tệp robots.txt thực. Chưa có quy tắc chặn trình thu thập AI nào được cấu hình trong Wille GEO, nên robots.txt mặc định của WordPress được cung cấp nguyên vẹn."
+
+msgid "No published content to audit yet."
+msgstr "Chưa có nội dung đã xuất bản nào để kiểm định."
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "Không tìm thấy sơ đồ trang. WordPress có sẵn sơ đồ trang theo mặc định – có thể một plugin hoặc cài đặt đã tắt nó."
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "Không công cụ nào có thể ép AI trích dẫn bạn. Hệ thống AI trích dẫn các trang trả lời một câu hỏi thực một cách rõ ràng, cụ thể và đáng tin. Plugin này giúp điều đó đo lường được và dễ dàng hơn một cách có hệ thống – loại bỏ mọi trở ngại kỹ thuật và cho bạn thấy điều gì hiệu quả. Phần nội dung thực chất vẫn phải đến từ bạn."
+
+msgid "No – use the direct connection IP"
+msgstr "Không – dùng IP kết nối trực tiếp"
+
+msgid "Not allowed."
+msgstr "Không được phép."
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "Đã tắt. User agent có thể bị giả mạo; bật xác minh sẽ phân biệt bot AI thật với bot giả mạo (tải danh sách IP công khai mỗi ngày một lần)."
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "Đã tắt. Nếu không có nó, các chỉ mục tìm kiếm liên quan đến AI chỉ biết về nội dung mới khi thu thập lại trang của bạn – bật IndexNow sẽ rút ngắn việc này xuống còn vài phút."
+
+msgid "Official profiles (sameAs)"
+msgstr "Hồ sơ chính thức (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "Khi cần, có bằng chứng: bot giả mạo dùng tên nổi tiếng bị lật tẩy qua danh sách IP chính thức của các công ty AI."
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "Mỗi ngày một lần, plugin tải về danh sách IP công khai mà OpenAI, Anthropic, Perplexity, Google và Microsoft công bố cho trình thu thập của họ, rồi đánh dấu mỗi lượt truy cập đã ghi là đã xác minh, thất bại (danh tính khai báo nhưng từ IP khác) hoặc chưa kiểm tra. IP của khách truy cập chỉ được so sánh trong bộ nhớ và không bao giờ được lưu. Vì có gửi yêu cầu ra bên ngoài nên tính năng này là tùy chọn."
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "Mỗi dòng một URL (LinkedIn, GitHub, X, trang web cá nhân …). Giúp hệ thống AI xác minh tác giả này là một người thật, nhất quán – một tín hiệu E-E-A-T cốt lõi."
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "Một hoặc hai câu: bạn là ai và trang web của bạn nói về điều gì."
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "Mở bất kỳ bài viết nào trong trình soạn thảo – bảng “Kiểm tra GEO” ở thanh bên sẽ hướng dẫn bạn từng bước này khi viết."
+
+msgid "Open improvements"
+msgstr "Cải thiện còn lại"
+
+msgid "Open the full dashboard"
+msgstr "Mở bảng điều khiển đầy đủ"
+
+msgid "Open the settings"
+msgstr "Mở cài đặt"
+
+msgid "Open the statistics dashboard"
+msgstr "Mở bảng thống kê"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "Mở năm trang quan trọng nhất của bạn và đặt từ khóa chính cho từng trang: câu hỏi hoặc chủ đề mà trang này phải là câu trả lời TỐT NHẤT."
+
+msgid "Opportunity map"
+msgstr "Bản đồ cơ hội"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "Xuất mô tả meta & bản xem trước mạng xã hội (Open Graph)"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "Xuất dữ liệu có cấu trúc schema.org (JSON-LD)"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "Xuất WebSite, Organization/Person, Article (kèm ngày và tác giả) và breadcrumb. Hệ thống truy xuất AI dùng các tín hiệu này để đánh giá độ mới và độ tin cậy."
+
+msgid "Page"
+msgstr "Trang"
+
+msgid "Pages"
+msgstr "Trang"
+
+msgid "Pages AI read most"
+msgstr "Trang được AI đọc nhiều nhất"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "Mọi người đặt câu hỏi cho trợ lý AI. Tiêu đề phản ánh những câu hỏi đó sẽ gắn nội dung của bạn trực tiếp với các prompt thực tế – và cung cấp dữ liệu cho schema FAQ tự động."
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "Ghim những trang tốt nhất làm nội dung chính, để llms.txt dẫn agent AI thẳng đến chúng."
+
+msgid "Ping IndexNow on publish and update"
+msgstr "Ping IndexNow khi xuất bản và cập nhật"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "Nội dung được ghim xuất hiện đầu tiên trong llms.txt và llms-full.txt – những trang bạn muốn hệ thống AI đọc nhất."
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "Đường dẫn tĩnh dạng thường đang được dùng (Cài đặt → Đường dẫn tĩnh). Không thể cung cấp endpoint Markdown và tệp khóa IndexNow, trong khi URL dễ đọc giúp ích cho mọi trình thu thập."
+
+msgid "Post"
+msgstr "Bài viết"
+
+msgid "Post not found."
+msgstr "Không tìm thấy bài viết."
+
+msgid "Posts"
+msgstr "Bài viết"
+
+msgid "Pretty permalinks enabled"
+msgstr "Đường dẫn tĩnh đẹp đã bật"
+
+msgid "Previous"
+msgstr "Trước"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "Quyền riêng tư: plugin này không lưu địa chỉ IP, không đặt cookie và mặc định không gửi yêu cầu ra bên ngoài. Ngoại lệ duy nhất là hai tính năng tùy chọn do bạn kiểm soát: xác minh bot (tải danh sách IP công khai của trình thu thập mỗi ngày một lần) và IndexNow (gửi các URL đã xuất bản đến API IndexNow). Mọi thống kê đều nằm trong cơ sở dữ liệu WordPress của bạn."
+
+msgid "Profile URLs (sameAs)"
+msgstr "URL hồ sơ (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "Chất lượng: cao bất thường."
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "Đánh giá Wille GEO trên WordPress.org (mở trong tab mới)"
+
+msgid "Rate ★★★★★"
+msgstr "Đánh giá ★★★★★"
+
+msgid "Re-scan"
+msgstr "Quét lại"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "URL dễ đọc đang hoạt động – endpoint .md và tệp khóa IndexNow hoạt động bình thường."
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "Người thật đến từ câu trả lời AI – thành quả thực tế, theo từng AI và từng trang."
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "Những người thật đã nhấp vào liên kết của bạn trong ChatGPT, Perplexity và các AI khác. Đây chính là thành quả của GEO."
+
+msgid "Recipient"
+msgstr "Người nhận"
+
+msgid "Reload page"
+msgstr "Tải lại trang"
+
+msgid "Retrieval"
+msgstr "Truy xuất"
+
+msgid "Retrieval (citation index)"
+msgstr "Truy xuất (chỉ mục trích dẫn)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "Bot truy xuất và bot agent có thể đọc các trang của bạn – bạn có thể xuất hiện trong câu trả lời AI."
+
+msgid "Retrieval bots"
+msgstr "Bot truy xuất"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "Bot truy xuất cần tìm và đọc lại các trang đã cải thiện của bạn trước. Hãy kỳ vọng những hiệu quả đo được đầu tiên sau vài tuần và một đánh giá công bằng sau ba đến sáu tháng – bảng điều khiển cho bạn thấy xu hướng trong suốt quá trình."
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "Bot truy xuất dùng sơ đồ trang để nhanh chóng phát hiện nội dung mới."
+
+msgid "Review Wille GEO"
+msgstr "Đánh giá Wille GEO"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "Các quy tắc được thêm vào robots.txt do WordPress tạo ra. Một tệp robots.txt thực trong thư mục gốc web sẽ ghi đè chúng – bảng trạng thái trên trang thống kê sẽ cảnh báo nếu có tệp như vậy. Lưu ý rằng robots.txt mang tính tự nguyện; các bot nổi tiếng đều tuân thủ."
+
+msgid "Running GEO checks …"
+msgstr "Đang chạy kiểm tra GEO …"
+
+msgid "Save settings"
+msgstr "Lưu cài đặt"
+
+msgid "Score distribution"
+msgstr "Phân bố điểm"
+
+msgid "Search"
+msgstr "Tìm kiếm"
+
+msgid "Search (feeds AI answers)"
+msgstr "Tìm kiếm (cung cấp cho câu trả lời AI)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "Công cụ tìm kiếm và trình thu thập AI có thể lập chỉ mục trang web."
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "Xem AI nào (ChatGPT, Claude, Perplexity…) đọc những trang nào của bạn – và tối ưu trang web cho tìm kiếm bằng AI (GEO). Miễn phí, không thu thập dữ liệu cá nhân."
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "Gửi báo cáo khả năng hiển thị trên AI hằng tuần qua email"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "Được gửi bởi plugin Wille GEO. Bạn có thể tắt báo cáo này bất cứ lúc nào tại Wille GEO → Cài đặt."
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "Được gửi qua hệ thống email WordPress thông thường của bạn, chỉ khi tuần đó thực sự có hoạt động AI – các trang web ít hoạt động sẽ không bị spam. Bạn cũng có thể kích hoạt thủ công bằng lệnh WP-CLI \"wp geoins report\"."
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "Cung cấp /llms-full.txt với toàn bộ nội dung"
+
+msgid "Serve a generated /llms.txt"
+msgstr "Cung cấp tệp /llms.txt được tạo tự động"
+
+msgid "Served at %s."
+msgstr "Được cung cấp tại %s."
+
+msgid "Settings"
+msgstr "Cài đặt"
+
+msgid "Short site description (optional)"
+msgstr "Mô tả ngắn về trang web (tùy chọn)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "Đoạn văn ngắn, độc lập là đơn vị mà hệ thống AI đưa vào câu trả lời. Các khối dài sẽ bị bỏ qua."
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "Hiển thị ngày \"Cập nhật vào\" trên các bài viết đã sửa đổi"
+
+msgid "Show all AIs"
+msgstr "Hiển thị tất cả AI"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "Hiển thị phía trên nội dung, chỉ khi bài viết được sửa đổi đáng kể (hơn hai ngày sau khi xuất bản). Giá trị dateModified máy đọc được luôn có trong dữ liệu có cấu trúc của bạn, bất kể công tắc này."
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "Hiển thị cho hệ thống AI dưới dạng chuyên môn máy đọc được (schema.org jobTitle), ví dụ: \"Senior WordPress Developer\"."
+
+msgid "Site represents"
+msgstr "Trang web đại diện cho"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "Trang web chạy sau proxy/CDN?"
+
+msgid "Site visible to crawlers"
+msgstr "Trang web hiển thị với trình thu thập"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "Người nhấp từ câu trả lời AI đã đọc phần tóm tắt và muốn tìm hiểu sâu hơn – các nghiên cứu và dữ liệu cửa hàng liên tục cho thấy những khách này chuyển đổi tốt hơn rõ rệt so với lưu lượng tìm kiếm trung bình. Ít khách hơn, nhưng chất lượng hơn."
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "Xin lỗi, bạn không được phép làm điều đó."
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "Tốc độ: nội dung mới và được cập nhật được thông báo đến công cụ tìm kiếm trong vài phút (IndexNow) – được lập chỉ mục càng sớm, AI càng sớm trích dẫn."
+
+msgid "Statistics"
+msgstr "Thống kê"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "Thống kê và số liệu cụ thể làm tăng rõ rệt khả năng được trích dẫn – câu trả lời AI ưa chuộng những con số có thể kiểm chứng."
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "Các khối có cấu trúc (danh sách, bảng) được AI trích xuất và trích dẫn thường xuyên hơn nhiều so với những đoạn văn dài đặc chữ."
+
+msgid "Structured data & meta tags"
+msgstr "Dữ liệu có cấu trúc & thẻ meta"
+
+msgid "Structured data (schema.org)"
+msgstr "Dữ liệu có cấu trúc (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "Được, viết đánh giá"
+
+msgid "Table of contents"
+msgstr "Mục lục"
+
+msgid "Term"
+msgstr "Từ khóa"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "Từ khóa & trang: AI nào đọc gì?"
+
+msgid "The audit table needs JavaScript."
+msgstr "Bảng kiểm định cần JavaScript."
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "Beacon chỉ chạy với khách chưa đăng nhập, chỉ kiểm tra xem lượt truy cập có đến từ một AI đã biết hay không (tên miền giới thiệu hoặc utm_source), và chỉ khi đó mới báo nguồn và đường dẫn trang về chính trang web của bạn. Không cookie, không IP, không fingerprinting, không dịch vụ bên ngoài. Việc đếm trùng với bộ theo dõi phía máy chủ được tự động ngăn chặn. Hãy để tắt nếu trang web của bạn không dùng bộ nhớ đệm toàn trang – bộ theo dõi PHP đã thấy mọi thứ."
+
+msgid "The honest limit: content decides."
+msgstr "Giới hạn thực tế: nội dung quyết định."
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "Tệp robots.txt thực đang chặn %s. Những bot này đưa bạn vào câu trả lời AI – hãy chỉnh sửa tệp để bỏ chặn (các quy tắc cấu hình ở đây không có hiệu lực khi tệp còn tồn tại)."
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "Tệp robots.txt thực chặn TẤT CẢ trình thu thập (User-agent: * / Disallow: /). Không công cụ tìm kiếm hay hệ thống AI nào có thể đọc trang web của bạn – hãy chỉnh sửa tệp."
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "Tệp robots.txt thực mặc định chặn tất cả trình thu thập (User-agent: * / Disallow: /); chỉ những trình thu thập có quy tắc ngoại lệ riêng trong tệp mới đọc được trang web của bạn. Mọi hệ thống AI không có ngoại lệ đều bị chặn – hãy chỉnh sửa tệp."
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "Bảng thống kê gán mỗi lượt truy cập AI với từ khóa này. Để trống = tiêu đề bài viết."
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "Bảng thống kê cần JavaScript. Hãy dùng xuất CSV hoặc WP-CLI (wp geoins stats) thay thế."
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "Sau đó cứ để nó chạy. Xem bảng điều khiển hằng tuần (hoặc bật báo cáo email) và đầu tư vào nơi AI đã thể hiện sự quan tâm – đó là nơi trích dẫn gần nhất."
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "Những user agent này có vẻ là hệ thống AI nhưng chưa có trong danh sách đăng ký – nên lượt truy cập của chúng KHÔNG nằm trong thống kê phía trên. Những mục xuất hiện thường xuyên nên được thêm qua bộ lọc geoins_bots (hoặc báo cho plugin)."
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "Plugin này nhận diện các bot này ở mỗi lượt truy cập và hiển thị trong bảng điều khiển: AI nào đọc trang nào của bạn, bao nhiêu lần và cho chủ đề nào. Và khi một người nhấp vào liên kết đến trang của bạn trong câu trả lời AI, lượt truy cập đó cũng được tính – đó là lúc khả năng hiển thị trên AI trở thành một khách hàng tiềm năng."
+
+msgid "Timeline: weeks to months, not days."
+msgstr "Thời gian: vài tuần đến vài tháng, không phải vài ngày."
+
+msgid "Title"
+msgstr "Tiêu đề"
+
+msgid "Tracking"
+msgstr "Theo dõi"
+
+msgid "Training"
+msgstr "Huấn luyện"
+
+msgid "Training bots"
+msgstr "Bot huấn luyện"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "Hai việc: đo lường và tối ưu. Mọi thứ chạy trên máy chủ của chính bạn, không gửi gì đi đâu, và mỗi công tắc trong cài đặt đều giải thích lợi ích trước khi bạn bật nó."
+
+msgid "Updated"
+msgstr "Đã cập nhật"
+
+msgid "Updated on %s"
+msgstr "Cập nhật vào %s"
+
+msgid "Updated within the last 12 months"
+msgstr "Đã cập nhật trong 12 tháng qua"
+
+msgid "User agent"
+msgstr "User agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "Xác minh danh tính bot theo dải IP chính thức"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "Những trang quá sơ sài hiếm khi có đủ nội dung để AI dựa vào trả lời."
+
+msgid "View your key file"
+msgstr "Xem tệp khóa của bạn"
+
+msgid "View your llms-full.txt"
+msgstr "Xem llms-full.txt của bạn"
+
+msgid "View your llms.txt"
+msgstr "Xem llms.txt của bạn"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "Chuyên môn rõ ràng (một tác giả thật có tiểu sử) củng cố các tín hiệu E-E-A-T mà hệ thống AI dùng để chọn nguồn đáng tin cậy."
+
+msgid "Volume: still small, growing fast."
+msgstr "Lưu lượng: vẫn còn nhỏ, tăng nhanh."
+
+msgid "Waiting for the first AI visit"
+msgstr "Đang chờ lượt truy cập AI đầu tiên"
+
+msgid "Weekly email report"
+msgstr "Báo cáo email hằng tuần"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "Tôi có thể kỳ vọng gì một cách thực tế? Câu trả lời trung thực"
+
+msgid "What does the plugin actually do for me?"
+msgstr "Plugin thực sự làm gì cho tôi?"
+
+msgid "What happened"
+msgstr "Điều gì đã xảy ra"
+
+msgid "What is happening right now?"
+msgstr "Điều gì đang diễn ra?"
+
+msgid "When do AIs read your site?"
+msgstr "Khi nào AI đọc trang web của bạn?"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "Bắt đầu từ đâu? Năm bước, 30 phút"
+
+msgid "Which AI bots?"
+msgstr "Những bot AI nào?"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "AI nào đã đọc các trang của bạn, và câu trả lời AI nào đã mang lại khách truy cập thật cho bạn."
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "AI nào đọc trang nào của bạn, cho từ khóa nào – và câu trả lời AI nào thực sự mang lại khách truy cập là người thật cho bạn."
+
+msgid "Why does this matter?"
+msgstr "Vì sao điều này quan trọng?"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Wille GEO đang hoạt động."
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Wille GEO được phát triển bởi %1$s. Plugin có giúp ích cho bạn không? Một đánh giá %2$s trên WordPress.org giúp người khác tìm thấy nó – cảm ơn bạn!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "Wille GEO trên %s ghi nhận:"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: tín hiệu tác giả (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "Thực hiện danh sách kiểm tra GEO trên các trang đó – đặc biệt: trả lời câu hỏi cốt lõi trực tiếp trong đoạn đầu tiên, và biến các tiêu đề thành câu hỏi thực sự."
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "Hoạt động với bài viết và trang có ít nhất hai tiêu đề dạng câu hỏi (H2/H3 kết thúc bằng dấu hỏi). Không cần làm thêm gì – hãy viết câu hỏi làm tiêu đề và schema sẽ tự có."
+
+msgid "XML sitemap available"
+msgstr "Sơ đồ trang XML khả dụng"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "Có, Cloudflare (CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "Có, proxy khác (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "Bạn đang chặn %s. Những bot này đưa bạn vào câu trả lời AI – chặn chúng sẽ loại bạn khỏi các trích dẫn."
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "Bạn nhận được email này vì cảnh báo trích dẫn qua email đang được bật tại Wille GEO → Cài đặt."
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "Không thể truy cập tệp khóa IndexNow từ chính máy chủ của bạn, nên việc ping đã tạm dừng. Nguyên nhân thường gặp: đường dẫn tĩnh dạng thường (sửa tại Cài đặt → Đường dẫn tĩnh) hoặc plugin bảo mật chặn yêu cầu loopback. Sau khi khắc phục, hãy lưu lại các cài đặt này – việc kiểm tra sẽ chạy lại ngay sau khi lưu."
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "Phiên kiểm tra của bạn đã hết hạn – hãy tải lại trang để tiếp tục."
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] Khả năng hiển thị trên AI tuần này: %2$d lượt truy cập AI, %3$d khách truy cập từ AI"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] Tín hiệu mới về khả năng hiển thị trên AI"
+
+msgid "a person"
+msgstr "một cá nhân"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "một người thật vừa đặt câu hỏi cho AI, và AI đang đọc trang của bạn ngay lúc này để trả lời. Đây là tín hiệu giá trị nhất: có người đang quan tâm đến chủ đề của bạn ngay lúc này."
+
+msgid "accesses"
+msgstr "lượt truy cập"
+
+msgid "an organization"
+msgstr "một tổ chức"
+
+msgid "blocking costs citations"
+msgstr "chặn sẽ mất trích dẫn"
+
+msgid "blocking is safe for citations"
+msgstr "chặn không ảnh hưởng trích dẫn"
+
+msgid "by %s"
+msgstr "bởi %s"
+
+msgid "days"
+msgstr "ngày"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "ví dụ: plugin sao lưu WordPress"
+
+msgid "forever"
+msgstr "mãi mãi"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "giả mạo"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "llms.txt khả dụng"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "llms.txt là một tiêu chuẩn mới: bản tổng quan Markdown về nội dung quan trọng nhất của bạn tại /llms.txt. Nó được tạo tự động từ các trang và bài viết của bạn và được lưu bộ nhớ đệm trong 12 giờ."
+
+msgid "more"
+msgstr "thêm"
+
+msgid "new"
+msgstr "mới"
+
+msgid "pages"
+msgstr "trang"
+
+msgid "passed"
+msgstr "đạt"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "chúng xây dựng thư viện mà AI sẽ trích dẫn sau này. Có mặt trong thư viện đó quyết định việc bạn có thể được trích dẫn hay không."
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "chúng thu thập văn bản để huấn luyện các mô hình AI tương lai. Chúng không mang lại khách truy cập cũng như trích dẫn. Có cho phép chúng hay không thuần túy là quyết định về quyền nội dung – chặn chúng không làm bạn mất gì."
+
+msgid "unchecked"
+msgstr "chưa kiểm tra"
+
+msgid "verified"
+msgstr "đã xác minh"
+
+msgid "visitors"
+msgstr "khách truy cập"
+
+msgid "vs. previous period"
+msgstr "so với kỳ trước"

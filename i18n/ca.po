@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "L'opció «Demana als motors de cerca que no indexin aquest lloc» està activada (Configuració → Lectura). Cap sistema d'IA us podrà trobar fins que la desactiveu."
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%1$d rangs d'IP de %2$d proveïdors, última actualització: %3$s."
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "%s (rastrejador d'entrenament) ha visitat el vostre lloc web per primera vegada."
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "%s ha rastrejat el vostre lloc web per primera vegada: una IA rellevant per a les citacions ara us està llegint."
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "S'ha detectat %s: Wille GEO li deixa automàticament l'esquema i les metaetiquetes i només hi afegeix el que falta (seguiment, llms.txt, control de robots, comprovacions GEO)."
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "%s està actiu. Per evitar sortida duplicada, Wille GEO li deixa automàticament l'esquema i les metaetiquetes; els interruptors de sota s'ignoren mentre s'executa. Tota la resta (seguiment, llms.txt, control de robots, comprovacions GEO) funciona al seu costat."
+
+msgid "(opens in a new tab)"
+msgstr "(s'obre en una pestanya nova)"
+
+msgid "1 year"
+msgstr "1 any"
+
+msgid "180 days"
+msgstr "180 dies"
+
+msgid "30 days"
+msgstr "30 dies"
+
+msgid "7-day average"
+msgstr "Mitjana de 7 dies"
+
+msgid "90 days"
+msgstr "90 dies"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "Hi ha disponible una versió en Markdown neta de cada pàgina afegint .md al seu URL."
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "Una llista de comprovació en directe mentre escriviu: tretze criteris concrets i explicats que fan que una pàgina sigui citable per la IA (resposta primer, encapçalaments en forma de pregunta, llistes, xifres, actualitat…)."
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "Hi ha un robots.txt físic que no conté els bloquejos que heu configurat aquí (%s): no tenen cap efecte fins que els afegiu al fitxer o l'elimineu."
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "Hi ha un fitxer robots.txt físic, però no s'ha pogut llegir per analitzar-lo. Anul·la les regles configurades aquí; reviseu-lo manualment."
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "Hi ha un fitxer robots.txt físic, però ara mateix és correcte: no bloqueja cap bot d'IA rellevant per a les citacions i coincideix amb la vostra configuració. Nota: les regles configurades aquí queden inactives mentre el fitxer existeixi."
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "Un exemple realista: un lloc web especialitzat amb 50 articles sòlids que adopti la llista de comprovació GEO pot esperar les primeres citacions d'IA i un flux petit però creixent de visitants amb molta intenció en pocs mesos. Penseu-hi com obrir una segona porta al vostre negoci, encara petita, que s'eixampla cada mes, no com un substitut de Google."
+
+msgid "AI (30d)"
+msgstr "IA (30 d)"
+
+msgid "AI Statistics"
+msgstr "Estadístiques d'IA"
+
+msgid "AI accesses"
+msgstr "Accessos d'IA"
+
+msgid "AI accesses (30d)"
+msgstr "Accessos d'IA (30 d)"
+
+msgid "AI accesses per day"
+msgstr "Accessos d'IA per dia"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "Els assistents d'IA citen blocs de resposta autònoms. Si el primer paràgraf respon la pregunta principal, és el més fàcil de citar."
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "A partir d'ara es registren els accessos de bots d'IA i els visitants des de respostes d'IA; les dades apareixeran tan bon punt la primera IA arribi al vostre lloc web."
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "Accessos de bots d'IA en els últims 30 dies: obre el tauler d'estadístiques"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "Les empreses d'IA envien visitants automatitzats (bots) al vostre lloc web. S'identifiquen pel nom, i el nom us diu exactament per què han vingut. N'hi ha de tres tipus importants, i signifiquen coses molt diferents per al vostre negoci:"
+
+msgid "AI companies: share of accesses"
+msgstr "Empreses d'IA: proporció d'accessos"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "Accés dels rastrejadors d'IA (robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "Els rastrejadors d'IA no transmeten les consultes de cerca. Aquesta matriu assigna cada accés al terme principal de la pàgina (definiu-lo al quadre de comprovació GEO de la pantalla d'edició): l'equivalent honest i pràctic."
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "Radar d'IA: rastrejadors semblants a IA no reconeguts"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "La cerca amb IA prefereix fonts recents; la data de modificació s'envia a les vostres dades estructurades. Revisar el contingut cada any us manté citables."
+
+msgid "AI source"
+msgstr "Font d'IA"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "Els sistemes d'IA comparen les preguntes primer amb els títols: un títol clar fa de la vostra pàgina la font evident."
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "Els sistemes d'IA han llegit el vostre lloc web %s vegades en els últims 30 dies: Wille GEO fa la seva feina."
+
+msgid "AI visibility, last 7 days"
+msgstr "Visibilitat en IA, últims 7 dies"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Pic de visitants des d'IA: %1$d visitants des de respostes d'IA ahir (mitjana recent: %2$s/dia)."
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Pic de visitants des d'IA: %1$s visitants des de respostes d'IA ahir (mitjana recent: %2$s/dia)."
+
+msgid "AI visitors"
+msgstr "Visitants des d'IA"
+
+msgid "AI visitors: landing pages"
+msgstr "Visitants des d'IA: pàgines d'aterratge"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "En totes les pàgines puntuades. Cada punt més és un criteri més que compleix la vostra pàgina típica."
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "Afegeix les hores exactes d'actualització (lastmod) al mapa del lloc XML"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "Afegeix identificadors d'àncora a tots els encapçalaments H2/H3 i, a les entrades amb tres encapçalaments o més, insereix una taula de continguts compacta amb enllaços abans del primer H2. L'estil és mínim i hereta els tipus de lletra i els colors del vostre tema."
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "Afegeix l'hora de modificació real de cada entrada al mapa del lloc del nucli de WordPress. Només actua mentre funcioni el mapa del lloc del nucli; les extensions de SEO que el substitueixen no es veuen afectades."
+
+msgid "Agent"
+msgstr "Agent"
+
+msgid "Agent (live user request)"
+msgstr "Agent (petició d'usuari en directe)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "Agent + Recuperació = rellevant per a les citacions: una IA ha llegit la vostra pàgina per respondre una pregunta real. L'entrenament només alimenta models."
+
+msgid "Agent bots"
+msgstr "Bots d'agent"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "Les alertes sempre apareixen al tauler; això també les envia per correu electrònic (agrupades, com a màxim un correu al dia). Fa servir el destinatari de sota."
+
+msgid "All AIs"
+msgstr "Totes les IA"
+
+msgid "All checks passed"
+msgstr "S'han superat totes les comprovacions"
+
+msgid "All images have alt text"
+msgstr "Totes les imatges tenen text alternatiu"
+
+msgid "All types"
+msgstr "Tots els tipus"
+
+msgid "Allow all bots"
+msgstr "Permet tots els bots"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "El text alternatiu és com els sistemes d'IA entenen les vostres imatges, i un senyal clàssic d'accessibilitat i de posicionament. Les pàgines sense imatges superen la comprovació automàticament."
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "S'està analitzant el contingut… %1$s de %2$s fets"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "Àrea = accessos a l'interval seleccionat. Feu clic en una empresa per veure'n els bots individuals."
+
+msgid "At least 300 words"
+msgstr "Almenys 300 paraules"
+
+msgid "At least one heading phrased as a question"
+msgstr "Almenys un encapçalament formulat com a pregunta"
+
+msgid "Author has a profile description"
+msgstr "L'autor té una descripció de perfil"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "Genera automàticament l'esquema de PMF a partir d'encapçalaments en forma de pregunta"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "Taula de continguts automàtica amb àncores als encapçalaments"
+
+msgid "Average GEO score"
+msgstr "Puntuació GEO mitjana"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "Desconfieu de qualsevol que us prometi una allau de clients des de la cerca amb IA. Aquesta és la imatge honesta:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Benefici: Bing i companyia obtenen el contingut nou i actualitzat en minuts en lloc de dies. Bing alimenta Microsoft Copilot i part de la cerca de ChatGPT: una indexació més ràpida vol dir citacions d'IA més ràpides."
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "Benefici: un resum del lloc web llegible per màquines per a agents d'IA. Sincerament: els grans rastrejadors encara l'obtenen poc, però els agents de programació/IDE sí; no costa res i us posiciona a mesura que l'estàndard creix."
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "Benefici: els agents que volen més que el resum obtenen tot el vostre contingut clau en Markdown net en un sol fitxer."
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "Benefici: afegir .md a qualsevol URL retorna Markdown pur, sense marcatge del tema ni scripts. És més econòmic de llegir per als agents d'IA i s'anuncia amb una etiqueta link a cada pàgina."
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "Benefici: les pàgines en memòria cau mai no executen PHP, de manera que els visitants des d'IA hi són invisibles per al seguiment del servidor. Aquesta petita balisa del navegador (<1 kB) tanca aquest buit."
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "Benefici: fragments nets a la cerca, als xats i a les aplicacions socials, generats a partir del vostre extracte o contingut, sense manteniment."
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "Benefici: decidiu per a cada bot qui pot llegir el vostre contingut, amb un avís clar abans de bloquejar res que us costi citacions d'IA."
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "Benefici: cada secció obté un enllaç profund (#section) que els sistemes d'IA i els cercadors poden citar amb precisió, i els lectors poden saltar directament a la resposta."
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "Benefici: l'actualitat és un senyal de posicionament i de citació, i la data visible és el que realment recullen els fragments de cerca i les respostes d'IA."
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "Benefici: els encapçalaments acabats en «?» i les seves respostes es converteixen en dades estructurades de PMF, exactament el format de pregunta i resposta que citen els assistents d'IA."
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "Benefici: manté petita la base de dades. Les entrades antigues s'eliminen automàticament un cop al dia."
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "Benefici: assabenteu-vos-en en el moment clau: el primer rastreig d'una IA nova, els primers visitants d'un assistent d'IA o un pic sobtat de visitants des d'IA."
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "Benefici: deixa la base de dades exactament com estava. Desactivat per defecte perquè les estadístiques sobrevisquin a una reinstal·lació."
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "Benefici: metadades d'article, autor, data i lloc web llegibles per màquines; la manera més econòmica d'ajudar els sistemes d'IA a entendre i atribuir correctament el vostre contingut."
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "Benefici: mesureu el rendiment real del GEO, és a dir, les persones que hi arriben amb un clic des de ChatGPT, Perplexity i companyia."
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "Benefici: un URL de perfil per línia (LinkedIn, GitHub, YouTube, Wikipedia…). Els sistemes d'IA fan servir aquests enllaços per reconèixer-vos com una entitat única, coherent i fiable a tot el web (E-E-A-T)."
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "Benefici: els cercadors fan servir valors lastmod fiables per tornar a rastrejar més ràpidament les pàgines modificades, i el contingut actualitzat arriba abans a les respostes d'IA. El nucli de WordPress omet aquest camp."
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "Benefici: vegeu quina IA (ChatGPT, Claude, Perplexity…) llegeix quina pàgina; és la base de totes les estadístiques."
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "Benefici: el tauler d'estadístiques assigna cada accés d'IA a aquest terme, de manera que podeu veure quina IA llegeix el vostre contingut per a quin tema. Si no n'hi ha, es fa servir el títol de l'entrada."
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "Benefici: els user-agents es poden falsificar. Això separa els bots d'IA reals dels impostors, de manera que les estadístiques mostren un interès de la IA demostrable."
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "Benefici: les vostres xifres d'IA us arriben soles: totals amb tendència, bots principals, visitants des d'IA, pàgines més llegides i tot el que requereixi atenció, un cop per setmana."
+
+msgid "Block all training bots"
+msgstr "Bloqueja tots els bots d'entrenament"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "Accessos de bots dels últims 7 dies per dia de la setmana i hora, a la zona horària del vostre lloc web. Publicar abans de les hores de més activitat fa que el contingut nou es llegeixi abans."
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "Els accessos de bots es comproven amb els rangs d'IP oficials d'OpenAI, Anthropic, Perplexity, Google i Microsoft; els impostors es marquen a les estadístiques."
+
+msgid "Bot identity"
+msgstr "Identitat del bot"
+
+msgid "Bot identity verification"
+msgstr "Verificació de la identitat dels bots"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "Els bots es reconeixen per les seves signatures oficials d'user-agent. Per a cada accés es desa: nom del bot, categoria, pàgina i hora, res més. Sense adreces IP, sense galetes, sense dades personals; totalment compatible amb el RGPD."
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "Construeix l'índex del qual citen els cercadors d'IA. Bloquejar-lo us treu de les respostes d'IA amb citacions; normalment és mala idea."
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "Reviseu el tauler d'estat GEO a la pàgina d'estadístiques i corregiu tot el que no estigui en verd. Així elimineu els obstacles tècnics."
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "Marcat = bloquejat via robots.txt. Google-Extended i Applebot-Extended són purament senyals d'exclusió: bloquejar-los us exclou de l'entrenament d'IA de Google/Apple sense afectar la cerca normal."
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "Bots d'IA rellevants per a les citacions permesos"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "Citar fonts transmet fiabilitat, un factor clau de classificació per als sistemes de recuperació d'IA."
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "El SEO clàssic no deixa de tenir valor: Google continua sent la principal font de visitants per a la majoria de llocs web. El GEO s'hi suma: el mateix contingut clar i ben estructurat que agrada als sistemes d'IA també sol posicionar-se millor a la cerca clàssica. No perdeu res optimitzant per a tots dos."
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "Rastreig clàssic de cercadors que també alimenta assistents d'IA (Bing alimenta Copilot i part de la cerca de ChatGPT). Bloquejar-lo també us treu d'aquest cercador."
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "Recull contingut per entrenar models. Bloquejar-lo no us costa res a la cerca amb IA; és purament una decisió sobre els drets del contingut."
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "Connecta els accessos d'IA amb un tema a les estadístiques i centra la redacció en una única pregunta clara."
+
+msgid "Contains a list or table"
+msgstr "Conté una llista o una taula"
+
+msgid "Contains concrete numbers or data"
+msgstr "Conté xifres o dades concretes"
+
+msgid "Content & freshness signals"
+msgstr "Senyals de contingut i actualitat"
+
+msgid "Contents"
+msgstr "Continguts"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "Control sobre qui pot llegir el vostre contingut: permeteu els bots que us citen i bloquegeu els que només en treuen profit, amb un avís clar abans de bloquejar res que us costi visibilitat."
+
+msgid "Could not load statistics."
+msgstr "No s'han pogut carregar les estadístiques."
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "Compta els visitants des d'IA darrere de memòries cau de pàgina completa (beacon)"
+
+msgid "Data"
+msgstr "Dades"
+
+msgid "Date range"
+msgstr "Interval de dates"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "Suprimeix totes les dades de l'extensió en desinstal·lar-la"
+
+msgid "Details in the dashboard:"
+msgstr "Detalls al tauler:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "Es detecten pel domini de referència (referrer) i per utm_source (ChatGPT afegeix utm_source=chatgpt.com als enllaços citats, que es conserva fins i tot quan s'elimina el referrer). Nota: moltes visites d'IA arriben sense cap referrer, de manera que la xifra real és més alta del que cap eina pot mostrar."
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "Resposta directa al primer paràgraf (20–120 paraules)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "Desactivat. No costa res i ajuda els agents d'IA a entendre l'estructura del vostre lloc web."
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "Desactivat. Les dades estructurades són la manera més econòmica de fer el vostre contingut llegible per màquines."
+
+msgid "Dismiss"
+msgstr "Descarta"
+
+msgid "Email me on citation alerts"
+msgstr "Envia'm un correu electrònic amb les alertes de citació"
+
+msgid "Empty = the site admin email address."
+msgstr "Buit = l'adreça electrònica de l'administrador del lloc web."
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "Cada visita d'un bot d'IA, classificada segons el que significa per a vosaltres (agent, recuperació, entrenament)."
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "Cada punt és una pàgina que la IA ha llegit en els últims 30 dies: a la dreta = llegida sovint, a baix = puntuació GEO baixa. Els punts de baix a la dreta són les vostres millors oportunitats; feu clic en un punt per editar la pàgina."
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "Totes les entrades i pàgines publicades avaluades amb les 13 comprovacions GEO, ordenades perquè les oportunitats de citació més grans surtin primer, al costat de l'interès de la IA que ja rep cada pàgina."
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "Tot és gratuït, s'executa al vostre servidor i no desa cap dada personal. Només es contacten serveis externs amb les funcions opcionals que ho indiquen. Cada opció us explica què n'obteniu."
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "Exemple: /my-post/ es converteix en /my-post.md. Cal tenir enllaços permanents amigables. El Markdown es genera al moment a partir del vostre contingut i es marca com a noindex perquè mai no competeixi amb la pàgina HTML a la cerca."
+
+msgid "Export CSV"
+msgstr "Exporta CSV"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "Destaca a llms.txt (contingut clau)"
+
+msgid "Feeds"
+msgstr "Canals"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "Obté la vostra pàgina en directe perquè una persona real acaba de preguntar-ne a una IA. És el trànsit amb més intenció; bloquejar-lo allunya aquests lectors."
+
+msgid "Filter by AI"
+msgstr "Filtra per IA"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "Primers visitants humans des de %s! El vostre contingut s'hi està citant."
+
+msgid "Flows: which AI reads which page"
+msgstr "Fluxos: quina IA llegeix quina pàgina"
+
+msgid "Focus term"
+msgstr "Terme principal"
+
+msgid "Focus term appears in the title"
+msgstr "El terme principal apareix al títol"
+
+msgid "Focus term set"
+msgstr "Terme principal definit"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "Per a la majoria de llocs web, els visitants des de respostes d'IA són avui un petit percentatge d'una sola xifra del que envia Google, però aquesta proporció creix amb força cada trimestre. La gràcia de començar ara és consolidar-vos com a font abans que la vostra competència."
+
+msgid "GEO Audit"
+msgstr "Auditoria GEO"
+
+msgid "GEO Settings"
+msgstr "Configuració de GEO"
+
+msgid "GEO check (AI visibility)"
+msgstr "Comprovació GEO (visibilitat en IA)"
+
+msgid "GEO score"
+msgstr "Puntuació GEO"
+
+msgid "GEO status of your site"
+msgstr "Estat GEO del vostre lloc web"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "Molt interès de la IA i puntuació baixa: corregiu aquestes primer."
+
+msgid "Home"
+msgstr "Inici"
+
+msgid "Hour"
+msgstr "Hora"
+
+msgid "How does an AI even reach my website?"
+msgstr "Com arriba una IA al meu lloc web?"
+
+msgid "How it works"
+msgstr "Com funciona"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "Com funciona: el GEO explicat en llenguatge planer"
+
+msgid "Human visitors from AI answers"
+msgstr "Visitants humans des de respostes d'IA"
+
+msgid "I already did"
+msgstr "Ja ho he fet"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "La verificació d'identitat està desactivada. Els user-agents es poden falsificar: activeu la verificació a la configuració per separar els bots d'IA reals dels impostors."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "Si l'extensió us és útil, ens deixaríeu una ressenya breu a WordPress.org? Només és un minut i ajuda altres propietaris de llocs web a trobar-la. Gràcies!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "Important: darrere d'una CDN, la IP de la connexió directa és la del servidor intermediari, i tots els bots reals es marcarien com a impostors. Seleccioneu la vostra configuració perquè es faci servir la IP original del visitant. Activeu només una capçalera que el vostre servidor intermediari defineixi realment, perquè, si no, aquestes capçaleres es poden falsificar."
+
+msgid "Include latest posts"
+msgstr "Inclou les últimes entrades"
+
+msgid "Include pages"
+msgstr "Inclou les pàgines"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "IndexNow és un protocol obert compatible amb Bing, Seznam, Naver i altres. En cada publicació, actualització o despublicació, l'extensió envia l'URL públic i la clau del vostre lloc web a l'API d'IndexNow; no es transmet res més. Es serveix automàticament un fitxer de clau des del vostre lloc web per a la verificació. Si una altra extensió ja envia a IndexNow (p. ex. Rank Math o l'extensió oficial de Bing), deixeu-ho desactivat per evitar avisos duplicats."
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: avisos d'indexació instantània"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "Indexació instantània (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "Els enllaços interns són els camins que segueixen els rastrejadors i els sistemes de recuperació per descobrir el vostre contingut relacionat; les pàgines òrfenes es llegeixen menys."
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "Impacte invisible: més gran que els clics."
+
+msgid "It measures"
+msgstr "Mesura"
+
+msgid "It optimizes"
+msgstr "Optimitza"
+
+msgid "Job title / role"
+msgstr "Càrrec / rol"
+
+msgid "Keep statistics for"
+msgstr "Conserva les estadístiques durant"
+
+msgid "Key content"
+msgstr "Contingut clau"
+
+msgid "Last seen"
+msgstr "Vist per última vegada"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "Últim enviament: %1$s el %2$s."
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "Esquerra: bots d'IA; dreta: les vostres pàgines. Amplada de la banda = accessos. Passeu el cursor per sobre d'una banda per veure'n el nombre exacte."
+
+msgid "Links to at least one external source"
+msgstr "Enllaça almenys una font externa"
+
+msgid "Links to at least one other page on your site"
+msgstr "Enllaça almenys una altra pàgina del vostre lloc web"
+
+msgid "Log AI bot accesses"
+msgstr "Registra els accessos de bots d'IA"
+
+msgid "Log human visitors from AI answers"
+msgstr "Registra els visitants humans des de respostes d'IA"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "Les metadades llegibles per màquines ajuden els sistemes d'IA a entendre i atribuir el vostre contingut."
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "Versions del vostre contingut llegibles per màquines (llms.txt, pàgines en Markdown, dades estructurades), perquè els sistemes d'IA entenguin el vostre lloc web amb la mínima fricció possible."
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "Fer que el vostre lloc web sigui una font que els sistemes d'IA trobin, entenguin i citin s'anomena GEO (Generative Engine Optimization, optimització per a motors generatius). És la mateixa idea que el SEO, però per a respostes d'IA en lloc d'enllaços blaus; i com que encara molt pocs llocs web ho fan, els pioners obtenen una visibilitat desproporcionada."
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "Gestiona les regles per a rastrejadors d'IA al robots.txt"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "Molta gent llegeix la resposta d'IA que us cita i mai no hi fa clic, però ha vist el vostre nom com a font. És una visibilitat de marca que cap estadística pot captar del tot; la citació en si ja és la victòria."
+
+msgid "Mark all as read"
+msgstr "Marca-ho tot com a llegit"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "Versió en Markdown de cada pàgina (URL .md)"
+
+msgid "Max. entries per section"
+msgstr "Màx. d'entrades per secció"
+
+msgid "Maybe later"
+msgstr "Potser més tard"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "Mentrestant: corregiu tot el que no estigui en verd al tauler d'estat de sota i definiu termes principals per a les vostres pàgines més importants."
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "Cada cop més gent ja no escriu les seves preguntes a Google: les pregunta a ChatGPT, Perplexity, Copilot o Claude. La IA llegeix un grapat de llocs web, escriu una resposta i n'esmenta les fonts. Si el vostre lloc web és una d'aquestes fonts, se us esmenta i enllaça. Si no, sou invisibles en aquella conversa, encara que estigueu ben posicionats al Google clàssic."
+
+msgid "Most active AI bots"
+msgstr "Bots d'IA més actius"
+
+msgid "Name (defaults to site title)"
+msgstr "Nom (per defecte, el títol del lloc web)"
+
+msgid "Needs attention"
+msgstr "Requereix atenció"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "El contingut nou i actualitzat s'envia a Bing i companyia en qüestió de minuts. Bing alimenta Copilot i part de la cerca de ChatGPT: una indexació més ràpida vol dir citacions d'IA més ràpides."
+
+msgid "New here? How it all works, in plain language."
+msgstr "Sou nou aquí? Com funciona tot, en llenguatge planer."
+
+msgid "Next"
+msgstr "Següent"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "Encara no hi ha accessos d'IA a pàgines puntuades en els últims 30 dies; el mapa s'anirà omplint a mesura que els sistemes d'IA llegeixin el vostre contingut."
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "Encara no s'ha obtingut cap rang d'IP: la primera descàrrega es farà durant la pròxima hora (o quan s'executi el cron diari)."
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "Encara no s'ha enviat cap URL: la pròxima publicació o actualització farà el primer avís."
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "Encara no hi ha accessos de bots en els últims 7 dies."
+
+msgid "No data for this AI in the selected range."
+msgstr "No hi ha dades d'aquesta IA a l'interval seleccionat."
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "Encara no hi ha dades. Els accessos d'IA apareixeran aquí tan bon punt un bot d'IA conegut o un visitant derivat per una IA arribi al vostre lloc web."
+
+msgid "No duplicate SEO output"
+msgstr "Sense sortida SEO duplicada"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "Sense argot ni bombo: què està passant, què hi fa aquesta extensió i quins resultats podeu esperar de manera realista."
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "No hi ha cap altra extensió de SEO activa: Wille GEO proporciona ell mateix l'esquema i les metaetiquetes."
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "Cap paràgraf massa llarg (màx. 150 paraules cadascun)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "No s'ha trobat cap fitxer robots.txt físic: les regles per a rastrejadors d'IA configurades a Wille GEO estan actives."
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "No s'ha trobat cap fitxer robots.txt físic. No hi ha cap bloqueig de rastrejadors d'IA configurat a Wille GEO, de manera que es serveix sense canvis el robots.txt per defecte de WordPress."
+
+msgid "No published content to audit yet."
+msgstr "Encara no hi ha contingut publicat per auditar."
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "No s'ha trobat cap mapa del lloc. WordPress n'inclou un per defecte; potser una extensió o una opció l'ha desactivat."
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "Cap eina pot obligar una IA a citar-vos. Els sistemes d'IA citen pàgines que responen una pregunta real de manera clara, concreta i creïble. Aquesta extensió fa que precisament això sigui mesurable i sistemàticament més fàcil: elimina tots els obstacles tècnics i us mostra què funciona. Però el contingut l'heu de posar vosaltres."
+
+msgid "No – use the direct connection IP"
+msgstr "No: fes servir la IP de la connexió directa"
+
+msgid "Not allowed."
+msgstr "No està permès."
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "Desactivada. Els user-agents es poden falsificar; activar la verificació separa els bots d'IA reals dels impostors (obté llistes d'IP públiques un cop al dia)."
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "Desactivat. Sense això, els índexs de cerca rellevants per a la IA només descobreixen el contingut nou quan us tornen a rastrejar; activar IndexNow ho redueix a minuts."
+
+msgid "Official profiles (sameAs)"
+msgstr "Perfils oficials (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "Opcionalment, proves: els bots impostors que falsifiquen un nom conegut es desemmascaren amb les llistes d'IP oficials de les empreses d'IA."
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "Un cop al dia l'extensió baixa les llistes d'IP públiques que OpenAI, Anthropic, Perplexity, Google i Microsoft publiquen per als seus rastrejadors i marca cada accés registrat com a verificat, fallit (identitat declarada des d'una IP aliena) o sense comprovar. La IP del visitant només es compara en memòria i mai no es desa. Com que fa peticions externes, és opcional."
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "Un URL per línia (LinkedIn, GitHub, X, web personal…). Permet als sistemes d'IA verificar aquest autor com una única persona real i coherent, un senyal E-E-A-T clau."
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "Una o dues frases: qui sou i de què tracta el vostre lloc web."
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "Obriu qualsevol entrada a l'editor: el tauler «Comprovació GEO» de la barra lateral us guia exactament per aquests passos mentre escriviu."
+
+msgid "Open improvements"
+msgstr "Millores pendents"
+
+msgid "Open the full dashboard"
+msgstr "Obre el tauler complet"
+
+msgid "Open the settings"
+msgstr "Obre la configuració"
+
+msgid "Open the statistics dashboard"
+msgstr "Obre el tauler d'estadístiques"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "Obriu les cinc pàgines més importants i definiu un terme principal per a cadascuna: la pregunta o el tema del qual aquesta pàgina hauria de ser LA resposta."
+
+msgid "Opportunity map"
+msgstr "Mapa d'oportunitats"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "Genera la metadescripció i les previsualitzacions socials (Open Graph)"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "Genera dades estructurades de schema.org (JSON-LD)"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "Genera WebSite, Organization/Person, Article (amb dates i autor) i fil d'Ariadna. Els sistemes de recuperació d'IA fan servir aquests senyals per valorar l'actualitat i la fiabilitat."
+
+msgid "Page"
+msgstr "Pàgina"
+
+msgid "Pages"
+msgstr "Pàgines"
+
+msgid "Pages AI read most"
+msgstr "Pàgines més llegides per la IA"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "La gent fa preguntes als assistents d'IA. Els encapçalaments que reflecteixen aquestes preguntes vinculen el vostre contingut directament amb peticions reals i alimenten l'esquema automàtic de PMF."
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "Fixeu les millors pàgines com a contingut clau, perquè llms.txt hi porti directament els agents d'IA."
+
+msgid "Ping IndexNow on publish and update"
+msgstr "Avisa IndexNow en publicar i actualitzar"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "El contingut fixat apareix primer a llms.txt i llms-full.txt: les pàgines que més voleu que llegeixin els sistemes d'IA."
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "Els enllaços permanents simples estan actius (Configuració → Enllaços permanents). No es poden servir els punts d'accés Markdown ni el fitxer de clau d'IndexNow, i els URL llegibles ajuden tots els rastrejadors."
+
+msgid "Post"
+msgstr "Entrada"
+
+msgid "Post not found."
+msgstr "No s'ha trobat l'entrada."
+
+msgid "Posts"
+msgstr "Entrades"
+
+msgid "Pretty permalinks enabled"
+msgstr "Enllaços permanents amigables activats"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "Privadesa: aquesta extensió no desa adreces IP, no defineix galetes i, per defecte, no fa peticions externes. Les úniques excepcions són dues funcions opcionals que controleu vosaltres: la verificació de bots (baixa les llistes d'IP públiques dels rastrejadors un cop al dia) i IndexNow (envia els URL publicats a l'API d'IndexNow). Totes les estadístiques es queden a la vostra base de dades de WordPress."
+
+msgid "Profile URLs (sameAs)"
+msgstr "URL de perfils (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "Qualitat: inusualment alta."
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "Valoreu Wille GEO a WordPress.org (s'obre en una pestanya nova)"
+
+msgid "Rate ★★★★★"
+msgstr "Valora amb ★★★★★"
+
+msgid "Re-scan"
+msgstr "Torna a analitzar"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "Els URL llegibles estan actius: els punts d'accés .md i el fitxer de clau d'IndexNow funcionen."
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "Persones reals que arriben des de respostes d'IA: el rendiment real, per IA i per pàgina."
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "Persones reals que han fet clic al vostre enllaç dins de ChatGPT, Perplexity i companyia. Aquest és el rendiment del GEO."
+
+msgid "Recipient"
+msgstr "Destinatari"
+
+msgid "Reload page"
+msgstr "Torna a carregar la pàgina"
+
+msgid "Retrieval"
+msgstr "Recuperació"
+
+msgid "Retrieval (citation index)"
+msgstr "Recuperació (índex de citacions)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "Els bots de recuperació i d'agent poden llegir les vostres pàgines: podeu aparèixer a les respostes d'IA."
+
+msgid "Retrieval bots"
+msgstr "Bots de recuperació"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "Primer cal que els bots de recuperació trobin i tornin a llegir les vostres pàgines millorades. Espereu els primers efectes mesurables al cap d'unes setmanes i un veredicte just al cap de tres a sis mesos; el tauler us mostra la tendència en tot moment."
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "Els bots de recuperació fan servir el mapa del lloc per descobrir contingut nou ràpidament."
+
+msgid "Review Wille GEO"
+msgstr "Escriviu una ressenya de Wille GEO"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "Les regles s'afegeixen al robots.txt generat per WordPress. Un fitxer robots.txt físic a l'arrel web les anul·laria; el tauler d'estat de la pàgina d'estadístiques us avisa si n'hi ha un. Tingueu en compte que robots.txt es basa en la bona fe; els bots coneguts el respecten."
+
+msgid "Running GEO checks …"
+msgstr "S'estan executant les comprovacions GEO…"
+
+msgid "Save settings"
+msgstr "Desa la configuració"
+
+msgid "Score distribution"
+msgstr "Distribució de puntuacions"
+
+msgid "Search"
+msgstr "Cerca"
+
+msgid "Search (feeds AI answers)"
+msgstr "Cerca (alimenta respostes d'IA)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "Els cercadors i els rastrejadors d'IA poden indexar el lloc web."
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "Descobriu quina IA (ChatGPT, Claude, Perplexity…) llegeix cadascuna de les vostres pàgines – i optimitzeu el lloc per a la cerca amb IA (GEO). Gratuït, sense dades personals."
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "Envia un informe setmanal de visibilitat en IA per correu electrònic"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "Enviat per l'extensió Wille GEO. Podeu desactivar aquest informe en qualsevol moment a Wille GEO → Configuració."
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "S'envia amb el sistema de correu habitual de WordPress i només quan hi ha hagut activitat d'IA real aquella setmana; els llocs web tranquils no reben mai correu brossa. També el podeu enviar manualment amb l'ordre de WP-CLI «wp geoins report»."
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "Serveix /llms-full.txt amb el contingut complet"
+
+msgid "Serve a generated /llms.txt"
+msgstr "Serveix un /llms.txt generat"
+
+msgid "Served at %s."
+msgstr "Es serveix a %s."
+
+msgid "Settings"
+msgstr "Configuració"
+
+msgid "Short site description (optional)"
+msgstr "Descripció breu del lloc web (opcional)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "Els paràgrafs curts i autònoms són la unitat que els sistemes d'IA traslladen a les respostes. Els blocs llargs se salten."
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "Mostra una data «Actualitzat el» visible a les entrades revisades"
+
+msgid "Show all AIs"
+msgstr "Mostra totes les IA"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "Es mostra a sobre del contingut, només quan l'entrada s'ha revisat de manera significativa (més de dos dies després de publicar-la). El dateModified llegible per màquines sempre és a les dades estructurades, independentment d'aquest interruptor."
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "Es mostra als sistemes d'IA com a expertesa llegible per màquines (schema.org jobTitle), p. ex. «Senior WordPress Developer»."
+
+msgid "Site represents"
+msgstr "El lloc web representa"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "El lloc web funciona darrere d'un servidor intermediari/CDN?"
+
+msgid "Site visible to crawlers"
+msgstr "Lloc web visible per als rastrejadors"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "Qui fa clic des d'una resposta d'IA ja ha llegit un resum i vol aprofundir: els estudis i les dades de botigues mostren de manera constant que aquests visitants converteixen notablement millor que el trànsit de cerca mitjà. Menys visitants, però més interessats."
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "No teniu permís per fer això."
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "Rapidesa: el contingut nou i actualitzat s'anuncia als cercadors en qüestió de minuts (IndexNow); com més aviat s'indexa, més aviat el pot citar una IA."
+
+msgid "Statistics"
+msgstr "Estadístiques"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "Les estadístiques i xifres concretes augmenten de manera mesurable la probabilitat de ser citat: a les respostes d'IA els encanten els números verificables."
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "Els fragments estructurats (llistes, taules) són extrets i citats per la IA molt més sovint que els blocs de text atapeïts."
+
+msgid "Structured data & meta tags"
+msgstr "Dades estructurades i metaetiquetes"
+
+msgid "Structured data (schema.org)"
+msgstr "Dades estructurades (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "I tant, escriuré una ressenya"
+
+msgid "Table of contents"
+msgstr "Taula de continguts"
+
+msgid "Term"
+msgstr "Terme"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "Termes i pàgines: quina IA llegeix què?"
+
+msgid "The audit table needs JavaScript."
+msgstr "La taula d'auditoria necessita JavaScript."
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "La balisa només s'executa per a visitants que no han iniciat sessió, només comprova si la visita prové d'una IA coneguda (domini de referència o utm_source) i només llavors informa de la font i la ruta de la pàgina al vostre propi lloc web. Sense galetes, sense IP, sense empremta digital, sense serveis externs. El recompte doble amb el seguiment del servidor s'evita automàticament. Deixeu-ho desactivat si el vostre lloc web no fa servir memòria cau de pàgina completa: el seguiment PHP ja ho veu tot."
+
+msgid "The honest limit: content decides."
+msgstr "El límit honest: el contingut és el que decideix."
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "El robots.txt físic bloqueja %s. Aquests bots us fan aparèixer a les respostes d'IA: editeu el fitxer per desbloquejar-los (les regles configurades aquí queden inactives mentre el fitxer existeixi)."
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "El robots.txt físic bloqueja TOTS els rastrejadors (User-agent: * / Disallow: /). Cap cercador ni cap sistema d'IA pot llegir el vostre lloc web: editeu el fitxer."
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "El robots.txt físic bloqueja tots els rastrejadors per defecte (User-agent: * / Disallow: /); només els rastrejadors amb regles d'excepció pròpies al fitxer poden llegir el vostre lloc web. Tots els sistemes d'IA sense excepció en queden exclosos: editeu el fitxer."
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "El tauler d'estadístiques assigna cada accés d'IA a aquest terme. Buit = títol de l'entrada."
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "El tauler d'estadístiques necessita JavaScript. Feu servir l'exportació CSV o WP-CLI (wp geoins stats)."
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "Després, deixeu-ho funcionar. Consulteu el tauler cada setmana (o activeu l'informe per correu electrònic) i invertiu on ja es nota interès de la IA: és allà on les citacions són més a prop."
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "Aquests user-agents semblen sistemes d'IA, però encara no són al registre, de manera que els seus accessos NO es compten a les estadístiques de dalt. Val la pena afegir les entrades freqüents amb el filtre geoins_bots (o comunicar-les als desenvolupadors de l'extensió)."
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "Aquesta extensió reconeix aquests bots a cada visita i us mostra al tauler quina IA llegeix quines de les vostres pàgines, amb quina freqüència i per a quin tema. I quan una persona fa clic a l'enllaç al vostre lloc web dins d'una resposta d'IA, aquesta visita també es compta: és el moment en què la visibilitat en IA es converteix en un client potencial."
+
+msgid "Timeline: weeks to months, not days."
+msgstr "Terminis: de setmanes a mesos, no dies."
+
+msgid "Title"
+msgstr "Títol"
+
+msgid "Tracking"
+msgstr "Seguiment"
+
+msgid "Training"
+msgstr "Entrenament"
+
+msgid "Training bots"
+msgstr "Bots d'entrenament"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "Dues coses: mesura i optimitza. Tot s'executa al vostre propi servidor, no s'envia res enlloc, i cada interruptor de la configuració n'explica el benefici abans d'activar-lo."
+
+msgid "Updated"
+msgstr "Actualitzat"
+
+msgid "Updated on %s"
+msgstr "Actualitzat el %s"
+
+msgid "Updated within the last 12 months"
+msgstr "Actualitzat en els últims 12 mesos"
+
+msgid "User agent"
+msgstr "User-agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "Verifica la identitat dels bots amb els rangs d'IP oficials"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "Les pàgines molt pobres rarament tenen prou substància perquè una IA hi basi una resposta."
+
+msgid "View your key file"
+msgstr "Mostra el vostre fitxer de clau"
+
+msgid "View your llms-full.txt"
+msgstr "Mostra el vostre llms-full.txt"
+
+msgid "View your llms.txt"
+msgstr "Mostra el vostre llms.txt"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "L'expertesa visible (un autor real amb biografia) alimenta els senyals E-E-A-T que els sistemes d'IA fan servir per triar fonts fiables."
+
+msgid "Volume: still small, growing fast."
+msgstr "Volum: encara petit, però creix ràpidament."
+
+msgid "Waiting for the first AI visit"
+msgstr "S'està esperant la primera visita d'IA"
+
+msgid "Weekly email report"
+msgstr "Informe setmanal per correu electrònic"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "Què puc esperar de manera realista? Una resposta honesta"
+
+msgid "What does the plugin actually do for me?"
+msgstr "Què fa realment l'extensió per mi?"
+
+msgid "What happened"
+msgstr "Què ha passat"
+
+msgid "What is happening right now?"
+msgstr "Què està passant ara mateix?"
+
+msgid "When do AIs read your site?"
+msgstr "Quan llegeixen les IA el vostre lloc web?"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "Per on començo? Cinc passos, 30 minuts"
+
+msgid "Which AI bots?"
+msgstr "Quins bots d'IA?"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "Quina IA ha llegit les vostres pàgines i quines respostes d'IA us han enviat visitants humans."
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "Quina IA llegeix quines de les vostres pàgines, per a quin terme, i quines respostes d'IA us envien realment visitants humans."
+
+msgid "Why does this matter?"
+msgstr "Per què és important?"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Wille GEO està actiu."
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Wille GEO està fet per %1$s. Us és útil? Una ressenya de %2$s a WordPress.org ajuda altres persones a trobar-lo. Gràcies!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "Wille GEO ha detectat a %s:"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: senyals d'autor (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "Treballeu la llista de comprovació GEO en aquestes pàgines, sobretot: respongueu la pregunta principal directament al primer paràgraf i convertiu els encapçalaments en preguntes reals."
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "Funciona en entrades i pàgines amb almenys dos encapçalaments en forma de pregunta (H2/H3 acabats amb un signe d'interrogació). No cal fer res més: escriviu preguntes com a encapçalaments i l'esquema es genera sol."
+
+msgid "XML sitemap available"
+msgstr "Mapa del lloc XML disponible"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "Sí, Cloudflare (CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "Sí, un altre servidor intermediari (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "Esteu bloquejant %s. Aquests bots us fan aparèixer a les respostes d'IA; bloquejar-los us treu de les citacions."
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "Rebeu aquest correu perquè les alertes de citació per correu electrònic estan activades a Wille GEO → Configuració."
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "El vostre fitxer de clau d'IndexNow no és accessible des del vostre propi servidor, de manera que els avisos estan en pausa. Causes habituals: enllaços permanents simples (corregiu-ho a Configuració → Enllaços permanents) o una extensió de seguretat que bloqueja les peticions de loopback. Després de corregir-ho, torneu a desar aquesta configuració; la comprovació es tornarà a executar poc després de desar."
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "La comprovació de la sessió ha caducat: torneu a carregar la pàgina per continuar."
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] Visibilitat en IA aquesta setmana: %2$d accessos d'IA, %3$d visitants des d'IA"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] Nou senyal de visibilitat en IA"
+
+msgid "a person"
+msgstr "una persona"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "una persona real acaba de fer una pregunta a una IA, i la IA està llegint la vostra pàgina ara mateix per respondre-la. És el senyal més valuós que hi ha: algú està interessat en el vostre tema en aquest precís moment."
+
+msgid "accesses"
+msgstr "accessos"
+
+msgid "an organization"
+msgstr "una organització"
+
+msgid "blocking costs citations"
+msgstr "bloquejar costa citacions"
+
+msgid "blocking is safe for citations"
+msgstr "bloquejar no afecta les citacions"
+
+msgid "by %s"
+msgstr "per %s"
+
+msgid "days"
+msgstr "dies"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "p. ex. extensió de còpia de seguretat per a WordPress"
+
+msgid "forever"
+msgstr "sempre"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "impostors"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "llms.txt disponible"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "llms.txt és un estàndard jove: un resum en Markdown del vostre contingut més important a /llms.txt. Es genera automàticament a partir de les vostres pàgines i entrades i es desa a la memòria cau durant 12 hores."
+
+msgid "more"
+msgstr "més"
+
+msgid "new"
+msgstr "nou"
+
+msgid "pages"
+msgstr "pàgines"
+
+msgid "passed"
+msgstr "superat"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "construeixen la biblioteca de la qual la IA cita més tard. Ser-hi decideix si se us pot citar o no."
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "recullen text per entrenar futurs models d'IA. No us porten visitants ni citacions. Permetre'ls o no és purament una decisió sobre els drets del contingut; bloquejar-los no us costa res."
+
+msgid "unchecked"
+msgstr "sense comprovar"
+
+msgid "verified"
+msgstr "verificats"
+
+msgid "visitors"
+msgstr "visitants"
+
+msgid "vs. previous period"
+msgstr "respecte al període anterior"

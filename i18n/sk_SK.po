@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "Je zapnuté „Zabrániť vyhľadávačom v indexovaní“ (Nastavenia → Čítanie). Kým to nevypnete, žiadny AI systém vás nenájde."
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%1$d rozsahov IP od %2$d poskytovateľov, naposledy aktualizované %3$s."
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "%s (tréningový crawler) prvýkrát navštívil vašu stránku."
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "%s prvýkrát prehľadal vašu stránku – AI relevantná pre citácie vás teraz číta."
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "Zistený %s – Wille GEO mu automaticky prenecháva schému a meta značky a dopĺňa len to, čo chýba (sledovanie, llms.txt, ovládanie robots, GEO kontroly)."
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "%s je aktívny. Aby sa predišlo duplicitnému výstupu, Wille GEO mu automaticky prenecháva schému a meta značky – prepínače nižšie sa počas jeho behu ignorujú. Všetko ostatné (sledovanie, llms.txt, ovládanie robots, GEO kontroly) funguje popri ňom."
+
+msgid "(opens in a new tab)"
+msgstr "(otvorí sa na novej karte)"
+
+msgid "1 year"
+msgstr "1 rok"
+
+msgid "180 days"
+msgstr "180 dní"
+
+msgid "30 days"
+msgstr "30 dní"
+
+msgid "7-day average"
+msgstr "7-dňový priemer"
+
+msgid "90 days"
+msgstr "90 dní"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "Čistá verzia každej stránky v Markdowne je dostupná po pripojení .md k jej URL."
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "Živý checklist počas písania: trinásť konkrétnych, vysvetlených kritérií, vďaka ktorým je stránka citovateľná pre AI (najprv odpoveď, nadpisy v tvare otázok, zoznamy, čísla, aktuálnosť …)."
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "Existuje fyzický robots.txt a neobsahuje blokovania, ktoré ste nastavili tu (%s) – nemajú žiadny účinok, kým ich nepridáte do súboru alebo ho nevymažete."
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "Existuje fyzický súbor robots.txt, ktorý sa však nepodarilo načítať na analýzu. Prepisuje pravidlá nastavené tu – skontrolujte ho ručne."
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "Existuje fyzický súbor robots.txt, no momentálne je v poriadku: neblokuje žiadne AI boty relevantné pre citácie a zodpovedá vašej konfigurácii. Poznámka: pravidlá nastavené tu zostávajú neaktívne, kým súbor existuje."
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "Realistický príklad: odborný web s 50 kvalitnými článkami, ktorý zavedie GEO checklist, môže v priebehu niekoľkých mesiacov očakávať prvé citácie v AI a malý, no stabilne rastúci prúd návštevníkov s vysokým záujmom – berte to ako otvorenie druhých, zatiaľ malých dverí k vášmu podnikaniu, ktoré sa každý mesiac rozširujú, nie ako náhradu Googlu."
+
+msgid "AI (30d)"
+msgstr "AI (30 d)"
+
+msgid "AI Statistics"
+msgstr "Štatistiky AI"
+
+msgid "AI accesses"
+msgstr "Prístupy AI"
+
+msgid "AI accesses (30d)"
+msgstr "Prístupy AI (30 d)"
+
+msgid "AI accesses per day"
+msgstr "Prístupy AI za deň"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "AI asistenti citujú samostatné bloky odpovedí. Ak prvý odsek odpovedá na hlavnú otázku, je to to najľahšie, čo sa dá citovať."
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "Prístupy AI botov a návštevníci z odpovedí AI sa odteraz zaznamenávajú – údaje sa zobrazia, hneď ako vašu stránku navštívi prvá AI."
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "Prístupy AI botov za posledných 30 dní – otvoriť panel štatistík"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "AI spoločnosti posielajú na vašu stránku automatizovaných návštevníkov – boty. Tie sa identifikujú menom a meno vám presne povie, prečo prišli. Dôležité sú tri druhy a pre vaše podnikanie znamenajú veľmi rozdielne veci:"
+
+msgid "AI companies: share of accesses"
+msgstr "AI spoločnosti: podiel prístupov"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "Prístup AI crawlerov (robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "AI crawlery neprenášajú vyhľadávacie dopyty. Táto matica priraďuje každý prístup k hlavnému výrazu stránky (nastavíte ho v poli GEO kontrola na obrazovke úprav) – poctivý a praktický ekvivalent."
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "AI radar: nerozpoznané crawlery pripomínajúce AI"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "Vyhľadávanie s AI uprednostňuje aktuálne zdroje; dátum úpravy sa odosiela vo vašich štruktúrovaných dátach. Každoročná revízia obsahu vás udrží citovateľnými."
+
+msgid "AI source"
+msgstr "Zdroj AI"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "AI systémy porovnávajú otázky najprv s nadpismi – jasný nadpis urobí z vašej stránky jasný zdroj."
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "AI systémy čítali vašu stránku za posledných 30 dní %s-krát – Wille GEO robí svoju prácu."
+
+msgid "AI visibility, last 7 days"
+msgstr "Viditeľnosť v AI, posledných 7 dní"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Nárast návštevníkov z AI: včera %1$d návštevníkov z odpovedí AI (nedávny priemer: %2$s/deň)."
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Nárast návštevníkov z AI: včera %1$s návštevníkov z odpovedí AI (nedávny priemer: %2$s/deň)."
+
+msgid "AI visitors"
+msgstr "Návštevníci z AI"
+
+msgid "AI visitors: landing pages"
+msgstr "Návštevníci z AI: vstupné stránky"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "Naprieč všetkými hodnotenými stránkami. Každý bod navyše je jedno ďalšie kritérium, ktoré vaša typická stránka spĺňa."
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "Pridať presné časy aktualizácie (lastmod) do XML sitemap"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "Pridá ID kotiev ku všetkým nadpisom H2/H3 a pri článkoch s tromi a viac nadpismi vloží pred prvý H2 kompaktný prelinkovaný obsah. Štýl je minimálny a preberá písma a farby vašej témy."
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "Pridá do sitemap jadra WordPressu skutočný čas úpravy každého článku. Aktívne len vtedy, keď beží sitemap jadra; SEO pluginy, ktoré sitemap nahrádzajú, nie sú ovplyvnené."
+
+msgid "Agent"
+msgstr "Agent"
+
+msgid "Agent (live user request)"
+msgstr "Agent (živá požiadavka používateľa)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "Agent + vyhľadávanie zdrojov = relevantné pre citácie: AI čítala vašu stránku, aby odpovedala na skutočnú otázku. Tréning len kŕmi modely."
+
+msgid "Agent bots"
+msgstr "Boty agentov"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "Upozornenia sa vždy zobrazujú na paneli; táto voľba ich navyše posiela e-mailom (súhrnne, najviac jeden e-mail denne). Používa príjemcu uvedeného nižšie."
+
+msgid "All AIs"
+msgstr "Všetky AI"
+
+msgid "All checks passed"
+msgstr "Všetky kontroly splnené"
+
+msgid "All images have alt text"
+msgstr "Všetky obrázky majú alternatívny text"
+
+msgid "All types"
+msgstr "Všetky typy"
+
+msgid "Allow all bots"
+msgstr "Povoliť všetky boty"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "Alternatívny text je spôsob, akým AI systémy rozumejú vašim obrázkom – a dlhodobý signál prístupnosti a hodnotenia. Stránky bez obrázkov prejdú automaticky."
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "Analyzuje sa obsah … hotovo %1$s z %2$s"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "Plocha = prístupy vo vybranom období. Kliknutím na spoločnosť zobrazíte jej jednotlivé boty."
+
+msgid "At least 300 words"
+msgstr "Aspoň 300 slov"
+
+msgid "At least one heading phrased as a question"
+msgstr "Aspoň jeden nadpis sformulovaný ako otázka"
+
+msgid "Author has a profile description"
+msgstr "Autor má popis profilu"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "Automaticky generovať FAQ schému z nadpisov s otázkami"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "Automatický obsah s kotvami nadpisov"
+
+msgid "Average GEO score"
+msgstr "Priemerné GEO skóre"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "Buďte skeptickí voči každému, kto vám sľubuje záplavu zákazníkov z vyhľadávania s AI. Toto je úprimný obraz:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Prínos: Bing a spol. načítajú nový a aktualizovaný obsah v priebehu minút namiesto dní. Bing napája Microsoft Copilot a časti vyhľadávania ChatGPT – rýchlejšie indexovanie znamená rýchlejšie citácie v AI."
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "Prínos: strojovo čitateľné zhrnutie stránky pre AI agentov. Úprimne: veľké crawlery ho zatiaľ sťahujú zriedka – no programátorskí/IDE agenti áno, nič to nestojí a s rastom štandardu budete mať náskok."
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "Prínos: agenti, ktorí chcú viac než prehľad, dostanú váš kompletný kľúčový obsah ako čistý Markdown v jednom súbore."
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "Prínos: pripojením .md k akejkoľvek URL dostanete čistý Markdown – bez značiek témy, bez skriptov. Pre AI agentov lacnejšie na čítanie a ohlasované cez značku link na každej stránke."
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "Prínos: stránky z cache nikdy nespúšťajú PHP, takže návštevníci z AI sú na nich pre sledovanie na strane servera neviditeľní. Tento drobný beacon v prehliadači (<1 kB) túto medzeru uzavrie."
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "Prínos: čisté úryvky vo vyhľadávaní, chatoch a sociálnych aplikáciách – generované z vášho úryvku alebo obsahu, bez údržby."
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "Prínos: pre každého bota rozhodnete, kto smie čítať váš obsah – s jasným varovaním skôr, než zablokujete niečo, čo vás pripraví o citácie v AI."
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "Prínos: každá sekcia dostane priamy odkaz (#sekcia), ktorý môžu AI systémy a vyhľadávače presne citovať, a čitatelia môžu skočiť priamo na odpoveď."
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "Prínos: aktuálnosť je signálom pre hodnotenie aj citácie – a práve viditeľný dátum preberajú úryvky vo vyhľadávaní a odpovede AI."
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "Prínos: nadpisy končiace na „?“ spolu s odpoveďami sa stanú štruktúrovanými dátami FAQ – presne vo formáte otázok a odpovedí, ktorý AI asistenti citujú."
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "Prínos: vaša databáza zostane malá. Staršie záznamy sa automaticky mažú raz denne."
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "Prínos: dozviete sa to v pravej chvíli – prvé prehľadanie novou AI, prví návštevníci z AI asistenta alebo náhly nárast návštevníkov z AI."
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "Prínos: vaša databáza zostane presne taká, aká bola. Predvolene vypnuté, aby vaše štatistiky prežili preinštalovanie."
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "Prínos: strojovo čitateľné metadáta článku, autora, dátumu a stránky – najlacnejší spôsob, ako pomôcť AI systémom pochopiť váš obsah a správne ho priradiť."
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "Prínos: zmerajte skutočný výnos z GEO – ľudí, ktorí sa k vám preklikli z ChatGPT, Perplexity a spol."
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "Prínos: jedna URL profilu na riadok (LinkedIn, GitHub, YouTube, Wikipédia …). AI systémy podľa týchto odkazov rozpoznajú, že ste jedna konzistentná, dôveryhodná entita naprieč webom (E-E-A-T)."
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "Prínos: vyhľadávače používajú spoľahlivé hodnoty lastmod na rýchlejšie opätovné prehľadanie zmenených stránok – aktualizovaný obsah sa skôr dostane do odpovedí AI. Jadro WordPressu toto pole vynecháva."
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "Prínos: uvidíte, ktorá AI (ChatGPT, Claude, Perplexity …) číta ktorú stránku – základ všetkých štatistík."
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "Prínos: panel štatistík priradí každý prístup AI k tomuto výrazu, takže uvidíte, ktorá AI číta váš obsah k akej téme. Bez neho sa použije názov článku."
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "Prínos: user agenty sa dajú sfalšovať. Toto oddelí skutočné AI boty od podvodníkov, takže vaše štatistiky ukazujú preukázateľný záujem AI."
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "Prínos: vaše čísla z AI prídu za vami – súčty s trendom, top boty, návštevníci z AI, najčítanejšie stránky a všetko, čo vyžaduje pozornosť, raz týždenne."
+
+msgid "Block all training bots"
+msgstr "Blokovať všetky tréningové boty"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "Prístupy botov za posledných 7 dní podľa dňa v týždni a hodiny, v časovom pásme vašej stránky. Ak publikujete pred rušnými hodinami, nový obsah sa prečíta skôr."
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "Prístupy botov sa porovnávajú s oficiálnymi rozsahmi IP spoločností OpenAI, Anthropic, Perplexity, Google a Microsoft – podvodníci sú vo vašich štatistikách označení."
+
+msgid "Bot identity"
+msgstr "Identita bota"
+
+msgid "Bot identity verification"
+msgstr "Overovanie identity botov"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "Boty sa rozpoznávajú podľa ich oficiálnych podpisov user-agent. Pri každom prístupe sa ukladá: názov bota, kategória, stránka a čas – nič iné. Žiadne IP adresy, žiadne cookies, žiadne osobné údaje, plne v súlade s GDPR."
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "Buduje index, z ktorého citujú vyhľadávače s AI. Zablokovanie vás odstráni z citovaných odpovedí AI – zvyčajne zlý nápad."
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "Skontrolujte stavový panel GEO na stránke štatistík – opravte všetko, čo nie je zelené. Tým odstránite technické prekážky."
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "Zaškrtnuté = blokované cez robots.txt. Google-Extended a Applebot-Extended sú čisté opt-out tokeny: ich zablokovanie vás vylúči z tréningu AI od Google/Apple bez vplyvu na bežné vyhľadávanie."
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "AI boty relevantné pre citácie sú povolené"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "Uvádzanie zdrojov signalizuje dôveryhodnosť – kľúčový faktor hodnotenia pre AI systémy na vyhľadávanie zdrojov."
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "Klasické SEO nestráca hodnotu – Google je pre väčšinu webov stále najväčším zdrojom návštevníkov. GEO prichádza navyše: rovnako jasný a dobre štruktúrovaný obsah, ktorý majú radi AI systémy, sa zvyčajne lepšie umiestňuje aj v klasickom vyhľadávaní. Optimalizáciou pre obe nič nestratíte."
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "Klasické prehľadávanie pre vyhľadávače, ktoré zároveň napája AI asistentov (Bing napája Copilot a časti vyhľadávania ChatGPT). Zablokovanie vás odstráni aj z tohto vyhľadávača."
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "Zbiera obsah na tréning modelov. Zablokovanie vás vo vyhľadávaní s AI nič nestojí – je to čisto rozhodnutie o právach k obsahu."
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "Prepojí prístupy AI s témou vo vašich štatistikách a zameria váš text na jednu jasnú otázku."
+
+msgid "Contains a list or table"
+msgstr "Obsahuje zoznam alebo tabuľku"
+
+msgid "Contains concrete numbers or data"
+msgstr "Obsahuje konkrétne čísla alebo údaje"
+
+msgid "Content & freshness signals"
+msgstr "Signály obsahu a aktuálnosti"
+
+msgid "Contents"
+msgstr "Obsah"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "Kontrola nad tým, kto smie čítať váš obsah: povoľte boty, ktoré vás citujú, a zablokujte tie, ktoré len berú – s jasným varovaním skôr, než zablokujete niečo, čo by vás stálo viditeľnosť."
+
+msgid "Could not load statistics."
+msgstr "Štatistiky sa nepodarilo načítať."
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "Počítať návštevníkov z AI za celostránkovou cache (beacon)"
+
+msgid "Data"
+msgstr "Dáta"
+
+msgid "Date range"
+msgstr "Obdobie"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "Pri odinštalovaní vymazať všetky dáta pluginu"
+
+msgid "Details in the dashboard:"
+msgstr "Podrobnosti na paneli:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "Rozpoznáva sa podľa domény referrera a podľa utm_source (ChatGPT pridáva k citovaným odkazom utm_source=chatgpt.com, čo pretrvá, aj keď sa referrer odstráni). Poznámka: veľa návštev z AI prichádza úplne bez referrera, takže skutočné číslo je vyššie, než dokáže ukázať akýkoľvek nástroj."
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "Priama odpoveď v prvom odseku (20–120 slov)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "Vypnuté. Nič to nestojí a pomáha AI agentom pochopiť štruktúru vašej stránky."
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "Vypnuté. Štruktúrované dáta sú najlacnejší spôsob, ako urobiť váš obsah strojovo čitateľným."
+
+msgid "Dismiss"
+msgstr "Zavrieť"
+
+msgid "Email me on citation alerts"
+msgstr "Posielať mi upozornenia na citácie e-mailom"
+
+msgid "Empty = the site admin email address."
+msgstr "Prázdne = e-mailová adresa správcu stránky."
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "Každú návštevu AI bota, zoradenú podľa toho, čo pre vás znamená (agent, vyhľadávanie zdrojov, tréning)."
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "Každý bod je stránka, ktorú AI čítala za posledných 30 dní: vpravo = čítaná často, dole = slabé GEO skóre. Body vpravo dole sú vaše najväčšie príležitosti – kliknutím na bod stránku upravíte."
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "Každý publikovaný článok a stránka oproti 13 GEO kontrolám – zoradené tak, aby sa najväčšie príležitosti na citácie zobrazili ako prvé, vedľa záujmu AI, ktorý už každá stránka má."
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "Všetko je zadarmo, beží na vašom serveri a neukladá žiadne osobné údaje. Externé služby kontaktujú len voliteľné funkcie, ktoré to výslovne uvádzajú. Pri každej možnosti sa dozviete, čo vám prinesie."
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "Príklad: z /moj-clanok/ sa stane /moj-clanok.md. Vyžaduje pekné trvalé odkazy. Markdown sa generuje z vášho obsahu za behu a je označený ako noindex, takže nikdy nekonkuruje HTML stránke vo vyhľadávaní."
+
+msgid "Export CSV"
+msgstr "Exportovať CSV"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "Zvýrazniť v llms.txt (kľúčový obsah)"
+
+msgid "Feeds"
+msgstr "Kanály"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "Načítava vašu stránku naživo, pretože sa na ňu skutočný človek práve opýtal AI. Návštevnosť s najvyšším záujmom – zablokovanie týchto čitateľov odvráti."
+
+msgid "Filter by AI"
+msgstr "Filtrovať podľa AI"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "Prví ľudskí návštevníci z %s! Váš obsah sa tam cituje."
+
+msgid "Flows: which AI reads which page"
+msgstr "Toky: ktorá AI číta ktorú stránku"
+
+msgid "Focus term"
+msgstr "Hlavný výraz"
+
+msgid "Focus term appears in the title"
+msgstr "Hlavný výraz sa nachádza v nadpise"
+
+msgid "Focus term set"
+msgstr "Hlavný výraz je nastavený"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "Pri väčšine webov tvoria návštevníci z odpovedí AI dnes nízke jednotky percent toho, čo posiela Google – tento podiel však každý štvrťrok prudko rastie. Zmysel začať teraz je etablovať sa ako zdroj skôr než konkurencia."
+
+msgid "GEO Audit"
+msgstr "GEO audit"
+
+msgid "GEO Settings"
+msgstr "Nastavenia GEO"
+
+msgid "GEO check (AI visibility)"
+msgstr "GEO kontrola (viditeľnosť v AI)"
+
+msgid "GEO score"
+msgstr "GEO skóre"
+
+msgid "GEO status of your site"
+msgstr "Stav GEO vašej stránky"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "Vysoký záujem AI, nízke skóre – opravte ich ako prvé."
+
+msgid "Home"
+msgstr "Domov"
+
+msgid "Hour"
+msgstr "Hodina"
+
+msgid "How does an AI even reach my website?"
+msgstr "Ako sa AI vôbec dostane na môj web?"
+
+msgid "How it works"
+msgstr "Ako to funguje"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "Ako to funguje – GEO zrozumiteľne vysvetlené"
+
+msgid "Human visitors from AI answers"
+msgstr "Ľudskí návštevníci z odpovedí AI"
+
+msgid "I already did"
+msgstr "Už som to urobil"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "Overovanie identity je vypnuté. User agenty sa dajú sfalšovať – zapnite overovanie v nastaveniach, aby ste oddelili skutočné AI boty od podvodníkov."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "Ak vám plugin pomáha, napísali by ste krátke hodnotenie na WordPress.org? Zaberie to minútu a pomôže to ďalším majiteľom webov nájsť ho. Ďakujeme!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "Dôležité: za CDN je IP priameho pripojenia adresou proxy – každý skutočný bot by bol označený ako podvodník. Zvoľte svoje nastavenie, aby sa použila pôvodná IP návštevníka. Zapnite len hlavičku, ktorú vaša proxy skutočne nastavuje, inak sa tieto hlavičky dajú sfalšovať."
+
+msgid "Include latest posts"
+msgstr "Zahrnúť najnovšie články"
+
+msgid "Include pages"
+msgstr "Zahrnúť stránky"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "IndexNow je otvorený protokol podporovaný Bingom, Seznamom, Naverom a ďalšími. Pri každom publikovaní, aktualizácii alebo zrušení publikovania plugin odošle verejnú URL a kľúč vašej stránky do API IndexNow – nič iné sa neprenáša. Na overenie sa z vašej stránky automaticky poskytuje súbor s kľúčom. Ak už do IndexNow odosiela iný plugin (napr. Rank Math alebo oficiálny plugin Bing), nechajte to vypnuté, aby ste sa vyhli duplicitným pingom."
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: okamžité pingy na indexovanie"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "Okamžité indexovanie (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "Interné odkazy sú cesty, ktorými crawlery a systémy na vyhľadávanie zdrojov objavujú váš súvisiaci obsah – osirelé stránky sa čítajú menej."
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "Neviditeľný dopad: väčší než počty kliknutí."
+
+msgid "It measures"
+msgstr "Meria"
+
+msgid "It optimizes"
+msgstr "Optimalizuje"
+
+msgid "Job title / role"
+msgstr "Pracovná pozícia / rola"
+
+msgid "Keep statistics for"
+msgstr "Uchovávať štatistiky"
+
+msgid "Key content"
+msgstr "Kľúčový obsah"
+
+msgid "Last seen"
+msgstr "Naposledy videný"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "Naposledy odoslané: %1$s dňa %2$s."
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "Vľavo: AI boty, vpravo: vaše stránky. Šírka pásu = prístupy. Presný počet uvidíte po prejdení myšou nad pásom."
+
+msgid "Links to at least one external source"
+msgstr "Odkazuje aspoň na jeden externý zdroj"
+
+msgid "Links to at least one other page on your site"
+msgstr "Odkazuje aspoň na jednu ďalšiu stránku vášho webu"
+
+msgid "Log AI bot accesses"
+msgstr "Zaznamenávať prístupy AI botov"
+
+msgid "Log human visitors from AI answers"
+msgstr "Zaznamenávať ľudských návštevníkov z odpovedí AI"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "Strojovo čitateľné metadáta pomáhajú AI systémom pochopiť váš obsah a správne ho priradiť."
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "Strojovo čitateľné verzie vášho obsahu (llms.txt, stránky v Markdowne, štruktúrované dáta) – aby AI systémy pochopili vašu stránku čo najjednoduchšie."
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "Urobiť zo svojej stránky zdroj, ktorý AI systémy nájdu, pochopia a citujú, sa nazýva GEO (Generative Engine Optimization). Je to rovnaká myšlienka ako SEO, len pre odpovede AI namiesto modrých odkazov – a keďže to zatiaľ robí oveľa menej webov, tí, ktorí začnú skoro, sú neúmerne viditeľní."
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "Spravovať pravidlá pre AI crawlery v robots.txt"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "Mnoho ľudí si prečíta odpoveď AI, ktorá vás cituje, a nikdy neklikne – ale videli vaše meno ako zdroj. To je viditeľnosť značky, ktorú žiadna štatistika nedokáže úplne zachytiť; samotná citácia je výhra."
+
+msgid "Mark all as read"
+msgstr "Označiť všetko ako prečítané"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "Verzia každej stránky v Markdowne (URL s .md)"
+
+msgid "Max. entries per section"
+msgstr "Max. počet položiek na sekciu"
+
+msgid "Maybe later"
+msgstr "Možno neskôr"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "Medzitým: opravte všetko, čo nie je zelené v stavovom paneli nižšie, a nastavte hlavné výrazy na svojich najdôležitejších stránkach."
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "Čoraz viac ľudí už nezadáva otázky do Googlu – pýtajú sa ChatGPT, Perplexity, Copilot alebo Claude. AI prečíta niekoľko webov, napíše jednu odpoveď a uvedie svoje zdroje. Ak je vaša stránka jedným z týchto zdrojov, budete spomenutí a odkázaní. Ak nie, ste v tom rozhovore neviditeľní – aj keď sa v klasickom Googli umiestňujete dobre."
+
+msgid "Most active AI bots"
+msgstr "Najaktívnejšie AI boty"
+
+msgid "Name (defaults to site title)"
+msgstr "Názov (predvolene názov stránky)"
+
+msgid "Needs attention"
+msgstr "Vyžaduje pozornosť"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Nový a aktualizovaný obsah sa do niekoľkých minút odošle do Bingu a spol. Bing napája Copilot a časti vyhľadávania ChatGPT – rýchlejšie indexovanie znamená rýchlejšie citácie v AI."
+
+msgid "New here? How it all works, in plain language."
+msgstr "Ste tu noví? Ako to celé funguje, zrozumiteľne."
+
+msgid "Next"
+msgstr "Ďalšie"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "Za posledných 30 dní zatiaľ žiadne prístupy AI na hodnotené stránky – mapa sa zaplní, keď AI systémy začnú čítať váš obsah."
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "Zatiaľ neboli stiahnuté žiadne rozsahy IP – prvé stiahnutie prebehne v priebehu nasledujúcej hodiny (alebo pri spustení denného cronu)."
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "Zatiaľ nebola odoslaná žiadna URL – prvý ping spustí najbližšie publikovanie alebo aktualizácia."
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "Za posledných 7 dní zatiaľ žiadne prístupy botov."
+
+msgid "No data for this AI in the selected range."
+msgstr "Pre túto AI nie sú vo vybranom období žiadne údaje."
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "Zatiaľ žiadne údaje. Prístupy AI sa tu zobrazia, hneď ako vašu stránku navštívi známy AI bot alebo návštevník odkázaný z AI."
+
+msgid "No duplicate SEO output"
+msgstr "Žiadny duplicitný SEO výstup"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "Bez žargónu a bez humbuku: čo sa deje, čo s tým tento plugin robí a aké výsledky môžete reálne očakávať."
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "Nie je aktívny žiadny iný SEO plugin – Wille GEO poskytuje schému a meta značky sám."
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "Žiadne príliš dlhé odseky (max. 150 slov)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "Nenašiel sa žiadny fyzický súbor robots.txt – pravidlá pre AI crawlery nastavené vo Wille GEO sú aktívne."
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "Nenašiel sa žiadny fyzický súbor robots.txt. Vo Wille GEO nie sú nastavené žiadne blokovania AI crawlerov, takže sa poskytuje predvolený robots.txt WordPressu bez zmien."
+
+msgid "No published content to audit yet."
+msgstr "Zatiaľ nie je publikovaný žiadny obsah na audit."
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "Nenašla sa žiadna sitemap. WordPress ju štandardne obsahuje – mohol ju vypnúť niektorý plugin alebo nastavenie."
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "Žiadny nástroj nedokáže prinútiť AI, aby vás citovala. AI systémy citujú stránky, ktoré na skutočnú otázku odpovedajú jasne, konkrétne a dôveryhodne. Tento plugin robí presne toto merateľným a systematicky jednoduchším – odstráni každú technickú prekážku a ukáže vám, čo funguje. Podstata však musí prísť od vás."
+
+msgid "No – use the direct connection IP"
+msgstr "Nie – použiť IP priameho pripojenia"
+
+msgid "Not allowed."
+msgstr "Nepovolené."
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "Vypnuté. User agenty sa dajú sfalšovať; zapnutie overovania oddelí skutočné AI boty od podvodníkov (raz denne stiahne verejné zoznamy IP)."
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "Vypnuté. Bez toho sa vyhľadávacie indexy relevantné pre AI dozvedia o novom obsahu až pri ďalšom prehľadaní – IndexNow to urýchli na minúty."
+
+msgid "Official profiles (sameAs)"
+msgstr "Oficiálne profily (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "Na požiadanie aj dôkaz: podvodné boty, ktoré sa vydávajú za známe meno, sa odhalia pomocou oficiálnych zoznamov IP spoločností AI."
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "Raz denne plugin stiahne verejné zoznamy IP, ktoré spoločnosti OpenAI, Anthropic, Perplexity, Google a Microsoft zverejňujú pre svoje crawlery, a každý zaznamenaný prístup označí ako overený, neúspešný (deklarovaná identita z cudzej IP) alebo neoverený. IP návštevníka sa porovnáva len v pamäti a nikdy sa neukladá. Keďže vykonáva externé požiadavky, je voliteľný."
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "Jedna URL na riadok (LinkedIn, GitHub, X, osobný web …). Umožňuje AI systémom overiť tohto autora ako jednu konzistentnú, skutočnú osobu – kľúčový signál E-E-A-T."
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "Jedna alebo dve vety: kto ste a čomu sa vaša stránka venuje."
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "Otvorte ľubovoľný článok v editore – panel „GEO kontrola“ v bočnom paneli vás počas písania prevedie presne týmito krokmi."
+
+msgid "Open improvements"
+msgstr "Otvorené vylepšenia"
+
+msgid "Open the full dashboard"
+msgstr "Otvoriť celý panel"
+
+msgid "Open the settings"
+msgstr "Otvoriť nastavenia"
+
+msgid "Open the statistics dashboard"
+msgstr "Otvoriť panel štatistík"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "Otvorte svojich päť najdôležitejších stránok a pre každú nastavte hlavný výraz: otázku alebo tému, pre ktorú má byť táto stránka TOU odpoveďou."
+
+msgid "Opportunity map"
+msgstr "Mapa príležitostí"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "Vypisovať meta popis a náhľady pre sociálne siete (Open Graph)"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "Vypisovať štruktúrované dáta schema.org (JSON-LD)"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "Vypisuje WebSite, Organization/Person, Article (s dátumami a autorom) a navigačné cesty. AI systémy na vyhľadávanie zdrojov podľa týchto signálov posudzujú aktuálnosť a dôveryhodnosť."
+
+msgid "Page"
+msgstr "Stránka"
+
+msgid "Pages"
+msgstr "Stránky"
+
+msgid "Pages AI read most"
+msgstr "Stránky, ktoré AI číta najčastejšie"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "Ľudia kladú AI asistentom otázky. Nadpisy, ktoré tieto otázky zrkadlia, priamo napájajú váš obsah na skutočné prompty – a dodávajú obsah pre automatickú FAQ schému."
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "Pripnite svoje najlepšie stránky ako kľúčový obsah, aby llms.txt viedol AI agentov priamo k nim."
+
+msgid "Ping IndexNow on publish and update"
+msgstr "Pingnúť IndexNow pri publikovaní a aktualizácii"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "Pripnutý obsah sa zobrazí ako prvý v llms.txt a llms-full.txt – stránky, ktoré najviac chcete, aby AI systémy čítali."
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "Sú aktívne jednoduché trvalé odkazy (Nastavenia → Trvalé odkazy). Koncové body Markdown a súbor s kľúčom IndexNow nemožno poskytovať a čitateľné URL pomáhajú každému crawleru."
+
+msgid "Post"
+msgstr "Článok"
+
+msgid "Post not found."
+msgstr "Článok sa nenašiel."
+
+msgid "Posts"
+msgstr "Články"
+
+msgid "Pretty permalinks enabled"
+msgstr "Pekné trvalé odkazy sú zapnuté"
+
+msgid "Previous"
+msgstr "Predchádzajúce"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "Súkromie: tento plugin predvolene neukladá IP adresy, nenastavuje cookies a nevykonáva žiadne externé požiadavky. Jedinými výnimkami sú dve voliteľné funkcie, ktoré máte pod kontrolou: overovanie botov (raz denne stiahne verejné zoznamy IP crawlerov) a IndexNow (odosiela publikované URL do API IndexNow). Všetky štatistiky zostávajú vo vašej databáze WordPressu."
+
+msgid "Profile URLs (sameAs)"
+msgstr "URL profilov (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "Kvalita: nezvyčajne vysoká."
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "Ohodnotiť Wille GEO na WordPress.org (otvorí sa na novej karte)"
+
+msgid "Rate ★★★★★"
+msgstr "Ohodnotiť ★★★★★"
+
+msgid "Re-scan"
+msgstr "Znova skenovať"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "Čitateľné URL sú aktívne – koncové body .md a súbor s kľúčom IndexNow fungujú."
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "Skutočných ľudí prichádzajúcich z odpovedí AI – skutočný výnos, podľa AI a podľa stránky."
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "Skutoční ľudia, ktorí klikli na váš odkaz v ChatGPT, Perplexity a spol. Toto je výnos z GEO."
+
+msgid "Recipient"
+msgstr "Príjemca"
+
+msgid "Reload page"
+msgstr "Znova načítať stránku"
+
+msgid "Retrieval"
+msgstr "Vyhľadávanie zdrojov"
+
+msgid "Retrieval (citation index)"
+msgstr "Vyhľadávanie zdrojov (citačný index)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "Boty na vyhľadávanie zdrojov a agenti môžu čítať vaše stránky – môžete sa objaviť v odpovediach AI."
+
+msgid "Retrieval bots"
+msgstr "Boty na vyhľadávanie zdrojov"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "Boty na vyhľadávanie zdrojov musia vaše vylepšené stránky najprv nájsť a znovu prečítať. Prvé merateľné účinky očakávajte po niekoľkých týždňoch a spravodlivé zhodnotenie po troch až šiestich mesiacoch – panel vám počas celého času ukazuje trend."
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "Boty na vyhľadávanie zdrojov používajú sitemap na rýchle objavenie nového obsahu."
+
+msgid "Review Wille GEO"
+msgstr "Ohodnotiť Wille GEO"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "Pravidlá sa pripájajú k súboru robots.txt generovanému WordPressom. Fyzický súbor robots.txt v koreňovom adresári webu by ich prepísal – stavový panel na stránke štatistík vás upozorní, ak existuje. Majte na pamäti, že robots.txt funguje na báze dôvery; známe boty ho rešpektujú."
+
+msgid "Running GEO checks …"
+msgstr "Prebiehajú GEO kontroly …"
+
+msgid "Save settings"
+msgstr "Uložiť nastavenia"
+
+msgid "Score distribution"
+msgstr "Rozdelenie skóre"
+
+msgid "Search"
+msgstr "Vyhľadávanie"
+
+msgid "Search (feeds AI answers)"
+msgstr "Vyhľadávanie (napája odpovede AI)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "Vyhľadávače a AI crawlery môžu stránku indexovať."
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "Zistite, ktorá AI (ChatGPT, Claude, Perplexity…) číta ktoré z vašich stránok – a optimalizujte web pre vyhľadávanie pomocou AI (GEO). Zadarmo, bez osobných údajov."
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "Posielať týždenný prehľad viditeľnosti v AI e-mailom"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "Odoslané pluginom Wille GEO. Tento prehľad môžete kedykoľvek vypnúť v Wille GEO → Nastavenia."
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "Odosiela sa cez bežný poštový systém WordPressu, len ak v danom týždni skutočne bola aktivita AI – tiché stránky sa nikdy nezahlcujú. Môžete ho spustiť aj ručne príkazom WP-CLI „wp geoins report“."
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "Poskytovať /llms-full.txt s úplným obsahom"
+
+msgid "Serve a generated /llms.txt"
+msgstr "Poskytovať vygenerovaný /llms.txt"
+
+msgid "Served at %s."
+msgstr "Poskytované na adrese %s."
+
+msgid "Settings"
+msgstr "Nastavenia"
+
+msgid "Short site description (optional)"
+msgstr "Krátky popis stránky (voliteľné)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "Krátke, samostatné odseky sú jednotkou, ktorú AI systémy preberajú do odpovedí. Dlhé bloky sa preskakujú."
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "Zobrazovať pri upravených článkoch viditeľný dátum „Aktualizované“"
+
+msgid "Show all AIs"
+msgstr "Zobraziť všetky AI"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "Zobrazuje sa nad obsahom, len ak bol článok podstatne upravený (viac než dva dni po publikovaní). Strojovo čitateľný dateModified je vo vašich štruktúrovaných dátach vždy, bez ohľadu na tento prepínač."
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "Zobrazuje sa AI systémom ako strojovo čitateľná odbornosť (schema.org jobTitle), napr. „Senior WordPress vývojár“."
+
+msgid "Site represents"
+msgstr "Stránka reprezentuje"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "Beží stránka za proxy/CDN?"
+
+msgid "Site visible to crawlers"
+msgstr "Stránka je viditeľná pre crawlery"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "Kto sa preklikne z odpovede AI, už čítal zhrnutie a chce viac do hĺbky – štúdie aj údaje z e-shopov opakovane ukazujú, že títo návštevníci konvertujú výrazne lepšie než bežná návštevnosť z vyhľadávania. Menej návštevníkov, ale s väčším záujmom."
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "Prepáčte, ale na túto akciu nemáte oprávnenie."
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "Rýchlosť: nový a aktualizovaný obsah sa vyhľadávačom ohlási do niekoľkých minút (IndexNow) – čím skôr je zaindexovaný, tým skôr ho môže AI citovať."
+
+msgid "Statistics"
+msgstr "Štatistiky"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "Štatistiky a konkrétne čísla merateľne zvyšujú šancu na citáciu – odpovede AI milujú overiteľné čísla."
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "Štruktúrované časti (zoznamy, tabuľky) AI extrahuje a cituje oveľa častejšie než súvislý text."
+
+msgid "Structured data & meta tags"
+msgstr "Štruktúrované dáta a meta značky"
+
+msgid "Structured data (schema.org)"
+msgstr "Štruktúrované dáta (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "Jasné, napíšem hodnotenie"
+
+msgid "Table of contents"
+msgstr "Obsah"
+
+msgid "Term"
+msgstr "Výraz"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "Výrazy a stránky: ktorá AI číta čo?"
+
+msgid "The audit table needs JavaScript."
+msgstr "Tabuľka auditu vyžaduje JavaScript."
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "Beacon beží len pre neprihlásených návštevníkov, kontroluje len, či návšteva prišla zo známej AI (doména referrera alebo utm_source), a len vtedy odošle zdroj a cestu stránky na vašu vlastnú stránku. Žiadne cookies, žiadne IP, žiadny fingerprinting, žiadna externá služba. Dvojitému započítaniu so sledovaním na strane servera sa predchádza automaticky. Ak vaša stránka nepoužíva celostránkovú cache, nechajte to vypnuté – PHP sledovanie už vidí všetko."
+
+msgid "The honest limit: content decides."
+msgstr "Úprimná hranica: rozhoduje obsah."
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "Fyzický robots.txt blokuje %s. Tieto boty vás dostávajú do odpovedí AI – upravte súbor, aby ste ich odblokovali (pravidlá nastavené tu zostávajú neaktívne, kým súbor existuje)."
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "Fyzický robots.txt blokuje VŠETKY crawlery (User-agent: * / Disallow: /). Žiadny vyhľadávač ani AI systém nemôže čítať vašu stránku – upravte súbor."
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "Fyzický robots.txt predvolene blokuje všetky crawlery (User-agent: * / Disallow: /); vašu stránku môžu čítať len crawlery s vlastnými výnimkami v súbore. Každý AI systém bez výnimky má prístup zablokovaný – upravte súbor."
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "Panel štatistík priradí každý prístup AI k tomuto výrazu. Prázdne = názov článku."
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "Panel štatistík vyžaduje JavaScript. Použite namiesto toho export CSV alebo WP-CLI (wp geoins stats)."
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "Potom to nechajte bežať. Panel kontrolujte raz týždenne (alebo zapnite e-mailový prehľad) a investujte tam, kde sa už prejavuje záujem AI – tam sú citácie najbližšie."
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "Tieto user agenty znejú ako AI systémy, ale zatiaľ nie sú v registri – ich prístupy preto NIE SÚ v štatistikách vyššie. Časté položky sa oplatí pridať cez filter geoins_bots (alebo ich nahláste autorovi pluginu)."
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "Tento plugin rozpozná tieto boty pri každej návšteve a ukáže vám na paneli: ktorá AI číta ktoré vaše stránky, ako často a k akej téme. A keď človek klikne na odkaz na vašu stránku v odpovedi AI, započíta sa aj táto návšteva – to je moment, keď sa viditeľnosť v AI mení na potenciálneho zákazníka."
+
+msgid "Timeline: weeks to months, not days."
+msgstr "Časový rámec: týždne až mesiace, nie dni."
+
+msgid "Title"
+msgstr "Názov"
+
+msgid "Tracking"
+msgstr "Sledovanie"
+
+msgid "Training"
+msgstr "Tréning"
+
+msgid "Training bots"
+msgstr "Tréningové boty"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "Dve veci: meria a optimalizuje. Všetko beží na vašom vlastnom serveri, nič sa nikam neodosiela a každý prepínač v nastaveniach vysvetlí svoj prínos skôr, než ho zapnete."
+
+msgid "Updated"
+msgstr "Aktualizované"
+
+msgid "Updated on %s"
+msgstr "Aktualizované %s"
+
+msgid "Updated within the last 12 months"
+msgstr "Aktualizované za posledných 12 mesiacov"
+
+msgid "User agent"
+msgstr "User agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "Overovať identitu botov podľa oficiálnych rozsahov IP"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "Veľmi stručné stránky zriedka obsahujú dosť podstaty, na ktorej by AI mohla postaviť odpoveď."
+
+msgid "View your key file"
+msgstr "Zobraziť súbor s kľúčom"
+
+msgid "View your llms-full.txt"
+msgstr "Zobraziť váš llms-full.txt"
+
+msgid "View your llms.txt"
+msgstr "Zobraziť váš llms.txt"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "Viditeľná odbornosť (skutočný autor so životopisom) posilňuje signály E-E-A-T, podľa ktorých AI systémy vyberajú dôveryhodné zdroje."
+
+msgid "Volume: still small, growing fast."
+msgstr "Objem: zatiaľ malý, rýchlo rastie."
+
+msgid "Waiting for the first AI visit"
+msgstr "Čaká sa na prvú návštevu AI"
+
+msgid "Weekly email report"
+msgstr "Týždenný e-mailový prehľad"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "Čo môžem reálne očakávať? Úprimná odpoveď"
+
+msgid "What does the plugin actually do for me?"
+msgstr "Čo pre mňa plugin vlastne robí?"
+
+msgid "What happened"
+msgstr "Čo sa stalo"
+
+msgid "What is happening right now?"
+msgstr "Čo sa práve deje?"
+
+msgid "When do AIs read your site?"
+msgstr "Kedy AI čítajú vašu stránku?"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "Kde začať? Päť krokov, 30 minút"
+
+msgid "Which AI bots?"
+msgstr "Ktoré AI boty?"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "Ktorá AI čítala vaše stránky a ktoré odpovede AI vám priviedli ľudských návštevníkov."
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "Ktorá AI číta ktoré vaše stránky, pre aký výraz – a ktoré odpovede AI vám skutočne privádzajú ľudských návštevníkov."
+
+msgid "Why does this matter?"
+msgstr "Prečo je to dôležité?"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Wille GEO je aktívny."
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Wille GEO vytvoril %1$s. Pomáha vám? Hodnotenie %2$s na WordPress.org pomôže ostatným nájsť ho – ďakujeme!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "Wille GEO na %s zaznamenal:"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: signály autora (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "Prejdite na týchto stránkach GEO checklist – najmä: odpovedzte na hlavnú otázku priamo v prvom odseku a premeňte nadpisy na skutočné otázky."
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "Funguje pri článkoch a stránkach s aspoň dvoma nadpismi v tvare otázky (H2/H3 končiace otáznikom). Žiadna práca navyše – píšte otázky ako nadpisy a schéma sa vytvorí sama."
+
+msgid "XML sitemap available"
+msgstr "XML sitemap je k dispozícii"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "Áno, Cloudflare (CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "Áno, iná proxy (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "Blokujete %s. Tieto boty vás dostávajú do odpovedí AI – ich zablokovanie vás odstráni z citácií."
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "Tento e-mail dostávate, pretože upozornenia na citácie e-mailom sú zapnuté v Wille GEO → Nastavenia."
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "Váš súbor s kľúčom IndexNow nie je dostupný z vášho vlastného servera, preto sú pingy pozastavené. Bežné príčiny: jednoduché trvalé odkazy (opravíte v Nastavenia → Trvalé odkazy) alebo bezpečnostný plugin blokujúci loopback požiadavky. Po oprave tieto nastavenia znova uložte – kontrola sa spustí krátko po uložení."
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "Platnosť overenia relácie vypršala – pokračujte opätovným načítaním stránky."
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] Viditeľnosť v AI tento týždeň: %2$d prístupov AI, %3$d návštevníkov z AI"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] Nový signál viditeľnosti v AI"
+
+msgid "a person"
+msgstr "osobu"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "skutočný človek sa práve opýtal AI a AI práve teraz číta vašu stránku, aby mu odpovedala. Je to najcennejší signál, aký existuje: niekto sa práve v tejto chvíli zaujíma o vašu tému."
+
+msgid "accesses"
+msgstr "prístupy"
+
+msgid "an organization"
+msgstr "organizáciu"
+
+msgid "blocking costs citations"
+msgstr "blokovanie stojí citácie"
+
+msgid "blocking is safe for citations"
+msgstr "blokovanie je pre citácie bezpečné"
+
+msgid "by %s"
+msgstr "od %s"
+
+msgid "days"
+msgstr "dní"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "napr. WordPress plugin na zálohovanie"
+
+msgid "forever"
+msgstr "navždy"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "podvodníci"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "llms.txt je k dispozícii"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "llms.txt je mladý štandard: prehľad vášho najdôležitejšieho obsahu vo formáte Markdown na adrese /llms.txt. Generuje sa automaticky z vašich stránok a článkov a ukladá sa do vyrovnávacej pamäte na 12 hodín."
+
+msgid "more"
+msgstr "viac"
+
+msgid "new"
+msgstr "nové"
+
+msgid "pages"
+msgstr "stránky"
+
+msgid "passed"
+msgstr "splnené"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "budujú knižnicu, z ktorej AI neskôr cituje. To, či ste v tejto knižnici, rozhoduje o tom, či vás vôbec možno citovať."
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "zbierajú text na tréning budúcich AI modelov. Neprinesú vám žiadnych návštevníkov ani citácie. Či ich povolíte, je čisto rozhodnutie o právach k obsahu – ich zablokovanie vás nič nestojí."
+
+msgid "unchecked"
+msgstr "neoverené"
+
+msgid "verified"
+msgstr "overené"
+
+msgid "visitors"
+msgstr "návštevníci"
+
+msgid "vs. previous period"
+msgstr "oproti predchádzajúcemu obdobiu"

@@ -1,10 +1,10 @@
 === Wille GEO – AI Crawler Stats, llms.txt & AI Visibility ===
 Contributors: lcswll
-Tags: geo, ai, seo, statistics, llms.txt
+Tags: geo, llms.txt, ai crawler, chatgpt, ai seo
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.3.1
+Stable tag: 2.3.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -153,6 +153,10 @@ The license headers of these libraries are kept in the bundle, and the readable 
 
 == Changelog ==
 
+= 2.3.2 =
+* New: Live Preview on wordpress.org – try the plugin in your browser with a filled demo dashboard, no installation needed.
+* Readme: more precise search tags.
+
 = 2.3.1 =
 * Security: Markdown endpoints, llms.txt and llms-full.txt escape their output – text that decodes to markup (e.g. "&lt;script&gt;" in a post) can no longer reach the response; sent with X-Content-Type-Options: nosniff.
 * Hardened: profile fields verify the nonce themselves, utm_source is read from the request URI, no silenced errors, robots.txt is read via the WordPress filesystem API, WP-CLI export writes via WP_Filesystem.
@@ -268,6 +272,9 @@ The license headers of these libraries are kept in the bundle, and the readable 
 * Initial release: AI bot tracking, AI referral tracking, statistics dashboard, robots.txt AI control, llms.txt generator, JSON-LD schema with auto-FAQ, meta tags, per-post GEO checks, EN/DE translations.
 
 == Upgrade Notice ==
+
+= 2.3.2 =
+No code changes – Live Preview and readme update.
 
 = 2.3.1 =
 Escaped output for the Markdown and llms.txt endpoints, further hardening.

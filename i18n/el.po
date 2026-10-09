@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "Η επιλογή «Αποθάρρυνση μηχανών αναζήτησης» είναι ενεργή (Ρυθμίσεις → Ανάγνωση). Κανένα σύστημα AI δεν μπορεί να σας βρει μέχρι να την απενεργοποιήσετε."
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%1$d περιοχές IP από %2$d παρόχους, τελευταία ενημέρωση %3$s."
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "Το %s (ανιχνευτής εκπαίδευσης) επισκέφθηκε τον ιστότοπό σας για πρώτη φορά."
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "Το %s ανίχνευσε τον ιστότοπό σας για πρώτη φορά – ένα AI σχετικό με αναφορές σάς διαβάζει πλέον."
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "Εντοπίστηκε το %s – το Wille GEO αφήνει αυτόματα σε αυτό το schema και τις μετα-ετικέτες και προσθέτει μόνο ό,τι λείπει (καταγραφή, llms.txt, έλεγχος robots, έλεγχοι GEO)."
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "Το %s είναι ενεργό. Για να αποφευχθεί διπλή έξοδος, το Wille GEO αφήνει αυτόματα σε αυτό το schema και τις μετα-ετικέτες – οι παρακάτω διακόπτες αγνοούνται όσο εκτελείται. Όλα τα υπόλοιπα (καταγραφή, llms.txt, έλεγχος robots, έλεγχοι GEO) λειτουργούν παράλληλα."
+
+msgid "(opens in a new tab)"
+msgstr "(ανοίγει σε νέα καρτέλα)"
+
+msgid "1 year"
+msgstr "1 έτος"
+
+msgid "180 days"
+msgstr "180 ημέρες"
+
+msgid "30 days"
+msgstr "30 ημέρες"
+
+msgid "7-day average"
+msgstr "Μέσος όρος 7 ημερών"
+
+msgid "90 days"
+msgstr "90 ημέρες"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "Μια καθαρή έκδοση Markdown κάθε σελίδας είναι διαθέσιμη προσθέτοντας .md στο URL της."
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "Μια ζωντανή λίστα ελέγχου ενώ γράφετε: δεκατρία συγκεκριμένα, τεκμηριωμένα κριτήρια που κάνουν μια σελίδα άξια παράθεσης από το AI (απάντηση πρώτα, επικεφαλίδες-ερωτήσεις, λίστες, αριθμοί, επικαιρότητα …)."
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "Υπάρχει φυσικό robots.txt και δεν περιέχει τους αποκλεισμούς που ορίσατε εδώ (%s) – δεν έχουν καμία επίδραση μέχρι να τους προσθέσετε στο αρχείο ή να το διαγράψετε."
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "Υπάρχει φυσικό αρχείο robots.txt, αλλά δεν ήταν δυνατή η ανάγνωσή του για ανάλυση. Υπερισχύει των κανόνων που ορίζονται εδώ – ελέγξτε το χειροκίνητα."
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "Υπάρχει φυσικό αρχείο robots.txt, αλλά προς το παρόν είναι εντάξει: δεν αποκλείει κανένα bot AI σχετικό με αναφορές και ταιριάζει με τη διαμόρφωσή σας. Σημείωση: οι κανόνες που ορίζονται εδώ παραμένουν ανενεργοί όσο υπάρχει το αρχείο."
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "Ένα ρεαλιστικό παράδειγμα: ένας εξειδικευμένος ιστότοπος με 50 σοβαρά άρθρα που υιοθετεί τη λίστα ελέγχου GEO μπορεί να περιμένει τις πρώτες αναφορές σε AI και μια μικρή αλλά σταθερά αυξανόμενη ροή επισκεπτών υψηλής πρόθεσης μέσα σε λίγους μήνες – σκεφτείτε το σαν να ανοίγετε μια δεύτερη, ακόμη μικρή πόρτα για την επιχείρησή σας που μεγαλώνει κάθε μήνα, όχι σαν αντικατάσταση του Google."
+
+msgid "AI (30d)"
+msgstr "AI (30 ημ.)"
+
+msgid "AI Statistics"
+msgstr "Στατιστικά AI"
+
+msgid "AI accesses"
+msgstr "Προσβάσεις AI"
+
+msgid "AI accesses (30d)"
+msgstr "Προσβάσεις AI (30 ημ.)"
+
+msgid "AI accesses per day"
+msgstr "Προσβάσεις AI ανά ημέρα"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "Οι βοηθοί AI παραθέτουν αυτοτελή τμήματα απαντήσεων. Αν η πρώτη παράγραφος απαντά στο βασικό ερώτημα, είναι το ευκολότερο να παρατεθεί."
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "Από τώρα καταγράφονται οι προσβάσεις bot AI και οι επισκέπτες από απαντήσεις AI – τα δεδομένα εμφανίζονται μόλις το πρώτο AI φτάσει στον ιστότοπό σας."
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "Προσβάσεις bot AI τις τελευταίες 30 ημέρες – άνοιγμα του πίνακα στατιστικών"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "Οι εταιρείες AI στέλνουν αυτοματοποιημένους επισκέπτες – bot – στον ιστότοπό σας. Αυτοπροσδιορίζονται με ένα όνομα, και το όνομα σάς λέει ακριβώς γιατί ήρθαν. Τρία είδη έχουν σημασία, και σημαίνουν πολύ διαφορετικά πράγματα για την επιχείρησή σας:"
+
+msgid "AI companies: share of accesses"
+msgstr "Εταιρείες AI: μερίδιο προσβάσεων"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "Πρόσβαση ανιχνευτών AI (robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "Οι ανιχνευτές AI δεν μεταδίδουν ερωτήματα αναζήτησης. Αυτός ο πίνακας αντιστοιχίζει κάθε πρόσβαση στον όρο εστίασης της σελίδας (ορίστε τον στο πλαίσιο «Έλεγχος GEO» της οθόνης επεξεργασίας) – το ειλικρινές, πρακτικό ισοδύναμο."
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "Ραντάρ AI: μη αναγνωρισμένοι ανιχνευτές που μοιάζουν με AI"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "Η αναζήτηση AI προτιμά πρόσφατες πηγές· η ημερομηνία τροποποίησης αποστέλλεται στα δομημένα δεδομένα σας. Η ετήσια αναθεώρηση του περιεχομένου σάς κρατά άξιους αναφοράς."
+
+msgid "AI source"
+msgstr "Πηγή AI"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "Τα συστήματα AI αντιστοιχίζουν τις ερωτήσεις πρώτα με τους τίτλους – ένας σαφής τίτλος κάνει τη σελίδα σας την προφανή πηγή."
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "Τα συστήματα AI διάβασαν τον ιστότοπό σας %s φορές τις τελευταίες 30 ημέρες – το Wille GEO κάνει τη δουλειά του."
+
+msgid "AI visibility, last 7 days"
+msgstr "Ορατότητα σε AI, τελευταίες 7 ημέρες"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Αιχμή επισκεπτών από AI: %1$d επισκέπτες από απαντήσεις AI χθες (πρόσφατος μέσος όρος: %2$s/ημέρα)."
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Αιχμή επισκεπτών από AI: %1$s επισκέπτες από απαντήσεις AI χθες (πρόσφατος μέσος όρος: %2$s/ημέρα)."
+
+msgid "AI visitors"
+msgstr "Επισκέπτες από AI"
+
+msgid "AI visitors: landing pages"
+msgstr "Επισκέπτες από AI: σελίδες προορισμού"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "Σε όλες τις βαθμολογημένες σελίδες. Κάθε μονάδα παραπάνω είναι ένα ακόμη κριτήριο που πληροί η τυπική σελίδα σας."
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "Προσθήκη ακριβών χρόνων ενημέρωσης (lastmod) στον χάρτη ιστότοπου XML"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "Προσθέτει αναγνωριστικά άγκυρας σε όλες τις επικεφαλίδες H2/H3 και, σε άρθρα με τρεις ή περισσότερες επικεφαλίδες, εισάγει έναν συμπαγή πίνακα περιεχομένων με συνδέσμους πριν από την πρώτη H2. Η μορφοποίηση είναι ελάχιστη και κληρονομεί τις γραμματοσειρές και τα χρώματα του θέματός σας."
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "Προσθέτει τον πραγματικό χρόνο τροποποίησης κάθε άρθρου στον χάρτη ιστότοπου του πυρήνα του WordPress. Ενεργό μόνο όσο λειτουργεί ο χάρτης ιστότοπου του πυρήνα· τα πρόσθετα SEO που αντικαθιστούν τον χάρτη ιστότοπου δεν επηρεάζονται."
+
+msgid "Agent"
+msgstr "Πράκτορας"
+
+msgid "Agent (live user request)"
+msgstr "Πράκτορας (ζωντανό αίτημα χρήστη)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "Πράκτορας + Ανάκτηση = σχετικά με αναφορές: ένα AI διάβασε τη σελίδα σας για να απαντήσει σε μια πραγματική ερώτηση. Η εκπαίδευση απλώς τροφοδοτεί μοντέλα."
+
+msgid "Agent bots"
+msgstr "Bot πρακτόρων"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "Οι ειδοποιήσεις εμφανίζονται πάντα στον πίνακα· αυτή η επιλογή τις στέλνει επιπλέον μέσω email (συγκεντρωτικά, το πολύ ένα μήνυμα την ημέρα). Χρησιμοποιεί τον παρακάτω παραλήπτη."
+
+msgid "All AIs"
+msgstr "Όλα τα AI"
+
+msgid "All checks passed"
+msgstr "Όλοι οι έλεγχοι επιτυχείς"
+
+msgid "All images have alt text"
+msgstr "Όλες οι εικόνες έχουν εναλλακτικό κείμενο"
+
+msgid "All types"
+msgstr "Όλοι οι τύποι"
+
+msgid "Allow all bots"
+msgstr "Να επιτρέπονται όλα τα bot"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "Το εναλλακτικό κείμενο είναι ο τρόπος με τον οποίο τα συστήματα AI κατανοούν τις εικόνες σας – και ένα καθιερωμένο σήμα προσβασιμότητας και κατάταξης. Οι σελίδες χωρίς εικόνες περνούν αυτόματα."
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "Ανάλυση περιεχομένου … %1$s από %2$s ολοκληρώθηκαν"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "Εμβαδόν = προσβάσεις στο επιλεγμένο διάστημα. Κάντε κλικ σε μια εταιρεία για να δείτε αναλυτικά τα μεμονωμένα bot της."
+
+msgid "At least 300 words"
+msgstr "Τουλάχιστον 300 λέξεις"
+
+msgid "At least one heading phrased as a question"
+msgstr "Τουλάχιστον μία επικεφαλίδα διατυπωμένη ως ερώτηση"
+
+msgid "Author has a profile description"
+msgstr "Ο συντάκτης έχει περιγραφή προφίλ"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "Αυτόματη δημιουργία FAQ schema από επικεφαλίδες-ερωτήσεις"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "Αυτόματος πίνακας περιεχομένων με άγκυρες επικεφαλίδων"
+
+msgid "Average GEO score"
+msgstr "Μέση βαθμολογία GEO"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "Να είστε επιφυλακτικοί με όποιον σας υπόσχεται πλημμύρα πελατών από την αναζήτηση AI. Αυτή είναι η ειλικρινής εικόνα:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Όφελος: το Bing και άλλοι ανακτούν το νέο και ενημερωμένο περιεχόμενο μέσα σε λίγα λεπτά αντί για ημέρες. Το Bing τροφοδοτεί το Microsoft Copilot και μέρη της αναζήτησης του ChatGPT – ταχύτερη ευρετηρίαση σημαίνει ταχύτερες αναφορές σε AI."
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "Όφελος: μια σύνοψη του ιστότοπου αναγνώσιμη από μηχανές για πράκτορες AI. Ειλικρινά: οι μεγάλοι ανιχνευτές σπάνια το ανακτούν ακόμη – αλλά οι πράκτορες προγραμματισμού/IDE το κάνουν, δεν κοστίζει τίποτα και σας τοποθετεί καλά καθώς το πρότυπο εξαπλώνεται."
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "Όφελος: οι πράκτορες που θέλουν κάτι περισσότερο από την επισκόπηση λαμβάνουν όλο το βασικό σας περιεχόμενο ως καθαρό Markdown σε ένα μόνο αρχείο."
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "Όφελος: προσθέτοντας .md σε οποιοδήποτε URL επιστρέφεται καθαρό Markdown – χωρίς σήμανση θέματος, χωρίς scripts. Φθηνότερο στην ανάγνωση για τους πράκτορες AI και δηλώνεται μέσω μιας ετικέτας link σε κάθε σελίδα."
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "Όφελος: οι σελίδες από την cache δεν εκτελούν ποτέ PHP, οπότε οι επισκέπτες από AI σε αυτές είναι αόρατοι στην καταγραφή από τον διακομιστή. Αυτό το μικροσκοπικό beacon του προγράμματος περιήγησης (<1 kB) καλύπτει αυτό το κενό."
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "Όφελος: καθαρά αποσπάσματα σε αναζητήσεις, συνομιλίες και κοινωνικές εφαρμογές – δημιουργούνται από το απόσπασμα ή το περιεχόμενό σας, χωρίς καμία συντήρηση."
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "Όφελος: αποφασίστε ανά bot ποιος μπορεί να διαβάζει το περιεχόμενό σας – με σαφή προειδοποίηση πριν αποκλείσετε κάτι που σας κοστίζει αναφορές σε AI."
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "Όφελος: κάθε ενότητα αποκτά έναν άμεσο σύνδεσμο (#section) που τα συστήματα AI και οι μηχανές αναζήτησης μπορούν να αναφέρουν με ακρίβεια, και οι αναγνώστες μπορούν να μεταβούν κατευθείαν στην απάντηση."
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "Όφελος: η επικαιρότητα είναι σήμα κατάταξης και αναφοράς – και η ορατή ημερομηνία είναι αυτή που πραγματικά λαμβάνουν τα αποσπάσματα αναζήτησης και οι απαντήσεις AI."
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "Όφελος: οι επικεφαλίδες που τελειώνουν σε «;» μαζί με τις απαντήσεις τους γίνονται δομημένα δεδομένα FAQ – ακριβώς η μορφή ερωτήσεων-απαντήσεων που παραθέτουν οι βοηθοί AI."
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "Όφελος: διατηρεί τη βάση δεδομένων σας μικρή. Οι παλαιότερες εγγραφές διαγράφονται αυτόματα μία φορά την ημέρα."
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "Όφελος: μάθετε τη στιγμή που μετράει – την πρώτη ανίχνευση από ένα νέο AI, τους πρώτους επισκέπτες από έναν βοηθό AI ή μια ξαφνική αιχμή επισκεπτών από AI."
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "Όφελος: αφήνει τη βάση δεδομένων σας ακριβώς όπως ήταν. Απενεργοποιημένο από προεπιλογή, ώστε τα στατιστικά σας να διατηρούνται μετά από επανεγκατάσταση."
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "Όφελος: μεταδεδομένα άρθρου, συντάκτη, ημερομηνίας και ιστότοπου αναγνώσιμα από μηχανές – ο φθηνότερος τρόπος να βοηθήσετε τα συστήματα AI να κατανοούν και να αποδίδουν σωστά το περιεχόμενό σας."
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "Όφελος: μετρήστε το πραγματικό όφελος του GEO – ανθρώπους που φτάνουν σε εσάς από το ChatGPT, το Perplexity και άλλα."
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "Όφελος: ένα URL προφίλ ανά γραμμή (LinkedIn, GitHub, YouTube, Wikipedia …). Τα συστήματα AI χρησιμοποιούν αυτούς τους συνδέσμους για να σας αναγνωρίζουν ως μία συνεπή, αξιόπιστη οντότητα σε όλο το διαδίκτυο (E-E-A-T)."
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "Όφελος: οι μηχανές αναζήτησης χρησιμοποιούν αξιόπιστες τιμές lastmod για να ανιχνεύουν ξανά γρηγορότερα τις αλλαγμένες σελίδες – το ενημερωμένο περιεχόμενο φτάνει νωρίτερα στις απαντήσεις AI. Ο πυρήνας του WordPress παραλείπει αυτό το πεδίο."
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "Όφελος: δείτε ποιο AI (ChatGPT, Claude, Perplexity …) διαβάζει ποια σελίδα – η βάση όλων των στατιστικών."
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "Όφελος: ο πίνακας στατιστικών αντιστοιχίζει κάθε πρόσβαση AI σε αυτόν τον όρο, ώστε να βλέπετε ποιο AI διαβάζει το περιεχόμενό σας για ποιο θέμα. Χωρίς αυτόν, χρησιμοποιείται ο τίτλος του άρθρου."
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "Όφελος: τα user agents μπορούν να πλαστογραφηθούν. Έτσι ξεχωρίζουν τα πραγματικά bot AI από τους απατεώνες, ώστε τα στατιστικά σας να δείχνουν αποδεδειγμένο ενδιαφέρον από AI."
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "Όφελος: οι αριθμοί AI έρχονται σε εσάς – σύνολα με τάση, κορυφαία bot, επισκέπτες από AI, πιο διαβασμένες σελίδες και ό,τι χρειάζεται προσοχή, μία φορά την εβδομάδα."
+
+msgid "Block all training bots"
+msgstr "Αποκλεισμός όλων των bot εκπαίδευσης"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "Προσβάσεις bot των τελευταίων 7 ημερών ανά ημέρα της εβδομάδας και ώρα, στη ζώνη ώρας του ιστότοπού σας. Αν δημοσιεύετε πριν από τις πολυάσχολες ώρες, το νέο περιεχόμενο διαβάζεται νωρίτερα."
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "Οι επισκέψεις bot ελέγχονται με τις επίσημες περιοχές IP των OpenAI, Anthropic, Perplexity, Google και Microsoft – οι απατεώνες επισημαίνονται στα στατιστικά σας."
+
+msgid "Bot identity"
+msgstr "Ταυτότητα bot"
+
+msgid "Bot identity verification"
+msgstr "Επαλήθευση ταυτότητας bot"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "Τα bot αναγνωρίζονται από τις επίσημες υπογραφές user-agent τους. Ανά πρόσβαση αποθηκεύονται: όνομα bot, κατηγορία, σελίδα και ώρα – τίποτε άλλο. Χωρίς διευθύνσεις IP, χωρίς cookies, χωρίς προσωπικά δεδομένα, πλήρως φιλικό προς τον GDPR."
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "Δημιουργεί το ευρετήριο από το οποίο παραθέτουν οι μηχανές αναζήτησης AI. Ο αποκλεισμός σάς αφαιρεί από τις απαντήσεις AI με αναφορές – συνήθως κακή ιδέα."
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "Ελέγξτε τον πίνακα κατάστασης GEO στη σελίδα στατιστικών – διορθώστε ό,τι δεν είναι πράσινο. Έτσι αφαιρούνται τα τεχνικά εμπόδια."
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "Επιλεγμένο = αποκλεισμένο μέσω robots.txt. Τα Google-Extended και Applebot-Extended είναι καθαρά διακριτικά εξαίρεσης: ο αποκλεισμός τους σάς εξαιρεί από την εκπαίδευση AI της Google/Apple χωρίς να επηρεάζει την κανονική αναζήτηση."
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "Επιτρέπονται τα bot AI που σχετίζονται με αναφορές"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "Η παράθεση πηγών δείχνει αξιοπιστία – βασικός παράγοντας κατάταξης για τα συστήματα ανάκτησης AI."
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "Το κλασικό SEO δεν χάνει την αξία του – το Google παραμένει η μεγαλύτερη πηγή επισκεπτών για τους περισσότερους ιστότοπους. Το GEO έρχεται επιπλέον: το ίδιο σαφές, καλά δομημένο περιεχόμενο που αγαπούν τα συστήματα AI τείνει να κατατάσσεται καλύτερα και στην κλασική αναζήτηση. Δεν χάνετε τίποτα βελτιστοποιώντας και για τα δύο."
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "Κλασική ανίχνευση αναζήτησης που τροφοδοτεί και βοηθούς AI (το Bing τροφοδοτεί το Copilot και μέρη της αναζήτησης του ChatGPT). Ο αποκλεισμός σάς αφαιρεί και από αυτήν τη μηχανή αναζήτησης."
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "Συλλέγει περιεχόμενο για την εκπαίδευση μοντέλων. Ο αποκλεισμός δεν σας κοστίζει τίποτα στην αναζήτηση AI – είναι καθαρά απόφαση για τα δικαιώματα περιεχομένου."
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "Συνδέει τις προσβάσεις AI με ένα θέμα στα στατιστικά σας και εστιάζει τη γραφή σας σε μία σαφή ερώτηση."
+
+msgid "Contains a list or table"
+msgstr "Περιέχει λίστα ή πίνακα"
+
+msgid "Contains concrete numbers or data"
+msgstr "Περιέχει συγκεκριμένους αριθμούς ή δεδομένα"
+
+msgid "Content & freshness signals"
+msgstr "Σήματα περιεχομένου & επικαιρότητας"
+
+msgid "Contents"
+msgstr "Περιεχόμενα"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "Έλεγχο για το ποιος μπορεί να διαβάζει το περιεχόμενό σας: επιτρέψτε τα bot που σας αναφέρουν, αποκλείστε όσα μόνο παίρνουν – με σαφή προειδοποίηση πριν αποκλείσετε κάτι που θα σας κόστιζε ορατότητα."
+
+msgid "Could not load statistics."
+msgstr "Δεν ήταν δυνατή η φόρτωση των στατιστικών."
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "Μέτρηση επισκεπτών από AI πίσω από full-page cache (beacon)"
+
+msgid "Data"
+msgstr "Δεδομένα"
+
+msgid "Date range"
+msgstr "Χρονικό διάστημα"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "Διαγραφή όλων των δεδομένων του πρόσθετου κατά την απεγκατάσταση"
+
+msgid "Details in the dashboard:"
+msgstr "Λεπτομέρειες στον πίνακα:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "Εντοπίζεται μέσω του τομέα παραπομπής (referrer) και του utm_source (το ChatGPT προσθέτει utm_source=chatgpt.com στους συνδέσμους που παραθέτει, κάτι που διατηρείται ακόμη κι όταν ο referrer αφαιρείται). Σημείωση: πολλές επισκέψεις από AI φτάνουν χωρίς referrer, οπότε ο πραγματικός αριθμός είναι υψηλότερος από όσο μπορεί να δείξει οποιοδήποτε εργαλείο."
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "Άμεση απάντηση στην πρώτη παράγραφο (20–120 λέξεις)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "Απενεργοποιημένο. Δεν κοστίζει τίποτα και βοηθά τους πράκτορες AI να κατανοούν τη δομή του ιστότοπού σας."
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "Απενεργοποιημένο. Τα δομημένα δεδομένα είναι ο φθηνότερος τρόπος να γίνει το περιεχόμενό σας αναγνώσιμο από μηχανές."
+
+msgid "Dismiss"
+msgstr "Απόρριψη"
+
+msgid "Email me on citation alerts"
+msgstr "Ειδοποίηση μέσω email για νέες αναφορές"
+
+msgid "Empty = the site admin email address."
+msgstr "Κενό = η διεύθυνση email του διαχειριστή του ιστότοπου."
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "Κάθε επίσκεψη bot AI, ταξινομημένη ανάλογα με το τι σημαίνει για εσάς (πράκτορας, ανάκτηση, εκπαίδευση)."
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "Κάθε κουκκίδα είναι μια σελίδα που διάβασε το AI τις τελευταίες 30 ημέρες: δεξιά = διαβάζεται συχνά, χαμηλά = αδύναμη βαθμολογία GEO. Οι κουκκίδες κάτω δεξιά είναι οι μεγαλύτερες ευκαιρίες σας – κάντε κλικ σε μια κουκκίδα για να επεξεργαστείτε τη σελίδα."
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "Κάθε δημοσιευμένο άρθρο και σελίδα απέναντι στους 13 ελέγχους GEO – ταξινομημένα ώστε οι μεγαλύτερες ευκαιρίες αναφοράς να εμφανίζονται πρώτες, δίπλα στο ενδιαφέρον AI που ήδη λαμβάνει κάθε σελίδα."
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "Όλα είναι δωρεάν, εκτελούνται στον διακομιστή σας και δεν αποθηκεύουν προσωπικά δεδομένα. Εξωτερικές υπηρεσίες επικοινωνούν μόνο οι προαιρετικές λειτουργίες που το αναφέρουν ρητά. Κάθε επιλογή σάς εξηγεί τι κερδίζετε από αυτήν."
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "Παράδειγμα: το /my-post/ γίνεται /my-post.md. Απαιτεί φιλικούς μόνιμους συνδέσμους. Το Markdown δημιουργείται επιτόπου από το περιεχόμενό σας και επισημαίνεται ως noindex, ώστε να μην ανταγωνίζεται ποτέ τη σελίδα HTML στην αναζήτηση."
+
+msgid "Export CSV"
+msgstr "Εξαγωγή CSV"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "Προβολή στο llms.txt (βασικό περιεχόμενο)"
+
+msgid "Feeds"
+msgstr "Ροές"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "Ανακτά τη σελίδα σας ζωντανά, επειδή ένας πραγματικός άνθρωπος μόλις ρώτησε ένα AI γι' αυτήν. Επισκεψιμότητα με την υψηλότερη πρόθεση – ο αποκλεισμός διώχνει αυτούς τους αναγνώστες."
+
+msgid "Filter by AI"
+msgstr "Φιλτράρισμα ανά AI"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "Οι πρώτοι ανθρώπινοι επισκέπτες από το %s! Το περιεχόμενό σας αναφέρεται εκεί."
+
+msgid "Flows: which AI reads which page"
+msgstr "Ροές: ποιο AI διαβάζει ποια σελίδα"
+
+msgid "Focus term"
+msgstr "Όρος εστίασης"
+
+msgid "Focus term appears in the title"
+msgstr "Ο όρος εστίασης εμφανίζεται στον τίτλο"
+
+msgid "Focus term set"
+msgstr "Ο όρος εστίασης έχει οριστεί"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "Για τους περισσότερους ιστότοπους, οι επισκέπτες από απαντήσεις AI είναι σήμερα ένα χαμηλό μονοψήφιο ποσοστό όσων στέλνει το Google – αλλά αυτό το μερίδιο ανεβαίνει απότομα κάθε τρίμηνο. Το νόημα του να ξεκινήσετε τώρα είναι να καθιερωθείτε ως πηγή πριν από τους ανταγωνιστές σας."
+
+msgid "GEO Audit"
+msgstr "Έλεγχος GEO (Audit)"
+
+msgid "GEO Settings"
+msgstr "Ρυθμίσεις GEO"
+
+msgid "GEO check (AI visibility)"
+msgstr "Έλεγχος GEO (ορατότητα σε AI)"
+
+msgid "GEO score"
+msgstr "Βαθμολογία GEO"
+
+msgid "GEO status of your site"
+msgstr "Κατάσταση GEO του ιστότοπού σας"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "Υψηλό ενδιαφέρον AI, χαμηλή βαθμολογία – διορθώστε αυτά πρώτα."
+
+msgid "Home"
+msgstr "Αρχική"
+
+msgid "Hour"
+msgstr "Ώρα"
+
+msgid "How does an AI even reach my website?"
+msgstr "Πώς φτάνει τελικά ένα AI στον ιστότοπό μου;"
+
+msgid "How it works"
+msgstr "Πώς λειτουργεί"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "Πώς λειτουργεί – το GEO εξηγημένο σε απλή γλώσσα"
+
+msgid "Human visitors from AI answers"
+msgstr "Ανθρώπινοι επισκέπτες από απαντήσεις AI"
+
+msgid "I already did"
+msgstr "Το έχω ήδη κάνει"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "Η επαλήθευση ταυτότητας είναι απενεργοποιημένη. Τα user agents μπορούν να πλαστογραφηθούν – ενεργοποιήστε την επαλήθευση στις ρυθμίσεις για να ξεχωρίζετε τα πραγματικά bot AI από τους απατεώνες."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "Αν το πρόσθετο σας βοηθά, θα αφήνατε μια σύντομη αξιολόγηση στο WordPress.org; Χρειάζεται ένα λεπτό και βοηθά άλλους ιδιοκτήτες ιστότοπων να το βρουν. Ευχαριστούμε!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "Σημαντικό: πίσω από CDN, η IP της άμεσης σύνδεσης είναι ο proxy – κάθε πραγματικό bot θα επισημαινόταν ως απατεώνας. Επιλέξτε τη ρύθμισή σας ώστε να χρησιμοποιείται η αρχική IP του επισκέπτη. Ενεργοποιήστε μόνο μια κεφαλίδα που ο proxy σας όντως ορίζει, γιατί αλλιώς αυτές οι κεφαλίδες μπορούν να πλαστογραφηθούν."
+
+msgid "Include latest posts"
+msgstr "Συμπερίληψη πρόσφατων άρθρων"
+
+msgid "Include pages"
+msgstr "Συμπερίληψη σελίδων"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "Το IndexNow είναι ένα ανοιχτό πρωτόκολλο που υποστηρίζεται από τα Bing, Seznam, Naver και άλλα. Σε κάθε δημοσίευση, ενημέρωση ή απόσυρση το πρόσθετο στέλνει το δημόσιο URL μαζί με το κλειδί του ιστότοπού σας στο API του IndexNow – τίποτε άλλο δεν μεταδίδεται. Ένα αρχείο κλειδιού παρέχεται αυτόματα από τον ιστότοπό σας για επαλήθευση. Αν κάποιο άλλο πρόσθετο ήδη υποβάλλει στο IndexNow (π.χ. το Rank Math ή το επίσημο πρόσθετο του Bing), αφήστε το απενεργοποιημένο για να αποφύγετε διπλά pings."
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: pings άμεσης ευρετηρίασης"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "Άμεση ευρετηρίαση (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "Οι εσωτερικοί σύνδεσμοι είναι οι διαδρομές που ακολουθούν οι ανιχνευτές και τα συστήματα ανάκτησης για να ανακαλύψουν το σχετικό περιεχόμενό σας – οι ορφανές σελίδες διαβάζονται λιγότερο."
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "Αόρατος αντίκτυπος: μεγαλύτερος από τους αριθμούς κλικ."
+
+msgid "It measures"
+msgstr "Μετρά"
+
+msgid "It optimizes"
+msgstr "Βελτιστοποιεί"
+
+msgid "Job title / role"
+msgstr "Τίτλος θέσης / ρόλος"
+
+msgid "Keep statistics for"
+msgstr "Διατήρηση στατιστικών για"
+
+msgid "Key content"
+msgstr "Βασικό περιεχόμενο"
+
+msgid "Last seen"
+msgstr "Τελευταία εμφάνιση"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "Τελευταία υποβολή: %1$s στις %2$s."
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "Αριστερά: bot AI, δεξιά: οι σελίδες σας. Πλάτος ζώνης = προσβάσεις. Περάστε τον δείκτη πάνω από μια ζώνη για τον ακριβή αριθμό."
+
+msgid "Links to at least one external source"
+msgstr "Σύνδεσμος προς τουλάχιστον μία εξωτερική πηγή"
+
+msgid "Links to at least one other page on your site"
+msgstr "Σύνδεσμος προς τουλάχιστον μία άλλη σελίδα του ιστότοπού σας"
+
+msgid "Log AI bot accesses"
+msgstr "Καταγραφή προσβάσεων bot AI"
+
+msgid "Log human visitors from AI answers"
+msgstr "Καταγραφή ανθρώπινων επισκεπτών από απαντήσεις AI"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "Τα μεταδεδομένα που διαβάζονται από μηχανές βοηθούν τα συστήματα AI να κατανοούν και να αποδίδουν το περιεχόμενό σας."
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "Εκδόσεις του περιεχομένου σας αναγνώσιμες από μηχανές (llms.txt, σελίδες Markdown, δομημένα δεδομένα) – ώστε τα συστήματα AI να κατανοούν τον ιστότοπό σας με όσο το δυνατόν λιγότερα εμπόδια."
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "Το να κάνετε τον ιστότοπό σας μια πηγή που τα συστήματα AI βρίσκουν, κατανοούν και αναφέρουν ονομάζεται GEO (Generative Engine Optimization). Είναι η ίδια ιδέα με το SEO, απλώς για απαντήσεις AI αντί για μπλε συνδέσμους – και επειδή πολύ λιγότεροι ιστότοποι το κάνουν ακόμη, όσοι ξεκινούν νωρίς είναι δυσανάλογα ορατοί."
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "Διαχείριση κανόνων ανιχνευτών AI στο robots.txt"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "Πολλοί άνθρωποι διαβάζουν την απάντηση AI που σας αναφέρει και δεν κάνουν ποτέ κλικ – αλλά είδαν το όνομά σας ως πηγή. Αυτή είναι ορατότητα επωνυμίας που κανένα στατιστικό δεν μπορεί να αποτυπώσει πλήρως· η ίδια η αναφορά είναι η επιτυχία."
+
+msgid "Mark all as read"
+msgstr "Σήμανση όλων ως αναγνωσμένων"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "Έκδοση Markdown κάθε σελίδας (URL .md)"
+
+msgid "Max. entries per section"
+msgstr "Μέγ. εγγραφές ανά ενότητα"
+
+msgid "Maybe later"
+msgstr "Ίσως αργότερα"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "Στο μεταξύ: διορθώστε ό,τι δεν είναι πράσινο στον παρακάτω πίνακα κατάστασης και ορίστε όρους εστίασης στις σημαντικότερες σελίδες σας."
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "Όλο και περισσότεροι άνθρωποι δεν πληκτρολογούν πια τις ερωτήσεις τους στο Google – ρωτούν το ChatGPT, το Perplexity, το Copilot ή το Claude. Το AI διαβάζει μια χούφτα ιστότοπους, γράφει μία απάντηση και αναφέρει τις πηγές του. Αν ο ιστότοπός σας είναι μία από αυτές τις πηγές, σας αναφέρει και σας συνδέει. Αν όχι, είστε αόρατοι σε αυτήν τη συζήτηση – ακόμη κι αν κατατάσσεστε καλά στο κλασικό Google."
+
+msgid "Most active AI bots"
+msgstr "Πιο ενεργά bot AI"
+
+msgid "Name (defaults to site title)"
+msgstr "Όνομα (προεπιλογή: τίτλος ιστότοπου)"
+
+msgid "Needs attention"
+msgstr "Χρειάζεται προσοχή"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Το νέο και ενημερωμένο περιεχόμενο αποστέλλεται στο Bing και σε άλλους μέσα σε λίγα λεπτά. Το Bing τροφοδοτεί το Copilot και μέρη της αναζήτησης του ChatGPT – ταχύτερη ευρετηρίαση σημαίνει ταχύτερες αναφορές σε AI."
+
+msgid "New here? How it all works, in plain language."
+msgstr "Νέος/νέα εδώ; Πώς λειτουργούν όλα, σε απλή γλώσσα."
+
+msgid "Next"
+msgstr "Επόμενη"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "Δεν υπάρχουν ακόμη προσβάσεις AI σε βαθμολογημένες σελίδες τις τελευταίες 30 ημέρες – ο χάρτης γεμίζει καθώς τα συστήματα AI διαβάζουν το περιεχόμενό σας."
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "Δεν έχουν ανακτηθεί ακόμη περιοχές IP – η πρώτη λήψη γίνεται μέσα στην επόμενη ώρα (ή όταν εκτελεστεί το ημερήσιο cron)."
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "Δεν έχει υποβληθεί ακόμη κανένα URL – η επόμενη δημοσίευση ή ενημέρωση θα ενεργοποιήσει το πρώτο ping."
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "Δεν υπάρχουν ακόμη προσβάσεις bot τις τελευταίες 7 ημέρες."
+
+msgid "No data for this AI in the selected range."
+msgstr "Δεν υπάρχουν δεδομένα για αυτό το AI στο επιλεγμένο διάστημα."
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "Δεν υπάρχουν ακόμη δεδομένα. Οι προσβάσεις AI εμφανίζονται εδώ μόλις ένα γνωστό bot AI ή ένας επισκέπτης από απάντηση AI φτάσει στον ιστότοπό σας."
+
+msgid "No duplicate SEO output"
+msgstr "Χωρίς διπλή έξοδο SEO"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "Χωρίς ορολογίες, χωρίς υπερβολές: τι συμβαίνει, τι κάνει αυτό το πρόσθετο γι' αυτό και τι αποτελέσματα μπορείτε ρεαλιστικά να περιμένετε."
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "Κανένα άλλο πρόσθετο SEO δεν είναι ενεργό – το Wille GEO παρέχει μόνο του schema και μετα-ετικέτες."
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "Χωρίς υπερβολικά μεγάλες παραγράφους (έως 150 λέξεις η καθεμία)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "Δεν βρέθηκε φυσικό αρχείο robots.txt – οι κανόνες ανιχνευτών AI που ορίστηκαν στο Wille GEO είναι ενεργοί."
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "Δεν βρέθηκε φυσικό αρχείο robots.txt. Δεν έχουν οριστεί αποκλεισμοί ανιχνευτών AI στο Wille GEO, οπότε παρέχεται αμετάβλητο το προεπιλεγμένο robots.txt του WordPress."
+
+msgid "No published content to audit yet."
+msgstr "Δεν υπάρχει ακόμη δημοσιευμένο περιεχόμενο για έλεγχο."
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "Δεν βρέθηκε χάρτης ιστότοπου. Το WordPress περιλαμβάνει έναν από προεπιλογή – κάποιο πρόσθετο ή ρύθμιση μπορεί να τον έχει απενεργοποιήσει."
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "Κανένα εργαλείο δεν μπορεί να αναγκάσει ένα AI να σας αναφέρει. Τα συστήματα AI αναφέρουν σελίδες που απαντούν σε μια πραγματική ερώτηση με σαφήνεια, συγκεκριμένα και αξιόπιστα. Αυτό το πρόσθετο κάνει ακριβώς αυτό μετρήσιμο και συστηματικά ευκολότερο – αφαιρεί κάθε τεχνικό εμπόδιο και σας δείχνει τι λειτουργεί. Η ουσία όμως πρέπει να προέρχεται από εσάς."
+
+msgid "No – use the direct connection IP"
+msgstr "Όχι – χρήση της IP της άμεσης σύνδεσης"
+
+msgid "Not allowed."
+msgstr "Δεν επιτρέπεται."
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "Απενεργοποιημένη. Τα user agents μπορούν να πλαστογραφηθούν· η ενεργοποίηση της επαλήθευσης ξεχωρίζει τα πραγματικά bot AI από τους απατεώνες (ανακτά δημόσιες λίστες IP μία φορά την ημέρα)."
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "Απενεργοποιημένο. Χωρίς αυτό, τα ευρετήρια αναζήτησης που σχετίζονται με AI μαθαίνουν για νέο περιεχόμενο μόνο όταν σας ανιχνεύσουν ξανά – η ενεργοποίηση του IndexNow το επιταχύνει σε λίγα λεπτά."
+
+msgid "Official profiles (sameAs)"
+msgstr "Επίσημα προφίλ (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "Κατ' επιλογή, απόδειξη: τα bot-απατεώνες που χρησιμοποιούν ψευδώς ένα διάσημο όνομα αποκαλύπτονται μέσω των επίσημων λιστών IP των εταιρειών AI."
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "Μία φορά την ημέρα το πρόσθετο κατεβάζει τις δημόσιες λίστες IP που δημοσιεύουν οι OpenAI, Anthropic, Perplexity, Google και Microsoft για τους ανιχνευτές τους και επισημαίνει κάθε καταγεγραμμένη επίσκεψη ως επαληθευμένη, αποτυχημένη (δηλωμένη ταυτότητα από ξένη IP) ή μη ελεγμένη. Η IP του επισκέπτη συγκρίνεται μόνο στη μνήμη και δεν αποθηκεύεται ποτέ. Επειδή κάνει εξωτερικά αιτήματα, είναι προαιρετική."
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "Ένα URL ανά γραμμή (LinkedIn, GitHub, X, προσωπικός ιστότοπος …). Επιτρέπει στα συστήματα AI να επαληθεύουν αυτόν τον συντάκτη ως ένα συνεπές, πραγματικό πρόσωπο – βασικό σήμα E-E-A-T."
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "Μία ή δύο προτάσεις: ποιοι είστε και τι καλύπτει ο ιστότοπός σας."
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "Ανοίξτε οποιοδήποτε άρθρο στον επεξεργαστή – ο πίνακας «Έλεγχος GEO» στην πλαϊνή στήλη σάς καθοδηγεί ακριβώς σε αυτά τα βήματα ενώ γράφετε."
+
+msgid "Open improvements"
+msgstr "Εκκρεμείς βελτιώσεις"
+
+msgid "Open the full dashboard"
+msgstr "Άνοιγμα του πλήρους πίνακα"
+
+msgid "Open the settings"
+msgstr "Άνοιγμα των ρυθμίσεων"
+
+msgid "Open the statistics dashboard"
+msgstr "Άνοιγμα του πίνακα στατιστικών"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "Ανοίξτε τις πέντε σημαντικότερες σελίδες σας και ορίστε έναν όρο εστίασης για καθεμία: την ερώτηση ή το θέμα για το οποίο αυτή η σελίδα πρέπει να είναι Η απάντηση."
+
+msgid "Opportunity map"
+msgstr "Χάρτης ευκαιριών"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "Έξοδος μετα-περιγραφής & προεπισκοπήσεων κοινωνικών δικτύων (Open Graph)"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "Έξοδος δομημένων δεδομένων schema.org (JSON-LD)"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "Παράγει WebSite, Organization/Person, Article (με ημερομηνίες και συντάκτη) και διαδρομές πλοήγησης (breadcrumbs). Τα συστήματα ανάκτησης AI χρησιμοποιούν αυτά τα σήματα για να κρίνουν την επικαιρότητα και την αξιοπιστία."
+
+msgid "Page"
+msgstr "Σελίδα"
+
+msgid "Pages"
+msgstr "Σελίδες"
+
+msgid "Pages AI read most"
+msgstr "Σελίδες που διάβασε περισσότερο το AI"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "Οι άνθρωποι κάνουν ερωτήσεις στους βοηθούς AI. Επικεφαλίδες που αντικατοπτρίζουν αυτές τις ερωτήσεις αντιστοιχίζουν το περιεχόμενό σας απευθείας σε πραγματικά prompts – και τροφοδοτούν το αυτόματο FAQ schema."
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "Καρφιτσώστε τις καλύτερες σελίδες σας ως βασικό περιεχόμενο, ώστε το llms.txt να οδηγεί τους πράκτορες AI κατευθείαν σε αυτές."
+
+msgid "Ping IndexNow on publish and update"
+msgstr "Ping στο IndexNow κατά τη δημοσίευση και την ενημέρωση"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "Το καρφιτσωμένο περιεχόμενο εμφανίζεται πρώτο στα llms.txt και llms-full.txt – οι σελίδες που θέλετε περισσότερο να διαβάζουν τα συστήματα AI."
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "Είναι ενεργοί οι απλοί μόνιμοι σύνδεσμοι (Ρυθμίσεις → Μόνιμοι σύνδεσμοι). Τα endpoints Markdown και το αρχείο κλειδιού IndexNow δεν μπορούν να παρασχεθούν, ενώ τα ευανάγνωστα URL βοηθούν κάθε ανιχνευτή."
+
+msgid "Post"
+msgstr "Άρθρο"
+
+msgid "Post not found."
+msgstr "Το άρθρο δεν βρέθηκε."
+
+msgid "Posts"
+msgstr "Άρθρα"
+
+msgid "Pretty permalinks enabled"
+msgstr "Φιλικοί μόνιμοι σύνδεσμοι ενεργοί"
+
+msgid "Previous"
+msgstr "Προηγούμενη"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "Απόρρητο: αυτό το πρόσθετο δεν αποθηκεύει διευθύνσεις IP, δεν ορίζει cookies και δεν κάνει εξωτερικά αιτήματα από προεπιλογή. Οι μόνες εξαιρέσεις είναι δύο προαιρετικές λειτουργίες που ελέγχετε εσείς: η επαλήθευση bot (κατεβάζει δημόσιες λίστες IP ανιχνευτών μία φορά την ημέρα) και το IndexNow (στέλνει τα δημοσιευμένα URL στο API του IndexNow). Όλα τα στατιστικά παραμένουν στη βάση δεδομένων του WordPress σας."
+
+msgid "Profile URLs (sameAs)"
+msgstr "URL προφίλ (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "Ποιότητα: ασυνήθιστα υψηλή."
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "Αξιολογήστε το Wille GEO στο WordPress.org (ανοίγει σε νέα καρτέλα)"
+
+msgid "Rate ★★★★★"
+msgstr "Αξιολόγηση ★★★★★"
+
+msgid "Re-scan"
+msgstr "Νέα σάρωση"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "Τα ευανάγνωστα URL είναι ενεργά – τα endpoints .md και το αρχείο κλειδιού IndexNow λειτουργούν."
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "Πραγματικούς ανθρώπους που έρχονται από απαντήσεις AI – το πραγματικό όφελος, ανά AI και ανά σελίδα."
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "Πραγματικοί άνθρωποι που έκαναν κλικ στον σύνδεσμό σας μέσα στο ChatGPT, το Perplexity και σε άλλα. Αυτό είναι το όφελος του GEO."
+
+msgid "Recipient"
+msgstr "Παραλήπτης"
+
+msgid "Reload page"
+msgstr "Επαναφόρτωση σελίδας"
+
+msgid "Retrieval"
+msgstr "Ανάκτηση"
+
+msgid "Retrieval (citation index)"
+msgstr "Ανάκτηση (ευρετήριο αναφορών)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "Τα bot ανάκτησης και τα bot πρακτόρων μπορούν να διαβάζουν τις σελίδες σας – μπορείτε να εμφανίζεστε σε απαντήσεις AI."
+
+msgid "Retrieval bots"
+msgstr "Bot ανάκτησης"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "Τα bot ανάκτησης πρέπει πρώτα να βρουν και να ξαναδιαβάσουν τις βελτιωμένες σελίδες σας. Περιμένετε τα πρώτα μετρήσιμα αποτελέσματα μετά από μερικές εβδομάδες και μια δίκαιη αποτίμηση μετά από τρεις έως έξι μήνες – ο πίνακας σάς δείχνει την τάση σε όλη τη διαδρομή."
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "Τα bot ανάκτησης χρησιμοποιούν τον χάρτη ιστότοπου για να ανακαλύπτουν γρήγορα νέο περιεχόμενο."
+
+msgid "Review Wille GEO"
+msgstr "Αξιολόγηση του Wille GEO"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "Οι κανόνες προστίθενται στο robots.txt που δημιουργεί το WordPress. Ένα φυσικό αρχείο robots.txt στον ριζικό κατάλογο θα τους παρέκαμπτε – ο πίνακας κατάστασης στη σελίδα στατιστικών σάς προειδοποιεί αν υπάρχει. Έχετε υπόψη ότι το robots.txt βασίζεται στην καλή πίστη· τα γνωστά bot το σέβονται."
+
+msgid "Running GEO checks …"
+msgstr "Εκτέλεση ελέγχων GEO …"
+
+msgid "Save settings"
+msgstr "Αποθήκευση ρυθμίσεων"
+
+msgid "Score distribution"
+msgstr "Κατανομή βαθμολογιών"
+
+msgid "Search"
+msgstr "Αναζήτηση"
+
+msgid "Search (feeds AI answers)"
+msgstr "Αναζήτηση (τροφοδοτεί απαντήσεις AI)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "Οι μηχανές αναζήτησης και οι ανιχνευτές AI μπορούν να ευρετηριάσουν τον ιστότοπο."
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "Δείτε ποια AI (ChatGPT, Claude, Perplexity…) διαβάζει ποιες σελίδες σας – και βελτιστοποιήστε τον ιστότοπό σας για την αναζήτηση μέσω AI (GEO). Δωρεάν, χωρίς προσωπικά δεδομένα."
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "Αποστολή εβδομαδιαίας αναφοράς ορατότητας σε AI μέσω email"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "Στάλθηκε από το πρόσθετο Wille GEO. Μπορείτε να απενεργοποιήσετε αυτήν την αναφορά οποιαδήποτε στιγμή στο Wille GEO → Ρυθμίσεις."
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "Αποστέλλεται μέσω του κανονικού συστήματος αλληλογραφίας του WordPress, μόνο όταν υπήρξε πράγματι δραστηριότητα AI εκείνη την εβδομάδα – οι ήσυχοι ιστότοποι δεν λαμβάνουν ποτέ ανεπιθύμητα μηνύματα. Μπορείτε επίσης να την ενεργοποιήσετε χειροκίνητα με την εντολή WP-CLI \"wp geoins report\"."
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "Παροχή /llms-full.txt με πλήρες περιεχόμενο"
+
+msgid "Serve a generated /llms.txt"
+msgstr "Παροχή αυτόματα δημιουργημένου /llms.txt"
+
+msgid "Served at %s."
+msgstr "Παρέχεται στο %s."
+
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgid "Short site description (optional)"
+msgstr "Σύντομη περιγραφή ιστότοπου (προαιρετικό)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "Οι σύντομες, αυτοτελείς παράγραφοι είναι η μονάδα που τα συστήματα AI μεταφέρουν στις απαντήσεις. Τα μεγάλα τμήματα παραλείπονται."
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "Εμφάνιση ορατής ημερομηνίας «Ενημερώθηκε στις» σε αναθεωρημένα άρθρα"
+
+msgid "Show all AIs"
+msgstr "Εμφάνιση όλων των AI"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "Εμφανίζεται πάνω από το περιεχόμενο, μόνο όταν το άρθρο αναθεωρήθηκε ουσιαστικά (περισσότερες από δύο ημέρες μετά τη δημοσίευση). Το μηχαναγνώσιμο dateModified υπάρχει πάντα στα δομημένα δεδομένα σας, ανεξάρτητα από αυτόν τον διακόπτη."
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "Εμφανίζεται στα συστήματα AI ως μηχαναγνώσιμη εξειδίκευση (schema.org jobTitle), π.χ. «Senior WordPress Developer»."
+
+msgid "Site represents"
+msgstr "Ο ιστότοπος εκπροσωπεί"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "Ο ιστότοπος λειτουργεί πίσω από proxy/CDN;"
+
+msgid "Site visible to crawlers"
+msgstr "Ιστότοπος ορατός στους ανιχνευτές"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "Όποιος κάνει κλικ από μια απάντηση AI έχει ήδη διαβάσει μια σύνοψη και θέλει το βάθος – μελέτες και δεδομένα καταστημάτων δείχνουν σταθερά ότι αυτοί οι επισκέπτες μετατρέπονται αισθητά καλύτερα από τη μέση επισκεψιμότητα αναζήτησης. Λιγότεροι επισκέπτες, αλλά πιο «ζεστοί»."
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "Λυπούμαστε, δεν σας επιτρέπεται να το κάνετε αυτό."
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "Ταχύτητα: το νέο και ενημερωμένο περιεχόμενο ανακοινώνεται στις μηχανές αναζήτησης μέσα σε λίγα λεπτά (IndexNow) – όσο νωρίτερα ευρετηριαστεί, τόσο νωρίτερα μπορεί ένα AI να το αναφέρει."
+
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "Τα στατιστικά και οι συγκεκριμένοι αριθμοί αυξάνουν μετρήσιμα την πιθανότητα αναφοράς – οι απαντήσεις AI λατρεύουν τους επαληθεύσιμους αριθμούς."
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "Τα δομημένα τμήματα (λίστες, πίνακες) εξάγονται και παρατίθενται από το AI πολύ συχνότερα από τους συμπαγείς όγκους κειμένου."
+
+msgid "Structured data & meta tags"
+msgstr "Δομημένα δεδομένα & μετα-ετικέτες"
+
+msgid "Structured data (schema.org)"
+msgstr "Δομημένα δεδομένα (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "Βεβαίως, γράψτε αξιολόγηση"
+
+msgid "Table of contents"
+msgstr "Πίνακας περιεχομένων"
+
+msgid "Term"
+msgstr "Όρος"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "Όροι & σελίδες: ποιο AI διαβάζει τι;"
+
+msgid "The audit table needs JavaScript."
+msgstr "Ο πίνακας ελέγχου χρειάζεται JavaScript."
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "Το beacon εκτελείται μόνο για αποσυνδεδεμένους επισκέπτες, ελέγχει μόνο αν η επίσκεψη προήλθε από γνωστό AI (τομέας παραπομπής ή utm_source) και μόνο τότε αναφέρει την πηγή και τη διαδρομή της σελίδας στον δικό σας ιστότοπο. Χωρίς cookies, χωρίς IP, χωρίς fingerprinting, χωρίς εξωτερική υπηρεσία. Η διπλή καταμέτρηση με την καταγραφή από τον διακομιστή αποτρέπεται αυτόματα. Αφήστε το απενεργοποιημένο αν ο ιστότοπός σας δεν χρησιμοποιεί full-page caching – η καταγραφή PHP ήδη βλέπει τα πάντα."
+
+msgid "The honest limit: content decides."
+msgstr "Το ειλικρινές όριο: αποφασίζει το περιεχόμενο."
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "Το φυσικό robots.txt αποκλείει τα %s. Αυτά τα bot σάς βάζουν στις απαντήσεις AI – επεξεργαστείτε το αρχείο για να τα ξεμπλοκάρετε (οι κανόνες που ορίζονται εδώ παραμένουν ανενεργοί όσο υπάρχει το αρχείο)."
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "Το φυσικό robots.txt αποκλείει ΟΛΟΥΣ τους ανιχνευτές (User-agent: * / Disallow: /). Καμία μηχανή αναζήτησης και κανένα σύστημα AI δεν μπορεί να διαβάσει τον ιστότοπό σας – επεξεργαστείτε το αρχείο."
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "Το φυσικό robots.txt αποκλείει όλους τους ανιχνευτές από προεπιλογή (User-agent: * / Disallow: /)· μόνο ανιχνευτές με δικούς τους κανόνες εξαίρεσης στο αρχείο μπορούν να διαβάσουν τον ιστότοπό σας. Κάθε σύστημα AI χωρίς εξαίρεση μένει απ' έξω – επεξεργαστείτε το αρχείο."
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "Ο πίνακας στατιστικών αντιστοιχίζει κάθε πρόσβαση AI σε αυτόν τον όρο. Κενό = τίτλος άρθρου."
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "Ο πίνακας στατιστικών χρειάζεται JavaScript. Χρησιμοποιήστε αντί γι' αυτό την εξαγωγή CSV ή το WP-CLI (wp geoins stats)."
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "Μετά αφήστε το να λειτουργεί. Ελέγχετε τον πίνακα κάθε εβδομάδα (ή ενεργοποιήστε την αναφορά μέσω email) και επενδύστε εκεί όπου το ενδιαφέρον των AI ήδη φαίνεται – εκεί οι αναφορές είναι πιο κοντά."
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "Αυτά τα user agents μοιάζουν με συστήματα AI, αλλά δεν υπάρχουν ακόμη στο μητρώο – οπότε οι επισκέψεις τους ΔΕΝ περιλαμβάνονται στα παραπάνω στατιστικά. Τις συχνές εγγραφές αξίζει να τις προσθέσετε μέσω του φίλτρου geoins_bots (ή να τις αναφέρετε στο πρόσθετο)."
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "Αυτό το πρόσθετο αναγνωρίζει αυτά τα bot σε κάθε επίσκεψη και σας δείχνει στον πίνακα: ποιο AI διαβάζει ποιες σελίδες σας, πόσο συχνά και για ποιο θέμα. Και όταν ένας άνθρωπος κάνει κλικ στον σύνδεσμο προς τον ιστότοπό σας μέσα σε μια απάντηση AI, μετράται και αυτή η επίσκεψη – αυτή είναι η στιγμή που η ορατότητα σε AI γίνεται δυνητικός πελάτης."
+
+msgid "Timeline: weeks to months, not days."
+msgstr "Χρονοδιάγραμμα: εβδομάδες έως μήνες, όχι ημέρες."
+
+msgid "Title"
+msgstr "Τίτλος"
+
+msgid "Tracking"
+msgstr "Καταγραφή"
+
+msgid "Training"
+msgstr "Εκπαίδευση"
+
+msgid "Training bots"
+msgstr "Bot εκπαίδευσης"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "Δύο πράγματα: μετρά και βελτιστοποιεί. Όλα εκτελούνται στον δικό σας διακομιστή, τίποτα δεν αποστέλλεται πουθενά, και κάθε διακόπτης στις ρυθμίσεις εξηγεί το όφελός του πριν τον ενεργοποιήσετε."
+
+msgid "Updated"
+msgstr "Ενημερώθηκε"
+
+msgid "Updated on %s"
+msgstr "Ενημερώθηκε στις %s"
+
+msgid "Updated within the last 12 months"
+msgstr "Ενημερώθηκε τους τελευταίους 12 μήνες"
+
+msgid "User agent"
+msgstr "User agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "Επαλήθευση ταυτότητας bot με τις επίσημες περιοχές IP"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "Οι πολύ φτωχές σελίδες σπάνια περιέχουν αρκετή ουσία ώστε ένα AI να στηρίξει μια απάντηση σε αυτές."
+
+msgid "View your key file"
+msgstr "Προβολή του αρχείου κλειδιού σας"
+
+msgid "View your llms-full.txt"
+msgstr "Προβολή του llms-full.txt σας"
+
+msgid "View your llms.txt"
+msgstr "Προβολή του llms.txt σας"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "Η ορατή εξειδίκευση (ένας πραγματικός συντάκτης με βιογραφικό) τροφοδοτεί τα σήματα E-E-A-T που χρησιμοποιούν τα συστήματα AI για να επιλέγουν αξιόπιστες πηγές."
+
+msgid "Volume: still small, growing fast."
+msgstr "Όγκος: ακόμη μικρός, αυξάνεται γρήγορα."
+
+msgid "Waiting for the first AI visit"
+msgstr "Αναμονή για την πρώτη επίσκεψη AI"
+
+msgid "Weekly email report"
+msgstr "Εβδομαδιαία αναφορά μέσω email"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "Τι μπορώ ρεαλιστικά να περιμένω; Μια ειλικρινής απάντηση"
+
+msgid "What does the plugin actually do for me?"
+msgstr "Τι κάνει τελικά το πρόσθετο για μένα;"
+
+msgid "What happened"
+msgstr "Τι συνέβη"
+
+msgid "What is happening right now?"
+msgstr "Τι συμβαίνει αυτή τη στιγμή;"
+
+msgid "When do AIs read your site?"
+msgstr "Πότε διαβάζουν τα AI τον ιστότοπό σας;"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "Από πού να ξεκινήσω; Πέντε βήματα, 30 λεπτά"
+
+msgid "Which AI bots?"
+msgstr "Ποια bot AI;"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "Ποιο AI διάβασε τις σελίδες σας και ποιες απαντήσεις AI σάς έστειλαν ανθρώπους επισκέπτες."
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "Ποιο AI διαβάζει ποιες σελίδες σας, για ποιον όρο – και ποιες απαντήσεις AI σάς στέλνουν πραγματικά ανθρώπους επισκέπτες."
+
+msgid "Why does this matter?"
+msgstr "Γιατί έχει σημασία;"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Το Wille GEO είναι ενεργό."
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Το Wille GEO δημιουργήθηκε από τον/την %1$s. Σας βοηθά; Μια αξιολόγηση %2$s στο WordPress.org βοηθά και άλλους να το βρουν – ευχαριστούμε!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "Το Wille GEO στο %s παρατήρησε:"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: σήματα συντάκτη (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "Ακολουθήστε τη λίστα ελέγχου GEO σε αυτές τις σελίδες – ιδίως: απαντήστε στο βασικό ερώτημα απευθείας στην πρώτη παράγραφο και μετατρέψτε τις επικεφαλίδες σε πραγματικές ερωτήσεις."
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "Λειτουργεί σε άρθρα και σελίδες με τουλάχιστον δύο επικεφαλίδες-ερωτήσεις (H2/H3 που τελειώνουν σε ερωτηματικό). Δεν χρειάζεται επιπλέον εργασία – γράψτε ερωτήσεις ως επικεφαλίδες και το schema ακολουθεί."
+
+msgid "XML sitemap available"
+msgstr "Διαθέσιμος χάρτης ιστότοπου XML"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "Ναι, Cloudflare (CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "Ναι, άλλος proxy (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "Αποκλείετε τα %s. Αυτά τα bot σάς βάζουν στις απαντήσεις AI – ο αποκλεισμός τους σάς αφαιρεί από τις αναφορές."
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "Λαμβάνετε αυτό το μήνυμα επειδή οι ειδοποιήσεις αναφορών μέσω email είναι ενεργές στο Wille GEO → Ρυθμίσεις."
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "Το αρχείο κλειδιού IndexNow δεν είναι προσβάσιμο από τον δικό σας διακομιστή, οπότε τα pings έχουν τεθεί σε παύση. Συνήθεις αιτίες: απλοί μόνιμοι σύνδεσμοι (διόρθωση στις Ρυθμίσεις → Μόνιμοι σύνδεσμοι) ή ένα πρόσθετο ασφαλείας που μπλοκάρει αιτήματα loopback. Αφού το διορθώσετε, αποθηκεύστε ξανά αυτές τις ρυθμίσεις – ο έλεγχος επαναλαμβάνεται λίγο μετά την αποθήκευση."
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "Ο έλεγχος της συνεδρίας σας έληξε – φορτώστε ξανά τη σελίδα για να συνεχίσετε."
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] Ορατότητα σε AI αυτή την εβδομάδα: %2$d προσβάσεις AI, %3$d επισκέπτες από AI"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] Νέο σήμα ορατότητας σε AI"
+
+msgid "a person"
+msgstr "ένα πρόσωπο"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "ένας πραγματικός άνθρωπος μόλις έκανε μια ερώτηση σε ένα AI, και το AI διαβάζει τη σελίδα σας αυτή τη στιγμή για να απαντήσει. Αυτό είναι το πιο πολύτιμο σήμα που υπάρχει: κάποιος ενδιαφέρεται για το θέμα σας ακριβώς τώρα."
+
+msgid "accesses"
+msgstr "προσβάσεις"
+
+msgid "an organization"
+msgstr "έναν οργανισμό"
+
+msgid "blocking costs citations"
+msgstr "ο αποκλεισμός κοστίζει αναφορές"
+
+msgid "blocking is safe for citations"
+msgstr "ο αποκλεισμός είναι ασφαλής για τις αναφορές"
+
+msgid "by %s"
+msgstr "από %s"
+
+msgid "days"
+msgstr "ημέρες"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "π.χ. πρόσθετο αντιγράφων ασφαλείας WordPress"
+
+msgid "forever"
+msgstr "για πάντα"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "απατεώνες"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "Το llms.txt είναι διαθέσιμο"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "Το llms.txt είναι ένα νέο πρότυπο: μια επισκόπηση σε Markdown του σημαντικότερου περιεχομένου σας στο /llms.txt. Δημιουργείται αυτόματα από τις σελίδες και τα άρθρα σας και αποθηκεύεται προσωρινά για 12 ώρες."
+
+msgid "more"
+msgstr "ακόμη"
+
+msgid "new"
+msgstr "νέο"
+
+msgid "pages"
+msgstr "σελίδες"
+
+msgid "passed"
+msgstr "επιτυχής"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "χτίζουν τη βιβλιοθήκη από την οποία το AI παραθέτει αργότερα. Η παρουσία σε αυτήν τη βιβλιοθήκη καθορίζει αν μπορείτε καν να αναφερθείτε."
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "συλλέγουν κείμενο για να εκπαιδεύσουν μελλοντικά μοντέλα AI. Δεν σας φέρνουν ούτε επισκέπτες ούτε αναφορές. Το αν θα τα επιτρέψετε είναι καθαρά απόφαση για τα δικαιώματα περιεχομένου – ο αποκλεισμός τους δεν σας κοστίζει τίποτα."
+
+msgid "unchecked"
+msgstr "μη ελεγμένα"
+
+msgid "verified"
+msgstr "επαληθευμένα"
+
+msgid "visitors"
+msgstr "επισκέπτες"
+
+msgid "vs. previous period"
+msgstr "σε σχέση με την προηγούμενη περίοδο"

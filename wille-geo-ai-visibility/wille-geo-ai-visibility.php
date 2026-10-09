@@ -3,7 +3,7 @@
  * Plugin Name:       Wille GEO – AI Crawler Stats, llms.txt & AI Visibility
  * Plugin URI:        https://github.com/lcswll/wordpress-geo
  * Description:       See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.
- * Version:           2.3.1
+ * Version:           2.3.2
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Lucas Wille
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'GEOINS_VERSION', '2.3.1' );
+define( 'GEOINS_VERSION', '2.3.2' );
 define( 'GEOINS_DB_VERSION', '4' ); // v1.8.0: no schema change, bumped so upgrades seed the alerts seen-sources map.
 define( 'GEOINS_FILE', __FILE__ );
 define( 'GEOINS_DIR', plugin_dir_path( __FILE__ ) );

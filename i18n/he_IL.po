@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "האפשרות \"לבקש ממנועי חיפוש לא לאנדקס את האתר\" מופעלת (הגדרות ← קריאה). אף מערכת AI לא תוכל למצוא אותך עד שהיא תכובה."
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%1$d טווחי IP מ-%2$d ספקים, עודכן לאחרונה %3$s."
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "%s (סורק אימון) ביקר באתר לראשונה."
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "%s סרק את האתר לראשונה – AI רלוונטי לציטוט קורא אותך עכשיו."
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "זוהה %s – ‏Wille GEO משאיר לו אוטומטית את ה-schema ותגיות ה-meta ומוסיף רק את מה שחסר (מעקב, llms.txt, שליטה ב-robots, בדיקות GEO)."
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "%s פעיל. כדי למנוע פלט כפול, Wille GEO משאיר לו אוטומטית את ה-schema ותגיות ה-meta – המתגים שלמטה מתעלמים כל עוד הוא פועל. כל השאר (מעקב, llms.txt, שליטה ב-robots, בדיקות GEO) עובד לצידו."
+
+msgid "(opens in a new tab)"
+msgstr "(נפתח בלשונית חדשה)"
+
+msgid "1 year"
+msgstr "שנה"
+
+msgid "180 days"
+msgstr "180 ימים"
+
+msgid "30 days"
+msgstr "30 ימים"
+
+msgid "7-day average"
+msgstr "ממוצע 7 ימים"
+
+msgid "90 days"
+msgstr "90 ימים"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "גרסת Markdown נקייה של כל עמוד זמינה על ידי הוספת ‎.md לכתובת שלו."
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "רשימת בדיקה חיה בזמן הכתיבה: שלושה-עשר קריטריונים קונקרטיים ומוסברים שהופכים עמוד לבר-ציטוט עבור AI (תשובה קודם, כותרות בצורת שאלה, רשימות, מספרים, עדכניות …)."
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "קיים קובץ robots.txt פיזי והוא לא מכיל את החסימות שהוגדרו כאן (%s) – אין להן השפעה עד שיתווספו לקובץ או שהקובץ יימחק."
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "קיים קובץ robots.txt פיזי, אך לא ניתן היה לקרוא אותו לצורך ניתוח. הוא גובר על הכללים שהוגדרו כאן – יש לבדוק אותו ידנית."
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "קיים קובץ robots.txt פיזי, אך כרגע הוא תקין: הוא לא חוסם בוטי AI רלוונטיים לציטוט ותואם את התצורה שלך. הערה: הכללים שהוגדרו כאן לא פעילים כל עוד הקובץ קיים."
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "דוגמה מציאותית: אתר מקצועי עם 50 מאמרים מוצקים שמאמץ את רשימת הבדיקה של GEO יכול לצפות לציטוטי AI ראשונים ולזרם קטן אך גדל בהתמדה של מבקרים בעלי כוונה גבוהה תוך כמה חודשים – כדאי לראות בזה פתיחה של דלת שנייה, עדיין קטנה, לעסק, שמתרחבת כל חודש, ולא תחליף ל-Google."
+
+msgid "AI (30d)"
+msgstr "AI ‏(30 ימים)"
+
+msgid "AI Statistics"
+msgstr "סטטיסטיקות AI"
+
+msgid "AI accesses"
+msgstr "גישות AI"
+
+msgid "AI accesses (30d)"
+msgstr "גישות AI ‏(30 ימים)"
+
+msgid "AI accesses per day"
+msgstr "גישות AI ליום"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "עוזרי AI מצטטים קטעי תשובה עצמאיים. אם הפסקה הראשונה עונה על השאלה המרכזית, היא הדבר הקל ביותר לצטט."
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "מעכשיו נרשמות גישות של בוטי AI ומבקרים מתשובות AI – נתונים יופיעו ברגע שה-AI הראשון יגיע לאתר."
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "גישות של בוטי AI ב-30 הימים האחרונים – פתיחת לוח הסטטיסטיקות"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "חברות AI שולחות לאתר מבקרים אוטומטיים – בוטים. הם מזדהים בשמם, והשם מגלה בדיוק למה הם באו. שלושה סוגים חשובים, ומשמעותם לעסק שלך שונה מאוד:"
+
+msgid "AI companies: share of accesses"
+msgstr "חברות AI: נתח מהגישות"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "גישת סורקי AI ‏(robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "סורקי AI לא מעבירים שאילתות חיפוש. המטריצה הזו משייכת כל גישה למונח המרכזי של העמוד (ניתן להגדיר אותו בתיבת בדיקת GEO במסך העריכה) – החלופה הכנה והמעשית."
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "מכ\"ם AI: סורקים לא מזוהים שנראים כמו AI"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "חיפוש AI מעדיף מקורות עדכניים; תאריך השינוי נשלח בנתונים המובנים. סקירה שנתית של התוכן שומרת אותו בר-ציטוט."
+
+msgid "AI source"
+msgstr "מקור AI"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "מערכות AI מתאימות שאלות קודם כול לכותרות – כותרת ברורה הופכת את העמוד למקור המתבקש."
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "מערכות AI קראו את האתר %s פעמים ב-30 הימים האחרונים – Wille GEO עושה את העבודה."
+
+msgid "AI visibility, last 7 days"
+msgstr "נראות ב-AI, 7 הימים האחרונים"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "זינוק במבקרים מ-AI: ‏%1$d מבקרים מתשובות AI אתמול (ממוצע אחרון: %2$s ליום)."
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "זינוק במבקרים מ-AI: ‏%1$s מבקרים מתשובות AI אתמול (ממוצע אחרון: %2$s ליום)."
+
+msgid "AI visitors"
+msgstr "מבקרים מ-AI"
+
+msgid "AI visitors: landing pages"
+msgstr "מבקרים מ-AI: עמודי נחיתה"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "על פני כל העמודים עם ציון. כל נקודה נוספת היא עוד קריטריון שהעמוד הטיפוסי שלך עומד בו."
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "הוספת זמני עדכון מדויקים (lastmod) למפת האתר XML"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "מוסיף מזהי עוגן לכל כותרות H2/H3, ובפוסטים עם שלוש כותרות או יותר מוסיף תוכן עניינים קומפקטי עם קישורים לפני ה-H2 הראשון. העיצוב מינימלי ויורש את הגופנים והצבעים של ערכת העיצוב."
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "מוסיף את זמן השינוי האמיתי של כל פוסט למפת האתר של ליבת וורדפרס. פעיל רק כשמפת האתר של הליבה פועלת; תוספי SEO שמחליפים את מפת האתר אינם מושפעים."
+
+msgid "Agent"
+msgstr "סוכן"
+
+msgid "Agent (live user request)"
+msgstr "סוכן (בקשת משתמש בזמן אמת)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "סוכן + אחזור = רלוונטי לציטוט: AI קרא את העמוד כדי לענות על שאלה אמיתית. אימון רק מזין מודלים."
+
+msgid "Agent bots"
+msgstr "בוטי סוכן"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "ההתראות תמיד מופיעות בלוח; אפשרות זו שולחת אותן גם במייל (מרוכזות, לכל היותר מייל אחד ביום). משתמש בנמען שלמטה."
+
+msgid "All AIs"
+msgstr "כל ה-AI"
+
+msgid "All checks passed"
+msgstr "כל הבדיקות עברו"
+
+msgid "All images have alt text"
+msgstr "לכל התמונות יש טקסט חלופי"
+
+msgid "All types"
+msgstr "כל הסוגים"
+
+msgid "Allow all bots"
+msgstr "לאפשר את כל הבוטים"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "טקסט חלופי הוא הדרך שבה מערכות AI מבינות את התמונות – ואות ותיק לנגישות ולדירוג. עמודים ללא תמונות עוברים אוטומטית."
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "מנתח תוכן … ‏%1$s מתוך %2$s הושלמו"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "שטח = גישות בטווח שנבחר. לחיצה על חברה מציגה את הבוטים שלה בנפרד."
+
+msgid "At least 300 words"
+msgstr "לפחות 300 מילים"
+
+msgid "At least one heading phrased as a question"
+msgstr "לפחות כותרת אחת מנוסחת כשאלה"
+
+msgid "Author has a profile description"
+msgstr "למחבר יש תיאור פרופיל"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "יצירה אוטומטית של schema לשאלות נפוצות (FAQ) מכותרות בצורת שאלה"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "תוכן עניינים אוטומטי עם עוגנים לכותרות"
+
+msgid "Average GEO score"
+msgstr "ציון GEO ממוצע"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "כדאי לחשוד בכל מי שמבטיח שטף של לקוחות מחיפוש AI. זו התמונה הכנה:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "התועלת: Bing ודומיו מושכים תוכן חדש ומעודכן תוך דקות במקום ימים. ‏Bing מזין את Microsoft Copilot וחלקים מהחיפוש של ChatGPT – אינדוקס מהיר יותר פירושו ציטוטי AI מהירים יותר."
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "התועלת: סיכום של האתר שמכונות יכולות לקרוא, עבור סוכני AI. בכנות: הסורקים הגדולים עדיין כמעט לא מושכים אותו – אבל סוכני קוד וסביבות פיתוח כן, הוא לא עולה כלום ומציב אותך בעמדה טובה ככל שהתקן מתפתח."
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "התועלת: סוכנים שרוצים יותר מהסקירה מקבלים את כל התוכן המרכזי שלך כ-Markdown נקי בקובץ אחד."
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "התועלת: הוספת ‎.md לכל כתובת מחזירה Markdown נקי – בלי קוד של ערכת העיצוב ובלי סקריפטים. זול יותר לקריאה עבור סוכני AI, ומפורסם באמצעות תגית link בכל עמוד."
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "התועלת: עמודים מהמטמון לא מריצים PHP, ולכן מבקרים מ-AI בהם בלתי נראים למעקב בצד השרת. ה-beacon הזעיר הזה בדפדפן (<1 kB) סוגר את הפער."
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "התועלת: קטעים נקיים בחיפוש, בצ'אטים ובאפליקציות חברתיות – נוצרים מהתקציר או מהתוכן, בלי תחזוקה."
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "התועלת: להחליט לכל בוט מי רשאי לקרוא את התוכן – עם אזהרה ברורה לפני חסימה של משהו שיעלה לך בציטוטי AI."
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "התועלת: כל מקטע מקבל קישור עומק (#section) שמערכות AI ומנועי חיפוש יכולים לצטט במדויק, והקוראים יכולים לקפוץ ישר לתשובה."
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "התועלת: עדכניות היא אות לדירוג ולציטוט – והתאריך הגלוי הוא מה שקטעי חיפוש ותשובות AI באמת קולטים."
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "התועלת: כותרות שמסתיימות ב-\"?\" יחד עם התשובות שלהן הופכות לנתונים מובנים של FAQ – בדיוק פורמט השאלה-תשובה שעוזרי AI מצטטים."
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "התועלת: מסד הנתונים נשאר קטן. רשומות ישנות נמחקות אוטומטית פעם ביום."
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "התועלת: לדעת ברגע שזה חשוב – הסריקה הראשונה של AI חדש, המבקרים הראשונים מעוזר AI או זינוק פתאומי במבקרים מ-AI."
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "התועלת: מסד הנתונים נשאר בדיוק כפי שהיה. כבוי כברירת מחדל כדי שהסטטיסטיקות ישרדו התקנה מחדש."
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "התועלת: מטא-נתונים של מאמר, מחבר, תאריך ואתר שמכונות יכולות לקרוא – הדרך הזולה ביותר לעזור למערכות AI להבין את התוכן ולייחס אותו נכון."
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "התועלת: למדוד את התמורה האמיתית של GEO – אנשים שלוחצים ומגיעים אליך מ-ChatGPT,‏ Perplexity ודומיהם."
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "התועלת: כתובת פרופיל אחת בכל שורה (LinkedIn,‏ GitHub,‏ YouTube,‏ Wikipedia …). מערכות AI משתמשות בקישורים האלה כדי לזהות אותך כישות אחת עקבית ואמינה ברחבי הרשת (E-E-A-T)."
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "התועלת: מנועי חיפוש משתמשים בערכי lastmod אמינים כדי לסרוק מחדש עמודים שהשתנו מהר יותר – תוכן מעודכן מגיע מוקדם יותר לתשובות AI. ליבת וורדפרס משמיטה את השדה הזה."
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "התועלת: לראות איזה AI ‏(ChatGPT,‏ Claude,‏ Perplexity …) קורא איזה עמוד – הבסיס לכל הסטטיסטיקות."
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "התועלת: לוח הסטטיסטיקות משייך כל גישת AI למונח הזה, כך שאפשר לראות איזה AI קורא את התוכן ובאיזה נושא. בלעדיו, משמשת כותרת הפוסט."
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "התועלת: אפשר לזייף user agents. האימות מפריד בין בוטי AI אמיתיים למתחזים, כך שהסטטיסטיקות מציגות עניין מוכח מצד AI."
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "התועלת: המספרים של ה-AI מגיעים אליך – סיכומים עם מגמה, הבוטים המובילים, מבקרים מ-AI, העמודים הנקראים ביותר וכל מה שדורש תשומת לב, פעם בשבוע."
+
+msgid "Block all training bots"
+msgstr "חסימת כל בוטי האימון"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "גישות בוטים ב-7 הימים האחרונים לפי יום בשבוע ושעה, באזור הזמן של האתר. פרסום לפני השעות העמוסות גורם לתוכן חדש להיקרא מוקדם יותר."
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "גישות של בוטים נבדקות מול טווחי ה-IP הרשמיים של OpenAI,‏ Anthropic,‏ Perplexity,‏ Google ו-Microsoft – מתחזים מסומנים בסטטיסטיקות."
+
+msgid "Bot identity"
+msgstr "זהות הבוט"
+
+msgid "Bot identity verification"
+msgstr "אימות זהות בוטים"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "הבוטים מזוהים לפי חתימות ה-user-agent הרשמיות שלהם. לכל גישה נשמרים: שם הבוט, הקטגוריה, העמוד והשעה – ותו לא. ללא כתובות IP, ללא עוגיות, ללא נתונים אישיים, ותואם GDPR לחלוטין."
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "בונה את האינדקס שממנו מנועי חיפוש AI מצטטים. חסימה מוציאה אותך מתשובות AI עם ציטוטים – בדרך כלל רעיון רע."
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "לבדוק את לוח מצב ה-GEO בעמוד הסטטיסטיקות – ולתקן כל מה שאינו ירוק. כך מוסרים החסמים הטכניים."
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "מסומן = חסום דרך robots.txt. ‏Google-Extended ו-Applebot-Extended הם אסימוני ביטול הסכמה בלבד: חסימתם מוציאה אותך מאימון ה-AI של Google/Apple בלי להשפיע על החיפוש הרגיל."
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "בוטי AI רלוונטיים לציטוט מורשים"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "ציון מקורות מאותת על אמינות – גורם דירוג מרכזי במערכות אחזור של AI."
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "SEO קלאסי לא הופך לחסר ערך – Google עדיין מקור המבקרים הגדול ביותר עבור רוב האתרים. GEO מגיע בנוסף: אותו תוכן ברור ומובנה היטב שמערכות AI אוהבות נוטה גם להתדרג טוב יותר בחיפוש הקלאסי. לא מפסידים כלום מאופטימיזציה לשניהם."
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "סריקת חיפוש קלאסית שמזינה גם עוזרי AI ‏(Bing מזין את Copilot וחלקים מהחיפוש של ChatGPT). חסימה מוציאה אותך גם ממנוע החיפוש הזה."
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "אוסף תוכן לאימון מודלים. חסימה לא עולה לך כלום בחיפוש AI – זו החלטה שנוגעת לזכויות תוכן בלבד."
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "מקשר גישות AI לנושא בסטטיסטיקות וממקד את הכתיבה בשאלה אחת ברורה."
+
+msgid "Contains a list or table"
+msgstr "מכיל רשימה או טבלה"
+
+msgid "Contains concrete numbers or data"
+msgstr "מכיל מספרים או נתונים קונקרטיים"
+
+msgid "Content & freshness signals"
+msgstr "אותות תוכן ועדכניות"
+
+msgid "Contents"
+msgstr "תוכן"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "שליטה במי רשאי לקרוא את התוכן: לאפשר לבוטים שמצטטים אותך, לחסום את אלה שרק לוקחים – עם אזהרה ברורה לפני חסימה של משהו שיעלה לך בנראות."
+
+msgid "Could not load statistics."
+msgstr "לא ניתן לטעון את הסטטיסטיקות."
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "ספירת מבקרים מ-AI מאחורי מטמון עמודים מלא (beacon)"
+
+msgid "Data"
+msgstr "נתונים"
+
+msgid "Date range"
+msgstr "טווח תאריכים"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "מחיקת כל נתוני התוסף בעת הסרת ההתקנה"
+
+msgid "Details in the dashboard:"
+msgstr "פרטים בלוח:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "הזיהוי מתבצע לפי דומיין המפנה (referrer) ולפי utm_source ‏(ChatGPT מוסיף utm_source=chatgpt.com לקישורים מצוטטים, וזה נשמר גם כשהמפנה מוסר). הערה: ביקורים רבים מ-AI מגיעים ללא מפנה כלל, ולכן המספר האמיתי גבוה ממה שכל כלי יכול להציג."
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "תשובה ישירה בפסקה הראשונה (20–120 מילים)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "כבוי. זה לא עולה כלום ועוזר לסוכני AI להבין את מבנה האתר."
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "כבוי. נתונים מובנים הם הדרך הזולה ביותר להפוך את התוכן לקריא למכונות."
+
+msgid "Dismiss"
+msgstr "התעלמות"
+
+msgid "Email me on citation alerts"
+msgstr "לשלוח לי מייל על התראות ציטוט"
+
+msgid "Empty = the site admin email address."
+msgstr "ריק = כתובת המייל של מנהל האתר."
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "כל ביקור של בוט AI, ממוין לפי המשמעות שלו עבורך (סוכן, אחזור, אימון)."
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "כל נקודה היא עמוד שה-AI קרא ב-30 הימים האחרונים: ימינה = נקרא הרבה, למטה = ציון GEO חלש. הנקודות בפינה הימנית התחתונה הן ההזדמנויות הגדולות ביותר – לחיצה על נקודה פותחת את העמוד לעריכה."
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "כל פוסט ועמוד שפורסמו מול 13 בדיקות ה-GEO – ממוינים כך שהזדמנויות הציטוט הגדולות ביותר מופיעות ראשונות, לצד העניין מצד AI שכל עמוד כבר מקבל."
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "הכול חינמי, פועל על השרת שלך ולא שומר נתונים אישיים. שירותים חיצוניים נוצר איתם קשר רק דרך תכונות אופציונליות שמציינות זאת במפורש. כל אפשרות מסבירה מה התועלת שלה."
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "לדוגמה: ‎/my-post/‎ הופך ל-‎/my-post.md. דורש קישורים קבועים ידידותיים. ה-Markdown נוצר מהתוכן בזמן אמת ומסומן noindex כך שלעולם לא יתחרה בעמוד ה-HTML בחיפוש."
+
+msgid "Export CSV"
+msgstr "ייצוא CSV"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "הצגה בולטת ב-llms.txt (תוכן מרכזי)"
+
+msgid "Feeds"
+msgstr "פידים"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "מושך את העמוד בזמן אמת כי אדם אמיתי שאל עכשיו AI עליו. התנועה עם הכוונה הגבוהה ביותר – חסימה מרחיקה את הקוראים האלה."
+
+msgid "Filter by AI"
+msgstr "סינון לפי AI"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "מבקרים אנושיים ראשונים מ-%s! התוכן שלך מצוטט שם."
+
+msgid "Flows: which AI reads which page"
+msgstr "זרימות: איזה AI קורא איזה עמוד"
+
+msgid "Focus term"
+msgstr "מונח מרכזי"
+
+msgid "Focus term appears in the title"
+msgstr "המונח המרכזי מופיע בכותרת"
+
+msgid "Focus term set"
+msgstr "הוגדר מונח מרכזי"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "ברוב האתרים, המבקרים מתשובות AI הם כיום אחוזים בודדים ממה ש-Google שולח – אבל החלק הזה מטפס בחדות בכל רבעון. הטעם להתחיל עכשיו הוא להתבסס כמקור לפני המתחרים."
+
+msgid "GEO Audit"
+msgstr "ביקורת GEO"
+
+msgid "GEO Settings"
+msgstr "הגדרות GEO"
+
+msgid "GEO check (AI visibility)"
+msgstr "בדיקת GEO (נראוּת ב-AI)"
+
+msgid "GEO score"
+msgstr "ציון GEO"
+
+msgid "GEO status of your site"
+msgstr "מצב GEO של האתר"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "עניין גבוה מצד AI, ציון נמוך – כדאי לתקן את אלה קודם."
+
+msgid "Home"
+msgstr "ראשי"
+
+msgid "Hour"
+msgstr "שעה"
+
+msgid "How does an AI even reach my website?"
+msgstr "איך AI בכלל מגיע לאתר שלי?"
+
+msgid "How it works"
+msgstr "איך זה עובד"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "איך זה עובד – GEO בשפה פשוטה"
+
+msgid "Human visitors from AI answers"
+msgstr "מבקרים אנושיים מתשובות AI"
+
+msgid "I already did"
+msgstr "כבר עשיתי את זה"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "אימות הזהות כבוי. אפשר לזייף user agents – כדאי להפעיל אימות בהגדרות כדי להפריד בין בוטי AI אמיתיים למתחזים."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "אם התוסף עוזר לך, אולי אפשר להשאיר ביקורת קצרה ב-WordPress.org? זה לוקח דקה ועוזר לבעלי אתרים אחרים למצוא אותו. תודה!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "חשוב: מאחורי CDN כתובת ה-IP של החיבור הישיר היא של ה-proxy – וכל בוט אמיתי יסומן כמתחזה. יש לבחור את התצורה כך שתשמש כתובת ה-IP המקורית של המבקר. יש להפעיל רק כותרת שה-proxy באמת מגדיר, אחרת אפשר לזייף את הכותרות האלה."
+
+msgid "Include latest posts"
+msgstr "הכללת הפוסטים האחרונים"
+
+msgid "Include pages"
+msgstr "הכללת עמודים"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "IndexNow הוא פרוטוקול פתוח שנתמך על ידי Bing,‏ Seznam,‏ Naver ואחרים. בכל פרסום, עדכון או ביטול פרסום התוסף שולח את הכתובת הציבורית יחד עם מפתח האתר ל-API של IndexNow – שום דבר אחר לא מועבר. קובץ מפתח מוגש אוטומטית מהאתר לצורך אימות. אם תוסף אחר כבר שולח ל-IndexNow (למשל Rank Math או תוסף Bing הרשמי), יש להשאיר את זה כבוי כדי למנוע שליחות כפולות."
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: הודעות אינדוקס מיידיות"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "אינדוקס מיידי (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "קישורים פנימיים הם הנתיבים שסורקים ומערכות אחזור עוקבים אחריהם כדי לגלות תוכן קשור – עמודים יתומים נקראים פחות."
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "השפעה בלתי נראית: גדולה ממספרי הקליקים."
+
+msgid "It measures"
+msgstr "מודד"
+
+msgid "It optimizes"
+msgstr "משפר"
+
+msgid "Job title / role"
+msgstr "תפקיד"
+
+msgid "Keep statistics for"
+msgstr "שמירת סטטיסטיקות למשך"
+
+msgid "Key content"
+msgstr "תוכן מרכזי"
+
+msgid "Last seen"
+msgstr "נראה לאחרונה"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "נשלח לאחרונה: %1$s בתאריך %2$s."
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "משמאל: בוטי AI, מימין: העמודים שלך. רוחב הפס = גישות. ריחוף מעל פס מציג את המספר המדויק."
+
+msgid "Links to at least one external source"
+msgstr "קישור למקור חיצוני אחד לפחות"
+
+msgid "Links to at least one other page on your site"
+msgstr "קישור לעמוד אחר אחד לפחות באתר"
+
+msgid "Log AI bot accesses"
+msgstr "רישום גישות של בוטי AI"
+
+msgid "Log human visitors from AI answers"
+msgstr "רישום מבקרים אנושיים מתשובות AI"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "מטא-נתונים קריאים למכונה עוזרים למערכות AI להבין את התוכן ולייחס אותו."
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "גרסאות של התוכן שמכונות יכולות לקרוא (llms.txt, עמודי Markdown, נתונים מובנים) – כדי שמערכות AI יבינו את האתר בכמה שפחות חיכוך."
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "הפיכת האתר למקור שמערכות AI מוצאות, מבינות ומצטטות נקראת GEO ‏(Generative Engine Optimization). זה אותו רעיון כמו SEO, רק עבור תשובות AI במקום קישורים כחולים – ומכיוון שעדיין מעט מאוד אתרים עושים זאת, מי שמקדים זוכה לנראות גבוהה באופן לא פרופורציונלי."
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "ניהול כללי סורקי AI בקובץ robots.txt"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "אנשים רבים קוראים את תשובת ה-AI שמצטטת אותך ולא לוחצים לעולם – אבל הם ראו את השם שלך כמקור. זו נראות מותג שאף סטטיסטיקה לא יכולה ללכוד במלואה; הציטוט עצמו הוא הניצחון."
+
+msgid "Mark all as read"
+msgstr "סימון הכול כנקרא"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "גרסת Markdown לכל עמוד (כתובות ‎.md)"
+
+msgid "Max. entries per section"
+msgstr "מקסימום פריטים לכל מקטע"
+
+msgid "Maybe later"
+msgstr "אולי אחר כך"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "בינתיים: כדאי לתקן כל מה שאינו ירוק בלוח המצב שלמטה, ולהגדיר מונחים מרכזיים לעמודים החשובים ביותר."
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "יותר ויותר אנשים כבר לא מקלידים את השאלות שלהם ב-Google – הם שואלים את ChatGPT,‏ Perplexity,‏ Copilot או Claude. ה-AI קורא קומץ אתרים, כותב תשובה אחת ומציין את המקורות שלו. אם האתר שלך הוא אחד המקורות, הוא מוזכר ומקושר. אם לא, הוא בלתי נראה בשיחה הזו – גם אם הוא מדורג היטב ב-Google הקלאסי."
+
+msgid "Most active AI bots"
+msgstr "בוטי ה-AI הפעילים ביותר"
+
+msgid "Name (defaults to site title)"
+msgstr "שם (ברירת מחדל: כותרת האתר)"
+
+msgid "Needs attention"
+msgstr "דורש תשומת לב"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "תוכן חדש ומעודכן נדחף ל-Bing ודומיו תוך דקות. ‏Bing מזין את Copilot וחלקים מהחיפוש של ChatGPT – אינדוקס מהיר יותר פירושו ציטוטי AI מהירים יותר."
+
+msgid "New here? How it all works, in plain language."
+msgstr "חדש כאן? איך הכול עובד, בשפה פשוטה."
+
+msgid "Next"
+msgstr "הבא"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "עדיין אין גישות AI לעמודים עם ציון ב-30 הימים האחרונים – המפה תתמלא ככל שמערכות AI יקראו את התוכן."
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "עדיין לא נמשכו טווחי IP – ההורדה הראשונה תתבצע בשעה הקרובה (או כשה-cron היומי ירוץ)."
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "עדיין לא נשלחה כתובת – הפרסום או העדכון הבא יפעילו את השליחה הראשונה."
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "עדיין אין גישות של בוטים ב-7 הימים האחרונים."
+
+msgid "No data for this AI in the selected range."
+msgstr "אין נתונים עבור AI זה בטווח שנבחר."
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "אין נתונים עדיין. גישות AI יופיעו כאן ברגע שבוט AI מוכר או מבקר שהופנה מ-AI יגיעו לאתר."
+
+msgid "No duplicate SEO output"
+msgstr "אין פלט SEO כפול"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "בלי ז'רגון ובלי הייפ: מה קורה, מה התוסף הזה עושה בנידון, ואילו תוצאות אפשר לצפות להן באופן מציאותי."
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "אין תוסף SEO אחר פעיל – Wille GEO מספק בעצמו את ה-schema ותגיות ה-meta."
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "אין פסקאות ארוכות מדי (עד 150 מילים כל אחת)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "לא נמצא קובץ robots.txt פיזי – כללי סורקי ה-AI שהוגדרו ב-Wille GEO פעילים."
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "לא נמצא קובץ robots.txt פיזי. לא הוגדרו ב-Wille GEO חסימות לסורקי AI, ולכן קובץ ה-robots.txt של וורדפרס מוגש ללא שינוי."
+
+msgid "No published content to audit yet."
+msgstr "עדיין אין תוכן שפורסם לביקורת."
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "לא נמצאה מפת אתר. וורדפרס מספקת אחת כברירת מחדל – ייתכן שתוסף או הגדרה השביתו אותה."
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "שום כלי לא יכול להכריח AI לצטט אותך. מערכות AI מצטטות עמודים שעונים על שאלה אמיתית בצורה ברורה, קונקרטית ואמינה. התוסף הזה הופך בדיוק את זה למדיד וקל יותר באופן שיטתי – הוא מסיר כל מכשול טכני ומראה מה עובד. את התוכן עצמו עדיין צריך לספק בעצמך."
+
+msgid "No – use the direct connection IP"
+msgstr "לא – להשתמש בכתובת ה-IP של החיבור הישיר"
+
+msgid "Not allowed."
+msgstr "אין הרשאה."
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "כבוי. אפשר לזייף user agents; הפעלת האימות מפרידה בין בוטי AI אמיתיים למתחזים (מושכת רשימות IP ציבוריות פעם ביום)."
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "כבוי. בלעדיו, אינדקסים של חיפוש שרלוונטיים ל-AI לומדים על תוכן חדש רק כשהם סורקים את האתר שוב – הפעלת IndexNow מקצרת את זה לדקות."
+
+msgid "Official profiles (sameAs)"
+msgstr "פרופילים רשמיים (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "לפי בקשה, הוכחה: בוטים מתחזים שמזייפים שם מוכר נחשפים באמצעות רשימות ה-IP הרשמיות של חברות ה-AI."
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "פעם ביום התוסף מוריד את רשימות ה-IP הציבוריות ש-OpenAI,‏ Anthropic,‏ Perplexity,‏ Google ו-Microsoft מפרסמות עבור הסורקים שלהן, ומסמן כל גישה שנרשמה כמאומתת, ככושלת (זהות נטענת מ-IP זר) או כלא נבדקה. כתובת ה-IP של המבקר מושווית בזיכרון בלבד ולעולם אינה נשמרת. מכיוון שזה מבצע בקשות חיצוניות, זה אופציונלי."
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "כתובת אחת בכל שורה (LinkedIn,‏ GitHub,‏ X, אתר אישי …). מאפשר למערכות AI לאמת את המחבר כאדם אמיתי ועקבי אחד – אות E-E-A-T מרכזי."
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "משפט או שניים: מי את/ה ובמה עוסק האתר."
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "אפשר לפתוח כל פוסט בעורך – לוח \"בדיקת GEO\" בסרגל הצד מוביל בדיוק דרך הצעדים האלה בזמן הכתיבה."
+
+msgid "Open improvements"
+msgstr "שיפורים פתוחים"
+
+msgid "Open the full dashboard"
+msgstr "פתיחת הלוח המלא"
+
+msgid "Open the settings"
+msgstr "פתיחת ההגדרות"
+
+msgid "Open the statistics dashboard"
+msgstr "פתיחת לוח הסטטיסטיקות"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "לפתוח את חמשת העמודים החשובים ביותר ולהגדיר לכל אחד מונח מרכזי: השאלה או הנושא שהעמוד הזה צריך להיות התשובה עבורם."
+
+msgid "Opportunity map"
+msgstr "מפת הזדמנויות"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "פלט תיאור meta ותצוגות מקדימות לרשתות חברתיות (Open Graph)"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "פלט נתונים מובנים של schema.org ‏(JSON-LD)"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "מפיק WebSite,‏ Organization/Person,‏ Article (עם תאריכים ומחבר) ופירורי לחם. מערכות אחזור של AI משתמשות באותות האלה כדי להעריך עדכניות ואמינות."
+
+msgid "Page"
+msgstr "עמוד"
+
+msgid "Pages"
+msgstr "עמודים"
+
+msgid "Pages AI read most"
+msgstr "העמודים שה-AI קרא הכי הרבה"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "אנשים שואלים את עוזרי ה-AI שאלות. כותרות שמשקפות את השאלות האלה ממפות את התוכן ישירות לפרומפטים אמיתיים – ומזינות את ה-schema האוטומטי של FAQ."
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "לנעוץ את העמודים הטובים ביותר כתוכן מרכזי, כך ש-llms.txt יוביל את סוכני ה-AI ישירות אליהם."
+
+msgid "Ping IndexNow on publish and update"
+msgstr "שליחת הודעת IndexNow בעת פרסום ועדכון"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "תוכן נעוץ מופיע ראשון ב-llms.txt וב-llms-full.txt – העמודים שהכי חשוב לך שמערכות AI יקראו."
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "קישורים קבועים פשוטים פעילים (הגדרות ← קישורים קבועים). לא ניתן להגיש את נקודות הקצה של Markdown ואת קובץ המפתח של IndexNow, וכתובות קריאות עוזרות לכל סורק."
+
+msgid "Post"
+msgstr "פוסט"
+
+msgid "Post not found."
+msgstr "הפוסט לא נמצא."
+
+msgid "Posts"
+msgstr "פוסטים"
+
+msgid "Pretty permalinks enabled"
+msgstr "קישורים קבועים ידידותיים מופעלים"
+
+msgid "Previous"
+msgstr "הקודם"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "פרטיות: התוסף הזה לא שומר כתובות IP, לא מגדיר עוגיות ולא מבצע בקשות חיצוניות כברירת מחדל. החריגים היחידים הם שתי תכונות אופציונליות שבשליטתך: אימות בוטים (מוריד רשימות IP ציבוריות של סורקים פעם ביום) ו-IndexNow (שולח כתובות שפורסמו ל-API של IndexNow). כל הסטטיסטיקות נשארות במסד הנתונים של וורדפרס שלך."
+
+msgid "Profile URLs (sameAs)"
+msgstr "כתובות פרופיל (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "איכות: גבוהה באופן חריג."
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "דירוג Wille GEO ב-WordPress.org (נפתח בלשונית חדשה)"
+
+msgid "Rate ★★★★★"
+msgstr "דירוג ★★★★★"
+
+msgid "Re-scan"
+msgstr "סריקה מחדש"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "כתובות קריאות פעילות – נקודות הקצה ‎.md וקובץ המפתח של IndexNow עובדים."
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "אנשים אמיתיים שמגיעים מתשובות AI – התמורה האמיתית, לפי AI ולפי עמוד."
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "אנשים אמיתיים שלחצו על הקישור שלך בתוך ChatGPT,‏ Perplexity ודומיהם. זה הרווח האמיתי של GEO."
+
+msgid "Recipient"
+msgstr "נמען"
+
+msgid "Reload page"
+msgstr "טעינת העמוד מחדש"
+
+msgid "Retrieval"
+msgstr "אחזור"
+
+msgid "Retrieval (citation index)"
+msgstr "אחזור (אינדקס ציטוטים)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "בוטי אחזור וסוכנים יכולים לקרוא את העמודים – אפשר להופיע בתשובות AI."
+
+msgid "Retrieval bots"
+msgstr "בוטי אחזור"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "בוטי אחזור צריכים קודם למצוא ולקרוא מחדש את העמודים המשופרים. אפשר לצפות להשפעות מדידות ראשונות אחרי כמה שבועות ולהערכה הוגנת אחרי שלושה עד שישה חודשים – הלוח מציג את המגמה לאורך כל הדרך."
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "בוטי אחזור משתמשים במפת האתר כדי לגלות תוכן חדש במהירות."
+
+msgid "Review Wille GEO"
+msgstr "ביקורת על Wille GEO"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "הכללים מתווספים לקובץ robots.txt שוורדפרס יוצר. קובץ robots.txt פיזי בתיקיית השורש יגבר עליהם – לוח המצב בעמוד הסטטיסטיקות יזהיר אם קיים כזה. חשוב לזכור ש-robots.txt מבוסס על כבוד הדדי; הבוטים המוכרים מכבדים אותו."
+
+msgid "Running GEO checks …"
+msgstr "מריץ בדיקות GEO …"
+
+msgid "Save settings"
+msgstr "שמירת הגדרות"
+
+msgid "Score distribution"
+msgstr "התפלגות ציונים"
+
+msgid "Search"
+msgstr "חיפוש"
+
+msgid "Search (feeds AI answers)"
+msgstr "חיפוש (מזין תשובות AI)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "מנועי חיפוש וסורקי AI רשאים לאנדקס את האתר."
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "אפשר לראות איזו AI (ChatGPT, Claude, Perplexity…) קוראת אילו עמודים באתר – ולשפר את האתר לחיפוש מבוסס AI (GEO). חינם, ללא מידע אישי."
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "שליחת דוח שבועי על נראות ב-AI במייל"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "נשלח על ידי התוסף Wille GEO. אפשר לכבות את הדוח הזה בכל עת תחת Wille GEO ← הגדרות."
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "נשלח דרך מערכת הדואר הרגילה של וורדפרס, ורק כשהייתה פעילות AI בפועל באותו שבוע – אתרים שקטים לא יקבלו ספאם. אפשר גם להפעיל אותו ידנית באמצעות פקודת WP-CLI ‏\"wp geoins report\"."
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "הגשת /llms-full.txt עם התוכן המלא"
+
+msgid "Serve a generated /llms.txt"
+msgstr "הגשת קובץ /llms.txt שנוצר אוטומטית"
+
+msgid "Served at %s."
+msgstr "מוגש בכתובת %s."
+
+msgid "Settings"
+msgstr "הגדרות"
+
+msgid "Short site description (optional)"
+msgstr "תיאור קצר של האתר (אופציונלי)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "פסקאות קצרות ועצמאיות הן היחידה שמערכות AI מעתיקות לתשובות. גושים ארוכים מדולגים."
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "הצגת תאריך \"עודכן ב\" גלוי בפוסטים שנערכו"
+
+msgid "Show all AIs"
+msgstr "הצגת כל ה-AI"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "מוצג מעל התוכן, רק כאשר הפוסט נערך באופן משמעותי (יותר מיומיים אחרי הפרסום). ה-dateModified הקריא למכונה תמיד נמצא בנתונים המובנים, ללא קשר למתג הזה."
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "מוצג למערכות AI כמומחיות קריאה למכונה (schema.org jobTitle), למשל \"Senior WordPress Developer\"."
+
+msgid "Site represents"
+msgstr "האתר מייצג"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "האתר פועל מאחורי proxy/CDN?"
+
+msgid "Site visible to crawlers"
+msgstr "האתר גלוי לסורקים"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "מי שלוחץ ומגיע מתשובת AI כבר קרא סיכום ורוצה להעמיק – מחקרים ונתוני חנויות מראים בעקביות שהמבקרים האלה ממירים טוב יותר באופן ניכר מתנועת חיפוש ממוצעת. פחות מבקרים, אבל חמים יותר."
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "אין לך הרשאה לבצע פעולה זו."
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "מהירות: תוכן חדש ומעודכן מוכרז למנועי חיפוש תוך דקות (IndexNow) – ככל שהוא מאונדקס מוקדם יותר, AI יכול לצטט אותו מוקדם יותר."
+
+msgid "Statistics"
+msgstr "סטטיסטיקות"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "סטטיסטיקות ומספרים קונקרטיים מגדילים באופן מדיד את הסיכוי לציטוט – תשובות AI אוהבות מספרים שאפשר לאמת."
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "קטעים מובנים (רשימות, טבלאות) נשלפים ומצוטטים על ידי AI הרבה יותר מאשר גושי טקסט."
+
+msgid "Structured data & meta tags"
+msgstr "נתונים מובנים ותגיות meta"
+
+msgid "Structured data (schema.org)"
+msgstr "נתונים מובנים (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "בטח, אכתוב ביקורת"
+
+msgid "Table of contents"
+msgstr "תוכן העניינים"
+
+msgid "Term"
+msgstr "מונח"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "מונחים ועמודים: איזה AI קורא מה?"
+
+msgid "The audit table needs JavaScript."
+msgstr "טבלת הביקורת דורשת JavaScript."
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "ה-beacon פועל רק עבור מבקרים שאינם מחוברים, בודק רק אם הביקור הגיע מ-AI מוכר (דומיין מפנה או utm_source), ורק אז מדווח על המקור ונתיב העמוד לאתר שלך עצמו. ללא עוגיות, ללא כתובות IP, ללא טביעת אצבע, ללא שירות חיצוני. ספירה כפולה עם המעקב בצד השרת נמנעת אוטומטית. יש להשאיר את זה כבוי אם האתר לא משתמש במטמון עמודים מלא – מעקב ה-PHP כבר רואה הכול."
+
+msgid "The honest limit: content decides."
+msgstr "המגבלה הכנה: התוכן הוא שמכריע."
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "קובץ ה-robots.txt הפיזי חוסם את %s. הבוטים האלה מכניסים אותך לתשובות AI – יש לערוך את הקובץ כדי לבטל את החסימה (הכללים שהוגדרו כאן לא פעילים כל עוד הקובץ קיים)."
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "קובץ ה-robots.txt הפיזי חוסם את כל הסורקים (User-agent: * / Disallow: /). אף מנוע חיפוש ואף מערכת AI לא יכולים לקרוא את האתר – יש לערוך את הקובץ."
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "קובץ ה-robots.txt הפיזי חוסם כברירת מחדל את כל הסורקים (User-agent: * / Disallow: /); רק סורקים עם כללי חריגה משלהם בקובץ יכולים לקרוא את האתר. כל מערכת AI ללא חריגה נחסמת – יש לערוך את הקובץ."
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "לוח הסטטיסטיקות משייך כל גישת AI למונח הזה. ריק = כותרת הפוסט."
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "לוח הסטטיסטיקות דורש JavaScript. אפשר להשתמש בייצוא CSV או ב-WP-CLI ‏(wp geoins stats) במקום."
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "ואז לתת לזה לרוץ. לבדוק את הלוח פעם בשבוע (או להפעיל את הדוח במייל) ולהשקיע במקומות שבהם כבר מופיע עניין מצד AI – שם הציטוטים הכי קרובים."
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "ה-user agents האלה נשמעים כמו מערכות AI אך עדיין אינם במאגר – ולכן הגישות שלהם אינן נכללות בסטטיסטיקות שלמעלה. כדאי להוסיף רשומות תכופות באמצעות המסנן geoins_bots (או לדווח עליהן למפתחי התוסף)."
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "התוסף מזהה את הבוטים האלה בכל ביקור ומציג בלוח: איזה AI קורא אילו עמודים, באיזו תדירות ובאיזה נושא. וכשאדם לוחץ על הקישור לאתר שלך בתוך תשובת AI, גם הביקור הזה נספר – זה הרגע שבו נראות ב-AI הופכת ללקוח פוטנציאלי."
+
+msgid "Timeline: weeks to months, not days."
+msgstr "לוח זמנים: שבועות עד חודשים, לא ימים."
+
+msgid "Title"
+msgstr "כותרת"
+
+msgid "Tracking"
+msgstr "מעקב"
+
+msgid "Training"
+msgstr "אימון"
+
+msgid "Training bots"
+msgstr "בוטי אימון"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "שני דברים: מודד ומשפר. הכול פועל על השרת שלך, שום דבר לא נשלח לשום מקום, וכל מתג בהגדרות מסביר את התועלת שלו לפני שמפעילים אותו."
+
+msgid "Updated"
+msgstr "עודכן"
+
+msgid "Updated on %s"
+msgstr "עודכן ב-%s"
+
+msgid "Updated within the last 12 months"
+msgstr "עודכן ב-12 החודשים האחרונים"
+
+msgid "User agent"
+msgstr "User agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "אימות זהות הבוטים מול טווחי ה-IP הרשמיים"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "עמודים דלים מאוד כמעט אף פעם לא מכילים מספיק תוכן כדי ש-AI יבסס עליהם תשובה."
+
+msgid "View your key file"
+msgstr "הצגת קובץ המפתח"
+
+msgid "View your llms-full.txt"
+msgstr "הצגת קובץ llms-full.txt"
+
+msgid "View your llms.txt"
+msgstr "הצגת קובץ llms.txt"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "מומחיות גלויה (מחבר אמיתי עם ביוגרפיה) מזינה את אותות E-E-A-T שמערכות AI משתמשות בהם כדי לבחור מקורות אמינים."
+
+msgid "Volume: still small, growing fast."
+msgstr "נפח: עדיין קטן, גדל במהירות."
+
+msgid "Waiting for the first AI visit"
+msgstr "ממתין לביקור ה-AI הראשון"
+
+msgid "Weekly email report"
+msgstr "דוח שבועי במייל"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "למה אפשר לצפות באופן מציאותי? תשובה כנה"
+
+msgid "What does the plugin actually do for me?"
+msgstr "מה התוסף בעצם עושה בשבילי?"
+
+msgid "What happened"
+msgstr "מה קרה"
+
+msgid "What is happening right now?"
+msgstr "מה קורה עכשיו?"
+
+msgid "When do AIs read your site?"
+msgstr "מתי מערכות AI קוראות את האתר?"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "מאיפה מתחילים? חמישה צעדים, 30 דקות"
+
+msgid "Which AI bots?"
+msgstr "אילו בוטים של AI?"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "איזה AI קרא את העמודים שלך, ואילו תשובות AI שלחו אליך מבקרים אנושיים."
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "איזה AI קורא אילו עמודים באתר, עבור איזה מונח – ואילו תשובות AI באמת שולחות אליך מבקרים אנושיים."
+
+msgid "Why does this matter?"
+msgstr "למה זה חשוב?"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Wille GEO פעיל."
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Wille GEO פותח על ידי %1$s. הוא עוזר לך? ביקורת %2$s ב-WordPress.org עוזרת לאחרים למצוא אותו – תודה!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "Wille GEO הבחין ב-%s:"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: אותות מחבר (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "לעבור על רשימת הבדיקה של GEO בעמודים האלה – במיוחד: לענות על השאלה המרכזית ישירות בפסקה הראשונה, ולהפוך כותרות לשאלות אמיתיות."
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "עובד בפוסטים ובעמודים עם לפחות שתי כותרות בצורת שאלה (H2/H3 שמסתיימות בסימן שאלה). לא נדרשת עבודה נוספת – פשוט לכתוב שאלות ככותרות, וה-schema יבוא אחריהן."
+
+msgid "XML sitemap available"
+msgstr "מפת אתר XML זמינה"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "כן, Cloudflare ‏(CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "כן, proxy אחר (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "האתר חוסם את %s. הבוטים האלה מכניסים אותך לתשובות AI – חסימתם מוציאה אותך מהציטוטים."
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "הודעה זו נשלחת אליך כי התראות ציטוט במייל מופעלות תחת Wille GEO ← הגדרות."
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "קובץ המפתח של IndexNow אינו נגיש מהשרת שלך עצמו, ולכן השליחות מושהות. סיבות נפוצות: קישורים קבועים פשוטים (לתיקון תחת הגדרות ← קישורים קבועים) או תוסף אבטחה שחוסם בקשות loopback. לאחר התיקון, יש לשמור שוב את ההגדרות – הבדיקה תרוץ מחדש זמן קצר אחרי השמירה."
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "תוקף בדיקת ההתחברות פג – יש לטעון מחדש את העמוד כדי להמשיך."
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] נראות ב-AI השבוע: %2$d גישות AI,‏ %3$d מבקרים מ-AI"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] אות חדש לנראות ב-AI"
+
+msgid "a person"
+msgstr "אדם"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "אדם אמיתי שאל עכשיו AI שאלה, וה-AI קורא את העמוד שלך ברגע זה כדי לענות. זה האות הכי בעל ערך שיש: מישהו מתעניין בנושא שלך בדיוק ברגע הזה."
+
+msgid "accesses"
+msgstr "גישות"
+
+msgid "an organization"
+msgstr "ארגון"
+
+msgid "blocking costs citations"
+msgstr "חסימה עולה בציטוטים"
+
+msgid "blocking is safe for citations"
+msgstr "חסימה בטוחה מבחינת ציטוטים"
+
+msgid "by %s"
+msgstr "מאת %s"
+
+msgid "days"
+msgstr "ימים"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "לדוגמה: תוסף גיבוי לוורדפרס"
+
+msgid "forever"
+msgstr "לתמיד"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "מתחזים"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "llms.txt זמין"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "llms.txt הוא תקן צעיר: סקירה בפורמט Markdown של התוכן החשוב ביותר שלך בכתובת /llms.txt. הוא נוצר אוטומטית מהעמודים והפוסטים ונשמר במטמון ל-12 שעות."
+
+msgid "more"
+msgstr "עוד"
+
+msgid "new"
+msgstr "חדש"
+
+msgid "pages"
+msgstr "עמודים"
+
+msgid "passed"
+msgstr "עבר"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "הם בונים את הספרייה שממנה ה-AI מצטט מאוחר יותר. הימצאות בספרייה הזו קובעת אם אפשר בכלל לצטט אותך."
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "הם אוספים טקסט לאימון מודלי AI עתידיים. הם לא מביאים מבקרים ולא ציטוטים. האם לאפשר להם – זו החלטה שנוגעת לזכויות תוכן בלבד; חסימתם לא עולה לך כלום."
+
+msgid "unchecked"
+msgstr "לא נבדק"
+
+msgid "verified"
+msgstr "מאומת"
+
+msgid "visitors"
+msgstr "מבקרים"
+
+msgid "vs. previous period"
+msgstr "לעומת התקופה הקודמת"

@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "A „Keresőmotorok kizárása” be van kapcsolva (Beállítások → Olvasás). Amíg ki nem kapcsolod, egyetlen AI-rendszer sem talál meg."
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%1$d IP-tartomány %2$d szolgáltatótól, utolsó frissítés: %3$s."
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "A(z) %s (tanító crawler) először látogatta meg a webhelyet."
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "A(z) %s először térképezte fel a webhelyet – egy hivatkozás szempontjából releváns AI mostantól olvas téged."
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "%s észlelve – a Wille GEO automatikusan rá hagyja a sémát és a metacímkéket, és csak a hiányzó dolgokat adja hozzá (követés, llms.txt, robots-vezérlés, GEO-ellenőrzések)."
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "A(z) %s aktív. A duplikált kimenet elkerülése érdekében a Wille GEO automatikusan rá hagyja a sémát és a metacímkéket – amíg fut, az alábbi kapcsolók figyelmen kívül maradnak. Minden más (követés, llms.txt, robots-vezérlés, GEO-ellenőrzések) mellette is működik."
+
+msgid "(opens in a new tab)"
+msgstr "(új lapon nyílik meg)"
+
+msgid "1 year"
+msgstr "1 év"
+
+msgid "180 days"
+msgstr "180 nap"
+
+msgid "30 days"
+msgstr "30 nap"
+
+msgid "7-day average"
+msgstr "7 napos átlag"
+
+msgid "90 days"
+msgstr "90 nap"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "Minden oldal tiszta Markdown-változata elérhető, ha az URL-hez .md-t fűzöl."
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "Élő ellenőrzőlista írás közben: tizenhárom konkrét, elmagyarázott szempont, amelyek idézhetővé teszik az oldalt az AI számára (válasz elöl, kérdés-címsorok, listák, számok, frissesség …)."
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "Létezik egy fizikai robots.txt, amely nem tartalmazza az itt beállított tiltásokat (%s) – ezeknek nincs hatásuk, amíg fel nem veszed őket a fájlba, vagy nem törlöd a fájlt."
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "Létezik egy fizikai robots.txt fájl, de nem olvasható be elemzéshez. Felülírja az itt beállított szabályokat – ellenőrizd kézzel."
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "Létezik egy fizikai robots.txt fájl, de jelenleg rendben van: nem tilt le hivatkozás szempontjából releváns AI-botot, és megfelel a beállításaidnak. Megjegyzés: az itt beállított szabályok inaktívak maradnak, amíg a fájl létezik."
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "Egy reális példa: egy 50 alapos cikket tartalmazó szakmai webhely, amely alkalmazza a GEO-ellenőrzőlistát, néhány hónapon belül számíthat az első AI-hivatkozásokra és a nagy szándékú látogatók kicsi, de folyamatosan növekvő áramára – úgy érdemes tekinteni rá, mint egy második, még kicsi ajtóra az üzletedhez, amely hónapról hónapra szélesebb lesz, nem pedig a Google kiváltására."
+
+msgid "AI (30d)"
+msgstr "AI (30 n)"
+
+msgid "AI Statistics"
+msgstr "AI-statisztika"
+
+msgid "AI accesses"
+msgstr "AI-hozzáférések"
+
+msgid "AI accesses (30d)"
+msgstr "AI-hozzáférések (30 n)"
+
+msgid "AI accesses per day"
+msgstr "AI-hozzáférések naponta"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "Az AI-asszisztensek önálló válaszblokkokat idéznek. Ha az első bekezdés megválaszolja a fő kérdést, azt a legkönnyebb hivatkozni."
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "Mostantól rögzítésre kerülnek az AI-botok hozzáférései és az AI-válaszokból érkező látogatók – az adatok akkor jelennek meg, amikor az első AI eléri a webhelyet."
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "AI-bot-hozzáférések az elmúlt 30 napban – a statisztikai irányítópult megnyitása"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "Az AI-cégek automatizált látogatókat – botokat – küldenek a webhelyedre. Ezek névvel azonosítják magukat, és a név pontosan elárulja, miért jöttek. Háromféle számít, és ezek nagyon mást jelentenek az üzleted számára:"
+
+msgid "AI companies: share of accesses"
+msgstr "AI-cégek: a hozzáférések megoszlása"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "AI-crawlerek hozzáférése (robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "Az AI-crawlerek nem továbbítanak keresési kifejezéseket. Ez a mátrix minden hozzáférést az oldal fókuszkifejezéséhez rendel (a szerkesztőképernyő GEO-ellenőrzés dobozában adható meg) – ez a becsületes, gyakorlati megfelelő."
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "AI-radar: nem felismert, AI-szerű crawlerek"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "Az AI-keresés a friss forrásokat részesíti előnyben; a módosítás dátuma a strukturált adatokban kerül továbbításra. Ha a tartalmat évente átnézed, hivatkozható maradsz."
+
+msgid "AI source"
+msgstr "AI-forrás"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "Az AI-rendszerek a kérdéseket elsőként a címekkel vetik össze – egy világos cím az oldalt kézenfekvő forrássá teszi."
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "Az AI-rendszerek %s alkalommal olvasták a webhelyet az elmúlt 30 napban – a Wille GEO teszi a dolgát."
+
+msgid "AI visibility, last 7 days"
+msgstr "AI-láthatóság, utolsó 7 nap"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "AI-látogatói csúcs: tegnap %1$d látogató érkezett AI-válaszokból (friss átlag: %2$s/nap)."
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "AI-látogatói csúcs: tegnap %1$s látogató érkezett AI-válaszokból (friss átlag: %2$s/nap)."
+
+msgid "AI visitors"
+msgstr "AI-látogatók"
+
+msgid "AI visitors: landing pages"
+msgstr "AI-látogatók: érkezési oldalak"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "Az összes pontozott oldalra. Minden további pont eggyel több szempontot jelent, amelyet egy átlagos oldalad teljesít."
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "Pontos frissítési idők (lastmod) hozzáadása az XML-oldaltérképhez"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "Horgonyazonosítókat ad minden H2/H3 címsorhoz, és a legalább három címsort tartalmazó bejegyzésekben egy tömör, linkelt tartalomjegyzéket szúr be az első H2 elé. A formázás minimális, és átveszi a sablon betűtípusait és színeit."
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "Minden bejegyzés valódi módosítási idejét hozzáadja a WordPress beépített oldaltérképéhez. Csak akkor aktív, ha a beépített oldaltérkép fut; az oldaltérképet lecserélő SEO-bővítményeket nem érinti."
+
+msgid "Agent"
+msgstr "Ügynök"
+
+msgid "Agent (live user request)"
+msgstr "Ügynök (élő felhasználói kérés)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "Ügynök + Lekérés = hivatkozás szempontjából releváns: egy AI azért olvasta el az oldalt, hogy egy valódi kérdésre válaszoljon. A Tanítás csak modelleket táplál."
+
+msgid "Agent bots"
+msgstr "Ügynök botok"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "A riasztások mindig megjelennek az irányítópulton; ez e-mailben is elküldi őket (összevonva, naponta legfeljebb egy levél). Az alábbi címzettet használja."
+
+msgid "All AIs"
+msgstr "Minden AI"
+
+msgid "All checks passed"
+msgstr "Minden ellenőrzés sikeres"
+
+msgid "All images have alt text"
+msgstr "Minden képnek van alternatív szövege"
+
+msgid "All types"
+msgstr "Minden típus"
+
+msgid "Allow all bots"
+msgstr "Minden bot engedélyezése"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "Az AI-rendszerek az alternatív szövegből értik meg a képeket – és ez régóta akadálymentességi és rangsorolási jel is. A kép nélküli oldalak automatikusan megfelelnek."
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "Tartalom elemzése … %1$s / %2$s kész"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "Terület = hozzáférések a kiválasztott időszakban. Kattints egy cégre, hogy ráközelíts az egyes botjaira."
+
+msgid "At least 300 words"
+msgstr "Legalább 300 szó"
+
+msgid "At least one heading phrased as a question"
+msgstr "Legalább egy kérdésként megfogalmazott címsor"
+
+msgid "Author has a profile description"
+msgstr "A szerzőnek van profilleírása"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "FAQ-séma automatikus generálása a kérdés-címsorokból"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "Automatikus tartalomjegyzék címsorhorgonyokkal"
+
+msgid "Average GEO score"
+msgstr "Átlagos GEO-pontszám"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "Légy szkeptikus mindenkivel szemben, aki ügyfeláradatot ígér az AI-keresésből. Íme az őszinte kép:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Haszon: a Bing és társai napok helyett perceken belül lekérik az új és frissített tartalmat. A Bing táplálja a Microsoft Copilotot és a ChatGPT-keresés egy részét – a gyorsabb indexelés gyorsabb AI-hivatkozást jelent."
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "Haszon: gépileg olvasható webhely-összefoglaló AI-ügynököknek. Őszintén: a nagy crawlerek még ritkán kérik le – de a kódoló/IDE-ügynökök igen, nem kerül semmibe, és jó pozíciót biztosít, ahogy a szabvány terjed."
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "Haszon: az áttekintésnél többre vágyó ügynökök a teljes kulcstartalmat tiszta Markdownként kapják meg egyetlen fájlban."
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "Haszon: ha bármely URL-hez .md-t fűzöl, tiszta Markdownt kapsz – sablonkód és szkriptek nélkül. Az AI-ügynököknek olcsóbb olvasni, és minden oldalon egy link-címke jelzi."
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "Haszon: a gyorsítótárazott oldalak sosem futtatnak PHP-t, így az AI-látogatók láthatatlanok a szerveroldali követés számára. Ez az apró böngészős beacon (<1 kB) zárja be ezt a rést."
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "Haszon: tiszta kivonatok a keresőben, csevegőkben és közösségi alkalmazásokban – a kivonatból vagy a tartalomból generálva, karbantartás nélkül."
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "Haszon: botonként eldönthető, ki olvashatja a tartalmat – egyértelmű figyelmeztetéssel, mielőtt olyat tiltanánk le, ami AI-hivatkozásokba kerül."
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "Haszon: minden szakasz saját mélylinket kap (#szakasz), amelyre az AI-rendszerek és a keresőmotorok pontosan hivatkozhatnak, az olvasók pedig egyenesen a válaszhoz ugorhatnak."
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "Haszon: a frissesség rangsorolási és hivatkozási jel – és a keresési kivonatok és AI-válaszok éppen a látható dátumot veszik át."
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "Haszon: a „?”-re végződő címsorok és válaszaik FAQ strukturált adattá válnak – pontosan abban a kérdés-válasz formátumban, amelyet az AI-asszisztensek idéznek."
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "Haszon: kicsi marad az adatbázis. A régebbi bejegyzések naponta egyszer automatikusan törlődnek."
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "Haszon: azonnal tudni fogsz, amikor számít – egy új AI első feltérképezése, az első látogatók egy AI-asszisztensből vagy az AI-látogatók hirtelen megugrása."
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "Haszon: az adatbázis pontosan olyan marad, amilyen volt. Alapértelmezésként ki van kapcsolva, hogy a statisztika túlélje az újratelepítést."
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "Haszon: gépileg olvasható cikk-, szerző-, dátum- és webhelyadatok – a legolcsóbb mód, hogy az AI-rendszerek megértsék és helyesen tulajdonítsák a tartalmat."
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "Haszon: a GEO valódi eredményének mérése – azok az emberek, akik a ChatGPT-ből, a Perplexityből és társaikból kattintanak át."
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "Haszon: soronként egy profil-URL (LinkedIn, GitHub, YouTube, Wikipédia …). Az AI-rendszerek ezek alapján ismernek fel egységes, megbízható entitásként a weben (E-E-A-T)."
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "Haszon: a keresőmotorok a megbízható lastmod értékek alapján gyorsabban térképezik fel újra a módosult oldalakat – a frissített tartalom hamarabb kerül az AI-válaszokba. A WordPress alapból kihagyja ezt a mezőt."
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "Haszon: látható, melyik AI (ChatGPT, Claude, Perplexity …) melyik oldalt olvassa – ez minden statisztika alapja."
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "Haszon: a statisztikai irányítópult minden AI-hozzáférést ehhez a kifejezéshez rendel, így látható, melyik AI milyen témához olvassa a tartalmat. Enélkül a bejegyzés címe kerül felhasználásra."
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "Haszon: a user agentek hamisíthatók. Ez elkülöníti a valódi AI-botokat az álcázottaktól, így a statisztika bizonyítható AI-érdeklődést mutat."
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "Haszon: az AI-számok hozzád jönnek – összesítések trenddel, top botok, AI-látogatók, legolvasottabb oldalak és minden, ami figyelmet igényel, hetente egyszer."
+
+msgid "Block all training bots"
+msgstr "Minden tanító bot tiltása"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "Az elmúlt 7 nap bot-hozzáférései a hét napjai és órái szerint, a webhely időzónájában. Ha a forgalmas órák előtt teszel közzé, az új tartalmat hamarabb olvassák el."
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "A bot-találatok ellenőrzése az OpenAI, az Anthropic, a Perplexity, a Google és a Microsoft hivatalos IP-tartományai alapján történik – az álcázott botok megjelölésre kerülnek a statisztikában."
+
+msgid "Bot identity"
+msgstr "Bot-személyazonosság"
+
+msgid "Bot identity verification"
+msgstr "Bot-személyazonosság ellenőrzése"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "A botok felismerése a hivatalos user-agent-aláírásuk alapján történik. Hozzáférésenként tárolva: bot neve, kategóriája, oldal és időpont – semmi más. Nincs IP-cím, nincs süti, nincs személyes adat, teljesen GDPR-barát."
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "Azt az indexet építi, amelyből az AI-keresők hivatkoznak. A tiltása kizár a hivatkozott AI-válaszokból – általában rossz ötlet."
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "Nézd meg a statisztikaoldalon a GEO-állapotpanelt – javíts ki mindent, ami nem zöld. Ez elhárítja a technikai akadályokat."
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "Bejelölve = tiltva a robots.txt-ben. A Google-Extended és az Applebot-Extended tisztán opt-out tokenek: tiltásuk kizár a Google/Apple AI-tanításból, a normál keresést nem érinti."
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "A hivatkozás szempontjából releváns AI-botok engedélyezve"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "A források megadása megbízhatóságot jelez – ez az AI-lekérő rendszerek egyik fő rangsorolási tényezője."
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "A klasszikus SEO nem válik értéktelenné – a legtöbb webhely számára továbbra is a Google a legnagyobb látogatóforrás. A GEO erre épül rá: ugyanaz a világos, jól strukturált tartalom, amelyet az AI-rendszerek szeretnek, a klasszikus keresésben is jellemzően jobban teljesít. Semmit sem veszítesz, ha mindkettőre optimalizálsz."
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "Klasszikus keresőrobot, amely AI-asszisztenseket is táplál (a Bing a Copilotot és a ChatGPT-keresés egy részét). A tiltás az adott keresőből is eltávolít."
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "Tartalmat gyűjt modelltanításhoz. A tiltása semmibe sem kerül az AI-keresésben – ez tisztán tartalomjogi döntés."
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "Az AI-hozzáféréseket egy témához köti a statisztikában, és az írást egyetlen világos kérdésre összpontosítja."
+
+msgid "Contains a list or table"
+msgstr "Tartalmaz listát vagy táblázatot"
+
+msgid "Contains concrete numbers or data"
+msgstr "Konkrét számokat vagy adatokat tartalmaz"
+
+msgid "Content & freshness signals"
+msgstr "Tartalmi és frissességi jelek"
+
+msgid "Contents"
+msgstr "Tartalom"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "Szabályozás afölött, ki olvashatja a tartalmat: engedélyezd a rád hivatkozó botokat, tiltsd le azokat, amelyek csak elvisznek – egyértelmű figyelmeztetéssel, mielőtt olyat tiltanál le, ami láthatóságba kerülne."
+
+msgid "Could not load statistics."
+msgstr "A statisztika nem tölthető be."
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "AI-látogatók számlálása teljes oldalas gyorsítótár mögött (beacon)"
+
+msgid "Data"
+msgstr "Adatok"
+
+msgid "Date range"
+msgstr "Időszak"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "Minden bővítményadat törlése eltávolításkor"
+
+msgid "Details in the dashboard:"
+msgstr "Részletek az irányítópulton:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "Felismerés a hivatkozó (referrer) domain és a utm_source alapján (a ChatGPT a hivatkozott linkekhez hozzáfűzi a utm_source=chatgpt.com paramétert, ami akkor is megmarad, ha a referrer elvész). Megjegyzés: sok AI-látogatás referrer nélkül érkezik, ezért a valós szám magasabb annál, amit bármely eszköz mutatni tud."
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "Közvetlen válasz az első bekezdésben (20–120 szó)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "Kikapcsolva. Nem kerül semmibe, és segít az AI-ügynököknek megérteni a webhely szerkezetét."
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "Kikapcsolva. A strukturált adatok jelentik a legolcsóbb módot a tartalom gépi olvashatóvá tételére."
+
+msgid "Dismiss"
+msgstr "Elvetés"
+
+msgid "Email me on citation alerts"
+msgstr "E-mail-értesítés hivatkozási riasztásokról"
+
+msgid "Empty = the site admin email address."
+msgstr "Üres = a webhely adminisztrátorának e-mail-címe."
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "Minden AI-bot-látogatást, aszerint rendezve, mit jelent számodra (ügynök, lekérés, tanítás)."
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "Minden pont egy oldal, amelyet az AI az elmúlt 30 napban olvasott: jobbra = gyakran olvasott, lent = gyenge GEO-pontszám. A jobb alsó pontok a legnagyobb nyereséget ígérik – kattints egy pontra az oldal szerkesztéséhez."
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "Minden közzétett bejegyzés és oldal a 13 GEO-ellenőrzéssel szemben – úgy rendezve, hogy a legnagyobb hivatkozási lehetőségek kerüljenek előre, az egyes oldalak már meglévő AI-érdeklődése mellett."
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "Minden ingyenes, a saját szerveren fut, és nem tárol személyes adatokat. Külső szolgáltatásokhoz csak azok az önkéntesen bekapcsolható funkciók fordulnak, amelyek ezt jelzik. Minden beállításnál olvasható, mi a haszna."
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "Példa: a /my-post/ címből /my-post.md lesz. Keresőbarát közvetlen hivatkozások szükségesek hozzá. A Markdown a tartalomból menet közben készül, és noindex jelölést kap, így sosem versenyez a keresőben a HTML-oldallal."
+
+msgid "Export CSV"
+msgstr "CSV exportálása"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "Kiemelés az llms.txt-ben (kulcstartalom)"
+
+msgid "Feeds"
+msgstr "Hírcsatornák"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "Élőben kéri le az oldalt, mert egy valódi ember éppen most kérdezett róla egy AI-t. A legnagyobb szándékú forgalom – a tiltás elküldi ezeket az olvasókat."
+
+msgid "Filter by AI"
+msgstr "Szűrés AI szerint"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "Az első emberi látogatók innen: %s! A tartalmadra ott hivatkoznak."
+
+msgid "Flows: which AI reads which page"
+msgstr "Áramlások: melyik AI melyik oldalt olvassa"
+
+msgid "Focus term"
+msgstr "Fókuszkifejezés"
+
+msgid "Focus term appears in the title"
+msgstr "A fókuszkifejezés szerepel a címben"
+
+msgid "Focus term set"
+msgstr "Fókuszkifejezés megadva"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "A legtöbb webhelynél az AI-válaszokból érkező látogatók ma a Google által hozott forgalom alacsony egyszámjegyű százalékát teszik ki – de ez az arány negyedévről negyedévre meredeken emelkedik. Azért érdemes most elkezdeni, hogy forrásként megalapozd magad, mielőtt a versenytársaid megtennék."
+
+msgid "GEO Audit"
+msgstr "GEO-audit"
+
+msgid "GEO Settings"
+msgstr "GEO-beállítások"
+
+msgid "GEO check (AI visibility)"
+msgstr "GEO-ellenőrzés (AI-láthatóság)"
+
+msgid "GEO score"
+msgstr "GEO-pontszám"
+
+msgid "GEO status of your site"
+msgstr "A webhely GEO-állapota"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "Nagy AI-érdeklődés, alacsony pontszám – ezeket javítsd először."
+
+msgid "Home"
+msgstr "Kezdőlap"
+
+msgid "Hour"
+msgstr "Óra"
+
+msgid "How does an AI even reach my website?"
+msgstr "Hogyan jut el egy AI egyáltalán a webhelyemre?"
+
+msgid "How it works"
+msgstr "Hogyan működik"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "Hogyan működik – a GEO közérthetően"
+
+msgid "Human visitors from AI answers"
+msgstr "Emberi látogatók AI-válaszokból"
+
+msgid "I already did"
+msgstr "Már megtettem"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "A személyazonosság-ellenőrzés ki van kapcsolva. A user agentek hamisíthatók – a beállításokban kapcsold be az ellenőrzést, hogy a valódi AI-botok elkülönüljenek az álcázottaktól."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "Ha a bővítmény segít, írnál egy rövid értékelést a WordPress.org-on? Egy percet vesz igénybe, és segít más webhelytulajdonosoknak megtalálni. Köszönjük!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "Fontos: CDN mögött a közvetlen kapcsolat IP-címe a proxyé – így minden valódi bot álcázottként lenne megjelölve. Válaszd ki a beállításodat, hogy az eredeti látogatói IP kerüljön felhasználásra. Csak olyan fejlécet kapcsolj be, amelyet a proxy ténylegesen beállít, mert ezek a fejlécek egyébként hamisíthatók."
+
+msgid "Include latest posts"
+msgstr "Legújabb bejegyzések felvétele"
+
+msgid "Include pages"
+msgstr "Oldalak felvétele"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "Az IndexNow egy nyílt protokoll, amelyet a Bing, a Seznam, a Naver és mások támogatnak. Minden közzétételkor, frissítéskor vagy visszavonáskor a bővítmény elküldi a nyilvános URL-t és a webhelykulcsot az IndexNow API-nak – semmi mást. Az ellenőrzéshez egy kulcsfájlt automatikusan kiszolgál a webhely. Ha egy másik bővítmény már küld az IndexNow-nak (pl. a Rank Math vagy a hivatalos Bing-bővítmény), hagyd ezt kikapcsolva a dupla pingek elkerülése érdekében."
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: azonnali indexelési pingek"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "Azonnali indexelés (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "A belső linkek azok az utak, amelyeken a crawlerek és a lekérő rendszerek felfedezik a kapcsolódó tartalmakat – az árva oldalakat kevesebben olvassák."
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "Láthatatlan hatás: nagyobb, mint a kattintások száma."
+
+msgid "It measures"
+msgstr "Mér"
+
+msgid "It optimizes"
+msgstr "Optimalizál"
+
+msgid "Job title / role"
+msgstr "Beosztás / szerepkör"
+
+msgid "Keep statistics for"
+msgstr "Statisztika megőrzése"
+
+msgid "Key content"
+msgstr "Kulcstartalom"
+
+msgid "Last seen"
+msgstr "Utoljára látva"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "Utolsó beküldés: %1$s, %2$s."
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "Bal oldalon: AI-botok, jobb oldalon: az oldalaid. Sávszélesség = hozzáférések. A pontos számért vidd az egeret egy sáv fölé."
+
+msgid "Links to at least one external source"
+msgstr "Legalább egy külső forrásra hivatkozik"
+
+msgid "Links to at least one other page on your site"
+msgstr "Legalább egy másik oldalra hivatkozik a webhelyen"
+
+msgid "Log AI bot accesses"
+msgstr "AI-bot-hozzáférések naplózása"
+
+msgid "Log human visitors from AI answers"
+msgstr "AI-válaszokból érkező emberi látogatók naplózása"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "A gépileg olvasható metaadatok segítenek az AI-rendszereknek megérteni és helyesen tulajdonítani a tartalmat."
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "A tartalom gépileg olvasható változatai (llms.txt, Markdown-oldalak, strukturált adatok) – hogy az AI-rendszerek a lehető legkevesebb akadállyal értsék meg a webhelyet."
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "Azt, hogy a webhelyed olyan forrássá válik, amelyet az AI-rendszerek megtalálnak, megértenek és idéznek, GEO-nak (Generative Engine Optimization) nevezik. Ugyanaz az elv, mint a SEO, csak kék linkek helyett AI-válaszokra – és mivel még sokkal kevesebb webhely foglalkozik vele, a korán lépők aránytalanul jól láthatók."
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "AI-crawler-szabályok kezelése a robots.txt fájlban"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "Sokan elolvassák a rád hivatkozó AI-választ, és sosem kattintanak – de látták a nevedet forrásként. Ez olyan márkaláthatóság, amelyet egyetlen statisztika sem tud teljesen megragadni; maga a hivatkozás a nyereség."
+
+msgid "Mark all as read"
+msgstr "Összes megjelölése olvasottként"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "Minden oldal Markdown-változata (.md URL-ek)"
+
+msgid "Max. entries per section"
+msgstr "Max. bejegyzés szakaszonként"
+
+msgid "Maybe later"
+msgstr "Talán később"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "Addig is: javíts ki mindent, ami nem zöld az alábbi állapotpanelen, és adj meg fókuszkifejezéseket a legfontosabb oldalaidhoz."
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "Egyre több ember nem a Google-be írja be a kérdéseit – hanem a ChatGPT-t, a Perplexityt, a Copilotot vagy a Claude-ot kérdezi. Az AI elolvas néhány webhelyet, megír egy választ, és megnevezi a forrásait. Ha a webhelyed az egyik forrás, megemlítenek és belinkelnek. Ha nem, láthatatlan vagy abban a beszélgetésben – még akkor is, ha a klasszikus Google-ben jól rangsorolsz."
+
+msgid "Most active AI bots"
+msgstr "Legaktívabb AI-botok"
+
+msgid "Name (defaults to site title)"
+msgstr "Név (alapértelmezés: a webhely címe)"
+
+msgid "Needs attention"
+msgstr "Figyelmet igényel"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Az új és frissített tartalom perceken belül eljut a Binghez és társaihoz. A Bing táplálja a Copilotot és a ChatGPT-keresés egy részét – a gyorsabb indexelés gyorsabb AI-hivatkozást jelent."
+
+msgid "New here? How it all works, in plain language."
+msgstr "Új vagy itt? Így működik minden, közérthetően."
+
+msgid "Next"
+msgstr "Következő"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "Az elmúlt 30 napban még nem volt AI-hozzáférés pontozott oldalakon – a térkép akkor telik meg, amikor az AI-rendszerek olvassák a tartalmat."
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "Még nincsenek letöltött IP-tartományok – az első letöltés a következő órán belül fut le (vagy amikor a napi cron elindul)."
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "Még nem lett URL beküldve – a következő közzététel vagy frissítés indítja az első pinget."
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "Az elmúlt 7 napban még nem volt bot-hozzáférés."
+
+msgid "No data for this AI in the selected range."
+msgstr "Ehhez az AI-hoz nincs adat a kiválasztott időszakban."
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "Még nincs adat. Az AI-hozzáférések itt jelennek meg, amint egy ismert AI-bot vagy egy AI által ide irányított látogató eléri a webhelyet."
+
+msgid "No duplicate SEO output"
+msgstr "Nincs duplikált SEO-kimenet"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "Szakzsargon és felhajtás nélkül: mi történik, mit tesz ez a bővítmény, és milyen eredmények várhatók reálisan."
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "Nincs más aktív SEO-bővítmény – a sémát és a metacímkéket maga a Wille GEO biztosítja."
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "Nincsenek túl hosszú bekezdések (legfeljebb 150 szó)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "Nem található fizikai robots.txt fájl – a Wille GEO-ban beállított AI-crawler-szabályok aktívak."
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "Nem található fizikai robots.txt fájl. A Wille GEO-ban nincs beállítva AI-crawler-tiltás, így a WordPress alapértelmezett robots.txt-je változatlanul kerül kiszolgálásra."
+
+msgid "No published content to audit yet."
+msgstr "Még nincs auditálható közzétett tartalom."
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "Nem található oldaltérkép. A WordPress alapból biztosít egyet – egy bővítmény vagy beállítás kikapcsolhatta."
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "Egyetlen eszköz sem tudja rákényszeríteni az AI-t, hogy rád hivatkozzon. Az AI-rendszerek azokra az oldalakra hivatkoznak, amelyek egy valódi kérdésre világosan, konkrétan és hitelesen válaszolnak. Ez a bővítmény pontosan ezt teszi mérhetővé és módszeresen könnyebbé – minden technikai akadályt elhárít, és megmutatja, mi működik. A tartalomnak azonban tőled kell származnia."
+
+msgid "No – use the direct connection IP"
+msgstr "Nem – a közvetlen kapcsolat IP-címének használata"
+
+msgid "Not allowed."
+msgstr "Nem engedélyezett."
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "Kikapcsolva. A user agentek hamisíthatók; az ellenőrzés bekapcsolása elkülöníti a valódi AI-botokat az álcázottaktól (naponta egyszer letölti a nyilvános IP-listákat)."
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "Kikapcsolva. Enélkül az AI szempontjából releváns keresőindexek csak a következő feltérképezéskor értesülnek az új tartalomról – az IndexNow ezt percekre gyorsítja."
+
+msgid "Official profiles (sameAs)"
+msgstr "Hivatalos profilok (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "Kérésre bizonyítékot: a híres nevet hamisan használó álcázott botokat az AI-cégek hivatalos IP-listái alapján leleplezi."
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "A bővítmény naponta egyszer letölti azokat a nyilvános IP-listákat, amelyeket az OpenAI, az Anthropic, a Perplexity, a Google és a Microsoft tesz közzé a crawlereihez, és minden naplózott találatot ellenőrzöttnek, sikertelennek (állított személyazonosság idegen IP-címről) vagy nem ellenőrzöttnek jelöl. A látogató IP-címét csak a memóriában hasonlítja össze, és sosem tárolja. Mivel külső kéréseket indít, csak külön bekapcsolva működik."
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "Soronként egy URL (LinkedIn, GitHub, X, saját webhely …). Lehetővé teszi, hogy az AI-rendszerek egységes, valódi személyként azonosítsák ezt a szerzőt – ez egy alapvető E-E-A-T jel."
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "Egy-két mondat: ki vagy, és miről szól a webhely."
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "Nyiss meg bármelyik bejegyzést a szerkesztőben – az oldalsáv „GEO-ellenőrzés” panelje írás közben pontosan ezeken a lépéseken vezet végig."
+
+msgid "Open improvements"
+msgstr "Nyitott javítások"
+
+msgid "Open the full dashboard"
+msgstr "A teljes irányítópult megnyitása"
+
+msgid "Open the settings"
+msgstr "A beállítások megnyitása"
+
+msgid "Open the statistics dashboard"
+msgstr "A statisztikai irányítópult megnyitása"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "Nyisd meg az öt legfontosabb oldaladat, és mindegyikhez adj meg egy fókuszkifejezést: azt a kérdést vagy témát, amelyre ennek az oldalnak kell A válasznak lennie."
+
+msgid "Opportunity map"
+msgstr "Lehetőségtérkép"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "Metaleírás és közösségi előnézetek (Open Graph) kiírása"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "Schema.org strukturált adatok kiírása (JSON-LD)"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "Kiírja a WebSite, Organization/Person, Article (dátumokkal és szerzővel) és a morzsamenü adatait. Az AI-lekérő rendszerek ezekből ítélik meg a frissességet és a megbízhatóságot."
+
+msgid "Page"
+msgstr "Oldal"
+
+msgid "Pages"
+msgstr "Oldalak"
+
+msgid "Pages AI read most"
+msgstr "Az AI által legtöbbet olvasott oldalak"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "Az emberek kérdéseket tesznek fel az AI-asszisztenseknek. Az ezeket tükröző címsorok a tartalmat közvetlenül a valódi promptokhoz illesztik – és az automatikus FAQ-sémát is táplálják."
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "Tűzd ki a legjobb oldalaidat kulcstartalomként, hogy az llms.txt egyenesen hozzájuk vezesse az AI-ügynököket."
+
+msgid "Ping IndexNow on publish and update"
+msgstr "IndexNow-ping közzétételkor és frissítéskor"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "A kitűzött tartalom kerül az első helyre az llms.txt és az llms-full.txt fájlban – azok az oldalak, amelyeket a leginkább szeretnél, hogy az AI-rendszerek elolvassanak."
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "Egyszerű közvetlen hivatkozások aktívak (Beállítások → Közvetlen hivatkozások). A Markdown-végpontok és az IndexNow-kulcsfájl nem szolgálhatók ki, pedig az olvasható URL-ek minden crawlernek segítenek."
+
+msgid "Post"
+msgstr "Bejegyzés"
+
+msgid "Post not found."
+msgstr "A bejegyzés nem található."
+
+msgid "Posts"
+msgstr "Bejegyzések"
+
+msgid "Pretty permalinks enabled"
+msgstr "Keresőbarát közvetlen hivatkozások bekapcsolva"
+
+msgid "Previous"
+msgstr "Előző"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "Adatvédelem: ez a bővítmény alapértelmezés szerint nem tárol IP-címeket, nem állít be sütiket, és nem indít külső kéréseket. Az egyetlen kivétel két, általad szabályozott, külön bekapcsolható funkció: a botellenőrzés (naponta egyszer letölti a nyilvános crawler-IP-listákat) és az IndexNow (a közzétett URL-eket elküldi az IndexNow API-nak). Minden statisztika a WordPress-adatbázisodban marad."
+
+msgid "Profile URLs (sameAs)"
+msgstr "Profil-URL-ek (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "Minőség: szokatlanul magas."
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "A Wille GEO értékelése a WordPress.org-on (új lapon nyílik meg)"
+
+msgid "Rate ★★★★★"
+msgstr "Értékelés ★★★★★"
+
+msgid "Re-scan"
+msgstr "Újraellenőrzés"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "Olvasható URL-ek aktívak – az .md végpontok és az IndexNow-kulcsfájl működnek."
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "Az AI-válaszokból érkező valódi embereket – a tényleges hasznot, AI-onként és oldalanként."
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "Valódi emberek, akik a ChatGPT-ben, a Perplexityben és társaikban a linkre kattintottak. Ez a GEO valódi haszna."
+
+msgid "Recipient"
+msgstr "Címzett"
+
+msgid "Reload page"
+msgstr "Oldal újratöltése"
+
+msgid "Retrieval"
+msgstr "Lekérés"
+
+msgid "Retrieval (citation index)"
+msgstr "Lekérés (hivatkozási index)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "A lekérő és ügynök botok olvashatják az oldalakat – megjelenhetsz az AI-válaszokban."
+
+msgid "Retrieval bots"
+msgstr "Lekérő botok"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "A lekérő botoknak előbb meg kell találniuk és újra kell olvasniuk a javított oldalakat. Az első mérhető hatások néhány hét után várhatók, megalapozott ítélet három-hat hónap után – az irányítópult végig mutatja a trendet."
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "A lekérő botok az oldaltérkép segítségével gyorsan felfedezik az új tartalmat."
+
+msgid "Review Wille GEO"
+msgstr "A Wille GEO értékelése"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "A szabályok a WordPress által generált robots.txt végére kerülnek. A webgyökérben lévő fizikai robots.txt fájl felülírja őket – a statisztikaoldal állapotpanelje figyelmeztet, ha létezik ilyen. A robots.txt önkéntes alapon működik; az ismert botok betartják."
+
+msgid "Running GEO checks …"
+msgstr "GEO-ellenőrzések futtatása …"
+
+msgid "Save settings"
+msgstr "Beállítások mentése"
+
+msgid "Score distribution"
+msgstr "Pontszámeloszlás"
+
+msgid "Search"
+msgstr "Keresés"
+
+msgid "Search (feeds AI answers)"
+msgstr "Keresés (AI-válaszokat táplál)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "A keresőmotorok és az AI-crawlerek indexelhetik a webhelyet."
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "Nézd meg, melyik AI (ChatGPT, Claude, Perplexity…) melyik oldaladat olvassa – és optimalizáld a webhelyed az AI-keresésre (GEO). Ingyenes, személyes adatok nélkül."
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "Heti AI-láthatósági jelentés küldése e-mailben"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "A Wille GEO bővítmény küldte. Ez a jelentés bármikor kikapcsolható itt: Wille GEO → Beállítások."
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "A WordPress szokásos levelezőrendszerén keresztül, és csak akkor megy ki, ha azon a héten tényleg volt AI-aktivitás – a csendes webhelyeket sosem árasztja el. Kézzel is elindítható a \"wp geoins report\" WP-CLI paranccsal."
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "/llms-full.txt kiszolgálása teljes tartalommal"
+
+msgid "Serve a generated /llms.txt"
+msgstr "Generált /llms.txt kiszolgálása"
+
+msgid "Served at %s."
+msgstr "Elérhető itt: %s."
+
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Short site description (optional)"
+msgstr "Rövid webhelyleírás (opcionális)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "A rövid, önálló bekezdések azok az egységek, amelyeket az AI-rendszerek átvesznek a válaszaikba. A hosszú blokkokat átugorják."
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "Látható \"Frissítve\" dátum megjelenítése az átdolgozott bejegyzéseken"
+
+msgid "Show all AIs"
+msgstr "Minden AI megjelenítése"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "A tartalom felett jelenik meg, csak akkor, ha a bejegyzést érdemben átdolgozták (több mint két nappal a közzététel után). A gépileg olvasható dateModified e kapcsolótól függetlenül mindig szerepel a strukturált adatokban."
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "Az AI-rendszerek gépileg olvasható szakértelemként látják (schema.org jobTitle), pl. \"Senior WordPress-fejlesztő\"."
+
+msgid "Site represents"
+msgstr "A webhely képviselője"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "A webhely proxy/CDN mögött fut?"
+
+msgid "Site visible to crawlers"
+msgstr "A webhely látható a crawlerek számára"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "Aki egy AI-válaszból kattint át, már olvasott egy összefoglalót, és a részletekre kíváncsi – tanulmányok és webáruházi adatok egybehangzóan mutatják, hogy ezek a látogatók észrevehetően jobban konvertálnak, mint az átlagos keresési forgalom. Kevesebb látogató, de elkötelezettebbek."
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "Sajnos ehhez nincs jogosultságod."
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "Sebesség: az új és frissített tartalom perceken belül eljut a keresőmotorokhoz (IndexNow) – minél hamarabb indexelik, annál hamarabb hivatkozhat rá egy AI."
+
+msgid "Statistics"
+msgstr "Statisztika"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "A statisztikák és konkrét adatok mérhetően növelik a hivatkozás esélyét – az AI-válaszok szeretik az ellenőrizhető számokat."
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "A strukturált részeket (listák, táblázatok) az AI sokkal gyakrabban emeli ki és idézi, mint a tömör szövegfalat."
+
+msgid "Structured data & meta tags"
+msgstr "Strukturált adatok és metacímkék"
+
+msgid "Structured data (schema.org)"
+msgstr "Strukturált adatok (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "Persze, írok egy értékelést"
+
+msgid "Table of contents"
+msgstr "Tartalomjegyzék"
+
+msgid "Term"
+msgstr "Kifejezés"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "Kifejezések és oldalak: melyik AI mit olvas?"
+
+msgid "The audit table needs JavaScript."
+msgstr "Az audittáblázathoz JavaScript szükséges."
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "A beacon csak kijelentkezett látogatóknál fut, csak azt ellenőrzi, hogy a látogatás ismert AI-ból érkezett-e (referrer domain vagy utm_source), és csak ekkor jelenti a forrást és az oldal útvonalát a saját webhelyednek. Nincs süti, nincs IP, nincs ujjlenyomat, nincs külső szolgáltatás. A szerveroldali követővel való dupla számlálás automatikusan kizárt. Hagyd kikapcsolva, ha a webhely nem használ teljes oldalas gyorsítótárat – a PHP-követő már mindent lát."
+
+msgid "The honest limit: content decides."
+msgstr "Az őszinte korlát: a tartalom dönt."
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "A fizikai robots.txt letiltja a következőket: %s. Ezek a botok juttatnak be az AI-válaszokba – szerkeszd a fájlt a tiltás feloldásához (az itt beállított szabályok inaktívak maradnak, amíg a fájl létezik)."
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "A fizikai robots.txt MINDEN crawlert letilt (User-agent: * / Disallow: /). Egyetlen keresőmotor és AI-rendszer sem olvashatja a webhelyet – szerkeszd a fájlt."
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "A fizikai robots.txt alapértelmezésként minden crawlert letilt (User-agent: * / Disallow: /); csak a fájlban saját kivételszabállyal rendelkező crawlerek olvashatják a webhelyet. Minden kivétel nélküli AI-rendszer ki van zárva – szerkeszd a fájlt."
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "A statisztikai irányítópult minden AI-hozzáférést ehhez a kifejezéshez rendel. Üres = a bejegyzés címe."
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "A statisztikai irányítópulthoz JavaScript szükséges. Helyette használd a CSV-exportot vagy a WP-CLI-t (wp geoins stats)."
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "Aztán hagyd futni. Nézd meg hetente az irányítópultot (vagy kapcsold be az e-mail-jelentést), és ott fektess be, ahol már látszik AI-érdeklődés – ott vannak a legközelebb a hivatkozások."
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "Ezek a user agentek AI-rendszernek tűnnek, de még nincsenek a nyilvántartásban – ezért a találataik NEM szerepelnek a fenti statisztikában. A gyakori bejegyzéseket érdemes felvenni a geoins_bots szűrővel (vagy jelezni a bővítmény felé)."
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "Ez a bővítmény minden látogatáskor felismeri ezeket a botokat, és az irányítópulton megmutatja: melyik AI melyik oldaladat olvassa, milyen gyakran és milyen témához. Ha pedig valaki egy AI-válaszban a webhelyedre mutató linkre kattint, az a látogatás is számít – ez az a pillanat, amikor az AI-láthatóságból potenciális ügyfél lesz."
+
+msgid "Timeline: weeks to months, not days."
+msgstr "Időtáv: hetek-hónapok, nem napok."
+
+msgid "Title"
+msgstr "Cím"
+
+msgid "Tracking"
+msgstr "Követés"
+
+msgid "Training"
+msgstr "Tanítás"
+
+msgid "Training bots"
+msgstr "Tanító botok"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "Két dolgot: mér és optimalizál. Minden a saját szervereden fut, semmi sem kerül el sehova, és a beállításokban minden kapcsoló elmagyarázza a hasznát, mielőtt átbillentenéd."
+
+msgid "Updated"
+msgstr "Frissítve"
+
+msgid "Updated on %s"
+msgstr "Frissítve: %s"
+
+msgid "Updated within the last 12 months"
+msgstr "Az elmúlt 12 hónapban frissítve"
+
+msgid "User agent"
+msgstr "User agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "A botok személyazonosságának ellenőrzése a hivatalos IP-tartományok alapján"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "A nagyon vékony tartalmú oldalak ritkán tartalmaznak elég anyagot ahhoz, hogy egy AI válaszát rájuk alapozza."
+
+msgid "View your key file"
+msgstr "A kulcsfájl megtekintése"
+
+msgid "View your llms-full.txt"
+msgstr "Az llms-full.txt megtekintése"
+
+msgid "View your llms.txt"
+msgstr "Az llms.txt megtekintése"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "A látható szakértelem (valódi szerző bemutatkozással) táplálja azokat az E-E-A-T jeleket, amelyek alapján az AI-rendszerek megbízható forrásokat választanak."
+
+msgid "Volume: still small, growing fast."
+msgstr "Mennyiség: még kicsi, de gyorsan nő."
+
+msgid "Waiting for the first AI visit"
+msgstr "Várakozás az első AI-látogatásra"
+
+msgid "Weekly email report"
+msgstr "Heti e-mail-jelentés"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "Mire számíthatok reálisan? Egy őszinte válasz"
+
+msgid "What does the plugin actually do for me?"
+msgstr "Mit tesz valójában értem a bővítmény?"
+
+msgid "What happened"
+msgstr "Mi történt"
+
+msgid "What is happening right now?"
+msgstr "Mi történik most?"
+
+msgid "When do AIs read your site?"
+msgstr "Mikor olvassák az AI-k a webhelyet?"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "Hol kezdjem? Öt lépés, 30 perc"
+
+msgid "Which AI bots?"
+msgstr "Mely AI-botok?"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "Melyik AI olvasta az oldalaidat, és mely AI-válaszok küldtek emberi látogatókat."
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "Melyik AI melyik oldalt olvassa, milyen kifejezéshez – és mely AI-válaszok hoznak valódi látogatókat."
+
+msgid "Why does this matter?"
+msgstr "Miért fontos ez?"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "A Wille GEO aktív."
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "A Wille GEO készítője: %1$s. Segít neked? Egy %2$s értékelés a WordPress.org-on segít másoknak is megtalálni – köszönjük!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "A Wille GEO ezt észlelte itt: %s"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: szerzői jelek (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "Menj végig a GEO-ellenőrzőlistán ezeken az oldalakon – különösen: válaszold meg a fő kérdést közvetlenül az első bekezdésben, és alakítsd a címsorokat valódi kérdésekké."
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "Legalább két kérdés-címsort (kérdőjelre végződő H2/H3) tartalmazó bejegyzéseken és oldalakon működik. Nincs vele többletmunka – elég a kérdéseket címsorként megírni, a séma magától létrejön."
+
+msgid "XML sitemap available"
+msgstr "XML-oldaltérkép elérhető"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "Igen, Cloudflare (CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "Igen, más proxy (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "Tiltva: %s. Ezek a botok juttatnak be az AI-válaszokba – a tiltásuk kizár a hivatkozásokból."
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "Azért kapod ezt, mert a hivatkozási riasztások e-mailben be vannak kapcsolva itt: Wille GEO → Beállítások."
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "Az IndexNow-kulcsfájl nem érhető el a saját szerveredről, ezért a pingek szünetelnek. Gyakori okok: egyszerű közvetlen hivatkozások (javítás: Beállítások → Közvetlen hivatkozások) vagy egy biztonsági bővítmény, amely blokkolja a loopback kéréseket. A javítás után mentsd el újra ezeket a beállításokat – az ellenőrzés a mentés után nem sokkal újra lefut."
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "A munkamenet-ellenőrzés lejárt – a folytatáshoz töltsd újra az oldalt."
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] AI-láthatóság ezen a héten: %2$d AI-hozzáférés, %3$d AI-látogató"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] Új AI-láthatósági jel"
+
+msgid "a person"
+msgstr "egy személy"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "egy valódi ember épp most tett fel egy kérdést egy AI-nak, és az AI éppen most olvassa az oldaladat, hogy válaszoljon. Ennél értékesebb jel nincs: valaki ebben a pillanatban érdeklődik a témád iránt."
+
+msgid "accesses"
+msgstr "hozzáférés"
+
+msgid "an organization"
+msgstr "egy szervezet"
+
+msgid "blocking costs citations"
+msgstr "a tiltás hivatkozásokba kerül"
+
+msgid "blocking is safe for citations"
+msgstr "a tiltás nem érinti a hivatkozásokat"
+
+msgid "by %s"
+msgstr "%s által"
+
+msgid "days"
+msgstr "nap"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "pl. WordPress biztonsági mentés bővítmény"
+
+msgid "forever"
+msgstr "örökre"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "álcázott"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "Az llms.txt elérhető"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "Az llms.txt fiatal szabvány: a legfontosabb tartalmak Markdown-áttekintése a /llms.txt címen. Automatikusan generálódik az oldalakból és bejegyzésekből, és 12 órára gyorsítótárazódik."
+
+msgid "more"
+msgstr "további"
+
+msgid "new"
+msgstr "új"
+
+msgid "pages"
+msgstr "oldal"
+
+msgid "passed"
+msgstr "megfelelt"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "ők építik azt a könyvtárat, amelyből az AI később idéz. Az, hogy benne vagy-e ebben a könyvtárban, dönti el, hogy egyáltalán hivatkozhatnak-e rád."
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "szöveget gyűjtenek a jövőbeli AI-modellek tanításához. Nem hoznak sem látogatókat, sem hivatkozásokat. Hogy engedélyezed-e őket, tisztán tartalomjogi döntés – a tiltásuk semmibe sem kerül."
+
+msgid "unchecked"
+msgstr "nem ellenőrzött"
+
+msgid "verified"
+msgstr "ellenőrzött"
+
+msgid "visitors"
+msgstr "látogató"
+
+msgid "vs. previous period"
+msgstr "az előző időszakhoz képest"

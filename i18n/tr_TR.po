@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "“Arama motorlarının bu siteyi dizinlemesini engelle” etkin (Ayarlar → Okuma). Bu kapatılana kadar hiçbir yapay zekâ sistemi sizi bulamaz."
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%2$d sağlayıcıdan %1$d IP aralığı, son güncelleme: %3$s."
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "%s (eğitim tarayıcısı) sitenizi ilk kez ziyaret etti."
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "%s sitenizi ilk kez taradı – alıntı açısından önemli bir yapay zekâ artık sizi okuyor."
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "%s algılandı – Wille GEO şema ve meta etiketlerini otomatik olarak bu eklentiye bırakır ve yalnızca eksik olanları ekler (izleme, llms.txt, robots denetimi, GEO kontrolleri)."
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "%s etkin. Yinelenen çıktıyı önlemek için Wille GEO, şema ve meta etiketlerini otomatik olarak bu eklentiye bırakır – eklenti çalıştığı sürece aşağıdaki anahtarlar yok sayılır. Diğer her şey (izleme, llms.txt, robots denetimi, GEO kontrolleri) onunla birlikte çalışır."
+
+msgid "(opens in a new tab)"
+msgstr "(yeni sekmede açılır)"
+
+msgid "1 year"
+msgstr "1 yıl"
+
+msgid "180 days"
+msgstr "180 gün"
+
+msgid "30 days"
+msgstr "30 gün"
+
+msgid "7-day average"
+msgstr "7 günlük ortalama"
+
+msgid "90 days"
+msgstr "90 gün"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "Her sayfanın temiz bir Markdown sürümü, URL'sinin sonuna .md eklenerek kullanılabilir."
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "Yazarken canlı bir kontrol listesi: Bir sayfayı yapay zekâ için alıntılanabilir kılan on üç somut, açıklamalı ölçüt (önce yanıt, soru başlıkları, listeler, sayılar, güncellik …)."
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "Fiziksel bir robots.txt var ve burada yapılandırdığınız engellemeleri (%s) içermiyor – bunları dosyaya ekleyene veya dosyayı silene kadar hiçbir etkileri olmaz."
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "Fiziksel bir robots.txt dosyası var ancak analiz için okunamadı. Burada yapılandırılan kuralları geçersiz kılar – dosyayı elle kontrol edin."
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "Fiziksel bir robots.txt dosyası var, ancak şu anda sorun yok: Alıntı açısından önemli hiçbir yapay zekâ botunu engellemiyor ve yapılandırmanızla uyumlu. Not: Dosya var olduğu sürece burada yapılandırılan kurallar etkisiz kalır."
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "Gerçekçi bir örnek: 50 sağlam makalesi olan ve GEO kontrol listesini uygulayan uzman bir site, birkaç ay içinde ilk yapay zekâ alıntılarını ve küçük ama istikrarlı biçimde büyüyen, satın almaya niyetli bir ziyaretçi akışını bekleyebilir – bunu Google'ın yerine geçen bir şey olarak değil, işinize açılan ve her ay genişleyen ikinci, henüz küçük bir kapı olarak düşünün."
+
+msgid "AI (30d)"
+msgstr "YZ (30 g)"
+
+msgid "AI Statistics"
+msgstr "Yapay zekâ istatistikleri"
+
+msgid "AI accesses"
+msgstr "Yapay zekâ erişimleri"
+
+msgid "AI accesses (30d)"
+msgstr "Yapay zekâ erişimleri (30 g)"
+
+msgid "AI accesses per day"
+msgstr "Günlük yapay zekâ erişimleri"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "Yapay zekâ asistanları kendi içinde bütünlüklü yanıt bloklarını alıntılar. İlk paragraf temel soruyu yanıtlıyorsa, alıntılanması en kolay kısım odur."
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "Yapay zekâ botu erişimleri ve yapay zekâ yanıtlarından gelen ziyaretçiler artık kaydediliyor – ilk yapay zekâ sitenize ulaştığı anda veriler görünür."
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "Son 30 gündeki yapay zekâ botu erişimleri – istatistik panosunu açın"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "Yapay zekâ şirketleri sitenize otomatik ziyaretçiler – botlar – gönderir. Bunlar kendilerini adlarıyla tanıtır ve ad, neden geldiklerini tam olarak söyler. Üç tür önemlidir ve işiniz için çok farklı anlamlar taşırlar:"
+
+msgid "AI companies: share of accesses"
+msgstr "Yapay zekâ şirketleri: erişim payı"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "Yapay zekâ tarayıcı erişimi (robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "Yapay zekâ tarayıcıları arama sorgularını iletmez. Bu matris her erişimi sayfanın odak terimiyle eşleştirir (düzenleme ekranındaki GEO kontrolü kutusundan ayarlanır) – dürüst ve pratik karşılığı budur."
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "Yapay zekâ radarı: tanınmayan, yapay zekâya benzeyen tarayıcılar"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "Yapay zekâ araması güncel kaynakları tercih eder; değiştirilme tarihi yapılandırılmış verilerinizde gönderilir. İçeriği her yıl gözden geçirmek alıntılanabilir kalmanızı sağlar."
+
+msgid "AI source"
+msgstr "Yapay zekâ kaynağı"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "Yapay zekâ sistemleri soruları önce başlıklarla eşleştirir – net bir başlık sayfanızı en bariz kaynak yapar."
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "Yapay zekâ sistemleri son 30 günde sitenizi %s kez okudu – Wille GEO işini yapıyor."
+
+msgid "AI visibility, last 7 days"
+msgstr "Yapay zekâ görünürlüğü, son 7 gün"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Yapay zekâ ziyaretçi artışı: Dün yapay zekâ yanıtlarından %1$d ziyaretçi (son ortalama: %2$s/gün)."
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Yapay zekâ ziyaretçi artışı: Dün yapay zekâ yanıtlarından %1$s ziyaretçi (son ortalama: %2$s/gün)."
+
+msgid "AI visitors"
+msgstr "Yapay zekâ ziyaretçileri"
+
+msgid "AI visitors: landing pages"
+msgstr "Yapay zekâ ziyaretçileri: giriş sayfaları"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "Puanlanmış tüm sayfalar genelinde. Her bir puan artışı, tipik sayfanızın karşıladığı bir ölçüt daha demektir."
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "XML site haritasına tam güncelleme zamanlarını (lastmod) ekle"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "Tüm H2/H3 başlıklarına çapa kimlikleri ekler ve üç veya daha fazla başlığı olan yazılarda ilk H2'den önce kompakt, bağlantılı bir içindekiler tablosu ekler. Biçimlendirme minimaldir ve temanızın yazı tiplerini ve renklerini devralır."
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "Her yazının gerçek değiştirilme zamanını WordPress çekirdek site haritasına ekler. Yalnızca çekirdek site haritası çalışırken etkindir; site haritasını değiştiren SEO eklentileri etkilenmez."
+
+msgid "Agent"
+msgstr "Ajan"
+
+msgid "Agent (live user request)"
+msgstr "Ajan (canlı kullanıcı isteği)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "Ajan + Retrieval = alıntı açısından önemli: Bir yapay zekâ, gerçek bir soruyu yanıtlamak için sayfanızı okudu. Eğitim yalnızca modelleri besler."
+
+msgid "Agent bots"
+msgstr "Ajan botları"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "Uyarılar her zaman panoda görünür; bu seçenek onları ayrıca e-postayla gönderir (toplu olarak, günde en fazla bir e-posta). Aşağıdaki alıcıyı kullanır."
+
+msgid "All AIs"
+msgstr "Tüm yapay zekâlar"
+
+msgid "All checks passed"
+msgstr "Tüm kontroller geçti"
+
+msgid "All images have alt text"
+msgstr "Tüm görsellerin alternatif metni var"
+
+msgid "All types"
+msgstr "Tüm türler"
+
+msgid "Allow all bots"
+msgstr "Tüm botlara izin ver"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "Alternatif metin, yapay zekâ sistemlerinin görsellerinizi anlamasını sağlar – ayrıca köklü bir erişilebilirlik ve sıralama sinyalidir. Görsel içermeyen sayfalar otomatik olarak geçer."
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "İçerik analiz ediliyor … %1$s / %2$s tamamlandı"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "Alan = seçilen aralıktaki erişimler. Tek tek botlarını görmek için bir şirkete tıklayın."
+
+msgid "At least 300 words"
+msgstr "En az 300 kelime"
+
+msgid "At least one heading phrased as a question"
+msgstr "En az bir başlık soru biçiminde"
+
+msgid "Author has a profile description"
+msgstr "Yazarın profil açıklaması var"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "Soru biçimindeki başlıklardan otomatik FAQ şeması oluştur"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "Başlık çapalarıyla otomatik içindekiler tablosu"
+
+msgid "Average GEO score"
+msgstr "Ortalama GEO puanı"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "Size yapay zekâ aramasından müşteri seli vaat eden herkese karşı şüpheci olun. Dürüst tablo şöyle:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Faydası: Bing ve benzerleri yeni ve güncellenen içeriği günler yerine dakikalar içinde çeker. Bing, Microsoft Copilot'u ve ChatGPT aramasının bir kısmını besler – daha hızlı dizine ekleme, daha hızlı yapay zekâ alıntıları demektir."
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "Faydası: Yapay zekâ ajanları için makine tarafından okunabilir bir site özeti. Dürüst olmak gerekirse: Büyük tarayıcılar bunu henüz nadiren çekiyor – ancak kodlama/IDE ajanları çekiyor; hiçbir maliyeti yok ve standart büyüdükçe sizi öne çıkarır."
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "Faydası: Özetten fazlasını isteyen ajanlar, temel içeriğinizin tamamını tek bir dosyada temiz Markdown olarak alır."
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "Faydası: Herhangi bir URL'nin sonuna .md eklemek saf Markdown döndürür – tema işaretlemesi yok, betik yok. Yapay zekâ ajanları için okunması daha ucuzdur ve her sayfada bir link etiketiyle duyurulur."
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "Faydası: Önbelleğe alınmış sayfalar PHP çalıştırmaz, bu yüzden bu sayfalardaki yapay zekâ ziyaretçileri sunucu tarafı izlemede görünmez. Bu küçük tarayıcı beacon'ı (<1 kB) bu boşluğu kapatır."
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "Faydası: Aramada, sohbetlerde ve sosyal uygulamalarda temiz önizlemeler – özetinizden veya içeriğinizden oluşturulur, bakım gerektirmez."
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "Faydası: İçeriğinizi kimin okuyabileceğine bot bazında karar verin – size yapay zekâ alıntılarına mal olacak bir şeyi engellemeden önce açık bir uyarıyla."
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "Faydası: Her bölüm, yapay zekâ sistemlerinin ve arama motorlarının tam olarak alıntılayabileceği bir derin bağlantı (#bolum) alır ve okuyucular doğrudan yanıta atlayabilir."
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "Faydası: Güncellik bir sıralama ve alıntı sinyalidir – ve arama snippet'lerinin ve yapay zekâ yanıtlarının gerçekte aldığı şey görünür tarihtir."
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "Faydası: “?” ile biten başlıklar yanıtlarıyla birlikte FAQ yapılandırılmış verisine dönüşür – tam da yapay zekâ asistanlarının alıntıladığı soru-cevap biçimi."
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "Faydası: Veritabanınızı küçük tutar. Daha eski kayıtlar günde bir kez otomatik olarak silinir."
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "Faydası: Önemli olduğu anda haberdar olun – yeni bir yapay zekânın ilk taraması, bir yapay zekâ asistanından gelen ilk ziyaretçiler veya yapay zekâ ziyaretçilerinde ani bir artış."
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "Faydası: Veritabanınızı tam olarak önceki hâlinde bırakır. İstatistikleriniz yeniden kurulumdan sonra da korunsun diye varsayılan olarak kapalıdır."
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "Faydası: Makine tarafından okunabilir makale, yazar, tarih ve site meta verileri – yapay zekâ sistemlerinin içeriğinizi anlamasına ve doğru şekilde size atfetmesine yardım etmenin en ucuz yolu."
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "Faydası: GEO'nun gerçek getirisini ölçün – ChatGPT, Perplexity ve benzerlerinden sitenize tıklayarak gelen insanlar."
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "Faydası: Her satıra bir profil URL'si (LinkedIn, GitHub, YouTube, Wikipedia …). Yapay zekâ sistemleri bu bağlantılar sayesinde sizi web genelinde tutarlı ve güvenilir tek bir varlık olarak tanır (E-E-A-T)."
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "Faydası: Arama motorları, değişen sayfaları daha hızlı yeniden taramak için güvenilir lastmod değerlerini kullanır – güncellenen içerik yapay zekâ yanıtlarına daha erken ulaşır. WordPress çekirdeği bu alanı içermez."
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "Faydası: Hangi yapay zekânın (ChatGPT, Claude, Perplexity …) hangi sayfayı okuduğunu görün – tüm istatistiklerin temeli."
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "Faydası: İstatistik panosu her yapay zekâ erişimini bu terimle eşleştirir; böylece hangi yapay zekânın içeriğinizi hangi konu için okuduğunu görürsünüz. Boş bırakılırsa yazı başlığı kullanılır."
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "Faydası: User-agent bilgileri taklit edilebilir. Bu, gerçek yapay zekâ botlarını taklitçilerden ayırır; böylece istatistikleriniz kanıtlanabilir yapay zekâ ilgisini gösterir."
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "Faydası: Yapay zekâ rakamlarınız size gelir – eğilimle birlikte toplamlar, en aktif botlar, yapay zekâ ziyaretçileri, en çok okunan sayfalar ve ilgilenilmesi gereken her şey, haftada bir kez."
+
+msgid "Block all training bots"
+msgstr "Tüm eğitim botlarını engelle"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "Son 7 gündeki bot erişimleri, sitenizin saat diliminde haftanın gününe ve saate göre. Yoğun saatlerden önce yayımlamak yeni içeriğin daha erken okunmasını sağlar."
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "Bot erişimleri OpenAI, Anthropic, Perplexity, Google ve Microsoft'un resmî IP aralıklarına göre kontrol edilir – taklitçiler istatistiklerinizde işaretlenir."
+
+msgid "Bot identity"
+msgstr "Bot kimliği"
+
+msgid "Bot identity verification"
+msgstr "Bot kimliği doğrulama"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "Botlar resmî user-agent imzalarından tanınır. Erişim başına saklanan: bot adı, kategori, sayfa ve zaman – başka hiçbir şey. IP adresi yok, çerez yok, kişisel veri yok; tamamen GDPR/KVKK dostu."
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "Yapay zekâ arama motorlarının alıntı yaptığı dizini oluşturur. Engellemek sizi alıntılanan yapay zekâ yanıtlarından çıkarır – genellikle kötü bir fikir."
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "İstatistik sayfasındaki GEO durum panelini kontrol edin – yeşil olmayan her şeyi düzeltin. Bu, teknik engelleri ortadan kaldırır."
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "İşaretli = robots.txt ile engellenmiş. Google-Extended ve Applebot-Extended salt devre dışı bırakma (opt-out) belirteçleridir: Bunları engellemek, normal aramayı etkilemeden sizi Google/Apple yapay zekâ eğitiminin dışında tutar."
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "Alıntı açısından önemli yapay zekâ botlarına izin veriliyor"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "Kaynak göstermek güvenilirlik sinyali verir – yapay zekâ retrieval sistemleri için temel bir sıralama faktörü."
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "Klasik SEO değersiz hâle gelmiyor – Google, çoğu site için hâlâ en büyük ziyaretçi kaynağı. GEO bunun üzerine eklenir: Yapay zekâ sistemlerinin sevdiği net, iyi yapılandırılmış içerik klasik aramada da genellikle daha iyi sıralanır. Her ikisi için optimize ederek hiçbir şey kaybetmezsiniz."
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "Yapay zekâ asistanlarını da besleyen klasik arama motoru taraması (Bing, Copilot'u ve ChatGPT aramasının bir kısmını besler). Engellemek sizi o arama motorundan da çıkarır."
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "Model eğitimi için içerik toplar. Engellemek yapay zekâ aramasında size hiçbir şey kaybettirmez – tamamen bir içerik hakları kararıdır."
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "Yapay zekâ erişimlerini istatistiklerinizde bir konuyla ilişkilendirir ve yazınızı tek, net bir soruya odaklar."
+
+msgid "Contains a list or table"
+msgstr "Bir liste veya tablo içeriyor"
+
+msgid "Contains concrete numbers or data"
+msgstr "Somut sayılar veya veriler içeriyor"
+
+msgid "Content & freshness signals"
+msgstr "İçerik ve güncellik sinyalleri"
+
+msgid "Contents"
+msgstr "İçindekiler"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "İçeriğinizi kimin okuyabileceği üzerinde kontrol: Sizi alıntılayan botlara izin verin, yalnızca alıp götürenleri engelleyin – size görünürlük kaybettirecek bir şeyi engellemeden önce açık bir uyarıyla."
+
+msgid "Could not load statistics."
+msgstr "İstatistikler yüklenemedi."
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "Tam sayfa önbelleklerinin arkasındaki yapay zekâ ziyaretçilerini say (beacon)"
+
+msgid "Data"
+msgstr "Veriler"
+
+msgid "Date range"
+msgstr "Tarih aralığı"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "Kaldırırken tüm eklenti verilerini sil"
+
+msgid "Details in the dashboard:"
+msgstr "Ayrıntılar panoda:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "Yönlendiren (referrer) alan adı ve utm_source üzerinden tespit edilir (ChatGPT, alıntıladığı bağlantılara utm_source=chatgpt.com ekler; bu, referrer silinse bile korunur). Not: Birçok yapay zekâ ziyareti hiç referrer olmadan gelir, dolayısıyla gerçek sayı herhangi bir aracın gösterebileceğinden daha yüksektir."
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "İlk paragrafta doğrudan yanıt (20–120 kelime)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "Devre dışı. Hiçbir maliyeti yoktur ve yapay zekâ ajanlarının site yapınızı anlamasına yardımcı olur."
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "Devre dışı. Yapılandırılmış veriler, içeriğinizi makine tarafından okunabilir hâle getirmenin en ucuz yoludur."
+
+msgid "Dismiss"
+msgstr "Kapat"
+
+msgid "Email me on citation alerts"
+msgstr "Alıntı uyarılarında bana e-posta gönder"
+
+msgid "Empty = the site admin email address."
+msgstr "Boş = sitenin yönetici e-posta adresi."
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "Her yapay zekâ botu ziyaretini, sizin için ne anlama geldiğine göre sıralanmış olarak (ajan, retrieval, eğitim)."
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "Her nokta, bir yapay zekânın son 30 günde okuduğu bir sayfadır: sağ = sık okunuyor, aşağı = zayıf GEO puanı. Sağ alttaki noktalar en büyük kazanımlarınızdır – sayfayı düzenlemek için bir noktaya tıklayın."
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "Yayımlanmış her yazı ve sayfa 13 GEO kontrolüne göre değerlendirilir – en büyük alıntı fırsatları en üstte görünecek şekilde sıralanır, her sayfanın şimdiden aldığı yapay zekâ ilgisiyle yan yana."
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "Her şey ücretsizdir, kendi sunucunuzda çalışır ve hiçbir kişisel veri saklamaz. Harici hizmetlerle yalnızca bunu açıkça belirten, isteğe bağlı özellikler iletişim kurar. Her seçenek size ne kazandırdığını açıklar."
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "Örnek: /yazim/ adresi /yazim.md olur. Anlamlı kalıcı bağlantılar gerektirir. Markdown içeriğinizden anında oluşturulur ve noindex olarak işaretlenir; böylece aramada HTML sayfasıyla asla rekabet etmez."
+
+msgid "Export CSV"
+msgstr "CSV olarak dışa aktar"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "llms.txt içinde öne çıkar (temel içerik)"
+
+msgid "Feeds"
+msgstr "Beslemeler"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "Gerçek bir kişi az önce bir yapay zekâya bu konuyu sorduğu için sayfanızı canlı olarak çeker. En yüksek niyetli trafik – engellemek bu okuyucuları geri çevirir."
+
+msgid "Filter by AI"
+msgstr "Yapay zekâya göre süz"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "%s üzerinden ilk insan ziyaretçiler! İçeriğiniz orada alıntılanıyor."
+
+msgid "Flows: which AI reads which page"
+msgstr "Akışlar: Hangi yapay zekâ hangi sayfayı okuyor"
+
+msgid "Focus term"
+msgstr "Odak terimi"
+
+msgid "Focus term appears in the title"
+msgstr "Odak terimi başlıkta geçiyor"
+
+msgid "Focus term set"
+msgstr "Odak terimi belirlendi"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "Çoğu site için yapay zekâ yanıtlarından gelen ziyaretçiler bugün Google'ın gönderdiğinin tek haneli küçük bir yüzdesi kadar – ancak bu pay her çeyrekte hızla artıyor. Şimdi başlamanın amacı, rakipleriniz yapmadan önce bir kaynak olarak yerleşmektir."
+
+msgid "GEO Audit"
+msgstr "GEO denetimi"
+
+msgid "GEO Settings"
+msgstr "GEO ayarları"
+
+msgid "GEO check (AI visibility)"
+msgstr "GEO kontrolü (yapay zekâ görünürlüğü)"
+
+msgid "GEO score"
+msgstr "GEO puanı"
+
+msgid "GEO status of your site"
+msgstr "Sitenizin GEO durumu"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "Yüksek yapay zekâ ilgisi, düşük puan – önce bunları düzeltin."
+
+msgid "Home"
+msgstr "Ana sayfa"
+
+msgid "Hour"
+msgstr "Saat"
+
+msgid "How does an AI even reach my website?"
+msgstr "Bir yapay zekâ web siteme nasıl ulaşıyor ki?"
+
+msgid "How it works"
+msgstr "Nasıl çalışır?"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "Nasıl çalışır? – GEO sade bir dille"
+
+msgid "Human visitors from AI answers"
+msgstr "Yapay zekâ yanıtlarından gelen insan ziyaretçiler"
+
+msgid "I already did"
+msgstr "Zaten yaptım"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "Kimlik doğrulama kapalı. User-agent bilgileri taklit edilebilir – gerçek yapay zekâ botlarını taklitçilerden ayırmak için ayarlarda doğrulamayı etkinleştirin."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "Eklenti işinize yarıyorsa, WordPress.org'da kısa bir değerlendirme bırakır mısınız? Bir dakikanızı alır ve diğer site sahiplerinin onu bulmasına yardımcı olur. Teşekkürler!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "Önemli: Bir CDN arkasında doğrudan bağlantı IP'si proxy'nin IP'sidir – her gerçek bot taklitçi olarak işaretlenir. Asıl ziyaretçi IP'sinin kullanılması için kurulumunuzu seçin. Yalnızca proxy'nizin gerçekten ayarladığı bir başlığı etkinleştirin, aksi takdirde bu başlıklar taklit edilebilir."
+
+msgid "Include latest posts"
+msgstr "Son yazıları dahil et"
+
+msgid "Include pages"
+msgstr "Sayfaları dahil et"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "IndexNow; Bing, Seznam, Naver ve diğerleri tarafından desteklenen açık bir protokoldür. Her yayımlama, güncelleme veya yayından kaldırmada eklenti, herkese açık URL'yi ve site anahtarınızı IndexNow API'sine gönderir – başka hiçbir şey iletilmez. Doğrulama için sitenizden otomatik olarak bir anahtar dosyası sunulur. Başka bir eklenti zaten IndexNow'a gönderim yapıyorsa (örn. Rank Math veya resmî Bing eklentisi), yinelenen ping'leri önlemek için bunu kapalı bırakın."
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: anında dizine ekleme ping'leri"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "Anında dizine ekleme (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "İç bağlantılar, tarayıcıların ve retrieval sistemlerinin ilgili içeriğinizi keşfetmek için izlediği yollardır – yetim sayfalar daha az okunur."
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "Görünmeyen etki: tıklama sayılarından daha büyük."
+
+msgid "It measures"
+msgstr "Ölçer"
+
+msgid "It optimizes"
+msgstr "Optimize eder"
+
+msgid "Job title / role"
+msgstr "Unvan / rol"
+
+msgid "Keep statistics for"
+msgstr "İstatistiklerin saklanma süresi"
+
+msgid "Key content"
+msgstr "Temel içerik"
+
+msgid "Last seen"
+msgstr "Son görülme"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "Son gönderim: %2$s tarihinde %1$s."
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "Sol: yapay zekâ botları, sağ: sayfalarınız. Bant genişliği = erişimler. Tam sayıyı görmek için fareyle bir bandın üzerine gelin."
+
+msgid "Links to at least one external source"
+msgstr "En az bir harici kaynağa bağlantı veriyor"
+
+msgid "Links to at least one other page on your site"
+msgstr "Sitenizdeki en az bir başka sayfaya bağlantı veriyor"
+
+msgid "Log AI bot accesses"
+msgstr "Yapay zekâ botu erişimlerini kaydet"
+
+msgid "Log human visitors from AI answers"
+msgstr "Yapay zekâ yanıtlarından gelen insan ziyaretçileri kaydet"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "Makine tarafından okunabilir meta veriler, yapay zekâ sistemlerinin içeriğinizi anlamasına ve size atfetmesine yardımcı olur."
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "İçeriğinizin makine tarafından okunabilir sürümleri (llms.txt, Markdown sayfaları, yapılandırılmış veriler) – böylece yapay zekâ sistemleri sitenizi olabildiğince zahmetsizce anlar."
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "Sitenizi yapay zekâ sistemlerinin bulduğu, anladığı ve alıntıladığı bir kaynak hâline getirmeye GEO (Generative Engine Optimization – üretken motor optimizasyonu) denir. SEO ile aynı fikirdir, yalnızca mavi bağlantılar yerine yapay zekâ yanıtları için – ve bunu henüz çok daha az site yaptığı için erken davrananlar orantısız biçimde görünür olur."
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "Yapay zekâ tarayıcı kurallarını robots.txt içinde yönet"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "Birçok kişi sizi alıntılayan yapay zekâ yanıtını okur ve hiç tıklamaz – ama adınızı kaynak olarak görmüştür. Bu, hiçbir istatistiğin tam olarak ölçemeyeceği bir marka görünürlüğüdür; alıntının kendisi kazançtır."
+
+msgid "Mark all as read"
+msgstr "Tümünü okundu olarak işaretle"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "Her sayfanın Markdown sürümü (.md URL'leri)"
+
+msgid "Max. entries per section"
+msgstr "Bölüm başına en fazla kayıt"
+
+msgid "Maybe later"
+msgstr "Belki daha sonra"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "Bu arada: Aşağıdaki durum panelinde yeşil olmayan her şeyi düzeltin ve en önemli sayfalarınıza odak terimleri belirleyin."
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "Giderek daha fazla insan sorularını artık Google'a yazmıyor – ChatGPT, Perplexity, Copilot veya Claude'a soruyor. Yapay zekâ bir avuç web sitesini okur, tek bir yanıt yazar ve kaynaklarını belirtir. Siteniz bu kaynaklardan biriyse adınız geçer ve bağlantınız verilir. Değilse, klasik Google'da üst sıralarda olsanız bile o sohbette görünmezsiniz."
+
+msgid "Most active AI bots"
+msgstr "En aktif yapay zekâ botları"
+
+msgid "Name (defaults to site title)"
+msgstr "Ad (varsayılan: site başlığı)"
+
+msgid "Needs attention"
+msgstr "İlgilenilmesi gerekenler"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Yeni ve güncellenen içerik dakikalar içinde Bing ve benzerlerine iletilir. Bing, Copilot'u ve ChatGPT aramasının bir kısmını besler – daha hızlı dizine ekleme, daha hızlı yapay zekâ alıntıları demektir."
+
+msgid "New here? How it all works, in plain language."
+msgstr "Burada yeni misiniz? Her şeyin nasıl çalıştığı, sade bir dille."
+
+msgid "Next"
+msgstr "Sonraki"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "Son 30 günde puanlanmış sayfalarda henüz yapay zekâ erişimi yok – yapay zekâ sistemleri içeriğinizi okudukça harita dolar."
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "Henüz IP aralığı indirilmedi – ilk indirme bir saat içinde (veya günlük cron çalıştığında) yapılır."
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "Henüz URL gönderilmedi – bir sonraki yayımlama veya güncelleme ilk ping'i tetikleyecek."
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "Son 7 günde henüz bot erişimi yok."
+
+msgid "No data for this AI in the selected range."
+msgstr "Seçilen aralıkta bu yapay zekâ için veri yok."
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "Henüz veri yok. Bilinen bir yapay zekâ botu veya bir yapay zekâ yanıtından gelen bir ziyaretçi sitenize ulaştığı anda yapay zekâ erişimleri burada görünür."
+
+msgid "No duplicate SEO output"
+msgstr "Yinelenen SEO çıktısı yok"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "Jargon yok, abartı yok: Neler oluyor, bu eklenti bu konuda ne yapıyor ve gerçekçi olarak hangi sonuçları bekleyebilirsiniz."
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "Başka etkin SEO eklentisi yok – Wille GEO şema ve meta etiketlerini kendisi sağlar."
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "Aşırı uzun paragraf yok (her biri en fazla 150 kelime)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "Fiziksel robots.txt dosyası bulunamadı – Wille GEO'da yapılandırılan yapay zekâ tarayıcı kuralları etkin."
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "Fiziksel robots.txt dosyası bulunamadı. Wille GEO'da hiçbir yapay zekâ tarayıcı engellemesi yapılandırılmamış, bu yüzden WordPress'in varsayılan robots.txt dosyası değiştirilmeden sunuluyor."
+
+msgid "No published content to audit yet."
+msgstr "Henüz denetlenecek yayımlanmış içerik yok."
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "Site haritası bulunamadı. WordPress varsayılan olarak bir tane sunar – bir eklenti veya ayar onu devre dışı bırakmış olabilir."
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "Hiçbir araç bir yapay zekâyı sizi alıntılamaya zorlayamaz. Yapay zekâ sistemleri gerçek bir soruyu net, somut ve inandırıcı biçimde yanıtlayan sayfaları alıntılar. Bu eklenti tam olarak bunu ölçülebilir ve sistemli olarak kolaylaştırır – her teknik engeli kaldırır ve neyin işe yaradığını gösterir. Özün yine sizden gelmesi gerekir."
+
+msgid "No – use the direct connection IP"
+msgstr "Hayır – doğrudan bağlantı IP'sini kullan"
+
+msgid "Not allowed."
+msgstr "İzin verilmiyor."
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "Kapalı. User-agent bilgileri taklit edilebilir; doğrulamayı etkinleştirmek gerçek yapay zekâ botlarını taklitçilerden ayırır (günde bir kez herkese açık IP listelerini indirir)."
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "Kapalı. Bu olmadan, yapay zekâ açısından önemli arama dizinleri yeni içerikten ancak sitenizi yeniden taradıklarında haberdar olur – IndexNow'u etkinleştirmek bunu dakikalara indirir."
+
+msgid "Official profiles (sameAs)"
+msgstr "Resmî profiller (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "İsteğe bağlı olarak kanıt: Ünlü bir adı taklit eden sahte botlar, yapay zekâ şirketlerinin resmî IP listeleri sayesinde ortaya çıkarılır."
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "Eklenti günde bir kez OpenAI, Anthropic, Perplexity, Google ve Microsoft'un tarayıcıları için yayımladığı herkese açık IP listelerini indirir ve kaydedilen her erişimi doğrulandı, başarısız (yabancı bir IP'den iddia edilen kimlik) veya kontrol edilmedi olarak işaretler. Ziyaretçi IP'si yalnızca bellekte karşılaştırılır ve asla saklanmaz. Harici istekler yaptığı için isteğe bağlıdır."
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "Her satıra bir URL (LinkedIn, GitHub, X, kişisel site …). Yapay zekâ sistemlerinin bu yazarı tutarlı, gerçek tek bir kişi olarak doğrulamasını sağlar – temel bir E-E-A-T sinyali."
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "Bir iki cümle: Kim olduğunuz ve sitenizin neyi kapsadığı."
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "Düzenleyicide herhangi bir yazıyı açın – kenar çubuğundaki “GEO kontrolü” paneli, siz yazarken tam olarak bu adımlarda size rehberlik eder."
+
+msgid "Open improvements"
+msgstr "Açık iyileştirmeler"
+
+msgid "Open the full dashboard"
+msgstr "Panonun tamamını aç"
+
+msgid "Open the settings"
+msgstr "Ayarları aç"
+
+msgid "Open the statistics dashboard"
+msgstr "İstatistik panosunu aç"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "En önemli beş sayfanızı açın ve her biri için bir odak terimi belirleyin: Bu sayfanın ASIL yanıtı olması gereken soru veya konu."
+
+msgid "Opportunity map"
+msgstr "Fırsat haritası"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "Meta açıklaması ve sosyal medya önizlemelerini çıktıla (Open Graph)"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "Schema.org yapılandırılmış verilerini çıktıla (JSON-LD)"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "WebSite, Organization/Person, Article (tarihler ve yazarla birlikte) ve içerik haritası (breadcrumb) çıktılar. Yapay zekâ retrieval sistemleri güncelliği ve güvenilirliği değerlendirmek için bu sinyalleri kullanır."
+
+msgid "Page"
+msgstr "Sayfa"
+
+msgid "Pages"
+msgstr "Sayfalar"
+
+msgid "Pages AI read most"
+msgstr "Yapay zekânın en çok okuduğu sayfalar"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "İnsanlar yapay zekâ asistanlarına soru sorar. Bu soruları yansıtan başlıklar içeriğinizi doğrudan gerçek istemlerle eşleştirir – ve otomatik FAQ şemasını besler."
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "En iyi sayfalarınızı temel içerik olarak öne çıkarın; böylece llms.txt yapay zekâ ajanlarını doğrudan onlara yönlendirir."
+
+msgid "Ping IndexNow on publish and update"
+msgstr "Yayımlama ve güncellemede IndexNow'a ping gönder"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "Öne çıkarılan içerik llms.txt ve llms-full.txt dosyalarında ilk sırada yer alır – yapay zekâ sistemlerinin en çok okumasını istediğiniz sayfalar."
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "Düz kalıcı bağlantılar etkin (Ayarlar → Kalıcı bağlantılar). Markdown uç noktaları ve IndexNow anahtar dosyası sunulamaz; ayrıca okunabilir URL'ler her tarayıcıya yardımcı olur."
+
+msgid "Post"
+msgstr "Yazı"
+
+msgid "Post not found."
+msgstr "Yazı bulunamadı."
+
+msgid "Posts"
+msgstr "Yazılar"
+
+msgid "Pretty permalinks enabled"
+msgstr "Anlamlı kalıcı bağlantılar etkin"
+
+msgid "Previous"
+msgstr "Önceki"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "Gizlilik: Bu eklenti IP adresi saklamaz, çerez ayarlamaz ve varsayılan olarak harici istek yapmaz. Tek istisnalar, sizin kontrol ettiğiniz iki isteğe bağlı özelliktir: bot doğrulama (günde bir kez herkese açık tarayıcı IP listelerini indirir) ve IndexNow (yayımlanan URL'leri IndexNow API'sine gönderir). Tüm istatistikler WordPress veritabanınızda kalır."
+
+msgid "Profile URLs (sameAs)"
+msgstr "Profil URL'leri (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "Kalite: alışılmadık derecede yüksek."
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "Wille GEO'yu WordPress.org'da değerlendirin (yeni sekmede açılır)"
+
+msgid "Rate ★★★★★"
+msgstr "Değerlendir ★★★★★"
+
+msgid "Re-scan"
+msgstr "Yeniden tara"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "Okunabilir URL'ler etkin – .md uç noktaları ve IndexNow anahtar dosyası çalışıyor."
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "Yapay zekâ yanıtlarından gelen gerçek insanları – yapay zekâ ve sayfa bazında asıl getiriyi."
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "ChatGPT, Perplexity ve benzerlerinde bağlantınıza tıklayan gerçek insanlar. GEO'nun asıl getirisi budur."
+
+msgid "Recipient"
+msgstr "Alıcı"
+
+msgid "Reload page"
+msgstr "Sayfayı yeniden yükle"
+
+msgid "Retrieval"
+msgstr "Retrieval"
+
+msgid "Retrieval (citation index)"
+msgstr "Retrieval (alıntı dizini)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "Retrieval ve ajan botları sayfalarınızı okuyabilir – yapay zekâ yanıtlarında yer alabilirsiniz."
+
+msgid "Retrieval bots"
+msgstr "Retrieval botları"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "Retrieval botlarının önce iyileştirdiğiniz sayfaları bulup yeniden okuması gerekir. İlk ölçülebilir etkileri birkaç hafta sonra, adil bir değerlendirmeyi ise üç ila altı ay sonra bekleyin – pano size süreç boyunca eğilimi gösterir."
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "Retrieval botları yeni içeriği hızla keşfetmek için site haritasını kullanır."
+
+msgid "Review Wille GEO"
+msgstr "Wille GEO'yu değerlendirin"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "Kurallar, WordPress'in oluşturduğu robots.txt dosyasına eklenir. Web kök dizinindeki fiziksel bir robots.txt dosyası bunları geçersiz kılar – böyle bir dosya varsa istatistik sayfasındaki durum paneli sizi uyarır. robots.txt bir güven sistemidir; bilinen botlar buna uyar."
+
+msgid "Running GEO checks …"
+msgstr "GEO kontrolleri çalışıyor …"
+
+msgid "Save settings"
+msgstr "Ayarları kaydet"
+
+msgid "Score distribution"
+msgstr "Puan dağılımı"
+
+msgid "Search"
+msgstr "Arama"
+
+msgid "Search (feeds AI answers)"
+msgstr "Arama (yapay zekâ yanıtlarını besler)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "Arama motorları ve yapay zekâ tarayıcıları siteyi dizine ekleyebilir."
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "Hangi yapay zekânın (ChatGPT, Claude, Perplexity…) hangi sayfalarınızı okuduğunu görün – ve sitenizi yapay zekâ aramaları için optimize edin (GEO). Ücretsiz, kişisel veri yok."
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "Haftalık yapay zekâ görünürlük raporunu e-postayla gönder"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "Wille GEO eklentisi tarafından gönderildi. Bu raporu istediğiniz zaman Wille GEO → Ayarlar altından kapatabilirsiniz."
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "Normal WordPress e-posta sisteminiz üzerinden ve yalnızca o hafta gerçekten yapay zekâ etkinliği olduysa gönderilir – sessiz siteler asla spam'lenmez. Raporu WP-CLI komutu “wp geoins report” ile elle de tetikleyebilirsiniz."
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "Tam içerikle /llms-full.txt sun"
+
+msgid "Serve a generated /llms.txt"
+msgstr "Otomatik oluşturulan bir /llms.txt sun"
+
+msgid "Served at %s."
+msgstr "%s adresinde sunuluyor."
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Short site description (optional)"
+msgstr "Kısa site açıklaması (isteğe bağlı)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "Kısa, kendi içinde bütünlüklü paragraflar, yapay zekâ sistemlerinin yanıtlara aktardığı birimdir. Uzun bloklar atlanır."
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "Gözden geçirilmiş yazılarda görünür bir “Güncellenme tarihi” göster"
+
+msgid "Show all AIs"
+msgstr "Tüm yapay zekâları göster"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "İçeriğin üzerinde gösterilir; yalnızca yazı anlamlı şekilde gözden geçirildiğinde (yayımlandıktan iki günden fazla sonra). Makine tarafından okunabilir dateModified değeri bu anahtardan bağımsız olarak her zaman yapılandırılmış verilerinizde yer alır."
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "Yapay zekâ sistemlerine makine tarafından okunabilir uzmanlık olarak gösterilir (Schema.org jobTitle), örn. “Kıdemli WordPress Geliştiricisi”."
+
+msgid "Site represents"
+msgstr "Sitenin temsil ettiği"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "Site bir proxy/CDN arkasında mı çalışıyor?"
+
+msgid "Site visible to crawlers"
+msgstr "Site tarayıcılara görünür"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "Bir yapay zekâ yanıtından tıklayarak gelen kişi zaten bir özet okumuştur ve daha fazla ayrıntı istiyordur – araştırmalar ve mağaza verileri, bu ziyaretçilerin ortalama arama trafiğinden belirgin şekilde daha iyi dönüşüm sağladığını tutarlı biçimde gösteriyor. Daha az ziyaretçi, ama daha sıcak olanlar."
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "Üzgünüz, bunu yapmanıza izin verilmiyor."
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "Hız: Yeni ve güncellenen içerik dakikalar içinde arama motorlarına bildirilir (IndexNow) – ne kadar erken dizine eklenirse, bir yapay zekâ onu o kadar erken alıntılayabilir."
+
+msgid "Statistics"
+msgstr "İstatistikler"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "İstatistikler ve somut rakamlar alıntılanma olasılığını ölçülebilir şekilde artırır – yapay zekâ yanıtları doğrulanabilir sayıları sever."
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "Yapılandırılmış parçalar (listeler, tablolar), uzun düz metin bloklarına göre yapay zekâ tarafından çok daha sık çıkarılır ve alıntılanır."
+
+msgid "Structured data & meta tags"
+msgstr "Yapılandırılmış veriler ve meta etiketleri"
+
+msgid "Structured data (schema.org)"
+msgstr "Yapılandırılmış veriler (Schema.org)"
+
+msgid "Sure, write a review"
+msgstr "Elbette, değerlendirme yazayım"
+
+msgid "Table of contents"
+msgstr "İçindekiler tablosu"
+
+msgid "Term"
+msgstr "Terim"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "Terimler ve sayfalar: Hangi yapay zekâ neyi okuyor?"
+
+msgid "The audit table needs JavaScript."
+msgstr "Denetim tablosu JavaScript gerektirir."
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "Beacon yalnızca oturum açmamış ziyaretçiler için çalışır, yalnızca ziyaretin bilinen bir yapay zekâdan gelip gelmediğini kontrol eder (referrer alan adı veya utm_source) ve ancak o zaman kaynağı ve sayfa yolunu kendi sitenize bildirir. Çerez yok, IP yok, parmak izi yok, harici hizmet yok. Sunucu tarafı izleyiciyle çift sayım otomatik olarak önlenir. Siteniz tam sayfa önbellekleme kullanmıyorsa bunu kapalı bırakın – PHP izleyicisi zaten her şeyi görür."
+
+msgid "The honest limit: content decides."
+msgstr "Dürüst sınır: belirleyici olan içeriktir."
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "Fiziksel robots.txt %s botlarını engelliyor. Bu botlar sizi yapay zekâ yanıtlarına taşır – engeli kaldırmak için dosyayı düzenleyin (dosya var olduğu sürece burada yapılandırılan kurallar etkisiz kalır)."
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "Fiziksel robots.txt TÜM tarayıcıları engelliyor (User-agent: * / Disallow: /). Hiçbir arama motoru ve hiçbir yapay zekâ sistemi sitenizi okuyamaz – dosyayı düzenleyin."
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "Fiziksel robots.txt varsayılan olarak tüm tarayıcıları engelliyor (User-agent: * / Disallow: /); yalnızca dosyada kendi istisna kuralı olan tarayıcılar sitenizi okuyabilir. İstisnası olmayan her yapay zekâ sistemi dışarıda kalır – dosyayı düzenleyin."
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "İstatistik panosu her yapay zekâ erişimini bu terimle eşleştirir. Boş = yazı başlığı."
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "İstatistik panosu JavaScript gerektirir. Bunun yerine CSV dışa aktarmayı veya WP-CLI'yi (wp geoins stats) kullanın."
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "Sonra bırakın çalışsın. Panoyu haftada bir kontrol edin (veya e-posta raporunu etkinleştirin) ve yapay zekâ ilgisinin zaten görüldüğü yerlere yatırım yapın – alıntılar en çok oralarda yakındır."
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "Bu user-agent'lar yapay zekâ sistemlerine benziyor ancak henüz kayıt listesinde değiller – bu yüzden erişimleri yukarıdaki istatistiklerde YER ALMIYOR. Sık görülen kayıtları geoins_bots filtresiyle eklemeye değer (veya bunları eklentiye bildirin)."
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "Bu eklenti bu botları her ziyarette tanır ve panoda size gösterir: Hangi yapay zekâ hangi sayfanızı, ne sıklıkla ve hangi konu için okuyor. Bir kişi bir yapay zekâ yanıtındaki sitenize giden bağlantıya tıkladığında bu ziyaret de sayılır – yapay zekâ görünürlüğünün potansiyel bir müşteriye dönüştüğü an budur."
+
+msgid "Timeline: weeks to months, not days."
+msgstr "Zaman çizelgesi: günler değil, haftalar ila aylar."
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Tracking"
+msgstr "İzleme"
+
+msgid "Training"
+msgstr "Eğitim"
+
+msgid "Training bots"
+msgstr "Eğitim botları"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "İki şey: ölçer ve optimize eder. Her şey kendi sunucunuzda çalışır, hiçbir yere bir şey gönderilmez ve ayarlardaki her anahtar, siz açmadan önce faydasını açıklar."
+
+msgid "Updated"
+msgstr "Güncellendi"
+
+msgid "Updated on %s"
+msgstr "%s tarihinde güncellendi"
+
+msgid "Updated within the last 12 months"
+msgstr "Son 12 ay içinde güncellendi"
+
+msgid "User agent"
+msgstr "User-agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "Bot kimliğini resmî IP aralıklarına göre doğrula"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "Çok zayıf sayfalar, bir yapay zekânın yanıtını dayandırabileceği kadar içerik nadiren barındırır."
+
+msgid "View your key file"
+msgstr "Anahtar dosyanızı görüntüleyin"
+
+msgid "View your llms-full.txt"
+msgstr "llms-full.txt dosyanızı görüntüleyin"
+
+msgid "View your llms.txt"
+msgstr "llms.txt dosyanızı görüntüleyin"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "Görünür uzmanlık (biyografisi olan gerçek bir yazar), yapay zekâ sistemlerinin güvenilir kaynakları seçmek için kullandığı E-E-A-T sinyallerini besler."
+
+msgid "Volume: still small, growing fast."
+msgstr "Hacim: henüz küçük, hızla büyüyor."
+
+msgid "Waiting for the first AI visit"
+msgstr "İlk yapay zekâ ziyareti bekleniyor"
+
+msgid "Weekly email report"
+msgstr "Haftalık e-posta raporu"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "Gerçekçi olarak ne bekleyebilirim? Dürüst bir yanıt"
+
+msgid "What does the plugin actually do for me?"
+msgstr "Eklenti benim için tam olarak ne yapıyor?"
+
+msgid "What happened"
+msgstr "Neler oldu"
+
+msgid "What is happening right now?"
+msgstr "Şu anda neler oluyor?"
+
+msgid "When do AIs read your site?"
+msgstr "Yapay zekâlar sitenizi ne zaman okuyor?"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "Nereden başlamalı? Beş adım, 30 dakika"
+
+msgid "Which AI bots?"
+msgstr "Hangi yapay zekâ botları?"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "Hangi yapay zekâ sayfalarınızı okudu ve hangi yapay zekâ yanıtları size insan ziyaretçi gönderdi."
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "Hangi yapay zekâ hangi sayfanızı hangi terim için okuyor – ve hangi yapay zekâ yanıtları size gerçekten insan ziyaretçi gönderiyor."
+
+msgid "Why does this matter?"
+msgstr "Bu neden önemli?"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Wille GEO etkin."
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Wille GEO, %1$s tarafından geliştirilmektedir. İşinize yarıyor mu? WordPress.org'da %2$s bir değerlendirme, başkalarının da onu bulmasına yardımcı olur – teşekkürler!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "%s üzerindeki Wille GEO şunları fark etti:"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: yazar sinyalleri (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "Bu sayfalarda GEO kontrol listesini adım adım uygulayın – özellikle: Temel soruyu ilk paragrafta doğrudan yanıtlayın ve başlıkları gerçek sorulara dönüştürün."
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "En az iki soru başlığı (soru işaretiyle biten H2/H3) içeren yazı ve sayfalarda çalışır. Ek iş gerekmez – soruları başlık olarak yazın, şema kendiliğinden gelir."
+
+msgid "XML sitemap available"
+msgstr "XML site haritası kullanılabilir"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "Evet, Cloudflare (CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "Evet, başka bir proxy (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "%s botlarını engelliyorsunuz. Bu botlar sizi yapay zekâ yanıtlarına taşır – onları engellemek sizi alıntılardan çıkarır."
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "Bu e-postayı, Wille GEO → Ayarlar altında e-postayla alıntı uyarıları etkin olduğu için alıyorsunuz."
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "IndexNow anahtar dosyanıza kendi sunucunuzdan erişilemiyor, bu nedenle ping'ler duraklatıldı. Olağan nedenler: düz kalıcı bağlantılar (Ayarlar → Kalıcı bağlantılar altından düzeltin) veya geri döngü (loopback) isteklerini engelleyen bir güvenlik eklentisi. Sorunu düzelttikten sonra bu ayarları yeniden kaydedin – kontrol, kaydettikten kısa süre sonra yeniden çalışır."
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "Oturum kontrolünüzün süresi doldu – devam etmek için sayfayı yeniden yükleyin."
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] Bu haftaki yapay zekâ görünürlüğü: %2$d yapay zekâ erişimi, %3$d yapay zekâ ziyaretçisi"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] Yeni yapay zekâ görünürlük sinyali"
+
+msgid "a person"
+msgstr "bir kişi"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "Gerçek bir kişi az önce bir yapay zekâya soru sordu ve yapay zekâ onu yanıtlamak için şu anda sayfanızı okuyor. Bu, var olan en değerli sinyaldir: Birisi tam şu anda konunuzla ilgileniyor."
+
+msgid "accesses"
+msgstr "erişim"
+
+msgid "an organization"
+msgstr "bir kuruluş"
+
+msgid "blocking costs citations"
+msgstr "engellemek alıntılara mal olur"
+
+msgid "blocking is safe for citations"
+msgstr "engellemek alıntıları etkilemez"
+
+msgid "by %s"
+msgstr "%s tarafından"
+
+msgid "days"
+msgstr "gün"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "örn. WordPress yedekleme eklentisi"
+
+msgid "forever"
+msgstr "süresiz"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "taklitçiler"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "llms.txt kullanılabilir"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "llms.txt yeni bir standarttır: En önemli içeriğinizin /llms.txt adresinde sunulan Markdown biçiminde bir özeti. Sayfalarınızdan ve yazılarınızdan otomatik olarak oluşturulur ve 12 saat önbellekte tutulur."
+
+msgid "more"
+msgstr "daha fazla"
+
+msgid "new"
+msgstr "yeni"
+
+msgid "pages"
+msgstr "sayfa"
+
+msgid "passed"
+msgstr "karşılandı"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "Yapay zekânın daha sonra alıntı yapacağı kütüphaneyi oluştururlar. Bu kütüphanede yer almak, alıntılanıp alıntılanamayacağınızı belirler."
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "Gelecekteki yapay zekâ modellerini eğitmek için metin toplarlar. Size ne ziyaretçi ne de alıntı getirirler. Onlara izin verip vermemek tamamen bir içerik hakları kararıdır – engellemek size hiçbir şey kaybettirmez."
+
+msgid "unchecked"
+msgstr "kontrol edilmedi"
+
+msgid "verified"
+msgstr "doğrulandı"
+
+msgid "visitors"
+msgstr "ziyaretçi"
+
+msgid "vs. previous period"
+msgstr "önceki döneme göre"

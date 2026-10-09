@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "„Обезкуражаване на търсачките“ е включено (Настройки → Четене). Никоя AI система не може да ви открие, докато не го изключите."
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%1$d IP диапазона от %2$d доставчика, последно обновяване %3$s."
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "%s (робот за обучение) посети сайта ви за първи път."
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "%s обходи сайта ви за първи път – значим за цитиране AI вече ви чете."
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "Открит е %s – Wille GEO автоматично оставя schema и мета таговете на него и добавя само липсващото (проследяване, llms.txt, контрол на robots, GEO проверки)."
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "%s е активен. За да се избегне дублиране, Wille GEO автоматично оставя schema и мета таговете на него – превключвателите по-долу се игнорират, докато той работи. Всичко останало (проследяване, llms.txt, контрол на robots, GEO проверки) работи заедно с него."
+
+msgid "(opens in a new tab)"
+msgstr "(отваря се в нов раздел)"
+
+msgid "1 year"
+msgstr "1 година"
+
+msgid "180 days"
+msgstr "180 дни"
+
+msgid "30 days"
+msgstr "30 дни"
+
+msgid "7-day average"
+msgstr "Средно за 7 дни"
+
+msgid "90 days"
+msgstr "90 дни"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "Чиста Markdown версия на всяка страница е налична, като добавите .md към адреса ѝ."
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "Контролен списък в реално време, докато пишете: тринадесет конкретни, обяснени критерия, които правят една страница цитируема за AI (първо отговорът, заглавия-въпроси, списъци, числа, актуалност …)."
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "Съществува физически robots.txt и той не съдържа блокировките, които сте настроили тук (%s) – те нямат ефект, докато не ги добавите във файла или не го изтриете."
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "Съществува физически файл robots.txt, но не можа да бъде прочетен за анализ. Той отменя правилата, настроени тук – проверете го ръчно."
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "Съществува физически файл robots.txt, но в момента е наред: не блокира значими за цитиране AI ботове и съответства на настройките ви. Забележка: правилата, настроени тук, остават неактивни, докато файлът съществува."
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "Реалистичен пример: специализиран сайт с 50 солидни статии, който приложи GEO контролния списък, може да очаква първите си AI цитирания и малък, но постоянно растящ поток от силно заинтересовани посетители в рамките на няколко месеца – мислете за това като за отваряне на втора, все още малка врата към бизнеса ви, която се разширява всеки месец, а не като заместител на Google."
+
+msgid "AI (30d)"
+msgstr "AI (30 дни)"
+
+msgid "AI Statistics"
+msgstr "AI статистика"
+
+msgid "AI accesses"
+msgstr "AI достъпи"
+
+msgid "AI accesses (30d)"
+msgstr "AI достъпи (30 дни)"
+
+msgid "AI accesses per day"
+msgstr "AI достъпи на ден"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "AI асистентите цитират самостоятелни блокове с отговори. Ако първият абзац отговаря на основния въпрос, той е най-лесен за цитиране."
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "Отсега нататък се записват достъпите на AI ботове и посетителите от AI отговори – данните се появяват веднага щом първият AI достигне сайта ви."
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "Достъпи на AI ботове през последните 30 дни – отваряне на таблото със статистика"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "AI компаниите изпращат автоматизирани посетители – ботове – към сайта ви. Те се представят с име и името казва точно защо са дошли. Важни са три вида и те означават много различни неща за бизнеса ви:"
+
+msgid "AI companies: share of accesses"
+msgstr "AI компании: дял от достъпите"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "Достъп на AI роботи (robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "AI роботите не предават заявки за търсене. Тази матрица свързва всеки достъп с фокусния термин на страницата (задава се в полето „GEO проверка“ на екрана за редактиране) – честният, практичен еквивалент."
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "AI радар: неразпознати роботи, подобни на AI"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "AI търсенето предпочита актуални източници; датата на промяна се предава в структурираните ви данни. Ежегодният преглед на съдържанието ви поддържа цитируеми."
+
+msgid "AI source"
+msgstr "AI източник"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "AI системите сравняват въпросите първо със заглавията – ясното заглавие прави страницата ви очевидния източник."
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "AI системите са прочели сайта ви %s пъти през последните 30 дни – Wille GEO си върши работата."
+
+msgid "AI visibility, last 7 days"
+msgstr "AI видимост, последните 7 дни"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Скок на AI посетителите: %1$d посетители от AI отговори вчера (среден брой напоследък: %2$s/ден)."
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Скок на AI посетителите: %1$s посетители от AI отговори вчера (среден брой напоследък: %2$s/ден)."
+
+msgid "AI visitors"
+msgstr "AI посетители"
+
+msgid "AI visitors: landing pages"
+msgstr "AI посетители: целеви страници"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "За всички оценени страници. Всяка точка нагоре е още един критерий, който типичната ви страница изпълнява."
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "Добавяне на точни часове на обновяване (lastmod) в XML картата на сайта"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "Добавя ID котви към всички заглавия H2/H3 и при публикации с три или повече заглавия вмъква компактно съдържание с връзки преди първото H2. Стилът е минимален и наследява шрифтовете и цветовете на темата ви."
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "Добавя реалния час на промяна на всяка публикация в картата на сайта на ядрото на WordPress. Активно е само докато работи картата на ядрото; SEO разширенията, които я заменят, не се засягат."
+
+msgid "Agent"
+msgstr "Агент"
+
+msgid "Agent (live user request)"
+msgstr "Агент (заявка на потребител в реално време)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "Агент + Извличане = значими за цитиране: AI е прочел страницата ви, за да отговори на реален въпрос. Обучението само захранва модели."
+
+msgid "Agent bots"
+msgstr "Ботове агенти"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "Известията винаги се показват в таблото; тази опция ги изпраща допълнително по имейл (обобщени, най-много един имейл на ден). Използва получателя по-долу."
+
+msgid "All AIs"
+msgstr "Всички AI"
+
+msgid "All checks passed"
+msgstr "Всички проверки са преминати"
+
+msgid "All images have alt text"
+msgstr "Всички изображения имат алтернативен текст"
+
+msgid "All types"
+msgstr "Всички типове"
+
+msgid "Allow all bots"
+msgstr "Разрешаване на всички ботове"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "Чрез алтернативния текст AI системите разбират изображенията ви – а той отдавна е и сигнал за достъпност и класиране. Страниците без изображения преминават автоматично."
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "Анализиране на съдържанието … %1$s от %2$s готови"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "Площ = достъпи в избрания период. Кликнете върху компания, за да видите отделните ѝ ботове."
+
+msgid "At least 300 words"
+msgstr "Поне 300 думи"
+
+msgid "At least one heading phrased as a question"
+msgstr "Поне едно заглавие, формулирано като въпрос"
+
+msgid "Author has a profile description"
+msgstr "Авторът има описание в профила"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "Автоматична FAQ schema от заглавия-въпроси"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "Автоматично съдържание с котви към заглавията"
+
+msgid "Average GEO score"
+msgstr "Среден GEO резултат"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "Бъдете скептични към всеки, който ви обещава поток от клиенти от AI търсенето. Ето честната картина:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Полза: Bing и др. изтеглят новото и обновеното съдържание в рамките на минути вместо дни. Bing захранва Microsoft Copilot и части от търсенето в ChatGPT – по-бързото индексиране означава по-бързи AI цитирания."
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "Полза: машинночетимо резюме на сайта за AI агенти. Честно казано: големите роботи все още рядко го изтеглят – но агентите за програмиране/IDE го правят, не струва нищо и ви позиционира, докато стандартът расте."
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "Полза: агентите, които искат повече от прегледа, получават цялото ви ключово съдържание като чист Markdown в един файл."
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "Полза: добавянето на .md към всеки адрес връща чист Markdown – без маркиране от темата, без скриптове. По-евтино за четене от AI агенти и обявено чрез link таг на всяка страница."
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "Полза: кешираните страници никога не изпълняват PHP, така че AI посетителите на тях са невидими за проследяването от страна на сървъра. Този малък beacon в браузъра (<1 kB) запълва тази празнина."
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "Полза: чисти откъси в търсачки, чатове и социални приложения – генерирани от извадката или съдържанието ви, без поддръжка."
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "Полза: решавате за всеки бот дали може да чете съдържанието ви – с ясно предупреждение, преди да блокирате нещо, което ще ви коства AI цитирания."
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "Полза: всеки раздел получава директна връзка (#section), която AI системите и търсачките могат да цитират точно, а читателите могат да прескочат до отговора."
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "Полза: актуалността е сигнал за класиране и цитиране – а видимата дата е това, което откъсите в търсачките и AI отговорите наистина взимат."
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "Полза: заглавията, завършващи с „?“, заедно с отговорите им стават FAQ структурирани данни – точно форматът въпрос-отговор, който AI асистентите цитират."
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "Полза: базата данни остава малка. По-старите записи се изтриват автоматично веднъж дневно."
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "Полза: научавате в момента, в който е важно – първото обхождане от нов AI, първите посетители от AI асистент или внезапен скок на AI посетителите."
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "Полза: базата данни остава точно такава, каквато беше. Изключено по подразбиране, за да оцелее статистиката ви при преинсталиране."
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "Полза: машинночетими метаданни за статията, автора, датата и сайта – най-евтиният начин да помогнете на AI системите да разберат и правилно да припишат съдържанието ви."
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "Полза: измервате реалния резултат от GEO – хората, които стигат до вас от ChatGPT, Perplexity и др."
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "Полза: по един адрес на профил на ред (LinkedIn, GitHub, YouTube, Wikipedia …). AI системите използват тези връзки, за да ви разпознаят като един последователен и надежден субект в мрежата (E-E-A-T)."
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "Полза: търсачките използват надеждни стойности lastmod, за да обхождат по-бързо променените страници – обновеното съдържание стига по-рано до AI отговорите. Ядрото на WordPress пропуска това поле."
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "Полза: виждате кой AI (ChatGPT, Claude, Perplexity …) чете коя страница – основата на цялата статистика."
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "Полза: таблото със статистика свързва всеки AI достъп с този термин, така че виждате кой AI чете съдържанието ви по коя тема. Без него се използва заглавието на публикацията."
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "Полза: user agent може да бъде подправен. Това отделя реалните AI ботове от измамниците, така че статистиката ви показва доказуем AI интерес."
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "Полза: AI данните идват при вас – общи стойности с тенденция, топ ботове, AI посетители, най-четени страници и всичко, което изисква внимание, веднъж седмично."
+
+msgid "Block all training bots"
+msgstr "Блокиране на всички ботове за обучение"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "Достъпи на ботове през последните 7 дни по ден от седмицата и час, в часовата зона на сайта ви. Публикуването преди натоварените часове води до по-ранно прочитане на новото съдържание."
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "Достъпите на ботове се проверяват спрямо официалните IP диапазони на OpenAI, Anthropic, Perplexity, Google и Microsoft – измамниците се отбелязват в статистиката ви."
+
+msgid "Bot identity"
+msgstr "Самоличност на бота"
+
+msgid "Bot identity verification"
+msgstr "Проверка на самоличността на ботовете"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "Ботовете се разпознават по официалните им user-agent подписи. За всеки достъп се съхраняват: име на бота, категория, страница и час – нищо повече. Без IP адреси, без бисквитки, без лични данни, напълно съвместимо с GDPR."
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "Изгражда индекса, от който цитират AI търсачките. Блокирането ви премахва от цитираните AI отговори – обикновено лоша идея."
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "Проверете панела за GEO състоянието на страницата със статистика – поправете всичко, което не е зелено. Така премахвате техническите пречки."
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "Отметнато = блокиран чрез robots.txt. Google-Extended и Applebot-Extended са само маркери за отказ: блокирането им ви изключва от AI обучението на Google/Apple, без да засяга нормалното търсене."
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "Значимите за цитиране AI ботове са разрешени"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "Посочването на източници е сигнал за надеждност – ключов фактор за класиране при AI системите за извличане."
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "Класическото SEO не губи стойност – за повечето сайтове Google все още е най-големият източник на посетители. GEO идва отгоре: същото ясно, добре структурирано съдържание, което AI системите обичат, обикновено се класира по-добре и в класическото търсене. Не губите нищо, като оптимизирате и за двете."
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "Класическо обхождане за търсене, което захранва и AI асистенти (Bing захранва Copilot и части от търсенето в ChatGPT). Блокирането ви премахва и от тази търсачка."
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "Събира съдържание за обучение на модели. Блокирането не ви коства нищо в AI търсенето – това е чисто въпрос на права върху съдържанието."
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "Свързва AI достъпите с тема в статистиката ви и фокусира текста ви върху един ясен въпрос."
+
+msgid "Contains a list or table"
+msgstr "Съдържа списък или таблица"
+
+msgid "Contains concrete numbers or data"
+msgstr "Съдържа конкретни числа или данни"
+
+msgid "Content & freshness signals"
+msgstr "Сигнали за съдържание и актуалност"
+
+msgid "Contents"
+msgstr "Съдържание"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "Контрол кой може да чете съдържанието ви: разрешете ботовете, които ви цитират, блокирайте тези, които само взимат – с ясно предупреждение, преди да блокирате нещо, което би ви коствало видимост."
+
+msgid "Could not load statistics."
+msgstr "Статистиката не можа да бъде заредена."
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "Отчитане на AI посетители зад кеширане на цели страници (beacon)"
+
+msgid "Data"
+msgstr "Данни"
+
+msgid "Date range"
+msgstr "Период"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "Изтриване на всички данни на разширението при деинсталиране"
+
+msgid "Details in the dashboard:"
+msgstr "Подробности в таблото:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "Разпознава се по домейна на препращащия сайт и по utm_source (ChatGPT добавя utm_source=chatgpt.com към цитираните връзки, което се запазва дори когато препращащият адрес е премахнат). Забележка: много AI посещения пристигат без препращащ адрес, затова реалният брой е по-голям, отколкото който и да е инструмент може да покаже."
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "Директен отговор в първия абзац (20–120 думи)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "Изключено. Не струва нищо и помага на AI агентите да разберат структурата на сайта ви."
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "Изключено. Структурираните данни са най-евтиният начин съдържанието ви да стане машинночетимо."
+
+msgid "Dismiss"
+msgstr "Отхвърляне"
+
+msgid "Email me on citation alerts"
+msgstr "Изпращай ми имейл при известия за цитирания"
+
+msgid "Empty = the site admin email address."
+msgstr "Празно = имейл адресът на администратора на сайта."
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "Всяко посещение на AI бот, подредено според значението му за вас (агент, извличане, обучение)."
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "Всяка точка е страница, прочетена от AI през последните 30 дни: вдясно = четена често, ниско = слаб GEO резултат. Точките долу вдясно са най-големите ви възможности – кликнете върху точка, за да редактирате страницата."
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "Всяка публикувана публикация и страница спрямо 13-те GEO проверки – подредени така, че най-големите възможности за цитиране да излизат първи, до AI интереса, който всяка страница вече получава."
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "Всичко е безплатно, работи на вашия сървър и не съхранява лични данни. Външни услуги се използват само от изрично включваните функции, които го посочват. Всяка опция обяснява какво печелите от нея."
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "Пример: /my-post/ става /my-post.md. Изисква красиви постоянни връзки. Markdown се генерира от съдържанието ви в движение и е маркиран с noindex, така че никога не се конкурира с HTML страницата в търсенето."
+
+msgid "Export CSV"
+msgstr "Експортиране в CSV"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "Включване в llms.txt (ключово съдържание)"
+
+msgid "Feeds"
+msgstr "Емисии"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "Зарежда страницата ви в реално време, защото реален човек току-що е попитал AI за нея. Трафик с най-силно намерение – блокирането отпраща тези читатели."
+
+msgid "Filter by AI"
+msgstr "Филтриране по AI"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "Първите посетители от %s! Съдържанието ви се цитира там."
+
+msgid "Flows: which AI reads which page"
+msgstr "Потоци: кой AI коя страница чете"
+
+msgid "Focus term"
+msgstr "Фокусен термин"
+
+msgid "Focus term appears in the title"
+msgstr "Фокусният термин се среща в заглавието"
+
+msgid "Focus term set"
+msgstr "Зададен е фокусен термин"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "За повечето сайтове посетителите от AI отговори днес са нисък едноцифрен процент от това, което изпраща Google – но този дял стремително расте всяко тримесечие. Смисълът да започнете сега е да се утвърдите като източник преди конкурентите си."
+
+msgid "GEO Audit"
+msgstr "GEO одит"
+
+msgid "GEO Settings"
+msgstr "GEO настройки"
+
+msgid "GEO check (AI visibility)"
+msgstr "GEO проверка (AI видимост)"
+
+msgid "GEO score"
+msgstr "GEO резултат"
+
+msgid "GEO status of your site"
+msgstr "GEO състояние на сайта ви"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "Висок AI интерес, нисък резултат – поправете тези първо."
+
+msgid "Home"
+msgstr "Начало"
+
+msgid "Hour"
+msgstr "Час"
+
+msgid "How does an AI even reach my website?"
+msgstr "Как изобщо AI стига до моя уебсайт?"
+
+msgid "How it works"
+msgstr "Как работи"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "Как работи – GEO, обяснено на разбираем език"
+
+msgid "Human visitors from AI answers"
+msgstr "Посетители от AI отговори"
+
+msgid "I already did"
+msgstr "Вече го направих"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "Проверката на самоличността е изключена. User agent може да бъде подправен – включете проверката в настройките, за да отделите реалните AI ботове от измамниците."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "Ако разширението ви помага, бихте ли оставили кратък отзив в WordPress.org? Отнема минута и помага на други собственици на сайтове да го открият. Благодарим!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "Важно: зад CDN IP адресът на директната връзка е проксито – всеки реален бот би бил отбелязан като измамник. Изберете вашата конфигурация, за да се използва оригиналният IP адрес на посетителя. Включете само заглавка, която проксито ви действително задава, защото иначе тези заглавки могат да бъдат подправени."
+
+msgid "Include latest posts"
+msgstr "Включване на последните публикации"
+
+msgid "Include pages"
+msgstr "Включване на страници"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "IndexNow е отворен протокол, поддържан от Bing, Seznam, Naver и други. При всяко публикуване, обновяване или сваляне от публикация разширението изпраща публичния адрес и ключа на сайта ви до IndexNow API – нищо друго не се предава. За проверка автоматично се предоставя ключов файл от сайта ви. Ако друго разширение вече изпраща към IndexNow (напр. Rank Math или официалното разширение на Bing), оставете това изключено, за да избегнете двойни известявания."
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: известяване за незабавно индексиране"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "Незабавно индексиране (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "Вътрешните връзки са пътищата, по които роботите и системите за извличане откриват свързаното ви съдържание – страниците без входящи връзки се четат по-рядко."
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "Невидимо въздействие: по-голямо от броя кликове."
+
+msgid "It measures"
+msgstr "Измерва"
+
+msgid "It optimizes"
+msgstr "Оптимизира"
+
+msgid "Job title / role"
+msgstr "Длъжност / роля"
+
+msgid "Keep statistics for"
+msgstr "Пазене на статистиката за"
+
+msgid "Key content"
+msgstr "Ключово съдържание"
+
+msgid "Last seen"
+msgstr "Последно видян"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "Последно изпратено: %1$s на %2$s."
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "Вляво: AI ботове, вдясно: вашите страници. Ширина на лентата = достъпи. Посочете лента за точния брой."
+
+msgid "Links to at least one external source"
+msgstr "Връзка към поне един външен източник"
+
+msgid "Links to at least one other page on your site"
+msgstr "Връзка към поне една друга страница от сайта ви"
+
+msgid "Log AI bot accesses"
+msgstr "Записване на достъпите на AI ботове"
+
+msgid "Log human visitors from AI answers"
+msgstr "Записване на посетители от AI отговори"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "Машинночетимите метаданни помагат на AI системите да разберат и припишат съдържанието ви."
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "Машинночетими версии на съдържанието ви (llms.txt, Markdown страници, структурирани данни) – за да разбират AI системите сайта ви с възможно най-малко усилие."
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "Превръщането на сайта ви в източник, който AI системите намират, разбират и цитират, се нарича GEO (Generative Engine Optimization). Идеята е същата като при SEO, само че за AI отговори вместо за сини връзки – и тъй като засега много малко сайтове го правят, първите са непропорционално видими."
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "Управление на правилата за AI роботи в robots.txt"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "Много хора четат AI отговора, който ви цитира, и никога не кликват – но са видели името ви като източник. Това е видимост на марката, която никоя статистика не може да обхване изцяло; самото цитиране е победата."
+
+msgid "Mark all as read"
+msgstr "Маркиране на всички като прочетени"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "Markdown версия на всяка страница (.md адреси)"
+
+msgid "Max. entries per section"
+msgstr "Макс. записи за раздел"
+
+msgid "Maybe later"
+msgstr "Може би по-късно"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "Междувременно: поправете всичко, което не е зелено в панела за състояние по-долу, и задайте фокусни термини на най-важните си страници."
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "Все повече хора вече не пишат въпросите си в Google – те питат ChatGPT, Perplexity, Copilot или Claude. AI прочита няколко уебсайта, пише един отговор и посочва източниците си. Ако сайтът ви е един от тях, вие сте споменати и има връзка към вас. Ако не – вие сте невидими в този разговор, дори ако се класирате добре в класическия Google."
+
+msgid "Most active AI bots"
+msgstr "Най-активни AI ботове"
+
+msgid "Name (defaults to site title)"
+msgstr "Име (по подразбиране заглавието на сайта)"
+
+msgid "Needs attention"
+msgstr "Изисква внимание"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Новото и обновеното съдържание се изпраща до Bing и др. в рамките на минути. Bing захранва Copilot и части от търсенето в ChatGPT – по-бързото индексиране означава по-бързи AI цитирания."
+
+msgid "New here? How it all works, in plain language."
+msgstr "Нови сте тук? Как работи всичко, на разбираем език."
+
+msgid "Next"
+msgstr "Следваща"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "Все още няма AI достъпи до оценени страници през последните 30 дни – картата се запълва, докато AI системите четат съдържанието ви."
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "Все още не са изтеглени IP диапазони – първото изтегляне ще се изпълни през следващия час (или при стартиране на ежедневния cron)."
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "Все още не е изпратен адрес – следващото публикуване или обновяване ще задейства първото известяване."
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "Все още няма достъпи на ботове през последните 7 дни."
+
+msgid "No data for this AI in the selected range."
+msgstr "Няма данни за този AI в избрания период."
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "Все още няма данни. AI достъпите ще се появят тук, щом известен AI бот или посетител, препратен от AI, достигне сайта ви."
+
+msgid "No duplicate SEO output"
+msgstr "Без дублиран SEO изход"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "Без жаргон, без шум: какво се случва, какво прави това разширение по въпроса и какви резултати можете реалистично да очаквате."
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "Няма друго активно SEO разширение – Wille GEO сам предоставя schema и мета тагове."
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "Без прекалено дълги абзаци (макс. 150 думи всеки)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "Не е намерен физически файл robots.txt – правилата за AI роботи, настроени в Wille GEO, са активни."
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "Не е намерен физически файл robots.txt. В Wille GEO не са настроени блокировки на AI роботи, затова стандартният robots.txt на WordPress се предоставя без промени."
+
+msgid "No published content to audit yet."
+msgstr "Все още няма публикувано съдържание за одит."
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "Не е намерена карта на сайта. WordPress има такава по подразбиране – разширение или настройка може да я е изключила."
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "Никой инструмент не може да принуди AI да ви цитира. AI системите цитират страници, които отговарят на реален въпрос ясно, конкретно и достоверно. Това разширение прави точно това измеримо и систематично по-лесно – премахва всяка техническа пречка и ви показва какво работи. Същността все пак трябва да дойде от вас."
+
+msgid "No – use the direct connection IP"
+msgstr "Не – използвай IP адреса на директната връзка"
+
+msgid "Not allowed."
+msgstr "Не е позволено."
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "Изключено. User agent може да бъде подправен; включването на проверката отделя реалните AI ботове от измамниците (изтегля публични IP списъци веднъж дневно)."
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "Изключено. Без него AI-значимите индекси за търсене научават за новото съдържание едва при следващото обхождане – IndexNow ускорява това до минути."
+
+msgid "Official profiles (sameAs)"
+msgstr "Официални профили (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "При поискване – доказателство: ботове измамници, които се представят с известно име, се разкриват чрез официалните IP списъци на AI компаниите."
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "Веднъж дневно разширението изтегля публичните IP списъци, които OpenAI, Anthropic, Perplexity, Google и Microsoft публикуват за своите роботи, и маркира всеки записан достъп като потвърден, неуспешен (заявена самоличност от чужд IP адрес) или непроверен. IP адресът на посетителя се сравнява само в паметта и никога не се съхранява. Тъй като се правят външни заявки, функцията се включва изрично."
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "По един адрес на ред (LinkedIn, GitHub, X, личен сайт …). Позволява на AI системите да потвърдят този автор като един последователен, реален човек – ключов E-E-A-T сигнал."
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "Едно-две изречения: кои сте и за какво е сайтът ви."
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "Отворете която и да е публикация в редактора – панелът „GEO проверка“ в страничната лента ви води точно през тези стъпки, докато пишете."
+
+msgid "Open improvements"
+msgstr "Отворени подобрения"
+
+msgid "Open the full dashboard"
+msgstr "Отваряне на цялото табло"
+
+msgid "Open the settings"
+msgstr "Отваряне на настройките"
+
+msgid "Open the statistics dashboard"
+msgstr "Отваряне на таблото със статистика"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "Отворете петте си най-важни страници и задайте фокусен термин за всяка: въпросът или темата, за които тази страница трябва да бъде ОТГОВОРЪТ."
+
+msgid "Opportunity map"
+msgstr "Карта на възможностите"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "Извеждане на мета описание и прегледи за социални мрежи (Open Graph)"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "Извеждане на структурирани данни schema.org (JSON-LD)"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "Извежда WebSite, Organization/Person, Article (с дати и автор) и навигационни пътечки. AI системите за извличане използват тези сигнали, за да преценят актуалността и надеждността."
+
+msgid "Page"
+msgstr "Страница"
+
+msgid "Pages"
+msgstr "Страници"
+
+msgid "Pages AI read most"
+msgstr "Най-четени от AI страници"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "Хората задават въпроси на AI асистентите. Заглавията, които повтарят тези въпроси, свързват съдържанието ви директно с реални заявки – и захранват автоматичната FAQ schema."
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "Закачете най-добрите си страници като ключово съдържание, така че llms.txt да води AI агентите направо към тях."
+
+msgid "Ping IndexNow on publish and update"
+msgstr "Известяване на IndexNow при публикуване и обновяване"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "Закаченото съдържание се показва първо в llms.txt и llms-full.txt – страниците, които най-много искате AI системите да прочетат."
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "Активни са обикновени постоянни връзки (Настройки → Постоянни връзки). Markdown адресите и ключовият файл за IndexNow не могат да бъдат предоставени, а четимите адреси помагат на всеки робот."
+
+msgid "Post"
+msgstr "Публикация"
+
+msgid "Post not found."
+msgstr "Публикацията не е намерена."
+
+msgid "Posts"
+msgstr "Публикации"
+
+msgid "Pretty permalinks enabled"
+msgstr "Красивите постоянни връзки са включени"
+
+msgid "Previous"
+msgstr "Предишна"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "Поверителност: по подразбиране това разширение не съхранява IP адреси, не задава бисквитки и не прави външни заявки. Единствените изключения са две изрично включвани функции под ваш контрол: проверка на ботовете (изтегля публични IP списъци на роботи веднъж дневно) и IndexNow (изпраща публикуваните адреси до IndexNow API). Цялата статистика остава във вашата база данни на WordPress."
+
+msgid "Profile URLs (sameAs)"
+msgstr "Адреси на профили (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "Качество: необичайно високо."
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "Оценете Wille GEO в WordPress.org (отваря се в нов раздел)"
+
+msgid "Rate ★★★★★"
+msgstr "Оценка ★★★★★"
+
+msgid "Re-scan"
+msgstr "Повторно сканиране"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "Четимите адреси са активни – .md адресите и ключовият файл за IndexNow работят."
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "Реални хора, дошли от AI отговори – истинската полза, по AI и по страница."
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "Реални хора, кликнали върху вашата връзка в ChatGPT, Perplexity и др. Това е ползата от GEO."
+
+msgid "Recipient"
+msgstr "Получател"
+
+msgid "Reload page"
+msgstr "Презареждане на страницата"
+
+msgid "Retrieval"
+msgstr "Извличане"
+
+msgid "Retrieval (citation index)"
+msgstr "Извличане (индекс за цитиране)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "Ботовете за извличане и агентите могат да четат страниците ви – можете да се появявате в AI отговори."
+
+msgid "Retrieval bots"
+msgstr "Ботове за извличане"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "Ботовете за извличане първо трябва да открият и да прочетат отново подобрените ви страници. Очаквайте първите измерими ефекти след няколко седмици и справедлива оценка след три до шест месеца – таблото ви показва тенденцията през цялото време."
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "Ботовете за извличане използват картата на сайта, за да откриват бързо ново съдържание."
+
+msgid "Review Wille GEO"
+msgstr "Отзив за Wille GEO"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "Правилата се добавят към генерирания от WordPress robots.txt. Физически файл robots.txt в главната директория би ги отменил – панелът за състояние на страницата със статистика ви предупреждава, ако има такъв. Имайте предвид, че robots.txt е въпрос на добра воля; известните ботове го спазват."
+
+msgid "Running GEO checks …"
+msgstr "Извършване на GEO проверки …"
+
+msgid "Save settings"
+msgstr "Запазване на настройките"
+
+msgid "Score distribution"
+msgstr "Разпределение на резултатите"
+
+msgid "Search"
+msgstr "Търсене"
+
+msgid "Search (feeds AI answers)"
+msgstr "Търсене (захранва AI отговори)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "Търсачките и AI роботите могат да индексират сайта."
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "Вижте кой ИИ (ChatGPT, Claude, Perplexity…) чете кои от страниците ви – и оптимизирайте сайта си за търсене с ИИ (GEO). Безплатно, без лични данни."
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "Изпращане на седмичен отчет за AI видимостта по имейл"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "Изпратено от разширението Wille GEO. Можете да изключите този отчет по всяко време от Wille GEO → Настройки."
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "Изпраща се чрез обичайната пощенска система на WordPress, само когато през седмицата наистина е имало AI активност – тихите сайтове никога не получават спам. Можете да го задействате и ръчно с WP-CLI командата „wp geoins report“."
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "Предоставяне на /llms-full.txt с пълното съдържание"
+
+msgid "Serve a generated /llms.txt"
+msgstr "Предоставяне на генериран /llms.txt"
+
+msgid "Served at %s."
+msgstr "Предоставя се на %s."
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Short site description (optional)"
+msgstr "Кратко описание на сайта (по избор)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "Кратките, самостоятелни абзаци са единицата, която AI системите взимат в отговорите си. Дългите блокове се пропускат."
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "Показване на видима дата „Обновено на“ при преработени публикации"
+
+msgid "Show all AIs"
+msgstr "Показване на всички AI"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "Показва се над съдържанието, само когато публикацията е съществено преработена (повече от два дни след публикуването). Машинночетимото dateModified винаги присъства в структурираните ви данни, независимо от този превключвател."
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "Показва се на AI системите като машинночетима експертиза (schema.org jobTitle), напр. „Старши WordPress разработчик“."
+
+msgid "Site represents"
+msgstr "Сайтът представлява"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "Сайтът работи зад прокси/CDN?"
+
+msgid "Site visible to crawlers"
+msgstr "Сайтът е видим за роботите"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "Човек, който идва от AI отговор, вече е прочел резюме и иска подробности – проучвания и данни от магазини последователно показват, че тези посетители конвертират забележимо по-добре от средния трафик от търсене. По-малко посетители, но по-заинтересовани."
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "За съжаление нямате право да направите това."
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "Скорост: новото и обновеното съдържание се обявява на търсачките в рамките на минути (IndexNow) – колкото по-рано е индексирано, толкова по-рано AI може да го цитира."
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "Статистиката и конкретните цифри измеримо увеличават шанса за цитиране – AI отговорите обичат проверими числа."
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "Структурираните части (списъци, таблици) се извличат и цитират от AI много по-често от плътен текст."
+
+msgid "Structured data & meta tags"
+msgstr "Структурирани данни и мета тагове"
+
+msgid "Structured data (schema.org)"
+msgstr "Структурирани данни (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "Разбира се, ще напиша отзив"
+
+msgid "Table of contents"
+msgstr "Съдържание"
+
+msgid "Term"
+msgstr "Термин"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "Термини и страници: кой AI какво чете?"
+
+msgid "The audit table needs JavaScript."
+msgstr "Таблицата с одита изисква JavaScript."
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "Beacon се изпълнява само за невлезли посетители, проверява само дали посещението идва от известен AI (домейн на препращащия сайт или utm_source) и само тогава съобщава източника и пътя на страницата до вашия собствен сайт. Без бисквитки, без IP адреси, без fingerprinting, без външна услуга. Двойното отчитане със сървърното проследяване се предотвратява автоматично. Оставете това изключено, ако сайтът ви не използва кеширане на цели страници – PHP проследяването вече вижда всичко."
+
+msgid "The honest limit: content decides."
+msgstr "Честната граница: съдържанието решава."
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "Физическият robots.txt блокира %s. Тези ботове ви включват в AI отговорите – редактирайте файла, за да ги отблокирате (правилата, настроени тук, остават неактивни, докато файлът съществува)."
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "Физическият robots.txt блокира ВСИЧКИ роботи (User-agent: * / Disallow: /). Никоя търсачка и никоя AI система не може да чете сайта ви – редактирайте файла."
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "Физическият robots.txt по подразбиране блокира всички роботи (User-agent: * / Disallow: /); само роботи със собствени правила за изключение във файла могат да четат сайта ви. Всяка AI система без изключение е блокирана – редактирайте файла."
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "Таблото със статистика свързва всеки AI достъп с този термин. Празно = заглавието на публикацията."
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "Таблото със статистика изисква JavaScript. Вместо това използвайте експорта в CSV или WP-CLI (wp geoins stats)."
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "След това го оставете да работи. Проверявайте таблото всяка седмица (или включете отчета по имейл) и инвестирайте там, където вече се вижда AI интерес – там цитиранията са най-близо."
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "Тези user agent низове звучат като AI системи, но все още не са в регистъра – затова достъпите им НЕ са в статистиката по-горе. Честите записи си струва да се добавят чрез филтъра geoins_bots (или да ги съобщите на разработчика на разширението)."
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "Това разширение разпознава тези ботове при всяко посещение и ви показва в таблото: кой AI чете кои от страниците ви, колко често и по коя тема. А когато човек кликне върху връзката към сайта ви в AI отговор, това посещение също се отчита – това е моментът, в който AI видимостта се превръща в потенциален клиент."
+
+msgid "Timeline: weeks to months, not days."
+msgstr "Срок: седмици до месеци, не дни."
+
+msgid "Title"
+msgstr "Заглавие"
+
+msgid "Tracking"
+msgstr "Проследяване"
+
+msgid "Training"
+msgstr "Обучение"
+
+msgid "Training bots"
+msgstr "Ботове за обучение"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "Две неща: измерва и оптимизира. Всичко работи на вашия собствен сървър, нищо не се изпраща никъде и всеки превключвател в настройките обяснява ползата си, преди да го включите."
+
+msgid "Updated"
+msgstr "Обновено"
+
+msgid "Updated on %s"
+msgstr "Обновено на %s"
+
+msgid "Updated within the last 12 months"
+msgstr "Обновено през последните 12 месеца"
+
+msgid "User agent"
+msgstr "User agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "Проверка на самоличността на ботовете по официалните IP диапазони"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "Твърде бедните страници рядко съдържат достатъчно, за да може AI да обоснове отговор с тях."
+
+msgid "View your key file"
+msgstr "Преглед на ключовия файл"
+
+msgid "View your llms-full.txt"
+msgstr "Преглед на вашия llms-full.txt"
+
+msgid "View your llms.txt"
+msgstr "Преглед на вашия llms.txt"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "Видимата експертиза (реален автор с биография) захранва E-E-A-T сигналите, по които AI системите избират надеждни източници."
+
+msgid "Volume: still small, growing fast."
+msgstr "Обем: все още малък, расте бързо."
+
+msgid "Waiting for the first AI visit"
+msgstr "Изчакване на първото AI посещение"
+
+msgid "Weekly email report"
+msgstr "Седмичен отчет по имейл"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "Какво мога реалистично да очаквам? Честен отговор"
+
+msgid "What does the plugin actually do for me?"
+msgstr "Какво всъщност прави разширението за мен?"
+
+msgid "What happened"
+msgstr "Какво се случи"
+
+msgid "What is happening right now?"
+msgstr "Какво се случва в момента?"
+
+msgid "When do AIs read your site?"
+msgstr "Кога AI системите четат сайта ви?"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "Откъде да започна? Пет стъпки, 30 минути"
+
+msgid "Which AI bots?"
+msgstr "Кои AI ботове?"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "Кой AI е чел страниците ви и кои AI отговори са ви изпратили посетители."
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "Кой AI чете кои от страниците ви, за кой термин – и кои AI отговори наистина ви изпращат посетители."
+
+msgid "Why does this matter?"
+msgstr "Защо е важно това?"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Wille GEO е активен."
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Wille GEO е създаден от %1$s. Помага ли ви? Отзив с %2$s в WordPress.org помага на други да го открият – благодарим!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "Wille GEO забеляза на %s:"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: сигнали за автора (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "Минете през GEO контролния списък на тези страници – особено: отговорете директно на основния въпрос в първия абзац и превърнете заглавията в реални въпроси."
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "Работи за публикации и страници с поне две заглавия-въпроси (H2/H3, завършващи с въпросителен знак). Без допълнителна работа – пишете въпросите като заглавия и schema се генерира сама."
+
+msgid "XML sitemap available"
+msgstr "XML карта на сайта е налична"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "Да, Cloudflare (CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "Да, друго прокси (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "Блокирате %s. Тези ботове ви включват в AI отговорите – блокирането им ви премахва от цитиранията."
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "Получавате това, защото известията за цитирания по имейл са включени в Wille GEO → Настройки."
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "Ключовият ви файл за IndexNow не е достъпен от собствения ви сървър, затова известяванията са спрени. Обичайни причини: обикновени постоянни връзки (поправете в Настройки → Постоянни връзки) или разширение за сигурност, блокиращо loopback заявки. След поправката запазете отново тези настройки – проверката се изпълнява отново малко след запазването."
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "Проверката на сесията ви е изтекла – презаредете страницата, за да продължите."
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] AI видимост тази седмица: %2$d AI достъпа, %3$d AI посетители"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] Нов сигнал за AI видимост"
+
+msgid "a person"
+msgstr "човек"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "реален човек току-що е задал въпрос на AI и AI чете страницата ви точно сега, за да отговори. Това е най-ценният сигнал, който съществува: някой се интересува от вашата тема точно в този момент."
+
+msgid "accesses"
+msgstr "достъпа"
+
+msgid "an organization"
+msgstr "организация"
+
+msgid "blocking costs citations"
+msgstr "блокирането коства цитирания"
+
+msgid "blocking is safe for citations"
+msgstr "блокирането е безопасно за цитиранията"
+
+msgid "by %s"
+msgstr "от %s"
+
+msgid "days"
+msgstr "дни"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "напр. разширение за архивиране на WordPress"
+
+msgid "forever"
+msgstr "завинаги"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "измамници"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "llms.txt е наличен"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "llms.txt е млад стандарт: Markdown преглед на най-важното ви съдържание на /llms.txt. Генерира се автоматично от страниците и публикациите ви и се кешира за 12 часа."
+
+msgid "more"
+msgstr "още"
+
+msgid "new"
+msgstr "нов"
+
+msgid "pages"
+msgstr "страници"
+
+msgid "passed"
+msgstr "успешно"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "те изграждат библиотеката, от която AI цитира по-късно. Присъствието в тази библиотека решава дали изобщо можете да бъдете цитирани."
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "те събират текст за обучение на бъдещи AI модели. Не ви носят нито посетители, нито цитирания. Дали да ги допуснете е чисто въпрос на права върху съдържанието – блокирането им не ви коства нищо."
+
+msgid "unchecked"
+msgstr "непроверени"
+
+msgid "verified"
+msgstr "потвърдени"
+
+msgid "visitors"
+msgstr "посетители"
+
+msgid "vs. previous period"
+msgstr "спрямо предходния период"

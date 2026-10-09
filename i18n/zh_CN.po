@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "已启用“建议搜索引擎不索引本站点”（设置 → 阅读）。在关闭此选项之前，任何 AI 系统都无法找到您。"
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "来自 %2$d 家供应商的 %1$d 个 IP 范围，最后更新于 %3$s。"
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "%s（训练爬虫）首次访问了您的站点。"
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "%s 首次抓取了您的站点——一个与引用相关的 AI 正在读取您的内容。"
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "检测到 %s——Wille GEO 会自动将 Schema 和元标签交给它处理，只补充缺少的功能（跟踪、llms.txt、robots 控制、GEO 检查）。"
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "%s 已启用。为避免重复输出，Wille GEO 会自动将 Schema 和元标签交给它处理——在它运行期间，下方的开关将被忽略。其他功能（跟踪、llms.txt、robots 控制、GEO 检查）可与其并行工作。"
+
+msgid "(opens in a new tab)"
+msgstr "（在新标签页中打开）"
+
+msgid "1 year"
+msgstr "1 年"
+
+msgid "180 days"
+msgstr "180 天"
+
+msgid "30 days"
+msgstr "30 天"
+
+msgid "7-day average"
+msgstr "7 天平均值"
+
+msgid "90 days"
+msgstr "90 天"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "在网址后附加 .md，即可获取每个页面的整洁 Markdown 版本。"
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "边写边查的实时清单：13 项具体且附带说明的标准，让页面更容易被 AI 引用（先给答案、问题式标题、列表、数字、时效性……）。"
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "存在实体 robots.txt，但其中不包含您在此处配置的屏蔽规则（%s）——在您将其添加到文件或删除该文件之前，这些规则不会生效。"
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "存在实体 robots.txt 文件，但无法读取以进行分析。它会覆盖此处配置的规则——请手动检查。"
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "存在实体 robots.txt 文件，但目前没有问题：它没有屏蔽与引用相关的 AI 机器人，并且与您的配置一致。注意：只要该文件存在，此处配置的规则就不会生效。"
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "一个现实的例子：一个拥有 50 篇扎实文章的专业站点，若按照 GEO 检查清单进行优化，可望在几个月内获得首批 AI 引用，以及一股规模虽小但稳步增长的高意向访客流——不妨把它看作为您的业务打开了第二扇门，这扇门现在还很小，但每个月都在变宽，而不是 Google 的替代品。"
+
+msgid "AI (30d)"
+msgstr "AI（30 天）"
+
+msgid "AI Statistics"
+msgstr "AI 统计"
+
+msgid "AI accesses"
+msgstr "AI 访问"
+
+msgid "AI accesses (30d)"
+msgstr "AI 访问（30 天）"
+
+msgid "AI accesses per day"
+msgstr "每日 AI 访问量"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "AI 助手会引用独立完整的答案段落。如果第一段就回答了核心问题，它就是最容易被引用的内容。"
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "从现在起将记录 AI 机器人的访问和来自 AI 回答的访客——第一个 AI 访问您的站点后，数据就会显示出来。"
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "过去 30 天的 AI 机器人访问——打开统计仪表盘"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "AI 公司会向您的站点派出自动访客——也就是机器人。它们会报上自己的名字，而这个名字准确地说明了它们为何而来。其中有三类最为重要，它们对您的业务意义截然不同："
+
+msgid "AI companies: share of accesses"
+msgstr "AI 公司：访问占比"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "AI 爬虫访问（robots.txt）"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "AI 爬虫不会传递搜索词。此矩阵将每次访问对应到该页面的焦点关键词（可在编辑界面的“GEO 检查”框中设置）——这是诚实而实用的替代方案。"
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "AI 雷达：未识别的疑似 AI 爬虫"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "AI 搜索偏好新鲜的来源；修改日期会随结构化数据一同发送。每年审阅一次内容，可让您保持可被引用。"
+
+msgid "AI source"
+msgstr "AI 来源"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "AI 系统会首先将问题与标题进行匹配——清晰的标题能让您的页面成为显而易见的来源。"
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "过去 30 天内，AI 系统读取了您的站点 %s 次——Wille GEO 正在发挥作用。"
+
+msgid "AI visibility, last 7 days"
+msgstr "AI 可见性，过去 7 天"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "AI 访客激增：昨天有 %1$d 位访客来自 AI 回答（近期平均：%2$s 位/天）。"
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "AI 访客激增：昨天有 %1$s 位访客来自 AI 回答（近期平均：%2$s 位/天）。"
+
+msgid "AI visitors"
+msgstr "AI 访客"
+
+msgid "AI visitors: landing pages"
+msgstr "AI 访客：着陆页"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "基于所有已评分的页面。每提高一分，就意味着您的典型页面多满足一项标准。"
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "在 XML 站点地图中添加精确的更新时间（lastmod）"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "为所有 H2/H3 标题添加锚点 ID，并在包含三个或更多标题的文章中，于第一个 H2 之前插入一个紧凑的带链接目录。样式极简，沿用您主题的字体和颜色。"
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "将每篇文章的实际修改时间添加到 WordPress 核心站点地图中。仅在核心站点地图运行时生效；替换站点地图的 SEO 插件不受影响。"
+
+msgid "Agent"
+msgstr "智能体"
+
+msgid "Agent (live user request)"
+msgstr "智能体（实时用户请求）"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "智能体 + 检索 = 与引用相关：AI 为回答一个真实问题而读取了您的页面。训练只是为模型提供数据。"
+
+msgid "Agent bots"
+msgstr "智能体机器人"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "提醒始终会显示在仪表盘中；此选项会额外通过电子邮件发送（合并发送，每天最多一封）。使用下方的收件人。"
+
+msgid "All AIs"
+msgstr "所有 AI"
+
+msgid "All checks passed"
+msgstr "已通过所有检查"
+
+msgid "All images have alt text"
+msgstr "所有图片都有替代文本"
+
+msgid "All types"
+msgstr "所有类型"
+
+msgid "Allow all bots"
+msgstr "允许所有机器人"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "替代文本是 AI 系统理解您图片的方式——也是由来已久的无障碍和排名信号。没有图片的页面会自动通过。"
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "正在分析内容… 已完成 %1$s / %2$s"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "面积 = 所选时间范围内的访问量。点击某家公司可放大查看其各个机器人。"
+
+msgid "At least 300 words"
+msgstr "至少 300 个词"
+
+msgid "At least one heading phrased as a question"
+msgstr "至少有一个以问题形式表述的标题"
+
+msgid "Author has a profile description"
+msgstr "作者有个人简介"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "根据问题式标题自动生成 FAQ Schema"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "带标题锚点的自动目录"
+
+msgid "Average GEO score"
+msgstr "平均 GEO 评分"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "对于任何承诺 AI 搜索会给您带来大量客户的人，请保持怀疑。以下是真实的情况："
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "好处：Bing 等搜索引擎会在几分钟（而非几天）内获取新内容和更新的内容。Bing 为 Microsoft Copilot 和部分 ChatGPT 搜索提供支持——索引越快，被 AI 引用就越快。"
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "好处：为 AI 智能体提供机器可读的站点摘要。坦白说：大型爬虫目前还很少获取它——但编程/IDE 智能体会。它没有任何成本，并能让您在这一标准普及时占得先机。"
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "好处：需要的不只是概览的智能体，可以在单个文件中以整洁的 Markdown 获取您的全部关键内容。"
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "好处：在任意网址后附加 .md 即可返回纯 Markdown——没有主题标记，没有脚本。AI 智能体读取成本更低，并通过每个页面上的 link 标签进行告知。"
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "好处：缓存的页面不会运行 PHP，因此这些页面上的 AI 访客对服务器端跟踪不可见。这个小巧的浏览器信标（<1 kB）可以弥补这一空缺。"
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "好处：在搜索、聊天和社交应用中显示整洁的摘要——根据您的摘要或内容自动生成，无需维护。"
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "好处：按机器人决定谁可以读取您的内容——在您屏蔽任何会让您失去 AI 引用的机器人之前，都会给出明确警告。"
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "好处：每个章节都会获得一个深层链接（#section），AI 系统和搜索引擎可以精确引用，读者也能直接跳转到答案。"
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "好处：时效性是排名和引用的信号——而搜索摘要和 AI 回答实际采用的正是这个可见的日期。"
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "好处：以“?”结尾的标题及其答案会成为 FAQ 结构化数据——这正是 AI 助手引用的问答格式。"
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "好处：保持数据库精简。较旧的条目每天自动删除一次。"
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "好处：在关键时刻第一时间知晓——新 AI 的首次抓取、来自 AI 助手的首批访客，或 AI 访客的突然激增。"
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "好处：让您的数据库完全恢复原样。默认关闭，以便重新安装后统计数据得以保留。"
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "好处：提供机器可读的文章、作者、日期和站点元数据——这是帮助 AI 系统理解您的内容并正确标注来源的最简便方法。"
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "好处：衡量 GEO 的实际回报——从 ChatGPT、Perplexity 等点击访问您站点的用户。"
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "好处：每行一个个人资料网址（LinkedIn、GitHub、YouTube、Wikipedia……）。AI 系统通过这些链接在整个网络上将您识别为一个一致、可信的实体（E-E-A-T）。"
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "好处：搜索引擎会利用可靠的 lastmod 值更快地重新抓取已更改的页面——更新后的内容能更快进入 AI 回答。WordPress 核心省略了此字段。"
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "好处：查看哪个 AI（ChatGPT、Claude、Perplexity……）在读取哪个页面——这是所有统计的基础。"
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "好处：统计仪表盘会将每次 AI 访问对应到此关键词，让您了解哪个 AI 针对哪个主题读取了您的内容。如未填写，则使用文章标题。"
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "好处：用户代理可以伪造。此功能可区分真正的 AI 机器人和冒充者，让您的统计数据显示可证实的 AI 关注度。"
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "好处：AI 数据主动送达——每周一次，包含带趋势的总数、最活跃的机器人、AI 访客、阅读最多的页面以及所有需要注意的事项。"
+
+msgid "Block all training bots"
+msgstr "屏蔽所有训练机器人"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "按星期和小时显示过去 7 天的机器人访问，采用您站点的时区。在高峰时段之前发布，新内容能更快被读取。"
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "机器人访问会与 OpenAI、Anthropic、Perplexity、Google 和 Microsoft 的官方 IP 范围进行比对——冒充者会在统计中被标记出来。"
+
+msgid "Bot identity"
+msgstr "机器人身份"
+
+msgid "Bot identity verification"
+msgstr "机器人身份验证"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "机器人通过其官方用户代理签名识别。每次访问只存储机器人名称、类别、页面和时间，别无其他。不记录 IP 地址，不使用 Cookie，不涉及个人数据，完全符合 GDPR 要求。"
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "构建 AI 搜索引擎引用所依据的索引。屏蔽后，您将从被引用的 AI 回答中消失——通常不是好主意。"
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "查看统计页面上的 GEO 状态面板——修复所有未显示为绿色的项目。这样就能扫除技术障碍。"
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "勾选 = 通过 robots.txt 屏蔽。Google-Extended 和 Applebot-Extended 是纯粹的退出令牌：屏蔽它们可让您退出 Google/Apple 的 AI 训练，而不影响普通搜索。"
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "已允许与引用相关的 AI 机器人"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "引用来源是可信度的信号——这是 AI 检索系统的核心排名因素。"
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "传统 SEO 并不会因此失去价值——对大多数站点而言，Google 仍然是最大的访客来源。GEO 是锦上添花：AI 系统青睐的清晰、结构良好的内容，在传统搜索中往往也排名更好。同时针对两者进行优化，您不会有任何损失。"
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "传统的搜索引擎抓取，同时也为 AI 助手提供数据（Bing 为 Copilot 和部分 ChatGPT 搜索提供支持）。屏蔽后，您也会从该搜索引擎中消失。"
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "为模型训练收集内容。屏蔽它不会让您在 AI 搜索中有任何损失——这纯粹是关于内容权利的决定。"
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "将统计中的 AI 访问与主题关联起来，并让您的写作聚焦于一个明确的问题。"
+
+msgid "Contains a list or table"
+msgstr "包含列表或表格"
+
+msgid "Contains concrete numbers or data"
+msgstr "包含具体数字或数据"
+
+msgid "Content & freshness signals"
+msgstr "内容与时效性信号"
+
+msgid "Contents"
+msgstr "目录"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "控制谁可以读取您的内容：允许会引用您的机器人，屏蔽只拿不给的机器人——在您屏蔽会让您失去可见性的机器人之前，都会给出明确警告。"
+
+msgid "Could not load statistics."
+msgstr "无法加载统计数据。"
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "在整页缓存之后统计 AI 访客（信标）"
+
+msgid "Data"
+msgstr "数据"
+
+msgid "Date range"
+msgstr "时间范围"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "卸载时删除所有插件数据"
+
+msgid "Details in the dashboard:"
+msgstr "在仪表盘中查看详情："
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "通过来源网址（referrer）域名和 utm_source 识别（ChatGPT 会在引用的链接后附加 utm_source=chatgpt.com，即使来源网址被去除也能识别）。注意：许多 AI 访问不带任何来源网址，因此实际数量高于任何工具所能显示的数量。"
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "首段直接给出答案（20–120 个词）"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "已禁用。它没有任何成本，并能帮助 AI 智能体理解您的站点结构。"
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "已禁用。结构化数据是让您的内容可被机器读取的最简便方法。"
+
+msgid "Dismiss"
+msgstr "忽略"
+
+msgid "Email me on citation alerts"
+msgstr "通过电子邮件向我发送引用提醒"
+
+msgid "Empty = the site admin email address."
+msgstr "留空 = 站点管理员的电子邮件地址。"
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "每一次 AI 机器人访问，并按其对您的意义分类（智能体、检索、训练）。"
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "每个点代表过去 30 天内被 AI 读取过的一个页面：越靠右 = 读取越频繁，越靠下 = GEO 评分越低。右下角的点是您最大的机会——点击某个点即可编辑该页面。"
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "用 13 项 GEO 检查评估每篇已发布的文章和页面——按引用机会从大到小排序，并显示每个页面已获得的 AI 关注度。"
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "所有功能均免费，在您自己的服务器上运行，不存储任何个人数据。只有明确说明的可选功能才会连接外部服务。每个选项都会告诉您能从中获得什么。"
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "示例：/my-post/ 变为 /my-post.md。需要启用非朴素的固定链接。Markdown 根据您的内容即时生成，并标记为 noindex，因此绝不会在搜索中与 HTML 页面竞争。"
+
+msgid "Export CSV"
+msgstr "导出 CSV"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "在 llms.txt 中推荐（关键内容）"
+
+msgid "Feeds"
+msgstr "Feed"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "因为有真实用户刚刚向 AI 询问了相关问题，所以实时获取您的页面。这是意图最明确的流量——屏蔽会将这些读者拒之门外。"
+
+msgid "Filter by AI"
+msgstr "按 AI 筛选"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "首批来自 %s 的真人访客！您的内容正在那里被引用。"
+
+msgid "Flows: which AI reads which page"
+msgstr "流向：哪个 AI 读取了哪个页面"
+
+msgid "Focus term"
+msgstr "焦点关键词"
+
+msgid "Focus term appears in the title"
+msgstr "标题中包含焦点关键词"
+
+msgid "Focus term set"
+msgstr "已设置焦点关键词"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "对大多数站点而言，如今来自 AI 回答的访客仅相当于 Google 带来流量的百分之几——但这一比例每个季度都在大幅攀升。现在就开始的意义在于，赶在竞争对手之前确立自己作为来源的地位。"
+
+msgid "GEO Audit"
+msgstr "GEO 审核"
+
+msgid "GEO Settings"
+msgstr "GEO 设置"
+
+msgid "GEO check (AI visibility)"
+msgstr "GEO 检查（AI 可见性）"
+
+msgid "GEO score"
+msgstr "GEO 评分"
+
+msgid "GEO status of your site"
+msgstr "您站点的 GEO 状态"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "AI 关注度高、评分低——请优先修复这些页面。"
+
+msgid "Home"
+msgstr "首页"
+
+msgid "Hour"
+msgstr "小时"
+
+msgid "How does an AI even reach my website?"
+msgstr "AI 究竟是如何访问我的网站的？"
+
+msgid "How it works"
+msgstr "工作原理"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "工作原理——用通俗的语言解释 GEO"
+
+msgid "Human visitors from AI answers"
+msgstr "来自 AI 回答的真人访客"
+
+msgid "I already did"
+msgstr "我已经评价过了"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "身份验证已关闭。用户代理可以伪造——在设置中启用验证，即可区分真正的 AI 机器人和冒充者。"
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "如果本插件对您有帮助，能否在 WordPress.org 上留下简短的评价？只需一分钟，就能帮助其他站点所有者发现它。谢谢！"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "重要：在 CDN 之后，直接连接的 IP 是代理的 IP——每个真正的机器人都会被标记为冒充者。请选择您的配置，以便使用原始访客 IP。只启用您的代理确实会设置的标头，否则这些标头可能被伪造。"
+
+msgid "Include latest posts"
+msgstr "包括最新文章"
+
+msgid "Include pages"
+msgstr "包括页面"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "IndexNow 是一个由 Bing、Seznam、Naver 等支持的开放协议。每次发布、更新或取消发布时，插件都会将公开网址和您的站点密钥发送到 IndexNow API——除此之外不传输任何内容。用于验证的密钥文件会自动由您的站点提供。如果其他插件（例如 Rank Math 或官方 Bing 插件）已在向 IndexNow 提交，请保持关闭，以免重复 ping。"
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow：即时索引 ping"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "即时索引（IndexNow）"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "内部链接是爬虫和检索系统发现您相关内容时所遵循的路径——孤立的页面被读取得更少。"
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "隐性影响：比点击数更大。"
+
+msgid "It measures"
+msgstr "衡量"
+
+msgid "It optimizes"
+msgstr "优化"
+
+msgid "Job title / role"
+msgstr "职位/角色"
+
+msgid "Keep statistics for"
+msgstr "统计数据保留时长"
+
+msgid "Key content"
+msgstr "关键内容"
+
+msgid "Last seen"
+msgstr "最后发现"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "最后提交：%1$s（%2$s）。"
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "左侧：AI 机器人，右侧：您的页面。带宽 = 访问量。将鼠标悬停在条带上可查看确切数量。"
+
+msgid "Links to at least one external source"
+msgstr "至少链接到一个外部来源"
+
+msgid "Links to at least one other page on your site"
+msgstr "至少链接到站点上的另一个页面"
+
+msgid "Log AI bot accesses"
+msgstr "记录 AI 机器人的访问"
+
+msgid "Log human visitors from AI answers"
+msgstr "记录来自 AI 回答的真人访客"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "机器可读的元数据有助于 AI 系统理解您的内容并标注来源。"
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "提供机器可读的内容版本（llms.txt、Markdown 页面、结构化数据）——让 AI 系统尽可能顺畅地理解您的站点。"
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "让您的站点成为 AI 系统能够找到、理解并引用的来源，这就是 GEO（Generative Engine Optimization，生成式引擎优化）。它与 SEO 理念相同，只是对象从蓝色链接变成了 AI 回答——而且由于目前这样做的站点还少得多，先行者能获得超乎寻常的曝光。"
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "在 robots.txt 中管理 AI 爬虫规则"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "许多人读了引用您的 AI 回答却从不点击——但他们看到了作为来源的您的名字。这是任何统计数据都无法完全衡量的品牌曝光；被引用本身就是收获。"
+
+msgid "Mark all as read"
+msgstr "全部标记为已读"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "每个页面的 Markdown 版本（.md 网址）"
+
+msgid "Max. entries per section"
+msgstr "每个部分的最大条目数"
+
+msgid "Maybe later"
+msgstr "以后再说"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "在此期间：修复下方状态面板中所有未显示为绿色的项目，并为您最重要的页面设置焦点关键词。"
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "越来越多的人不再把问题输入 Google，而是去问 ChatGPT、Perplexity、Copilot 或 Claude。AI 会读取少数几个网站，写出一个答案，并注明来源。如果您的站点是其中之一，您就会被提及并获得链接。如果不是，即使您在传统 Google 搜索中排名靠前，在这场对话中您也是隐形的。"
+
+msgid "Most active AI bots"
+msgstr "最活跃的 AI 机器人"
+
+msgid "Name (defaults to site title)"
+msgstr "名称（默认为站点标题）"
+
+msgid "Needs attention"
+msgstr "需要注意"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "新内容和更新的内容会在几分钟内推送给 Bing 等搜索引擎。Bing 为 Copilot 和部分 ChatGPT 搜索提供支持——索引越快，被 AI 引用就越快。"
+
+msgid "New here? How it all works, in plain language."
+msgstr "初次使用？用通俗的语言了解它的工作原理。"
+
+msgid "Next"
+msgstr "下一页"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "过去 30 天内已评分的页面还没有 AI 访问——随着 AI 系统读取您的内容，地图会逐渐填满。"
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "尚未获取 IP 范围——首次下载将在一小时内运行（或在每日 cron 任务触发时运行）。"
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "尚未提交任何网址——下次发布或更新时将触发首次 ping。"
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "过去 7 天内还没有机器人访问。"
+
+msgid "No data for this AI in the selected range."
+msgstr "所选时间范围内没有此 AI 的数据。"
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "暂无数据。一旦已知的 AI 机器人或来自 AI 回答的访客访问您的站点，AI 访问记录就会显示在这里。"
+
+msgid "No duplicate SEO output"
+msgstr "无重复的 SEO 输出"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "没有术语，没有炒作：正在发生什么、本插件为此做了什么，以及您可以切实期待哪些成果。"
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "没有启用其他 SEO 插件——Wille GEO 自行提供 Schema 和元标签。"
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "没有过长的段落（每段最多 150 个词）"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "未找到实体 robots.txt 文件——Wille GEO 中配置的 AI 爬虫规则已生效。"
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "未找到实体 robots.txt 文件。Wille GEO 中未配置任何 AI 爬虫屏蔽规则，因此将原样提供 WordPress 默认的 robots.txt。"
+
+msgid "No published content to audit yet."
+msgstr "暂无可审核的已发布内容。"
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "未找到站点地图。WordPress 默认自带站点地图——可能被某个插件或设置禁用了。"
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "没有任何工具能强迫 AI 引用您。AI 系统引用的是那些清晰、具体、可信地回答真实问题的页面。本插件让这一点变得可衡量，并系统性地降低了实现难度——它扫除所有技术障碍，并向您展示哪些做法有效。但实质内容仍需由您来提供。"
+
+msgid "No – use the direct connection IP"
+msgstr "否——使用直接连接的 IP"
+
+msgid "Not allowed."
+msgstr "不允许。"
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "已关闭。用户代理可以伪造；启用验证可区分真正的 AI 机器人和冒充者（每天获取一次公开 IP 列表）。"
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "已关闭。没有它，与 AI 相关的搜索索引只有在再次抓取您的站点时才会得知新内容——启用 IndexNow 可将这一过程缩短到几分钟。"
+
+msgid "Official profiles (sameAs)"
+msgstr "官方资料（sameAs）"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "按需提供证据：借助 AI 公司的官方 IP 列表，揭穿冒用知名名称的冒充机器人。"
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "本插件每天一次下载 OpenAI、Anthropic、Perplexity、Google 和 Microsoft 为其爬虫公布的公开 IP 列表，并将每条记录的访问标记为已验证、失败（从其他 IP 冒用身份）或未检查。访客 IP 仅在内存中比对，绝不存储。由于需要发出外部请求，此功能需要您主动启用。"
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "每行一个网址（LinkedIn、GitHub、X、个人网站……）。让 AI 系统能够确认该作者是一个一致的真实人物——这是 E-E-A-T 的核心信号。"
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "一两句话：您是谁，您的站点涉及哪些内容。"
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "在编辑器中打开任意文章——侧边栏中的“GEO 检查”面板会在您写作时一步步引导您完成这些步骤。"
+
+msgid "Open improvements"
+msgstr "待改进项"
+
+msgid "Open the full dashboard"
+msgstr "打开完整仪表盘"
+
+msgid "Open the settings"
+msgstr "打开设置"
+
+msgid "Open the statistics dashboard"
+msgstr "打开统计仪表盘"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "打开您最重要的五个页面，为每个页面设置焦点关键词：即该页面应当成为“标准答案”的问题或主题。"
+
+msgid "Opportunity map"
+msgstr "机会地图"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "输出元描述和社交预览（Open Graph）"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "输出 schema.org 结构化数据（JSON-LD）"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "输出 WebSite、Organization/Person、Article（含日期和作者）以及面包屑导航。AI 检索系统使用这些信号来判断时效性和可信度。"
+
+msgid "Page"
+msgstr "页面"
+
+msgid "Pages"
+msgstr "页面"
+
+msgid "Pages AI read most"
+msgstr "AI 读取最多的页面"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "人们会向 AI 助手提问。与这些问题相呼应的标题能将您的内容直接对应到真实的提示词——还能为自动 FAQ Schema 提供素材。"
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "将您最好的页面置顶为关键内容，让 llms.txt 把 AI 智能体直接引向这些页面。"
+
+msgid "Ping IndexNow on publish and update"
+msgstr "在发布和更新时 ping IndexNow"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "置顶的内容会出现在 llms.txt 和 llms-full.txt 的最前面——这些是您最希望 AI 系统读取的页面。"
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "正在使用朴素固定链接（设置 → 固定链接）。无法提供 Markdown 端点和 IndexNow 密钥文件，而可读的网址对所有爬虫都有帮助。"
+
+msgid "Post"
+msgstr "文章"
+
+msgid "Post not found."
+msgstr "未找到文章。"
+
+msgid "Posts"
+msgstr "文章"
+
+msgid "Pretty permalinks enabled"
+msgstr "已启用固定链接"
+
+msgid "Previous"
+msgstr "上一页"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "隐私：本插件不存储 IP 地址，不设置 Cookie，默认也不发出任何外部请求。仅有的例外是由您控制的两项可选功能：机器人验证（每天下载一次公开的爬虫 IP 列表）和 IndexNow（将已发布的网址发送到 IndexNow API）。所有统计数据都保存在您的 WordPress 数据库中。"
+
+msgid "Profile URLs (sameAs)"
+msgstr "个人资料网址（sameAs）"
+
+msgid "Quality: unusually high."
+msgstr "质量：异常地高。"
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "在 WordPress.org 上为 Wille GEO 评分（在新标签页中打开）"
+
+msgid "Rate ★★★★★"
+msgstr "评分 ★★★★★"
+
+msgid "Re-scan"
+msgstr "重新扫描"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "已启用可读的网址——.md 端点和 IndexNow 密钥文件均可正常工作。"
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "来自 AI 回答的真实用户——实际回报，按 AI 和页面分别显示。"
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "在 ChatGPT、Perplexity 等工具中点击了您链接的真实用户。这正是 GEO 的回报。"
+
+msgid "Recipient"
+msgstr "收件人"
+
+msgid "Reload page"
+msgstr "重新加载页面"
+
+msgid "Retrieval"
+msgstr "检索"
+
+msgid "Retrieval (citation index)"
+msgstr "检索（引用索引）"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "检索和智能体机器人可以读取您的页面——您有机会出现在 AI 回答中。"
+
+msgid "Retrieval bots"
+msgstr "检索机器人"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "检索机器人首先需要发现并重新读取您改进后的页面。预计数周后会看到首批可衡量的效果，三到六个月后可以做出公允的评估——仪表盘会全程向您展示趋势。"
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "检索机器人利用站点地图快速发现新内容。"
+
+msgid "Review Wille GEO"
+msgstr "评价 Wille GEO"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "规则会追加到 WordPress 生成的 robots.txt 中。网站根目录中的实体 robots.txt 文件会覆盖这些规则——如果存在此类文件，统计页面上的状态面板会提醒您。请注意，robots.txt 依靠自觉遵守；知名的机器人都会遵守它。"
+
+msgid "Running GEO checks …"
+msgstr "正在运行 GEO 检查…"
+
+msgid "Save settings"
+msgstr "保存设置"
+
+msgid "Score distribution"
+msgstr "评分分布"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Search (feeds AI answers)"
+msgstr "搜索（为 AI 回答提供数据）"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "搜索引擎和 AI 爬虫可以索引本站点。"
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "查看哪些 AI（ChatGPT、Claude、Perplexity 等）读取了您的哪些页面，并针对 AI 搜索（GEO）优化您的站点。免费，不收集个人数据。"
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "每周通过电子邮件发送 AI 可见性报告"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "由 Wille GEO 插件发送。您可以随时在“Wille GEO → 设置”中关闭此报告。"
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "通过您常规的 WordPress 邮件系统发送，且仅在当周确实有 AI 活动时才发送——不会给冷清的站点发送垃圾邮件。您也可以使用 WP-CLI 命令“wp geoins report”手动触发。"
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "提供包含完整内容的 /llms-full.txt"
+
+msgid "Serve a generated /llms.txt"
+msgstr "提供自动生成的 /llms.txt"
+
+msgid "Served at %s."
+msgstr "在 %s 提供。"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Short site description (optional)"
+msgstr "简短的站点描述（可选）"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "简短、独立完整的段落是 AI 系统引入答案的基本单位。过长的段落会被跳过。"
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "在修订过的文章上显示可见的“更新于”日期"
+
+msgid "Show all AIs"
+msgstr "显示所有 AI"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "仅当文章经过实质性修订（发布两天以后）时，才会显示在内容上方。无论此开关如何设置，机器可读的 dateModified 始终包含在您的结构化数据中。"
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "作为机器可读的专业信息（schema.org jobTitle）提供给 AI 系统，例如“高级 WordPress 开发者”。"
+
+msgid "Site represents"
+msgstr "站点代表"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "站点是否运行在代理/CDN 之后？"
+
+msgid "Site visible to crawlers"
+msgstr "站点对爬虫可见"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "从 AI 回答点击进来的人已经读过摘要，想要了解更深入的内容——研究和电商数据一致表明，这些访客的转化率明显高于一般的搜索流量。访客更少，但意向更强。"
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "抱歉，您不能进行此操作。"
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "速度：新内容和更新的内容会在几分钟内通知搜索引擎（IndexNow）——越早被索引，AI 就能越早引用。"
+
+msgid "Statistics"
+msgstr "统计"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "统计数据和具体数字能显著提高被引用的几率——AI 回答偏爱可验证的数字。"
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "结构化的内容块（列表、表格）被 AI 提取和引用的频率远高于大段文字。"
+
+msgid "Structured data & meta tags"
+msgstr "结构化数据与元标签"
+
+msgid "Structured data (schema.org)"
+msgstr "结构化数据（schema.org）"
+
+msgid "Sure, write a review"
+msgstr "好的，去写评价"
+
+msgid "Table of contents"
+msgstr "目录"
+
+msgid "Term"
+msgstr "关键词"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "关键词与页面：哪个 AI 在读什么？"
+
+msgid "The audit table needs JavaScript."
+msgstr "审核表格需要 JavaScript。"
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "信标仅对未登录的访客运行，只检查访问是否来自已知的 AI（来源网址域名或 utm_source），只有在是的情况下才会把来源和页面路径报告给您自己的站点。不使用 Cookie，不记录 IP，不做指纹识别，不使用外部服务。系统会自动防止与服务器端跟踪器重复计数。如果您的站点没有使用整页缓存，请保持关闭——PHP 跟踪器已经能看到一切。"
+
+msgid "The honest limit: content decides."
+msgstr "坦诚的局限：内容才是关键。"
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "实体 robots.txt 屏蔽了 %s。这些机器人能让您出现在 AI 回答中——请编辑该文件以解除屏蔽（只要该文件存在，此处配置的规则就不会生效）。"
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "实体 robots.txt 屏蔽了所有爬虫（User-agent: * / Disallow: /）。任何搜索引擎和 AI 系统都无法读取您的站点——请编辑该文件。"
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "实体 robots.txt 默认屏蔽所有爬虫（User-agent: * / Disallow: /）；只有在文件中拥有专属例外规则的爬虫才能读取您的站点。所有没有例外规则的 AI 系统都被拒之门外——请编辑该文件。"
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "统计仪表盘会将每次 AI 访问对应到此关键词。留空 = 使用文章标题。"
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "统计仪表盘需要 JavaScript。请改用 CSV 导出或 WP-CLI（wp geoins stats）。"
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "然后让它运行即可。每周查看一次仪表盘（或启用电子邮件报告），并把精力投入到已经显现出 AI 关注的地方——那里离被引用最近。"
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "这些用户代理看起来像 AI 系统，但尚未收录在注册表中——因此它们的访问不计入上方的统计。经常出现的条目值得通过 geoins_bots 过滤器添加（或向插件作者报告）。"
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "本插件会在每次访问时识别这些机器人，并在仪表盘中向您展示：哪个 AI 读取了您的哪些页面、频率如何、涉及哪个主题。当有人在 AI 回答中点击您站点的链接时，这次访问也会被统计——这正是 AI 可见性转化为潜在客户的时刻。"
+
+msgid "Timeline: weeks to months, not days."
+msgstr "时间：需要数周到数月，而非数天。"
+
+msgid "Title"
+msgstr "标题"
+
+msgid "Tracking"
+msgstr "跟踪"
+
+msgid "Training"
+msgstr "训练"
+
+msgid "Training bots"
+msgstr "训练机器人"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "两件事：衡量和优化。一切都在您自己的服务器上运行，不会向任何地方发送数据，设置中的每个开关都会在您启用之前说明其好处。"
+
+msgid "Updated"
+msgstr "更新时间"
+
+msgid "Updated on %s"
+msgstr "更新于 %s"
+
+msgid "Updated within the last 12 months"
+msgstr "在过去 12 个月内更新过"
+
+msgid "User agent"
+msgstr "用户代理"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "根据官方 IP 范围验证机器人身份"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "内容过于单薄的页面很少有足够的实质内容供 AI 作为回答的依据。"
+
+msgid "View your key file"
+msgstr "查看您的密钥文件"
+
+msgid "View your llms-full.txt"
+msgstr "查看您的 llms-full.txt"
+
+msgid "View your llms.txt"
+msgstr "查看您的 llms.txt"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "可见的专业性（有简介的真实作者）能为 AI 系统挑选可信来源时使用的 E-E-A-T 信号提供支持。"
+
+msgid "Volume: still small, growing fast."
+msgstr "数量：目前仍少，但增长迅速。"
+
+msgid "Waiting for the first AI visit"
+msgstr "正在等待第一次 AI 访问"
+
+msgid "Weekly email report"
+msgstr "每周电子邮件报告"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "我能切实期待什么？坦诚的回答"
+
+msgid "What does the plugin actually do for me?"
+msgstr "这个插件究竟能为我做什么？"
+
+msgid "What happened"
+msgstr "最近动态"
+
+msgid "What is happening right now?"
+msgstr "现在正在发生什么？"
+
+msgid "When do AIs read your site?"
+msgstr "AI 什么时候读取您的站点？"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "从哪里开始？五个步骤，30 分钟"
+
+msgid "Which AI bots?"
+msgstr "哪些 AI 机器人？"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "哪些 AI 读取了您的页面，以及哪些 AI 回答为您带来了真人访客。"
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "哪个 AI 针对哪个关键词读取了您的哪些页面——以及哪些 AI 回答真正为您带来了真人访客。"
+
+msgid "Why does this matter?"
+msgstr "为什么这很重要？"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Wille GEO 已启用。"
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Wille GEO 由 %1$s 开发。它对您有帮助吗？在 WordPress.org 上给出 %2$s 评价，能帮助其他人发现它——谢谢！"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "%s 上的 Wille GEO 发现："
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO：作者信号（E-E-A-T）"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "在这些页面上逐项完成 GEO 检查清单——尤其要做到：在第一段直接回答核心问题，并把标题改写成真正的问题。"
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "适用于至少包含两个问题式标题（以问号结尾的 H2/H3）的文章和页面。无需额外工作——只要把问题写成标题，Schema 就会自动生成。"
+
+msgid "XML sitemap available"
+msgstr "XML 站点地图可用"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "是，Cloudflare（CF-Connecting-IP）"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "是，其他代理（X-Forwarded-For）"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "您正在屏蔽 %s。这些机器人能让您出现在 AI 回答中——屏蔽它们会让您失去引用。"
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "您收到此邮件是因为在“Wille GEO → 设置”中启用了引用提醒邮件。"
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "您的服务器无法访问您的 IndexNow 密钥文件，因此 ping 已暂停。常见原因：使用了朴素固定链接（在“设置 → 固定链接”中修改），或安全插件阻止了回环请求。修复后，请重新保存这些设置——保存后不久会重新检查。"
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "您的会话验证已过期——请重新加载页面以继续。"
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] 本周 AI 可见性：%2$d 次 AI 访问，%3$d 位 AI 访客"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] 新的 AI 可见性信号"
+
+msgid "a person"
+msgstr "个人"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "有真实用户刚刚向 AI 提出了问题，而 AI 此刻正在读取您的页面来回答它。这是最有价值的信号：此时此刻正有人对您的主题感兴趣。"
+
+msgid "accesses"
+msgstr "访问量"
+
+msgid "an organization"
+msgstr "组织"
+
+msgid "blocking costs citations"
+msgstr "屏蔽会失去引用"
+
+msgid "blocking is safe for citations"
+msgstr "屏蔽不影响引用"
+
+msgid "by %s"
+msgstr "作者：%s"
+
+msgid "days"
+msgstr "天"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "例如：WordPress 备份插件"
+
+msgid "forever"
+msgstr "永久"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "冒充者"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "llms.txt 可用"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "llms.txt 是一个新兴标准：在 /llms.txt 提供您最重要内容的 Markdown 概览。它根据您的页面和文章自动生成，并缓存 12 小时。"
+
+msgid "more"
+msgstr "项"
+
+msgid "new"
+msgstr "新"
+
+msgid "pages"
+msgstr "个页面"
+
+msgid "passed"
+msgstr "已通过"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "它们构建 AI 日后引用所依据的“资料库”。是否进入这个资料库，决定了您究竟能否被引用。"
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "它们收集文本，用于训练未来的 AI 模型。它们不会为您带来访客，也不会带来引用。是否允许它们纯粹是关于内容权利的决定——屏蔽它们不会让您有任何损失。"
+
+msgid "unchecked"
+msgstr "未检查"
+
+msgid "verified"
+msgstr "已验证"
+
+msgid "visitors"
+msgstr "访客"
+
+msgid "vs. previous period"
+msgstr "与上一时段相比"

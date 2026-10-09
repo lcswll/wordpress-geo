@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "„Descurajează motoarele de căutare” este activat (Setări → Citire). Niciun sistem AI nu vă poate găsi până nu dezactivați această opțiune."
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%1$d intervale IP de la %2$d furnizori, ultima actualizare %3$s."
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "%s (crawler de antrenare) v-a vizitat site-ul pentru prima dată."
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "%s v-a parcurs site-ul pentru prima dată – un AI relevant pentru citări vă citește acum."
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "%s detectat – Wille GEO îi lasă automat schema și metaetichetele și adaugă doar ce lipsește (urmărire, llms.txt, control robots, verificări GEO)."
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "%s este activ. Pentru a evita rezultate duplicate, Wille GEO îi lasă automat schema și metaetichetele – comutatoarele de mai jos sunt ignorate cât timp rulează. Restul (urmărire, llms.txt, control robots, verificări GEO) funcționează în paralel."
+
+msgid "(opens in a new tab)"
+msgstr "(se deschide într-o filă nouă)"
+
+msgid "1 year"
+msgstr "1 an"
+
+msgid "180 days"
+msgstr "180 de zile"
+
+msgid "30 days"
+msgstr "30 de zile"
+
+msgid "7-day average"
+msgstr "Media pe 7 zile"
+
+msgid "90 days"
+msgstr "90 de zile"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "O versiune Markdown curată a fiecărei pagini este disponibilă adăugând .md la URL-ul acesteia."
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "O listă de verificare live în timp ce scrieți: treisprezece criterii concrete și explicate care fac o pagină citabilă pentru AI (răspunsul întâi, titluri-întrebare, liste, cifre, actualitate …)."
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "Există un robots.txt fizic și nu conține blocările configurate aici (%s) – acestea nu au efect până nu le adăugați în fișier sau nu îl ștergeți."
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "Există un fișier robots.txt fizic, dar nu a putut fi citit pentru analiză. Acesta suprascrie regulile configurate aici – verificați-l manual."
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "Există un fișier robots.txt fizic, dar momentan este în regulă: nu blochează niciun bot AI relevant pentru citări și corespunde configurației. Notă: regulile configurate aici rămân inactive cât timp fișierul există."
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "Un exemplu realist: un site de specialitate cu 50 de articole solide care adoptă lista de verificare GEO se poate aștepta în câteva luni la primele citări AI și la un flux mic, dar în creștere constantă, de vizitatori cu intenție ridicată – gândiți-vă la asta ca la deschiderea unei a doua uși, încă mici, către afacerea dumneavoastră, care se lărgește în fiecare lună, nu ca la înlocuirea Google."
+
+msgid "AI (30d)"
+msgstr "AI (30z)"
+
+msgid "AI Statistics"
+msgstr "Statistici AI"
+
+msgid "AI accesses"
+msgstr "Accesări AI"
+
+msgid "AI accesses (30d)"
+msgstr "Accesări AI (30z)"
+
+msgid "AI accesses per day"
+msgstr "Accesări AI pe zi"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "Asistenții AI citează blocuri de răspuns de sine stătătoare. Dacă primul paragraf răspunde la întrebarea principală, acesta este cel mai ușor de citat."
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "Accesările boților AI și vizitatorii din răspunsurile AI sunt înregistrați de acum înainte – datele apar imediat ce primul AI ajunge pe site-ul dumneavoastră."
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "Accesări ale boților AI în ultimele 30 de zile – deschideți panoul de statistici"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "Companiile AI trimit vizitatori automați – boți – pe site-ul dumneavoastră. Aceștia se identifică după nume, iar numele vă spune exact de ce au venit. Contează trei tipuri, iar ele înseamnă lucruri foarte diferite pentru afacerea dumneavoastră:"
+
+msgid "AI companies: share of accesses"
+msgstr "Companii AI: ponderea accesărilor"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "Acces pentru crawlerele AI (robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "Crawlerele AI nu transmit interogări de căutare. Această matrice asociază fiecare accesare cu termenul principal al paginii (setați-l în caseta „Verificare GEO” din ecranul de editare) – echivalentul onest și practic."
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "Radar AI: crawlere nerecunoscute de tip AI"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "Căutarea AI preferă sursele recente; data modificării este transmisă în datele structurate. Revizuirea anuală a conținutului vă menține citabil."
+
+msgid "AI source"
+msgstr "Sursă AI"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "Sistemele AI compară întrebările mai întâi cu titlurile – un titlu clar face din pagina dumneavoastră sursa evidentă."
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "Sistemele AI v-au citit site-ul de %s ori în ultimele 30 de zile – Wille GEO își face treaba."
+
+msgid "AI visibility, last 7 days"
+msgstr "Vizibilitate AI, ultimele 7 zile"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Vârf de vizitatori AI: %1$d vizitatori din răspunsurile AI ieri (media recentă: %2$s/zi)."
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Vârf de vizitatori AI: %1$s vizitatori din răspunsurile AI ieri (media recentă: %2$s/zi)."
+
+msgid "AI visitors"
+msgstr "Vizitatori AI"
+
+msgid "AI visitors: landing pages"
+msgstr "Vizitatori AI: pagini de destinație"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "Pe toate paginile evaluate. Fiecare punct în plus înseamnă încă un criteriu pe care îl îndeplinește pagina dumneavoastră tipică."
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "Adaugă orele exacte de actualizare (lastmod) în sitemap-ul XML"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "Adaugă ID-uri de ancoră tuturor titlurilor H2/H3 și, pe articolele cu trei sau mai multe titluri, inserează un cuprins compact cu linkuri înaintea primului H2. Stilizarea este minimă și preia fonturile și culorile temei."
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "Adaugă ora reală de modificare a fiecărui articol în sitemap-ul din nucleul WordPress. Activ doar cât timp rulează sitemap-ul din nucleu; modulele SEO care înlocuiesc sitemap-ul nu sunt afectate."
+
+msgid "Agent"
+msgstr "Agent"
+
+msgid "Agent (live user request)"
+msgstr "Agent (cerere live a utilizatorului)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "Agent + Regăsire = relevant pentru citări: un AI v-a citit pagina pentru a răspunde la o întrebare reală. Antrenarea doar alimentează modelele."
+
+msgid "Agent bots"
+msgstr "Boți agent"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "Alertele apar mereu în panou; această opțiune le trimite suplimentar prin email (grupate, cel mult un email pe zi). Folosește destinatarul de mai jos."
+
+msgid "All AIs"
+msgstr "Toate AI-urile"
+
+msgid "All checks passed"
+msgstr "Toate verificările au trecut"
+
+msgid "All images have alt text"
+msgstr "Toate imaginile au text alternativ"
+
+msgid "All types"
+msgstr "Toate tipurile"
+
+msgid "Allow all bots"
+msgstr "Permite toți boții"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "Textul alternativ este modul în care sistemele AI vă înțeleg imaginile – și un semnal vechi de accesibilitate și clasare. Paginile fără imagini trec automat."
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "Se analizează conținutul … %1$s din %2$s finalizate"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "Suprafață = accesări în intervalul selectat. Dați clic pe o companie pentru a vedea boții ei individuali."
+
+msgid "At least 300 words"
+msgstr "Cel puțin 300 de cuvinte"
+
+msgid "At least one heading phrased as a question"
+msgstr "Cel puțin un titlu formulat ca întrebare"
+
+msgid "Author has a profile description"
+msgstr "Autorul are o descriere de profil"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "Generează automat schema FAQ din titlurile-întrebare"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "Cuprins automat cu ancore pentru titluri"
+
+msgid "Average GEO score"
+msgstr "Scor GEO mediu"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "Fiți sceptic față de oricine vă promite un val de clienți din căutarea AI. Iată imaginea onestă:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Beneficiu: Bing & co. preiau conținutul nou și actualizat în câteva minute în loc de zile. Bing alimentează Microsoft Copilot și părți din căutarea ChatGPT – indexarea mai rapidă înseamnă citări AI mai rapide."
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "Beneficiu: un rezumat al site-ului lizibil de mașini pentru agenții AI. Sincer: crawlerele mari încă îl preiau rar – dar agenții de programare/IDE o fac, nu costă nimic și vă poziționează pe măsură ce standardul crește."
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "Beneficiu: agenții care vor mai mult decât prezentarea generală primesc conținutul cheie complet ca Markdown curat, într-un singur fișier."
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "Beneficiu: adăugarea .md la orice URL returnează Markdown pur – fără markup de temă, fără scripturi. Mai ieftin de citit pentru agenții AI și semnalat printr-o etichetă link pe fiecare pagină."
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "Beneficiu: paginile din cache nu rulează niciodată PHP, așa că vizitatorii AI de pe ele sunt invizibili pentru urmărirea pe server. Acest mic beacon de browser (<1 kB) acoperă acest gol."
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "Beneficiu: fragmente curate în căutare, chaturi și aplicații sociale – generate din rezumat sau conținut, fără întreținere."
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "Beneficiu: decideți pentru fiecare bot cine vă poate citi conținutul – cu un avertisment clar înainte de a bloca ceva ce vă costă citări AI."
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "Beneficiu: fiecare secțiune primește un link direct (#secțiune) pe care sistemele AI și motoarele de căutare îl pot cita precis, iar cititorii pot sări direct la răspuns."
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "Beneficiu: actualitatea este un semnal de clasare și de citare – iar data vizibilă este cea pe care o preiau efectiv fragmentele de căutare și răspunsurile AI."
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "Beneficiu: titlurile care se termină cu „?” împreună cu răspunsurile lor devin date structurate FAQ – exact formatul întrebare-răspuns pe care îl citează asistenții AI."
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "Beneficiu: baza de date rămâne mică. Înregistrările mai vechi sunt șterse automat o dată pe zi."
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "Beneficiu: aflați în momentul în care contează – prima parcurgere de către un AI nou, primii vizitatori de la un asistent AI sau o creștere bruscă a vizitatorilor AI."
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "Beneficiu: baza de date rămâne exact cum era. Dezactivat implicit, astfel încât statisticile să supraviețuiască unei reinstalări."
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "Beneficiu: metadate lizibile de mașini despre articol, autor, dată și site – cea mai ieftină modalitate de a ajuta sistemele AI să vă înțeleagă și să vă atribuie corect conținutul."
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "Beneficiu: măsurați câștigul real al GEO – oamenii care ajung la dumneavoastră din ChatGPT, Perplexity & co."
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "Beneficiu: un URL de profil pe linie (LinkedIn, GitHub, YouTube, Wikipedia …). Sistemele AI folosesc aceste linkuri pentru a vă recunoaște ca o entitate unică, coerentă și de încredere pe web (E-E-A-T)."
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "Beneficiu: motoarele de căutare folosesc valori lastmod fiabile pentru a reparcurge mai repede paginile modificate – conținutul actualizat ajunge mai repede în răspunsurile AI. Nucleul WordPress omite acest câmp."
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "Beneficiu: vedeți ce AI (ChatGPT, Claude, Perplexity …) citește care pagină – baza tuturor statisticilor."
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "Beneficiu: panoul de statistici asociază fiecare accesare AI cu acest termen, astfel încât vedeți ce AI vă citește conținutul pentru ce subiect. Fără el, se folosește titlul articolului."
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "Beneficiu: user-agent-urile pot fi falsificate. Astfel se separă boții AI reali de impostori, iar statisticile arată un interes AI demonstrabil."
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "Beneficiu: cifrele AI vin la dumneavoastră – totaluri cu tendință, boți de top, vizitatori AI, paginile cele mai citite și tot ce necesită atenție, o dată pe săptămână."
+
+msgid "Block all training bots"
+msgstr "Blochează toți boții de antrenare"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "Accesările boților din ultimele 7 zile, pe zile ale săptămânii și ore, în fusul orar al site-ului. Publicarea înaintea orelor aglomerate face ca noul conținut să fie citit mai repede."
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "Accesările boților sunt verificate după intervalele IP oficiale ale OpenAI, Anthropic, Perplexity, Google și Microsoft – impostorii sunt marcați în statistici."
+
+msgid "Bot identity"
+msgstr "Identitatea boților"
+
+msgid "Bot identity verification"
+msgstr "Verificarea identității boților"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "Boții sunt recunoscuți după semnăturile oficiale ale user-agent-ului. Se stochează per accesare: numele botului, categoria, pagina și ora – nimic altceva. Fără adrese IP, fără cookie-uri, fără date personale, complet conform GDPR."
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "Construiește indexul din care citează motoarele de căutare AI. Blocarea vă elimină din răspunsurile AI cu citări – de obicei o idee proastă."
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "Verificați panoul de stare GEO de pe pagina de statistici – remediați tot ce nu este verde. Astfel eliminați obstacolele tehnice."
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "Bifat = blocat prin robots.txt. Google-Extended și Applebot-Extended sunt simple tokenuri de refuz: blocarea lor vă exclude din antrenarea AI a Google/Apple fără a afecta căutarea obișnuită."
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "Boții AI relevanți pentru citări sunt permiși"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "Citarea surselor semnalează credibilitate – un factor de clasare esențial pentru sistemele de regăsire AI."
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "SEO-ul clasic nu devine inutil – Google rămâne cea mai mare sursă de vizitatori pentru majoritatea site-urilor. GEO vine în plus: același conținut clar și bine structurat pe care îl adoră sistemele AI tinde să se claseze mai bine și în căutarea clasică. Nu pierdeți nimic optimizând pentru ambele."
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "Crawling clasic de căutare care alimentează și asistenții AI (Bing alimentează Copilot și părți din căutarea ChatGPT). Blocarea vă elimină și din acel motor de căutare."
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "Colectează conținut pentru antrenarea modelelor. Blocarea nu vă costă nimic în căutarea AI – este pur și simplu o decizie privind drepturile asupra conținutului."
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "Leagă accesările AI de un subiect în statistici și vă concentrează scrisul pe o singură întrebare clară."
+
+msgid "Contains a list or table"
+msgstr "Conține o listă sau un tabel"
+
+msgid "Contains concrete numbers or data"
+msgstr "Conține cifre sau date concrete"
+
+msgid "Content & freshness signals"
+msgstr "Semnale de conținut și actualitate"
+
+msgid "Contents"
+msgstr "Conținut"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "Control asupra celor care vă pot citi conținutul: permiteți boții care vă citează, blocați-i pe cei care doar iau – cu un avertisment clar înainte de a bloca ceva ce v-ar costa vizibilitate."
+
+msgid "Could not load statistics."
+msgstr "Statisticile nu au putut fi încărcate."
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "Numără vizitatorii AI din spatele cache-urilor de pagină completă (beacon)"
+
+msgid "Data"
+msgstr "Date"
+
+msgid "Date range"
+msgstr "Interval de date"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "Șterge toate datele modulului la dezinstalare"
+
+msgid "Details in the dashboard:"
+msgstr "Detalii în panou:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "Detectat prin domeniul referrer și prin utm_source (ChatGPT adaugă utm_source=chatgpt.com la linkurile citate, care rămâne chiar și când referrer-ul este eliminat). Notă: multe vizite AI sosesc fără referrer, deci numărul real este mai mare decât poate arăta orice instrument."
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "Răspuns direct în primul paragraf (20–120 de cuvinte)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "Dezactivat. Nu costă nimic și ajută agenții AI să înțeleagă structura site-ului dumneavoastră."
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "Dezactivat. Datele structurate sunt cea mai ieftină modalitate de a face conținutul lizibil de mașini."
+
+msgid "Dismiss"
+msgstr "Închide"
+
+msgid "Email me on citation alerts"
+msgstr "Trimite-mi email la alertele de citare"
+
+msgid "Empty = the site admin email address."
+msgstr "Gol = adresa de email a administratorului site-ului."
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "Fiecare vizită a unui bot AI, sortată după ce înseamnă pentru dumneavoastră (agent, regăsire, antrenare)."
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "Fiecare punct este o pagină citită de AI în ultimele 30 de zile: dreapta = citită des, jos = scor GEO slab. Punctele din dreapta jos sunt cele mai mari câștiguri – dați clic pe un punct pentru a edita pagina."
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "Fiecare articol și pagină publicată, evaluate după cele 13 verificări GEO – sortate astfel încât cele mai mari oportunități de citare să apară primele, alături de interesul AI pe care îl primește deja fiecare pagină."
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "Totul este gratuit, rulează pe serverul dumneavoastră și nu stochează date personale. Serviciile externe sunt contactate doar de funcționalitățile opționale care menționează acest lucru. Fiecare opțiune vă spune ce beneficiu vă aduce."
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "Exemplu: /articolul-meu/ devine /articolul-meu.md. Necesită legături permanente prietenoase. Markdown-ul este generat din conținut din mers și marcat noindex, astfel încât să nu concureze niciodată cu pagina HTML în căutare."
+
+msgid "Export CSV"
+msgstr "Exportă CSV"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "Evidențiază în llms.txt (conținut cheie)"
+
+msgid "Feeds"
+msgstr "Fluxuri"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "Vă preia pagina live pentru că o persoană reală tocmai a întrebat un AI despre ea. Trafic cu cea mai mare intenție – blocarea îi respinge pe acești cititori."
+
+msgid "Filter by AI"
+msgstr "Filtrează după AI"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "Primii vizitatori umani de la %s! Conținutul dumneavoastră este citat acolo."
+
+msgid "Flows: which AI reads which page"
+msgstr "Fluxuri: ce AI citește care pagină"
+
+msgid "Focus term"
+msgstr "Termen principal"
+
+msgid "Focus term appears in the title"
+msgstr "Termenul principal apare în titlu"
+
+msgid "Focus term set"
+msgstr "Termen principal setat"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "Pentru majoritatea site-urilor, vizitatorii din răspunsurile AI reprezintă astăzi un procent mic, de o singură cifră, din ce trimite Google – dar această pondere crește abrupt în fiecare trimestru. Scopul de a începe acum este să deveniți o sursă consacrată înaintea concurenților."
+
+msgid "GEO Audit"
+msgstr "Audit GEO"
+
+msgid "GEO Settings"
+msgstr "Setări GEO"
+
+msgid "GEO check (AI visibility)"
+msgstr "Verificare GEO (vizibilitate AI)"
+
+msgid "GEO score"
+msgstr "Scor GEO"
+
+msgid "GEO status of your site"
+msgstr "Starea GEO a site-ului dumneavoastră"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "Interes AI ridicat, scor scăzut – remediați-le pe acestea mai întâi."
+
+msgid "Home"
+msgstr "Acasă"
+
+msgid "Hour"
+msgstr "Ora"
+
+msgid "How does an AI even reach my website?"
+msgstr "Cum ajunge un AI pe site-ul meu?"
+
+msgid "How it works"
+msgstr "Cum funcționează"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "Cum funcționează – GEO explicat pe înțelesul tuturor"
+
+msgid "Human visitors from AI answers"
+msgstr "Vizitatori umani din răspunsurile AI"
+
+msgid "I already did"
+msgstr "Am făcut-o deja"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "Verificarea identității este dezactivată. User-agent-urile pot fi falsificate – activați verificarea în setări pentru a separa boții AI reali de impostori."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "Dacă modulul vă este util, ați lăsa o scurtă recenzie pe WordPress.org? Durează un minut și îi ajută pe alți proprietari de site-uri să îl găsească. Mulțumim!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "Important: în spatele unui CDN, IP-ul conexiunii directe este proxy-ul – fiecare bot real ar fi marcat drept impostor. Selectați configurația dumneavoastră astfel încât să fie folosit IP-ul original al vizitatorului. Activați doar un antet pe care proxy-ul îl setează efectiv, altfel aceste antete pot fi falsificate."
+
+msgid "Include latest posts"
+msgstr "Include cele mai recente articole"
+
+msgid "Include pages"
+msgstr "Include paginile"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "IndexNow este un protocol deschis acceptat de Bing, Seznam, Naver și alții. La fiecare publicare, actualizare sau retragere, modulul trimite URL-ul public plus cheia site-ului către API-ul IndexNow – nu se transmite nimic altceva. Un fișier cheie este servit automat de pe site pentru verificare. Dacă un alt modul trimite deja către IndexNow (de ex. Rank Math sau modulul oficial Bing), lăsați opțiunea dezactivată pentru a evita pinguri duplicate."
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: pinguri de indexare instantanee"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "Indexare instantanee (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "Linkurile interne sunt căile pe care crawlerele și sistemele de regăsire le urmează pentru a descoperi conținutul înrudit – paginile orfane sunt citite mai puțin."
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "Impact invizibil: mai mare decât numărul de clicuri."
+
+msgid "It measures"
+msgstr "Măsoară"
+
+msgid "It optimizes"
+msgstr "Optimizează"
+
+msgid "Job title / role"
+msgstr "Funcție / rol"
+
+msgid "Keep statistics for"
+msgstr "Păstrează statisticile timp de"
+
+msgid "Key content"
+msgstr "Conținut cheie"
+
+msgid "Last seen"
+msgstr "Văzut ultima dată"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "Ultima trimitere: %1$s la %2$s."
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "Stânga: boți AI, dreapta: paginile dumneavoastră. Lățimea benzii = accesări. Treceți cu mouse-ul peste o bandă pentru numărul exact."
+
+msgid "Links to at least one external source"
+msgstr "Trimite către cel puțin o sursă externă"
+
+msgid "Links to at least one other page on your site"
+msgstr "Trimite către cel puțin o altă pagină a site-ului"
+
+msgid "Log AI bot accesses"
+msgstr "Înregistrează accesările boților AI"
+
+msgid "Log human visitors from AI answers"
+msgstr "Înregistrează vizitatorii umani din răspunsurile AI"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "Metadatele lizibile de mașini ajută sistemele AI să vă înțeleagă și să vă atribuie conținutul."
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "Versiuni lizibile de mașini ale conținutului (llms.txt, pagini Markdown, date structurate) – astfel încât sistemele AI să vă înțeleagă site-ul cu cât mai puține obstacole."
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "Transformarea site-ului într-o sursă pe care sistemele AI o găsesc, o înțeleg și o citează se numește GEO (Generative Engine Optimization). Este aceeași idee ca SEO, doar pentru răspunsuri AI în loc de linkuri albastre – și pentru că încă puține site-uri o fac, cei care încep devreme sunt disproporționat de vizibili."
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "Gestionează regulile pentru crawlerele AI în robots.txt"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "Mulți oameni citesc răspunsul AI care vă citează și nu dau niciodată clic – dar v-au văzut numele ca sursă. Aceasta este o vizibilitate a mărcii pe care nicio statistică nu o poate surprinde complet; citarea în sine este câștigul."
+
+msgid "Mark all as read"
+msgstr "Marchează toate ca citite"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "Versiune Markdown a fiecărei pagini (URL-uri .md)"
+
+msgid "Max. entries per section"
+msgstr "Nr. max. de intrări pe secțiune"
+
+msgid "Maybe later"
+msgstr "Poate mai târziu"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "Între timp: remediați tot ce nu este verde în panoul de stare de mai jos și setați termeni principali pe cele mai importante pagini."
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "Tot mai mulți oameni nu își mai scriu întrebările în Google – îi întreabă pe ChatGPT, Perplexity, Copilot sau Claude. AI-ul citește câteva site-uri, scrie un singur răspuns și își numește sursele. Dacă site-ul dumneavoastră este una dintre aceste surse, sunteți menționat și primiți un link. Dacă nu, sunteți invizibil în acea conversație – chiar dacă vă clasați bine în Google-ul clasic."
+
+msgid "Most active AI bots"
+msgstr "Cei mai activi boți AI"
+
+msgid "Name (defaults to site title)"
+msgstr "Nume (implicit titlul site-ului)"
+
+msgid "Needs attention"
+msgstr "Necesită atenție"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Conținutul nou și actualizat este trimis către Bing & co. în câteva minute. Bing alimentează Copilot și părți din căutarea ChatGPT – indexarea mai rapidă înseamnă citări AI mai rapide."
+
+msgid "New here? How it all works, in plain language."
+msgstr "Sunteți nou aici? Cum funcționează totul, pe înțelesul tuturor."
+
+msgid "Next"
+msgstr "Următor"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "Încă nu există accesări AI pe paginile evaluate în ultimele 30 de zile – harta se completează pe măsură ce sistemele AI vă citesc conținutul."
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "Încă nu au fost preluate intervale IP – prima descărcare rulează în următoarea oră (sau când se declanșează cron-ul zilnic)."
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "Încă nu a fost trimis niciun URL – următoarea publicare sau actualizare va declanșa primul ping."
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "Încă nu există accesări de boți în ultimele 7 zile."
+
+msgid "No data for this AI in the selected range."
+msgstr "Nu există date pentru acest AI în intervalul selectat."
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "Încă nu există date. Accesările AI apar aici imediat ce un bot AI cunoscut sau un vizitator trimis de un AI ajunge pe site-ul dumneavoastră."
+
+msgid "No duplicate SEO output"
+msgstr "Fără rezultate SEO duplicate"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "Fără jargon, fără exagerări: ce se întâmplă, ce face acest modul în privința asta și la ce rezultate vă puteți aștepta realist."
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "Niciun alt modul SEO activ – Wille GEO furnizează singur schema și metaetichetele."
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "Fără paragrafe prea lungi (max. 150 de cuvinte fiecare)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "Nu a fost găsit niciun fișier robots.txt fizic – regulile pentru crawlerele AI configurate în Wille GEO sunt active."
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "Nu a fost găsit niciun fișier robots.txt fizic. Nu sunt configurate blocări de crawlere AI în Wille GEO, deci robots.txt implicit al WordPress este servit nemodificat."
+
+msgid "No published content to audit yet."
+msgstr "Încă nu există conținut publicat de auditat."
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "Nu a fost găsit niciun sitemap. WordPress include unul în mod implicit – un modul sau o setare l-ar fi putut dezactiva."
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "Niciun instrument nu poate forța un AI să vă citeze. Sistemele AI citează pagini care răspund la o întrebare reală în mod clar, concret și credibil. Acest modul face exact acest lucru măsurabil și sistematic mai ușor – elimină fiecare obstacol tehnic și vă arată ce funcționează. Substanța trebuie totuși să vină de la dumneavoastră."
+
+msgid "No – use the direct connection IP"
+msgstr "Nu – folosește IP-ul conexiunii directe"
+
+msgid "Not allowed."
+msgstr "Nu este permis."
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "Dezactivat. User-agent-urile pot fi falsificate; activarea verificării separă boții AI reali de impostori (preia liste IP publice o dată pe zi)."
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "Dezactivat. Fără el, indexurile de căutare relevante pentru AI află de conținutul nou doar când vă parcurg din nou site-ul – activarea IndexNow reduce acest timp la câteva minute."
+
+msgid "Official profiles (sameAs)"
+msgstr "Profiluri oficiale (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "La cerere, dovada: boții impostori care falsifică un nume celebru sunt demascați prin listele IP oficiale ale companiilor AI."
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "O dată pe zi, modulul descarcă listele IP publice pe care OpenAI, Anthropic, Perplexity, Google și Microsoft le publică pentru crawlerele lor și marchează fiecare accesare înregistrată ca verificată, eșuată (identitate pretinsă de la un IP străin) sau neverificată. IP-ul vizitatorului este comparat doar în memorie și nu este stocat niciodată. Deoarece face cereri externe, este opțional."
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "Un URL pe linie (LinkedIn, GitHub, X, site personal …). Permite sistemelor AI să verifice acest autor ca o persoană reală și coerentă – un semnal E-E-A-T esențial."
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "Una sau două propoziții: cine sunteți și despre ce este site-ul dumneavoastră."
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "Deschideți orice articol în editor – panoul „Verificare GEO” din bara laterală vă ghidează exact prin acești pași în timp ce scrieți."
+
+msgid "Open improvements"
+msgstr "Îmbunătățiri deschise"
+
+msgid "Open the full dashboard"
+msgstr "Deschideți panoul complet"
+
+msgid "Open the settings"
+msgstr "Deschideți setările"
+
+msgid "Open the statistics dashboard"
+msgstr "Deschideți panoul de statistici"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "Deschideți cele mai importante cinci pagini și setați pentru fiecare un termen principal: întrebarea sau subiectul pentru care această pagină trebuie să fie RĂSPUNSUL."
+
+msgid "Opportunity map"
+msgstr "Harta oportunităților"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "Generează meta descrierea și previzualizările sociale (Open Graph)"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "Generează date structurate schema.org (JSON-LD)"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "Generează WebSite, Organization/Person, Article (cu date și autor) și breadcrumbs. Sistemele de regăsire AI folosesc aceste semnale pentru a evalua actualitatea și credibilitatea."
+
+msgid "Page"
+msgstr "Pagină"
+
+msgid "Pages"
+msgstr "Pagini"
+
+msgid "Pages AI read most"
+msgstr "Paginile cele mai citite de AI"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "Oamenii pun întrebări asistenților AI. Titlurile care reflectă aceste întrebări vă leagă conținutul direct de prompturi reale – și alimentează schema FAQ automată."
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "Fixați cele mai bune pagini ca și conținut cheie, astfel încât llms.txt să conducă agenții AI direct la ele."
+
+msgid "Ping IndexNow on publish and update"
+msgstr "Trimite ping IndexNow la publicare și actualizare"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "Conținutul fixat apare primul în llms.txt și llms-full.txt – paginile pe care doriți cel mai mult să le citească sistemele AI."
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "Sunt active legăturile permanente simple (Setări → Legături permanente). Endpointurile Markdown și fișierul cheie IndexNow nu pot fi servite, iar URL-urile lizibile ajută orice crawler."
+
+msgid "Post"
+msgstr "Articol"
+
+msgid "Post not found."
+msgstr "Articolul nu a fost găsit."
+
+msgid "Posts"
+msgstr "Articole"
+
+msgid "Pretty permalinks enabled"
+msgstr "Legături permanente prietenoase activate"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "Confidențialitate: acest modul nu stochează adrese IP, nu setează cookie-uri și nu face cereri externe în mod implicit. Singurele excepții sunt două funcționalități opționale pe care le controlați: verificarea boților (descarcă o dată pe zi listele IP publice ale crawlerelor) și IndexNow (trimite URL-urile publicate către API-ul IndexNow). Toate statisticile rămân în baza de date WordPress."
+
+msgid "Profile URLs (sameAs)"
+msgstr "URL-uri de profil (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "Calitate: neobișnuit de ridicată."
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "Evaluați Wille GEO pe WordPress.org (se deschide într-o filă nouă)"
+
+msgid "Rate ★★★★★"
+msgstr "Evaluați ★★★★★"
+
+msgid "Re-scan"
+msgstr "Rescanează"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "URL-urile lizibile sunt active – endpointurile .md și fișierul cheie IndexNow funcționează."
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "Oameni reali care vin din răspunsurile AI – câștigul real, pe fiecare AI și pe fiecare pagină."
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "Oameni reali care au dat clic pe linkul dumneavoastră în ChatGPT, Perplexity & co. Acesta este câștigul GEO."
+
+msgid "Recipient"
+msgstr "Destinatar"
+
+msgid "Reload page"
+msgstr "Reîncarcă pagina"
+
+msgid "Retrieval"
+msgstr "Regăsire"
+
+msgid "Retrieval (citation index)"
+msgstr "Regăsire (index de citări)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "Boții de regăsire și agent vă pot citi paginile – puteți apărea în răspunsurile AI."
+
+msgid "Retrieval bots"
+msgstr "Boți de regăsire"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "Boții de regăsire trebuie mai întâi să găsească și să recitească paginile îmbunătățite. Așteptați-vă la primele efecte măsurabile după câteva săptămâni și la un verdict corect după trei până la șase luni – panoul vă arată tendința pe tot parcursul."
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "Boții de regăsire folosesc sitemap-ul pentru a descoperi rapid conținutul nou."
+
+msgid "Review Wille GEO"
+msgstr "Recenzie Wille GEO"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "Regulile sunt adăugate la robots.txt generat de WordPress. Un fișier robots.txt fizic în rădăcina web le-ar suprascrie – panoul de stare de pe pagina de statistici vă avertizează dacă există unul. Rețineți că robots.txt se bazează pe bună-credință; boții cunoscuți îl respectă."
+
+msgid "Running GEO checks …"
+msgstr "Se rulează verificările GEO …"
+
+msgid "Save settings"
+msgstr "Salvează setările"
+
+msgid "Score distribution"
+msgstr "Distribuția scorurilor"
+
+msgid "Search"
+msgstr "Căutare"
+
+msgid "Search (feeds AI answers)"
+msgstr "Căutare (alimentează răspunsurile AI)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "Motoarele de căutare și crawlerele AI pot indexa site-ul."
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "Vedeți ce AI (ChatGPT, Claude, Perplexity…) citește fiecare dintre paginile dumneavoastră – și optimizați site-ul pentru căutarea AI (GEO). Gratuit, fără date personale."
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "Trimite prin email un raport săptămânal de vizibilitate AI"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "Trimis de modulul Wille GEO. Puteți dezactiva oricând acest raport din Wille GEO → Setări."
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "Trimis prin sistemul obișnuit de email al WordPress, doar când a existat efectiv activitate AI în acea săptămână – site-urile liniștite nu primesc niciodată spam. Îl puteți declanșa și manual cu comanda WP-CLI „wp geoins report”."
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "Servește /llms-full.txt cu conținutul complet"
+
+msgid "Serve a generated /llms.txt"
+msgstr "Servește un /llms.txt generat"
+
+msgid "Served at %s."
+msgstr "Servit la %s."
+
+msgid "Settings"
+msgstr "Setări"
+
+msgid "Short site description (optional)"
+msgstr "Scurtă descriere a site-ului (opțional)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "Paragrafele scurte, de sine stătătoare, sunt unitatea pe care sistemele AI o preiau în răspunsuri. Blocurile lungi sunt sărite."
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "Afișează o dată vizibilă „Actualizat la” pe articolele revizuite"
+
+msgid "Show all AIs"
+msgstr "Arată toate AI-urile"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "Afișată deasupra conținutului, doar când articolul a fost revizuit semnificativ (la mai mult de două zile după publicare). dateModified lizibil de mașini este mereu în datele structurate, indiferent de acest comutator."
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "Prezentat sistemelor AI ca expertiză lizibilă de mașini (schema.org jobTitle), de ex. „Senior WordPress Developer”."
+
+msgid "Site represents"
+msgstr "Site-ul reprezintă"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "Site-ul rulează în spatele unui proxy/CDN?"
+
+msgid "Site visible to crawlers"
+msgstr "Site vizibil pentru crawlere"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "Cine ajunge la dumneavoastră dintr-un răspuns AI a citit deja un rezumat și vrea profunzime – studiile și datele din magazine online arată constant că acești vizitatori convertesc vizibil mai bine decât traficul mediu din căutare. Mai puțini vizitatori, dar mai interesați."
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "Nu aveți permisiunea de a face asta."
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "Viteză: conținutul nou și actualizat este anunțat motoarelor de căutare în câteva minute (IndexNow) – cu cât este indexat mai repede, cu atât un AI îl poate cita mai repede."
+
+msgid "Statistics"
+msgstr "Statistici"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "Statisticile și cifrele concrete cresc măsurabil șansa de a fi citat – răspunsurile AI adoră cifrele verificabile."
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "Fragmentele structurate (liste, tabele) sunt extrase și citate de AI mult mai des decât blocurile compacte de text."
+
+msgid "Structured data & meta tags"
+msgstr "Date structurate și metaetichete"
+
+msgid "Structured data (schema.org)"
+msgstr "Date structurate (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "Sigur, scriu o recenzie"
+
+msgid "Table of contents"
+msgstr "Cuprins"
+
+msgid "Term"
+msgstr "Termen"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "Termeni și pagini: ce AI citește ce?"
+
+msgid "The audit table needs JavaScript."
+msgstr "Tabelul de audit necesită JavaScript."
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "Beaconul rulează doar pentru vizitatorii neautentificați, verifică doar dacă vizita a venit de la un AI cunoscut (domeniu referrer sau utm_source) și abia apoi raportează sursa și calea paginii către propriul site. Fără cookie-uri, fără IP-uri, fără fingerprinting, fără serviciu extern. Numărarea dublă cu urmărirea pe server este prevenită automat. Lăsați opțiunea dezactivată dacă site-ul nu folosește cache de pagină completă – urmărirea PHP vede deja totul."
+
+msgid "The honest limit: content decides."
+msgstr "Limita onestă: conținutul decide."
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "Fișierul robots.txt fizic blochează %s. Acești boți vă aduc în răspunsurile AI – editați fișierul pentru a-i debloca (regulile configurate aici rămân inactive cât timp fișierul există)."
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "Fișierul robots.txt fizic blochează TOATE crawlerele (User-agent: * / Disallow: /). Niciun motor de căutare și niciun sistem AI nu vă poate citi site-ul – editați fișierul."
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "Fișierul robots.txt fizic blochează implicit toate crawlerele (User-agent: * / Disallow: /); doar crawlerele cu propriile reguli de excepție în fișier vă pot citi site-ul. Orice sistem AI fără excepție este blocat – editați fișierul."
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "Panoul de statistici asociază fiecare accesare AI cu acest termen. Gol = titlul articolului."
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "Panoul de statistici necesită JavaScript. Folosiți în schimb exportul CSV sau WP-CLI (wp geoins stats)."
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "Apoi lăsați-l să ruleze. Verificați panoul săptămânal (sau activați raportul prin email) și investiți acolo unde interesul AI se vede deja – acolo citările sunt cel mai aproape."
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "Aceste user-agent-uri par a fi sisteme AI, dar nu sunt încă în registru – așa că accesările lor NU apar în statisticile de mai sus. Intrările frecvente merită adăugate prin filtrul geoins_bots (sau raportate autorului modulului)."
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "Acest modul recunoaște acești boți la fiecare vizită și vă arată în panou: ce AI citește care dintre paginile dumneavoastră, cât de des și pentru ce subiect. Iar când o persoană dă clic pe linkul către site-ul dumneavoastră dintr-un răspuns AI, și acea vizită este numărată – acesta este momentul în care vizibilitatea AI devine un potențial client."
+
+msgid "Timeline: weeks to months, not days."
+msgstr "Calendar: săptămâni până la luni, nu zile."
+
+msgid "Title"
+msgstr "Titlu"
+
+msgid "Tracking"
+msgstr "Urmărire"
+
+msgid "Training"
+msgstr "Antrenare"
+
+msgid "Training bots"
+msgstr "Boți de antrenare"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "Două lucruri: măsoară și optimizează. Totul rulează pe propriul server, nu se trimite nimic nicăieri, iar fiecare comutator din setări își explică beneficiul înainte să îl activați."
+
+msgid "Updated"
+msgstr "Actualizat"
+
+msgid "Updated on %s"
+msgstr "Actualizat la %s"
+
+msgid "Updated within the last 12 months"
+msgstr "Actualizat în ultimele 12 luni"
+
+msgid "User agent"
+msgstr "User-agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "Verifică identitatea boților după intervalele IP oficiale"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "Paginile foarte sărace conțin rareori suficientă substanță pe care un AI să își bazeze un răspuns."
+
+msgid "View your key file"
+msgstr "Vizualizați fișierul cheie"
+
+msgid "View your llms-full.txt"
+msgstr "Vizualizați llms-full.txt"
+
+msgid "View your llms.txt"
+msgstr "Vizualizați llms.txt"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "Expertiza vizibilă (un autor real cu biografie) alimentează semnalele E-E-A-T pe care sistemele AI le folosesc pentru a alege surse de încredere."
+
+msgid "Volume: still small, growing fast."
+msgstr "Volum: încă mic, în creștere rapidă."
+
+msgid "Waiting for the first AI visit"
+msgstr "Se așteaptă prima vizită AI"
+
+msgid "Weekly email report"
+msgstr "Raport săptămânal prin email"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "La ce mă pot aștepta realist? Un răspuns onest"
+
+msgid "What does the plugin actually do for me?"
+msgstr "Ce face concret modulul pentru mine?"
+
+msgid "What happened"
+msgstr "Ce s-a întâmplat"
+
+msgid "What is happening right now?"
+msgstr "Ce se întâmplă chiar acum?"
+
+msgid "When do AIs read your site?"
+msgstr "Când vă citesc AI-urile site-ul?"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "De unde încep? Cinci pași, 30 de minute"
+
+msgid "Which AI bots?"
+msgstr "Ce boți AI?"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "Ce AI v-a citit paginile și care răspunsuri AI v-au trimis vizitatori umani."
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "Ce AI citește care dintre paginile dumneavoastră, pentru ce termen – și care răspunsuri AI vă aduc efectiv vizitatori umani."
+
+msgid "Why does this matter?"
+msgstr "De ce contează?"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Wille GEO este activ."
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Wille GEO este creat de %1$s. Vă este util? O recenzie de %2$s pe WordPress.org îi ajută pe alții să îl găsească – mulțumim!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "Wille GEO a observat pe %s:"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: semnale despre autor (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "Parcurgeți lista de verificare GEO pe acele pagini – în special: răspundeți direct la întrebarea principală în primul paragraf și transformați titlurile în întrebări reale."
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "Funcționează pe articole și pagini cu cel puțin două titluri-întrebare (H2/H3 care se termină cu semnul întrebării). Nu este nevoie de muncă suplimentară – scrieți întrebările ca titluri, iar schema urmează."
+
+msgid "XML sitemap available"
+msgstr "Sitemap XML disponibil"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "Da, Cloudflare (CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "Da, alt proxy (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "Blocați %s. Acești boți vă aduc în răspunsurile AI – blocarea lor vă elimină din citări."
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "Primiți acest mesaj deoarece alertele de citare prin email sunt activate în Wille GEO → Setări."
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "Fișierul cheie IndexNow nu este accesibil de pe propriul server, așa că pingurile sunt întrerupte. Cauze obișnuite: legături permanente simple (remediați în Setări → Legături permanente) sau un modul de securitate care blochează cererile loopback. După remediere, salvați din nou aceste setări – verificarea rulează din nou la scurt timp după salvare."
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "Verificarea sesiunii a expirat – reîncărcați pagina pentru a continua."
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] Vizibilitate AI săptămâna aceasta: %2$d accesări AI, %3$d vizitatori AI"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] Semnal nou de vizibilitate AI"
+
+msgid "a person"
+msgstr "o persoană"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "o persoană reală tocmai a pus o întrebare unui AI, iar AI-ul vă citește pagina chiar acum pentru a răspunde. Acesta este cel mai valoros semnal posibil: cineva este interesat de subiectul dumneavoastră chiar în acest moment."
+
+msgid "accesses"
+msgstr "accesări"
+
+msgid "an organization"
+msgstr "o organizație"
+
+msgid "blocking costs citations"
+msgstr "blocarea costă citări"
+
+msgid "blocking is safe for citations"
+msgstr "blocarea nu afectează citările"
+
+msgid "by %s"
+msgstr "de %s"
+
+msgid "days"
+msgstr "zile"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "de ex. modul de backup WordPress"
+
+msgid "forever"
+msgstr "pentru totdeauna"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "impostori"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "llms.txt disponibil"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "llms.txt este un standard tânăr: o prezentare Markdown a celui mai important conținut al dumneavoastră la /llms.txt. Este generat automat din paginile și articolele dumneavoastră și păstrat în cache timp de 12 ore."
+
+msgid "more"
+msgstr "mai mult"
+
+msgid "new"
+msgstr "nou"
+
+msgid "pages"
+msgstr "pagini"
+
+msgid "passed"
+msgstr "trecut"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "construiesc biblioteca din care AI-ul citează ulterior. Prezența în această bibliotecă decide dacă puteți fi citat sau nu."
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "colectează text pentru a antrena viitoare modele AI. Nu vă aduc nici vizitatori, nici citări. Dacă îi permiteți este pur și simplu o decizie privind drepturile asupra conținutului – blocarea lor nu vă costă nimic."
+
+msgid "unchecked"
+msgstr "neverificat"
+
+msgid "verified"
+msgstr "verificat"
+
+msgid "visitors"
+msgstr "vizitatori"
+
+msgid "vs. previous period"
+msgstr "față de perioada anterioară"

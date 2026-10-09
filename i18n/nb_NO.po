@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nb_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wille-geo-ai-visibility\n"
+
+msgid "\"Discourage search engines\" is enabled (Settings → Reading). No AI system can find you until this is turned off."
+msgstr "«Be søkemotorer om ikke å indeksere dette nettstedet» er slått på (Innstillinger → Lesing). Ingen KI-systemer kan finne deg før dette slås av."
+
+msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
+msgstr "%1$d IP-områder fra %2$d leverandører, sist oppdatert %3$s."
+
+msgid "%s (training crawler) visited your site for the first time."
+msgstr "%s (treningscrawler) besøkte nettstedet ditt for første gang."
+
+msgid "%s crawled your site for the first time – a citation-relevant AI is now reading you."
+msgstr "%s crawlet nettstedet ditt for første gang – en siteringsrelevant KI leser deg nå."
+
+msgid "%s detected – Wille GEO automatically leaves schema and meta tags to it and only adds what is missing (tracking, llms.txt, robots control, GEO checks)."
+msgstr "%s oppdaget – Wille GEO overlater automatisk schema og metatagger til den og legger bare til det som mangler (sporing, llms.txt, robots-kontroll, GEO-sjekker)."
+
+msgid "%s is active. To avoid duplicate output, Wille GEO automatically leaves schema and meta tags to it – the toggles below are ignored while it runs. Everything else (tracking, llms.txt, robots control, GEO checks) works alongside it."
+msgstr "%s er aktiv. For å unngå dobbel utdata overlater Wille GEO automatisk schema og metatagger til den – bryterne nedenfor ignoreres så lenge den kjører. Alt annet (sporing, llms.txt, robots-kontroll, GEO-sjekker) fungerer side om side med den."
+
+msgid "(opens in a new tab)"
+msgstr "(åpnes i en ny fane)"
+
+msgid "1 year"
+msgstr "1 år"
+
+msgid "180 days"
+msgstr "180 dager"
+
+msgid "30 days"
+msgstr "30 dager"
+
+msgid "7-day average"
+msgstr "7-dagers snitt"
+
+msgid "90 days"
+msgstr "90 dager"
+
+msgid "A clean Markdown version of every page is available by appending .md to its URL."
+msgstr "En ren Markdown-versjon av hver side er tilgjengelig ved å legge til .md på URL-en."
+
+msgid "A live checklist while you write: thirteen concrete, explained criteria that make a page quotable for AI (answer first, question headings, lists, numbers, freshness …)."
+msgstr "En sjekkliste i sanntid mens du skriver: tretten konkrete, forklarte kriterier som gjør en side siterbar for KI (svaret først, spørsmålsoverskrifter, lister, tall, aktualitet …)."
+
+msgid "A physical robots.txt exists and does not contain the blocks you configured here (%s) – they have no effect until you add them to the file or delete it."
+msgstr "Det finnes en fysisk robots.txt, og den inneholder ikke blokkeringene du har satt opp her (%s) – de har ingen effekt før du legger dem til i filen eller sletter den."
+
+msgid "A physical robots.txt file exists but could not be read for analysis. It overrides the rules configured here – check it manually."
+msgstr "Det finnes en fysisk robots.txt-fil, men den kunne ikke leses for analyse. Den overstyrer reglene som er satt opp her – sjekk den manuelt."
+
+msgid "A physical robots.txt file exists, but it is currently fine: it blocks no citation-relevant AI bots and matches your configuration. Note: the rules configured here stay inactive while the file exists."
+msgstr "Det finnes en fysisk robots.txt-fil, men den er i orden for øyeblikket: den blokkerer ingen siteringsrelevante KI-boter og samsvarer med oppsettet ditt. Merk: reglene som er satt opp her, er inaktive så lenge filen finnes."
+
+msgid "A realistic example: a specialist site with 50 solid articles that adopts the GEO checklist should expect its first AI citations and a small but steadily growing stream of high-intent visitors within a few months – think of it as opening a second, still-small door to your business that gets wider every month, not as replacing Google."
+msgstr "Et realistisk eksempel: et fagnettsted med 50 solide artikler som tar i bruk GEO-sjekklisten, kan forvente sine første KI-siteringer og en liten, men jevnt voksende strøm av besøkende med høy intensjon i løpet av noen måneder – tenk på det som å åpne en ny, fortsatt liten dør til virksomheten din som blir bredere for hver måned, ikke som en erstatning for Google."
+
+msgid "AI (30d)"
+msgstr "KI (30d)"
+
+msgid "AI Statistics"
+msgstr "KI-statistikk"
+
+msgid "AI accesses"
+msgstr "KI-tilganger"
+
+msgid "AI accesses (30d)"
+msgstr "KI-tilganger (30d)"
+
+msgid "AI accesses per day"
+msgstr "KI-tilganger per dag"
+
+msgid "AI assistants quote self-contained answer blocks. If the first paragraph answers the core question, it is the easiest thing to cite."
+msgstr "KI-assistenter siterer selvstendige svarblokker. Hvis første avsnitt besvarer kjernespørsmålet, er det det enkleste å sitere."
+
+msgid "AI bot accesses and visitors from AI answers are being recorded from now on – data appears as soon as the first AI reaches your site."
+msgstr "Tilganger fra KI-boter og besøkende fra KI-svar registreres fra nå av – data vises så snart den første KI-en når nettstedet ditt."
+
+msgid "AI bot accesses in the last 30 days – open the statistics dashboard"
+msgstr "Tilganger fra KI-boter de siste 30 dagene – åpne statistikkpanelet"
+
+msgid "AI companies send automated visitors – bots – to your site. They identify themselves by name, and the name tells you exactly why they came. Three kinds matter, and they mean very different things for your business:"
+msgstr "KI-selskaper sender automatiserte besøkende – boter – til nettstedet ditt. De identifiserer seg med navn, og navnet forteller deg nøyaktig hvorfor de kom. Tre typer er viktige, og de betyr svært forskjellige ting for virksomheten din:"
+
+msgid "AI companies: share of accesses"
+msgstr "KI-selskaper: andel av tilganger"
+
+msgid "AI crawler access (robots.txt)"
+msgstr "KI-crawleres tilgang (robots.txt)"
+
+msgid "AI crawlers do not transmit search queries. This matrix maps every access to the focus term of the page (set it in the GEO check box on the edit screen) – the honest, practical equivalent."
+msgstr "KI-crawlere sender ikke med søkeord. Denne matrisen knytter hver tilgang til sidens fokusbegrep (angis i GEO-sjekkboksen i redigeringsvinduet) – det ærlige, praktiske alternativet."
+
+msgid "AI radar: unrecognized AI-like crawlers"
+msgstr "KI-radar: ukjente KI-lignende crawlere"
+
+msgid "AI search prefers fresh sources; the modification date is sent in your structured data. Reviewing content yearly keeps you citable."
+msgstr "KI-søk foretrekker ferske kilder; endringsdatoen sendes med i de strukturerte dataene dine. Gjennomgår du innholdet årlig, forblir du siterbar."
+
+msgid "AI source"
+msgstr "KI-kilde"
+
+msgid "AI systems match questions against titles first – a clear title makes your page the obvious source."
+msgstr "KI-systemer matcher spørsmål mot titler først – en tydelig tittel gjør siden din til den opplagte kilden."
+
+msgid "AI systems read your site %s times in the last 30 days – Wille GEO is doing its job."
+msgstr "KI-systemer har lest nettstedet ditt %s ganger de siste 30 dagene – Wille GEO gjør jobben sin."
+
+msgid "AI visibility, last 7 days"
+msgstr "KI-synlighet, siste 7 dager"
+
+msgid "AI visitor spike: %1$d visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Topp i KI-besøk: %1$d besøkende fra KI-svar i går (snitt i det siste: %2$s/dag)."
+
+msgid "AI visitor spike: %1$s visitors from AI answers yesterday (recent average: %2$s/day)."
+msgstr "Topp i KI-besøk: %1$s besøkende fra KI-svar i går (snitt i det siste: %2$s/dag)."
+
+msgid "AI visitors"
+msgstr "KI-besøkende"
+
+msgid "AI visitors: landing pages"
+msgstr "KI-besøkende: landingssider"
+
+msgid "Across all scored pages. Every point up is one more criterion your typical page fulfils."
+msgstr "På tvers av alle vurderte sider. Hvert poeng opp er ett kriterium til som en typisk side hos deg oppfyller."
+
+msgid "Add exact update times (lastmod) to the XML sitemap"
+msgstr "Legg til nøyaktige oppdateringstidspunkter (lastmod) i XML-nettstedskartet"
+
+msgid "Adds anchor IDs to all H2/H3 headings and, on posts with three or more headings, inserts a compact linked table of contents before the first H2. Styling is minimal and inherits your theme fonts and colors."
+msgstr "Legger til anker-ID-er på alle H2/H3-overskrifter og setter inn en kompakt, lenket innholdsfortegnelse før første H2 i innlegg med tre eller flere overskrifter. Stilen er minimal og arver skrifttyper og farger fra temaet ditt."
+
+msgid "Adds each post's real modification time to the WordPress core sitemap. Only active while the core sitemap runs; SEO plugins that replace the sitemap are unaffected."
+msgstr "Legger til hvert innleggs faktiske endringstidspunkt i WordPress-kjernens nettstedskart. Bare aktivt mens kjernens nettstedskart kjører; SEO-utvidelser som erstatter nettstedskartet, påvirkes ikke."
+
+msgid "Agent"
+msgstr "Agent"
+
+msgid "Agent (live user request)"
+msgstr "Agent (sanntidsforespørsel fra bruker)"
+
+msgid "Agent + Retrieval = citation-relevant: an AI read your page to answer a real question. Training only feeds models."
+msgstr "Agent + henting = relevant for sitering: en KI leste siden din for å svare på et ekte spørsmål. Trening mater bare modeller."
+
+msgid "Agent bots"
+msgstr "Agentboter"
+
+msgid "Alerts always appear in the dashboard; this additionally sends them by email (bundled, at most one mail per day). Uses the recipient below."
+msgstr "Varsler vises alltid i panelet; dette sender dem i tillegg på e-post (samlet, maks. én e-post per dag). Bruker mottakeren nedenfor."
+
+msgid "All AIs"
+msgstr "Alle KI-er"
+
+msgid "All checks passed"
+msgstr "Alle sjekker bestått"
+
+msgid "All images have alt text"
+msgstr "Alle bilder har alternativ tekst"
+
+msgid "All types"
+msgstr "Alle typer"
+
+msgid "Allow all bots"
+msgstr "Tillat alle boter"
+
+msgid "Alt text is how AI systems understand your images – and a long-standing accessibility and ranking signal. Pages without images pass automatically."
+msgstr "Alternativ tekst er måten KI-systemer forstår bildene dine på – og et veletablert signal for tilgjengelighet og rangering. Sider uten bilder består automatisk."
+
+msgid "Analyzing content … %1$s of %2$s done"
+msgstr "Analyserer innhold … %1$s av %2$s ferdig"
+
+msgid "Area = accesses in the selected range. Click a company to zoom into its individual bots."
+msgstr "Areal = tilganger i valgt tidsrom. Klikk på et selskap for å zoome inn på de enkelte botene."
+
+msgid "At least 300 words"
+msgstr "Minst 300 ord"
+
+msgid "At least one heading phrased as a question"
+msgstr "Minst én overskrift formulert som et spørsmål"
+
+msgid "Author has a profile description"
+msgstr "Forfatteren har en profilbeskrivelse"
+
+msgid "Auto-generate FAQ schema from question headings"
+msgstr "Generer FAQ-schema automatisk fra spørsmålsoverskrifter"
+
+msgid "Automatic table of contents with heading anchors"
+msgstr "Automatisk innholdsfortegnelse med overskriftsankre"
+
+msgid "Average GEO score"
+msgstr "Gjennomsnittlig GEO-poengsum"
+
+msgid "Be skeptical of anyone promising you a flood of customers from AI search. Here is the honest picture:"
+msgstr "Vær skeptisk til alle som lover deg en flom av kunder fra KI-søk. Her er det ærlige bildet:"
+
+msgid "Benefit: Bing & co. fetch new and updated content within minutes instead of days. Bing feeds Microsoft Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Fordel: Bing og co. henter nytt og oppdatert innhold i løpet av minutter i stedet for dager. Bing mater Microsoft Copilot og deler av ChatGPT-søket – raskere indeksering betyr raskere KI-siteringer."
+
+msgid "Benefit: a machine-readable site summary for AI agents. Honest take: the big crawlers rarely fetch it yet – but coding/IDE agents do, it costs nothing and positions you as the standard grows."
+msgstr "Fordel: et maskinlesbart sammendrag av nettstedet for KI-agenter. Ærlig talt: de store crawlerne henter den sjelden ennå – men kode-/IDE-agenter gjør det, det koster ingenting og posisjonerer deg mens standarden vokser."
+
+msgid "Benefit: agents that want more than the overview get your complete key content as clean Markdown in a single file."
+msgstr "Fordel: agenter som vil ha mer enn oversikten, får det viktigste innholdet ditt komplett som ren Markdown i én fil."
+
+msgid "Benefit: appending .md to any URL returns pure Markdown – no theme markup, no scripts. Cheaper for AI agents to read and advertised via a link tag on every page."
+msgstr "Fordel: legger du til .md på en URL, får du ren Markdown – uten temamarkering og uten skript. Billigere for KI-agenter å lese, og annonsert via en link-tagg på hver side."
+
+msgid "Benefit: cached pages never run PHP, so AI visitors on them are invisible to server-side tracking. This tiny browser beacon (<1 kB) closes that gap."
+msgstr "Fordel: bufrede sider kjører aldri PHP, så KI-besøkende på dem er usynlige for sporing på serversiden. Denne lille nettleser-beaconen (<1 kB) tetter det hullet."
+
+msgid "Benefit: clean snippets in search, chats and social apps – generated from your excerpt or content, zero maintenance."
+msgstr "Fordel: ryddige utdrag i søk, chatter og sosiale apper – generert fra utdraget eller innholdet ditt, helt uten vedlikehold."
+
+msgid "Benefit: decide per bot who may read your content – with a clear warning before you block anything that costs you AI citations."
+msgstr "Fordel: bestem per bot hvem som får lese innholdet ditt – med en tydelig advarsel før du blokkerer noe som koster deg KI-siteringer."
+
+msgid "Benefit: every section gets a deep link (#section) that AI systems and search engines can cite precisely, and readers can jump to the answer."
+msgstr "Fordel: hver seksjon får en dyplenke (#seksjon) som KI-systemer og søkemotorer kan sitere presist, og leserne kan hoppe rett til svaret."
+
+msgid "Benefit: freshness is a ranking and citation signal – and the visible date is what search snippets and AI answers actually pick up."
+msgstr "Fordel: aktualitet er et signal for rangering og sitering – og den synlige datoen er det søkeutdrag og KI-svar faktisk fanger opp."
+
+msgid "Benefit: headings ending in “?” plus their answers become FAQ structured data – exactly the Q&A format AI assistants quote."
+msgstr "Fordel: overskrifter som slutter med «?», sammen med svarene, blir strukturerte FAQ-data – akkurat det spørsmål-og-svar-formatet KI-assistenter siterer."
+
+msgid "Benefit: keeps your database small. Older entries are deleted automatically once a day."
+msgstr "Fordel: holder databasen din liten. Eldre oppføringer slettes automatisk én gang om dagen."
+
+msgid "Benefit: know the moment it matters – the first crawl by a new AI, the first visitors from an AI assistant, or a sudden spike in AI visitors."
+msgstr "Fordel: få vite det i det øyeblikket det betyr noe – første crawl fra en ny KI, de første besøkende fra en KI-assistent eller en plutselig topp i KI-besøk."
+
+msgid "Benefit: leaves your database exactly as it was. Off by default so your statistics survive a reinstall."
+msgstr "Fordel: etterlater databasen nøyaktig slik den var. Av som standard, slik at statistikken overlever en reinstallasjon."
+
+msgid "Benefit: machine-readable article, author, date and site metadata – the cheapest way to help AI systems understand and correctly attribute your content."
+msgstr "Fordel: maskinlesbare metadata om artikkel, forfatter, dato og nettsted – den billigste måten å hjelpe KI-systemer med å forstå og kreditere innholdet ditt riktig."
+
+msgid "Benefit: measure the actual payoff of GEO – people who click through to you from ChatGPT, Perplexity & co."
+msgstr "Fordel: mål den faktiske gevinsten av GEO – folk som klikker seg videre til deg fra ChatGPT, Perplexity og lignende."
+
+msgid "Benefit: one profile URL per line (LinkedIn, GitHub, YouTube, Wikipedia …). AI systems use these links to recognize you as one consistent, trustworthy entity across the web (E-E-A-T)."
+msgstr "Fordel: én profil-URL per linje (LinkedIn, GitHub, YouTube, Wikipedia …). KI-systemer bruker disse lenkene til å gjenkjenne deg som én konsistent, troverdig enhet på tvers av nettet (E-E-A-T)."
+
+msgid "Benefit: search engines use reliable lastmod values to recrawl changed pages faster – updated content reaches AI answers sooner. WordPress core omits this field."
+msgstr "Fordel: søkemotorer bruker pålitelige lastmod-verdier til å crawle endrede sider raskere på nytt – oppdatert innhold når KI-svar tidligere. WordPress-kjernen utelater dette feltet."
+
+msgid "Benefit: see which AI (ChatGPT, Claude, Perplexity …) reads which page – the basis of all statistics."
+msgstr "Fordel: se hvilken KI (ChatGPT, Claude, Perplexity …) som leser hvilken side – grunnlaget for all statistikk."
+
+msgid "Benefit: the statistics dashboard maps every AI access to this term, so you can see which AI reads your content for which topic. Without it, the post title is used."
+msgstr "Fordel: statistikkpanelet knytter hver KI-tilgang til dette begrepet, så du ser hvilken KI som leser innholdet ditt for hvilket tema. Uten det brukes innleggets tittel."
+
+msgid "Benefit: user agents can be faked. This separates real AI bots from impostors, so your statistics show provable AI interest."
+msgstr "Fordel: user agents kan forfalskes. Dette skiller ekte KI-boter fra bedragere, slik at statistikken din viser beviselig KI-interesse."
+
+msgid "Benefit: your AI numbers come to you – totals with trend, top bots, AI visitors, most-read pages and anything that needs attention, once a week."
+msgstr "Fordel: KI-tallene dine kommer til deg – totaler med trend, toppboter, KI-besøkende, mest leste sider og alt som trenger oppmerksomhet, én gang i uken."
+
+msgid "Block all training bots"
+msgstr "Blokker alle treningsboter"
+
+msgid "Bot accesses of the last 7 days by weekday and hour, in your site’s timezone. Publishing before the busy hours gets new content read sooner."
+msgstr "Bottilganger de siste 7 dagene etter ukedag og time, i nettstedets tidssone. Publiserer du før de travle timene, blir nytt innhold lest raskere."
+
+msgid "Bot hits are checked against the official IP ranges of OpenAI, Anthropic, Perplexity, Google and Microsoft – impostors are flagged in your statistics."
+msgstr "Bottreff sjekkes mot de offisielle IP-områdene til OpenAI, Anthropic, Perplexity, Google og Microsoft – bedragere merkes i statistikken din."
+
+msgid "Bot identity"
+msgstr "Botidentitet"
+
+msgid "Bot identity verification"
+msgstr "Verifisering av botidentitet"
+
+msgid "Bots are recognized by their official user-agent signatures. Stored per access: bot name, category, page and time – nothing else. No IP addresses, no cookies, no personal data, fully GDPR-friendly."
+msgstr "Boter gjenkjennes på sine offisielle user-agent-signaturer. Per tilgang lagres: botnavn, kategori, side og tidspunkt – ingenting annet. Ingen IP-adresser, ingen informasjonskapsler, ingen personopplysninger, fullt GDPR-vennlig."
+
+msgid "Builds the index AI search engines cite from. Blocking removes you from cited AI answers – usually a bad idea."
+msgstr "Bygger indeksen KI-søkemotorer siterer fra. Blokkering fjerner deg fra siterte KI-svar – vanligvis en dårlig idé."
+
+msgid "Check the GEO status panel on the statistics page – fix anything that is not green. That removes the technical blockers."
+msgstr "Sjekk GEO-statuspanelet på statistikksiden – rett opp alt som ikke er grønt. Det fjerner de tekniske hindrene."
+
+msgid "Checked = blocked via robots.txt. Google-Extended and Applebot-Extended are pure opt-out tokens: blocking them excludes you from Google/Apple AI training without affecting normal search."
+msgstr "Avkrysset = blokkert via robots.txt. Google-Extended og Applebot-Extended er rene opt-out-tokener: blokkerer du dem, utelukkes du fra Googles/Apples KI-trening uten at vanlig søk påvirkes."
+
+msgid "Citation-relevant AI bots allowed"
+msgstr "Siteringsrelevante KI-boter er tillatt"
+
+msgid "Citing sources signals trustworthiness – a core ranking factor for AI retrieval systems."
+msgstr "Kildehenvisninger signaliserer troverdighet – en sentral rangeringsfaktor for KI-hentesystemer."
+
+msgid "Classic SEO does not become worthless – Google is still the biggest source of visitors for most sites. GEO comes on top: the same clear, well-structured content that AI systems love also tends to rank better in classic search. You lose nothing by optimizing for both."
+msgstr "Klassisk SEO blir ikke verdiløs – Google er fortsatt den største kilden til besøkende for de fleste nettsteder. GEO kommer i tillegg: det samme tydelige, velstrukturerte innholdet som KI-systemer elsker, rangerer også gjerne bedre i klassisk søk. Du taper ingenting på å optimalisere for begge."
+
+msgid "Classic search crawling that also feeds AI assistants (Bing feeds Copilot and parts of ChatGPT search). Blocking removes you from that search engine too."
+msgstr "Klassisk søkecrawling som også mater KI-assistenter (Bing mater Copilot og deler av ChatGPT-søket). Blokkering fjerner deg også fra den søkemotoren."
+
+msgid "Collects content for model training. Blocking costs you nothing in AI search – it is purely a content-rights decision."
+msgstr "Samler inn innhold til modelltrening. Blokkering koster deg ingenting i KI-søk – det er rent et spørsmål om rettigheter til innholdet."
+
+msgid "Connects AI accesses to a topic in your statistics and focuses your writing on one clear question."
+msgstr "Knytter KI-tilganger til et tema i statistikken og fokuserer skrivingen din på ett tydelig spørsmål."
+
+msgid "Contains a list or table"
+msgstr "Inneholder en liste eller tabell"
+
+msgid "Contains concrete numbers or data"
+msgstr "Inneholder konkrete tall eller data"
+
+msgid "Content & freshness signals"
+msgstr "Innholds- og aktualitetssignaler"
+
+msgid "Contents"
+msgstr "Innhold"
+
+msgid "Control over who may read your content: allow the bots that cite you, block the ones that only take – with a clear warning before you block something that would cost you visibility."
+msgstr "Kontroll over hvem som får lese innholdet ditt: tillat botene som siterer deg, blokker dem som bare tar – med en tydelig advarsel før du blokkerer noe som ville kostet deg synlighet."
+
+msgid "Could not load statistics."
+msgstr "Kunne ikke laste statistikken."
+
+msgid "Count AI visitors behind full-page caches (beacon)"
+msgstr "Tell KI-besøkende bak helsidebuffer (beacon)"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "Date range"
+msgstr "Tidsrom"
+
+msgid "Delete all plugin data on uninstall"
+msgstr "Slett alle utvidelsesdata ved avinstallering"
+
+msgid "Details in the dashboard:"
+msgstr "Detaljer i panelet:"
+
+msgid "Detected via the referrer domain and via utm_source (ChatGPT appends utm_source=chatgpt.com to cited links, which survives even when the referrer is stripped). Note: many AI visits arrive without any referrer, so the real number is higher than what any tool can show."
+msgstr "Oppdages via referrer-domenet og via utm_source (ChatGPT legger til utm_source=chatgpt.com på siterte lenker, noe som overlever selv når referreren fjernes). Merk: mange KI-besøk kommer uten referrer, så det reelle tallet er høyere enn noe verktøy kan vise."
+
+msgid "Direct answer in the first paragraph (20–120 words)"
+msgstr "Direkte svar i første avsnitt (20–120 ord)"
+
+msgid "Disabled. It costs nothing and helps AI agents understand your site structure."
+msgstr "Deaktivert. Det koster ingenting og hjelper KI-agenter å forstå strukturen på nettstedet ditt."
+
+msgid "Disabled. Structured data is the cheapest way to make your content machine-readable."
+msgstr "Deaktivert. Strukturerte data er den billigste måten å gjøre innholdet ditt maskinlesbart på."
+
+msgid "Dismiss"
+msgstr "Avvis"
+
+msgid "Email me on citation alerts"
+msgstr "Send meg e-post ved siteringsvarsler"
+
+msgid "Empty = the site admin email address."
+msgstr "Tomt = e-postadressen til nettstedets administrator."
+
+msgid "Every AI bot visit, sorted by what it means for you (agent, retrieval, training)."
+msgstr "Hvert besøk fra KI-boter, sortert etter hva det betyr for deg (agent, henting, trening)."
+
+msgid "Every dot is a page AI read in the last 30 days: right = read often, low = weak GEO score. Bottom-right dots are your biggest wins – click a dot to edit the page."
+msgstr "Hvert punkt er en side KI leste de siste 30 dagene: til høyre = lest ofte, lavt = svak GEO-poengsum. Punktene nederst til høyre er de største gevinstene dine – klikk på et punkt for å redigere siden."
+
+msgid "Every published post and page against the 13 GEO checks – sorted so the biggest citation opportunities surface first, next to the AI interest each page already gets."
+msgstr "Hvert publisert innlegg og hver side mot de 13 GEO-sjekkene – sortert slik at de største siteringsmulighetene kommer først, ved siden av KI-interessen hver side allerede får."
+
+msgid "Everything is free, runs on your server and stores no personal data. External services are only contacted by the opt-in features that say so. Every option tells you what you get from it."
+msgstr "Alt er gratis, kjører på din egen server og lagrer ingen personopplysninger. Eksterne tjenester kontaktes bare av valgfrie funksjoner som sier det tydelig. Hvert valg forteller deg hva du får ut av det."
+
+msgid "Example: /my-post/ becomes /my-post.md. Requires pretty permalinks. The Markdown is generated from your content on the fly and marked noindex so it never competes with the HTML page in search."
+msgstr "Eksempel: /mitt-innlegg/ blir /mitt-innlegg.md. Krever lesbare permalenker. Markdown-versjonen genereres fortløpende fra innholdet ditt og merkes noindex, så den aldri konkurrerer med HTML-siden i søk."
+
+msgid "Export CSV"
+msgstr "Eksporter CSV"
+
+msgid "Feature in llms.txt (key content)"
+msgstr "Fremhev i llms.txt (nøkkelinnhold)"
+
+msgid "Feeds"
+msgstr "Strømmer"
+
+msgid "Fetches your page live because a real person just asked an AI about it. Highest-intent traffic – blocking turns these readers away."
+msgstr "Henter siden din i sanntid fordi en ekte person nettopp spurte en KI om den. Trafikk med høyest intensjon – blokkering avviser disse leserne."
+
+msgid "Filter by AI"
+msgstr "Filtrer etter KI"
+
+msgid "First human visitors from %s! Your content is being cited there."
+msgstr "De første menneskelige besøkende fra %s! Innholdet ditt blir sitert der."
+
+msgid "Flows: which AI reads which page"
+msgstr "Flyt: hvilken KI leser hvilken side"
+
+msgid "Focus term"
+msgstr "Fokusbegrep"
+
+msgid "Focus term appears in the title"
+msgstr "Fokusbegrepet står i tittelen"
+
+msgid "Focus term set"
+msgstr "Fokusbegrep angitt"
+
+msgid "For most sites, visitors from AI answers are today a low single-digit percentage of what Google sends – but that share has been climbing steeply every quarter. The point of starting now is being established as a source before your competitors are."
+msgstr "For de fleste nettsteder utgjør besøkende fra KI-svar i dag en lav ensifret prosentandel av det Google sender – men andelen har steget kraftig hvert kvartal. Poenget med å starte nå er å bli etablert som kilde før konkurrentene dine."
+
+msgid "GEO Audit"
+msgstr "GEO-revisjon"
+
+msgid "GEO Settings"
+msgstr "GEO-innstillinger"
+
+msgid "GEO check (AI visibility)"
+msgstr "GEO-sjekk (KI-synlighet)"
+
+msgid "GEO score"
+msgstr "GEO-poengsum"
+
+msgid "GEO status of your site"
+msgstr "GEO-status for nettstedet ditt"
+
+msgid "High AI interest, low score – fix these first."
+msgstr "Høy KI-interesse, lav poengsum – rett opp disse først."
+
+msgid "Home"
+msgstr "Hjem"
+
+msgid "Hour"
+msgstr "Time"
+
+msgid "How does an AI even reach my website?"
+msgstr "Hvordan når en KI i det hele tatt nettstedet mitt?"
+
+msgid "How it works"
+msgstr "Slik fungerer det"
+
+msgid "How it works – GEO explained in plain language"
+msgstr "Slik fungerer det – GEO forklart enkelt"
+
+msgid "Human visitors from AI answers"
+msgstr "Menneskelige besøkende fra KI-svar"
+
+msgid "I already did"
+msgstr "Det har jeg allerede gjort"
+
+msgid "Identity verification is off. User agents can be faked – enable verification in the settings to separate real AI bots from impostors."
+msgstr "Identitetsverifisering er av. User agents kan forfalskes – slå på verifisering i innstillingene for å skille ekte KI-boter fra bedragere."
+
+msgid "If the plugin helps you, would you leave a short review on WordPress.org? It takes a minute and helps other site owners find it. Thank you!"
+msgstr "Hvis utvidelsen hjelper deg, vil du legge igjen en kort vurdering på WordPress.org? Det tar et minutt og hjelper andre nettstedseiere å finne den. Takk!"
+
+msgid "Important: behind a CDN the direct connection IP is the proxy – every real bot would be flagged as an impostor. Select your setup so the original visitor IP is used. Only enable a header your proxy actually sets, because these headers can be faked otherwise."
+msgstr "Viktig: bak en CDN er IP-en fra den direkte tilkoblingen proxyen – hver ekte bot ville blitt merket som bedrager. Velg oppsettet ditt slik at den opprinnelige besøks-IP-en brukes. Slå bare på en header som proxyen din faktisk setter, ellers kan disse headerne forfalskes."
+
+msgid "Include latest posts"
+msgstr "Ta med nyeste innlegg"
+
+msgid "Include pages"
+msgstr "Ta med sider"
+
+msgid "IndexNow is an open protocol supported by Bing, Seznam, Naver and others. On every publish, update or unpublish the plugin sends the public URL plus your site key to the IndexNow API – nothing else is transmitted. A key file is served automatically from your site for verification. If another plugin already submits to IndexNow (e.g. Rank Math or the official Bing plugin), leave this off to avoid duplicate pings."
+msgstr "IndexNow er en åpen protokoll som støttes av Bing, Seznam, Naver og andre. Ved hver publisering, oppdatering eller avpublisering sender utvidelsen den offentlige URL-en og nettstedsnøkkelen din til IndexNow-API-et – ingenting annet overføres. En nøkkelfil leveres automatisk fra nettstedet ditt for verifisering. Hvis en annen utvidelse allerede sender til IndexNow (f.eks. Rank Math eller den offisielle Bing-utvidelsen), lar du dette være av for å unngå doble ping."
+
+msgid "IndexNow: instant indexing pings"
+msgstr "IndexNow: ping for umiddelbar indeksering"
+
+msgid "Instant indexing (IndexNow)"
+msgstr "Umiddelbar indeksering (IndexNow)"
+
+msgid "Internal links are the paths crawlers and retrieval systems follow to discover your related content – orphan pages get read less."
+msgstr "Interne lenker er stiene crawlere og hentesystemer følger for å oppdage relatert innhold – foreldreløse sider blir lest mindre."
+
+msgid "Invisible impact: bigger than the click numbers."
+msgstr "Usynlig effekt: større enn klikktallene."
+
+msgid "It measures"
+msgstr "Den måler"
+
+msgid "It optimizes"
+msgstr "Den optimaliserer"
+
+msgid "Job title / role"
+msgstr "Stillingstittel / rolle"
+
+msgid "Keep statistics for"
+msgstr "Behold statistikk i"
+
+msgid "Key content"
+msgstr "Nøkkelinnhold"
+
+msgid "Last seen"
+msgstr "Sist sett"
+
+msgid "Last submitted: %1$s on %2$s."
+msgstr "Sist sendt inn: %1$s den %2$s."
+
+msgid "Left: AI bots, right: your pages. Band width = accesses. Hover a band for the exact count."
+msgstr "Venstre: KI-boter, høyre: sidene dine. Båndbredde = tilganger. Hold pekeren over et bånd for å se nøyaktig antall."
+
+msgid "Links to at least one external source"
+msgstr "Lenker til minst én ekstern kilde"
+
+msgid "Links to at least one other page on your site"
+msgstr "Lenker til minst én annen side på nettstedet ditt"
+
+msgid "Log AI bot accesses"
+msgstr "Logg tilganger fra KI-boter"
+
+msgid "Log human visitors from AI answers"
+msgstr "Logg menneskelige besøkende fra KI-svar"
+
+msgid "Lucas Wille"
+msgstr "Lucas Wille"
+
+msgid "Machine-readable metadata helps AI systems understand and attribute your content."
+msgstr "Maskinlesbare metadata hjelper KI-systemer med å forstå og kreditere innholdet ditt."
+
+msgid "Machine-readable versions of your content (llms.txt, Markdown pages, structured data) – so AI systems understand your site with as little friction as possible."
+msgstr "Maskinlesbare versjoner av innholdet ditt (llms.txt, Markdown-sider, strukturerte data) – slik at KI-systemer forstår nettstedet ditt med minst mulig friksjon."
+
+msgid "Making your site a source AI systems find, understand and cite is called GEO (Generative Engine Optimization). It is the same idea as SEO, just for AI answers instead of blue links – and because far fewer sites do it yet, early movers are disproportionately visible."
+msgstr "Å gjøre nettstedet ditt til en kilde som KI-systemer finner, forstår og siterer, kalles GEO (Generative Engine Optimization). Det er samme idé som SEO, bare for KI-svar i stedet for blå lenker – og fordi langt færre nettsteder gjør det ennå, blir de som er tidlig ute, uforholdsmessig synlige."
+
+msgid "Manage AI crawler rules in robots.txt"
+msgstr "Administrer regler for KI-crawlere i robots.txt"
+
+msgid "Many people read the AI answer that cites you and never click – but they saw your name as the source. That is brand visibility no statistic can fully capture; the citation itself is the win."
+msgstr "Mange leser KI-svaret som siterer deg, og klikker aldri – men de så navnet ditt som kilde. Det er merkevaresynlighet ingen statistikk fullt ut kan fange; selve siteringen er gevinsten."
+
+msgid "Mark all as read"
+msgstr "Merk alle som lest"
+
+msgid "Markdown version of every page (.md URLs)"
+msgstr "Markdown-versjon av hver side (.md-URL-er)"
+
+msgid "Max. entries per section"
+msgstr "Maks. oppføringer per seksjon"
+
+msgid "Maybe later"
+msgstr "Kanskje senere"
+
+msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
+msgstr "I mellomtiden: rett opp alt som ikke er grønt i statuspanelet nedenfor, og angi fokusbegreper på de viktigste sidene dine."
+
+msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
+msgstr "Stadig flere skriver ikke lenger spørsmålene sine inn i Google – de spør ChatGPT, Perplexity, Copilot eller Claude. KI-en leser en håndfull nettsteder, skriver ett svar og oppgir kildene sine. Er nettstedet ditt en av disse kildene, blir du nevnt og lenket til. Hvis ikke, er du usynlig i den samtalen – selv om du rangerer godt i klassisk Google."
+
+msgid "Most active AI bots"
+msgstr "Mest aktive KI-boter"
+
+msgid "Name (defaults to site title)"
+msgstr "Navn (standard er nettstedets tittel)"
+
+msgid "Needs attention"
+msgstr "Trenger oppmerksomhet"
+
+msgid "New and updated content is pushed to Bing & co. within minutes. Bing feeds Copilot and parts of ChatGPT search – faster indexing means faster AI citations."
+msgstr "Nytt og oppdatert innhold sendes til Bing og co. i løpet av minutter. Bing mater Copilot og deler av ChatGPT-søket – raskere indeksering betyr raskere KI-siteringer."
+
+msgid "New here? How it all works, in plain language."
+msgstr "Ny her? Slik fungerer alt, forklart enkelt."
+
+msgid "Next"
+msgstr "Neste"
+
+msgid "No AI accesses on scored pages in the last 30 days yet – the map fills up as AI systems read your content."
+msgstr "Ingen KI-tilganger på vurderte sider de siste 30 dagene ennå – kartet fylles etter hvert som KI-systemer leser innholdet ditt."
+
+msgid "No IP ranges fetched yet – the first download runs within the next hour (or when the daily cron fires)."
+msgstr "Ingen IP-områder hentet ennå – den første nedlastingen kjøres i løpet av neste time (eller når den daglige cron-jobben kjører)."
+
+msgid "No URL submitted yet – the next publish or update will trigger the first ping."
+msgstr "Ingen URL sendt inn ennå – neste publisering eller oppdatering utløser det første pinget."
+
+msgid "No bot accesses in the last 7 days yet."
+msgstr "Ingen bottilganger de siste 7 dagene ennå."
+
+msgid "No data for this AI in the selected range."
+msgstr "Ingen data for denne KI-en i valgt tidsrom."
+
+msgid "No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site."
+msgstr "Ingen data ennå. KI-tilganger vises her så snart en kjent KI-bot eller en besøkende fra et KI-svar når nettstedet ditt."
+
+msgid "No duplicate SEO output"
+msgstr "Ingen duplisert SEO-utdata"
+
+msgid "No jargon, no hype: what is happening, what this plugin does about it, and what results you can realistically expect."
+msgstr "Ingen faguttrykk, ingen hype: hva som skjer, hva denne utvidelsen gjør med det, og hvilke resultater du realistisk kan forvente."
+
+msgid "No other SEO plugin active – Wille GEO provides schema and meta tags itself."
+msgstr "Ingen annen SEO-utvidelse er aktiv – Wille GEO leverer schema og metatagger selv."
+
+msgid "No overlong paragraphs (max. 150 words each)"
+msgstr "Ingen altfor lange avsnitt (maks. 150 ord hver)"
+
+msgid "No physical robots.txt file found – the AI crawler rules configured in Wille GEO are active."
+msgstr "Fant ingen fysisk robots.txt-fil – reglene for KI-crawlere som er satt opp i Wille GEO, er aktive."
+
+msgid "No physical robots.txt file found. No AI crawler blocks are configured in Wille GEO, so the WordPress default robots.txt is served unchanged."
+msgstr "Fant ingen fysisk robots.txt-fil. Ingen blokkeringer av KI-crawlere er satt opp i Wille GEO, så WordPress’ standard robots.txt leveres uendret."
+
+msgid "No published content to audit yet."
+msgstr "Ingen publisert innhold å revidere ennå."
+
+msgid "No sitemap found. WordPress ships one by default – a plugin or setting may have disabled it."
+msgstr "Fant ikke noe nettstedskart. WordPress leverer ett som standard – en utvidelse eller innstilling kan ha deaktivert det."
+
+msgid "No tool can force an AI to cite you. AI systems cite pages that answer a real question clearly, concretely and credibly. This plugin makes exactly that measurable and systematically easier – it removes every technical obstacle and shows you what works. The substance still has to come from you."
+msgstr "Ingen verktøy kan tvinge en KI til å sitere deg. KI-systemer siterer sider som besvarer et ekte spørsmål tydelig, konkret og troverdig. Denne utvidelsen gjør nettopp det målbart og systematisk enklere – den fjerner alle tekniske hindre og viser deg hva som virker. Substansen må fortsatt komme fra deg."
+
+msgid "No – use the direct connection IP"
+msgstr "Nei – bruk IP-en fra den direkte tilkoblingen"
+
+msgid "Not allowed."
+msgstr "Ikke tillatt."
+
+msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
+msgstr "Av. User agents kan forfalskes; verifisering skiller ekte KI-boter fra bedragere (henter offentlige IP-lister én gang om dagen)."
+
+msgid "Off. Without it, AI-relevant search indexes only learn about new content when they crawl you again – enabling IndexNow speeds that up to minutes."
+msgstr "Av. Uten dette får KI-relevante søkeindekser bare vite om nytt innhold når de crawler deg på nytt – IndexNow korter det ned til minutter."
+
+msgid "Official profiles (sameAs)"
+msgstr "Offisielle profiler (sameAs)"
+
+msgid "On request, proof: impostor bots that fake a famous name are unmasked via the official IP lists of the AI companies."
+msgstr "Ved behov, bevis: bedragerboter som utgir seg for å være et kjent navn, avsløres via KI-selskapenes offisielle IP-lister."
+
+msgid "Once a day the plugin downloads the public IP lists that OpenAI, Anthropic, Perplexity, Google and Microsoft publish for their crawlers and marks each logged hit as verified, failed (claimed identity from a foreign IP) or unchecked. The visitor IP is compared in memory only and never stored. Because it makes external requests, it is opt-in."
+msgstr "Én gang om dagen laster utvidelsen ned de offentlige IP-listene som OpenAI, Anthropic, Perplexity, Google og Microsoft publiserer for crawlerne sine, og merker hvert loggført treff som verifisert, mislykket (påstått identitet fra en fremmed IP) eller ikke sjekket. Besøks-IP-en sammenlignes bare i minnet og lagres aldri. Fordi dette gjør eksterne forespørsler, må det slås på aktivt."
+
+msgid "One URL per line (LinkedIn, GitHub, X, personal site …). Lets AI systems verify this author as one consistent, real person – a core E-E-A-T signal."
+msgstr "Én URL per linje (LinkedIn, GitHub, X, personlig nettsted …). Lar KI-systemer bekrefte denne forfatteren som én konsistent, ekte person – et sentralt E-E-A-T-signal."
+
+msgid "One or two sentences: who you are and what your site covers."
+msgstr "Én eller to setninger: hvem du er og hva nettstedet handler om."
+
+msgid "Open any post in the editor – the “GEO check” panel in the sidebar walks you through exactly these steps while you write."
+msgstr "Åpne et hvilket som helst innlegg i redigeringsverktøyet – panelet «GEO-sjekk» i sidepanelet leder deg gjennom nøyaktig disse stegene mens du skriver."
+
+msgid "Open improvements"
+msgstr "Åpne forbedringer"
+
+msgid "Open the full dashboard"
+msgstr "Åpne hele panelet"
+
+msgid "Open the settings"
+msgstr "Åpne innstillingene"
+
+msgid "Open the statistics dashboard"
+msgstr "Åpne statistikkpanelet"
+
+msgid "Open your five most important pages and set a focus term for each: the question or topic this page should be THE answer for."
+msgstr "Åpne de fem viktigste sidene dine og angi et fokusbegrep for hver: spørsmålet eller temaet denne siden skal være SVARET på."
+
+msgid "Opportunity map"
+msgstr "Mulighetskart"
+
+msgid "Output meta description & social previews (Open Graph)"
+msgstr "Skriv ut metabeskrivelse og forhåndsvisninger for sosiale medier (Open Graph)"
+
+msgid "Output schema.org structured data (JSON-LD)"
+msgstr "Skriv ut strukturerte data fra schema.org (JSON-LD)"
+
+msgid "Outputs WebSite, Organization/Person, Article (with dates and author), and breadcrumbs. AI retrieval systems use these signals to judge freshness and trustworthiness."
+msgstr "Skriver ut WebSite, Organization/Person, Article (med datoer og forfatter) og brødsmuler. KI-hentesystemer bruker disse signalene til å vurdere aktualitet og troverdighet."
+
+msgid "Page"
+msgstr "Side"
+
+msgid "Pages"
+msgstr "Sider"
+
+msgid "Pages AI read most"
+msgstr "Sider KI leste mest"
+
+msgid "People ask AI assistants questions. Headings that mirror those questions map your content directly onto real prompts – and feed the automatic FAQ schema."
+msgstr "Folk stiller KI-assistenter spørsmål. Overskrifter som speiler disse spørsmålene, kobler innholdet ditt direkte til ekte forespørsler – og mater det automatiske FAQ-schemaet."
+
+msgid "Pin your best pages as key content, so llms.txt leads AI agents straight to them."
+msgstr "Fest de beste sidene dine som nøkkelinnhold, slik at llms.txt leder KI-agenter rett til dem."
+
+msgid "Ping IndexNow on publish and update"
+msgstr "Ping IndexNow ved publisering og oppdatering"
+
+msgid "Pinned content appears first in llms.txt and llms-full.txt – the pages you most want AI systems to read."
+msgstr "Festet innhold vises først i llms.txt og llms-full.txt – sidene du helst vil at KI-systemer skal lese."
+
+msgid "Plain permalinks are active (Settings → Permalinks). The Markdown endpoints and the IndexNow key file cannot be served, and readable URLs help every crawler."
+msgstr "Enkle permalenker er aktive (Innstillinger → Permalenker). Markdown-endepunktene og IndexNow-nøkkelfilen kan ikke leveres, og lesbare URL-er hjelper alle crawlere."
+
+msgid "Post"
+msgstr "Innlegg"
+
+msgid "Post not found."
+msgstr "Fant ikke innlegget."
+
+msgid "Posts"
+msgstr "Innlegg"
+
+msgid "Pretty permalinks enabled"
+msgstr "Lesbare permalenker er aktivert"
+
+msgid "Previous"
+msgstr "Forrige"
+
+msgid "Privacy: this plugin stores no IP addresses, sets no cookies, and makes no external requests by default. The only exceptions are two opt-in features that you control: bot verification (downloads public crawler IP lists once a day) and IndexNow (sends published URLs to the IndexNow API). All statistics stay in your WordPress database."
+msgstr "Personvern: denne utvidelsen lagrer ingen IP-adresser, setter ingen informasjonskapsler og gjør som standard ingen eksterne forespørsler. De eneste unntakene er to valgfrie funksjoner du selv styrer: botverifisering (laster ned offentlige IP-lister for crawlere én gang om dagen) og IndexNow (sender publiserte URL-er til IndexNow-API-et). All statistikk blir værende i WordPress-databasen din."
+
+msgid "Profile URLs (sameAs)"
+msgstr "Profil-URL-er (sameAs)"
+
+msgid "Quality: unusually high."
+msgstr "Kvalitet: uvanlig høy."
+
+msgid "Rate Wille GEO on WordPress.org (opens in a new tab)"
+msgstr "Vurder Wille GEO på WordPress.org (åpnes i en ny fane)"
+
+msgid "Rate ★★★★★"
+msgstr "Gi ★★★★★"
+
+msgid "Re-scan"
+msgstr "Skann på nytt"
+
+msgid "Readable URLs are active – .md endpoints and the IndexNow key file work."
+msgstr "Lesbare URL-er er aktive – .md-endepunkter og IndexNow-nøkkelfilen fungerer."
+
+msgid "Real people arriving from AI answers – the actual payoff, per AI and per page."
+msgstr "Ekte mennesker som kommer fra KI-svar – den faktiske gevinsten, per KI og per side."
+
+msgid "Real people who clicked your link inside ChatGPT, Perplexity & co. This is the payoff of GEO."
+msgstr "Ekte mennesker som klikket på lenken din i ChatGPT, Perplexity og lignende. Dette er gevinsten av GEO."
+
+msgid "Recipient"
+msgstr "Mottaker"
+
+msgid "Reload page"
+msgstr "Last inn siden på nytt"
+
+msgid "Retrieval"
+msgstr "Henting"
+
+msgid "Retrieval (citation index)"
+msgstr "Henting (siteringsindeks)"
+
+msgid "Retrieval and agent bots may read your pages – you can appear in AI answers."
+msgstr "Hente- og agentboter kan lese sidene dine – du kan dukke opp i KI-svar."
+
+msgid "Retrieval bots"
+msgstr "Henteboter"
+
+msgid "Retrieval bots need to find and re-read your improved pages first. Expect first measurable effects after a few weeks and a fair verdict after three to six months – the dashboard shows you the trend the whole way."
+msgstr "Henteboter må først finne og lese de forbedrede sidene dine på nytt. Regn med de første målbare effektene etter noen uker og en rettferdig vurdering etter tre til seks måneder – panelet viser deg trenden hele veien."
+
+msgid "Retrieval bots use the sitemap to discover new content quickly."
+msgstr "Henteboter bruker nettstedskartet til å oppdage nytt innhold raskt."
+
+msgid "Review Wille GEO"
+msgstr "Vurder Wille GEO"
+
+msgid "Rules are appended to the WordPress-generated robots.txt. A physical robots.txt file in the web root would override them – the status panel on the statistics page warns you if one exists. Note that robots.txt is an honor system; the well-known bots respect it."
+msgstr "Reglene legges til den robots.txt som WordPress genererer. En fysisk robots.txt-fil i rotkatalogen vil overstyre dem – statuspanelet på statistikksiden advarer deg hvis en slik finnes. Merk at robots.txt bygger på tillit; de kjente botene respekterer den."
+
+msgid "Running GEO checks …"
+msgstr "Kjører GEO-sjekker …"
+
+msgid "Save settings"
+msgstr "Lagre innstillinger"
+
+msgid "Score distribution"
+msgstr "Poengfordeling"
+
+msgid "Search"
+msgstr "Søk"
+
+msgid "Search (feeds AI answers)"
+msgstr "Søk (mater KI-svar)"
+
+msgid "Search engines and AI crawlers may index the site."
+msgstr "Søkemotorer og KI-crawlere kan indeksere nettstedet."
+
+msgid "See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data."
+msgstr "Se hvilken KI (ChatGPT, Claude, Perplexity …) som leser hvilke av sidene dine – og optimaliser nettstedet for KI-søk (GEO). Gratis, ingen personopplysninger."
+
+msgid "Send a weekly AI visibility report by email"
+msgstr "Send en ukentlig rapport om KI-synlighet på e-post"
+
+msgid "Sent by the Wille GEO plugin. Turn this report off any time under Wille GEO → Settings."
+msgstr "Sendt av utvidelsen Wille GEO. Slå av denne rapporten når som helst under Wille GEO → Innstillinger."
+
+msgid "Sent via your normal WordPress mail system, only when there actually was AI activity that week – quiet sites are never spammed. You can also trigger it manually with the WP-CLI command \"wp geoins report\"."
+msgstr "Sendes via det vanlige e-postsystemet i WordPress, og bare når det faktisk var KI-aktivitet den uken – stille nettsteder får aldri spam. Du kan også utløse den manuelt med WP-CLI-kommandoen «wp geoins report»."
+
+msgid "Serve /llms-full.txt with full content"
+msgstr "Lever /llms-full.txt med fullt innhold"
+
+msgid "Serve a generated /llms.txt"
+msgstr "Lever en generert /llms.txt"
+
+msgid "Served at %s."
+msgstr "Leveres på %s."
+
+msgid "Settings"
+msgstr "Innstillinger"
+
+msgid "Short site description (optional)"
+msgstr "Kort beskrivelse av nettstedet (valgfritt)"
+
+msgid "Short, self-contained paragraphs are the unit AI systems lift into answers. Long blocks get skipped."
+msgstr "Korte, selvstendige avsnitt er enheten KI-systemer løfter inn i svar. Lange blokker hoppes over."
+
+msgid "Show a visible \"Updated on\" date on revised posts"
+msgstr "Vis en synlig «Oppdatert»-dato på reviderte innlegg"
+
+msgid "Show all AIs"
+msgstr "Vis alle KI-er"
+
+msgid "Shown above the content, only when the post was meaningfully revised (more than two days after publishing). The machine-readable dateModified is always in your structured data regardless of this switch."
+msgstr "Vises over innholdet, bare når innlegget er vesentlig revidert (mer enn to dager etter publisering). Den maskinlesbare dateModified ligger alltid i de strukturerte dataene dine, uavhengig av denne bryteren."
+
+msgid "Shown to AI systems as machine-readable expertise (schema.org jobTitle), e.g. \"Senior WordPress Developer\"."
+msgstr "Vises for KI-systemer som maskinlesbar ekspertise (schema.org jobTitle), f.eks. «Senior WordPress-utvikler»."
+
+msgid "Site represents"
+msgstr "Nettstedet representerer"
+
+msgid "Site runs behind a proxy/CDN?"
+msgstr "Kjører nettstedet bak en proxy/CDN?"
+
+msgid "Site visible to crawlers"
+msgstr "Nettstedet er synlig for crawlere"
+
+msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
+msgstr "Den som klikker seg videre fra et KI-svar, har allerede lest et sammendrag og vil ha dybden – studier og butikkdata viser gjennomgående at disse besøkende konverterer merkbart bedre enn gjennomsnittlig søketrafikk. Færre besøkende, men varmere."
+
+msgid "Sorry, you are not allowed to do that."
+msgstr "Beklager, du har ikke tillatelse til å gjøre dette."
+
+msgid "Speed: new and updated content is announced to search engines within minutes (IndexNow) – the sooner it is indexed, the sooner an AI can cite it."
+msgstr "Fart: nytt og oppdatert innhold meldes til søkemotorer i løpet av minutter (IndexNow) – jo før det indekseres, jo før kan en KI sitere det."
+
+msgid "Statistics"
+msgstr "Statistikk"
+
+msgid "Statistics and concrete figures measurably increase the chance of being cited – AI answers love verifiable numbers."
+msgstr "Statistikk og konkrete tall øker målbart sjansen for å bli sitert – KI-svar elsker etterprøvbare tall."
+
+msgid "Structured chunks (lists, tables) are extracted and quoted by AI far more often than wall-of-text prose."
+msgstr "Strukturerte biter (lister, tabeller) hentes ut og siteres av KI langt oftere enn lange tekstvegger."
+
+msgid "Structured data & meta tags"
+msgstr "Strukturerte data og metatagger"
+
+msgid "Structured data (schema.org)"
+msgstr "Strukturerte data (schema.org)"
+
+msgid "Sure, write a review"
+msgstr "Klart, jeg skriver en vurdering"
+
+msgid "Table of contents"
+msgstr "Innholdsfortegnelse"
+
+msgid "Term"
+msgstr "Begrep"
+
+msgid "Terms & pages: which AI reads what?"
+msgstr "Begreper og sider: hvilken KI leser hva?"
+
+msgid "The audit table needs JavaScript."
+msgstr "Revisjonstabellen krever JavaScript."
+
+msgid "The beacon runs only for logged-out visitors, only checks whether the visit came from a known AI (referrer domain or utm_source) and only then reports the source and page path to your own site. No cookies, no IPs, no fingerprinting, no external service. Double counting with the server-side tracker is prevented automatically. Leave this off if your site does not use full-page caching – the PHP tracker already sees everything."
+msgstr "Beaconen kjører bare for utloggede besøkende, sjekker bare om besøket kom fra en kjent KI (referrer-domene eller utm_source) og rapporterer først da kilden og sidestien til ditt eget nettsted. Ingen informasjonskapsler, ingen IP-er, ingen fingeravtrykk, ingen ekstern tjeneste. Dobbelttelling med sporingen på serversiden forhindres automatisk. La dette være av hvis nettstedet ditt ikke bruker helsidebuffer – PHP-sporingen ser allerede alt."
+
+msgid "The honest limit: content decides."
+msgstr "Den ærlige begrensningen: innholdet avgjør."
+
+msgid "The physical robots.txt blocks %s. These bots put you into AI answers – edit the file to unblock them (the rules configured here stay inactive while the file exists)."
+msgstr "Den fysiske robots.txt blokkerer %s. Disse botene får deg inn i KI-svar – rediger filen for å oppheve blokkeringen (reglene som er satt opp her, er inaktive så lenge filen finnes)."
+
+msgid "The physical robots.txt blocks ALL crawlers (User-agent: * / Disallow: /). No search engine and no AI system can read your site – edit the file."
+msgstr "Den fysiske robots.txt blokkerer ALLE crawlere (User-agent: * / Disallow: /). Ingen søkemotor og ingen KI-systemer kan lese nettstedet ditt – rediger filen."
+
+msgid "The physical robots.txt blocks all crawlers by default (User-agent: * / Disallow: /); only crawlers with their own exception rules in the file can read your site. Every AI system without an exception is locked out – edit the file."
+msgstr "Den fysiske robots.txt blokkerer alle crawlere som standard (User-agent: * / Disallow: /); bare crawlere med egne unntaksregler i filen kan lese nettstedet ditt. Alle KI-systemer uten unntak er stengt ute – rediger filen."
+
+msgid "The statistics dashboard maps every AI access to this term. Empty = post title."
+msgstr "Statistikkpanelet knytter hver KI-tilgang til dette begrepet. Tomt = innleggets tittel."
+
+msgid "The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead."
+msgstr "Statistikkpanelet krever JavaScript. Bruk CSV-eksporten eller WP-CLI (wp geoins stats) i stedet."
+
+msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
+msgstr "La det så gå sin gang. Sjekk panelet ukentlig (eller slå på e-postrapporten) og invester der KI-interessen allerede viser seg – det er der siteringene er nærmest."
+
+msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
+msgstr "Disse user agents høres ut som KI-systemer, men er ikke i registeret ennå – så treffene deres er IKKE med i statistikken ovenfor. Hyppige oppføringer er verdt å legge til via filteret geoins_bots (eller rapporter dem til utvidelsen)."
+
+msgid "This plugin recognizes these bots on every visit and shows you in the dashboard: which AI reads which of your pages, how often, and for which topic. And when a person clicks the link to your site inside an AI answer, that visit is counted too – that is the moment AI visibility turns into a potential customer."
+msgstr "Denne utvidelsen gjenkjenner disse botene ved hvert besøk og viser deg i panelet: hvilken KI som leser hvilke av sidene dine, hvor ofte og for hvilket tema. Og når en person klikker på lenken til nettstedet ditt i et KI-svar, telles også det besøket – det er øyeblikket KI-synlighet blir til en potensiell kunde."
+
+msgid "Timeline: weeks to months, not days."
+msgstr "Tidslinje: uker til måneder, ikke dager."
+
+msgid "Title"
+msgstr "Tittel"
+
+msgid "Tracking"
+msgstr "Sporing"
+
+msgid "Training"
+msgstr "Trening"
+
+msgid "Training bots"
+msgstr "Treningsboter"
+
+msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr "To ting: den måler, og den optimaliserer. Alt kjører på din egen server, ingenting sendes noe sted, og hver bryter i innstillingene forklarer fordelen før du slår den på."
+
+msgid "Updated"
+msgstr "Oppdatert"
+
+msgid "Updated on %s"
+msgstr "Oppdatert %s"
+
+msgid "Updated within the last 12 months"
+msgstr "Oppdatert i løpet av de siste 12 månedene"
+
+msgid "User agent"
+msgstr "User agent"
+
+msgid "Verify bot identity against official IP ranges"
+msgstr "Verifiser botidentitet mot offisielle IP-områder"
+
+msgid "Very thin pages rarely contain enough substance for an AI to ground an answer on."
+msgstr "Svært tynne sider inneholder sjelden nok substans til at en KI kan bygge et svar på dem."
+
+msgid "View your key file"
+msgstr "Vis nøkkelfilen"
+
+msgid "View your llms-full.txt"
+msgstr "Vis llms-full.txt"
+
+msgid "View your llms.txt"
+msgstr "Vis llms.txt"
+
+msgid "Visible expertise (a real author with a bio) feeds the E-E-A-T signals that AI systems use to pick trustworthy sources."
+msgstr "Synlig ekspertise (en ekte forfatter med biografi) mater E-E-A-T-signalene som KI-systemer bruker for å velge troverdige kilder."
+
+msgid "Volume: still small, growing fast."
+msgstr "Volum: fortsatt lite, men vokser raskt."
+
+msgid "Waiting for the first AI visit"
+msgstr "Venter på det første KI-besøket"
+
+msgid "Weekly email report"
+msgstr "Ukentlig e-postrapport"
+
+msgid "What can I realistically expect? An honest answer"
+msgstr "Hva kan jeg realistisk forvente? Et ærlig svar"
+
+msgid "What does the plugin actually do for me?"
+msgstr "Hva gjør utvidelsen egentlig for meg?"
+
+msgid "What happened"
+msgstr "Hva skjedde"
+
+msgid "What is happening right now?"
+msgstr "Hva skjer akkurat nå?"
+
+msgid "When do AIs read your site?"
+msgstr "Når leser KI-er nettstedet ditt?"
+
+msgid "Where do I start? Five steps, 30 minutes"
+msgstr "Hvor begynner jeg? Fem steg, 30 minutter"
+
+msgid "Which AI bots?"
+msgstr "Hvilke KI-boter?"
+
+msgid "Which AI read your pages, and which AI answers sent you human visitors."
+msgstr "Hvilken KI leste sidene dine, og hvilke KI-svar sendte deg menneskelige besøkende."
+
+msgid "Which AI reads which of your pages, for which term – and which AI answers actually send you human visitors."
+msgstr "Hvilken KI leser hvilke av sidene dine, for hvilket begrep – og hvilke KI-svar som faktisk sender deg menneskelige besøkende."
+
+msgid "Why does this matter?"
+msgstr "Hvorfor er dette viktig?"
+
+msgid "Wille GEO"
+msgstr "Wille GEO"
+
+msgid "Wille GEO is active."
+msgstr "Wille GEO er aktiv."
+
+msgid "Wille GEO is made by %1$s. Does it help you? A %2$s review on WordPress.org helps others find it – thank you!"
+msgstr "Wille GEO er laget av %1$s. Er den til hjelp? En %2$s-vurdering på WordPress.org hjelper andre å finne den – takk!"
+
+msgid "Wille GEO on %s noticed:"
+msgstr "Wille GEO på %s har lagt merke til:"
+
+msgid "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+msgstr "Wille GEO – AI Crawler Stats, llms.txt & AI Visibility"
+
+msgid "Wille GEO: author signals (E-E-A-T)"
+msgstr "Wille GEO: forfattersignaler (E-E-A-T)"
+
+msgid "Work through the GEO checklist on those pages – especially: answer the core question directly in the first paragraph, and turn headings into real questions."
+msgstr "Gå gjennom GEO-sjekklisten på disse sidene – særlig: svar direkte på kjernespørsmålet i første avsnitt, og gjør overskrifter om til ekte spørsmål."
+
+msgid "Works on posts and pages with at least two question headings (H2/H3 ending in a question mark). No extra work needed – write questions as headings and the schema follows."
+msgstr "Fungerer på innlegg og sider med minst to spørsmålsoverskrifter (H2/H3 som slutter med spørsmålstegn). Ingen ekstra arbeid – skriv spørsmål som overskrifter, så følger schemaet."
+
+msgid "XML sitemap available"
+msgstr "XML-nettstedskart er tilgjengelig"
+
+msgid "Yes, Cloudflare (CF-Connecting-IP)"
+msgstr "Ja, Cloudflare (CF-Connecting-IP)"
+
+msgid "Yes, other proxy (X-Forwarded-For)"
+msgstr "Ja, annen proxy (X-Forwarded-For)"
+
+msgid "You are blocking %s. These bots put you into AI answers – blocking them removes you from citations."
+msgstr "Du blokkerer %s. Disse botene får deg inn i KI-svar – blokkerer du dem, forsvinner du fra siteringene."
+
+msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
+msgstr "Du får dette fordi siteringsvarsler på e-post er slått på under Wille GEO → Innstillinger."
+
+msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
+msgstr "IndexNow-nøkkelfilen din kan ikke nås fra din egen server, så ping er satt på pause. Vanlige årsaker: enkle permalenker (rettes under Innstillinger → Permalenker) eller en sikkerhetsutvidelse som blokkerer loopback-forespørsler. Når det er rettet, lagrer du disse innstillingene på nytt – sjekken kjøres igjen kort tid etter lagring."
+
+msgid "Your session check expired – reload the page to continue."
+msgstr "Øktsjekken din er utløpt – last inn siden på nytt for å fortsette."
+
+msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
+msgstr "[%1$s] KI-synlighet denne uken: %2$d KI-tilganger, %3$d KI-besøkende"
+
+msgid "[%s] New AI visibility signal"
+msgstr "[%s] Nytt signal om KI-synlighet"
+
+msgid "a person"
+msgstr "en person"
+
+msgid "a real person just asked an AI a question, and the AI is reading your page right now to answer it. This is the most valuable signal there is: someone is interested in your topic at this very moment."
+msgstr "en ekte person stilte nettopp en KI et spørsmål, og KI-en leser siden din akkurat nå for å svare. Dette er det mest verdifulle signalet som finnes: noen er interessert i temaet ditt akkurat i dette øyeblikket."
+
+msgid "accesses"
+msgstr "tilganger"
+
+msgid "an organization"
+msgstr "en organisasjon"
+
+msgid "blocking costs citations"
+msgstr "blokkering koster siteringer"
+
+msgid "blocking is safe for citations"
+msgstr "blokkering er trygt for siteringer"
+
+msgid "by %s"
+msgstr "av %s"
+
+msgid "days"
+msgstr "dager"
+
+msgid "e.g. WordPress backup plugin"
+msgstr "f.eks. WordPress backup-utvidelse"
+
+msgid "forever"
+msgstr "for alltid"
+
+msgid "https://github.com/lcswll/wordpress-geo"
+msgstr "https://github.com/lcswll/wordpress-geo"
+
+msgid "https://lucaswille.de/"
+msgstr "https://lucaswille.de/"
+
+msgid "impostors"
+msgstr "bedragere"
+
+msgid "llms.txt"
+msgstr "llms.txt"
+
+msgid "llms.txt available"
+msgstr "llms.txt er tilgjengelig"
+
+msgid "llms.txt is a young standard: a Markdown overview of your most important content at /llms.txt. It is generated automatically from your pages and posts and cached for 12 hours."
+msgstr "llms.txt er en ung standard: en Markdown-oversikt over det viktigste innholdet ditt på /llms.txt. Den genereres automatisk fra sidene og innleggene dine og mellomlagres i 12 timer."
+
+msgid "more"
+msgstr "mer"
+
+msgid "new"
+msgstr "ny"
+
+msgid "pages"
+msgstr "sider"
+
+msgid "passed"
+msgstr "bestått"
+
+msgid "robots.txt"
+msgstr "robots.txt"
+
+msgid "they build the library the AI quotes from later. Being in that library decides whether you can be cited at all."
+msgstr "de bygger biblioteket KI-en senere siterer fra. Å være i det biblioteket avgjør om du i det hele tatt kan bli sitert."
+
+msgid "they collect text to train future AI models. They bring you no visitors and no citations. Whether you allow them is purely a content-rights decision – blocking them costs you nothing."
+msgstr "de samler inn tekst for å trene fremtidige KI-modeller. De gir deg verken besøkende eller siteringer. Om du tillater dem, er rent et spørsmål om rettigheter til innholdet – blokkering koster deg ingenting."
+
+msgid "unchecked"
+msgstr "ikke sjekket"
+
+msgid "verified"
+msgstr "verifisert"
+
+msgid "visitors"
+msgstr "besøkende"
+
+msgid "vs. previous period"
+msgstr "mot forrige periode"
