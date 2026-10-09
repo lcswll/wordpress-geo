@@ -68,6 +68,22 @@ const PLURALS = {
 	he_IL: 'nplurals=2; plural=(n != 1);',
 };
 
+// German style guide (de.wordpress.org/team/handbook/polyglots-team/style-guide/) plus the de_DE team's request
+// to say "KI" instead of "AI". The plugin name stays as it is (brand).
+const germanStyle = (src, de) => {
+	if (src === de) return [];
+	const text = de.replace(/<[^>]+>/g, '');
+	const out = [];
+	if (/\bAI\b/.test(text)) out.push('"AI" instead of "KI"');
+	if (/"/.test(text)) out.push('straight quotes instead of „…“');
+	if (/ & /.test(text)) out.push('"&" instead of "und"');
+	if (/ –/.test(text)) out.push('normal space before "–" (needs a protected space)');
+	if (/\b(z|d|u)\. (B|h|a)\./.test(text)) out.push('abbreviation without protected space (z. B.)');
+	if (/\d (%|kB|MB|GB|ms|km|kg|€)/.test(text)) out.push('normal space between number and unit');
+	if (/\b(fürs|vorm|drauf|nochmal)\b/i.test(text)) out.push('colloquial word');
+	return out;
+};
+
 const po = (s) => '"' + s.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"';
 
 const problems = [];
@@ -81,6 +97,7 @@ for (const jsonFile of fs.readdirSync(i18nDir).filter((f) => f.endsWith('.json')
 		if (!(s in map)) problems.push(`${locale}: missing translation for "${s}"`);
 		else if (typeof map[s] !== 'string' || !map[s].trim()) problems.push(`${locale}: empty translation for "${s}"`);
 		else if (tokens(map[s]) !== tokens(s)) problems.push(`${locale}: placeholders/markup differ for "${s}" → "${map[s]}"`);
+		else if (locale.startsWith('de_')) for (const p of germanStyle(s, map[s])) problems.push(`${locale}: ${p} in "${map[s]}"`);
 	}
 	const unused = Object.keys(map).filter((s) => !strings.has(s));
 	if (prune && unused.length) {
