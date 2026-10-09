@@ -11,6 +11,9 @@ msgstr "\"Afvis søgemaskiner\" er slået til (Indstillinger → Læsning). Inte
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d IP-intervaller fra %2$d udbydere, senest opdateret %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "%1$s sider analyseret, gennemsnitlig GEO-score %2$s af %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (træningscrawler) har besøgt dit websted for første gang."
 
@@ -422,6 +425,9 @@ msgstr "GEO-score"
 msgid "GEO status of your site"
 msgstr "GEO-status for dit websted"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Få en e-mail, så snart en ny AI læser dit websted for første gang – højst én e-mail om dagen."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "Høj AI-interesse, lav score – ret disse først."
 
@@ -542,9 +548,6 @@ msgstr "Maks. poster pr. sektion"
 msgid "Maybe later"
 msgstr "Måske senere"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "Imens: Ret alt, der ikke er grønt, i statuspanelet nedenfor, og angiv fokusbegreber på dine vigtigste sider."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Flere og flere skriver ikke længere deres spørgsmål i Google – de spørger ChatGPT, Perplexity, Copilot eller Claude. AI'en læser en håndfuld websteder, skriver ét svar og nævner sine kilder. Er dit websted en af de kilder, bliver du nævnt og linket til. Hvis ikke, er du usynlig i den samtale – også selvom du ranker godt i klassisk Google."
 
@@ -617,6 +620,9 @@ msgstr "Nej – brug forbindelsens direkte IP"
 msgid "Not allowed."
 msgstr "Ikke tilladt."
 
+msgid "Notification for the first AI visit"
+msgstr "Besked ved det første AI-besøg"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Slået fra. User agents kan forfalskes; slår du verificering til, skelnes ægte AI-bots fra falske (henter offentlige IP-lister én gang om dagen)."
 
@@ -644,6 +650,9 @@ msgstr "Åbn et vilkårligt indlæg i editoren – panelet “GEO-tjek” i side
 msgid "Open improvements"
 msgstr "Åbne forbedringer"
 
+msgid "Open the full GEO analysis"
+msgstr "Åbn den fulde GEO-analyse"
+
 msgid "Open the full dashboard"
 msgstr "Åbn hele dashboardet"
 
@@ -658,6 +667,9 @@ msgstr "Åbn dine fem vigtigste sider, og angiv et fokusbegreb for hver: det sp�
 
 msgid "Opportunity map"
 msgstr "Mulighedskort"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "Valgfrit: %s yderligere funktioner i GEO-statussen nedenfor kan forbedre din synlighed."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Udskriv metabeskrivelse & forhåndsvisninger til sociale medier (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "Webstedet er synligt for crawlere"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Den, der klikker sig videre fra et AI-svar, har allerede læst et resumé og vil have dybden – undersøgelser og butiksdata viser gang på gang, at disse besøgende konverterer mærkbart bedre end gennemsnitlig søgetrafik. Færre besøgende, men mere interesserede."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Noget holder AI-systemer væk fra dit websted – se de røde og gule punkter i GEO-statussen nedenfor."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Du har desværre ikke tilladelse til at gøre det."
 
@@ -896,6 +911,9 @@ msgstr "Statistik-dashboardet kræver JavaScript. Brug i stedet CSV-eksporten el
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Lad det så køre. Tjek dashboardet ugentligt (eller slå e-mailrapporten til), og invester der, hvor AI-interessen allerede viser sig – det er der, citaterne er tættest på."
 
+msgid "These pages have the most room for improvement:"
+msgstr "Disse sider har størst forbedringspotentiale:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "Disse user agents lyder som AI-systemer, men er endnu ikke i registret – derfor er deres hits IKKE med i statistikken ovenfor. Hyppige poster er værd at tilføje via filteret geoins_bots (eller rapportér dem til pluginet)."
 
@@ -917,8 +935,14 @@ msgstr "Træning"
 msgid "Training bots"
 msgstr "Træningsbots"
 
+msgid "Turn on email notifications"
+msgstr "Slå e-mailbeskeder til"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "To ting: Det måler, og det optimerer. Alt kører på din egen server, intet sendes nogen steder hen, og hver kontakt i indstillingerne forklarer sin fordel, før du slår den til."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "Indtil da kan du her se, hvad Wille GEO allerede har fundet på dit websted:"
 
 msgid "Updated"
 msgstr "Opdateret"
@@ -1028,11 +1052,20 @@ msgstr "Du blokerer %s. Disse bots bringer dig ind i AI-svar – blokerer du dem
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Du modtager dette, fordi citatadvarsler via e-mail er slået til under Wille GEO → Indstillinger."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "Du får en e-mail, så snart en ny AI læser dit websted for første gang."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "Din IndexNow-nøglefil kan ikke nås fra din egen server, så pings er sat på pause. Typiske årsager: simple permalinks (ret under Indstillinger → Permalinks) eller et sikkerhedsplugin, der blokerer loopback-forespørgsler. Gem disse indstillinger igen, når det er rettet – tjekket køres igen kort efter, at du har gemt."
 
+msgid "Your content, checked for AI search"
+msgstr "Dit indhold, tjekket til AI-søgning"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "Din sessionskontrol er udløbet – genindlæs siden for at fortsætte."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "Dit websted er åbent for AI-crawlere: intet blokerer ChatGPT, Perplexity eller Claude."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] AI-synlighed denne uge: %2$d AI-adgange, %3$d AI-besøgende"

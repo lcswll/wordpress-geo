@@ -11,6 +11,9 @@ msgstr "Η επιλογή «Αποθάρρυνση μηχανών αναζήτη
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d περιοχές IP από %2$d παρόχους, τελευταία ενημέρωση %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "Αναλύθηκαν %1$s σελίδες, μέση βαθμολογία GEO %2$s από %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "Το %s (ανιχνευτής εκπαίδευσης) επισκέφθηκε τον ιστότοπό σας για πρώτη φορά."
 
@@ -422,6 +425,9 @@ msgstr "Βαθμολογία GEO"
 msgid "GEO status of your site"
 msgstr "Κατάσταση GEO του ιστότοπού σας"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Λάβετε email μόλις ένα νέο AI διαβάσει τον ιστότοπό σας για πρώτη φορά – το πολύ ένα email την ημέρα."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "Υψηλό ενδιαφέρον AI, χαμηλή βαθμολογία – διορθώστε αυτά πρώτα."
 
@@ -542,9 +548,6 @@ msgstr "Μέγ. εγγραφές ανά ενότητα"
 msgid "Maybe later"
 msgstr "Ίσως αργότερα"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "Στο μεταξύ: διορθώστε ό,τι δεν είναι πράσινο στον παρακάτω πίνακα κατάστασης και ορίστε όρους εστίασης στις σημαντικότερες σελίδες σας."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Όλο και περισσότεροι άνθρωποι δεν πληκτρολογούν πια τις ερωτήσεις τους στο Google – ρωτούν το ChatGPT, το Perplexity, το Copilot ή το Claude. Το AI διαβάζει μια χούφτα ιστότοπους, γράφει μία απάντηση και αναφέρει τις πηγές του. Αν ο ιστότοπός σας είναι μία από αυτές τις πηγές, σας αναφέρει και σας συνδέει. Αν όχι, είστε αόρατοι σε αυτήν τη συζήτηση – ακόμη κι αν κατατάσσεστε καλά στο κλασικό Google."
 
@@ -617,6 +620,9 @@ msgstr "Όχι – χρήση της IP της άμεσης σύνδεσης"
 msgid "Not allowed."
 msgstr "Δεν επιτρέπεται."
 
+msgid "Notification for the first AI visit"
+msgstr "Ειδοποίηση για την πρώτη επίσκεψη AI"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Απενεργοποιημένη. Τα user agents μπορούν να πλαστογραφηθούν· η ενεργοποίηση της επαλήθευσης ξεχωρίζει τα πραγματικά bot AI από τους απατεώνες (ανακτά δημόσιες λίστες IP μία φορά την ημέρα)."
 
@@ -644,6 +650,9 @@ msgstr "Ανοίξτε οποιοδήποτε άρθρο στον επεξεργ
 msgid "Open improvements"
 msgstr "Εκκρεμείς βελτιώσεις"
 
+msgid "Open the full GEO analysis"
+msgstr "Άνοιγμα της πλήρους ανάλυσης GEO"
+
 msgid "Open the full dashboard"
 msgstr "Άνοιγμα του πλήρους πίνακα"
 
@@ -658,6 +667,9 @@ msgstr "Ανοίξτε τις πέντε σημαντικότερες σελίδ
 
 msgid "Opportunity map"
 msgstr "Χάρτης ευκαιριών"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "Προαιρετικά: %s ακόμη λειτουργίες στην κατάσταση GEO παρακάτω μπορούν να βελτιώσουν την ορατότητά σας."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Έξοδος μετα-περιγραφής & προεπισκοπήσεων κοινωνικών δικτύων (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "Ιστότοπος ορατός στους ανιχνευτές"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Όποιος κάνει κλικ από μια απάντηση AI έχει ήδη διαβάσει μια σύνοψη και θέλει το βάθος – μελέτες και δεδομένα καταστημάτων δείχνουν σταθερά ότι αυτοί οι επισκέπτες μετατρέπονται αισθητά καλύτερα από τη μέση επισκεψιμότητα αναζήτησης. Λιγότεροι επισκέπτες, αλλά πιο «ζεστοί»."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Κάτι κρατά τα συστήματα AI μακριά από τον ιστότοπό σας – δείτε τα κόκκινα και κίτρινα σημεία στην κατάσταση GEO παρακάτω."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Λυπούμαστε, δεν σας επιτρέπεται να το κάνετε αυτό."
 
@@ -896,6 +911,9 @@ msgstr "Ο πίνακας στατιστικών χρειάζεται JavaScript
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Μετά αφήστε το να λειτουργεί. Ελέγχετε τον πίνακα κάθε εβδομάδα (ή ενεργοποιήστε την αναφορά μέσω email) και επενδύστε εκεί όπου το ενδιαφέρον των AI ήδη φαίνεται – εκεί οι αναφορές είναι πιο κοντά."
 
+msgid "These pages have the most room for improvement:"
+msgstr "Αυτές οι σελίδες έχουν τα μεγαλύτερα περιθώρια βελτίωσης:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "Αυτά τα user agents μοιάζουν με συστήματα AI, αλλά δεν υπάρχουν ακόμη στο μητρώο – οπότε οι επισκέψεις τους ΔΕΝ περιλαμβάνονται στα παραπάνω στατιστικά. Τις συχνές εγγραφές αξίζει να τις προσθέσετε μέσω του φίλτρου geoins_bots (ή να τις αναφέρετε στο πρόσθετο)."
 
@@ -917,8 +935,14 @@ msgstr "Εκπαίδευση"
 msgid "Training bots"
 msgstr "Bot εκπαίδευσης"
 
+msgid "Turn on email notifications"
+msgstr "Ενεργοποίηση ειδοποιήσεων email"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "Δύο πράγματα: μετρά και βελτιστοποιεί. Όλα εκτελούνται στον δικό σας διακομιστή, τίποτα δεν αποστέλλεται πουθενά, και κάθε διακόπτης στις ρυθμίσεις εξηγεί το όφελός του πριν τον ενεργοποιήσετε."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "Μέχρι τότε, δείτε τι έχει ήδη βρει το Wille GEO στον ιστότοπό σας:"
 
 msgid "Updated"
 msgstr "Ενημερώθηκε"
@@ -1028,11 +1052,20 @@ msgstr "Αποκλείετε τα %s. Αυτά τα bot σάς βάζουν στ
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Λαμβάνετε αυτό το μήνυμα επειδή οι ειδοποιήσεις αναφορών μέσω email είναι ενεργές στο Wille GEO → Ρυθμίσεις."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "Θα λάβετε email μόλις ένα νέο AI διαβάσει τον ιστότοπό σας για πρώτη φορά."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "Το αρχείο κλειδιού IndexNow δεν είναι προσβάσιμο από τον δικό σας διακομιστή, οπότε τα pings έχουν τεθεί σε παύση. Συνήθεις αιτίες: απλοί μόνιμοι σύνδεσμοι (διόρθωση στις Ρυθμίσεις → Μόνιμοι σύνδεσμοι) ή ένα πρόσθετο ασφαλείας που μπλοκάρει αιτήματα loopback. Αφού το διορθώσετε, αποθηκεύστε ξανά αυτές τις ρυθμίσεις – ο έλεγχος επαναλαμβάνεται λίγο μετά την αποθήκευση."
 
+msgid "Your content, checked for AI search"
+msgstr "Το περιεχόμενό σας, ελεγμένο για την αναζήτηση AI"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "Ο έλεγχος της συνεδρίας σας έληξε – φορτώστε ξανά τη σελίδα για να συνεχίσετε."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "Ο ιστότοπός σας είναι ανοιχτός στους ανιχνευτές AI: τίποτα δεν μπλοκάρει το ChatGPT, το Perplexity ή το Claude."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] Ορατότητα σε AI αυτή την εβδομάδα: %2$d προσβάσεις AI, %3$d επισκέπτες από AI"

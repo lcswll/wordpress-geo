@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "Az IndexNow-kulcsfájl nem érhető el a saját szerveredről, ezért a pingek szünetelnek. Gyakori okok: egyszerű közvetlen hivatkozások (javítás: Beállítások → Közvetlen hivatkozások) vagy egy biztonsági bővítmény, amely blokkolja a loopback kéréseket. A javítás után mentsd el újra ezeket a beállításokat – az ellenőrzés a mentés után nem sokkal újra lefut.",
 	"days": "nap",
 	"Waiting for the first AI visit": "Várakozás az első AI-látogatásra",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "Addig is: javíts ki mindent, ami nem zöld az alábbi állapotpanelen, és adj meg fókuszkifejezéseket a legfontosabb oldalaidhoz.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "A statisztikai irányítópulthoz JavaScript szükséges. Helyette használd a CSV-exportot vagy a WP-CLI-t (wp geoins stats).",
 	"Your session check expired – reload the page to continue.": "A munkamenet-ellenőrzés lejárt – a folytatáshoz töltsd újra az oldalt.",
 	"Reload page": "Oldal újratöltése",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "Nézd meg, melyik AI (ChatGPT, Claude, Perplexity…) melyik oldaladat olvassa – és optimalizáld a webhelyed az AI-keresésre (GEO). Ingyenes, személyes adatok nélkül.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "%1$s oldal elemezve, átlagos GEO-pontszám: %2$s / %3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "Kapj e-mailt, amint egy új AI először olvassa a webhelyedet – naponta legfeljebb egy levelet.",
+	"Notification for the first AI visit": "Értesítés az első AI-látogatásról",
+	"Open the full GEO analysis": "A teljes GEO-elemzés megnyitása",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "Opcionális: a lenti GEO-állapotban még %s funkció javíthatja a láthatóságodat.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "Valami távol tartja az AI-rendszereket a webhelyedtől – nézd meg a piros és sárga pontokat a lenti GEO-állapotban.",
+	"These pages have the most room for improvement:": "Ezeken az oldalakon a legnagyobb a fejlődési lehetőség:",
+	"Turn on email notifications": "E-mail-értesítések bekapcsolása",
+	"Until then, here is what Wille GEO already found on your site:": "Addig is ezt találta már a Wille GEO a webhelyeden:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "E-mailt kapsz, amint egy új AI először olvassa a webhelyedet.",
+	"Your content, checked for AI search": "A tartalmad, AI-keresésre ellenőrizve",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "A webhelyed nyitva áll az AI-crawlerek előtt: semmi sem blokkolja a ChatGPT-t, a Perplexityt vagy a Claude-ot."
 }

@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "IndexNow 키 파일에 내 서버에서 접근할 수 없어 핑이 일시 중지되었습니다. 일반적인 원인: 기본 고유주소 설정(설정 → 고유주소에서 수정) 또는 보안 플러그인의 루프백 요청 차단. 문제를 해결한 후 이 설정을 다시 저장하세요. 저장 직후 검사가 다시 실행됩니다.",
 	"days": "일",
 	"Waiting for the first AI visit": "첫 AI 방문을 기다리는 중",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "그동안: 아래 상태 패널에서 녹색이 아닌 항목을 수정하고, 가장 중요한 페이지에 핵심 키워드를 설정하세요.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "통계 대시보드에는 JavaScript가 필요합니다. 대신 CSV 내보내기나 WP-CLI(wp geoins stats)를 사용하세요.",
 	"Your session check expired – reload the page to continue.": "세션 확인이 만료되었습니다. 계속하려면 페이지를 새로고침하세요.",
 	"Reload page": "페이지 새로고침",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "어떤 AI(ChatGPT, Claude, Perplexity 등)가 어떤 페이지를 읽는지 확인하고 AI 검색(GEO)에 맞게 사이트를 최적화하세요. 무료이며 개인 데이터를 수집하지 않습니다.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "%1$s개 페이지 분석됨, 평균 GEO 점수 %2$s/%3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "새로운 AI가 처음으로 사이트를 읽으면 바로 이메일을 받으세요. 이메일은 하루 최대 한 통입니다.",
+	"Notification for the first AI visit": "첫 AI 방문 알림",
+	"Open the full GEO analysis": "전체 GEO 분석 열기",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "선택 사항: 아래 GEO 상태의 기능 %s개를 더 사용하면 가시성을 높일 수 있습니다.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "무언가가 AI 시스템의 사이트 접근을 막고 있습니다. 아래 GEO 상태에서 빨간색과 노란색 항목을 확인하세요.",
+	"These pages have the most room for improvement:": "개선 여지가 가장 큰 페이지:",
+	"Turn on email notifications": "이메일 알림 켜기",
+	"Until then, here is what Wille GEO already found on your site:": "그동안 Wille GEO가 사이트에서 이미 찾아낸 내용을 확인하세요.",
+	"You will get an email as soon as a new AI reads your site for the first time.": "새로운 AI가 처음으로 사이트를 읽으면 바로 이메일을 받게 됩니다.",
+	"Your content, checked for AI search": "AI 검색을 위해 점검한 콘텐츠",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "사이트가 AI 크롤러에 열려 있습니다. ChatGPT, Perplexity, Claude를 차단하는 것이 없습니다."
 }

@@ -11,6 +11,9 @@ msgstr "האפשרות \"לבקש ממנועי חיפוש לא לאנדקס את
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d טווחי IP מ-%2$d ספקים, עודכן לאחרונה %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "נותחו %1$s עמודים, ציון GEO ממוצע %2$s מתוך %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (סורק אימון) ביקר באתר לראשונה."
 
@@ -422,6 +425,9 @@ msgstr "ציון GEO"
 msgid "GEO status of your site"
 msgstr "מצב GEO של האתר"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "לקבל מייל ברגע ש-AI חדש קורא את האתר בפעם הראשונה – לכל היותר מייל אחד ביום."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "עניין גבוה מצד AI, ציון נמוך – כדאי לתקן את אלה קודם."
 
@@ -542,9 +548,6 @@ msgstr "מקסימום פריטים לכל מקטע"
 msgid "Maybe later"
 msgstr "אולי אחר כך"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "בינתיים: כדאי לתקן כל מה שאינו ירוק בלוח המצב שלמטה, ולהגדיר מונחים מרכזיים לעמודים החשובים ביותר."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "יותר ויותר אנשים כבר לא מקלידים את השאלות שלהם ב-Google – הם שואלים את ChatGPT,‏ Perplexity,‏ Copilot או Claude. ה-AI קורא קומץ אתרים, כותב תשובה אחת ומציין את המקורות שלו. אם האתר שלך הוא אחד המקורות, הוא מוזכר ומקושר. אם לא, הוא בלתי נראה בשיחה הזו – גם אם הוא מדורג היטב ב-Google הקלאסי."
 
@@ -617,6 +620,9 @@ msgstr "לא – להשתמש בכתובת ה-IP של החיבור הישיר"
 msgid "Not allowed."
 msgstr "אין הרשאה."
 
+msgid "Notification for the first AI visit"
+msgstr "התראה על ביקור ה-AI הראשון"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "כבוי. אפשר לזייף user agents; הפעלת האימות מפרידה בין בוטי AI אמיתיים למתחזים (מושכת רשימות IP ציבוריות פעם ביום)."
 
@@ -644,6 +650,9 @@ msgstr "אפשר לפתוח כל פוסט בעורך – לוח \"בדיקת GEO
 msgid "Open improvements"
 msgstr "שיפורים פתוחים"
 
+msgid "Open the full GEO analysis"
+msgstr "לפתיחת ניתוח ה-GEO המלא"
+
 msgid "Open the full dashboard"
 msgstr "פתיחת הלוח המלא"
 
@@ -658,6 +667,9 @@ msgstr "לפתוח את חמשת העמודים החשובים ביותר ולה
 
 msgid "Opportunity map"
 msgstr "מפת הזדמנויות"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "אופציונלי: עוד %s תכונות במצב ה-GEO שלמטה יכולות לשפר את הנראות."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "פלט תיאור meta ותצוגות מקדימות לרשתות חברתיות (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "האתר גלוי לסורקים"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "מי שלוחץ ומגיע מתשובת AI כבר קרא סיכום ורוצה להעמיק – מחקרים ונתוני חנויות מראים בעקביות שהמבקרים האלה ממירים טוב יותר באופן ניכר מתנועת חיפוש ממוצעת. פחות מבקרים, אבל חמים יותר."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "משהו מרחיק מערכות AI מהאתר – כדאי לבדוק את הנקודות האדומות והצהובות במצב ה-GEO שלמטה."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "אין לך הרשאה לבצע פעולה זו."
 
@@ -896,6 +911,9 @@ msgstr "לוח הסטטיסטיקות דורש JavaScript. אפשר להשתמש
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "ואז לתת לזה לרוץ. לבדוק את הלוח פעם בשבוע (או להפעיל את הדוח במייל) ולהשקיע במקומות שבהם כבר מופיע עניין מצד AI – שם הציטוטים הכי קרובים."
 
+msgid "These pages have the most room for improvement:"
+msgstr "לעמודים האלה יש הכי הרבה מקום לשיפור:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "ה-user agents האלה נשמעים כמו מערכות AI אך עדיין אינם במאגר – ולכן הגישות שלהם אינן נכללות בסטטיסטיקות שלמעלה. כדאי להוסיף רשומות תכופות באמצעות המסנן geoins_bots (או לדווח עליהן למפתחי התוסף)."
 
@@ -917,8 +935,14 @@ msgstr "אימון"
 msgid "Training bots"
 msgstr "בוטי אימון"
 
+msgid "Turn on email notifications"
+msgstr "הפעלת התראות במייל"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "שני דברים: מודד ומשפר. הכול פועל על השרת שלך, שום דבר לא נשלח לשום מקום, וכל מתג בהגדרות מסביר את התועלת שלו לפני שמפעילים אותו."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "עד אז, הנה מה ש-Wille GEO כבר מצא באתר:"
 
 msgid "Updated"
 msgstr "עודכן"
@@ -1028,11 +1052,20 @@ msgstr "האתר חוסם את %s. הבוטים האלה מכניסים אותך
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "הודעה זו נשלחת אליך כי התראות ציטוט במייל מופעלות תחת Wille GEO ← הגדרות."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "יישלח מייל ברגע ש-AI חדש יקרא את האתר בפעם הראשונה."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "קובץ המפתח של IndexNow אינו נגיש מהשרת שלך עצמו, ולכן השליחות מושהות. סיבות נפוצות: קישורים קבועים פשוטים (לתיקון תחת הגדרות ← קישורים קבועים) או תוסף אבטחה שחוסם בקשות loopback. לאחר התיקון, יש לשמור שוב את ההגדרות – הבדיקה תרוץ מחדש זמן קצר אחרי השמירה."
 
+msgid "Your content, checked for AI search"
+msgstr "התוכן שלך, נבדק לחיפוש AI"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "תוקף בדיקת ההתחברות פג – יש לטעון מחדש את העמוד כדי להמשיך."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "האתר פתוח לסורקי AI: שום דבר לא חוסם את ChatGPT, Perplexity או Claude."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] נראות ב-AI השבוע: %2$d גישות AI,‏ %3$d מבקרים מ-AI"

@@ -11,6 +11,9 @@ msgstr "“Arama motorlarının bu siteyi dizinlemesini engelle” etkin (Ayarla
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%2$d sağlayıcıdan %1$d IP aralığı, son güncelleme: %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "%1$s sayfa analiz edildi, ortalama GEO puanı %2$s / %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (eğitim tarayıcısı) sitenizi ilk kez ziyaret etti."
 
@@ -422,6 +425,9 @@ msgstr "GEO puanı"
 msgid "GEO status of your site"
 msgstr "Sitenizin GEO durumu"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Yeni bir yapay zekâ sitenizi ilk kez okuduğunda hemen e-posta alın – günde en fazla bir e-posta."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "Yüksek yapay zekâ ilgisi, düşük puan – önce bunları düzeltin."
 
@@ -542,9 +548,6 @@ msgstr "Bölüm başına en fazla kayıt"
 msgid "Maybe later"
 msgstr "Belki daha sonra"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "Bu arada: Aşağıdaki durum panelinde yeşil olmayan her şeyi düzeltin ve en önemli sayfalarınıza odak terimleri belirleyin."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Giderek daha fazla insan sorularını artık Google'a yazmıyor – ChatGPT, Perplexity, Copilot veya Claude'a soruyor. Yapay zekâ bir avuç web sitesini okur, tek bir yanıt yazar ve kaynaklarını belirtir. Siteniz bu kaynaklardan biriyse adınız geçer ve bağlantınız verilir. Değilse, klasik Google'da üst sıralarda olsanız bile o sohbette görünmezsiniz."
 
@@ -617,6 +620,9 @@ msgstr "Hayır – doğrudan bağlantı IP'sini kullan"
 msgid "Not allowed."
 msgstr "İzin verilmiyor."
 
+msgid "Notification for the first AI visit"
+msgstr "İlk yapay zekâ ziyaretinde bildirim"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Kapalı. User-agent bilgileri taklit edilebilir; doğrulamayı etkinleştirmek gerçek yapay zekâ botlarını taklitçilerden ayırır (günde bir kez herkese açık IP listelerini indirir)."
 
@@ -644,6 +650,9 @@ msgstr "Düzenleyicide herhangi bir yazıyı açın – kenar çubuğundaki “G
 msgid "Open improvements"
 msgstr "Açık iyileştirmeler"
 
+msgid "Open the full GEO analysis"
+msgstr "Tam GEO analizini aç"
+
 msgid "Open the full dashboard"
 msgstr "Panonun tamamını aç"
 
@@ -658,6 +667,9 @@ msgstr "En önemli beş sayfanızı açın ve her biri için bir odak terimi bel
 
 msgid "Opportunity map"
 msgstr "Fırsat haritası"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "İsteğe bağlı: Aşağıdaki GEO durumundaki %s özellik daha görünürlüğünüzü artırabilir."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Meta açıklaması ve sosyal medya önizlemelerini çıktıla (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "Site tarayıcılara görünür"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Bir yapay zekâ yanıtından tıklayarak gelen kişi zaten bir özet okumuştur ve daha fazla ayrıntı istiyordur – araştırmalar ve mağaza verileri, bu ziyaretçilerin ortalama arama trafiğinden belirgin şekilde daha iyi dönüşüm sağladığını tutarlı biçimde gösteriyor. Daha az ziyaretçi, ama daha sıcak olanlar."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Bir şey yapay zekâ sistemlerini sitenizden uzak tutuyor – aşağıdaki GEO durumundaki kırmızı ve sarı noktalara bakın."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Üzgünüz, bunu yapmanıza izin verilmiyor."
 
@@ -896,6 +911,9 @@ msgstr "İstatistik panosu JavaScript gerektirir. Bunun yerine CSV dışa aktarm
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Sonra bırakın çalışsın. Panoyu haftada bir kontrol edin (veya e-posta raporunu etkinleştirin) ve yapay zekâ ilgisinin zaten görüldüğü yerlere yatırım yapın – alıntılar en çok oralarda yakındır."
 
+msgid "These pages have the most room for improvement:"
+msgstr "En çok iyileştirme potansiyeli olan sayfalar:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "Bu user-agent'lar yapay zekâ sistemlerine benziyor ancak henüz kayıt listesinde değiller – bu yüzden erişimleri yukarıdaki istatistiklerde YER ALMIYOR. Sık görülen kayıtları geoins_bots filtresiyle eklemeye değer (veya bunları eklentiye bildirin)."
 
@@ -917,8 +935,14 @@ msgstr "Eğitim"
 msgid "Training bots"
 msgstr "Eğitim botları"
 
+msgid "Turn on email notifications"
+msgstr "E-posta bildirimlerini aç"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "İki şey: ölçer ve optimize eder. Her şey kendi sunucunuzda çalışır, hiçbir yere bir şey gönderilmez ve ayarlardaki her anahtar, siz açmadan önce faydasını açıklar."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "O zamana kadar Wille GEO'nun sitenizde şimdiden bulduklarına göz atın:"
 
 msgid "Updated"
 msgstr "Güncellendi"
@@ -1028,11 +1052,20 @@ msgstr "%s botlarını engelliyorsunuz. Bu botlar sizi yapay zekâ yanıtlarına
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Bu e-postayı, Wille GEO → Ayarlar altında e-postayla alıntı uyarıları etkin olduğu için alıyorsunuz."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "Yeni bir yapay zekâ sitenizi ilk kez okuduğunda hemen e-posta alacaksınız."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "IndexNow anahtar dosyanıza kendi sunucunuzdan erişilemiyor, bu nedenle ping'ler duraklatıldı. Olağan nedenler: düz kalıcı bağlantılar (Ayarlar → Kalıcı bağlantılar altından düzeltin) veya geri döngü (loopback) isteklerini engelleyen bir güvenlik eklentisi. Sorunu düzelttikten sonra bu ayarları yeniden kaydedin – kontrol, kaydettikten kısa süre sonra yeniden çalışır."
 
+msgid "Your content, checked for AI search"
+msgstr "İçeriğiniz, yapay zekâ araması için denetlendi"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "Oturum kontrolünüzün süresi doldu – devam etmek için sayfayı yeniden yükleyin."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "Siteniz yapay zekâ tarayıcılarına açık: ChatGPT, Perplexity veya Claude'u engelleyen hiçbir şey yok."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] Bu haftaki yapay zekâ görünürlüğü: %2$d yapay zekâ erişimi, %3$d yapay zekâ ziyaretçisi"

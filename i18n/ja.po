@@ -11,6 +11,9 @@ msgstr "「検索エンジンがサイトをインデックスしないように
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%2$d社の%1$d件のIP範囲、最終更新：%3$s。"
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "%1$sページを分析しました。平均GEOスコアは%3$s中%2$sです。"
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s（学習クローラー）が初めてサイトを訪問しました。"
 
@@ -422,6 +425,9 @@ msgstr "GEOスコア"
 msgid "GEO status of your site"
 msgstr "サイトのGEOステータス"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "新しいAIが初めてサイトを読んだらすぐにメールでお知らせします（メールは1日1通まで）。"
+
 msgid "High AI interest, low score – fix these first."
 msgstr "AIの関心が高いのにスコアが低いページです。まずここを改善しましょう。"
 
@@ -542,9 +548,6 @@ msgstr "セクションごとの最大エントリー数"
 msgid "Maybe later"
 msgstr "また後で"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "その間に：下のステータスパネルで緑になっていない項目を修正し、重要なページにフォーカスキーワードを設定しましょう。"
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "質問をGoogleに入力せず、ChatGPT、Perplexity、Copilot、Claudeに尋ねる人がますます増えています。AIはいくつかのWebサイトを読み、1つの回答を書き、その情報源を示します。あなたのサイトがその情報源の1つなら、名前が挙がりリンクされます。そうでなければ、たとえ従来のGoogle検索で上位にいても、その会話の中ではあなたは見えない存在です。"
 
@@ -617,6 +620,9 @@ msgstr "いいえ – 直接接続のIPを使用"
 msgid "Not allowed."
 msgstr "許可されていません。"
 
+msgid "Notification for the first AI visit"
+msgstr "最初のAIの訪問を通知"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "オフです。ユーザーエージェントは偽装できます。確認を有効にすると、本物のAIボットとなりすましを区別できます（公開IPリストを1日1回取得します）。"
 
@@ -644,6 +650,9 @@ msgstr "エディターで任意の投稿を開いてください。サイドバ
 msgid "Open improvements"
 msgstr "未対応の改善点"
 
+msgid "Open the full GEO analysis"
+msgstr "GEO分析の全体を開く"
+
 msgid "Open the full dashboard"
 msgstr "ダッシュボード全体を開く"
 
@@ -658,6 +667,9 @@ msgstr "最も重要な5つのページを開き、それぞれにフォーカ�
 
 msgid "Opportunity map"
 msgstr "チャンスマップ"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "任意：下のGEOステータスにあるあと%s個の機能で、可視性をさらに高められます。"
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "メタディスクリプションとSNSプレビュー（Open Graph）を出力"
@@ -836,6 +848,9 @@ msgstr "サイトがクローラーから見える状態"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "AIの回答からクリックして訪れる人は、すでに要約を読んだうえで詳しく知りたいと考えています。調査やショップのデータでも、こうした訪問者は平均的な検索トラフィックより明らかにコンバージョン率が高いことが一貫して示されています。訪問者は少なくても、関心はより高いのです。"
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "何かがAIシステムをサイトから遠ざけています。下のGEOステータスにある赤と黄色の項目を確認してください。"
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "この操作を行う権限がありません。"
 
@@ -896,6 +911,9 @@ msgstr "統計ダッシュボードにはJavaScriptが必要です。代わり�
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "あとは運用するだけです。ダッシュボードを毎週確認し（またはメールレポートを有効にし）、すでにAIの関心が表れているところに力を注ぎましょう。そこが引用に最も近い場所です。"
 
+msgid "These pages have the most room for improvement:"
+msgstr "改善の余地が最も大きいページ："
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "これらのユーザーエージェントはAIシステムのように見えますが、まだ登録されていないため、そのアクセスは上の統計に含まれていません。頻繁に出現するものは、geoins_botsフィルターで追加する（またはプラグインに報告する）価値があります。"
 
@@ -917,8 +935,14 @@ msgstr "学習"
 msgid "Training bots"
 msgstr "学習ボット"
 
+msgid "Turn on email notifications"
+msgstr "メール通知を有効にする"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "2つのこと、つまり測定と最適化です。すべてはあなたのサーバー上で動作し、どこにも何も送信されません。設定の各スイッチは、切り替える前にそのメリットを説明しています。"
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "それまでの間、Wille GEOがすでにサイトで見つけた内容をご覧ください。"
 
 msgid "Updated"
 msgstr "更新日"
@@ -1028,11 +1052,20 @@ msgstr "%sをブロックしています。これらのボットはあなたをA
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Wille GEO → 設定で引用アラートのメール通知が有効になっているため、このメールが送信されました。"
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "新しいAIが初めてサイトを読んだらすぐにメールが届きます。"
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "IndexNowのキーファイルに自分のサーバーからアクセスできないため、pingを一時停止しています。主な原因：パーマリンク設定が「基本」になっている（設定 → パーマリンクで修正）か、セキュリティプラグインがループバックリクエストをブロックしています。修正後、この設定をもう一度保存してください。保存後まもなく再チェックが行われます。"
 
+msgid "Your content, checked for AI search"
+msgstr "コンテンツをAI検索向けにチェック"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "セッションの確認期限が切れました。続けるにはページを再読み込みしてください。"
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "サイトはAIクローラーに開かれています。ChatGPT、Perplexity、Claudeをブロックするものはありません。"
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] 今週のAI可視性：AIアクセス%2$d件、AIからの訪問者%3$d人"

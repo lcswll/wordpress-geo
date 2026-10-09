@@ -11,6 +11,9 @@ msgstr "خيار «منع محركات البحث من أرشفة هذا الم�
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d من نطاقات IP من %2$d مزوّدين، آخر تحديث %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "تم تحليل %1$s صفحة، ومتوسط درجة GEO هو %2$s من %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "زار %s (زاحف تدريب) موقعك لأول مرة."
 
@@ -422,6 +425,9 @@ msgstr "درجة GEO"
 msgid "GEO status of your site"
 msgstr "حالة GEO لموقعك"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "احصل على بريد إلكتروني فور أن يقرأ ذكاء اصطناعي جديد موقعك لأول مرة – بحد أقصى رسالة واحدة يوميًا."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "اهتمام عالٍ من الذكاء الاصطناعي ودرجة منخفضة – أصلح هذه أولًا."
 
@@ -542,9 +548,6 @@ msgstr "الحد الأقصى للإدخالات لكل قسم"
 msgid "Maybe later"
 msgstr "ربما لاحقًا"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "في هذه الأثناء: أصلح كل ما ليس باللون الأخضر في لوحة الحالة أدناه، وعيّن مصطلحات محورية لأهم صفحاتك."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "لم يعد كثير من الناس يكتبون أسئلتهم في Google – بل يسألون ChatGPT أو Perplexity أو Copilot أو Claude. يقرأ الذكاء الاصطناعي عددًا قليلًا من المواقع، ويكتب إجابة واحدة، ويذكر مصادره. إذا كان موقعك أحد هذه المصادر، فسيُذكر اسمك ويُوضع رابطك. وإن لم يكن، فأنت غير مرئي في تلك المحادثة – حتى لو كان ترتيبك جيدًا في Google التقليدي."
 
@@ -617,6 +620,9 @@ msgstr "لا – استخدم عنوان IP للاتصال المباشر"
 msgid "Not allowed."
 msgstr "غير مسموح."
 
+msgid "Notification for the first AI visit"
+msgstr "إشعار عند أول زيارة من الذكاء الاصطناعي"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "معطّل. يمكن تزييف وكلاء المستخدم؛ تفعيل التحقق يفصل روبوتات الذكاء الاصطناعي الحقيقية عن المنتحلين (يجلب قوائم IP العامة مرة يوميًا)."
 
@@ -644,6 +650,9 @@ msgstr "افتح أي مقالة في المحرر – ستقودك لوحة «�
 msgid "Open improvements"
 msgstr "تحسينات مفتوحة"
 
+msgid "Open the full GEO analysis"
+msgstr "افتح تحليل GEO الكامل"
+
 msgid "Open the full dashboard"
 msgstr "فتح اللوحة الكاملة"
 
@@ -658,6 +667,9 @@ msgstr "افتح أهم خمس صفحات لديك وعيّن مصطلحًا م�
 
 msgid "Opportunity map"
 msgstr "خريطة الفرص"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "اختياري: يمكن لـ %s ميزات إضافية في حالة GEO أدناه تحسين ظهورك."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "إخراج الوصف التعريفي (meta description) ومعاينات الشبكات الاجتماعية (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "الموقع مرئي للزواحف"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "من ينقر قادمًا من إجابة ذكاء اصطناعي يكون قد قرأ ملخصًا بالفعل ويريد التعمّق – وتُظهر الدراسات وبيانات المتاجر باستمرار أن هؤلاء الزوار يتحولون إلى عملاء بنسبة أعلى بشكل ملحوظ من زوار البحث العاديين. زوار أقل، لكنهم أكثر اهتمامًا."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "هناك ما يُبعد أنظمة الذكاء الاصطناعي عن موقعك – راجع النقاط الحمراء والصفراء في حالة GEO أدناه."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "عذرًا، غير مسموح لك بالقيام بذلك."
 
@@ -896,6 +911,9 @@ msgstr "تتطلب لوحة الإحصائيات JavaScript. استخدم تصد
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "ثم دعها تعمل. تفقّد اللوحة أسبوعيًا (أو فعّل التقرير عبر البريد الإلكتروني) واستثمر حيث يظهر اهتمام الذكاء الاصطناعي بالفعل – فهناك تكون الاستشهادات أقرب."
 
+msgid "These pages have the most room for improvement:"
+msgstr "هذه الصفحات لديها أكبر مجال للتحسين:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "تبدو وكلاء المستخدم هذه كأنظمة ذكاء اصطناعي لكنها ليست في السجل بعد – لذا فزياراتها غير مُدرجة في الإحصائيات أعلاه. الإدخالات المتكررة تستحق الإضافة عبر المرشّح geoins_bots (أو أبلغ عنها لمطوّر الإضافة)."
 
@@ -917,8 +935,14 @@ msgstr "تدريب"
 msgid "Training bots"
 msgstr "روبوتات التدريب"
 
+msgid "Turn on email notifications"
+msgstr "تفعيل الإشعارات عبر البريد الإلكتروني"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "أمران: تقيس، وتحسّن. كل شيء يعمل على خادمك الخاص، ولا يُرسَل أي شيء إلى أي مكان، وكل مفتاح في الإعدادات يشرح فائدته قبل أن تفعّله."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "إلى ذلك الحين، إليك ما وجده Wille GEO بالفعل على موقعك:"
 
 msgid "Updated"
 msgstr "تاريخ التحديث"
@@ -1028,11 +1052,20 @@ msgstr "أنت تحظر %s. هذه الروبوتات تُدخلك في إجاب
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "تتلقى هذه الرسالة لأن تنبيهات الاستشهاد عبر البريد الإلكتروني مفعّلة في Wille GEO ← الإعدادات."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "ستتلقى بريدًا إلكترونيًا فور أن يقرأ ذكاء اصطناعي جديد موقعك لأول مرة."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "لا يمكن الوصول إلى ملف مفتاح IndexNow من خادمك نفسه، لذا تم إيقاف الإشعارات مؤقتًا. الأسباب المعتادة: الروابط الدائمة العادية (أصلحها من الإعدادات ← الروابط الدائمة) أو إضافة أمان تحظر طلبات loopback. بعد الإصلاح، احفظ هذه الإعدادات مجددًا – سيُعاد الفحص بعد الحفظ بقليل."
 
+msgid "Your content, checked for AI search"
+msgstr "محتواك، مفحوص للبحث بالذكاء الاصطناعي"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "انتهت صلاحية التحقق من جلستك – أعد تحميل الصفحة للمتابعة."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "موقعك مفتوح لزواحف الذكاء الاصطناعي: لا شيء يحظر ChatGPT أو Perplexity أو Claude."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] الظهور في الذكاء الاصطناعي هذا الأسبوع: %2$d زيارة ذكاء اصطناعي، %3$d زائر من الذكاء الاصطناعي"

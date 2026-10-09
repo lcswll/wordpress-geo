@@ -11,6 +11,9 @@ msgstr "A „Keresőmotorok kizárása” be van kapcsolva (Beállítások → O
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d IP-tartomány %2$d szolgáltatótól, utolsó frissítés: %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "%1$s oldal elemezve, átlagos GEO-pontszám: %2$s / %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "A(z) %s (tanító crawler) először látogatta meg a webhelyet."
 
@@ -422,6 +425,9 @@ msgstr "GEO-pontszám"
 msgid "GEO status of your site"
 msgstr "A webhely GEO-állapota"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Kapj e-mailt, amint egy új AI először olvassa a webhelyedet – naponta legfeljebb egy levelet."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "Nagy AI-érdeklődés, alacsony pontszám – ezeket javítsd először."
 
@@ -542,9 +548,6 @@ msgstr "Max. bejegyzés szakaszonként"
 msgid "Maybe later"
 msgstr "Talán később"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "Addig is: javíts ki mindent, ami nem zöld az alábbi állapotpanelen, és adj meg fókuszkifejezéseket a legfontosabb oldalaidhoz."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Egyre több ember nem a Google-be írja be a kérdéseit – hanem a ChatGPT-t, a Perplexityt, a Copilotot vagy a Claude-ot kérdezi. Az AI elolvas néhány webhelyet, megír egy választ, és megnevezi a forrásait. Ha a webhelyed az egyik forrás, megemlítenek és belinkelnek. Ha nem, láthatatlan vagy abban a beszélgetésben – még akkor is, ha a klasszikus Google-ben jól rangsorolsz."
 
@@ -617,6 +620,9 @@ msgstr "Nem – a közvetlen kapcsolat IP-címének használata"
 msgid "Not allowed."
 msgstr "Nem engedélyezett."
 
+msgid "Notification for the first AI visit"
+msgstr "Értesítés az első AI-látogatásról"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Kikapcsolva. A user agentek hamisíthatók; az ellenőrzés bekapcsolása elkülöníti a valódi AI-botokat az álcázottaktól (naponta egyszer letölti a nyilvános IP-listákat)."
 
@@ -644,6 +650,9 @@ msgstr "Nyiss meg bármelyik bejegyzést a szerkesztőben – az oldalsáv „GE
 msgid "Open improvements"
 msgstr "Nyitott javítások"
 
+msgid "Open the full GEO analysis"
+msgstr "A teljes GEO-elemzés megnyitása"
+
 msgid "Open the full dashboard"
 msgstr "A teljes irányítópult megnyitása"
 
@@ -658,6 +667,9 @@ msgstr "Nyisd meg az öt legfontosabb oldaladat, és mindegyikhez adj meg egy f�
 
 msgid "Opportunity map"
 msgstr "Lehetőségtérkép"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "Opcionális: a lenti GEO-állapotban még %s funkció javíthatja a láthatóságodat."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Metaleírás és közösségi előnézetek (Open Graph) kiírása"
@@ -836,6 +848,9 @@ msgstr "A webhely látható a crawlerek számára"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Aki egy AI-válaszból kattint át, már olvasott egy összefoglalót, és a részletekre kíváncsi – tanulmányok és webáruházi adatok egybehangzóan mutatják, hogy ezek a látogatók észrevehetően jobban konvertálnak, mint az átlagos keresési forgalom. Kevesebb látogató, de elkötelezettebbek."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Valami távol tartja az AI-rendszereket a webhelyedtől – nézd meg a piros és sárga pontokat a lenti GEO-állapotban."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Sajnos ehhez nincs jogosultságod."
 
@@ -896,6 +911,9 @@ msgstr "A statisztikai irányítópulthoz JavaScript szükséges. Helyette haszn
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Aztán hagyd futni. Nézd meg hetente az irányítópultot (vagy kapcsold be az e-mail-jelentést), és ott fektess be, ahol már látszik AI-érdeklődés – ott vannak a legközelebb a hivatkozások."
 
+msgid "These pages have the most room for improvement:"
+msgstr "Ezeken az oldalakon a legnagyobb a fejlődési lehetőség:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "Ezek a user agentek AI-rendszernek tűnnek, de még nincsenek a nyilvántartásban – ezért a találataik NEM szerepelnek a fenti statisztikában. A gyakori bejegyzéseket érdemes felvenni a geoins_bots szűrővel (vagy jelezni a bővítmény felé)."
 
@@ -917,8 +935,14 @@ msgstr "Tanítás"
 msgid "Training bots"
 msgstr "Tanító botok"
 
+msgid "Turn on email notifications"
+msgstr "E-mail-értesítések bekapcsolása"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "Két dolgot: mér és optimalizál. Minden a saját szervereden fut, semmi sem kerül el sehova, és a beállításokban minden kapcsoló elmagyarázza a hasznát, mielőtt átbillentenéd."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "Addig is ezt találta már a Wille GEO a webhelyeden:"
 
 msgid "Updated"
 msgstr "Frissítve"
@@ -1028,11 +1052,20 @@ msgstr "Tiltva: %s. Ezek a botok juttatnak be az AI-válaszokba – a tiltásuk 
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Azért kapod ezt, mert a hivatkozási riasztások e-mailben be vannak kapcsolva itt: Wille GEO → Beállítások."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "E-mailt kapsz, amint egy új AI először olvassa a webhelyedet."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "Az IndexNow-kulcsfájl nem érhető el a saját szerveredről, ezért a pingek szünetelnek. Gyakori okok: egyszerű közvetlen hivatkozások (javítás: Beállítások → Közvetlen hivatkozások) vagy egy biztonsági bővítmény, amely blokkolja a loopback kéréseket. A javítás után mentsd el újra ezeket a beállításokat – az ellenőrzés a mentés után nem sokkal újra lefut."
 
+msgid "Your content, checked for AI search"
+msgstr "A tartalmad, AI-keresésre ellenőrizve"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "A munkamenet-ellenőrzés lejárt – a folytatáshoz töltsd újra az oldalt."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "A webhelyed nyitva áll az AI-crawlerek előtt: semmi sem blokkolja a ChatGPT-t, a Perplexityt vagy a Claude-ot."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] AI-láthatóság ezen a héten: %2$d AI-hozzáférés, %3$d AI-látogató"

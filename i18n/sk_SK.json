@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "Váš súbor s kľúčom IndexNow nie je dostupný z vášho vlastného servera, preto sú pingy pozastavené. Bežné príčiny: jednoduché trvalé odkazy (opravíte v Nastavenia → Trvalé odkazy) alebo bezpečnostný plugin blokujúci loopback požiadavky. Po oprave tieto nastavenia znova uložte – kontrola sa spustí krátko po uložení.",
 	"days": "dní",
 	"Waiting for the first AI visit": "Čaká sa na prvú návštevu AI",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "Medzitým: opravte všetko, čo nie je zelené v stavovom paneli nižšie, a nastavte hlavné výrazy na svojich najdôležitejších stránkach.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "Panel štatistík vyžaduje JavaScript. Použite namiesto toho export CSV alebo WP-CLI (wp geoins stats).",
 	"Your session check expired – reload the page to continue.": "Platnosť overenia relácie vypršala – pokračujte opätovným načítaním stránky.",
 	"Reload page": "Znova načítať stránku",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "Zistite, ktorá AI (ChatGPT, Claude, Perplexity…) číta ktoré z vašich stránok – a optimalizujte web pre vyhľadávanie pomocou AI (GEO). Zadarmo, bez osobných údajov.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "Analyzované stránky: %1$s, priemerné GEO skóre %2$s z %3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "Dostaňte e-mail, len čo vašu stránku prvýkrát prečíta nová AI – najviac jeden e-mail denne.",
+	"Notification for the first AI visit": "Upozornenie na prvú návštevu AI",
+	"Open the full GEO analysis": "Otvoriť celú GEO analýzu",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "Voliteľné: ďalšie funkcie (%s) v stave GEO nižšie môžu zlepšiť vašu viditeľnosť.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "Niečo bráni AI systémom v prístupe na vašu stránku – pozrite si červené a žlté body v stave GEO nižšie.",
+	"These pages have the most room for improvement:": "Tieto stránky majú najväčší priestor na zlepšenie:",
+	"Turn on email notifications": "Zapnúť e-mailové upozornenia",
+	"Until then, here is what Wille GEO already found on your site:": "Medzitým sa pozrite, čo už Wille GEO na vašej stránke našiel:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "Dostanete e-mail, len čo vašu stránku prvýkrát prečíta nová AI.",
+	"Your content, checked for AI search": "Váš obsah skontrolovaný pre vyhľadávanie s AI",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "Vaša stránka je otvorená pre AI crawlery: nič neblokuje ChatGPT, Perplexity ani Claude."
 }

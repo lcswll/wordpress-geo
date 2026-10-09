@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "Το αρχείο κλειδιού IndexNow δεν είναι προσβάσιμο από τον δικό σας διακομιστή, οπότε τα pings έχουν τεθεί σε παύση. Συνήθεις αιτίες: απλοί μόνιμοι σύνδεσμοι (διόρθωση στις Ρυθμίσεις → Μόνιμοι σύνδεσμοι) ή ένα πρόσθετο ασφαλείας που μπλοκάρει αιτήματα loopback. Αφού το διορθώσετε, αποθηκεύστε ξανά αυτές τις ρυθμίσεις – ο έλεγχος επαναλαμβάνεται λίγο μετά την αποθήκευση.",
 	"days": "ημέρες",
 	"Waiting for the first AI visit": "Αναμονή για την πρώτη επίσκεψη AI",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "Στο μεταξύ: διορθώστε ό,τι δεν είναι πράσινο στον παρακάτω πίνακα κατάστασης και ορίστε όρους εστίασης στις σημαντικότερες σελίδες σας.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "Ο πίνακας στατιστικών χρειάζεται JavaScript. Χρησιμοποιήστε αντί γι' αυτό την εξαγωγή CSV ή το WP-CLI (wp geoins stats).",
 	"Your session check expired – reload the page to continue.": "Ο έλεγχος της συνεδρίας σας έληξε – φορτώστε ξανά τη σελίδα για να συνεχίσετε.",
 	"Reload page": "Επαναφόρτωση σελίδας",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "Δείτε ποια AI (ChatGPT, Claude, Perplexity…) διαβάζει ποιες σελίδες σας – και βελτιστοποιήστε τον ιστότοπό σας για την αναζήτηση μέσω AI (GEO). Δωρεάν, χωρίς προσωπικά δεδομένα.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "Αναλύθηκαν %1$s σελίδες, μέση βαθμολογία GEO %2$s από %3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "Λάβετε email μόλις ένα νέο AI διαβάσει τον ιστότοπό σας για πρώτη φορά – το πολύ ένα email την ημέρα.",
+	"Notification for the first AI visit": "Ειδοποίηση για την πρώτη επίσκεψη AI",
+	"Open the full GEO analysis": "Άνοιγμα της πλήρους ανάλυσης GEO",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "Προαιρετικά: %s ακόμη λειτουργίες στην κατάσταση GEO παρακάτω μπορούν να βελτιώσουν την ορατότητά σας.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "Κάτι κρατά τα συστήματα AI μακριά από τον ιστότοπό σας – δείτε τα κόκκινα και κίτρινα σημεία στην κατάσταση GEO παρακάτω.",
+	"These pages have the most room for improvement:": "Αυτές οι σελίδες έχουν τα μεγαλύτερα περιθώρια βελτίωσης:",
+	"Turn on email notifications": "Ενεργοποίηση ειδοποιήσεων email",
+	"Until then, here is what Wille GEO already found on your site:": "Μέχρι τότε, δείτε τι έχει ήδη βρει το Wille GEO στον ιστότοπό σας:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "Θα λάβετε email μόλις ένα νέο AI διαβάσει τον ιστότοπό σας για πρώτη φορά.",
+	"Your content, checked for AI search": "Το περιεχόμενό σας, ελεγμένο για την αναζήτηση AI",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "Ο ιστότοπός σας είναι ανοιχτός στους ανιχνευτές AI: τίποτα δεν μπλοκάρει το ChatGPT, το Perplexity ή το Claude."
 }

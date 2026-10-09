@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "IndexNowのキーファイルに自分のサーバーからアクセスできないため、pingを一時停止しています。主な原因：パーマリンク設定が「基本」になっている（設定 → パーマリンクで修正）か、セキュリティプラグインがループバックリクエストをブロックしています。修正後、この設定をもう一度保存してください。保存後まもなく再チェックが行われます。",
 	"days": "日",
 	"Waiting for the first AI visit": "最初のAIの訪問を待っています",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "その間に：下のステータスパネルで緑になっていない項目を修正し、重要なページにフォーカスキーワードを設定しましょう。",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "統計ダッシュボードにはJavaScriptが必要です。代わりにCSVエクスポートまたはWP-CLI（wp geoins stats）をご利用ください。",
 	"Your session check expired – reload the page to continue.": "セッションの確認期限が切れました。続けるにはページを再読み込みしてください。",
 	"Reload page": "ページを再読み込み",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "どの AI（ChatGPT、Claude、Perplexity など）がどのページを読んでいるかを確認し、AI 検索（GEO）向けにサイトを最適化します。無料、個人データの収集なし。",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "%1$sページを分析しました。平均GEOスコアは%3$s中%2$sです。",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "新しいAIが初めてサイトを読んだらすぐにメールでお知らせします（メールは1日1通まで）。",
+	"Notification for the first AI visit": "最初のAIの訪問を通知",
+	"Open the full GEO analysis": "GEO分析の全体を開く",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "任意：下のGEOステータスにあるあと%s個の機能で、可視性をさらに高められます。",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "何かがAIシステムをサイトから遠ざけています。下のGEOステータスにある赤と黄色の項目を確認してください。",
+	"These pages have the most room for improvement:": "改善の余地が最も大きいページ：",
+	"Turn on email notifications": "メール通知を有効にする",
+	"Until then, here is what Wille GEO already found on your site:": "それまでの間、Wille GEOがすでにサイトで見つけた内容をご覧ください。",
+	"You will get an email as soon as a new AI reads your site for the first time.": "新しいAIが初めてサイトを読んだらすぐにメールが届きます。",
+	"Your content, checked for AI search": "コンテンツをAI検索向けにチェック",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "サイトはAIクローラーに開かれています。ChatGPT、Perplexity、Claudeをブロックするものはありません。"
 }

@@ -9,6 +9,9 @@ msgstr ""
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr ""
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr ""
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr ""
 
@@ -420,6 +423,9 @@ msgstr ""
 msgid "GEO status of your site"
 msgstr ""
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr ""
+
 msgid "High AI interest, low score – fix these first."
 msgstr ""
 
@@ -540,9 +546,6 @@ msgstr ""
 msgid "Maybe later"
 msgstr ""
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr ""
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr ""
 
@@ -615,6 +618,9 @@ msgstr ""
 msgid "Not allowed."
 msgstr ""
 
+msgid "Notification for the first AI visit"
+msgstr ""
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr ""
 
@@ -642,6 +648,9 @@ msgstr ""
 msgid "Open improvements"
 msgstr ""
 
+msgid "Open the full GEO analysis"
+msgstr ""
+
 msgid "Open the full dashboard"
 msgstr ""
 
@@ -655,6 +664,9 @@ msgid "Open your five most important pages and set a focus term for each: the qu
 msgstr ""
 
 msgid "Opportunity map"
+msgstr ""
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
 msgstr ""
 
 msgid "Output meta description & social previews (Open Graph)"
@@ -834,6 +846,9 @@ msgstr ""
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr ""
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr ""
+
 msgid "Sorry, you are not allowed to do that."
 msgstr ""
 
@@ -894,6 +909,9 @@ msgstr ""
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr ""
 
+msgid "These pages have the most room for improvement:"
+msgstr ""
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr ""
 
@@ -915,7 +933,13 @@ msgstr ""
 msgid "Training bots"
 msgstr ""
 
+msgid "Turn on email notifications"
+msgstr ""
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
+msgstr ""
+
+msgid "Until then, here is what Wille GEO already found on your site:"
 msgstr ""
 
 msgid "Updated"
@@ -1026,10 +1050,19 @@ msgstr ""
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr ""
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr ""
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr ""
 
+msgid "Your content, checked for AI search"
+msgstr ""
+
 msgid "Your session check expired – reload the page to continue."
+msgstr ""
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
 msgstr ""
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"

@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "קובץ המפתח של IndexNow אינו נגיש מהשרת שלך עצמו, ולכן השליחות מושהות. סיבות נפוצות: קישורים קבועים פשוטים (לתיקון תחת הגדרות ← קישורים קבועים) או תוסף אבטחה שחוסם בקשות loopback. לאחר התיקון, יש לשמור שוב את ההגדרות – הבדיקה תרוץ מחדש זמן קצר אחרי השמירה.",
 	"days": "ימים",
 	"Waiting for the first AI visit": "ממתין לביקור ה-AI הראשון",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "בינתיים: כדאי לתקן כל מה שאינו ירוק בלוח המצב שלמטה, ולהגדיר מונחים מרכזיים לעמודים החשובים ביותר.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "לוח הסטטיסטיקות דורש JavaScript. אפשר להשתמש בייצוא CSV או ב-WP-CLI ‏(wp geoins stats) במקום.",
 	"Your session check expired – reload the page to continue.": "תוקף בדיקת ההתחברות פג – יש לטעון מחדש את העמוד כדי להמשיך.",
 	"Reload page": "טעינת העמוד מחדש",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "אפשר לראות איזו AI (ChatGPT, Claude, Perplexity…) קוראת אילו עמודים באתר – ולשפר את האתר לחיפוש מבוסס AI (GEO). חינם, ללא מידע אישי.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "נותחו %1$s עמודים, ציון GEO ממוצע %2$s מתוך %3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "לקבל מייל ברגע ש-AI חדש קורא את האתר בפעם הראשונה – לכל היותר מייל אחד ביום.",
+	"Notification for the first AI visit": "התראה על ביקור ה-AI הראשון",
+	"Open the full GEO analysis": "לפתיחת ניתוח ה-GEO המלא",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "אופציונלי: עוד %s תכונות במצב ה-GEO שלמטה יכולות לשפר את הנראות.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "משהו מרחיק מערכות AI מהאתר – כדאי לבדוק את הנקודות האדומות והצהובות במצב ה-GEO שלמטה.",
+	"These pages have the most room for improvement:": "לעמודים האלה יש הכי הרבה מקום לשיפור:",
+	"Turn on email notifications": "הפעלת התראות במייל",
+	"Until then, here is what Wille GEO already found on your site:": "עד אז, הנה מה ש-Wille GEO כבר מצא באתר:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "יישלח מייל ברגע ש-AI חדש יקרא את האתר בפעם הראשונה.",
+	"Your content, checked for AI search": "התוכן שלך, נבדק לחיפוש AI",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "האתר פתוח לסורקי AI: שום דבר לא חוסם את ChatGPT, Perplexity או Claude."
 }

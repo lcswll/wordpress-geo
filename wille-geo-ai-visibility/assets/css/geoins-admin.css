@@ -1504,3 +1504,51 @@
 		animation: none;
 	}
 }
+
+/* First-run panel (shown instead of the empty statistics). */
+.geoins-start-steps {
+	list-style: none;
+	margin: 16px 0;
+	padding: 0;
+	display: grid;
+	gap: 14px;
+}
+
+.geoins-start-step {
+	display: flex;
+	gap: 12px;
+	align-items: flex-start;
+}
+
+.geoins-start-step > div {
+	min-width: 0;
+}
+
+.geoins-start-step .geoins-light {
+	margin-top: 4px;
+}
+
+.geoins-start-step p {
+	margin: 4px 0;
+}
+
+.geoins-light-wait {
+	background: #8c8f94;
+}
+
+.geoins-start-pages {
+	margin: 6px 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	gap: 6px;
+}
+
+.geoins-start-pages li {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 560px;
+}

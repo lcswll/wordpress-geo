@@ -11,6 +11,9 @@ msgstr "Включена опция «Попросить поисковые си
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d диапазонов IP от %2$d поставщиков, последнее обновление: %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "Проанализировано страниц: %1$s, средняя оценка GEO – %2$s из %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (краулер обучения) впервые посетил ваш сайт."
 
@@ -422,6 +425,9 @@ msgstr "Оценка GEO"
 msgid "GEO status of your site"
 msgstr "Статус GEO вашего сайта"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Получайте письмо, как только новый ИИ впервые прочитает ваш сайт – не более одного письма в день."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "Высокий интерес ИИ, низкая оценка – исправьте это в первую очередь."
 
@@ -542,9 +548,6 @@ msgstr "Макс. записей в разделе"
 msgid "Maybe later"
 msgstr "Может быть, позже"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "А пока исправьте всё, что не зелёное на панели статуса ниже, и задайте ключевые термины для самых важных страниц."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Всё больше людей больше не вводят вопросы в Google – они спрашивают ChatGPT, Perplexity, Copilot или Claude. ИИ читает несколько сайтов, пишет один ответ и называет свои источники. Если ваш сайт – один из них, вас упоминают и дают на вас ссылку. Если нет, в этом разговоре вас не видно – даже если вы хорошо ранжируетесь в классическом Google."
 
@@ -617,6 +620,9 @@ msgstr "Нет – использовать IP прямого подключен
 msgid "Not allowed."
 msgstr "Недостаточно прав."
 
+msgid "Notification for the first AI visit"
+msgstr "Уведомление о первом визите ИИ"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Выключено. User agent можно подделать; проверка отличает настоящих ИИ-ботов от самозванцев (раз в день загружает публичные списки IP)."
 
@@ -644,6 +650,9 @@ msgstr "Откройте любую запись в редакторе – па�
 msgid "Open improvements"
 msgstr "Открытые улучшения"
 
+msgid "Open the full GEO analysis"
+msgstr "Открыть полный анализ GEO"
+
 msgid "Open the full dashboard"
 msgstr "Открыть полную панель"
 
@@ -658,6 +667,9 @@ msgstr "Откройте пять самых важных страниц и за
 
 msgid "Opportunity map"
 msgstr "Карта возможностей"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "Необязательно: дополнительные функции в статусе GEO ниже (%s) могут улучшить вашу видимость."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Выводить метаописание и превью для соцсетей (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "Сайт виден краулерам"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Тот, кто переходит из ИИ-ответа, уже прочитал краткое изложение и хочет подробностей – исследования и данные магазинов неизменно показывают, что такие посетители конвертируются заметно лучше среднего поискового трафика. Посетителей меньше, но они «теплее»."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Что-то не пускает ИИ-системы на ваш сайт – посмотрите красные и жёлтые пункты в статусе GEO ниже."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Извините, у вас нет прав на это действие."
 
@@ -896,6 +911,9 @@ msgstr "Для панели статистики нужен JavaScript. Вмес
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Дальше просто дайте этому поработать. Заглядывайте на панель раз в неделю (или включите отчёт по email) и вкладывайтесь туда, где интерес ИИ уже проявляется, – там цитирования ближе всего."
 
+msgid "These pages have the most room for improvement:"
+msgstr "У этих страниц больше всего возможностей для улучшения:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "Эти user agent похожи на ИИ-системы, но их пока нет в реестре – поэтому их обращения НЕ входят в статистику выше. Частые записи стоит добавить через фильтр geoins_bots (или сообщить о них разработчику плагина)."
 
@@ -917,8 +935,14 @@ msgstr "Обучение"
 msgid "Training bots"
 msgstr "Боты обучения"
 
+msgid "Turn on email notifications"
+msgstr "Включить уведомления по email"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "Две вещи: измеряет и оптимизирует. Всё работает на вашем собственном сервере, ничего никуда не отправляется, а каждый переключатель в настройках объясняет свою пользу, прежде чем вы его включите."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "А пока вот что Wille GEO уже нашёл на вашем сайте:"
 
 msgid "Updated"
 msgstr "Обновлено"
@@ -1028,11 +1052,20 @@ msgstr "Вы блокируете %s. Эти боты приводят вас в
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Вы получили это письмо, потому что в Wille GEO → Настройки включены уведомления о цитированиях по email."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "Вы получите письмо, как только новый ИИ впервые прочитает ваш сайт."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "Файл ключа IndexNow недоступен с вашего собственного сервера, поэтому пинги приостановлены. Обычные причины: простые постоянные ссылки (исправляется в разделе Настройки → Постоянные ссылки) или плагин безопасности, блокирующий loopback-запросы. После исправления сохраните эти настройки ещё раз – проверка повторится вскоре после сохранения."
 
+msgid "Your content, checked for AI search"
+msgstr "Ваш контент, проверенный для ИИ-поиска"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "Срок проверки сессии истёк – перезагрузите страницу, чтобы продолжить."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "Ваш сайт открыт для ИИ-краулеров: ничто не блокирует ChatGPT, Perplexity или Claude."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] Видимость в ИИ за неделю: %2$d обращений ИИ, %3$d ИИ-посетителей"

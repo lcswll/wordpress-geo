@@ -11,6 +11,9 @@ msgstr "\"सर्च इंजन को इस साइट को अनु�
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%2$d विक्रेताओं की %1$d IP रेंज, अंतिम अपडेट %3$s।"
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "%1$s पृष्ठों का विश्लेषण किया गया, औसत GEO स्कोर %3$s में से %2$s।"
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (ट्रेनिंग क्रॉलर) ने पहली बार आपकी साइट पर विज़िट की।"
 
@@ -422,6 +425,9 @@ msgstr "GEO स्कोर"
 msgid "GEO status of your site"
 msgstr "आपकी साइट का GEO स्थिति"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "जैसे ही कोई नया AI पहली बार आपकी साइट पढ़े, ईमेल पाएँ – दिन में अधिकतम एक ईमेल।"
+
 msgid "High AI interest, low score – fix these first."
 msgstr "AI की रुचि ज़्यादा, स्कोर कम – इन्हें पहले सुधारें।"
 
@@ -542,9 +548,6 @@ msgstr "प्रति अनुभाग अधिकतम प्रविष
 msgid "Maybe later"
 msgstr "शायद बाद में"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "इस बीच: नीचे के स्थिति पैनल में जो कुछ भी हरा नहीं है उसे ठीक करें, और अपने सबसे महत्वपूर्ण पृष्ठों पर फ़ोकस शब्द सेट करें।"
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "ज़्यादा से ज़्यादा लोग अब अपने प्रश्न Google में टाइप नहीं करते – वे ChatGPT, Perplexity, Copilot या Claude से पूछते हैं। AI कुछ वेबसाइटें पढ़ता है, एक उत्तर लिखता है और अपने स्रोत बताता है। अगर आपकी साइट उन स्रोतों में से एक है, तो आपका नाम और लिंक आता है। अगर नहीं, तो आप उस बातचीत में अदृश्य हैं – भले ही पारंपरिक Google में आपकी रैंकिंग अच्छी हो।"
 
@@ -617,6 +620,9 @@ msgstr "नहीं – सीधे कनेक्शन का IP इस्�
 msgid "Not allowed."
 msgstr "अनुमति नहीं है।"
 
+msgid "Notification for the first AI visit"
+msgstr "पहली AI विज़िट की सूचना"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "बंद है। User agent नकली बनाए जा सकते हैं; सत्यापन चालू करने से असली AI बॉट नकली से अलग हो जाते हैं (दिन में एक बार सार्वजनिक IP सूचियाँ लाता है)।"
 
@@ -644,6 +650,9 @@ msgstr "संपादक में कोई भी पोस्ट खोल�
 msgid "Open improvements"
 msgstr "बाकी सुधार"
 
+msgid "Open the full GEO analysis"
+msgstr "पूरा GEO विश्लेषण खोलें"
+
 msgid "Open the full dashboard"
 msgstr "पूरा डैशबोर्ड खोलें"
 
@@ -658,6 +667,9 @@ msgstr "अपने पाँच सबसे महत्वपूर्ण �
 
 msgid "Opportunity map"
 msgstr "अवसर मानचित्र"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "वैकल्पिक: नीचे GEO स्थिति में %s और सुविधाएँ आपकी दृश्यता बढ़ा सकती हैं।"
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "मेटा विवरण और सोशल प्रीव्यू (Open Graph) आउटपुट करें"
@@ -836,6 +848,9 @@ msgstr "साइट क्रॉलर के लिए दृश्यमा�
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "जो व्यक्ति AI उत्तर से क्लिक करके आता है, वह पहले ही सारांश पढ़ चुका होता है और गहराई चाहता है – अध्ययन और शॉप डेटा लगातार दिखाते हैं कि ये विज़िटर औसत सर्च ट्रैफ़िक से काफ़ी बेहतर कन्वर्ट करते हैं। कम विज़िटर, लेकिन ज़्यादा रुचि वाले।"
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "कोई चीज़ AI सिस्टम को आपकी साइट से दूर रख रही है – नीचे GEO स्थिति में लाल और पीले बिंदु देखें।"
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "क्षमा करें, आपको ऐसा करने की अनुमति नहीं है।"
 
@@ -896,6 +911,9 @@ msgstr "आँकड़े डैशबोर्ड के लिए JavaScript 
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "फिर इसे चलने दें। डैशबोर्ड हर हफ़्ते देखें (या ईमेल रिपोर्ट चालू करें) और वहाँ निवेश करें जहाँ AI की रुचि पहले से दिख रही है – वहीं उद्धरण सबसे क़रीब हैं।"
 
+msgid "These pages have the most room for improvement:"
+msgstr "इन पृष्ठों में सुधार की सबसे ज़्यादा गुंजाइश है:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "ये user agent AI सिस्टम जैसे लगते हैं लेकिन अभी रजिस्ट्री में नहीं हैं – इसलिए इनके हिट ऊपर के आँकड़ों में शामिल नहीं हैं। बार-बार आने वाली प्रविष्टियों को geoins_bots फ़िल्टर से जोड़ना (या प्लगइन को रिपोर्ट करना) फ़ायदेमंद है।"
 
@@ -917,8 +935,14 @@ msgstr "ट्रेनिंग"
 msgid "Training bots"
 msgstr "ट्रेनिंग बॉट"
 
+msgid "Turn on email notifications"
+msgstr "ईमेल सूचनाएँ चालू करें"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "दो काम: यह मापता है, और यह ऑप्टिमाइज़ करता है। सब कुछ आपके अपने सर्वर पर चलता है, कहीं कुछ नहीं भेजा जाता, और सेटिंग्स का हर स्विच चालू करने से पहले अपना फ़ायदा बताता है।"
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "तब तक, देखें कि Wille GEO ने आपकी साइट पर पहले से क्या पाया है:"
 
 msgid "Updated"
 msgstr "अपडेट किया गया"
@@ -1028,11 +1052,20 @@ msgstr "आप %s को ब्लॉक कर रहे हैं। ये �
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "आपको यह इसलिए मिल रहा है क्योंकि Wille GEO → सेटिंग्स में ईमेल से उद्धरण अलर्ट चालू हैं।"
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "जैसे ही कोई नया AI पहली बार आपकी साइट पढ़ेगा, आपको ईमेल मिलेगा।"
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "आपकी IndexNow कुंजी फ़ाइल आपके अपने सर्वर से उपलब्ध नहीं है, इसलिए पिंग रोक दिए गए हैं। सामान्य कारण: साधारण परमालिंक (सेटिंग्स → परमालिंक में ठीक करें) या कोई सुरक्षा प्लगइन जो लूपबैक अनुरोधों को ब्लॉक करता है। इसे ठीक करने के बाद ये सेटिंग्स फिर से सहेजें – सहेजने के थोड़ी देर बाद जाँच दोबारा चलती है।"
 
+msgid "Your content, checked for AI search"
+msgstr "आपकी सामग्री, AI सर्च के लिए जाँची गई"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "आपके सत्र की जाँच की समय-सीमा समाप्त हो गई – जारी रखने के लिए पृष्ठ फिर से लोड करें।"
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "आपकी साइट AI क्रॉलर के लिए खुली है: ChatGPT, Perplexity या Claude को कुछ भी ब्लॉक नहीं करता।"
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] इस सप्ताह AI दृश्यता: %2$d AI एक्सेस, %3$d AI विज़िटर"

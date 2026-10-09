@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "Файл ключа IndexNow недоступний з вашого власного сервера, тому пінги призупинено. Звичайні причини: прості постійні посилання (виправте в Налаштування → Постійні посилання) або плагін безпеки, що блокує loopback-запити. Після виправлення збережіть ці налаштування ще раз – перевірка повториться невдовзі після збереження.",
 	"days": "днів",
 	"Waiting for the first AI visit": "Очікуємо перший візит AI",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "Тим часом: виправте все, що не зелене, на панелі статусу нижче, і задайте ключові терміни для найважливіших сторінок.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "Для панелі статистики потрібен JavaScript. Натомість скористайтеся експортом CSV або WP-CLI (wp geoins stats).",
 	"Your session check expired – reload the page to continue.": "Термін дії перевірки сесії минув – перезавантажте сторінку, щоб продовжити.",
 	"Reload page": "Перезавантажити сторінку",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "Дізнайтеся, який ШІ (ChatGPT, Claude, Perplexity…) читає які сторінки вашого сайту, – і оптимізуйте сайт для пошуку з ШІ (GEO). Безкоштовно, без персональних даних.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "Проаналізовано сторінок: %1$s, середня GEO-оцінка – %2$s з %3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "Отримуйте лист, щойно новий AI уперше прочитає ваш сайт – щонайбільше один лист на день.",
+	"Notification for the first AI visit": "Сповіщення про перший візит AI",
+	"Open the full GEO analysis": "Відкрити повний GEO-аналіз",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "Необов'язково: додаткові функції (%s) у GEO-статусі нижче можуть покращити вашу видимість.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "Щось не пускає AI-системи на ваш сайт – перегляньте червоні та жовті пункти в GEO-статусі нижче.",
+	"These pages have the most room for improvement:": "Ці сторінки мають найбільший потенціал для покращення:",
+	"Turn on email notifications": "Увімкнути сповіщення на email",
+	"Until then, here is what Wille GEO already found on your site:": "А поки що ось що Wille GEO вже знайшов на вашому сайті:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "Ви отримаєте лист, щойно новий AI уперше прочитає ваш сайт.",
+	"Your content, checked for AI search": "Ваш контент, перевірений для AI-пошуку",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "Ваш сайт відкритий для AI-краулерів: ніщо не блокує ChatGPT, Perplexity чи Claude."
 }

@@ -11,6 +11,9 @@ msgstr "„Descurajează motoarele de căutare” este activat (Setări → Citi
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d intervale IP de la %2$d furnizori, ultima actualizare %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "%1$s pagini analizate, scor GEO mediu %2$s din %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (crawler de antrenare) v-a vizitat site-ul pentru prima dată."
 
@@ -422,6 +425,9 @@ msgstr "Scor GEO"
 msgid "GEO status of your site"
 msgstr "Starea GEO a site-ului dumneavoastră"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Primiți un email imediat ce un AI nou vă citește site-ul pentru prima dată – cel mult un email pe zi."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "Interes AI ridicat, scor scăzut – remediați-le pe acestea mai întâi."
 
@@ -542,9 +548,6 @@ msgstr "Nr. max. de intrări pe secțiune"
 msgid "Maybe later"
 msgstr "Poate mai târziu"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "Între timp: remediați tot ce nu este verde în panoul de stare de mai jos și setați termeni principali pe cele mai importante pagini."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Tot mai mulți oameni nu își mai scriu întrebările în Google – îi întreabă pe ChatGPT, Perplexity, Copilot sau Claude. AI-ul citește câteva site-uri, scrie un singur răspuns și își numește sursele. Dacă site-ul dumneavoastră este una dintre aceste surse, sunteți menționat și primiți un link. Dacă nu, sunteți invizibil în acea conversație – chiar dacă vă clasați bine în Google-ul clasic."
 
@@ -617,6 +620,9 @@ msgstr "Nu – folosește IP-ul conexiunii directe"
 msgid "Not allowed."
 msgstr "Nu este permis."
 
+msgid "Notification for the first AI visit"
+msgstr "Notificare la prima vizită AI"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Dezactivat. User-agent-urile pot fi falsificate; activarea verificării separă boții AI reali de impostori (preia liste IP publice o dată pe zi)."
 
@@ -644,6 +650,9 @@ msgstr "Deschideți orice articol în editor – panoul „Verificare GEO” din
 msgid "Open improvements"
 msgstr "Îmbunătățiri deschise"
 
+msgid "Open the full GEO analysis"
+msgstr "Deschideți analiza GEO completă"
+
 msgid "Open the full dashboard"
 msgstr "Deschideți panoul complet"
 
@@ -658,6 +667,9 @@ msgstr "Deschideți cele mai importante cinci pagini și setați pentru fiecare 
 
 msgid "Opportunity map"
 msgstr "Harta oportunităților"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "Opțional: încă %s funcții din starea GEO de mai jos vă pot îmbunătăți vizibilitatea."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Generează meta descrierea și previzualizările sociale (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "Site vizibil pentru crawlere"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Cine ajunge la dumneavoastră dintr-un răspuns AI a citit deja un rezumat și vrea profunzime – studiile și datele din magazine online arată constant că acești vizitatori convertesc vizibil mai bine decât traficul mediu din căutare. Mai puțini vizitatori, dar mai interesați."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Ceva ține sistemele AI departe de site-ul dumneavoastră – vedeți punctele roșii și galbene din starea GEO de mai jos."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Nu aveți permisiunea de a face asta."
 
@@ -896,6 +911,9 @@ msgstr "Panoul de statistici necesită JavaScript. Folosiți în schimb exportul
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Apoi lăsați-l să ruleze. Verificați panoul săptămânal (sau activați raportul prin email) și investiți acolo unde interesul AI se vede deja – acolo citările sunt cel mai aproape."
 
+msgid "These pages have the most room for improvement:"
+msgstr "Aceste pagini au cel mai mult loc de îmbunătățire:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "Aceste user-agent-uri par a fi sisteme AI, dar nu sunt încă în registru – așa că accesările lor NU apar în statisticile de mai sus. Intrările frecvente merită adăugate prin filtrul geoins_bots (sau raportate autorului modulului)."
 
@@ -917,8 +935,14 @@ msgstr "Antrenare"
 msgid "Training bots"
 msgstr "Boți de antrenare"
 
+msgid "Turn on email notifications"
+msgstr "Activați notificările prin email"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "Două lucruri: măsoară și optimizează. Totul rulează pe propriul server, nu se trimite nimic nicăieri, iar fiecare comutator din setări își explică beneficiul înainte să îl activați."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "Până atunci, iată ce a găsit deja Wille GEO pe site-ul dumneavoastră:"
 
 msgid "Updated"
 msgstr "Actualizat"
@@ -1028,11 +1052,20 @@ msgstr "Blocați %s. Acești boți vă aduc în răspunsurile AI – blocarea lo
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Primiți acest mesaj deoarece alertele de citare prin email sunt activate în Wille GEO → Setări."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "Veți primi un email imediat ce un AI nou vă citește site-ul pentru prima dată."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "Fișierul cheie IndexNow nu este accesibil de pe propriul server, așa că pingurile sunt întrerupte. Cauze obișnuite: legături permanente simple (remediați în Setări → Legături permanente) sau un modul de securitate care blochează cererile loopback. După remediere, salvați din nou aceste setări – verificarea rulează din nou la scurt timp după salvare."
 
+msgid "Your content, checked for AI search"
+msgstr "Conținutul dumneavoastră, verificat pentru căutarea AI"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "Verificarea sesiunii a expirat – reîncărcați pagina pentru a continua."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "Site-ul dumneavoastră este deschis crawlerelor AI: nimic nu blochează ChatGPT, Perplexity sau Claude."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] Vizibilitate AI săptămâna aceasta: %2$d accesări AI, %3$d vizitatori AI"

@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "आपकी IndexNow कुंजी फ़ाइल आपके अपने सर्वर से उपलब्ध नहीं है, इसलिए पिंग रोक दिए गए हैं। सामान्य कारण: साधारण परमालिंक (सेटिंग्स → परमालिंक में ठीक करें) या कोई सुरक्षा प्लगइन जो लूपबैक अनुरोधों को ब्लॉक करता है। इसे ठीक करने के बाद ये सेटिंग्स फिर से सहेजें – सहेजने के थोड़ी देर बाद जाँच दोबारा चलती है।",
 	"days": "दिन",
 	"Waiting for the first AI visit": "पहली AI विज़िट की प्रतीक्षा",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "इस बीच: नीचे के स्थिति पैनल में जो कुछ भी हरा नहीं है उसे ठीक करें, और अपने सबसे महत्वपूर्ण पृष्ठों पर फ़ोकस शब्द सेट करें।",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "आँकड़े डैशबोर्ड के लिए JavaScript आवश्यक है। इसकी जगह CSV निर्यात या WP-CLI (wp geoins stats) का उपयोग करें।",
 	"Your session check expired – reload the page to continue.": "आपके सत्र की जाँच की समय-सीमा समाप्त हो गई – जारी रखने के लिए पृष्ठ फिर से लोड करें।",
 	"Reload page": "पृष्ठ फिर से लोड करें",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "देखें कि कौन-सा AI (ChatGPT, Claude, Perplexity…) आपके कौन-से पेज पढ़ता है – और अपनी साइट को AI सर्च (GEO) के लिए ऑप्टिमाइज़ करें। मुफ़्त, कोई निजी डेटा नहीं।",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "%1$s पृष्ठों का विश्लेषण किया गया, औसत GEO स्कोर %3$s में से %2$s।",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "जैसे ही कोई नया AI पहली बार आपकी साइट पढ़े, ईमेल पाएँ – दिन में अधिकतम एक ईमेल।",
+	"Notification for the first AI visit": "पहली AI विज़िट की सूचना",
+	"Open the full GEO analysis": "पूरा GEO विश्लेषण खोलें",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "वैकल्पिक: नीचे GEO स्थिति में %s और सुविधाएँ आपकी दृश्यता बढ़ा सकती हैं।",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "कोई चीज़ AI सिस्टम को आपकी साइट से दूर रख रही है – नीचे GEO स्थिति में लाल और पीले बिंदु देखें।",
+	"These pages have the most room for improvement:": "इन पृष्ठों में सुधार की सबसे ज़्यादा गुंजाइश है:",
+	"Turn on email notifications": "ईमेल सूचनाएँ चालू करें",
+	"Until then, here is what Wille GEO already found on your site:": "तब तक, देखें कि Wille GEO ने आपकी साइट पर पहले से क्या पाया है:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "जैसे ही कोई नया AI पहली बार आपकी साइट पढ़ेगा, आपको ईमेल मिलेगा।",
+	"Your content, checked for AI search": "आपकी सामग्री, AI सर्च के लिए जाँची गई",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "आपकी साइट AI क्रॉलर के लिए खुली है: ChatGPT, Perplexity या Claude को कुछ भी ब्लॉक नहीं करता।"
 }

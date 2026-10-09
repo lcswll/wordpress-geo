@@ -376,6 +376,61 @@ try {
 	);
 	check( 403 === $forged->get_status() && count( hits() ) === $before, 'beacon rejects a token of another page', $forged->get_status() );
 
+	// ---------------------------------------------- first-run panel: first-visit notice, one-click alerts.
+	require_once GEOINS_DIR . 'includes/admin/class-geoins-admin.php'; // The plugin loads it in wp-admin only.
+	delete_option( 'geoins_visit_notice_seen' );
+	GEOINS_Alerts::mark_all_read();
+	check( null === GEOINS_Admin::unseen_first_visit(), 'no first-visit notice without a new alert' );
+	GEOINS_Alerts::add_alert(
+		'new_bot',
+		array(
+			'label'    => 'GPTBot',
+			'slug'     => 'gptbot',
+			'category' => GEOINS_Bots::CAT_TRAINING,
+			'relevant' => 0,
+		)
+	);
+	$visit_alert = GEOINS_Admin::unseen_first_visit();
+	check( is_array( $visit_alert ) && 'new_bot' === $visit_alert['type'], 'a new AI bot raises the first-visit notice', $visit_alert );
+	GEOINS_Admin::mark_visit_notice_seen();
+	check( null === GEOINS_Admin::unseen_first_visit(), 'opening the dashboard (or Dismiss) hides the notice' );
+	GEOINS_Alerts::add_alert(
+		'spike',
+		array(
+			'count' => 9,
+			'avg'   => '1',
+		)
+	);
+	check( null === GEOINS_Admin::unseen_first_visit(), 'a spike alert does not raise the first-visit notice' );
+	GEOINS_Alerts::add_alert(
+		'new_referral',
+		array(
+			'label' => 'ChatGPT',
+			'slug'  => 'chatgpt',
+		)
+	);
+	$visit_alert = GEOINS_Admin::unseen_first_visit();
+	check( is_array( $visit_alert ) && 'new_referral' === $visit_alert['type'], 'a later first contact raises the notice again', $visit_alert );
+
+	$before_alerts = geoins()->settings();
+	update_option( 'geoins_settings', array_merge( $before_alerts, array( 'alerts_email' => 0 ) ) );
+	geoins()->flush_settings_cache();
+	GEOINS_Admin::turn_on_alert_emails();
+	$after_alerts = geoins()->settings();
+	check( 1 === (int) $after_alerts['alerts_email'], 'one click switches on the email alerts' );
+	$changed = array();
+	foreach ( $before_alerts as $key => $value ) {
+		// The sanitizer stores flags as int: scalars are compared as strings, so 1 and "1" count as equal.
+		$was = is_scalar( $value ) ? (string) $value : wp_json_encode( $value );
+		$now = is_scalar( $after_alerts[ $key ] ) ? (string) $after_alerts[ $key ] : wp_json_encode( $after_alerts[ $key ] );
+		if ( 'alerts_email' !== $key && $was !== $now ) {
+			$changed[ $key ] = array( $value, $after_alerts[ $key ] );
+		}
+	}
+	check( array() === $changed, 'switching on the alerts keeps every other setting', $changed );
+	update_option( 'geoins_settings', $before_alerts );
+	geoins()->flush_settings_cache();
+
 	// ---------------------------------------------- deactivation, uninstall.
 	deactivate_plugins( $plugin );
 	check( ! wp_next_scheduled( 'geoins_daily_cleanup' ), 'deactivation clears cron' );

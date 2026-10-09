@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "您的服务器无法访问您的 IndexNow 密钥文件，因此 ping 已暂停。常见原因：使用了朴素固定链接（在“设置 → 固定链接”中修改），或安全插件阻止了回环请求。修复后，请重新保存这些设置——保存后不久会重新检查。",
 	"days": "天",
 	"Waiting for the first AI visit": "正在等待第一次 AI 访问",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "在此期间：修复下方状态面板中所有未显示为绿色的项目，并为您最重要的页面设置焦点关键词。",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "统计仪表盘需要 JavaScript。请改用 CSV 导出或 WP-CLI（wp geoins stats）。",
 	"Your session check expired – reload the page to continue.": "您的会话验证已过期——请重新加载页面以继续。",
 	"Reload page": "重新加载页面",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "查看哪些 AI（ChatGPT、Claude、Perplexity 等）读取了您的哪些页面，并针对 AI 搜索（GEO）优化您的站点。免费，不收集个人数据。",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "已分析 %1$s 个页面，平均 GEO 评分 %2$s / %3$s。",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "新的 AI 首次读取您的站点时，立即收到电子邮件——每天最多一封。",
+	"Notification for the first AI visit": "首次 AI 访问通知",
+	"Open the full GEO analysis": "打开完整的 GEO 分析",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "可选：下方 GEO 状态中还有 %s 项功能可以提升您的可见性。",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "有因素正在阻止 AI 系统访问您的站点——请查看下方 GEO 状态中的红色和黄色项。",
+	"These pages have the most room for improvement:": "这些页面的改进空间最大：",
+	"Turn on email notifications": "开启电子邮件通知",
+	"Until then, here is what Wille GEO already found on your site:": "在此之前，先看看 Wille GEO 已在您的站点上发现了什么：",
+	"You will get an email as soon as a new AI reads your site for the first time.": "新的 AI 首次读取您的站点时，您会立即收到电子邮件。",
+	"Your content, checked for AI search": "您的内容，已针对 AI 搜索进行检查",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "您的站点对 AI 爬虫开放：没有任何内容阻止 ChatGPT、Perplexity 或 Claude。"
 }

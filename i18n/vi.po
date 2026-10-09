@@ -11,6 +11,9 @@ msgstr "\"Ngăn chặn các công cụ tìm kiếm đánh chỉ mục website n�
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d dải IP từ %2$d nhà cung cấp, cập nhật lần cuối %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "Đã phân tích %1$s trang, điểm GEO trung bình %2$s/%3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (trình thu thập huấn luyện) đã truy cập trang web của bạn lần đầu tiên."
 
@@ -422,6 +425,9 @@ msgstr "Điểm GEO"
 msgid "GEO status of your site"
 msgstr "Trạng thái GEO của trang web"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Nhận email ngay khi một AI mới đọc trang web của bạn lần đầu tiên – tối đa một email mỗi ngày."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "AI quan tâm nhiều, điểm thấp – hãy sửa những trang này trước."
 
@@ -542,9 +548,6 @@ msgstr "Số mục tối đa mỗi phần"
 msgid "Maybe later"
 msgstr "Để sau"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "Trong lúc chờ: khắc phục mọi mục chưa xanh trong bảng trạng thái bên dưới, và đặt từ khóa chính cho các trang quan trọng nhất."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Ngày càng nhiều người không còn gõ câu hỏi vào Google – họ hỏi ChatGPT, Perplexity, Copilot hoặc Claude. AI đọc một vài trang web, viết một câu trả lời và nêu nguồn. Nếu trang web của bạn là một trong những nguồn đó, bạn được nhắc đến và liên kết. Nếu không, bạn vô hình trong cuộc trò chuyện đó – ngay cả khi bạn xếp hạng tốt trên Google truyền thống."
 
@@ -617,6 +620,9 @@ msgstr "Không – dùng IP kết nối trực tiếp"
 msgid "Not allowed."
 msgstr "Không được phép."
 
+msgid "Notification for the first AI visit"
+msgstr "Thông báo cho lượt truy cập AI đầu tiên"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Đã tắt. User agent có thể bị giả mạo; bật xác minh sẽ phân biệt bot AI thật với bot giả mạo (tải danh sách IP công khai mỗi ngày một lần)."
 
@@ -644,6 +650,9 @@ msgstr "Mở bất kỳ bài viết nào trong trình soạn thảo – bảng �
 msgid "Open improvements"
 msgstr "Cải thiện còn lại"
 
+msgid "Open the full GEO analysis"
+msgstr "Mở phân tích GEO đầy đủ"
+
 msgid "Open the full dashboard"
 msgstr "Mở bảng điều khiển đầy đủ"
 
@@ -658,6 +667,9 @@ msgstr "Mở năm trang quan trọng nhất của bạn và đặt từ khóa ch
 
 msgid "Opportunity map"
 msgstr "Bản đồ cơ hội"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "Tùy chọn: thêm %s tính năng trong trạng thái GEO bên dưới có thể cải thiện khả năng hiển thị của bạn."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Xuất mô tả meta & bản xem trước mạng xã hội (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "Trang web hiển thị với trình thu thập"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Người nhấp từ câu trả lời AI đã đọc phần tóm tắt và muốn tìm hiểu sâu hơn – các nghiên cứu và dữ liệu cửa hàng liên tục cho thấy những khách này chuyển đổi tốt hơn rõ rệt so với lưu lượng tìm kiếm trung bình. Ít khách hơn, nhưng chất lượng hơn."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Có điều gì đó đang ngăn hệ thống AI tiếp cận trang web của bạn – hãy xem các mục đỏ và vàng trong trạng thái GEO bên dưới."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Xin lỗi, bạn không được phép làm điều đó."
 
@@ -896,6 +911,9 @@ msgstr "Bảng thống kê cần JavaScript. Hãy dùng xuất CSV hoặc WP-CLI
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Sau đó cứ để nó chạy. Xem bảng điều khiển hằng tuần (hoặc bật báo cáo email) và đầu tư vào nơi AI đã thể hiện sự quan tâm – đó là nơi trích dẫn gần nhất."
 
+msgid "These pages have the most room for improvement:"
+msgstr "Những trang này có nhiều dư địa cải thiện nhất:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "Những user agent này có vẻ là hệ thống AI nhưng chưa có trong danh sách đăng ký – nên lượt truy cập của chúng KHÔNG nằm trong thống kê phía trên. Những mục xuất hiện thường xuyên nên được thêm qua bộ lọc geoins_bots (hoặc báo cho plugin)."
 
@@ -917,8 +935,14 @@ msgstr "Huấn luyện"
 msgid "Training bots"
 msgstr "Bot huấn luyện"
 
+msgid "Turn on email notifications"
+msgstr "Bật thông báo qua email"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "Hai việc: đo lường và tối ưu. Mọi thứ chạy trên máy chủ của chính bạn, không gửi gì đi đâu, và mỗi công tắc trong cài đặt đều giải thích lợi ích trước khi bạn bật nó."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "Trong lúc chờ đợi, đây là những gì Wille GEO đã tìm thấy trên trang web của bạn:"
 
 msgid "Updated"
 msgstr "Đã cập nhật"
@@ -1028,11 +1052,20 @@ msgstr "Bạn đang chặn %s. Những bot này đưa bạn vào câu trả lờ
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Bạn nhận được email này vì cảnh báo trích dẫn qua email đang được bật tại Wille GEO → Cài đặt."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "Bạn sẽ nhận được email ngay khi một AI mới đọc trang web của bạn lần đầu tiên."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "Không thể truy cập tệp khóa IndexNow từ chính máy chủ của bạn, nên việc ping đã tạm dừng. Nguyên nhân thường gặp: đường dẫn tĩnh dạng thường (sửa tại Cài đặt → Đường dẫn tĩnh) hoặc plugin bảo mật chặn yêu cầu loopback. Sau khi khắc phục, hãy lưu lại các cài đặt này – việc kiểm tra sẽ chạy lại ngay sau khi lưu."
 
+msgid "Your content, checked for AI search"
+msgstr "Nội dung của bạn, đã kiểm tra cho tìm kiếm AI"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "Phiên kiểm tra của bạn đã hết hạn – hãy tải lại trang để tiếp tục."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "Trang web của bạn mở cho trình thu thập AI: không có gì chặn ChatGPT, Perplexity hay Claude."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] Khả năng hiển thị trên AI tuần này: %2$d lượt truy cập AI, %3$d khách truy cập từ AI"

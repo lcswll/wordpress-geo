@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "لا يمكن الوصول إلى ملف مفتاح IndexNow من خادمك نفسه، لذا تم إيقاف الإشعارات مؤقتًا. الأسباب المعتادة: الروابط الدائمة العادية (أصلحها من الإعدادات ← الروابط الدائمة) أو إضافة أمان تحظر طلبات loopback. بعد الإصلاح، احفظ هذه الإعدادات مجددًا – سيُعاد الفحص بعد الحفظ بقليل.",
 	"days": "أيام",
 	"Waiting for the first AI visit": "في انتظار أول زيارة من الذكاء الاصطناعي",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "في هذه الأثناء: أصلح كل ما ليس باللون الأخضر في لوحة الحالة أدناه، وعيّن مصطلحات محورية لأهم صفحاتك.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "تتطلب لوحة الإحصائيات JavaScript. استخدم تصدير CSV أو WP-CLI ‏(wp geoins stats) بدلًا من ذلك.",
 	"Your session check expired – reload the page to continue.": "انتهت صلاحية التحقق من جلستك – أعد تحميل الصفحة للمتابعة.",
 	"Reload page": "إعادة تحميل الصفحة",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "اعرف أي ذكاء اصطناعي (ChatGPT وClaude وPerplexity…) يقرأ أيًّا من صفحاتك – وحسّن موقعك للبحث بالذكاء الاصطناعي (GEO). مجاني، دون بيانات شخصية.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "تم تحليل %1$s صفحة، ومتوسط درجة GEO هو %2$s من %3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "احصل على بريد إلكتروني فور أن يقرأ ذكاء اصطناعي جديد موقعك لأول مرة – بحد أقصى رسالة واحدة يوميًا.",
+	"Notification for the first AI visit": "إشعار عند أول زيارة من الذكاء الاصطناعي",
+	"Open the full GEO analysis": "افتح تحليل GEO الكامل",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "اختياري: يمكن لـ %s ميزات إضافية في حالة GEO أدناه تحسين ظهورك.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "هناك ما يُبعد أنظمة الذكاء الاصطناعي عن موقعك – راجع النقاط الحمراء والصفراء في حالة GEO أدناه.",
+	"These pages have the most room for improvement:": "هذه الصفحات لديها أكبر مجال للتحسين:",
+	"Turn on email notifications": "تفعيل الإشعارات عبر البريد الإلكتروني",
+	"Until then, here is what Wille GEO already found on your site:": "إلى ذلك الحين، إليك ما وجده Wille GEO بالفعل على موقعك:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "ستتلقى بريدًا إلكترونيًا فور أن يقرأ ذكاء اصطناعي جديد موقعك لأول مرة.",
+	"Your content, checked for AI search": "محتواك، مفحوص للبحث بالذكاء الاصطناعي",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "موقعك مفتوح لزواحف الذكاء الاصطناعي: لا شيء يحظر ChatGPT أو Perplexity أو Claude."
 }

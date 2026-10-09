@@ -11,6 +11,9 @@ msgstr "„Suchmaschinen davon abhalten, diese Website zu indexieren“ ist akti
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d IP-Bereiche von %2$d Anbietern, zuletzt aktualisiert am %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "%1$s Seiten analysiert, durchschnittliche GEO-Punktzahl %2$s von %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (Trainings-Crawler) hat Ihre Website zum ersten Mal besucht."
 
@@ -422,6 +425,9 @@ msgstr "GEO-Punktzahl"
 msgid "GEO status of your site"
 msgstr "GEO-Status Ihrer Website"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Erhalten Sie eine E-Mail, sobald eine neue KI Ihre Website zum ersten Mal liest – höchstens eine E-Mail pro Tag."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "Hohes KI-Interesse, niedrige Punktzahl – diese Seiten zuerst verbessern."
 
@@ -542,9 +548,6 @@ msgstr "Maximale Anzahl Einträge pro Abschnitt"
 msgid "Maybe later"
 msgstr "Vielleicht später"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "In der Zwischenzeit: Beheben Sie alles, was im Statusbereich unten nicht grün ist, und legen Sie Fokusbegriffe für Ihre wichtigsten Seiten fest."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Immer mehr Menschen geben ihre Fragen nicht mehr bei Google ein – sie fragen ChatGPT, Perplexity, Copilot oder Claude. Die KI liest eine Handvoll Websites, schreibt eine Antwort und nennt ihre Quellen. Ist Ihre Website eine dieser Quellen, werden Sie genannt und verlinkt. Wenn nicht, sind Sie in diesem Gespräch unsichtbar – selbst wenn Sie in der klassischen Google-Suche gut platziert sind."
 
@@ -617,6 +620,9 @@ msgstr "Nein – IP-Adresse der direkten Verbindung verwenden"
 msgid "Not allowed."
 msgstr "Nicht erlaubt."
 
+msgid "Notification for the first AI visit"
+msgstr "Benachrichtigung beim ersten KI-Besuch"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Deaktiviert. User-Agents lassen sich fälschen; die Prüfung unterscheidet echte KI-Bots von gefälschten (lädt einmal täglich öffentliche IP-Listen herunter)."
 
@@ -644,6 +650,9 @@ msgstr "Öffnen Sie einen beliebigen Beitrag im Editor – der Bereich „GEO-C
 msgid "Open improvements"
 msgstr "Offene Verbesserungen"
 
+msgid "Open the full GEO analysis"
+msgstr "Vollständige GEO-Analyse öffnen"
+
 msgid "Open the full dashboard"
 msgstr "Vollständiges Dashboard öffnen"
 
@@ -658,6 +667,9 @@ msgstr "Öffnen Sie Ihre fünf wichtigsten Seiten und legen Sie für jede einen 
 
 msgid "Opportunity map"
 msgstr "Chancenkarte"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "Optional: %s weitere Funktionen im GEO-Status unten können Ihre Sichtbarkeit verbessern."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Meta-Beschreibung und Vorschauen für soziale Netzwerke ausgeben (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "Website für Crawler sichtbar"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Wer aus einer KI-Antwort auf Ihre Website klickt, hat bereits eine Zusammenfassung gelesen und sucht vertiefende Informationen – Studien und Daten aus Onlineshops zeigen durchgängig, dass diese Besucher spürbar häufiger zu Kunden werden als durchschnittliche Besucher aus der Suche. Weniger Besucher, aber interessiertere."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Etwas hält KI-Systeme von Ihrer Website fern – sehen Sie sich die roten und gelben Punkte im GEO-Status unten an."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Sie haben leider nicht die nötigen Rechte, um diese Aktion auszuführen."
 
@@ -896,6 +911,9 @@ msgstr "Das Statistik-Dashboard benötigt JavaScript. Nutzen Sie stattdessen den
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Lassen Sie das Plugin danach einfach aktiv. Sehen Sie sich wöchentlich das Dashboard an (oder aktivieren Sie den E-Mail-Bericht) und investieren Sie dort, wo sich bereits KI-Interesse zeigt – dort sind Sie einem Zitat am nächsten."
 
+msgid "These pages have the most room for improvement:"
+msgstr "Diese Seiten haben das größte Verbesserungspotenzial:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "Diese User-Agents deuten auf KI-Systeme hin, sind aber noch nicht in der Bot-Liste des Plugins enthalten – ihre Zugriffe fehlen daher in den Statistiken oben. Häufige Einträge können Sie über den Filter-Hook geoins_bots ergänzen (oder dem Plugin-Autor melden)."
 
@@ -917,8 +935,14 @@ msgstr "Training"
 msgid "Training bots"
 msgstr "Trainings-Bots"
 
+msgid "Turn on email notifications"
+msgstr "E-Mail-Benachrichtigungen aktivieren"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "Zwei Dinge: Es misst, und es optimiert. Alles läuft auf Ihrem eigenen Server, es werden keine Daten weitergegeben, und bei jedem Schalter in den Einstellungen steht sein Nutzen, bevor Sie ihn umlegen."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "Bis dahin sehen Sie hier, was Wille GEO auf Ihrer Website bereits festgestellt hat:"
 
 msgid "Updated"
 msgstr "Aktualisiert"
@@ -1028,11 +1052,20 @@ msgstr "Sie blockieren %s. Diese Bots bringen Sie in KI-Antworten – wenn Sie 
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Sie erhalten diese E-Mail, weil unter Wille GEO → Einstellungen Zitatmeldungen per E-Mail aktiviert sind."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "Sie erhalten eine E-Mail, sobald eine neue KI Ihre Website zum ersten Mal liest."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "Ihre IndexNow-Schlüsseldatei ist von Ihrem eigenen Server aus nicht erreichbar, daher sind die Benachrichtigungen pausiert. Häufige Ursachen: einfache Permalinks (änderbar unter Einstellungen → Permalinks) oder ein Sicherheits-Plugin, das Loopback-Anfragen blockiert. Speichern Sie diese Einstellungen nach der Korrektur erneut – die Prüfung wird kurz nach dem Speichern wiederholt."
 
+msgid "Your content, checked for AI search"
+msgstr "Ihre Inhalte, geprüft für die KI-Suche"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "Ihre Sitzung ist abgelaufen – laden Sie die Seite neu, um fortzufahren."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "Ihre Website ist für KI-Crawler offen: Nichts blockiert ChatGPT, Perplexity oder Claude."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] KI-Sichtbarkeit in dieser Woche: %2$d KI-Zugriffe, %3$d KI-Besucher"

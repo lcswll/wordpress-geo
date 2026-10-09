@@ -11,6 +11,9 @@ msgstr "เปิดใช้ \"ขอให้เครื่องมือค
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "ช่วง IP %1$d ช่วงจากผู้ให้บริการ %2$d ราย อัปเดตล่าสุด %3$s"
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "วิเคราะห์แล้ว %1$s หน้า คะแนน GEO เฉลี่ย %2$s จาก %3$s"
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (ตัวรวบรวมข้อมูลเพื่อฝึกโมเดล) เข้าชมเว็บไซต์ของคุณเป็นครั้งแรก"
 
@@ -422,6 +425,9 @@ msgstr "คะแนน GEO"
 msgid "GEO status of your site"
 msgstr "สถานะ GEO ของเว็บไซต์คุณ"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "รับอีเมลทันทีเมื่อ AI ใหม่อ่านเว็บไซต์ของคุณเป็นครั้งแรก – ไม่เกินวันละหนึ่งฉบับ"
+
 msgid "High AI interest, low score – fix these first."
 msgstr "AI สนใจมาก แต่คะแนนต่ำ – แก้ไขหน้าเหล่านี้ก่อน"
 
@@ -542,9 +548,6 @@ msgstr "จำนวนรายการสูงสุดต่อส่วน
 msgid "Maybe later"
 msgstr "ไว้ทีหลัง"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "ระหว่างนี้: แก้ไขทุกรายการที่ยังไม่เป็นสีเขียวในแผงสถานะด้านล่าง และตั้งคำค้นหลักให้หน้าที่สำคัญที่สุดของคุณ"
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "ผู้คนจำนวนมากขึ้นเรื่อยๆ ไม่ได้พิมพ์คำถามลงใน Google อีกต่อไป – พวกเขาถาม ChatGPT, Perplexity, Copilot หรือ Claude AI จะอ่านเว็บไซต์จำนวนหนึ่ง เขียนคำตอบเดียว และระบุแหล่งที่มา หากเว็บไซต์ของคุณเป็นหนึ่งในแหล่งที่มาเหล่านั้น คุณจะถูกกล่าวถึงและมีลิงก์มาหา หากไม่ใช่ คุณก็มองไม่เห็นในบทสนทนานั้น – แม้ว่าคุณจะติดอันดับดีใน Google แบบดั้งเดิมก็ตาม"
 
@@ -617,6 +620,9 @@ msgstr "ไม่ – ใช้ IP ของการเชื่อมต่อ
 msgid "Not allowed."
 msgstr "ไม่ได้รับอนุญาต"
 
+msgid "Notification for the first AI visit"
+msgstr "การแจ้งเตือนเมื่อ AI เข้าชมครั้งแรก"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "ปิดอยู่ User agent สามารถปลอมแปลงได้ การเปิดการยืนยันจะแยกบอท AI ตัวจริงออกจากตัวปลอม (ดึงรายการ IP สาธารณะวันละครั้ง)"
 
@@ -644,6 +650,9 @@ msgstr "เปิดเรื่องใดก็ได้ในตัวแก
 msgid "Open improvements"
 msgstr "สิ่งที่ยังต้องปรับปรุง"
 
+msgid "Open the full GEO analysis"
+msgstr "เปิดการวิเคราะห์ GEO ฉบับเต็ม"
+
 msgid "Open the full dashboard"
 msgstr "เปิดแดชบอร์ดฉบับเต็ม"
 
@@ -658,6 +667,9 @@ msgstr "เปิดห้าหน้าที่สำคัญที่สุ
 
 msgid "Opportunity map"
 msgstr "แผนที่โอกาส"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "ไม่บังคับ: ฟีเจอร์อีก %s รายการในสถานะ GEO ด้านล่างช่วยเพิ่มการมองเห็นของคุณได้"
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "แสดงคำอธิบายเมตาและตัวอย่างโซเชียล (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "ตัวรวบรวมข้อมูลมองเห็นเว
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "คนที่คลิกมาจากคำตอบของ AI ได้อ่านสรุปมาแล้วและต้องการรายละเอียดเชิงลึก – งานวิจัยและข้อมูลร้านค้าแสดงให้เห็นอย่างสม่ำเสมอว่าผู้เยี่ยมชมกลุ่มนี้มีอัตราการแปลงดีกว่าทราฟฟิกจากการค้นหาโดยเฉลี่ยอย่างเห็นได้ชัด ผู้เยี่ยมชมน้อยกว่า แต่สนใจมากกว่า"
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "มีบางอย่างกันระบบ AI ออกจากเว็บไซต์ของคุณ – ดูรายการสีแดงและสีเหลืองในสถานะ GEO ด้านล่าง"
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "ขออภัย คุณไม่ได้รับอนุญาตให้ทำสิ่งนั้น"
 
@@ -896,6 +911,9 @@ msgstr "แดชบอร์ดสถิติต้องใช้ JavaScript 
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "จากนั้นปล่อยให้ทำงานไป ดูแดชบอร์ดทุกสัปดาห์ (หรือเปิดรายงานทางอีเมล) และลงทุนในจุดที่ AI เริ่มให้ความสนใจแล้ว – ตรงนั้นคือจุดที่ใกล้จะได้รับการอ้างอิงที่สุด"
 
+msgid "These pages have the most room for improvement:"
+msgstr "หน้าเหล่านี้มีโอกาสปรับปรุงมากที่สุด:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "user agent เหล่านี้ดูเหมือนระบบ AI แต่ยังไม่อยู่ในทะเบียน – การเข้าถึงของพวกมันจึงไม่ได้รวมอยู่ในสถิติด้านบน รายการที่พบบ่อยควรเพิ่มผ่านตัวกรอง geoins_bots (หรือแจ้งไปยังปลั๊กอิน)"
 
@@ -917,8 +935,14 @@ msgstr "การฝึกโมเดล"
 msgid "Training bots"
 msgstr "บอทฝึกโมเดล"
 
+msgid "Turn on email notifications"
+msgstr "เปิดการแจ้งเตือนทางอีเมล"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "สองอย่าง: วัดผล และเพิ่มประสิทธิภาพ ทุกอย่างทำงานบนเซิร์ฟเวอร์ของคุณเอง ไม่มีอะไรถูกส่งออกไปที่ไหน และทุกสวิตช์ในการตั้งค่าจะอธิบายประโยชน์ก่อนที่คุณจะเปิดใช้"
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "ระหว่างนี้ นี่คือสิ่งที่ Wille GEO พบในเว็บไซต์ของคุณแล้ว:"
 
 msgid "Updated"
 msgstr "อัปเดต"
@@ -1028,11 +1052,20 @@ msgstr "คุณกำลังบล็อก %s บอทเหล่าน�
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "คุณได้รับอีเมลนี้เพราะเปิดใช้การแจ้งเตือนการอ้างอิงทางอีเมลไว้ที่ Wille GEO → การตั้งค่า"
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "คุณจะได้รับอีเมลทันทีเมื่อ AI ใหม่อ่านเว็บไซต์ของคุณเป็นครั้งแรก"
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "ไม่สามารถเข้าถึงไฟล์คีย์ IndexNow จากเซิร์ฟเวอร์ของคุณเอง การ ping จึงหยุดชั่วคราว สาเหตุที่พบบ่อย: ลิงก์ถาวรแบบธรรมดา (แก้ไขได้ที่ การตั้งค่า → ลิงก์ถาวร) หรือปลั๊กอินความปลอดภัยบล็อกคำขอแบบ loopback หลังแก้ไขแล้ว ให้บันทึกการตั้งค่าเหล่านี้อีกครั้ง – การตรวจสอบจะทำงานใหม่หลังบันทึกไม่นาน"
 
+msgid "Your content, checked for AI search"
+msgstr "เนื้อหาของคุณ ตรวจแล้วสำหรับการค้นหาด้วย AI"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "การตรวจสอบเซสชันของคุณหมดอายุแล้ว – โหลดหน้าใหม่เพื่อดำเนินการต่อ"
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "เว็บไซต์ของคุณเปิดรับตัวรวบรวมข้อมูล AI: ไม่มีสิ่งใดบล็อก ChatGPT, Perplexity หรือ Claude"
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] การมองเห็นบน AI สัปดาห์นี้: การเข้าถึงของ AI %2$d ครั้ง ผู้เยี่ยมชมจาก AI %3$d คน"

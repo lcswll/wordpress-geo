@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "Không thể truy cập tệp khóa IndexNow từ chính máy chủ của bạn, nên việc ping đã tạm dừng. Nguyên nhân thường gặp: đường dẫn tĩnh dạng thường (sửa tại Cài đặt → Đường dẫn tĩnh) hoặc plugin bảo mật chặn yêu cầu loopback. Sau khi khắc phục, hãy lưu lại các cài đặt này – việc kiểm tra sẽ chạy lại ngay sau khi lưu.",
 	"days": "ngày",
 	"Waiting for the first AI visit": "Đang chờ lượt truy cập AI đầu tiên",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "Trong lúc chờ: khắc phục mọi mục chưa xanh trong bảng trạng thái bên dưới, và đặt từ khóa chính cho các trang quan trọng nhất.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "Bảng thống kê cần JavaScript. Hãy dùng xuất CSV hoặc WP-CLI (wp geoins stats) thay thế.",
 	"Your session check expired – reload the page to continue.": "Phiên kiểm tra của bạn đã hết hạn – hãy tải lại trang để tiếp tục.",
 	"Reload page": "Tải lại trang",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "Xem AI nào (ChatGPT, Claude, Perplexity…) đọc những trang nào của bạn – và tối ưu trang web cho tìm kiếm bằng AI (GEO). Miễn phí, không thu thập dữ liệu cá nhân.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "Đã phân tích %1$s trang, điểm GEO trung bình %2$s/%3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "Nhận email ngay khi một AI mới đọc trang web của bạn lần đầu tiên – tối đa một email mỗi ngày.",
+	"Notification for the first AI visit": "Thông báo cho lượt truy cập AI đầu tiên",
+	"Open the full GEO analysis": "Mở phân tích GEO đầy đủ",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "Tùy chọn: thêm %s tính năng trong trạng thái GEO bên dưới có thể cải thiện khả năng hiển thị của bạn.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "Có điều gì đó đang ngăn hệ thống AI tiếp cận trang web của bạn – hãy xem các mục đỏ và vàng trong trạng thái GEO bên dưới.",
+	"These pages have the most room for improvement:": "Những trang này có nhiều dư địa cải thiện nhất:",
+	"Turn on email notifications": "Bật thông báo qua email",
+	"Until then, here is what Wille GEO already found on your site:": "Trong lúc chờ đợi, đây là những gì Wille GEO đã tìm thấy trên trang web của bạn:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "Bạn sẽ nhận được email ngay khi một AI mới đọc trang web của bạn lần đầu tiên.",
+	"Your content, checked for AI search": "Nội dung của bạn, đã kiểm tra cho tìm kiếm AI",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "Trang web của bạn mở cho trình thu thập AI: không có gì chặn ChatGPT, Perplexity hay Claude."
 }

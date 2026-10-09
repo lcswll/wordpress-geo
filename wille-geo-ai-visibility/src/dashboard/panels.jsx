@@ -397,18 +397,3 @@ export function Skeleton() {
 		</div>
 	);
 }
-
-export function EmptyHero( { t, learnUrl } ) {
-	return (
-		<div className="geoins-panel geoins-hero">
-			<h2>{ t( 'emptyTitle', 'Waiting for the first AI visit' ) }</h2>
-			<p>{ t( 'noData', 'No data yet. AI accesses appear here as soon as a known AI bot or an AI-referred visitor reaches your site.' ) }</p>
-			<p>{ t( 'emptyHint', 'Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.' ) }</p>
-			{ learnUrl && (
-				<a className="button button-primary" href={ learnUrl }>
-					{ t( 'learnLink', 'New here? How it all works, in plain language.' ) }
-				</a>
-			) }
-		</div>
-	);
-}

@@ -12,7 +12,7 @@ import { OpportunityScatter, ScoreHistogram, ScoreGauge } from './charts';
  * route must be query-free; extra params go into `query` so the separator
  * stays correct on plain-permalink sites (restUrl already contains "?").
  */
-function restFetch( config, route, options, query ) {
+export function restFetch( config, route, options, query ) {
 	const base = config.restUrl + route;
 	const sep = base.indexOf( '?' ) === -1 ? '?' : '&';
 	return fetch( base + sep + ( query ? query + '&' : '' ) + '_locale=user', {
@@ -31,7 +31,7 @@ function restFetch( config, route, options, query ) {
 	} );
 }
 
-function ScoreBar( { score, total } ) {
+export function ScoreBar( { score, total } ) {
 	const pct = total ? Math.round( ( score / total ) * 100 ) : 0;
 	const color = pct >= 77 ? '#00a32a' : pct >= 46 ? '#dba617' : '#d63638';
 	return (

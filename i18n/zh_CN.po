@@ -11,6 +11,9 @@ msgstr "已启用“建议搜索引擎不索引本站点”（设置 → 阅读�
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "来自 %2$d 家供应商的 %1$d 个 IP 范围，最后更新于 %3$s。"
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "已分析 %1$s 个页面，平均 GEO 评分 %2$s / %3$s。"
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s（训练爬虫）首次访问了您的站点。"
 
@@ -422,6 +425,9 @@ msgstr "GEO 评分"
 msgid "GEO status of your site"
 msgstr "您站点的 GEO 状态"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "新的 AI 首次读取您的站点时，立即收到电子邮件——每天最多一封。"
+
 msgid "High AI interest, low score – fix these first."
 msgstr "AI 关注度高、评分低——请优先修复这些页面。"
 
@@ -542,9 +548,6 @@ msgstr "每个部分的最大条目数"
 msgid "Maybe later"
 msgstr "以后再说"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "在此期间：修复下方状态面板中所有未显示为绿色的项目，并为您最重要的页面设置焦点关键词。"
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "越来越多的人不再把问题输入 Google，而是去问 ChatGPT、Perplexity、Copilot 或 Claude。AI 会读取少数几个网站，写出一个答案，并注明来源。如果您的站点是其中之一，您就会被提及并获得链接。如果不是，即使您在传统 Google 搜索中排名靠前，在这场对话中您也是隐形的。"
 
@@ -617,6 +620,9 @@ msgstr "否——使用直接连接的 IP"
 msgid "Not allowed."
 msgstr "不允许。"
 
+msgid "Notification for the first AI visit"
+msgstr "首次 AI 访问通知"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "已关闭。用户代理可以伪造；启用验证可区分真正的 AI 机器人和冒充者（每天获取一次公开 IP 列表）。"
 
@@ -644,6 +650,9 @@ msgstr "在编辑器中打开任意文章——侧边栏中的“GEO 检查”�
 msgid "Open improvements"
 msgstr "待改进项"
 
+msgid "Open the full GEO analysis"
+msgstr "打开完整的 GEO 分析"
+
 msgid "Open the full dashboard"
 msgstr "打开完整仪表盘"
 
@@ -658,6 +667,9 @@ msgstr "打开您最重要的五个页面，为每个页面设置焦点关键词
 
 msgid "Opportunity map"
 msgstr "机会地图"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "可选：下方 GEO 状态中还有 %s 项功能可以提升您的可见性。"
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "输出元描述和社交预览（Open Graph）"
@@ -836,6 +848,9 @@ msgstr "站点对爬虫可见"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "从 AI 回答点击进来的人已经读过摘要，想要了解更深入的内容——研究和电商数据一致表明，这些访客的转化率明显高于一般的搜索流量。访客更少，但意向更强。"
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "有因素正在阻止 AI 系统访问您的站点——请查看下方 GEO 状态中的红色和黄色项。"
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "抱歉，您不能进行此操作。"
 
@@ -896,6 +911,9 @@ msgstr "统计仪表盘需要 JavaScript。请改用 CSV 导出或 WP-CLI（wp g
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "然后让它运行即可。每周查看一次仪表盘（或启用电子邮件报告），并把精力投入到已经显现出 AI 关注的地方——那里离被引用最近。"
 
+msgid "These pages have the most room for improvement:"
+msgstr "这些页面的改进空间最大："
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "这些用户代理看起来像 AI 系统，但尚未收录在注册表中——因此它们的访问不计入上方的统计。经常出现的条目值得通过 geoins_bots 过滤器添加（或向插件作者报告）。"
 
@@ -917,8 +935,14 @@ msgstr "训练"
 msgid "Training bots"
 msgstr "训练机器人"
 
+msgid "Turn on email notifications"
+msgstr "开启电子邮件通知"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "两件事：衡量和优化。一切都在您自己的服务器上运行，不会向任何地方发送数据，设置中的每个开关都会在您启用之前说明其好处。"
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "在此之前，先看看 Wille GEO 已在您的站点上发现了什么："
 
 msgid "Updated"
 msgstr "更新时间"
@@ -1028,11 +1052,20 @@ msgstr "您正在屏蔽 %s。这些机器人能让您出现在 AI 回答中—�
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "您收到此邮件是因为在“Wille GEO → 设置”中启用了引用提醒邮件。"
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "新的 AI 首次读取您的站点时，您会立即收到电子邮件。"
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "您的服务器无法访问您的 IndexNow 密钥文件，因此 ping 已暂停。常见原因：使用了朴素固定链接（在“设置 → 固定链接”中修改），或安全插件阻止了回环请求。修复后，请重新保存这些设置——保存后不久会重新检查。"
 
+msgid "Your content, checked for AI search"
+msgstr "您的内容，已针对 AI 搜索进行检查"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "您的会话验证已过期——请重新加载页面以继续。"
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "您的站点对 AI 爬虫开放：没有任何内容阻止 ChatGPT、Perplexity 或 Claude。"
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] 本周 AI 可见性：%2$d 次 AI 访问，%3$d 位 AI 访客"

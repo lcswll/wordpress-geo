@@ -11,6 +11,9 @@ msgstr "\"Minta mesin pencari untuk tidak mengindeks situs ini\" diaktifkan (Pen
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d rentang IP dari %2$d vendor, terakhir diperbarui %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "%1$s halaman dianalisis, rata-rata skor GEO %2$s dari %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (crawler pelatihan) mengunjungi situs Anda untuk pertama kalinya."
 
@@ -422,6 +425,9 @@ msgstr "Skor GEO"
 msgid "GEO status of your site"
 msgstr "Status GEO situs Anda"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Dapatkan email begitu AI baru membaca situs Anda untuk pertama kalinya – paling banyak satu email per hari."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "Minat AI tinggi, skor rendah – perbaiki ini terlebih dahulu."
 
@@ -542,9 +548,6 @@ msgstr "Maks. entri per bagian"
 msgid "Maybe later"
 msgstr "Mungkin nanti"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "Sementara itu: perbaiki semua yang belum hijau di panel status di bawah, dan atur istilah fokus pada halaman terpenting Anda."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Semakin banyak orang tidak lagi mengetik pertanyaan mereka di Google – mereka bertanya kepada ChatGPT, Perplexity, Copilot, atau Claude. AI membaca beberapa situs web, menulis satu jawaban, dan menyebutkan sumbernya. Jika situs Anda salah satu sumber tersebut, Anda disebut dan ditautkan. Jika tidak, Anda tidak terlihat dalam percakapan itu – meskipun peringkat Anda bagus di Google klasik."
 
@@ -617,6 +620,9 @@ msgstr "Tidak – gunakan IP koneksi langsung"
 msgid "Not allowed."
 msgstr "Tidak diizinkan."
 
+msgid "Notification for the first AI visit"
+msgstr "Notifikasi untuk kunjungan AI pertama"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Nonaktif. User agent dapat dipalsukan; mengaktifkan verifikasi memisahkan bot AI asli dari yang palsu (mengambil daftar IP publik sekali sehari)."
 
@@ -644,6 +650,9 @@ msgstr "Buka pos mana pun di editor – panel “Pemeriksaan GEO” di bilah sis
 msgid "Open improvements"
 msgstr "Perbaikan tertunda"
 
+msgid "Open the full GEO analysis"
+msgstr "Buka analisis GEO lengkap"
+
 msgid "Open the full dashboard"
 msgstr "Buka dasbor lengkap"
 
@@ -658,6 +667,9 @@ msgstr "Buka lima halaman terpenting Anda dan atur istilah fokus untuk masing-ma
 
 msgid "Opportunity map"
 msgstr "Peta peluang"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "Opsional: %s fitur lain di status GEO di bawah dapat meningkatkan visibilitas Anda."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Tampilkan deskripsi meta & pratinjau sosial (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "Situs terlihat oleh crawler"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Orang yang mengeklik dari jawaban AI sudah membaca ringkasan dan menginginkan kedalaman – studi dan data toko secara konsisten menunjukkan pengunjung ini berkonversi jauh lebih baik daripada lalu lintas pencarian rata-rata. Lebih sedikit pengunjung, tetapi lebih berminat."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Ada yang menghalangi sistem AI dari situs Anda – lihat poin merah dan kuning di status GEO di bawah."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Maaf, Anda tidak diizinkan melakukan itu."
 
@@ -896,6 +911,9 @@ msgstr "Dasbor statistik memerlukan JavaScript. Gunakan ekspor CSV atau WP-CLI (
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Lalu biarkan berjalan. Periksa dasbor setiap minggu (atau aktifkan laporan email) dan berinvestasilah di tempat minat AI sudah terlihat – di situlah sitasi paling dekat."
 
+msgid "These pages have the most room for improvement:"
+msgstr "Halaman-halaman ini paling banyak bisa ditingkatkan:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "User agent ini terdengar seperti sistem AI tetapi belum ada di registri – jadi aksesnya TIDAK termasuk dalam statistik di atas. Entri yang sering muncul layak ditambahkan melalui filter geoins_bots (atau laporkan ke plugin)."
 
@@ -917,8 +935,14 @@ msgstr "Pelatihan"
 msgid "Training bots"
 msgstr "Bot pelatihan"
 
+msgid "Turn on email notifications"
+msgstr "Aktifkan notifikasi email"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "Dua hal: mengukur dan mengoptimalkan. Semuanya berjalan di server Anda sendiri, tidak ada yang dikirim ke mana pun, dan setiap tombol di pengaturan menjelaskan manfaatnya sebelum Anda mengaktifkannya."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "Sementara itu, inilah yang sudah ditemukan Wille GEO di situs Anda:"
 
 msgid "Updated"
 msgstr "Diperbarui"
@@ -1028,11 +1052,20 @@ msgstr "Anda memblokir %s. Bot ini memasukkan Anda ke jawaban AI – memblokirny
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Anda menerima email ini karena peringatan sitasi melalui email diaktifkan di Wille GEO → Pengaturan."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "Anda akan menerima email begitu AI baru membaca situs Anda untuk pertama kalinya."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "File kunci IndexNow Anda tidak dapat dijangkau dari server Anda sendiri, sehingga ping dijeda. Penyebab umum: permalink polos (perbaiki di Pengaturan → Permalink) atau plugin keamanan yang memblokir permintaan loopback. Setelah memperbaikinya, simpan pengaturan ini lagi – pemeriksaan akan berjalan ulang tak lama setelah disimpan."
 
+msgid "Your content, checked for AI search"
+msgstr "Konten Anda, diperiksa untuk pencarian AI"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "Pemeriksaan sesi Anda telah kedaluwarsa – muat ulang halaman untuk melanjutkan."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "Situs Anda terbuka untuk crawler AI: tidak ada yang memblokir ChatGPT, Perplexity, atau Claude."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] Visibilitas AI minggu ini: %2$d akses AI, %3$d pengunjung AI"

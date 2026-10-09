@@ -11,6 +11,9 @@ msgstr "”Estä hakukoneita indeksoimasta tätä sivustoa” on käytössä (As
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d IP-aluetta %2$d palveluntarjoajalta, päivitetty viimeksi %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "%1$s sivua analysoitu, keskimääräiset GEO-pisteet %2$s / %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (koulutusindeksoija) vieraili sivustollasi ensimmäistä kertaa."
 
@@ -422,6 +425,9 @@ msgstr "GEO-pisteet"
 msgid "GEO status of your site"
 msgstr "Sivustosi GEO-tila"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Saat sähköpostin heti, kun uusi AI lukee sivustoasi ensimmäistä kertaa – enintään yksi sähköposti päivässä."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "Paljon AI-kiinnostusta, matalat pisteet – korjaa nämä ensin."
 
@@ -542,9 +548,6 @@ msgstr "Merkintöjä enintään osiota kohden"
 msgid "Maybe later"
 msgstr "Ehkä myöhemmin"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "Sillä välin: korjaa kaikki, mikä ei ole vihreää alla olevassa tilapaneelissa, ja aseta avaintermit tärkeimmille sivuillesi."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Yhä useampi ei enää kirjoita kysymyksiään Googleen – he kysyvät ChatGPT:ltä, Perplexityltä, Copilotilta tai Claudelta. AI lukee kourallisen verkkosivustoja, kirjoittaa yhden vastauksen ja mainitsee lähteensä. Jos sivustosi on yksi näistä lähteistä, sinut mainitaan ja sinuun linkitetään. Jos ei, olet näkymätön siinä keskustelussa – vaikka sijoittuisit hyvin perinteisessä Googlessa."
 
@@ -617,6 +620,9 @@ msgstr "Ei – käytä suoran yhteyden IP-osoitetta"
 msgid "Not allowed."
 msgstr "Ei sallittu."
 
+msgid "Notification for the first AI visit"
+msgstr "Ilmoitus ensimmäisestä AI-käynnistä"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Pois päältä. User agent -tunnisteita voi väärentää; vahvistuksen käyttöönotto erottaa oikeat AI-botit huijareista (hakee julkiset IP-luettelot kerran päivässä)."
 
@@ -644,6 +650,9 @@ msgstr "Avaa mikä tahansa artikkeli editorissa – sivupalkin ”GEO-tarkistus�
 msgid "Open improvements"
 msgstr "Avoimet parannukset"
 
+msgid "Open the full GEO analysis"
+msgstr "Avaa koko GEO-analyysi"
+
 msgid "Open the full dashboard"
 msgstr "Avaa koko näkymä"
 
@@ -658,6 +667,9 @@ msgstr "Avaa viisi tärkeintä sivuasi ja aseta kullekin avaintermi: kysymys tai
 
 msgid "Opportunity map"
 msgstr "Mahdollisuuskartta"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "Valinnainen: %s muuta ominaisuutta alla olevassa GEO-tilassa voi parantaa näkyvyyttäsi."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Tulosta metakuvaus ja some-esikatselut (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "Sivusto näkyy indeksoijille"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "AI-vastauksesta eteenpäin klikkaava on jo lukenut tiivistelmän ja haluaa syvyyttä – tutkimukset ja verkkokauppojen tiedot osoittavat johdonmukaisesti, että nämä kävijät konvertoivat selvästi keskimääräistä hakuliikennettä paremmin. Vähemmän kävijöitä, mutta lämpimämpiä."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Jokin pitää AI-järjestelmät poissa sivustoltasi – katso punaiset ja keltaiset kohdat alla olevasta GEO-tilasta."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Sinulla ei ole oikeutta tehdä tätä."
 
@@ -896,6 +911,9 @@ msgstr "Tilastonäkymä tarvitsee JavaScriptin. Käytä sen sijaan CSV-vientiä 
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Anna sitten sen toimia. Tarkista näkymä viikoittain (tai ota sähköpostiraportti käyttöön) ja panosta sinne, missä AI-kiinnostusta jo näkyy – siellä viittaukset ovat lähimpänä."
 
+msgid "These pages have the most room for improvement:"
+msgstr "Näissä sivuissa on eniten parannettavaa:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "Nämä user agent -tunnisteet vaikuttavat AI-järjestelmiltä, mutta niitä ei ole vielä rekisterissä – joten niiden käynnit EIVÄT ole yllä olevissa tilastoissa. Usein toistuvat merkinnät kannattaa lisätä geoins_bots-suodattimella (tai ilmoittaa lisäosan kehittäjälle)."
 
@@ -917,8 +935,14 @@ msgstr "Koulutus"
 msgid "Training bots"
 msgstr "Koulutusbotit"
 
+msgid "Turn on email notifications"
+msgstr "Ota sähköposti-ilmoitukset käyttöön"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "Kaksi asiaa: se mittaa ja se optimoi. Kaikki toimii omalla palvelimellasi, mitään ei lähetetä minnekään, ja jokainen asetusten valinta kertoo hyötynsä ennen kuin otat sen käyttöön."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "Sitä odotellessa tässä on, mitä Wille GEO on jo löytänyt sivustoltasi:"
 
 msgid "Updated"
 msgstr "Päivitetty"
@@ -1028,11 +1052,20 @@ msgstr "Estät botit %s. Nämä botit tuovat sinut AI-vastauksiin – niiden est
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Saat tämän, koska viittaushälytykset sähköpostitse ovat käytössä kohdassa Wille GEO → Asetukset."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "Saat sähköpostin heti, kun uusi AI lukee sivustoasi ensimmäistä kertaa."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "IndexNow-avaintiedostosi ei ole saavutettavissa omalta palvelimeltasi, joten pingit on keskeytetty. Tavalliset syyt: yksinkertaiset kestolinkit (korjaa kohdassa Asetukset → Kestolinkit) tai tietoturvalisäosa, joka estää loopback-pyynnöt. Kun olet korjannut sen, tallenna nämä asetukset uudelleen – tarkistus suoritetaan uudelleen pian tallennuksen jälkeen."
 
+msgid "Your content, checked for AI search"
+msgstr "Sisältösi, tarkistettu AI-hakua varten"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "Istuntosi tarkistus vanheni – lataa sivu uudelleen jatkaaksesi."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "Sivustosi on avoin AI-indeksoijille: mikään ei estä ChatGPT:tä, Perplexityä tai Claudea."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] AI-näkyvyys tällä viikolla: %2$d AI-käyntiä, %3$d AI-kävijää"

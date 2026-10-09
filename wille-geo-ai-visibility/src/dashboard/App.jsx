@@ -20,8 +20,8 @@ import {
 	LandingsTable,
 	StatusPanel,
 	Skeleton,
-	EmptyHero,
 } from './panels';
+import StartPanel from './start';
 
 const RANGES = [ 7, 30, 90 ];
 
@@ -198,7 +198,7 @@ function Dashboard( { data, days, catLabels, t, config, filtered, onResetFilter,
 	return (
 		<>
 			{ empty ? (
-				<EmptyHero t={ t } learnUrl={ config.learnUrl } />
+				<StartPanel data={ data } config={ config } t={ t } />
 			) : (
 				<KpiCards
 					totals={ data.totals }

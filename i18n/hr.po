@@ -11,6 +11,9 @@ msgstr "Uključeno je „Obeshrabri tražilice“ (Postavke → Čitanje). Nijed
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d IP raspona od %2$d dobavljača, posljednje ažuriranje %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "Analizirane stranice: %1$s, prosječna GEO ocjena %2$s od %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (alat za indeksiranje za treniranje) prvi je put posjetio vašu web-stranicu."
 
@@ -422,6 +425,9 @@ msgstr "GEO ocjena"
 msgid "GEO status of your site"
 msgstr "GEO status vaše web-stranice"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Primite e-poruku čim novi AI prvi put pročita vašu web-stranicu – najviše jedna poruka dnevno."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "Veliko AI zanimanje, niska ocjena – ove popravite prve."
 
@@ -542,9 +548,6 @@ msgstr "Najviše unosa po odjeljku"
 msgid "Maybe later"
 msgstr "Možda kasnije"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "U međuvremenu: popravite sve što nije zeleno na ploči statusa u nastavku i postavite fokusne pojmove na svojim najvažnijim stranicama."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Sve više ljudi više ne upisuje svoja pitanja u Google – pitaju ChatGPT, Perplexity, Copilot ili Claude. AI pročita nekoliko web-stranica, napiše jedan odgovor i navede izvore. Ako je vaša web-stranica jedan od tih izvora, spominju vas i povezuju na vas. Ako nije, u tom ste razgovoru nevidljivi – čak i ako ste dobro rangirani na klasičnom Googleu."
 
@@ -617,6 +620,9 @@ msgstr "Ne – koristi IP izravne veze"
 msgid "Not allowed."
 msgstr "Nije dopušteno."
 
+msgid "Notification for the first AI visit"
+msgstr "Obavijest o prvom AI posjetu"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Isključeno. User agenti se mogu lažirati; uključivanjem provjere razlikuju se pravi AI botovi od lažnih (javni IP popisi dohvaćaju se jednom dnevno)."
 
@@ -644,6 +650,9 @@ msgstr "Otvorite bilo koju objavu u uređivaču – ploča „GEO provjera“ na
 msgid "Open improvements"
 msgstr "Otvorena poboljšanja"
 
+msgid "Open the full GEO analysis"
+msgstr "Otvori cijelu GEO analizu"
+
 msgid "Open the full dashboard"
 msgstr "Otvori cijelu nadzornu ploču"
 
@@ -658,6 +667,9 @@ msgstr "Otvorite svojih pet najvažnijih stranica i za svaku postavite fokusni p
 
 msgid "Opportunity map"
 msgstr "Karta prilika"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "Neobavezno: dodatne značajke (%s) u GEO statusu u nastavku mogu poboljšati vašu vidljivost."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Ispisuj meta opis i pretpreglede za društvene mreže (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "Web-stranica vidljiva alatima za indeksiranje"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Tko klikne iz AI odgovora, već je pročitao sažetak i želi dubinu – studije i podaci trgovina dosljedno pokazuju da ti posjetitelji konvertiraju primjetno bolje od prosječnog prometa iz pretraživanja. Manje posjetitelja, ali zainteresiraniji."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Nešto drži AI sustave podalje od vaše web-stranice – pogledajte crvene i žute točke u GEO statusu u nastavku."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Nažalost, nije vam dopušteno to učiniti."
 
@@ -896,6 +911,9 @@ msgstr "Nadzorna ploča statistike zahtijeva JavaScript. Umjesto toga koristite 
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Zatim pustite da radi. Provjeravajte nadzornu ploču jednom tjedno (ili uključite izvješće e-poštom) i ulažite tamo gdje se AI zanimanje već pokazuje – ondje su citati najbliži."
 
+msgid "These pages have the most room for improvement:"
+msgstr "Ove stranice imaju najviše prostora za poboljšanje:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "Ovi user agenti zvuče kao AI sustavi, ali još nisu u registru – stoga njihovi pristupi NISU u gornjoj statistici. Česte unose vrijedi dodati putem filtra geoins_bots (ili ih prijaviti za dodatak)."
 
@@ -917,8 +935,14 @@ msgstr "Treniranje"
 msgid "Training bots"
 msgstr "Botovi za treniranje"
 
+msgid "Turn on email notifications"
+msgstr "Uključi obavijesti e-poštom"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "Dvije stvari: mjeri i optimizira. Sve radi na vašem vlastitom poslužitelju, ništa se nikamo ne šalje, a svaki prekidač u postavkama objašnjava svoju korist prije nego što ga uključite."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "Do tada, evo što je Wille GEO već pronašao na vašoj web-stranici:"
 
 msgid "Updated"
 msgstr "Ažurirano"
@@ -1028,11 +1052,20 @@ msgstr "Blokirate %s. Ti botovi vas uvrštavaju u AI odgovore – njihovim bloki
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Ovo primate jer su obavijesti o citatima e-poštom uključene pod Wille GEO → Postavke."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "Primit ćete e-poruku čim novi AI prvi put pročita vašu web-stranicu."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "Datoteka s ključem za IndexNow nije dostupna s vašeg vlastitog poslužitelja, pa su pingovi pauzirani. Uobičajeni uzroci: obične stalne poveznice (popravite pod Postavke → Stalne poveznice) ili sigurnosni dodatak koji blokira loopback zahtjeve. Nakon popravka ponovno spremite ove postavke – provjera se ponovno pokreće ubrzo nakon spremanja."
 
+msgid "Your content, checked for AI search"
+msgstr "Vaš sadržaj, provjeren za AI pretraživanje"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "Provjera sesije je istekla – ponovno učitajte stranicu za nastavak."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "Vaša web-stranica otvorena je za AI alate za indeksiranje: ništa ne blokira ChatGPT, Perplexity ni Claude."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] AI vidljivost ovog tjedna: %2$d AI pristupa, %3$d AI posjetitelja"

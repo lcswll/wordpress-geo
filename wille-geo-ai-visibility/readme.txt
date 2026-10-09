@@ -4,7 +4,7 @@ Tags: geo, llms.txt, ai crawler, chatgpt, ai seo
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.3.2
+Stable tag: 2.4.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,9 @@ See which AI (ChatGPT, Claude, Perplexity …) reads which page for which term �
 
 == Description ==
 
-**GEO (Generative Engine Optimization) made simple.** AI assistants are becoming a major way people find websites. Wille GEO shows you which AI systems read your pages and gives you a set of optimizations for AI search, each with a plain-language explanation of what it does.
+**GEO (Generative Engine Optimization) made simple.** AI assistants are becoming a major way people find websites. Wille GEO shows you which AI systems read your pages – GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended and more – and how many people click through to you from ChatGPT, Perplexity, Gemini and Copilot. On top, it gives you a set of optimizations for AI search, each with a plain-language explanation of what it does.
+
+**Results from the first minute.** Right after activation the dashboard checks whether anything keeps AI crawlers away from your site, scores your existing posts and pages for AI search and offers an email notification for the first AI visit. The statistics fill up as AI systems arrive. Works alongside Yoast SEO, Rank Math, All in One SEO, SEOPress and The SEO Framework.
 
 **Free. No subscription, no premium version, no account, no personal data.** Two optional features contact external services and are off until you enable them – see "External services" below.
 
@@ -66,7 +68,7 @@ Found a bug or have an idea? Open a topic in the support forum. And if the plugi
 1. In your dashboard go to Plugins → Add New, search for "Wille GEO" and click Install, then Activate. (Or upload the ZIP under Plugins → Add New → Upload Plugin.)
 2. Open Wille GEO → Settings. Tracking, llms.txt, Markdown endpoints and sitemap freshness work right away; everything that sends data anywhere (bot verification, IndexNow, email reports) stays off until you switch it on.
 3. Optional: give your key posts a focus term in the "GEO check" panel of the editor, so the statistics can map AI accesses to topics.
-4. AI Statistics fills up as soon as the first AI crawler visits – usually within a few days. GEO Audit scores your existing content immediately.
+4. Open Wille GEO → AI Statistics: until the first AI crawler visits (usually within a few days), it shows what blocks AI systems, scores your existing content and offers an email notification for the first AI visit.
 
 == Frequently Asked Questions ==
 
@@ -81,6 +83,10 @@ No. Tracking is a single indexed database insert, and only for requests that mat
 = Do I need this if I already use an SEO plugin? =
 
 Yes – classic SEO plugins optimize for Google's blue links. Wille GEO adds the AI layer: who reads your content, AI crawler control, llms.txt and AI-oriented content checks. Overlapping features are disabled automatically.
+
+= My SEO plugin already creates an llms.txt. What does Wille GEO add? =
+
+The statistics. An llms.txt only invites AI systems; Wille GEO shows which AI systems actually read which of your pages, separates training, AI search and live agent requests, counts the people who click through from AI answers and can verify bot identities against the official IP ranges. If your SEO plugin already serves an llms.txt, simply leave the llms.txt option in Wille GEO switched off.
 
 = Does it work with page caching? =
 
@@ -152,6 +158,11 @@ The license headers of these libraries are kept in the bundle, and the readable 
 7. AI crawler control (robots.txt), grouped by what blocking actually costs you.
 
 == Changelog ==
+
+= 2.4.0 =
+* New: first-run panel – until the first AI visit, the statistics page shows what keeps AI systems away from your site, scores your existing posts and pages for AI search (weakest pages first) and turns on the email notification for the first AI visit in one click.
+* New: when a new AI reads your site for the first time, a notice on the WordPress dashboard tells you – also if you rarely open the plugin.
+* Translations: German (formal and informal) reviewed against the German WordPress style guide and glossary; 34 more languages submitted to translate.wordpress.org.
 
 = 2.3.2 =
 * New: Live Preview on wordpress.org – try the plugin in your browser with a filled demo dashboard, no installation needed.
@@ -272,6 +283,9 @@ The license headers of these libraries are kept in the bundle, and the readable 
 * Initial release: AI bot tracking, AI referral tracking, statistics dashboard, robots.txt AI control, llms.txt generator, JSON-LD schema with auto-FAQ, meta tags, per-post GEO checks, EN/DE translations.
 
 == Upgrade Notice ==
+
+= 2.4.0 =
+Results right after activation and a notice for the first AI visit. Settings and statistics are kept.
 
 = 2.3.2 =
 No code changes – Live Preview and readme update.

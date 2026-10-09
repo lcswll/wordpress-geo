@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "فایل کلید IndexNow شما از سرور خودتان قابل دسترسی نیست، بنابراین پینگ‌ها متوقف شده‌اند. علت‌های رایج: پیوندهای یکتای ساده (در تنظیمات ← پیوندهای یکتا اصلاح کنید) یا یک افزونه امنیتی که درخواست‌های loopback را مسدود می‌کند. پس از رفع مشکل، این تنظیمات را دوباره ذخیره کنید – بررسی کمی پس از ذخیره دوباره اجرا می‌شود.",
 	"days": "روز",
 	"Waiting for the first AI visit": "در انتظار نخستین بازدید هوش مصنوعی",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "در این فاصله: هر چیزی را که در پنل وضعیت زیر سبز نیست برطرف کنید و برای مهم‌ترین برگه‌های خود عبارت کلیدی تعیین کنید.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "داشبورد آمار به JavaScript نیاز دارد. به‌جای آن از برون‌بری CSV یا WP-CLI ‏(wp geoins stats) استفاده کنید.",
 	"Your session check expired – reload the page to continue.": "اعتبار بررسی نشست شما به پایان رسیده است – برای ادامه، برگه را دوباره بارگذاری کنید.",
 	"Reload page": "بارگذاری دوباره برگه",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "ببینید کدام هوش مصنوعی (ChatGPT، Claude، Perplexity…) کدام برگه‌های شما را می‌خواند – و سایت خود را برای جستجوی هوش مصنوعی (GEO) بهینه کنید. رایگان، بدون داده‌های شخصی.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "%1$s برگه تحلیل شد، میانگین امتیاز GEO برابر %2$s از %3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "به‌محض اینکه یک هوش مصنوعی جدید برای نخستین بار سایت شما را بخواند، ایمیل دریافت کنید – حداکثر یک ایمیل در روز.",
+	"Notification for the first AI visit": "اعلان نخستین بازدید هوش مصنوعی",
+	"Open the full GEO analysis": "باز کردن تحلیل کامل GEO",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "اختیاری: %s قابلیت دیگر در وضعیت GEO در پایین می‌تواند دیده‌شدن شما را بهبود دهد.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "چیزی سیستم‌های هوش مصنوعی را از سایت شما دور نگه می‌دارد – نقاط قرمز و زرد را در وضعیت GEO در پایین ببینید.",
+	"These pages have the most room for improvement:": "این برگه‌ها بیشترین جای بهبود را دارند:",
+	"Turn on email notifications": "روشن کردن اعلان‌های ایمیلی",
+	"Until then, here is what Wille GEO already found on your site:": "تا آن زمان، این‌ها چیزهایی است که Wille GEO تاکنون در سایت شما یافته است:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "به‌محض اینکه یک هوش مصنوعی جدید برای نخستین بار سایت شما را بخواند، ایمیل دریافت خواهید کرد.",
+	"Your content, checked for AI search": "محتوای شما، بررسی‌شده برای جستجوی هوش مصنوعی",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "سایت شما به روی خزنده‌های هوش مصنوعی باز است: هیچ چیز ChatGPT، Perplexity یا Claude را مسدود نمی‌کند."
 }

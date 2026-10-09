@@ -11,6 +11,9 @@ msgstr "گزینه «موتورهای جستجو را از بررسی این س�
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d محدوده IP از %2$d ارائه‌دهنده، آخرین به‌روزرسانی %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "%1$s برگه تحلیل شد، میانگین امتیاز GEO برابر %2$s از %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (خزنده آموزشی) برای نخستین بار از سایت شما بازدید کرد."
 
@@ -422,6 +425,9 @@ msgstr "امتیاز GEO"
 msgid "GEO status of your site"
 msgstr "وضعیت GEO سایت شما"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "به‌محض اینکه یک هوش مصنوعی جدید برای نخستین بار سایت شما را بخواند، ایمیل دریافت کنید – حداکثر یک ایمیل در روز."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "علاقه بالای هوش مصنوعی، امتیاز پایین – اول این‌ها را اصلاح کنید."
 
@@ -542,9 +548,6 @@ msgstr "حداکثر ورودی در هر بخش"
 msgid "Maybe later"
 msgstr "شاید بعداً"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "در این فاصله: هر چیزی را که در پنل وضعیت زیر سبز نیست برطرف کنید و برای مهم‌ترین برگه‌های خود عبارت کلیدی تعیین کنید."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "افراد بیشتر و بیشتری دیگر پرسش‌های خود را در Google تایپ نمی‌کنند – بلکه از ChatGPT،‏ Perplexity،‏ Copilot یا Claude می‌پرسند. هوش مصنوعی چند وب‌سایت را می‌خواند، یک پاسخ می‌نویسد و منابعش را نام می‌برد. اگر سایت شما یکی از آن منابع باشد، نام و پیوندتان ذکر می‌شود. اگر نباشد، در آن گفتگو نامرئی هستید – حتی اگر در Google کلاسیک رتبه خوبی داشته باشید."
 
@@ -617,6 +620,9 @@ msgstr "خیر – از IP اتصال مستقیم استفاده شود"
 msgid "Not allowed."
 msgstr "مجاز نیست."
 
+msgid "Notification for the first AI visit"
+msgstr "اعلان نخستین بازدید هوش مصنوعی"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "خاموش. user agentها قابل جعل هستند؛ فعال کردن تأیید، ربات‌های واقعی هوش مصنوعی را از جعلی‌ها جدا می‌کند (فهرست‌های عمومی IP را روزی یک بار دریافت می‌کند)."
 
@@ -644,6 +650,9 @@ msgstr "هر نوشته‌ای را در ویرایشگر باز کنید – پ
 msgid "Open improvements"
 msgstr "بهبودهای باز"
 
+msgid "Open the full GEO analysis"
+msgstr "باز کردن تحلیل کامل GEO"
+
 msgid "Open the full dashboard"
 msgstr "باز کردن داشبورد کامل"
 
@@ -658,6 +667,9 @@ msgstr "پنج برگه مهم خود را باز کنید و برای هر کد
 
 msgid "Opportunity map"
 msgstr "نقشه فرصت‌ها"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "اختیاری: %s قابلیت دیگر در وضعیت GEO در پایین می‌تواند دیده‌شدن شما را بهبود دهد."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "خروجی توضیحات متا و پیش‌نمایش شبکه‌های اجتماعی (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "سایت برای خزنده‌ها قابل‌مشاهده است"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "کسی که از یک پاسخ هوش مصنوعی کلیک می‌کند، پیش‌تر خلاصه را خوانده و عمق بیشتری می‌خواهد – پژوهش‌ها و داده‌های فروشگاه‌ها پیوسته نشان می‌دهند که نرخ تبدیل این بازدیدکنندگان به‌طور محسوسی بهتر از ترافیک معمول جستجوست. بازدیدکنندگان کمتر، اما علاقه‌مندتر."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "چیزی سیستم‌های هوش مصنوعی را از سایت شما دور نگه می‌دارد – نقاط قرمز و زرد را در وضعیت GEO در پایین ببینید."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "با عرض پوزش، شما اجازه انجام این کار را ندارید."
 
@@ -896,6 +911,9 @@ msgstr "داشبورد آمار به JavaScript نیاز دارد. به‌جای
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "سپس بگذارید کار کند. داشبورد را هر هفته بررسی کنید (یا گزارش ایمیلی را فعال کنید) و جایی سرمایه‌گذاری کنید که علاقه هوش مصنوعی از قبل دیده می‌شود – همان‌جا استنادها نزدیک‌ترند."
 
+msgid "These pages have the most room for improvement:"
+msgstr "این برگه‌ها بیشترین جای بهبود را دارند:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "این user agentها شبیه سیستم‌های هوش مصنوعی هستند اما هنوز در فهرست ثبت نشده‌اند – بنابراین بازدیدهایشان در آمار بالا لحاظ نشده است. ورودی‌های پرتکرار ارزش افزودن از طریق فیلتر geoins_bots را دارند (یا آن‌ها را به افزونه گزارش دهید)."
 
@@ -917,8 +935,14 @@ msgstr "آموزش"
 msgid "Training bots"
 msgstr "ربات‌های آموزشی"
 
+msgid "Turn on email notifications"
+msgstr "روشن کردن اعلان‌های ایمیلی"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "دو کار: می‌سنجد و بهینه می‌کند. همه‌چیز روی سرور خودتان اجرا می‌شود، هیچ چیزی به جایی ارسال نمی‌شود و هر کلید در تنظیمات پیش از روشن کردن، سود خود را توضیح می‌دهد."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "تا آن زمان، این‌ها چیزهایی است که Wille GEO تاکنون در سایت شما یافته است:"
 
 msgid "Updated"
 msgstr "به‌روزشده"
@@ -1028,11 +1052,20 @@ msgstr "شما %s را مسدود کرده‌اید. این ربات‌ها شم
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "این ایمیل را دریافت می‌کنید چون هشدارهای استناد از طریق ایمیل در Wille GEO ← تنظیمات فعال است."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "به‌محض اینکه یک هوش مصنوعی جدید برای نخستین بار سایت شما را بخواند، ایمیل دریافت خواهید کرد."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "فایل کلید IndexNow شما از سرور خودتان قابل دسترسی نیست، بنابراین پینگ‌ها متوقف شده‌اند. علت‌های رایج: پیوندهای یکتای ساده (در تنظیمات ← پیوندهای یکتا اصلاح کنید) یا یک افزونه امنیتی که درخواست‌های loopback را مسدود می‌کند. پس از رفع مشکل، این تنظیمات را دوباره ذخیره کنید – بررسی کمی پس از ذخیره دوباره اجرا می‌شود."
 
+msgid "Your content, checked for AI search"
+msgstr "محتوای شما، بررسی‌شده برای جستجوی هوش مصنوعی"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "اعتبار بررسی نشست شما به پایان رسیده است – برای ادامه، برگه را دوباره بارگذاری کنید."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "سایت شما به روی خزنده‌های هوش مصنوعی باز است: هیچ چیز ChatGPT، Perplexity یا Claude را مسدود نمی‌کند."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] دیده‌شدن در هوش مصنوعی این هفته: %2$d دسترسی هوش مصنوعی، %3$d بازدیدکننده از هوش مصنوعی"

@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "ไม่สามารถเข้าถึงไฟล์คีย์ IndexNow จากเซิร์ฟเวอร์ของคุณเอง การ ping จึงหยุดชั่วคราว สาเหตุที่พบบ่อย: ลิงก์ถาวรแบบธรรมดา (แก้ไขได้ที่ การตั้งค่า → ลิงก์ถาวร) หรือปลั๊กอินความปลอดภัยบล็อกคำขอแบบ loopback หลังแก้ไขแล้ว ให้บันทึกการตั้งค่าเหล่านี้อีกครั้ง – การตรวจสอบจะทำงานใหม่หลังบันทึกไม่นาน",
 	"days": "วัน",
 	"Waiting for the first AI visit": "กำลังรอการเข้าชมครั้งแรกจาก AI",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "ระหว่างนี้: แก้ไขทุกรายการที่ยังไม่เป็นสีเขียวในแผงสถานะด้านล่าง และตั้งคำค้นหลักให้หน้าที่สำคัญที่สุดของคุณ",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "แดชบอร์ดสถิติต้องใช้ JavaScript ใช้การส่งออก CSV หรือ WP-CLI (wp geoins stats) แทน",
 	"Your session check expired – reload the page to continue.": "การตรวจสอบเซสชันของคุณหมดอายุแล้ว – โหลดหน้าใหม่เพื่อดำเนินการต่อ",
 	"Reload page": "โหลดหน้าใหม่",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "ดูว่า AI ตัวใด (ChatGPT, Claude, Perplexity…) อ่านหน้าใดของคุณ – และปรับแต่งเว็บไซต์ของคุณสำหรับการค้นหาด้วย AI (GEO) ฟรี ไม่เก็บข้อมูลส่วนบุคคล",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "วิเคราะห์แล้ว %1$s หน้า คะแนน GEO เฉลี่ย %2$s จาก %3$s",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "รับอีเมลทันทีเมื่อ AI ใหม่อ่านเว็บไซต์ของคุณเป็นครั้งแรก – ไม่เกินวันละหนึ่งฉบับ",
+	"Notification for the first AI visit": "การแจ้งเตือนเมื่อ AI เข้าชมครั้งแรก",
+	"Open the full GEO analysis": "เปิดการวิเคราะห์ GEO ฉบับเต็ม",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "ไม่บังคับ: ฟีเจอร์อีก %s รายการในสถานะ GEO ด้านล่างช่วยเพิ่มการมองเห็นของคุณได้",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "มีบางอย่างกันระบบ AI ออกจากเว็บไซต์ของคุณ – ดูรายการสีแดงและสีเหลืองในสถานะ GEO ด้านล่าง",
+	"These pages have the most room for improvement:": "หน้าเหล่านี้มีโอกาสปรับปรุงมากที่สุด:",
+	"Turn on email notifications": "เปิดการแจ้งเตือนทางอีเมล",
+	"Until then, here is what Wille GEO already found on your site:": "ระหว่างนี้ นี่คือสิ่งที่ Wille GEO พบในเว็บไซต์ของคุณแล้ว:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "คุณจะได้รับอีเมลทันทีเมื่อ AI ใหม่อ่านเว็บไซต์ของคุณเป็นครั้งแรก",
+	"Your content, checked for AI search": "เนื้อหาของคุณ ตรวจแล้วสำหรับการค้นหาด้วย AI",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "เว็บไซต์ของคุณเปิดรับตัวรวบรวมข้อมูล AI: ไม่มีสิ่งใดบล็อก ChatGPT, Perplexity หรือ Claude"
 }

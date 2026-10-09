@@ -11,6 +11,9 @@ msgstr "“Evitar que mecanismos de busca indexem este site” está ativado (Co
 msgid "%1$d IP ranges from %2$d vendors, last updated %3$s."
 msgstr "%1$d faixas de IP de %2$d fornecedores, última atualização em %3$s."
 
+msgid "%1$s pages analyzed, average GEO score %2$s of %3$s."
+msgstr "%1$s páginas analisadas, pontuação GEO média de %2$s de %3$s."
+
 msgid "%s (training crawler) visited your site for the first time."
 msgstr "%s (crawler de treinamento) visitou seu site pela primeira vez."
 
@@ -422,6 +425,9 @@ msgstr "Pontuação GEO"
 msgid "GEO status of your site"
 msgstr "Status GEO do seu site"
 
+msgid "Get an email as soon as a new AI reads your site for the first time – at most one email per day."
+msgstr "Receba um e-mail assim que uma nova IA ler seu site pela primeira vez – no máximo um e-mail por dia."
+
 msgid "High AI interest, low score – fix these first."
 msgstr "Alto interesse de IA, pontuação baixa – corrija estes primeiro."
 
@@ -542,9 +548,6 @@ msgstr "Máx. de entradas por seção"
 msgid "Maybe later"
 msgstr "Talvez mais tarde"
 
-msgid "Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages."
-msgstr "Enquanto isso: corrija tudo o que não estiver verde no painel de status abaixo e defina termos principais nas suas páginas mais importantes."
-
 msgid "More and more people do not type their questions into Google anymore – they ask ChatGPT, Perplexity, Copilot or Claude. The AI reads a handful of websites, writes one answer, and names its sources. If your site is one of those sources, you get mentioned and linked. If not, you are invisible in that conversation – even if you rank well in classic Google."
 msgstr "Cada vez mais pessoas não digitam mais suas perguntas no Google – elas perguntam ao ChatGPT, Perplexity, Copilot ou Claude. A IA lê alguns sites, escreve uma resposta e cita suas fontes. Se o seu site é uma dessas fontes, você é mencionado e recebe um link. Se não, você fica invisível nessa conversa – mesmo que tenha um bom ranqueamento no Google clássico."
 
@@ -617,6 +620,9 @@ msgstr "Não – usar o IP da conexão direta"
 msgid "Not allowed."
 msgstr "Não permitido."
 
+msgid "Notification for the first AI visit"
+msgstr "Notificação da primeira visita de IA"
+
 msgid "Off. User agents can be faked; enabling verification separates real AI bots from impostors (fetches public IP lists once a day)."
 msgstr "Desativada. User-agents podem ser falsificados; ativar a verificação separa bots de IA reais de impostores (baixa listas públicas de IP uma vez por dia)."
 
@@ -644,6 +650,9 @@ msgstr "Abra qualquer post no editor – o painel “Verificação GEO” na bar
 msgid "Open improvements"
 msgstr "Melhorias pendentes"
 
+msgid "Open the full GEO analysis"
+msgstr "Abrir a análise GEO completa"
+
 msgid "Open the full dashboard"
 msgstr "Abrir o painel completo"
 
@@ -658,6 +667,9 @@ msgstr "Abra suas cinco páginas mais importantes e defina um termo principal pa
 
 msgid "Opportunity map"
 msgstr "Mapa de oportunidades"
+
+msgid "Optional: %s more features in the GEO status below can improve your visibility."
+msgstr "Opcional: mais %s recursos no status GEO abaixo podem melhorar sua visibilidade."
 
 msgid "Output meta description & social previews (Open Graph)"
 msgstr "Gerar meta description e prévias para redes sociais (Open Graph)"
@@ -836,6 +848,9 @@ msgstr "Site visível para crawlers"
 msgid "Someone who clicks through from an AI answer has already read a summary and wants the depth – studies and shop data consistently show these visitors convert noticeably better than average search traffic. Fewer visitors, but warmer ones."
 msgstr "Quem clica a partir de uma resposta de IA já leu um resumo e quer profundidade – estudos e dados de lojas mostram de forma consistente que esses visitantes convertem bem melhor do que o tráfego de busca médio. Menos visitantes, porém mais qualificados."
 
+msgid "Something keeps AI systems away from your site – see the red and yellow points in the GEO status below."
+msgstr "Algo está afastando os sistemas de IA do seu site – veja os pontos vermelhos e amarelos no status GEO abaixo."
+
 msgid "Sorry, you are not allowed to do that."
 msgstr "Desculpe, você não tem permissão para fazer isso."
 
@@ -896,6 +911,9 @@ msgstr "O painel de estatísticas precisa de JavaScript. Em vez disso, use a exp
 msgid "Then let it run. Check the dashboard weekly (or enable the email report) and invest where AI interest is already showing – that is where citations are closest."
 msgstr "Depois, deixe rodar. Confira o painel semanalmente (ou ative o relatório por e-mail) e invista onde o interesse de IA já aparece – é ali que as citações estão mais próximas."
 
+msgid "These pages have the most room for improvement:"
+msgstr "Estas páginas têm mais espaço para melhorias:"
+
 msgid "These user agents sound like AI systems but are not in the registry yet – so their hits are NOT in the statistics above. Frequent entries are worth adding via the geoins_bots filter (or report them to the plugin)."
 msgstr "Estes user-agents parecem sistemas de IA, mas ainda não estão no registro – por isso seus acessos NÃO estão nas estatísticas acima. Vale a pena adicionar os que aparecem com frequência pelo filtro geoins_bots (ou informá-los ao plugin)."
 
@@ -917,8 +935,14 @@ msgstr "Treinamento"
 msgid "Training bots"
 msgstr "Bots de treinamento"
 
+msgid "Turn on email notifications"
+msgstr "Ativar notificações por e-mail"
+
 msgid "Two things: it measures, and it optimizes. Everything runs on your own server, nothing is sent anywhere, and every switch in the settings explains its benefit before you flip it."
 msgstr "Duas coisas: ele mede e ele otimiza. Tudo roda no seu próprio servidor, nada é enviado para lugar nenhum, e cada opção nas configurações explica seu benefício antes de você ativá-la."
+
+msgid "Until then, here is what Wille GEO already found on your site:"
+msgstr "Enquanto isso, veja o que o Wille GEO já encontrou no seu site:"
 
 msgid "Updated"
 msgstr "Atualizado"
@@ -1028,11 +1052,20 @@ msgstr "Você está bloqueando %s. Esses bots colocam você nas respostas de IA 
 msgid "You get this because citation alerts by email are enabled under Wille GEO → Settings."
 msgstr "Você está recebendo isto porque os alertas de citação por e-mail estão ativados em Wille GEO → Configurações."
 
+msgid "You will get an email as soon as a new AI reads your site for the first time."
+msgstr "Você receberá um e-mail assim que uma nova IA ler seu site pela primeira vez."
+
 msgid "Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving."
 msgstr "Seu arquivo de chave do IndexNow não pode ser acessado a partir do seu próprio servidor, então os pings estão pausados. Causas comuns: links permanentes simples (corrija em Configurações → Links permanentes) ou um plugin de segurança bloqueando requisições de loopback. Depois de corrigir, salve estas configurações novamente – a verificação é executada de novo logo após salvar."
 
+msgid "Your content, checked for AI search"
+msgstr "Seu conteúdo, verificado para a busca com IA"
+
 msgid "Your session check expired – reload the page to continue."
 msgstr "A verificação da sua sessão expirou – recarregue a página para continuar."
+
+msgid "Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude."
+msgstr "Seu site está aberto aos crawlers de IA: nada bloqueia ChatGPT, Perplexity ou Claude."
 
 msgid "[%1$s] AI visibility this week: %2$d AI accesses, %3$d AI visitors"
 msgstr "[%1$s] Visibilidade em IA nesta semana: %2$d acessos de IA, %3$d visitantes de IA"

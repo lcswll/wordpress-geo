@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "Deine IndexNow-Schlüsseldatei ist von deinem eigenen Server aus nicht erreichbar, daher sind die Benachrichtigungen pausiert. Häufige Ursachen: einfache Permalinks (änderbar unter Einstellungen → Permalinks) oder ein Sicherheits-Plugin, das Loopback-Anfragen blockiert. Speichere diese Einstellungen nach der Korrektur erneut – die Prüfung wird kurz nach dem Speichern wiederholt.",
 	"days": "Tage",
 	"Waiting for the first AI visit": "Warten auf den ersten KI-Besuch",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "In der Zwischenzeit: Behebe alles, was im Statusbereich unten nicht grün ist, und lege Fokusbegriffe für deine wichtigsten Seiten fest.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "Das Statistik-Dashboard benötigt JavaScript. Nutze stattdessen den CSV-Export oder WP-CLI (wp geoins stats).",
 	"Your session check expired – reload the page to continue.": "Deine Sitzung ist abgelaufen – lade die Seite neu, um fortzufahren.",
 	"Reload page": "Seite neu laden",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "Sieh, welche KI (ChatGPT, Claude, Perplexity …) welche deiner Seiten liest – und optimiere deine Website für die KI-Suche (GEO). Kostenlos, keine personenbezogenen Daten.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "%1$s Seiten analysiert, durchschnittliche GEO-Punktzahl %2$s von %3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "Erhalte eine E-Mail, sobald eine neue KI deine Website zum ersten Mal liest – höchstens eine E-Mail pro Tag.",
+	"Notification for the first AI visit": "Benachrichtigung beim ersten KI-Besuch",
+	"Open the full GEO analysis": "Vollständige GEO-Analyse öffnen",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "Optional: %s weitere Funktionen im GEO-Status unten können deine Sichtbarkeit verbessern.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "Etwas hält KI-Systeme von deiner Website fern – sieh dir die roten und gelben Punkte im GEO-Status unten an.",
+	"These pages have the most room for improvement:": "Diese Seiten haben das größte Verbesserungspotenzial:",
+	"Turn on email notifications": "E-Mail-Benachrichtigungen aktivieren",
+	"Until then, here is what Wille GEO already found on your site:": "Bis dahin siehst du hier, was Wille GEO auf deiner Website bereits festgestellt hat:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "Du erhältst eine E-Mail, sobald eine neue KI deine Website zum ersten Mal liest.",
+	"Your content, checked for AI search": "Deine Inhalte, geprüft für die KI-Suche",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "Deine Website ist für KI-Crawler offen: Nichts blockiert ChatGPT, Perplexity oder Claude."
 }

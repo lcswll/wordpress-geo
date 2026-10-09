@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "Fișierul cheie IndexNow nu este accesibil de pe propriul server, așa că pingurile sunt întrerupte. Cauze obișnuite: legături permanente simple (remediați în Setări → Legături permanente) sau un modul de securitate care blochează cererile loopback. După remediere, salvați din nou aceste setări – verificarea rulează din nou la scurt timp după salvare.",
 	"days": "zile",
 	"Waiting for the first AI visit": "Se așteaptă prima vizită AI",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "Între timp: remediați tot ce nu este verde în panoul de stare de mai jos și setați termeni principali pe cele mai importante pagini.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "Panoul de statistici necesită JavaScript. Folosiți în schimb exportul CSV sau WP-CLI (wp geoins stats).",
 	"Your session check expired – reload the page to continue.": "Verificarea sesiunii a expirat – reîncărcați pagina pentru a continua.",
 	"Reload page": "Reîncarcă pagina",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "Vedeți ce AI (ChatGPT, Claude, Perplexity…) citește fiecare dintre paginile dumneavoastră – și optimizați site-ul pentru căutarea AI (GEO). Gratuit, fără date personale.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "%1$s pagini analizate, scor GEO mediu %2$s din %3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "Primiți un email imediat ce un AI nou vă citește site-ul pentru prima dată – cel mult un email pe zi.",
+	"Notification for the first AI visit": "Notificare la prima vizită AI",
+	"Open the full GEO analysis": "Deschideți analiza GEO completă",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "Opțional: încă %s funcții din starea GEO de mai jos vă pot îmbunătăți vizibilitatea.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "Ceva ține sistemele AI departe de site-ul dumneavoastră – vedeți punctele roșii și galbene din starea GEO de mai jos.",
+	"These pages have the most room for improvement:": "Aceste pagini au cel mai mult loc de îmbunătățire:",
+	"Turn on email notifications": "Activați notificările prin email",
+	"Until then, here is what Wille GEO already found on your site:": "Până atunci, iată ce a găsit deja Wille GEO pe site-ul dumneavoastră:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "Veți primi un email imediat ce un AI nou vă citește site-ul pentru prima dată.",
+	"Your content, checked for AI search": "Conținutul dumneavoastră, verificat pentru căutarea AI",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "Site-ul dumneavoastră este deschis crawlerelor AI: nimic nu blochează ChatGPT, Perplexity sau Claude."
 }

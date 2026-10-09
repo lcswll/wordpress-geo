@@ -49,6 +49,7 @@ function geoins_uninstall_site() {
 	delete_option( 'geoins_pending_ref' );
 	delete_option( 'geoins_audit_gen' );
 	delete_option( 'geoins_review' );
+	delete_option( 'geoins_visit_notice_seen' );
 
 	// Per-source first-contact claim rows (atomic add_option markers).
 	// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- Uninstall: bulk-delete the plugin's own option rows; nothing to cache.

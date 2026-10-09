@@ -257,7 +257,6 @@
 	"Your IndexNow key file is not reachable from your own server, so pings are paused. Usual causes: plain permalinks (fix under Settings → Permalinks) or a security plugin blocking loopback requests. After fixing it, save these settings again – the check re-runs shortly after saving.": "File kunci IndexNow Anda tidak dapat dijangkau dari server Anda sendiri, sehingga ping dijeda. Penyebab umum: permalink polos (perbaiki di Pengaturan → Permalink) atau plugin keamanan yang memblokir permintaan loopback. Setelah memperbaikinya, simpan pengaturan ini lagi – pemeriksaan akan berjalan ulang tak lama setelah disimpan.",
 	"days": "hari",
 	"Waiting for the first AI visit": "Menunggu kunjungan AI pertama",
-	"Meanwhile: fix anything that is not green in the status panel below, and set focus terms on your most important pages.": "Sementara itu: perbaiki semua yang belum hijau di panel status di bawah, dan atur istilah fokus pada halaman terpenting Anda.",
 	"The statistics dashboard needs JavaScript. Use the CSV export or WP-CLI (wp geoins stats) instead.": "Dasbor statistik memerlukan JavaScript. Gunakan ekspor CSV atau WP-CLI (wp geoins stats) sebagai gantinya.",
 	"Your session check expired – reload the page to continue.": "Pemeriksaan sesi Anda telah kedaluwarsa – muat ulang halaman untuk melanjutkan.",
 	"Reload page": "Muat ulang halaman",
@@ -370,5 +369,17 @@
 	"See which AI (ChatGPT, Claude, Perplexity …) reads which of your pages – and optimize your site for AI search (GEO). Free, no personal data.": "Lihat AI mana (ChatGPT, Claude, Perplexity…) yang membaca halaman Anda – dan optimalkan situs Anda untuk pencarian AI (GEO). Gratis, tanpa data pribadi.",
 	"https://github.com/lcswll/wordpress-geo": "https://github.com/lcswll/wordpress-geo",
 	"Lucas Wille": "Lucas Wille",
-	"https://lucaswille.de/": "https://lucaswille.de/"
+	"https://lucaswille.de/": "https://lucaswille.de/",
+	"%1$s pages analyzed, average GEO score %2$s of %3$s.": "%1$s halaman dianalisis, rata-rata skor GEO %2$s dari %3$s.",
+	"Get an email as soon as a new AI reads your site for the first time – at most one email per day.": "Dapatkan email begitu AI baru membaca situs Anda untuk pertama kalinya – paling banyak satu email per hari.",
+	"Notification for the first AI visit": "Notifikasi untuk kunjungan AI pertama",
+	"Open the full GEO analysis": "Buka analisis GEO lengkap",
+	"Optional: %s more features in the GEO status below can improve your visibility.": "Opsional: %s fitur lain di status GEO di bawah dapat meningkatkan visibilitas Anda.",
+	"Something keeps AI systems away from your site – see the red and yellow points in the GEO status below.": "Ada yang menghalangi sistem AI dari situs Anda – lihat poin merah dan kuning di status GEO di bawah.",
+	"These pages have the most room for improvement:": "Halaman-halaman ini paling banyak bisa ditingkatkan:",
+	"Turn on email notifications": "Aktifkan notifikasi email",
+	"Until then, here is what Wille GEO already found on your site:": "Sementara itu, inilah yang sudah ditemukan Wille GEO di situs Anda:",
+	"You will get an email as soon as a new AI reads your site for the first time.": "Anda akan menerima email begitu AI baru membaca situs Anda untuk pertama kalinya.",
+	"Your content, checked for AI search": "Konten Anda, diperiksa untuk pencarian AI",
+	"Your site is open to AI crawlers: nothing blocks ChatGPT, Perplexity or Claude.": "Situs Anda terbuka untuk crawler AI: tidak ada yang memblokir ChatGPT, Perplexity, atau Claude."
 }
